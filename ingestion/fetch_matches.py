@@ -61,3 +61,6 @@ def write_down():
 
     with open (file_path, "w") as file:
         json.dump(dataframe, file , indent=4)
+
+if __name__ == "__main__":
+    write_down()
