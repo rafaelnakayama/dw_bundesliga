@@ -1,8 +1,12 @@
 import requests
 import json
 
-seasons = range(2006, 2027)
-matchday = range(1,35)
+from pathlib import Path
+
+seasons = range(2006, 2027) # We want all seasons from 2006 - 2026
+matchday = range(1,35) # We want all the matchdays from the season
+
+data_path = 'dw_huggingface/datasets'
 
 def create_url(seasons_param, matchday_param):
 
@@ -19,7 +23,7 @@ def create_url(seasons_param, matchday_param):
         print("Error: Invalid value on either season/league")
     
     else:
-        return r.content
+        return r.json()
 
 def loop_matches(seasons_loop, matchday_loop):
 
@@ -41,5 +45,19 @@ def loop_matches(seasons_loop, matchday_loop):
 
     else:
         return store_data
-    
-loop_matches(seasons, matchday)
+
+def write_down():
+
+    """
+    This function saves all the data gathered by the
+    'loop_matches' function's list
+    """
+
+    dataframe = loop_matches(seasons, matchday)
+    folder_path = Path(data_path)
+    file_path = folder_path / "dataframe.json"
+
+    folder_path.mkdir(parents=True, exist_ok=True)
+
+    with open (file_path, "w") as file:
+        json.dump(dataframe, file , indent=4)
