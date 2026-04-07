@@ -6,7 +6,7 @@ from pathlib import Path
 seasons = range(2006, 2027) # We want all seasons from 2006 - 2026
 matchday = range(1,35) # We want all the matchdays from the season
 
-data_path = 'dw_huggingface/datasets'
+data_path = Path(__file__).parent.parent / "datasets"
 
 def create_url(seasons_param, matchday_param):
 
@@ -63,4 +63,11 @@ def write_down():
         json.dump(dataframe, file , indent=4)
 
 if __name__ == "__main__":
+    
+    """
+    It takes about 5 minutes to generate the .json file.
+    there are 20 seasons x 35 matchdays, each matchday 
+    from a season is a request
+    """
+
     write_down()
