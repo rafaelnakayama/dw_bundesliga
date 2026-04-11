@@ -1,5 +1,7 @@
 USE dw_hgg_database
 
+BEGIN TRANSACTION
+
 DECLARE @json NVARCHAR(MAX); -- TRANSFORM THE .CSV FILE INTO A HUGE STRING
 
 SELECT @json = BulkColumn
@@ -48,3 +50,47 @@ WITH (
     [location] NVARCHAR(MAX) AS JSON,
     numberOfViewers INT
 )
+
+INSERT INTO bronze.dataframe (
+    matchID,
+    matchDateTime,
+    timeZoneID,
+    leagueId,
+    leagueName,
+    leagueSeason,
+    leagueShortcut,
+    matchDateTimeUTC,
+    [group],
+    team1,
+    team2,
+    lastUpdateDateTime,
+    matchIsFinished,
+    matchResults,
+    goals,
+    [location],
+    numberOfViewers
+)
+
+SELECT
+
+    matchID,
+    matchDateTime,
+    timeZoneID,
+    leagueId,
+    leagueName,
+    leagueSeason,
+    leagueShortcut,
+    matchDateTimeUTC,
+    [group],
+    team1,
+    team2,
+    lastUpdateDateTime,
+    matchIsFinished,
+    matchResults,
+    goals,
+    [location],
+    numberOfViewers
+
+FROM OPENJSON(@json)
+
+COMMIT
