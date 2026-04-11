@@ -5,21 +5,21 @@ BEGIN TRANSACTION
 CREATE TABLE bronze.dataframe (
 
     matchID INT,
-    matchDateTime DATE,
+    matchDateTime DATETIME,
     timeZoneID VARCHAR(50),
     leagueId INT,
-    leagueName VARCHAR(50),
+    leagueName VARCHAR(75),
     leagueSeason INT,
     leagueShortcut VARCHAR(50),
-    matchDateTimeUTC DATE,
+    matchDateTimeUTC DATETIME,
     
     -- extract nested types as raw .json strings
     [group] NVARCHAR(MAX),
     team1 NVARCHAR(MAX),
     team2 NVARCHAR(MAX),
     
-    lastUpdateDateTime DATE,
-    matchIsFinished VARCHAR(50),
+    lastUpdateDateTime DATETIME,
+    matchIsFinished BIT,
 
     matchResults NVARCHAR(MAX),
     goals NVARCHAR(MAX),
