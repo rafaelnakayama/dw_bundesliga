@@ -1,5 +1,8 @@
 USE dw_hgg_database
 
+IF OBJECT_ID ('bronze.dataframe', 'U') IS NOT NULL
+    DROP TABLE bronze.dataframe;
+
 BEGIN TRANSACTION
 
 CREATE TABLE bronze.dataframe (
@@ -8,7 +11,7 @@ CREATE TABLE bronze.dataframe (
     matchDateTime DATETIME,
     timeZoneID VARCHAR(50),
     leagueId INT,
-    leagueName VARCHAR(75),
+    leagueName NVARCHAR(75),
     leagueSeason INT,
     leagueShortcut VARCHAR(50),
     matchDateTimeUTC DATETIME,
