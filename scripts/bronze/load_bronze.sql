@@ -1,7 +1,11 @@
 USE dw_hgg_database
 
-TRUNCATE TABLE bronze.dataframe;
+DECLARE @json NVARCHAR(MAX); -- TRANSFORM THE .CSV FILE INTO A HUGE STRING
 
-BULK INSERT bronze.dataframe
+SELECT @json = BulkColumn
 
-FROM 'C:\Users\Rafae\Projetos\dw_huggingface\datasets'
+FROM OPENROWSET (
+    BULK 'C:\Users\Rafae\Projetos\dw_huggingface\datasets\dataframe.json',
+    SINGLE_CLOB
+) AS src;
+

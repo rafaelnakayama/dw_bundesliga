@@ -1,1 +1,2 @@
-SELECT TOP 100 * FROM bronze.dataframe;
+SELECT *
+FROM OPENJSON(@json);
