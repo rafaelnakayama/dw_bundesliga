@@ -38,7 +38,7 @@ def loop_matches(seasons_loop, matchday_loop):
         for i in seasons_loop:
             for j in matchday_loop:
                 day = create_url(i, j)
-                store_data.append(day)
+                store_data.extend(day)
 
     except requests.RequestException:
         print("Error: Connection failed.")
