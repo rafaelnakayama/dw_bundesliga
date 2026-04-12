@@ -21,6 +21,7 @@ def create_url(seasons_param, matchday_param):
 
     except requests.RequestException:
         print("Error: Invalid value on either season/league")
+        return []
     
     else:
         return r.json()
@@ -31,20 +32,15 @@ def loop_matches(seasons_loop, matchday_loop):
     This function loops through the matchdays and seasons
     going all the way to select all data
     """
+    
+    store_data = []
 
-    try:
-        store_data = []
-
-        for i in seasons_loop:
-            for j in matchday_loop:
-                day = create_url(i, j)
-                store_data.extend(day)
-
-    except requests.RequestException:
-        print("Error: Connection failed.")
-
-    else:
-        return store_data
+    for i in seasons_loop:
+        for j in matchday_loop:
+            day = create_url(i, j)
+            store_data.extend(day)
+    
+    return store_data
 
 def write_down():
 
