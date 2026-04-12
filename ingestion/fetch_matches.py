@@ -1,5 +1,6 @@
 import requests
 import json
+import time
 
 from pathlib import Path
 
@@ -21,7 +22,7 @@ def create_url(seasons_param, matchday_param):
 
     except requests.RequestException:
         print("Error: Invalid value on either season/league")
-        return []
+        return [] # returning [] empty arrays instead of None doesn't break the code
     
     else:
         return r.json()
@@ -39,6 +40,7 @@ def loop_matches(seasons_loop, matchday_loop):
         for j in matchday_loop:
             day = create_url(i, j)
             store_data.extend(day)
+            time.sleep(1.0)
     
     return store_data
 
@@ -61,9 +63,10 @@ def write_down():
 if __name__ == "__main__":
     
     """
-    It takes about 5 minutes to generate the .json file.
+    It takes about 13 minutes to generate the .json file.
     there are 20 seasons x 35 matchdays, each matchday 
-    from a season is a request
+    from a season is a request, and time.sleep(1.0) makes
+    each request sleep for a minute before doing another one
     """
 
     write_down()
