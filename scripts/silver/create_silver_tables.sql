@@ -59,4 +59,20 @@ CREATE TABLE silver.matches (
 
 )
 
+IF OBJECT_ID ('silver.match_results', 'U') IS NOT NULL
+    DROP TABLE silver.match_results;
+
+CREATE TABLE silver.match_results (
+
+    result_id INT PRIMARY KEY,
+    CONSTRAINT match_id FOREIGN KEY (match_id) REFERENCES silver.matches(match_id),
+    result_name VARCHAR(25),
+    points_team1 TINYINT,
+    points_team2 TINYINT,
+    result_order_id TINYINT,
+    result_type_id TINYINT,
+    result_description VARCHAR(125)
+
+)
+
 COMMIT
