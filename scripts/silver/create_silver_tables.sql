@@ -2,8 +2,23 @@ USE dw_hgg_database
 
 BEGIN TRANSACTION
 
+IF OBJECT_ID ('silver.match_goals', 'U') IS NOT NULL
+    DROP TABLE silver.match_goals;
+
+IF OBJECT_ID ('silver.match_results', 'U') IS NOT NULL
+    DROP TABLE silver.match_results;
+
+IF OBJECT_ID ('silver.matches', 'U') IS NOT NULL
+    DROP TABLE silver.matches;
+
 IF OBJECT_ID ('silver.groups', 'U') IS NOT NULL
     DROP TABLE silver.groups;
+
+IF OBJECT_ID ('silver.teams', 'U') IS NOT NULL
+    DROP TABLE silver.teams;
+
+IF OBJECT_ID ('silver.location', 'U') IS NOT NULL
+    DROP TABLE silver.location;
 
 CREATE TABLE silver.groups (
 
@@ -12,9 +27,6 @@ CREATE TABLE silver.groups (
     group_id INT PRIMARY KEY
 
 )
-
-IF OBJECT_ID ('silver.teams', 'U') IS NOT NULL
-    DROP TABLE silver.teams;
 
 CREATE TABLE silver.teams (
 
@@ -25,9 +37,6 @@ CREATE TABLE silver.teams (
 
 )
 
-IF OBJECT_ID ('silver.location', 'U') IS NOT NULL
-    DROP TABLE silver.location;
-
 CREATE TABLE silver.location (
 
     location_id INT PRIMARY KEY,
@@ -35,46 +44,6 @@ CREATE TABLE silver.location (
     location_stadium VARCHAR(50)
 
 )
-
-IF OBJECT_ID ('silver.match_results', 'U') IS NOT NULL
-    DROP TABLE silver.match_results;
-
-CREATE TABLE silver.match_results (
-
-    result_id INT PRIMARY KEY,
-    match_id INT,
-    CONSTRAINT fk_match_results_match_id FOREIGN KEY (match_id) REFERENCES silver.matches(match_id),
-    result_name VARCHAR(25),
-    points_team1 TINYINT,
-    points_team2 TINYINT,
-    result_order_id TINYINT,
-    result_type_id TINYINT,
-    result_description VARCHAR(125)
-
-)
-
-IF OBJECT_ID ('silver.match_goals', 'U') IS NOT NULL
-    DROP TABLE silver.match_goals;
-
-CREATE TABLE silver.match_goals (
-
-    goal_id INT PRIMARY KEY,
-    match_id INT,
-    CONSTRAINT fk_match_goals_match_id FOREIGN KEY (match_id) REFERENCES silver.matches(match_id),
-    score_team1 TINYINT,
-    score_team2 TINYINT,
-    match_minute TINYINT,
-    goal_getter_id INT,
-    goal_getter_name VARCHAR(50),
-    is_penalty BIT,
-    is_own_goal BIT,
-    is_overtime BIT,
-    comment VARCHAR(100)
-
-)
-
-IF OBJECT_ID ('silver.matches', 'U') IS NOT NULL
-    DROP TABLE silver.matches;
 
 CREATE TABLE silver.matches (
 
@@ -97,6 +66,37 @@ CREATE TABLE silver.matches (
     last_update_date_time DATETIME,
     match_is_finished BIT,
     number_of_viewers INT
+
+)
+
+CREATE TABLE silver.match_results (
+
+    result_id INT PRIMARY KEY,
+    match_id INT,
+    CONSTRAINT fk_match_results_match_id FOREIGN KEY (match_id) REFERENCES silver.matches(match_id),
+    result_name VARCHAR(25),
+    points_team1 TINYINT,
+    points_team2 TINYINT,
+    result_order_id TINYINT,
+    result_type_id TINYINT,
+    result_description VARCHAR(125)
+
+)
+
+CREATE TABLE silver.match_goals (
+
+    goal_id INT PRIMARY KEY,
+    match_id INT,
+    CONSTRAINT fk_match_goals_match_id FOREIGN KEY (match_id) REFERENCES silver.matches(match_id),
+    score_team1 TINYINT,
+    score_team2 TINYINT,
+    match_minute TINYINT,
+    goal_getter_id INT,
+    goal_getter_name VARCHAR(50),
+    is_penalty BIT,
+    is_own_goal BIT,
+    is_overtime BIT,
+    comment VARCHAR(100)
 
 )
 
