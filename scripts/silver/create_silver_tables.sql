@@ -75,4 +75,23 @@ CREATE TABLE silver.match_results (
 
 )
 
+IF OBJECT_ID ('silver.match_goals', 'U') IS NOT NULL
+    DROP TABLE silver.match_goals;
+
+CREATE TABLE silver.match_goals (
+
+    goal_id INT PRIMARY KEY,
+    CONSTRAINT match_id FOREIGN KEY (match_id) REFERENCES silver.matches(match_id),
+    score_team1 TINYINT,
+    score_team2 TINYINT,
+    match_minute TINYINT,
+    goal_getter_id INT,
+    goal_getter_name VARCHAR(50),
+    is_penalty BIT,
+    is_own_goal BIT,
+    is_overtime BIT,
+    comment VARCHAR(100)
+
+)
+
 COMMIT
