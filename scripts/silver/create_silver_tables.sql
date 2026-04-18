@@ -36,36 +36,14 @@ CREATE TABLE silver.location (
 
 )
 
-IF OBJECT_ID ('silver.matches', 'U') IS NOT NULL
-    DROP TABLE silver.matches;
-
-CREATE TABLE silver.matches (
-
-    match_id INT PRIMARY KEY,
-    CONSTRAINT group_id FOREIGN KEY (group_id) REFERENCES silver.groups(group_id),
-    CONSTRAINT team1_id FOREIGN KEY (team1_id) REFERENCES silver.teams(team_id),
-    CONSTRAINT team2_id FOREIGN KEY (team2_id) REFERENCES silver.teams(team_id),
-    CONSTRAINT location_id FOREIGN KEY (location_id) REFERENCES silver.location(location_id),
-    match_date_time DATETIME,
-    time_zone_id VARCHAR(50),
-    league_id INT,
-    league_name NVARCHAR(75),
-    league_season INT,
-    league_shortcut VARCHAR(50),
-    match_date_time_utc DATETIME,
-    last_update_date_time DATETIME,
-    match_is_finished BIT,
-    number_of_viewers INT
-
-)
-
 IF OBJECT_ID ('silver.match_results', 'U') IS NOT NULL
     DROP TABLE silver.match_results;
 
 CREATE TABLE silver.match_results (
 
     result_id INT PRIMARY KEY,
-    CONSTRAINT match_id FOREIGN KEY (match_id) REFERENCES silver.matches(match_id),
+    match_id INT,
+    CONSTRAINT fk_match_results_match_id FOREIGN KEY (match_id) REFERENCES silver.matches(match_id),
     result_name VARCHAR(25),
     points_team1 TINYINT,
     points_team2 TINYINT,
@@ -81,7 +59,8 @@ IF OBJECT_ID ('silver.match_goals', 'U') IS NOT NULL
 CREATE TABLE silver.match_goals (
 
     goal_id INT PRIMARY KEY,
-    CONSTRAINT match_id FOREIGN KEY (match_id) REFERENCES silver.matches(match_id),
+    match_id INT,
+    CONSTRAINT fk_match_goals_match_id FOREIGN KEY (match_id) REFERENCES silver.matches(match_id),
     score_team1 TINYINT,
     score_team2 TINYINT,
     match_minute TINYINT,
@@ -91,6 +70,33 @@ CREATE TABLE silver.match_goals (
     is_own_goal BIT,
     is_overtime BIT,
     comment VARCHAR(100)
+
+)
+
+IF OBJECT_ID ('silver.matches', 'U') IS NOT NULL
+    DROP TABLE silver.matches;
+
+CREATE TABLE silver.matches (
+
+    match_id INT PRIMARY KEY,
+    group_id INT,
+    CONSTRAINT fk_matches_group_id FOREIGN KEY (group_id) REFERENCES silver.groups(group_id),
+    team1_id INT,
+    CONSTRAINT fk_matches_team1_id FOREIGN KEY (team1_id) REFERENCES silver.teams(team_id),
+    team2_id INT,
+    CONSTRAINT fk_matches_team2_id FOREIGN KEY (team2_id) REFERENCES silver.teams(team_id),
+    location_id INT,
+    CONSTRAINT fk_matches_location_id FOREIGN KEY (location_id) REFERENCES silver.location(location_id),
+    match_date_time DATETIME,
+    time_zone_id VARCHAR(50),
+    league_id INT,
+    league_name NVARCHAR(75),
+    league_season INT,
+    league_shortcut VARCHAR(50),
+    match_date_time_utc DATETIME,
+    last_update_date_time DATETIME,
+    match_is_finished BIT,
+    number_of_viewers INT
 
 )
 
