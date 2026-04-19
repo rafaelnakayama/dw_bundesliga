@@ -66,7 +66,7 @@ if __name__ == "__main__":
     It takes about 13 minutes to generate the .json file.
     there are 20 seasons x 35 matchdays, each matchday 
     from a season is a request, and time.sleep(1.0) makes
-    each request sleep for a minute before doing another one
+    each request sleep for a second before doing the next one
     """
 
     write_down()

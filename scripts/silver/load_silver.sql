@@ -10,7 +10,7 @@ INSERT INTO silver.groups (
     group_id
 )
 
-SELECT DISTINCT
+SELECT DISTINCT -- this entity appear in multiple match rows, so we use DISTINCT to get the unique ones
     groupName,
     groupOrderId,
     groupID
@@ -45,6 +45,43 @@ CROSS APPLY OPENJSON([location]) WITH (
 
 ---------------------- (silver.teams) --------------------------
 
+INSERT INTO silver.teams (
+    team_id,
+    team_name,
+    team_short_name,
+    team_icon_url
+)
 
+SELECT
+    teamId,
+    teamName,
+    shortName,
+    teamIconUrl
+
+FROM bronze.dataframe
+
+CROSS APPLY OPENJSON(team1) WITH (
+    teamId INT,
+    teamName VARCHAR(50),
+    shortName VARCHAR(25),
+    teamIconUrl VARCHAR(150)
+)
+
+UNION
+
+SELECT
+    teamId,
+    teamName,
+    shortName,
+    teamIconUrl
+
+FROM bronze.dataframe
+
+CROSS APPLY OPENJSON(team2) WITH (
+    teamId INT,
+    teamName VARCHAR(50),
+    shortName VARCHAR(25),
+    teamIconUrl VARCHAR(150)
+)
 
 COMMIT
