@@ -45,41 +45,48 @@ CROSS APPLY OPENJSON([location]) WITH (
 
 ---------------------- (silver.teams) --------------------------
 
-WITH ROWS_T AS (
+WITH teams_cte_1 AS (
 
-SELECT
-    teamId,
-    teamName,
-    shortName,
-    teamIconUrl,
-    ROW_NUMBER() OVER (PARTITION BY teamId ORDER BY teamName) AS rn
+    SELECT
+        teamId,
+        teamName,
+        shortName,
+        teamIconUrl
 
-FROM bronze.dataframe
+    FROM bronze.dataframe
 
-CROSS APPLY OPENJSON(team1) WITH (
-    teamId INT,
-    teamName VARCHAR(50),
-    shortName VARCHAR(25),
-    teamIconUrl VARCHAR(150)
-)
+    CROSS APPLY OPENJSON(team1) WITH (
+        teamId INT,
+        teamName VARCHAR(50),
+        shortName VARCHAR(25),
+        teamIconUrl VARCHAR(150)
+    )
 
-UNION
+    UNION
 
-SELECT
-    teamId,
-    teamName,
-    shortName,
-    teamIconUrl,
-    ROW_NUMBER() OVER (PARTITION BY teamId ORDER BY teamName) AS rn
+    SELECT
+        teamId,
+        teamName,
+        shortName,
+        teamIconUrl
 
-FROM bronze.dataframe
+    FROM bronze.dataframe
 
-CROSS APPLY OPENJSON(team2) WITH (
-    teamId INT,
-    teamName VARCHAR(50),
-    shortName VARCHAR(25),
-    teamIconUrl VARCHAR(150)
-)
+    CROSS APPLY OPENJSON(team2) WITH (
+        teamId INT,
+        teamName VARCHAR(50),
+        shortName VARCHAR(25),
+        teamIconUrl VARCHAR(150)
+    )
+
+),
+
+teams_cte_2 AS (
+
+    SELECT
+        *,
+        ROW_NUMBER() OVER (PARTITION BY C1.teamId ORDER BY C1.teamName) AS rn
+    FROM teams_cte_1 AS C1
 
 )
 
@@ -98,8 +105,8 @@ SELECT
     shortName,
     teamIconUrl
 
-FROM ROWS_T AS RT
+FROM teams_cte_2 AS C2
 
-WHERE RT.rn = 1
+WHERE C2.rn = 1
 
 COMMIT
