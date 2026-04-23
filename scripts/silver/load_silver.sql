@@ -20,7 +20,7 @@ CROSS APPLY OPENJSON([group]) WITH ( -- applies a function to eahc row individua
     groupName VARCHAR(50), -- for each row in the bronze table , take the group column and pass it to OPENJSONN
     groupOrderId INT,
     groupID INT
-)
+);
 
 ---------------------- (silver.location) --------------------------
 
@@ -41,7 +41,7 @@ CROSS APPLY OPENJSON([location]) WITH (
     locationID INT,
     locationCity VARCHAR(50),
     locationStadium VARCHAR(50)
-)
+);
 
 ---------------------- (silver.teams) --------------------------
 
@@ -86,11 +86,10 @@ teams_cte_2 AS (
     SELECT
         *,
         ROW_NUMBER() OVER (PARTITION BY C1.teamId ORDER BY C1.teamName) AS rn
+
     FROM teams_cte_1 AS C1
 
 )
-
----------------------------------------------------------------
 
 INSERT INTO silver.teams (
     team_id,
@@ -108,5 +107,9 @@ SELECT
 FROM teams_cte_2 AS C2
 
 WHERE C2.rn = 1
+
+---------------------- (silver.matches) --------------------------
+
+
 
 COMMIT
