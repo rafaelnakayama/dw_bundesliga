@@ -30,7 +30,7 @@ INSERT INTO silver.[location] (
     location_stadium
 )
 
-SELECT DISTINCT
+SELECT DISTINCT -- ""
     locationID,
     locationCity,
     locationStadium
@@ -45,18 +45,14 @@ CROSS APPLY OPENJSON([location]) WITH (
 
 ---------------------- (silver.teams) --------------------------
 
-INSERT INTO silver.teams (
-    team_id,
-    team_name,
-    team_short_name,
-    team_icon_url
-)
+WITH ROWS_T AS (
 
 SELECT
     teamId,
     teamName,
     shortName,
-    teamIconUrl
+    teamIconUrl,
+    ROW_NUMBER() OVER (PARTITION BY teamId ORDER BY teamName) AS rn
 
 FROM bronze.dataframe
 
@@ -73,7 +69,8 @@ SELECT
     teamId,
     teamName,
     shortName,
-    teamIconUrl
+    teamIconUrl,
+    ROW_NUMBER() OVER (PARTITION BY teamId ORDER BY teamName) AS rn
 
 FROM bronze.dataframe
 
@@ -83,5 +80,26 @@ CROSS APPLY OPENJSON(team2) WITH (
     shortName VARCHAR(25),
     teamIconUrl VARCHAR(150)
 )
+
+)
+
+---------------------------------------------------------------
+
+INSERT INTO silver.teams (
+    team_id,
+    team_name,
+    team_short_name,
+    team_icon_url
+)
+
+SELECT
+    teamId,
+    teamName,
+    shortName,
+    teamIconUrl
+
+FROM ROWS_T AS RT
+
+WHERE RT.rn = 1
 
 COMMIT
