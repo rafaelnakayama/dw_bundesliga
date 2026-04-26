@@ -152,11 +152,11 @@ CROSS APPLY OPENJSON([group]) WITH (
 )
 
 CROSS APPLY OPENJSON(team1) WITH (
-    team1Id INT
+    team1Id INT '$.teamId'
 )
 
 CROSS APPLY OPENJSON(team2) WITH (
-    team2Id INT
+    team2Id INT '$.teamId'
 )
 
 CROSS APPLY OPENJSON([location]) WITH (
