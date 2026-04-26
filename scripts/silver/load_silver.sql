@@ -16,7 +16,7 @@ SELECT DISTINCT -- this entity appear in multiple match rows, so we use DISTINCT
     groupID
 
 FROM bronze.dataframe
-CROSS APPLY OPENJSON([group]) WITH ( -- applies a function to eahc row individually,
+CROSS APPLY OPENJSON([group]) WITH ( -- applies a function to each row individually,
     groupName VARCHAR(50), -- for each row in the bronze table , take the group column and pass it to OPENJSONN
     groupOrderId INT,
     groupID INT
@@ -110,6 +110,47 @@ WHERE C2.rn = 1
 
 ---------------------- (silver.matches) --------------------------
 
+INSERT INTO silver.matches (
+    match_id,
+    group_id,
+    team1_id,
+    team2_id,
+    location_id,
+    match_date_time,
+    time_zone_id,
+    league_id,
+    league_name,
+    league_season,
+    league_shortcut,
+    match_date_time_utc,
+    last_update_date_time,
+    match_is_finished,
+    number_of_viewers
+)
 
+SELECT
+    matchID,
+    matchDateTime,
+    timeZoneID,
+    leagueId,
+    leagueName,
+    leagueSeason,
+    leagueShortcut,
+    matchDateTimeUTC,
+
+    [group],
+    team1,
+    team2,
+    
+    lastUpdateDateTime,
+    matchIsFinished,
+
+    matchResults,
+    goals,
+
+    [location],
+    numberOfViewers
+
+FROM matches_cte
 
 COMMIT
