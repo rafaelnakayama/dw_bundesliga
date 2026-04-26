@@ -110,47 +110,6 @@ WHERE C2.rn = 1
 
 ---------------------- (silver.matches) --------------------------
 
-WITH matches_cte AS (
-
-    SELECT
-        matchID,
-        matchDateTime,
-        timeZoneID,
-        leagueId,
-        leagueName,
-        leagueSeason,
-        leagueShortcut,
-        matchDateTimeUTC,
-        [group],
-        team1,
-        team2,
-        lastUpdateDateTime,
-        matchIsFinished,
-        matchResults,
-        goals,
-        [location],
-        numberOfViewers
-
-    FROM bronze.dataframe
-
-    CROSS APPLY OPENJSON([group]) WITH (
-        groupID INT
-    )
-
-    CROSS APPLY OPENJSON(team1) WITH (
-        teamId INT
-    )
-
-    CROSS APPLY OPENJSON(team2) WITH (
-        teamId INT
-    )
-
-    CROSS APPLY OPENJSON([location]) WITH (
-        locationID INT
-    )         
-
-)
-
 INSERT INTO silver.matches (
     match_id,
     group_id,
@@ -169,15 +128,12 @@ INSERT INTO silver.matches (
     number_of_viewers
 )
 
-SELECT *
-
-FROM matches_cte
-
-COMMIT
-
-"""
 SELECT
     matchID,
+    groupID,
+    team1Id,
+    team2Id,
+    locationID,
     matchDateTime,
     timeZoneID,
     leagueId,
@@ -185,14 +141,26 @@ SELECT
     leagueSeason,
     leagueShortcut,
     matchDateTimeUTC,
-    [group],
-    team1,
-    team2,
     lastUpdateDateTime,
     matchIsFinished,
-    matchResults,
-    goals,
-    [location],
     numberOfViewers
 
-"""
+FROM bronze.dataframe
+
+CROSS APPLY OPENJSON([group]) WITH (
+    groupID INT
+)
+
+CROSS APPLY OPENJSON(team1) WITH (
+    team1Id INT
+)
+
+CROSS APPLY OPENJSON(team2) WITH (
+    team2Id INT
+)
+
+CROSS APPLY OPENJSON([location]) WITH (
+    locationID INT
+) 
+
+COMMIT
