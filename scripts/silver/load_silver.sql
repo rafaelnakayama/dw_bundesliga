@@ -163,4 +163,39 @@ OUTER APPLY OPENJSON([location]) WITH (
     locationID INT
 ) 
 
+---------------------- (silver.match_results) --------------------------
+
+INSERT INTO silver.match_results (
+    result_id,
+    match_id,
+    result_name,
+    points_team1,
+    points_team2,
+    result_order_id,
+    result_type_id,
+    result_description
+)
+
+SELECT
+    resultID,
+    matchID,
+    resultName,
+    pointsTeam1,
+    pointsTeam2,
+    resultOrderID,
+    resultTypeID,
+    resultDescription
+
+FROM bronze.dataframe
+
+CROSS APPLY OPENJSON(matchResults) WITH (
+    resultID INT,
+    resultName VARCHAR(50),
+    pointsTeam1 TINYINT,
+    pointsTeam2 TINYINT,
+    resultOrderID TINYINT,
+    resultTypeID TINYINT,
+    resultDescription VARCHAR(100)
+);
+
 COMMIT
