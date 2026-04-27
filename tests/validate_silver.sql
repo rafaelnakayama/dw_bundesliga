@@ -16,3 +16,13 @@ SELECT DISTINCT sm.group_id, sg.group_id
 FROM silver.matches AS sm
 FULL OUTER JOIN silver.groups AS sg
     ON sm.group_id = sg.group_id
+
+-- Are there any matches where both team1_id and team2_id are the same team?
+
+SELECT sm.team1_id, sm.team2_id
+FROM silver.matches AS sm
+WHERE sm.team1_id = sm.team2_id
+
+-- Does the number of goals in silver.match_goals seem reasonable?
+
+SELECT COUNT(*) FROM silver.match_goals
