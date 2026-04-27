@@ -159,7 +159,7 @@ CROSS APPLY OPENJSON(team2) WITH (
     team2Id INT '$.teamId'
 )
 
-CROSS APPLY OPENJSON([location]) WITH (
+OUTER APPLY OPENJSON([location]) WITH (
     locationID INT
 ) 
 
