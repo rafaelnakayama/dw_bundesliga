@@ -198,4 +198,48 @@ CROSS APPLY OPENJSON(matchResults) WITH (
     resultDescription VARCHAR(100)
 );
 
+---------------------- (silver.match_goals) --------------------------
+
+INSERT INTO silver.match_goals (
+    goal_id,
+    match_id,
+    score_team1,
+    score_team2,
+    match_minute,
+    goal_getter_id,
+    goal_getter_name,
+    is_penalty,
+    is_own_goal,
+    is_overtime,
+    comment
+)
+
+SELECT
+    goalID,
+    matchID,
+    scoreTeam1,
+    scoreTeam2,
+    matchMinute,
+    goalGetterID,
+    goalGetterName,
+    isPenalty,
+    isOwnGoal,
+    isOvertime,
+    comment
+
+FROM bronze.dataframe
+
+CROSS APPLY OPENJSON(goals) WITH (
+    goalID INT,
+    scoreTeam1 TINYINT,
+    scoreTeam2 TINYINT,
+    matchMinute SMALLINT,
+    goalGetterID INT,
+    goalGetterName VARCHAR(100),
+    isPenalty BIT,
+    isOwnGoal BIT,
+    isOvertime BIT,
+    comment VARCHAR(150)
+);
+
 COMMIT
