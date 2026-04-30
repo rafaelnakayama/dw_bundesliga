@@ -240,6 +240,8 @@ CROSS APPLY OPENJSON(goals) WITH (
     isOwnGoal BIT,
     isOvertime BIT,
     comment VARCHAR(150)
-);
+)
+
+WHERE goalGetterID != 0
 
 COMMIT
