@@ -15,6 +15,24 @@ ORDER BY total_goals DESC
 
 /*
 
+Are there players whose names contain numbers? Extra spaces or even special characters?
 
+- In the first query we already find a total of 189 cases where unecessary spaces exist
+- In the second, we find no numbers or special characters whatsoever (@,!,%,^)
+- In the third query things escalate, as we find over 8000 results. It isn't an error
+tho, since most of the players are of German origin, their names contain these no ANSI
+values (Ex: Thomas Müller).
 
 */
+
+SELECT COUNT(*) AS trim_diff
+FROM silver.match_goals AS sg
+WHERE sg.goal_getter_name != TRIM(sg.goal_getter_name)
+
+SELECT COUNT(*) AS has_numbers
+FROM silver.match_goals AS sg
+WHERE sg.goal_getter_name LIKE '[^a-zA-Z]'
+
+SELECT COUNT(*) AS has_true_special_characters
+FROM silver.match_goals AS sg
+WHERE sg.goal_getter_name LIKE '%[^a-zA-Z0-9]%'
