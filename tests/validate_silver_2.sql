@@ -3,7 +3,7 @@ USE dw_hgg_database
 /*
     Searching for the highest scorer of the bundesliga in the available dataset,
     one name player stood out in the second place (144 goals) just below Robert Lewandowski,
-    Whose id 0 and goal_getter_name NULL. This was latter confirmed to be an error,
+    Whose id 0 and goal_getter_name NULL. This was later confirmed to be an error,
     invalid goals were being stored inside of 'goals' json array, and even when null,
     they were still counted as valid goals.
 */
@@ -36,3 +36,9 @@ WHERE sg.goal_getter_name LIKE '[^a-zA-Z]'
 SELECT COUNT(*) AS has_true_special_characters
 FROM silver.match_goals AS sg
 WHERE sg.goal_getter_name LIKE '%[^a-zA-Z0-9]%'
+
+-- Does silver.teams suffers from that? No!
+
+SELECT COUNT(*) AS trim_diff
+FROM silver.teams AS st
+WHERE st.team_name != TRIM(st.team_name)

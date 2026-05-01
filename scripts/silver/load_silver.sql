@@ -237,7 +237,7 @@ SELECT
     scoreTeam2,
     matchMinute,
     goalGetterID,
-    goalGetterName,
+    TRIM(goalGetterName) AS goalGetterName,
     isPenalty,
     isOwnGoal,
     isOvertime,
