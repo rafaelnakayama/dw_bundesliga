@@ -1,5 +1,6 @@
 USE dw_hgg_database
 
+PRINT '>>> Dropping table: bronze.dataframe';
 IF OBJECT_ID ('bronze.dataframe', 'U') IS NOT NULL
     DROP TABLE bronze.dataframe;
 
@@ -32,5 +33,9 @@ CREATE TABLE bronze.dataframe (
     numberOfViewers INT
 
 )
+
+PRINT '';
+PRINT '>>> Empty bronze table successfuly created';
+PRINT '';
 
 COMMIT

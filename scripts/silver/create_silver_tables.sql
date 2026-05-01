@@ -2,21 +2,27 @@ USE dw_hgg_database
 
 BEGIN TRANSACTION
 
+PRINT '>>> Dropping table: silver.match_goals';
 IF OBJECT_ID ('silver.match_goals', 'U') IS NOT NULL
     DROP TABLE silver.match_goals;
 
+PRINT '>>> Dropping table: silver.match_results';
 IF OBJECT_ID ('silver.match_results', 'U') IS NOT NULL
     DROP TABLE silver.match_results;
 
+PRINT '>>> Dropping table: silver.matches';
 IF OBJECT_ID ('silver.matches', 'U') IS NOT NULL
     DROP TABLE silver.matches;
 
+PRINT '>>> Dropping table: silver.groups';
 IF OBJECT_ID ('silver.groups', 'U') IS NOT NULL
     DROP TABLE silver.groups;
 
+PRINT '>>> Dropping table: silver.teams';
 IF OBJECT_ID ('silver.teams', 'U') IS NOT NULL
     DROP TABLE silver.teams;
 
+PRINT '>>> Dropping table: silver.location';
 IF OBJECT_ID ('silver.location', 'U') IS NOT NULL
     DROP TABLE silver.location;
 
@@ -99,5 +105,9 @@ CREATE TABLE silver.match_goals (
     comment VARCHAR(100)
 
 )
+
+PRINT '';
+PRINT '>>> Empty silver tables successfuly created';
+PRINT '';
 
 COMMIT

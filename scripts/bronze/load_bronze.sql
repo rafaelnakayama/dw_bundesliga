@@ -2,6 +2,8 @@ USE dw_hgg_database
 
 BEGIN TRANSACTION
 
+PRINT '>>> Inserting Data Into: bronze.dataframe ';
+
 DECLARE @json NVARCHAR(MAX); -- TRANSFORM THE .JSON FILE INTO A HUGE STRING
 
 SELECT @json = BulkColumn
@@ -72,5 +74,9 @@ WITH (
     [location] NVARCHAR(MAX) AS JSON,
     numberOfViewers INT
 )
+
+PRINT '';
+PRINT '>>> bronze.dataframe table successfully loaded';
+PRINT '';
 
 COMMIT

@@ -4,6 +4,8 @@ USE dw_hgg_database
 
 BEGIN TRANSACTION
 
+PRINT '>>> Inserting Data Into: silver.groups';
+
 INSERT INTO silver.groups (
     group_name,
     group_order_id,
@@ -24,7 +26,10 @@ CROSS APPLY OPENJSON([group]) WITH ( -- applies a function to each row individua
 
 ---------------------- (silver.location) --------------------------
 
-INSERT INTO silver.[location] (
+PRINT '';
+PRINT '>>> Inserting Data Into: silver.location';
+
+INSERT INTO silver.location (
     location_id,
     location_city,
     location_stadium
@@ -44,6 +49,9 @@ CROSS APPLY OPENJSON([location]) WITH (
 );
 
 ---------------------- (silver.teams) --------------------------
+
+PRINT '';
+PRINT '>>> Inserting Data Into: silver.teams';
 
 WITH teams_cte_1 AS (
 
@@ -110,6 +118,9 @@ WHERE C2.rn = 1
 
 ---------------------- (silver.matches) --------------------------
 
+PRINT '';
+PRINT '>>> Inserting Data Into: silver.matches';
+
 INSERT INTO silver.matches (
     match_id,
     group_id,
@@ -165,6 +176,9 @@ OUTER APPLY OPENJSON([location]) WITH (
 
 ---------------------- (silver.match_results) --------------------------
 
+PRINT '';
+PRINT '>>> Inserting Data Into: silver.match_results';
+
 INSERT INTO silver.match_results (
     result_id,
     match_id,
@@ -199,6 +213,8 @@ CROSS APPLY OPENJSON(matchResults) WITH (
 );
 
 ---------------------- (silver.match_goals) --------------------------
+PRINT '';
+PRINT '>>> Inserting Data Into: silver.match_goals';
 
 INSERT INTO silver.match_goals (
     goal_id,
@@ -243,5 +259,8 @@ CROSS APPLY OPENJSON(goals) WITH (
 )
 
 WHERE goalGetterID != 0
+
+PRINT '';
+PRINT '>>> Silver tables sucessfully loaded';
 
 COMMIT
