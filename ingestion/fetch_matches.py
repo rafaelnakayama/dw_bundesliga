@@ -10,6 +10,8 @@ matchday = range(1,35) # We want all the matchdays from the season
 
 data_path = Path(__file__).parent.parent / "datasets"
 
+dataframe_path = Path(__file__).parent.parent / "datasets/dataframe.json"
+
 def create_url(seasons_param, matchday_param):
 
     """
@@ -19,14 +21,14 @@ def create_url(seasons_param, matchday_param):
 
     try:
         url = f'https://api.openligadb.de/getmatchdata/bl1/{seasons_param}/{matchday_param}'
-        r = requests.get(url)
+        request = requests.get(url)
 
     except requests.RequestException:
         print("Error: Invalid value on either season/league")
         return [] # returning [] empty arrays instead of None doesn't break the code
     
     else:
-        return r.json()
+        return request.json()
 
 def loop_matches(seasons_loop, matchday_loop):
 
@@ -72,13 +74,43 @@ def load_bronze():
         "SERVER=localhost;"
         "DATABASE=dw_hgg_database;"
         "UID=sa;"
-        "PWD=passwordblabla;"
+        "PWD=passwordblabla;" # Insert password here
     )
 
     cursor = connector.cursor()
 
-    cursor.execute("INSERT INTO table (col1) VALUES (?)", value1)
+    with open(dataframe_path) as file:
+        data = json.load(file)
 
+    for match in data:
+        cursor.execute("""
+        INSERT INTO bronze.dataframe (
+            matchID, matchDateTime, timeZoneID, leagueId, leagueName, 
+            leagueSeason, leagueShortcut, matchDateTimeUTC, [group], 
+            team1, team2, lastUpdateDateTime, matchIsFinished, 
+            matchResults, goals, [location], numberOfViewers
+        )
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        """, 
+        match['matchID'], 
+        match['matchDateTime'], 
+        match['timeZoneID'], 
+        match['leagueId'], 
+        match['leagueName'], 
+        match['leagueSeason'], 
+        match['leagueShortcut'], 
+        match['matchDateTimeUTC'], 
+        json.dumps(match['group']), 
+        json.dumps(match['team1']), 
+        json.dumps(match['team2']), 
+        match['lastUpdateDateTime'], 
+        match['matchIsFinished'], 
+        json.dumps(match['matchResults']), 
+        json.dumps(match['goals']), 
+        json.dumps(match['location']), 
+        match['numberOfViewers']
+    )
+        
     connector.commit()
 
 
