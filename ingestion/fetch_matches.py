@@ -61,6 +61,27 @@ def write_down():
     with open (file_path, "w") as file:
         json.dump(dataframe, file , indent=4)
 
+def load_bronze():
+
+    """
+    Loads the data from dataframe.json to the bronze layer
+    """
+
+    connector = pyodbc.connect(
+        "DRIVER={ODBC Driver 17 for SQL Server};"
+        "SERVER=localhost;"
+        "DATABASE=dw_hgg_database;"
+        "UID=sa;"
+        "PWD=passwordblabla;"
+    )
+
+    cursor = connector.cursor()
+
+    cursor.execute("INSERT INTO table (col1) VALUES (?)", value1)
+
+    connector.commit()
+
+
 if __name__ == "__main__":
     
     """
