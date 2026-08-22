@@ -10,8 +10,9 @@ phase assumes the previous one actually works before you build on top of it.
 `dw_bundesliga` is a personal data-warehouse project (bronze/silver/gold,
 medallion architecture, SQL Server as the engine) that fetches Bundesliga
 match data from the OpenLigaDB API in Python and loads it via T-SQL stored
-procedures. Development started in April 2026 and stalled for about four
-months; it was built entirely on a Windows machine, and the owner now works
+procedures. Only bronze and silver are actually implemented — gold is still
+just a placeholder file (`scripts/gold/placegolder.txt`), unstarted.
+Development started in April 2026 and stalled for about four months; it was built entirely on a Windows machine, and the owner now works
 from a Mac (Apple Silicon) and Ubuntu instead, with no Windows box anymore.
 Resuming surfaced two Windows-only couplings: a hardcoded `C:\Users\...` path
 inside an `OPENROWSET(BULK ...)` load in `proc_load_bronze.sql` (the DB engine
@@ -178,19 +179,18 @@ you have real persistent infra. No wrong answer, but pick one on purpose.
 - [ ] Confirm a no-op day (nothing new from the API) still runs, exits fast,
       and changes nothing.
 
-## Later, deliberately out of scope for this project
+## Parked for later
 
-Tools you mentioned wanting real experience with — Airflow, Spark,
-Databricks, Terraform, full cloud hosting — don't fit this project's actual
-shape yet, and forcing them on teaches less than it looks like it would:
+Ideas already in mind, explicitly not sequenced into the phases above yet —
+revisit once Phase 6 is done, or sooner if it makes sense:
 
-- **Airflow** is for orchestrating many interdependent tasks. You have one.
-  Worth standing up later, explicitly as practice, on something with real
-  task dependencies.
-- **Spark** earns its keep on data too big for one machine's memory. This
-  dataset never will be. Better to learn it against something genuinely
-  large (a multi-GB public dataset) where its value shows up.
-- **Terraform / cloud hosting** need real infrastructure to manage — that's
-  a deliberate, bigger step (cost, credentials, security surface), not a
-  bolt-on to what exists now. Natural next project after this one, not a
-  phase of it.
+- [ ] **Finish the gold layer.** Currently just `scripts/gold/placegolder.txt`
+      — bronze and silver are the only implemented layers so far.
+- [ ] **Switch `requirements.txt` to `uv`.** Already used it twice at work,
+      found it fast and easy; do the swap once the Docker/dependency story
+      above has settled, not mid-migration.
+- [ ] **Build a dashboard on top of the gold layer**, in Python with Shiny
+      (integrates with pandas/matplotlib). Still vague on purpose — data
+      modeling, storytelling, and the actual look of it are a separate,
+      sizable chunk of work that will get broken into its own smaller
+      to-do list once it's actually started.
