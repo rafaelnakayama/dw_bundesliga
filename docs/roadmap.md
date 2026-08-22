@@ -76,6 +76,15 @@ open decision, not yet made.
 - [ ] Decide whether to keep working on that branch or fold its diff into a
       fresh one — either way, don't lose the work already there.
 
+Note on scope: the branch is named `fix/macos_compatibility`, but the actual
+goal is broader — run identically on *any* OS, including a hypothetical
+future return to Windows, not just "make it work on this Mac." Nothing in
+Phases 1–6 is Mac-specific (Docker Compose, env vars, and containerizing the
+script are all OS-agnostic by construction), so the work itself already
+matches the real goal — just worth keeping in mind that the branch name is
+narrower than the intent, and renaming it (e.g. to something like
+`fix/os_portability`) before merging might save future confusion.
+
 ## Phase 1 — get SQL Server running in Docker, on its own, first
 
 Goal: prove the database container works, completely decoupled from Python.
@@ -139,6 +148,16 @@ install, takes a clean clone from zero to a loaded database.
 
 Goal: `bronze`/`silver` loads become idempotent and incremental instead of
 drop-and-rebuild.
+
+> PS: this phase is a different kind of work from the others. Phases 1, 2, 3,
+> and 6 are mechanical — install this, wire that up, write that config — you
+> know the shape of the work before doing it. This one is a real design
+> problem with no single right answer, closer to research than
+> implementation. Expect it to take longer than the mechanical phases
+> combined; that's not falling behind, that's just what open-ended problems
+> cost. Also worth knowing before starting: the gold layer (see "Parked for
+> later") is gated on *this* phase landing, not on Phase 6 — building gold
+> against a schema that might still reshape here risks redoing it.
 
 - [ ] Research (this is the "still have to study" part, on purpose):
       idempotent ETL design, `MERGE`/upsert patterns in T-SQL, and how to use
