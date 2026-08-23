@@ -6,3 +6,4 @@ services:
       - MSSQL_SA_PASSWORD=SenhaTeste@123
     ports:
       - "1433:1433"
+    restart: unless-stopped
