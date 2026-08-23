@@ -73,7 +73,7 @@ open decision, not yet made.
 - [x] `fix/macos_compatibility` branch already removed the `BULK INSERT` logic
       from `proc_load_bronze.sql` and started moving the load into Python
       (`load_bronze()` in `ingestion/fetch_matches.py`).
-- [ ] Decide whether to keep working on that branch or fold its diff into a
+- [x] Decide whether to keep working on that branch or fold its diff into a
       fresh one — either way, don't lose the work already there.
 
 Note on scope: the branch is named `fix/macos_compatibility`, but the actual
