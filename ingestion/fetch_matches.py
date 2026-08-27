@@ -7,9 +7,7 @@ from pathlib import Path
 
 seasons = range(2006, 2027) # We want all seasons from 2006 - 2026
 matchday = range(1,35) # We want all the matchdays from the season
-
 data_path = Path(__file__).parent.parent / "datasets"
-
 dataframe_path = Path(__file__).parent.parent / "datasets/dataframe.json"
 
 def create_url(seasons_param, matchday_param):
@@ -19,16 +17,10 @@ def create_url(seasons_param, matchday_param):
     the website, it takes one day at a time.
     """
 
-    try:
-        url = f'https://api.openligadb.de/getmatchdata/bl1/{seasons_param}/{matchday_param}'
-        request = requests.get(url)
-
-    except requests.RequestException:
-        print("Error: Invalid value on either season/league")
-        return [] # returning [] empty arrays instead of None doesn't break the code
-    
-    else:
-        return request.json()
+    url = f'https://api.openligadb.de/getmatchdata/bl1/{seasons_param}/{matchday_param}'
+    request = requests.get(url, timeout=10)
+    request.raise_for_status()
+    return request.json()
 
 def loop_matches(seasons_loop, matchday_loop):
 

@@ -90,12 +90,12 @@ narrower than the intent, and renaming it (e.g. to something like
 Goal: prove the database container works, completely decoupled from Python.
 Don't touch the ingestion script yet.
 
-- [ ] Start the Docker daemon (it's installed, just not running).
-- [ ] Write a first-pass `docker-compose.yml` with **only** the `mssql`
+- [x] Start the Docker daemon (it's installed, just not running).
+- [x] Write a first-pass `docker-compose.yml` with **only** the `mssql`
       service. Pin the image to `2022-latest`, not `2025-latest` — the 2025
       image requires AVX instructions that crash under QEMU emulation on
       Apple Silicon; 2022 doesn't have that requirement.
-- [ ] Bring it up, connect with any SQL client (Azure Data Studio, DBeaver,
+- [x] Bring it up, connect with any SQL client (Azure Data Studio, DBeaver,
       even `sqlcmd` if you install it) over `localhost:1433`, confirm you can
       run `init_database.sql` against it manually.
 
