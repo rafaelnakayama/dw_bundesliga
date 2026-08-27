@@ -1,0 +1,966 @@
+[
+    {
+        "matchID": 51200,
+        "matchDateTime": "2018-10-28T13:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4276,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
+        "leagueSeason": 2018,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-10-28T12:30:00Z",
+        "group": {
+            "groupName": "9. Spieltag",
+            "groupOrderID": 9,
+            "groupID": 31783
+        },
+        "team1": {
+            "teamId": 79,
+            "teamName": "1. FC N\u00fcrnberg",
+            "shortName": "N\u00fcrnberg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N\u00fcrnberg_logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-10-28T15:56:14.437",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 83988,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 83987,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 72789,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 78,
+                "goalGetterID": 16488,
+                "goalGetterName": "Zrelak",
+                "scoringTeamId": 79,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 72790,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 92,
+                "goalGetterID": 1256,
+                "goalGetterName": "Haller",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 1111,
+            "locationCity": "N\u00fcrnberg",
+            "locationStadium": "Max-Morlock-Stadion"
+        },
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 51197,
+        "matchDateTime": "2018-10-26T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4276,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
+        "leagueSeason": 2018,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-10-26T18:30:00Z",
+        "group": {
+            "groupName": "9. Spieltag",
+            "groupOrderID": 9,
+            "groupID": 31783
+        },
+        "team1": {
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-10-26T22:26:42.853",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 83952,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 83951,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 72725,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 1,
+                "goalGetterID": 16053,
+                "goalGetterName": "Nils Petersen",
+                "scoringTeamId": 112,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 72726,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 20,
+                "goalGetterID": 16052,
+                "goalGetterName": "Thorgan Hazard",
+                "scoringTeamId": 87,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 72728,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 57,
+                "goalGetterID": 15274,
+                "goalGetterName": "L. Waldschmidt",
+                "scoringTeamId": 112,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 72729,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 94,
+                "goalGetterID": 14393,
+                "goalGetterName": "L. H\u00f6ler",
+                "scoringTeamId": 112,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 970,
+            "locationCity": "Freiburg",
+            "locationStadium": "Schwarzwaldstadion"
+        },
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 51193,
+        "matchDateTime": "2018-10-27T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4276,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
+        "leagueSeason": 2018,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-10-27T13:30:00Z",
+        "group": {
+            "groupName": "9. Spieltag",
+            "groupOrderID": 9,
+            "groupID": 31783
+        },
+        "team1": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-10-27T17:27:59.16",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 83966,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 83965,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 72763,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 27,
+                "goalGetterID": 16502,
+                "goalGetterName": "Sancho",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 72767,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 41,
+                "goalGetterID": 15515,
+                "goalGetterName": " Kalou",
+                "scoringTeamId": 54,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 72769,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 61,
+                "goalGetterID": 16502,
+                "goalGetterName": "Sancho",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 72775,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 91,
+                "goalGetterID": 15515,
+                "goalGetterName": " Kalou",
+                "scoringTeamId": 54,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 35,
+            "locationCity": "Dortmund",
+            "locationStadium": "Signal Iduna Park"
+        },
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 51196,
+        "matchDateTime": "2018-10-27T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4276,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
+        "leagueSeason": 2018,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-10-27T13:30:00Z",
+        "group": {
+            "groupName": "9. Spieltag",
+            "groupOrderID": 9,
+            "groupID": 31783
+        },
+        "team1": {
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-10-27T17:28:08.113",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 83968,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 83967,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 72758,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 8,
+                "goalGetterID": 785,
+                "goalGetterName": "R. Khedira",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 72770,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 63,
+                "goalGetterID": 15722,
+                "goalGetterName": "Alfred Finnbogason",
+                "scoringTeamId": 95,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 72772,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 72,
+                "goalGetterID": 15011,
+                "goalGetterName": "Bebou",
+                "scoringTeamId": 55,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 845,
+            "locationCity": "Hannover",
+            "locationStadium": "HDI Arena"
+        },
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 51198,
+        "matchDateTime": "2018-10-27T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4276,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
+        "leagueSeason": 2018,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-10-27T13:30:00Z",
+        "group": {
+            "groupName": "9. Spieltag",
+            "groupOrderID": 9,
+            "groupID": 31783
+        },
+        "team1": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-10-27T17:28:13.02",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 83970,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 83969,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 72764,
+                "scoreTeam1": 0,
+                "scoreTeam2": 0,
+                "matchMinute": 37,
+                "goalGetterID": 13574,
+                "goalGetterName": "Thiago",
+                "scoringTeamId": null,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 72765,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 39,
+                "goalGetterID": 11373,
+                "goalGetterName": "Leon Goretzka",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 72768,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 48,
+                "goalGetterID": 16960,
+                "goalGetterName": "Boetius",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 72771,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 62,
+                "goalGetterID": 13574,
+                "goalGetterName": "Thiago",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 429,
+            "locationCity": "Mainz",
+            "locationStadium": "Coface-Arena"
+        },
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 51199,
+        "matchDateTime": "2018-10-27T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4276,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
+        "leagueSeason": 2018,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-10-27T13:30:00Z",
+        "group": {
+            "groupName": "9. Spieltag",
+            "groupOrderID": 9,
+            "groupID": 31783
+        },
+        "team1": {
+            "teamId": 185,
+            "teamName": "Fortuna D\u00fcsseldorf",
+            "shortName": "D\u00fcsseldorf",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Fortuna_D%C3%BCsseldorf.svg/960px-Fortuna_D%C3%BCsseldorf.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-10-27T17:28:19.677",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 83972,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 83971,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 3,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 72766,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 41,
+                "goalGetterID": 16906,
+                "goalGetterName": "Weghorst",
+                "scoringTeamId": 131,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 72773,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 73,
+                "goalGetterID": 16336,
+                "goalGetterName": "Brekalo",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 72774,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 80,
+                "goalGetterID": 10949,
+                "goalGetterName": "Daniel Ginczek",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 53,
+            "locationCity": "D\u00fcsseldorf",
+            "locationStadium": "ESPRIT Arena"
+        },
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 51192,
+        "matchDateTime": "2018-10-27T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4276,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
+        "leagueSeason": 2018,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-10-27T16:30:00Z",
+        "group": {
+            "groupName": "9. Spieltag",
+            "groupOrderID": 9,
+            "groupID": 31783
+        },
+        "team1": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-10-27T20:24:45.233",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 83986,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 83985,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 4,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 72785,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 48,
+                "goalGetterID": 16961,
+                "goalGetterName": "Brenet J.",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 72786,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 51,
+                "goalGetterID": 16925,
+                "goalGetterName": "Joelinton",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 72787,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 57,
+                "goalGetterID": 7180,
+                "goalGetterName": "Belfodil",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 72788,
+                "scoreTeam1": 4,
+                "scoreTeam2": 0,
+                "matchMinute": 60,
+                "goalGetterID": 7180,
+                "goalGetterName": "Belfodil",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 37,
+            "locationCity": "Stuttgart",
+            "locationStadium": "Mercedes Benz Arena "
+        },
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 51194,
+        "matchDateTime": "2018-10-28T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4276,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
+        "leagueSeason": 2018,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-10-28T14:30:00Z",
+        "group": {
+            "groupName": "9. Spieltag",
+            "groupOrderID": 9,
+            "groupID": 31783
+        },
+        "team1": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-10-28T17:23:44.743",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 83994,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 83993,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [],
+        "location": {
+            "locationID": 478,
+            "locationCity": "Leipzig",
+            "locationStadium": "Red Bull Arena"
+        },
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 51195,
+        "matchDateTime": "2018-10-28T18:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4276,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
+        "leagueSeason": 2018,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-10-28T17:00:00Z",
+        "group": {
+            "groupName": "9. Spieltag",
+            "groupOrderID": 9,
+            "groupID": 31783
+        },
+        "team1": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-10-28T19:48:29.407",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 84063,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 3,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 84062,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 6,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 73007,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 8,
+                "goalGetterID": 16260,
+                "goalGetterName": "Kevin Volland\r\n",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 73008,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 39,
+                "goalGetterID": 14483,
+                "goalGetterName": "Brandt, Julian",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 73041,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 45,
+                "goalGetterID": 16259,
+                "goalGetterName": "Karim Bellarabi\r\n",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 73042,
+                "scoreTeam1": 1,
+                "scoreTeam2": 3,
+                "matchMinute": 60,
+                "goalGetterID": 309,
+                "goalGetterName": "Pizarro",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 73043,
+                "scoreTeam1": 2,
+                "scoreTeam2": 3,
+                "matchMinute": 62,
+                "goalGetterID": 14205,
+                "goalGetterName": "Osako",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 73044,
+                "scoreTeam1": 2,
+                "scoreTeam2": 4,
+                "matchMinute": 67,
+                "goalGetterID": 16261,
+                "goalGetterName": "Kai Havertz\r\n",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 73045,
+                "scoreTeam1": 2,
+                "scoreTeam2": 5,
+                "matchMinute": 72,
+                "goalGetterID": 15349,
+                "goalGetterName": " Dragovic",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 73046,
+                "scoreTeam1": 2,
+                "scoreTeam2": 6,
+                "matchMinute": 77,
+                "goalGetterID": 16261,
+                "goalGetterName": "Kai Havertz\r\n",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 36,
+            "locationCity": "Bremen",
+            "locationStadium": "Weserstadion"
+        },
+        "numberOfViewers": null
+    }
+]

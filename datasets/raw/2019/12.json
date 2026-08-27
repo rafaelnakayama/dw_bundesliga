@@ -1,0 +1,957 @@
+[
+    {
+        "matchID": 55384,
+        "matchDateTime": "2019-11-23T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2019-11-23T14:30:00Z",
+        "group": {
+            "groupName": "12. Spieltag",
+            "groupOrderID": 12,
+            "groupID": 34211
+        },
+        "team1": {
+            "teamId": 80,
+            "teamName": "1. FC Union Berlin",
+            "shortName": "Union Berlin",
+            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2019-11-23T17:25:57.957",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 90313,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 90312,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 81775,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 15,
+                "goalGetterID": 11319,
+                "goalGetterName": "Anthony Ujah",
+                "scoringTeamId": 80,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 81785,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 90,
+                "goalGetterID": 508,
+                "goalGetterName": "Anderson",
+                "scoringTeamId": 80,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 55376,
+        "matchDateTime": "2019-11-22T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2019-11-22T19:30:00Z",
+        "group": {
+            "groupName": "12. Spieltag",
+            "groupOrderID": 12,
+            "groupID": 34211
+        },
+        "team1": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 31,
+            "teamName": "SC Paderborn 07",
+            "shortName": "Paderborn",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2019-11-22T22:24:31",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 90298,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 3,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 90297,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 3,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 81745,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 5,
+                "goalGetterID": 16866,
+                "goalGetterName": "Mamba",
+                "scoringTeamId": 31,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 81754,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 37,
+                "goalGetterID": 16866,
+                "goalGetterName": "Mamba",
+                "scoringTeamId": 31,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 81755,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 43,
+                "goalGetterID": 15415,
+                "goalGetterName": "Holtmann",
+                "scoringTeamId": 31,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 81756,
+                "scoreTeam1": 1,
+                "scoreTeam2": 3,
+                "matchMinute": 48,
+                "goalGetterID": 16502,
+                "goalGetterName": "Sancho",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 81757,
+                "scoreTeam1": 2,
+                "scoreTeam2": 3,
+                "matchMinute": 84,
+                "goalGetterID": 15873,
+                "goalGetterName": "Axel Witsel",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 81758,
+                "scoreTeam1": 3,
+                "scoreTeam2": 3,
+                "matchMinute": 90,
+                "goalGetterID": 3426,
+                "goalGetterName": "Marco Reus",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 55378,
+        "matchDateTime": "2019-11-23T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2019-11-23T14:30:00Z",
+        "group": {
+            "groupName": "12. Spieltag",
+            "groupOrderID": 12,
+            "groupID": 34211
+        },
+        "team1": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2019-11-23T17:26:02.88",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 90311,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 90310,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 81773,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 6,
+                "goalGetterID": 14393,
+                "goalGetterName": "L. H\u00f6ler",
+                "scoringTeamId": 112,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 81779,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 36,
+                "goalGetterID": 392,
+                "goalGetterName": "Diaby",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 55379,
+        "matchDateTime": "2019-11-23T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2019-11-23T14:30:00Z",
+        "group": {
+            "groupName": "12. Spieltag",
+            "groupOrderID": 12,
+            "groupID": 34211
+        },
+        "team1": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2019-11-23T17:26:01.667",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 90317,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 90316,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 81776,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 19,
+                "goalGetterID": 16906,
+                "goalGetterName": "Weghorst",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 81782,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 65,
+                "goalGetterID": 7124,
+                "goalGetterName": "Victor",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 55380,
+        "matchDateTime": "2019-11-23T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2019-11-23T14:30:00Z",
+        "group": {
+            "groupName": "12. Spieltag",
+            "groupOrderID": 12,
+            "groupID": 34211
+        },
+        "team1": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2019-11-23T17:26:00.473",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 90315,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 90314,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 81780,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 43,
+                "goalGetterID": 16346,
+                "goalGetterName": "Harit",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 81781,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 53,
+                "goalGetterID": 16294,
+                "goalGetterName": "Benito Raman",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 81784,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 80,
+                "goalGetterID": 14205,
+                "goalGetterName": "Osako",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 55382,
+        "matchDateTime": "2019-11-23T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2019-11-23T14:30:00Z",
+        "group": {
+            "groupName": "12. Spieltag",
+            "groupOrderID": 12,
+            "groupID": 34211
+        },
+        "team1": {
+            "teamId": 185,
+            "teamName": "Fortuna D\u00fcsseldorf",
+            "shortName": "D\u00fcsseldorf",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Fortuna_D%C3%BCsseldorf.svg/960px-Fortuna_D%C3%BCsseldorf.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2019-11-23T17:25:59.207",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 90319,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 3,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 90318,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 4,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 81774,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 11,
+                "goalGetterID": 16143,
+                "goalGetterName": "Pavard",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 81777,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 27,
+                "goalGetterID": 16263,
+                "goalGetterName": "Tolisso",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 81778,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 34,
+                "goalGetterID": 16086,
+                "goalGetterName": "S. Gnabry",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 81783,
+                "scoreTeam1": 0,
+                "scoreTeam2": 4,
+                "matchMinute": 70,
+                "goalGetterID": 7006,
+                "goalGetterName": "Coutinho",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 55377,
+        "matchDateTime": "2019-11-23T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2019-11-23T17:30:00Z",
+        "group": {
+            "groupName": "12. Spieltag",
+            "groupOrderID": 12,
+            "groupID": 34211
+        },
+        "team1": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2019-11-23T20:21:09.19",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 90321,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 3,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 90320,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 4,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 81786,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 22,
+                "goalGetterID": 14551,
+                "goalGetterName": "T. Werner",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 81799,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 31,
+                "goalGetterID": 16078,
+                "goalGetterName": "Emil Forsberg",
+                "scoringTeamId": 1635,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 81806,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 37,
+                "goalGetterID": 17303,
+                "goalGetterName": "Laimer",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 81807,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 39,
+                "goalGetterID": 6771,
+                "goalGetterName": "Czichos",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 81808,
+                "scoreTeam1": 4,
+                "scoreTeam2": 1,
+                "matchMinute": 79,
+                "goalGetterID": 16078,
+                "goalGetterName": "Emil Forsberg",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 55383,
+        "matchDateTime": "2019-11-24T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2019-11-24T14:30:00Z",
+        "group": {
+            "groupName": "12. Spieltag",
+            "groupOrderID": 12,
+            "groupID": 34211
+        },
+        "team1": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2019-11-24T17:21:31.917",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 90344,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 90343,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 4,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 81821,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 18,
+                "goalGetterID": 16688,
+                "goalGetterName": "Max, Philipp",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 81822,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 27,
+                "goalGetterID": 16275,
+                "goalGetterName": "Cordova",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 81823,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 52,
+                "goalGetterID": 16036,
+                "goalGetterName": "Andre Hahn",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 81824,
+                "scoreTeam1": 4,
+                "scoreTeam2": 0,
+                "matchMinute": 80,
+                "goalGetterID": 16153,
+                "goalGetterName": "Florian Niederlechner",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 55381,
+        "matchDateTime": "2019-11-24T18:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2019-11-24T17:00:00Z",
+        "group": {
+            "groupName": "12. Spieltag",
+            "groupOrderID": 12,
+            "groupID": 34211
+        },
+        "team1": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2019-11-25T09:40:09.273",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 90347,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 90346,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 5,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 81825,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 33,
+                "goalGetterID": 16061,
+                "goalGetterName": "Levin \u00d6ztunali",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 81826,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 52,
+                "goalGetterID": 16429,
+                "goalGetterName": "Kaderabek",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 81827,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 62,
+                "goalGetterID": 17871,
+                "goalGetterName": "Kunde Malong,P.",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 81828,
+                "scoreTeam1": 1,
+                "scoreTeam2": 3,
+                "matchMinute": 83,
+                "goalGetterID": 18327,
+                "goalGetterName": "A. Kramaric",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 81829,
+                "scoreTeam1": 1,
+                "scoreTeam2": 4,
+                "matchMinute": 90,
+                "goalGetterID": 17412,
+                "goalGetterName": "Bo\u00e4tius, J.P.",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 81830,
+                "scoreTeam1": 1,
+                "scoreTeam2": 5,
+                "matchMinute": 90,
+                "goalGetterID": 17871,
+                "goalGetterName": "Kunde Malong,P.",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    }
+]

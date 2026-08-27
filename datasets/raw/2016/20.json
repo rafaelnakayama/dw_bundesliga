@@ -1,0 +1,837 @@
+[
+    {
+        "matchID": 39819,
+        "matchDateTime": "2017-02-10T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2017-02-10T19:30:00Z",
+        "group": {
+            "groupName": "20. Spieltag",
+            "groupOrderID": 20,
+            "groupID": 23852
+        },
+        "team1": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2017-02-12T19:24:02.357",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 72577,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 72578,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 57464,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 31,
+                "goalGetterID": 15058,
+                "goalGetterName": "\u00d6ztunali",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 57467,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 62,
+                "goalGetterID": 15053,
+                "goalGetterName": "Samperio",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 1081,
+            "locationCity": "Mainz",
+            "locationStadium": "Opel-Arena"
+        },
+        "numberOfViewers": 23371
+    },
+    {
+        "matchID": 39821,
+        "matchDateTime": "2017-02-11T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2017-02-11T14:30:00Z",
+        "group": {
+            "groupName": "20. Spieltag",
+            "groupOrderID": 20,
+            "groupID": 23852
+        },
+        "team1": {
+            "teamId": 171,
+            "teamName": "FC Ingolstadt 04",
+            "shortName": "Ingolstadt",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/5/55/FC-Ingolstadt_logo.svg/960px-FC-Ingolstadt_logo.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2017-02-12T19:24:38.31",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 72596,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 72605,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 57497,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 90,
+                "goalGetterID": 7089,
+                "goalGetterName": "Arturo Vidal",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 57498,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 92,
+                "goalGetterID": 1876,
+                "goalGetterName": "Arjen Robben",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 354,
+            "locationCity": "Ingolstadt",
+            "locationStadium": "Audi-Sportpark"
+        },
+        "numberOfViewers": 15200
+    },
+    {
+        "matchID": 39822,
+        "matchDateTime": "2017-02-11T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2017-02-11T14:30:00Z",
+        "group": {
+            "groupName": "20. Spieltag",
+            "groupOrderID": 20,
+            "groupID": 23852
+        },
+        "team1": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2017-02-12T19:25:00.86",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 72597,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 72601,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 57479,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 5,
+                "goalGetterID": 14315,
+                "goalGetterName": "Chicharito",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 57495,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 63,
+                "goalGetterID": 14315,
+                "goalGetterName": "Chicharito",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 57496,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 78,
+                "goalGetterID": 5798,
+                "goalGetterName": "Volland",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 1096,
+            "locationCity": "Leverfkusen",
+            "locationStadium": "BayArena"
+        },
+        "numberOfViewers": 28882
+    },
+    {
+        "matchID": 39823,
+        "matchDateTime": "2017-02-11T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2017-02-11T14:30:00Z",
+        "group": {
+            "groupName": "20. Spieltag",
+            "groupOrderID": 20,
+            "groupID": 23852
+        },
+        "team1": {
+            "teamId": 118,
+            "teamName": "SV Darmstadt 98",
+            "shortName": "Darmstadt",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2017-02-12T19:25:22.07",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 72598,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 72604,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 57482,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 21,
+                "goalGetterID": 13268,
+                "goalGetterName": "Boyd",
+                "scoringTeamId": 118,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 57493,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 44,
+                "goalGetterID": 18618,
+                "goalGetterName": "R. Guerreiro",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 57494,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 67,
+                "goalGetterID": 419,
+                "goalGetterName": "Colak",
+                "scoringTeamId": 118,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 1080,
+            "locationCity": "Darmstadt",
+            "locationStadium": "Jonathan-Heimes-Stadion am B\u00f6llenfalltor"
+        },
+        "numberOfViewers": 17400
+    },
+    {
+        "matchID": 39824,
+        "matchDateTime": "2017-02-11T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2017-02-11T14:30:00Z",
+        "group": {
+            "groupName": "20. Spieltag",
+            "groupOrderID": 20,
+            "groupID": 23852
+        },
+        "team1": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2017-02-12T19:25:42.523",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 72599,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 72602,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 57480,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 12,
+                "goalGetterID": 16052,
+                "goalGetterName": "Thorgan Hazard",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 492,
+            "locationCity": "Bremen",
+            "locationStadium": "Weser-Stadion"
+        },
+        "numberOfViewers": 42100
+    },
+    {
+        "matchID": 39827,
+        "matchDateTime": "2017-02-11T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2017-02-11T14:30:00Z",
+        "group": {
+            "groupName": "20. Spieltag",
+            "groupOrderID": 20,
+            "groupID": 23852
+        },
+        "team1": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 100,
+            "teamName": "Hamburger SV",
+            "shortName": "HSV",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2017-02-12T19:25:59.833",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 72600,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 72603,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 3,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 57481,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 19,
+                "goalGetterID": 3874,
+                "goalGetterName": "Papadopoulos",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 57484,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 24,
+                "goalGetterID": 14628,
+                "goalGetterName": "Wallace",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 57499,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 92,
+                "goalGetterID": 771,
+                "goalGetterName": "Hunt",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 478,
+            "locationCity": "Leipzig",
+            "locationStadium": "Red Bull Arena"
+        },
+        "numberOfViewers": 42558
+    },
+    {
+        "matchID": 39825,
+        "matchDateTime": "2017-02-11T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2017-02-11T17:30:00Z",
+        "group": {
+            "groupName": "20. Spieltag",
+            "groupOrderID": 20,
+            "groupID": 23852
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2017-02-12T19:26:26.7",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 72619,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 72620,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 57500,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 41,
+                "goalGetterID": 15352,
+                "goalGetterName": "Burgstaller, Guido",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 57501,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 61,
+                "goalGetterID": 6631,
+                "goalGetterName": "Goretzka",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 403,
+            "locationCity": "Gelsenkirchen",
+            "locationStadium": "Veltins-Arena"
+        },
+        "numberOfViewers": 61981
+    },
+    {
+        "matchID": 39820,
+        "matchDateTime": "2017-02-12T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2017-02-12T14:30:00Z",
+        "group": {
+            "groupName": "20. Spieltag",
+            "groupOrderID": 20,
+            "groupID": 23852
+        },
+        "team1": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2017-02-12T19:26:46.947",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 72661,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 72665,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 57537,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 29,
+                "goalGetterID": 16174,
+                "goalGetterName": "Steven Zuber",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 57539,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 50,
+                "goalGetterID": 16180,
+                "goalGetterName": "Maximilian Arnold",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 57540,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 73,
+                "goalGetterID": 16031,
+                "goalGetterName": "Daniel Didavi",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 435,
+            "locationCity": "Wolfsburg",
+            "locationStadium": "Volkswagen-Arena"
+        },
+        "numberOfViewers": 23148
+    },
+    {
+        "matchID": 39826,
+        "matchDateTime": "2017-02-12T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2017-02-12T16:30:00Z",
+        "group": {
+            "groupName": "20. Spieltag",
+            "groupOrderID": 20,
+            "groupID": 23852
+        },
+        "team1": {
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2017-02-12T19:27:16.257",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 72710,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 72712,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 57591,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 33,
+                "goalGetterID": 16153,
+                "goalGetterName": "Florian Niederlechner",
+                "scoringTeamId": 112,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 57592,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 39,
+                "goalGetterID": 16035,
+                "goalGetterName": "Anthony Modeste",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 57593,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 77,
+                "goalGetterID": 14878,
+                "goalGetterName": "Philipp",
+                "scoringTeamId": 112,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 966,
+            "locationCity": "Freiburg",
+            "locationStadium": "Schwarzwald-Stadion"
+        },
+        "numberOfViewers": 24000
+    }
+]

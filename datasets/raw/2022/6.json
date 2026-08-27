@@ -1,0 +1,813 @@
+[
+    {
+        "matchID": 63918,
+        "matchDateTime": "2022-09-09T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2022-09-09T18:30:00Z",
+        "group": {
+            "groupName": "6. Spieltag",
+            "groupOrderID": 6,
+            "groupID": 39886
+        },
+        "team1": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2022-09-09T22:29:54.683",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 98953,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 98954,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 95885,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 63,
+                "goalGetterID": 18339,
+                "goalGetterName": "E. Demirovic",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 63910,
+        "matchDateTime": "2022-09-10T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2022-09-10T13:30:00Z",
+        "group": {
+            "groupName": "6. Spieltag",
+            "groupOrderID": 6,
+            "groupID": 39886
+        },
+        "team1": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2022-09-10T17:25:05.06",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 98969,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 98970,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 95915,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 36,
+                "goalGetterID": 19490,
+                "goalGetterName": "M. Tel",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 95919,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 57,
+                "goalGetterID": 18304,
+                "goalGetterName": "C. F\u00fchrich",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 95923,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 60,
+                "goalGetterID": 18700,
+                "goalGetterName": "J. Musiala",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 95930,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 90,
+                "goalGetterID": 19545,
+                "goalGetterName": "S. Guirassy",
+                "scoringTeamId": 16,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 63911,
+        "matchDateTime": "2022-09-10T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2022-09-10T13:30:00Z",
+        "group": {
+            "groupName": "6. Spieltag",
+            "groupOrderID": 6,
+            "groupID": 39886
+        },
+        "team1": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2022-09-10T17:24:59.28",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 98971,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 98972,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 95922,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 60,
+                "goalGetterID": 18637,
+                "goalGetterName": "M. Lacroix",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 63913,
+        "matchDateTime": "2022-09-10T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2022-09-10T13:30:00Z",
+        "group": {
+            "groupName": "6. Spieltag",
+            "groupOrderID": 6,
+            "groupID": 39886
+        },
+        "team1": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2022-09-10T17:27:15.72",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 98975,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 98976,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 95918,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 49,
+                "goalGetterID": 18586,
+                "goalGetterName": "K. Demirbay",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 95921,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 56,
+                "goalGetterID": 18345,
+                "goalGetterName": "S. Serdar",
+                "scoringTeamId": 54,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 95925,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 74,
+                "goalGetterID": 16304,
+                "goalGetterName": "M. Ritter",
+                "scoringTeamId": 54,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 95926,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 79,
+                "goalGetterID": 18331,
+                "goalGetterName": "P. Schick",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 63914,
+        "matchDateTime": "2022-09-10T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2022-09-10T13:30:00Z",
+        "group": {
+            "groupName": "6. Spieltag",
+            "groupOrderID": 6,
+            "groupID": 39886
+        },
+        "team1": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2022-09-10T17:25:28.937",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 98967,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 4,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 98968,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 95920,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 53,
+                "goalGetterID": 18327,
+                "goalGetterName": "A. Kramaric",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 95924,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 69,
+                "goalGetterID": 18355,
+                "goalGetterName": "G. Pr\u00f6mel",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 95927,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 80,
+                "goalGetterID": 18599,
+                "goalGetterName": "M. Dabbur",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 95928,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 83,
+                "goalGetterID": 18674,
+                "goalGetterName": "D. Kohr",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 95931,
+                "scoreTeam1": 4,
+                "scoreTeam2": 1,
+                "matchMinute": 90,
+                "goalGetterID": 19546,
+                "goalGetterName": "P. Kaderabek",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 63916,
+        "matchDateTime": "2022-09-10T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2022-09-10T13:30:00Z",
+        "group": {
+            "groupName": "6. Spieltag",
+            "groupOrderID": 6,
+            "groupID": 39886
+        },
+        "team1": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2022-09-10T17:21:20.76",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 98973,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 98974,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 95909,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 6,
+                "goalGetterID": 18346,
+                "goalGetterName": "W. Orban",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 95916,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 45,
+                "goalGetterID": 18985,
+                "goalGetterName": "D. Szoboszlai",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 95929,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 84,
+                "goalGetterID": 18566,
+                "goalGetterName": "A. Haidara",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 63917,
+        "matchDateTime": "2022-09-10T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2022-09-10T16:30:00Z",
+        "group": {
+            "groupName": "6. Spieltag",
+            "groupOrderID": 6,
+            "groupID": 39886
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 129,
+            "teamName": "VfL Bochum",
+            "shortName": "Bochum",
+            "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2022-09-10T20:31:09.93",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 98983,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 98984,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 95932,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 38,
+                "goalGetterID": 19283,
+                "goalGetterName": "D. Drexler",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 95933,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 51,
+                "goalGetterID": 18315,
+                "goalGetterName": "S. Zoller",
+                "scoringTeamId": 129,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 95934,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 73,
+                "goalGetterID": 19504,
+                "goalGetterName": "E. Masovic",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 95935,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 96,
+                "goalGetterID": 19547,
+                "goalGetterName": "S. Polter",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 63915,
+        "matchDateTime": "2022-09-11T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2022-09-11T13:30:00Z",
+        "group": {
+            "groupName": "6. Spieltag",
+            "groupOrderID": 6,
+            "groupID": 39886
+        },
+        "team1": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 80,
+            "teamName": "1. FC Union Berlin",
+            "shortName": "Union Berlin",
+            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2022-09-11T17:27:50.293",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 98996,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 98997,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 95953,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 4,
+                "goalGetterID": 18524,
+                "goalGetterName": "T. H\u00fcbers",
+                "scoringTeamId": 80,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 63912,
+        "matchDateTime": "2022-09-11T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2022-09-11T15:30:00Z",
+        "group": {
+            "groupName": "6. Spieltag",
+            "groupOrderID": 6,
+            "groupID": 39886
+        },
+        "team1": {
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2022-09-11T19:21:39.657",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 98999,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 99000,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    }
+]

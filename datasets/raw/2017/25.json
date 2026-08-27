@@ -1,0 +1,849 @@
+[
+    {
+        "matchID": 45653,
+        "matchDateTime": "2018-03-03T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4153,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
+        "leagueSeason": 2017,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-03-03T17:30:00Z",
+        "group": {
+            "groupName": "25. Spieltag",
+            "groupOrderID": 25,
+            "groupID": 28971
+        },
+        "team1": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-03-04T00:34:51.217",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 79252,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 79253,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 64784,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 29,
+                "goalGetterID": 16268,
+                "goalGetterName": "Augustin",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 64785,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 38,
+                "goalGetterID": 357,
+                "goalGetterName": "Reus",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 478,
+            "locationCity": "Leipzig",
+            "locationStadium": "Red Bull Arena"
+        },
+        "numberOfViewers": 42558
+    },
+    {
+        "matchID": 45656,
+        "matchDateTime": "2018-03-02T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4153,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
+        "leagueSeason": 2017,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-03-02T19:30:00Z",
+        "group": {
+            "groupName": "25. Spieltag",
+            "groupOrderID": 25,
+            "groupID": 28971
+        },
+        "team1": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-03-04T00:19:39.257",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 79203,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 79210,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 64723,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 5,
+                "goalGetterID": 16274,
+                "goalGetterName": "Zakaria",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 64734,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 33,
+                "goalGetterID": 16326,
+                "goalGetterName": "N.Moisander",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 64735,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 60,
+                "goalGetterID": 16256,
+                "goalGetterName": "Thomas Delaney",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 64736,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 78,
+                "goalGetterID": 15384,
+                "goalGetterName": "Johannsson",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 444,
+            "locationCity": "M\u00f6nchengladbach",
+            "locationStadium": "Borussia-Park"
+        },
+        "numberOfViewers": 52211
+    },
+    {
+        "matchID": 45657,
+        "matchDateTime": "2018-03-03T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4153,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
+        "leagueSeason": 2017,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-03-03T14:30:00Z",
+        "group": {
+            "groupName": "25. Spieltag",
+            "groupOrderID": 25,
+            "groupID": 28971
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-03-04T00:21:12.017",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 79226,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 79231,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 64763,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 37,
+                "goalGetterID": 16393,
+                "goalGetterName": "Marko Pjaca",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 403,
+            "locationCity": "Gelsenkirchen",
+            "locationStadium": "Veltins-Arena"
+        },
+        "numberOfViewers": 61578
+    },
+    {
+        "matchID": 45658,
+        "matchDateTime": "2018-03-03T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4153,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
+        "leagueSeason": 2017,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-03-03T14:30:00Z",
+        "group": {
+            "groupName": "25. Spieltag",
+            "groupOrderID": 25,
+            "groupID": 28971
+        },
+        "team1": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-03-04T00:22:44.023",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 79227,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 79232,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 64764,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 39,
+                "goalGetterID": 1313,
+                "goalGetterName": "da Costa",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 183,
+            "locationCity": "Frankfurt",
+            "locationStadium": "Commerzbank-Arena"
+        },
+        "numberOfViewers": 48500
+    },
+    {
+        "matchID": 45659,
+        "matchDateTime": "2018-03-03T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4153,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
+        "leagueSeason": 2017,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-03-03T14:30:00Z",
+        "group": {
+            "groupName": "25. Spieltag",
+            "groupOrderID": 25,
+            "groupID": 28971
+        },
+        "team1": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-03-04T00:25:10.71",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 79230,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 79233,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 64761,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 31,
+                "goalGetterID": 18327,
+                "goalGetterName": "A. Kramaric",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 64765,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 50,
+                "goalGetterID": 16086,
+                "goalGetterName": "S. Gnabry",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 1029,
+            "locationCity": "Augsburg",
+            "locationStadium": "WWK Arena"
+        },
+        "numberOfViewers": 27100
+    },
+    {
+        "matchID": 45660,
+        "matchDateTime": "2018-03-03T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4153,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
+        "leagueSeason": 2017,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-03-03T14:30:00Z",
+        "group": {
+            "groupName": "25. Spieltag",
+            "groupOrderID": 25,
+            "groupID": 28971
+        },
+        "team1": {
+            "teamId": 100,
+            "teamName": "Hamburger SV",
+            "shortName": "HSV",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-03-04T00:27:26.873",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 79228,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 79234,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [],
+        "location": {
+            "locationID": 1030,
+            "locationCity": "Hamburg",
+            "locationStadium": "Volksparkstadion"
+        },
+        "numberOfViewers": 46739
+    },
+    {
+        "matchID": 45661,
+        "matchDateTime": "2018-03-03T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4153,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
+        "leagueSeason": 2017,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-03-03T14:30:00Z",
+        "group": {
+            "groupName": "25. Spieltag",
+            "groupOrderID": 25,
+            "groupID": 28971
+        },
+        "team1": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-03-06T21:14:01.397",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 79229,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 79235,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 64762,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 31,
+                "goalGetterID": 16277,
+                "goalGetterName": "Alario",
+                "scoringTeamId": 6,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 64778,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 78,
+                "goalGetterID": 14483,
+                "goalGetterName": "Brandt, Julian",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 64779,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 79,
+                "goalGetterID": 15849,
+                "goalGetterName": " Admir Mehmedi",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 20,
+            "locationCity": "Wolfsburg",
+            "locationStadium": "Volkswagen Arena "
+        },
+        "numberOfViewers": 24354
+    },
+    {
+        "matchID": 45654,
+        "matchDateTime": "2018-03-04T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4153,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
+        "leagueSeason": 2017,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-03-04T14:30:00Z",
+        "group": {
+            "groupName": "25. Spieltag",
+            "groupOrderID": 25,
+            "groupID": 28971
+        },
+        "team1": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-03-06T21:14:25.737",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 79259,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 79260,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 3,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 64794,
+                "scoreTeam1": 0,
+                "scoreTeam2": 0,
+                "matchMinute": null,
+                "goalGetterID": 0,
+                "goalGetterName": "",
+                "scoringTeamId": null,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 64793,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 7,
+                "goalGetterID": 309,
+                "goalGetterName": "Pizarro",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 64795,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 45,
+                "goalGetterID": 228,
+                "goalGetterName": "Gomez",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 64796,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 45,
+                "goalGetterID": 228,
+                "goalGetterName": "Gomez",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 64808,
+                "scoreTeam1": 1,
+                "scoreTeam2": 3,
+                "matchMinute": 57,
+                "goalGetterID": 823,
+                "goalGetterName": "Beck",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 64809,
+                "scoreTeam1": 2,
+                "scoreTeam2": 3,
+                "matchMinute": 86,
+                "goalGetterID": 13735,
+                "goalGetterName": "Jojic",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 509,
+            "locationCity": "K\u00f6ln",
+            "locationStadium": "RheinEnergieStadion "
+        },
+        "numberOfViewers": 49000
+    },
+    {
+        "matchID": 45655,
+        "matchDateTime": "2018-03-04T18:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4153,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
+        "leagueSeason": 2017,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-03-04T17:00:00Z",
+        "group": {
+            "groupName": "25. Spieltag",
+            "groupOrderID": 25,
+            "groupID": 28971
+        },
+        "team1": {
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-03-04T20:29:20.173",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 79268,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 79270,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 4,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 64810,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 25,
+                "goalGetterID": 16424,
+                "goalGetterName": "Schwolow",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 64811,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 29,
+                "goalGetterID": 16263,
+                "goalGetterName": "Tolisso",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 64832,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 54,
+                "goalGetterID": 137,
+                "goalGetterName": "Wagner",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 64833,
+                "scoreTeam1": 0,
+                "scoreTeam2": 4,
+                "matchMinute": 69,
+                "goalGetterID": 11384,
+                "goalGetterName": "M\u00fcller, Thomas",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 966,
+            "locationCity": "Freiburg",
+            "locationStadium": "Schwarzwald-Stadion"
+        },
+        "numberOfViewers": 24000
+    }
+]

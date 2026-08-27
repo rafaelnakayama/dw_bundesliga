@@ -1,0 +1,966 @@
+[
+    {
+        "matchID": 5443,
+        "matchDateTime": "2009-12-11T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 71,
+        "leagueName": "1. Fussball-Bundesliga 2009/2010",
+        "leagueSeason": 2009,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2009-12-11T19:30:00Z",
+        "group": {
+            "groupName": "16. Spieltag",
+            "groupOrderID": 16,
+            "groupID": 11553
+        },
+        "team1": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2009-12-13T16:08:22.233",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 10213,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 10212,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeitpause"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 2223,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 8,
+                "goalGetterID": 777,
+                "goalGetterName": "Ramos",
+                "scoringTeamId": 54,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2224,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 76,
+                "goalGetterID": 851,
+                "goalGetterName": "Kroos",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2225,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 90,
+                "goalGetterID": 178,
+                "goalGetterName": "Kaplan",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2226,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 90,
+                "goalGetterID": 777,
+                "goalGetterName": "Ramos",
+                "scoringTeamId": 54,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 22,
+            "locationCity": "Berlin",
+            "locationStadium": "Olympiastadion"
+        },
+        "numberOfViewers": 40474
+    },
+    {
+        "matchID": 5444,
+        "matchDateTime": "2009-12-12T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 71,
+        "leagueName": "1. Fussball-Bundesliga 2009/2010",
+        "leagueSeason": 2009,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2009-12-12T14:30:00Z",
+        "group": {
+            "groupName": "16. Spieltag",
+            "groupOrderID": 16,
+            "groupID": 11553
+        },
+        "team1": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2009-12-12T17:21:16.28",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 10218,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 10219,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeitpause"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 2227,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 9,
+                "goalGetterID": 651,
+                "goalGetterName": "Salihovic",
+                "scoringTeamId": 175,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2237,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 61,
+                "goalGetterID": 988,
+                "goalGetterName": "Schwegler",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 24,
+            "locationCity": "Sinsheim",
+            "locationStadium": "Rhein Neckar Arena"
+        },
+        "numberOfViewers": 30150
+    },
+    {
+        "matchID": 5446,
+        "matchDateTime": "2009-12-12T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 71,
+        "leagueName": "1. Fussball-Bundesliga 2009/2010",
+        "leagueSeason": 2009,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2009-12-12T14:30:00Z",
+        "group": {
+            "groupName": "16. Spieltag",
+            "groupOrderID": 16,
+            "groupID": 11553
+        },
+        "team1": {
+            "teamId": 129,
+            "teamName": "VfL Bochum",
+            "shortName": "Bochum",
+            "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://www.openligadb.de/images/teamicons/Bayern_Muenchen.gif",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2009-12-12T17:20:59.757",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 10220,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 5,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 10221,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 3,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeitpause"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 2230,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 23,
+                "goalGetterID": 228,
+                "goalGetterName": "Gomez",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2231,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 33,
+                "goalGetterID": 1022,
+                "goalGetterName": "Mavraj",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2233,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 43,
+                "goalGetterID": 116,
+                "goalGetterName": "Olic",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2234,
+                "scoreTeam1": 0,
+                "scoreTeam2": 4,
+                "matchMinute": 50,
+                "goalGetterID": 116,
+                "goalGetterName": "Olic",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2236,
+                "scoreTeam1": 0,
+                "scoreTeam2": 5,
+                "matchMinute": 56,
+                "goalGetterID": 1023,
+                "goalGetterName": "Pranjic",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2238,
+                "scoreTeam1": 1,
+                "scoreTeam2": 5,
+                "matchMinute": 76,
+                "goalGetterID": 768,
+                "goalGetterName": "Fuchs",
+                "scoringTeamId": 129,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 25,
+            "locationCity": "Bochum",
+            "locationStadium": "rewirpower Stadion"
+        },
+        "numberOfViewers": 30748
+    },
+    {
+        "matchID": 5447,
+        "matchDateTime": "2009-12-12T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 71,
+        "leagueName": "1. Fussball-Bundesliga 2009/2010",
+        "leagueSeason": 2009,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2009-12-12T14:30:00Z",
+        "group": {
+            "groupName": "16. Spieltag",
+            "groupOrderID": 16,
+            "groupID": 11553
+        },
+        "team1": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2009-12-13T16:09:45.44",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 10222,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 5,
+                "pointsTeam2": 3,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 10223,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeitpause"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 2228,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 14,
+                "goalGetterID": 849,
+                "goalGetterName": "Haggui",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2229,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 22,
+                "goalGetterID": 925,
+                "goalGetterName": "Friend",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2232,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 36,
+                "goalGetterID": 654,
+                "goalGetterName": "Ya Konan",
+                "scoringTeamId": 55,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2244,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 58,
+                "goalGetterID": 1025,
+                "goalGetterName": "Djakpa",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2241,
+                "scoreTeam1": 4,
+                "scoreTeam2": 1,
+                "matchMinute": 68,
+                "goalGetterID": 901,
+                "goalGetterName": "Bradley",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2240,
+                "scoreTeam1": 4,
+                "scoreTeam2": 2,
+                "matchMinute": 69,
+                "goalGetterID": 654,
+                "goalGetterName": "Ya Konan",
+                "scoringTeamId": 55,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2245,
+                "scoreTeam1": 4,
+                "scoreTeam2": 3,
+                "matchMinute": 87,
+                "goalGetterID": 877,
+                "goalGetterName": "Schulz",
+                "scoringTeamId": 55,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2247,
+                "scoreTeam1": 5,
+                "scoreTeam2": 3,
+                "matchMinute": 90,
+                "goalGetterID": 849,
+                "goalGetterName": "Haggui",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 32,
+            "locationCity": "M\u00f6nchengladbach",
+            "locationStadium": "Borussia Park"
+        },
+        "numberOfViewers": 46528
+    },
+    {
+        "matchID": 5448,
+        "matchDateTime": "2009-12-12T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 71,
+        "leagueName": "1. Fussball-Bundesliga 2009/2010",
+        "leagueSeason": 2009,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2009-12-12T14:30:00Z",
+        "group": {
+            "groupName": "16. Spieltag",
+            "groupOrderID": 16,
+            "groupID": 11553
+        },
+        "team1": {
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2009-12-13T16:11:02.143",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 10224,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 10225,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeitpause"
+            }
+        ],
+        "goals": [],
+        "location": {
+            "locationID": 26,
+            "locationCity": "Freiburg",
+            "locationStadium": "badenova Stadion"
+        },
+        "numberOfViewers": 24000
+    },
+    {
+        "matchID": 5450,
+        "matchDateTime": "2009-12-12T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 71,
+        "leagueName": "1. Fussball-Bundesliga 2009/2010",
+        "leagueSeason": 2009,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2009-12-12T14:30:00Z",
+        "group": {
+            "groupName": "16. Spieltag",
+            "groupOrderID": 16,
+            "groupID": 11553
+        },
+        "team1": {
+            "teamId": 79,
+            "teamName": "1. FC N\u00fcrnberg",
+            "shortName": "N\u00fcrnberg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N\u00fcrnberg_logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 100,
+            "teamName": "Hamburger SV",
+            "shortName": "HSV",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2009-12-13T16:11:18.25",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 10226,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 4,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 10227,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeitpause"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 2235,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 47,
+                "goalGetterID": 308,
+                "goalGetterName": "Elia",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2243,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 60,
+                "goalGetterID": 45,
+                "goalGetterName": "Jansen",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2242,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 65,
+                "goalGetterID": 1024,
+                "goalGetterName": "Torun",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2239,
+                "scoreTeam1": 0,
+                "scoreTeam2": 4,
+                "matchMinute": 74,
+                "goalGetterID": 308,
+                "goalGetterName": "Elia",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 21,
+            "locationCity": "N\u00fcrnberg",
+            "locationStadium": "easyCredit Stadion"
+        },
+        "numberOfViewers": 44865
+    },
+    {
+        "matchID": 5445,
+        "matchDateTime": "2009-12-12T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 71,
+        "leagueName": "1. Fussball-Bundesliga 2009/2010",
+        "leagueSeason": 2009,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2009-12-12T17:30:00Z",
+        "group": {
+            "groupName": "16. Spieltag",
+            "groupOrderID": 16,
+            "groupID": 11553
+        },
+        "team1": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2009-12-13T17:32:54.537",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 10228,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 10229,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeitpause"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 2248,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 47,
+                "goalGetterID": 100,
+                "goalGetterName": "Kuranyi",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2249,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 72,
+                "goalGetterID": 987,
+                "goalGetterName": "Moravek",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 36,
+            "locationCity": "Bremen",
+            "locationStadium": "Weserstadion"
+        },
+        "numberOfViewers": 37000
+    },
+    {
+        "matchID": 5449,
+        "matchDateTime": "2009-12-13T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 71,
+        "leagueName": "1. Fussball-Bundesliga 2009/2010",
+        "leagueSeason": 2009,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2009-12-13T14:30:00Z",
+        "group": {
+            "groupName": "16. Spieltag",
+            "groupOrderID": 16,
+            "groupID": 11553
+        },
+        "team1": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2009-12-13T17:28:27.827",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 10254,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 10255,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeitpause"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 2250,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 11,
+                "goalGetterID": 510,
+                "goalGetterName": "Progrebnyak",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2251,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 90,
+                "goalGetterID": 1026,
+                "goalGetterName": "Polanski",
+                "scoringTeamId": 81,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 23,
+            "locationCity": "Mainz",
+            "locationStadium": "Bruchwegstadion"
+        },
+        "numberOfViewers": 20300
+    },
+    {
+        "matchID": 5442,
+        "matchDateTime": "2009-12-13T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 71,
+        "leagueName": "1. Fussball-Bundesliga 2009/2010",
+        "leagueSeason": 2009,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2009-12-13T16:30:00Z",
+        "group": {
+            "groupName": "16. Spieltag",
+            "groupOrderID": 16,
+            "groupID": 11553
+        },
+        "team1": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2009-12-13T19:22:37.087",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 10316,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 3,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 10317,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 3,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeitpause"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 2252,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 8,
+                "goalGetterID": 312,
+                "goalGetterName": "Lucas",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2253,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 10,
+                "goalGetterID": 312,
+                "goalGetterName": "Lucas",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2254,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 36,
+                "goalGetterID": 1027,
+                "goalGetterName": "Owomoyela",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2255,
+                "scoreTeam1": 1,
+                "scoreTeam2": 3,
+                "matchMinute": 55,
+                "goalGetterID": 72,
+                "goalGetterName": "Grafite",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 20,
+            "locationCity": "Wolfsburg",
+            "locationStadium": "Volkswagen Arena "
+        },
+        "numberOfViewers": 30000
+    }
+]

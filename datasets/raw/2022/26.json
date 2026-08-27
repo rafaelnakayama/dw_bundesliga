@@ -1,0 +1,888 @@
+[
+    {
+        "matchID": 64096,
+        "matchDateTime": "2023-04-01T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2023-04-01T13:30:00Z",
+        "group": {
+            "groupName": "26. Spieltag",
+            "groupOrderID": 26,
+            "groupID": 39906
+        },
+        "team1": {
+            "teamId": 80,
+            "teamName": "1. FC Union Berlin",
+            "shortName": "Union Berlin",
+            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2023-04-14T15:59:07.283",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 102239,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 102240,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 100728,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 51,
+                "goalGetterID": 18409,
+                "goalGetterName": "S. Becker",
+                "scoringTeamId": 80,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 100731,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 65,
+                "goalGetterID": 18441,
+                "goalGetterName": "K. Behrens",
+                "scoringTeamId": 80,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 100732,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 68,
+                "goalGetterID": 18470,
+                "goalGetterName": "G. Haraguchi",
+                "scoringTeamId": 80,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 82,
+            "locationCity": "Berlin",
+            "locationStadium": "Alte F\u00f6rsterei"
+        },
+        "numberOfViewers": 22012
+    },
+    {
+        "matchID": 64091,
+        "matchDateTime": "2023-03-31T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2023-03-31T18:30:00Z",
+        "group": {
+            "groupName": "26. Spieltag",
+            "groupOrderID": 26,
+            "groupID": 39906
+        },
+        "team1": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 129,
+            "teamName": "VfL Bochum",
+            "shortName": "Bochum",
+            "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2023-04-14T15:57:57.03",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 102225,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 102226,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 100712,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 13,
+                "goalGetterID": 19226,
+                "goalGetterName": "T. Asano",
+                "scoringTeamId": 129,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 100713,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 22,
+                "goalGetterID": 19488,
+                "goalGetterName": "R. Kolo Muani",
+                "scoringTeamId": 91,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 183,
+            "locationCity": "Frankfurt",
+            "locationStadium": "Commerzbank-Arena"
+        },
+        "numberOfViewers": 50000
+    },
+    {
+        "matchID": 64092,
+        "matchDateTime": "2023-04-01T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2023-04-01T13:30:00Z",
+        "group": {
+            "groupName": "26. Spieltag",
+            "groupOrderID": 26,
+            "groupID": 39906
+        },
+        "team1": {
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2023-04-14T15:58:09.957",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 102237,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 102238,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 100727,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 52,
+                "goalGetterID": 18337,
+                "goalGetterName": "V. Grifo",
+                "scoringTeamId": 112,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 100734,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 77,
+                "goalGetterID": 18763,
+                "goalGetterName": "J. Ngankam",
+                "scoringTeamId": 54,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 516,
+            "locationCity": "Freiburg",
+            "locationStadium": "MAGE SOLAR Stadion"
+        },
+        "numberOfViewers": 34700
+    },
+    {
+        "matchID": 64094,
+        "matchDateTime": "2023-04-01T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2023-04-01T13:30:00Z",
+        "group": {
+            "groupName": "26. Spieltag",
+            "groupOrderID": 26,
+            "groupID": 39906
+        },
+        "team1": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2023-04-14T15:58:30.847",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 102235,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 3,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 102236,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 100723,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 9,
+                "goalGetterID": 18513,
+                "goalGetterName": "M. Ingvartsen",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 100729,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 57,
+                "goalGetterID": 19846,
+                "goalGetterName": "L. Ajorque",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 100733,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 67,
+                "goalGetterID": 18674,
+                "goalGetterName": "D. Kohr",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 478,
+            "locationCity": "Leipzig",
+            "locationStadium": "Red Bull Arena"
+        },
+        "numberOfViewers": 45597
+    },
+    {
+        "matchID": 64095,
+        "matchDateTime": "2023-04-01T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2023-04-01T13:30:00Z",
+        "group": {
+            "groupName": "26. Spieltag",
+            "groupOrderID": 26,
+            "groupID": 39906
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2023-04-14T15:58:49.02",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 102233,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 3,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 102234,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 100726,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 50,
+                "goalGetterID": 19129,
+                "goalGetterName": "J. Frimpong",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 100730,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 61,
+                "goalGetterID": 18494,
+                "goalGetterName": "F. Wirtz",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 100736,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 90,
+                "goalGetterID": 19316,
+                "goalGetterName": "S. Azmoun",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 33,
+            "locationCity": "Gelsenkirchen",
+            "locationStadium": "Veltins Arena"
+        },
+        "numberOfViewers": 62271
+    },
+    {
+        "matchID": 64098,
+        "matchDateTime": "2023-04-01T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2023-04-01T13:30:00Z",
+        "group": {
+            "groupName": "26. Spieltag",
+            "groupOrderID": 26,
+            "groupID": 39906
+        },
+        "team1": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2023-04-14T15:59:20.507",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 102241,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 102242,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 100722,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 2,
+                "goalGetterID": 18591,
+                "goalGetterName": "M. Arnold",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 100724,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 32,
+                "goalGetterID": 19762,
+                "goalGetterName": "M. Berisha",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 100735,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 85,
+                "goalGetterID": 15274,
+                "goalGetterName": "L. Waldschmidt",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 100737,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 90,
+                "goalGetterID": 19605,
+                "goalGetterName": "F. Nmecha",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 20,
+            "locationCity": "Wolfsburg",
+            "locationStadium": "Volkswagen Arena "
+        },
+        "numberOfViewers": 22107
+    },
+    {
+        "matchID": 64090,
+        "matchDateTime": "2023-04-01T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2023-04-01T16:30:00Z",
+        "group": {
+            "groupName": "26. Spieltag",
+            "groupOrderID": 26,
+            "groupID": 39906
+        },
+        "team1": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2023-04-14T15:59:32.9",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 102243,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 4,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 102244,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 100738,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 13,
+                "goalGetterID": 20031,
+                "goalGetterName": "G. Kobel",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 100739,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 18,
+                "goalGetterID": 15523,
+                "goalGetterName": " T. M\u00fcller",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 100740,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 23,
+                "goalGetterID": 15523,
+                "goalGetterName": " T. M\u00fcller",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 100741,
+                "scoreTeam1": 4,
+                "scoreTeam2": 0,
+                "matchMinute": 50,
+                "goalGetterID": 18581,
+                "goalGetterName": "K. Coman",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 100742,
+                "scoreTeam1": 4,
+                "scoreTeam2": 1,
+                "matchMinute": 72,
+                "goalGetterID": 18556,
+                "goalGetterName": "E. Can",
+                "scoringTeamId": 7,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 100743,
+                "scoreTeam1": 4,
+                "scoreTeam2": 2,
+                "matchMinute": 90,
+                "goalGetterID": 19156,
+                "goalGetterName": "D. Malen",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 34,
+            "locationCity": "M\u00fcnchen",
+            "locationStadium": "Allianz Arena"
+        },
+        "numberOfViewers": 75000
+    },
+    {
+        "matchID": 64093,
+        "matchDateTime": "2023-04-02T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2023-04-02T13:30:00Z",
+        "group": {
+            "groupName": "26. Spieltag",
+            "groupOrderID": 26,
+            "groupID": 39906
+        },
+        "team1": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2023-04-18T14:35:27.167",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 102409,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 102410,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [],
+        "location": {
+            "locationID": 509,
+            "locationCity": "K\u00f6ln",
+            "locationStadium": "RheinEnergieStadion "
+        },
+        "numberOfViewers": 50000
+    },
+    {
+        "matchID": 64097,
+        "matchDateTime": "2023-04-02T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2023-04-02T15:30:00Z",
+        "group": {
+            "groupName": "26. Spieltag",
+            "groupOrderID": 26,
+            "groupID": 39906
+        },
+        "team1": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2023-04-14T15:59:55.14",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 102411,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 102412,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 100925,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 50,
+                "goalGetterID": 18327,
+                "goalGetterName": "A. Kramaric",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 100926,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 52,
+                "goalGetterID": 18529,
+                "goalGetterName": "C. Baumgartner",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 100927,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 76,
+                "goalGetterID": 19760,
+                "goalGetterName": "A. Pieper",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 36,
+            "locationCity": "Bremen",
+            "locationStadium": "Weserstadion"
+        },
+        "numberOfViewers": 41000
+    }
+]

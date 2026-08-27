@@ -1,5 +1,5 @@
 import requests
-import pyodbc
+#import pyodbc
 import json
 import time
 
@@ -8,7 +8,6 @@ from pathlib import Path
 seasons = range(2006, 2027) # We want all seasons from 2006 - 2026
 matchday = range(1,35) # We want all the matchdays from the season
 data_path = Path(__file__).parent.parent / "datasets"
-dataframe_path = Path(__file__).parent.parent / "datasets/dataframe.json"
 
 def create_url(seasons_param, matchday_param):
 
@@ -22,38 +21,25 @@ def create_url(seasons_param, matchday_param):
     request.raise_for_status()
     return request.json()
 
-def loop_matches(seasons_loop, matchday_loop):
+def loop_and_write(seasons_loop, matchday_loop):
 
     """
     This function loops through the matchdays and seasons
-    going all the way to select all data
+    going all the way to select all data, and writing it to
+    a .json file at each call
     """
-    
-    store_data = []
 
     for i in seasons_loop:
         for j in matchday_loop:
+            
             day = create_url(i, j)
-            store_data.extend(day)
-            time.sleep(1.0)
-    
-    return store_data
-
-def write_down():
-
-    """
-    This function saves all the data gathered by the
-    'loop_matches' function's list
-    """
-
-    dataframe = loop_matches(seasons, matchday)
-    folder_path = Path(data_path)
-    file_path = folder_path / "dataframe.json"
-
-    folder_path.mkdir(parents=True, exist_ok=True)
-
-    with open (file_path, "w") as file:
-        json.dump(dataframe, file , indent=4)
+            file_path = data_path / "raw" / str(i) / f"{j}.json"
+            file_path.parent.mkdir(parents=True, exist_ok=True)
+        
+            with open (file_path, "w") as file:
+                json.dump(day, file , indent=4)
+                
+            time.sleep(0.3)
 
 def load_bronze():
 
@@ -107,12 +93,5 @@ def load_bronze():
 
 
 if __name__ == "__main__":
-    
-    """
-    It takes about 13 minutes to generate the .json file.
-    there are 20 seasons x 35 matchdays, each matchday 
-    from a season is a request, and time.sleep(1.0) makes
-    each request sleep for a second before doing the next one
-    """
 
-    write_down()
+    loop_and_write(seasons, matchday)
