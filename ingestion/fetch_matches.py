@@ -1,8 +1,7 @@
 import requests
-#import pyodbc
+import pyodbc
 import json
 import time
-
 from pathlib import Path
 
 seasons = range(2006, 2027) # We want all seasons from 2006 - 2026
@@ -20,11 +19,12 @@ def create_url(seasons_param, matchday_param):
     request = requests.get(url, timeout=10)
     request.raise_for_status()
     return request.json()
+    
 
 def loop_and_write(seasons_loop, matchday_loop):
 
     """
-    This function loops through the matchdays and seasons
+    This function loops through each matchday and each season,
     going all the way to select all data, and writing it to
     a .json file at each call
     """
@@ -40,11 +40,12 @@ def loop_and_write(seasons_loop, matchday_loop):
                 json.dump(day, file , indent=4)
                 
             time.sleep(0.3)
+            
 
 def load_bronze():
 
     """
-    Loads the data from dataframe.json to the bronze layer
+    Loads the data from datasets / raw to the bronze layer
     """
 
     connector = pyodbc.connect(
@@ -57,39 +58,40 @@ def load_bronze():
 
     cursor = connector.cursor()
 
-    with open(dataframe_path) as file:
-        data = json.load(file)
+    for file_path in data_path.glob("raw/*/*.json"):
+        with open(file_path) as file:
+            data = json.load(file)
 
-    for match in data:
-        cursor.execute("""
-        INSERT INTO bronze.dataframe (
-            matchID, matchDateTime, timeZoneID, leagueId, leagueName, 
-            leagueSeason, leagueShortcut, matchDateTimeUTC, [group], 
-            team1, team2, lastUpdateDateTime, matchIsFinished, 
-            matchResults, goals, [location], numberOfViewers
+        for match in data:
+            cursor.execute("""
+            INSERT INTO bronze.dataframe (
+                matchID, matchDateTime, timeZoneID, leagueId, leagueName, 
+                leagueSeason, leagueShortcut, matchDateTimeUTC, [group], 
+                team1, team2, lastUpdateDateTime, matchIsFinished, 
+                matchResults, goals, [location], numberOfViewers
+            )
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """, 
+            match['matchID'], 
+            match['matchDateTime'], 
+            match['timeZoneID'], 
+            match['leagueId'], 
+            match['leagueName'], 
+            match['leagueSeason'], 
+            match['leagueShortcut'], 
+            match['matchDateTimeUTC'], 
+            json.dumps(match['group']), 
+            json.dumps(match['team1']), 
+            json.dumps(match['team2']), 
+            match['lastUpdateDateTime'], 
+            match['matchIsFinished'], 
+            json.dumps(match['matchResults']), 
+            json.dumps(match['goals']), 
+            json.dumps(match['location']), 
+            match['numberOfViewers']
         )
-            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
-        """, 
-        match['matchID'], 
-        match['matchDateTime'], 
-        match['timeZoneID'], 
-        match['leagueId'], 
-        match['leagueName'], 
-        match['leagueSeason'], 
-        match['leagueShortcut'], 
-        match['matchDateTimeUTC'], 
-        json.dumps(match['group']), 
-        json.dumps(match['team1']), 
-        json.dumps(match['team2']), 
-        match['lastUpdateDateTime'], 
-        match['matchIsFinished'], 
-        json.dumps(match['matchResults']), 
-        json.dumps(match['goals']), 
-        json.dumps(match['location']), 
-        match['numberOfViewers']
-    )
-        
-    connector.commit()
+            
+        connector.commit()
 
 
 if __name__ == "__main__":
