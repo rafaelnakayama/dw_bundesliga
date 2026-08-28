@@ -1,51 +1,5 @@
 [
     {
-        "matchID": 246,
-        "matchDateTime": "2007-03-30T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 6,
-        "leagueName": "1. Fussball-Bundesliga 2006/2007",
-        "leagueSeason": 2006,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2007-03-30T18:30:00Z",
-        "group": {
-            "groupName": "27. Spieltag",
-            "groupOrderID": 27,
-            "groupID": 11013
-        },
-        "team1": {
-            "teamId": 83,
-            "teamName": "DSC Arminia Bielefeld",
-            "shortName": "Bielefeld",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2008-10-02T22:15:52.167",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 1106,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 0,
-                "resultTypeKind": "Unknown",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 247,
         "matchDateTime": "2007-03-31T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -80,6 +34,52 @@
                 "resultID": 1107,
                 "resultName": "Endergebnis",
                 "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 0,
+                "resultTypeKind": "Unknown",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 246,
+        "matchDateTime": "2007-03-30T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 6,
+        "leagueName": "1. Fussball-Bundesliga 2006/2007",
+        "leagueSeason": 2006,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2007-03-30T18:30:00Z",
+        "group": {
+            "groupName": "27. Spieltag",
+            "groupOrderID": 27,
+            "groupID": 11013
+        },
+        "team1": {
+            "teamId": 83,
+            "teamName": "DSC Arminia Bielefeld",
+            "shortName": "Bielefeld",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2008-10-02T22:15:52.167",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 1106,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
                 "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 0,

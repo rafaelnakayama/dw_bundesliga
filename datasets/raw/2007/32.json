@@ -1,5 +1,51 @@
 [
     {
+        "matchID": 1218,
+        "matchDateTime": "2008-05-07T20:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2007/2008",
+        "leagueSeason": 2007,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2008-05-07T18:00:00Z",
+        "group": {
+            "groupName": "32. Spieltag",
+            "groupOrderID": 32,
+            "groupID": 10946
+        },
+        "team1": {
+            "teamId": 79,
+            "teamName": "1. FC N\u00fcrnberg",
+            "shortName": "N\u00fcrnberg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N\u00fcrnberg_logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 107,
+            "teamName": "MSV Duisburg",
+            "shortName": "Duisburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/en/c/c8/Msv_duisburg%28new%29.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2008-10-02T22:17:59.68",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 1885,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 0,
+                "resultTypeKind": "Unknown",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 1210,
         "matchDateTime": "2008-05-06T20:00:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -357,52 +403,6 @@
                 "resultName": "Endergebnis",
                 "pointsTeam1": 2,
                 "pointsTeam2": 3,
-                "resultOrderID": 1,
-                "resultTypeID": 0,
-                "resultTypeKind": "Unknown",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 1218,
-        "matchDateTime": "2008-05-07T20:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2007/2008",
-        "leagueSeason": 2007,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2008-05-07T18:00:00Z",
-        "group": {
-            "groupName": "32. Spieltag",
-            "groupOrderID": 32,
-            "groupID": 10946
-        },
-        "team1": {
-            "teamId": 79,
-            "teamName": "1. FC N\u00fcrnberg",
-            "shortName": "N\u00fcrnberg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N\u00fcrnberg_logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 107,
-            "teamName": "MSV Duisburg",
-            "shortName": "Duisburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/en/c/c8/Msv_duisburg%28new%29.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2008-10-02T22:17:59.68",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 1885,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 0,
                 "resultTypeKind": "Unknown",

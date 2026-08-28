@@ -1,5 +1,51 @@
 [
     {
+        "matchID": 305,
+        "matchDateTime": "2007-05-12T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 6,
+        "leagueName": "1. Fussball-Bundesliga 2006/2007",
+        "leagueSeason": 2006,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2007-05-12T13:30:00Z",
+        "group": {
+            "groupName": "33. Spieltag",
+            "groupOrderID": 33,
+            "groupID": 11019
+        },
+        "team1": {
+            "teamId": 129,
+            "teamName": "VfL Bochum",
+            "shortName": "Bochum",
+            "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2008-10-02T22:16:38.587",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 1215,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 3,
+                "resultOrderID": 1,
+                "resultTypeID": 0,
+                "resultTypeKind": "Unknown",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 301,
         "matchDateTime": "2007-05-12T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -170,52 +216,6 @@
         "matchResults": [
             {
                 "resultID": 1214,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 3,
-                "resultOrderID": 1,
-                "resultTypeID": 0,
-                "resultTypeKind": "Unknown",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 305,
-        "matchDateTime": "2007-05-12T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 6,
-        "leagueName": "1. Fussball-Bundesliga 2006/2007",
-        "leagueSeason": 2006,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2007-05-12T13:30:00Z",
-        "group": {
-            "groupName": "33. Spieltag",
-            "groupOrderID": 33,
-            "groupID": 11019
-        },
-        "team1": {
-            "teamId": 129,
-            "teamName": "VfL Bochum",
-            "shortName": "Bochum",
-            "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2008-10-02T22:16:38.587",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 1215,
                 "resultName": "Endergebnis",
                 "pointsTeam1": 2,
                 "pointsTeam2": 3,

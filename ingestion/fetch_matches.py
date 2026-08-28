@@ -4,6 +4,10 @@ import json
 import time
 from pathlib import Path
 
+import os
+from dotenv import load_dotenv
+load_dotenv()
+
 seasons = range(2006, 2027) # We want all seasons from 2006 - 2026
 matchday = range(1,35) # We want all the matchdays from the season
 data_path = Path(__file__).parent.parent / "datasets"
@@ -49,11 +53,12 @@ def load_bronze():
     """
 
     connector = pyodbc.connect(
-        "DRIVER={ODBC Driver 17 for SQL Server};"
-        "SERVER=localhost;"
-        "DATABASE=dw_hgg_database;"
-        "UID=sa;"
-        "PWD=passwordblabla;" # Insert password here
+        "DRIVER={ODBC Driver 18 for SQL Server};"
+        f"SERVER={os.environ['DB_SERVER']};"
+        f"DATABASE={os.environ['DB_DATABASE']};"
+        f"UID={os.environ['DB_USER']};"
+        f"PWD={os.environ['DB_PASSWORD']};"
+        "TrustServerCertificate=yes"
     )
 
     cursor = connector.cursor()
@@ -96,4 +101,5 @@ def load_bronze():
 
 if __name__ == "__main__":
 
-    loop_and_write(seasons, matchday)
+    #loop_and_write(seasons, matchday)
+    load_bronze()

@@ -1,51 +1,5 @@
 [
     {
-        "matchID": 824,
-        "matchDateTime": "2008-02-01T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2007/2008",
-        "leagueSeason": 2007,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2008-02-01T19:30:00Z",
-        "group": {
-            "groupName": "18. Spieltag",
-            "groupOrderID": 18,
-            "groupID": 10932
-        },
-        "team1": {
-            "teamId": 102,
-            "teamName": "Hansa Rostock",
-            "shortName": "Rostock",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/F.C._Hansa_Rostock_Logo.svg/960px-F.C._Hansa_Rostock_Logo.svg.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2008-10-02T22:17:33.977",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 1612,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 0,
-                "resultTypeKind": "Unknown",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 826,
         "matchDateTime": "2008-02-02T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -81,6 +35,52 @@
                 "resultName": "Endergebnis",
                 "pointsTeam1": 2,
                 "pointsTeam2": 3,
+                "resultOrderID": 1,
+                "resultTypeID": 0,
+                "resultTypeKind": "Unknown",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 824,
+        "matchDateTime": "2008-02-01T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2007/2008",
+        "leagueSeason": 2007,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2008-02-01T19:30:00Z",
+        "group": {
+            "groupName": "18. Spieltag",
+            "groupOrderID": 18,
+            "groupID": 10932
+        },
+        "team1": {
+            "teamId": 102,
+            "teamName": "Hansa Rostock",
+            "shortName": "Rostock",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/F.C._Hansa_Rostock_Logo.svg/960px-F.C._Hansa_Rostock_Logo.svg.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2008-10-02T22:17:33.977",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 1612,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
                 "resultOrderID": 1,
                 "resultTypeID": 0,
                 "resultTypeKind": "Unknown",

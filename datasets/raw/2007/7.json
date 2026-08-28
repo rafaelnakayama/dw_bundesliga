@@ -1,51 +1,5 @@
 [
     {
-        "matchID": 684,
-        "matchDateTime": "2007-09-26T20:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2007/2008",
-        "leagueSeason": 2007,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2007-09-26T18:00:00Z",
-        "group": {
-            "groupName": "7. Spieltag",
-            "groupOrderID": 7,
-            "groupID": 10921
-        },
-        "team1": {
-            "teamId": 83,
-            "teamName": "DSC Arminia Bielefeld",
-            "shortName": "Bielefeld",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 55,
-            "teamName": "Hannover 96",
-            "shortName": "Hannover",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2008-10-02T22:16:55.777",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 1399,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 0,
-                "resultTypeKind": "Unknown",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 682,
         "matchDateTime": "2007-09-25T20:00:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -356,6 +310,52 @@
                 "resultID": 1403,
                 "resultName": "Endergebnis",
                 "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 0,
+                "resultTypeKind": "Unknown",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 684,
+        "matchDateTime": "2007-09-26T20:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2007/2008",
+        "leagueSeason": 2007,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2007-09-26T18:00:00Z",
+        "group": {
+            "groupName": "7. Spieltag",
+            "groupOrderID": 7,
+            "groupID": 10921
+        },
+        "team1": {
+            "teamId": 83,
+            "teamName": "DSC Arminia Bielefeld",
+            "shortName": "Bielefeld",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2008-10-02T22:16:55.777",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 1399,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
                 "pointsTeam2": 2,
                 "resultOrderID": 1,
                 "resultTypeID": 0,

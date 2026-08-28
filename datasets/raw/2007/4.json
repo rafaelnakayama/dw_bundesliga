@@ -1,51 +1,5 @@
 [
     {
-        "matchID": 654,
-        "matchDateTime": "2007-09-02T17:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2007/2008",
-        "leagueSeason": 2007,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2007-09-02T15:00:00Z",
-        "group": {
-            "groupName": "4. Spieltag",
-            "groupOrderID": 4,
-            "groupID": 10918
-        },
-        "team1": {
-            "teamId": 100,
-            "teamName": "Hamburger SV",
-            "shortName": "HSV",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2008-10-02T22:16:52.527",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 1349,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 0,
-                "resultTypeKind": "Unknown",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 652,
         "matchDateTime": "2007-08-31T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -357,6 +311,52 @@
                 "resultName": "Endergebnis",
                 "pointsTeam1": 3,
                 "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 0,
+                "resultTypeKind": "Unknown",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 654,
+        "matchDateTime": "2007-09-02T17:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2007/2008",
+        "leagueSeason": 2007,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2007-09-02T15:00:00Z",
+        "group": {
+            "groupName": "4. Spieltag",
+            "groupOrderID": 4,
+            "groupID": 10918
+        },
+        "team1": {
+            "teamId": 100,
+            "teamName": "Hamburger SV",
+            "shortName": "HSV",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2008-10-02T22:16:52.527",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 1349,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 0,
                 "resultTypeKind": "Unknown",
