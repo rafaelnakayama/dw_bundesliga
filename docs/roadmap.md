@@ -49,8 +49,9 @@ ready. Separately, the pipeline currently always does a full load (fetches
 and reloads all seasons since 2006 every run, ~13 minutes, ~700+ API calls);
 this is being redesigned into bootstrap-once-then-incremental, using a field
 already present per match in the API response to detect real changes instead
-of blindly re-fetching everything, with `proc_load_bronze.sql` and
-`proc_load_silver.sql` changing from drop-and-rebuild to upsert. The owner
+of blindly re-fetching everything, with the bronze and silver procedures
+changing from drop-and-rebuild to upsert. The bronze half of that has since
+landed (see Phase 4); the fetch window and the silver half have not. The owner
 wants eventual hands-on experience with CI/CD, Airflow, Spark, Terraform, and
 cloud environments as part of a broader Data Engineering career path beyond
 this project, but for *this* project specifically, only CI/CD (a scheduled
@@ -118,8 +119,9 @@ at a time).
       you'll need this to be configurable anyway once the script runs inside
       a container in Phase 3, where `localhost` stops meaning what you think
       it means.
-- [x] Finish `load_bronze()` on the fix branch and wire it into `main()` so
-      `write_down()` → `load_bronze()` runs end-to-end again.
+- [x] Finish the Python loader on the fix branch and wire it into `main()` so
+      the fetch → load chain runs end-to-end again. The function is now called
+      `load_json()`, to stop colliding with the SQL procedure.
 
 Done when: running `python fetch_matches.py` on your bare Mac populates
 `bronze.dataframe` inside the Dockerized SQL Server.
@@ -159,18 +161,33 @@ drop-and-rebuild.
 > later") is gated on *this* phase landing, not on Phase 6 — building gold
 > against a schema that might still reshape here risks redoing it.
 
-- [ ] Research (this is the "still have to study" part, on purpose):
+- [x] Research (this is the "still have to study" part, on purpose):
       idempotent ETL design, `MERGE`/upsert patterns in T-SQL, and how to use
       a field you're already storing per match to detect "did this row
-      actually change" without re-fetching everything.
+      actually change" without re-fetching everything. Landed on: the mirror
+      model (one row per match), a `MERGE` fed from a staging table, and
+      `lastUpdateDateTime` as the change marker. One gap found: that field
+      only answers the question *after* a fetch, so it solves the load side
+      and not the fetch side.
 - [ ] Redesign `fetch_matches.py` so a normal run only touches a small,
-      recent window (e.g. current season) instead of 2006 → now.
-- [ ] Rewrite `proc_load_bronze.sql` and `proc_load_silver.sql` — currently
-      both start with a full `DROP TABLE`/rebuild. They need an upsert path
-      that doesn't destroy what's already there.
-- [ ] Keep the full-load path around, but make it something you trigger
-      explicitly (first-ever bootstrap, or a manual disaster-recovery
-      rebuild), not the default behavior.
+      recent window (e.g. current season) instead of 2006 → now. Now the only
+      expensive part of a run: the load is down to 9 seconds, the fetch is
+      still ~13 minutes and 714 API calls. Has to land before Phase 6, since a
+      daily workflow would otherwise hammer a free public API.
+- [x] Rewrite the bronze load. `proc_load_bronze.sql` split into
+      `proc_init_bronze.sql` (`bronze.init_bronze`, idempotent DDL that creates
+      only what is missing and never drops) and `proc_merge_bronze.sql`, which
+      upserts from `bronze.dataframe_staging` into `bronze.dataframe` on the
+      new `matchID` primary key.
+- [ ] Rewrite `proc_load_silver.sql`, which still starts with a full
+      `DROP TABLE`/rebuild. Worth being precise about what is wrong with it:
+      it is already *idempotent* (it rebuilds deterministically from bronze in
+      seconds), it just is not *incremental*. Only the first property was ever
+      broken, which is why this ranks below the fetch window.
+- [x] Keep the full-load path around, but make it something you trigger
+      explicitly. It is `scripts/bronze/rebuild_bronze.sql`: drops both bronze
+      tables and calls `bronze.init_bronze` to recreate them empty. Nothing in
+      a normal run touches it.
 
 Done when: re-running the pipeline on a day with no new match results is
 fast and makes zero destructive changes to existing rows.
