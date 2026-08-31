@@ -1,5 +1,6 @@
 import requests
 import pyodbc
+import datetime
 import json
 import re
 import time
@@ -9,10 +10,22 @@ import os
 from dotenv import load_dotenv
 load_dotenv()
 
-seasons = range(2006, 2027) # We want all seasons from 2006 - 2026
+seasons = range(2006, 2027) # full range, used for the one-off backfill
 matchday = range(1,35) # We want all the matchdays from the season
 data_path = Path(__file__).parent.parent / "datasets"
 scripts_path = Path(__file__).parent.parent / "scripts"
+
+def current_season():
+
+    """
+    The season a normal run should fetch. A Bundesliga season crosses the year
+    boundary (2026 runs from August 2026 to May 2027), so datetime.now().year
+    is wrong from January through July.
+    """
+
+    today = datetime.date.today()
+    return today.year if today.month >= 7 else today.year - 1
+
 
 def create_url(seasons_param, matchday_param):
 
@@ -191,5 +204,11 @@ def load_json():
 if __name__ == "__main__":
 
     deploy_schema()
-    loop_and_write(seasons, matchday)
+
+    # a normal run touches one season. BACKFILL=1 fetches every season since
+    # 2006, which is the one-off bootstrap and takes around thirteen minutes.
+    if os.environ.get("BACKFILL") == "1":
+        loop_and_write(seasons, matchday)
+    else:
+        loop_and_write(range(current_season(), current_season() + 1), matchday)
     load_json()

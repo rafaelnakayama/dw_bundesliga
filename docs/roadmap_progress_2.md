@@ -115,26 +115,31 @@ Working today, verified:
 | raw files | written in a stable order, so a git diff means real change |
 | startup race | retry loop, confirmed firing in a real cold start |
 
-Still a full load on every run: `seasons = range(2006, 2027)` at line 11 of
-`fetch_matches.py` is untouched, so each run is ~13 minutes and 714 API calls.
+### Phase 4 closed in the same session
 
-### Next session
+The remaining item turned out to be five lines, not the research task the
+roadmap had budgeted for. `current_season()` returns the year when the month is
+July or later and the year before that otherwise, because a Bundesliga season
+crosses the year boundary; `main()` passes a one-season range instead of the
+module-level `seasons`.
 
-Two modes instead of one range. The problem with simply narrowing it is that
-the same range does the backfill: point it at the current season and the first
-ever run has no history to load. So the season range becomes a parameter,
-defaulting to the current season, with the full 2006 → now range reachable as
-an explicit bootstrap. Same shape as `rebuild_bronze.sql` being the explicit
-destructive path next to the idempotent `bronze.init_bronze`.
+The objection that killed the naive version, raised before any code was
+written: the same range does the backfill, so narrowing it leaves the first
+ever run with no history to load. `BACKFILL=1` keeps the full range reachable
+without editing code, which matters because the container is the delivery
+mechanism and editing a call inside an image is not a workflow.
 
-Two things to get right:
+Measured: a run went from ~13 minutes and 714 API calls to 11 seconds and 34.
+Two consecutive runs left `bronze` at 6426 rows with an identical checksum,
+which is the first time idempotency was proven through the container rather
+than host-native.
 
-- The current season is not `datetime.now().year`. Bundesliga 2026 runs from
-  August 2026 to May 2027, so that expression is wrong from January through
-  July. Something keyed on the month is needed.
-- Run `docker compose up` twice in a row afterwards. Idempotency has been
-  verified three times host-native but only once through the container. That
-  test costs 26 minutes today and about 40 seconds once the window lands.
+## Still open
 
-After that, Phase 5, which is a decision and not code, and the actual blocker
-for CI/CD.
+- **Phase 5.** A decision, not code, and the real blocker for CI/CD. Ephemeral
+  runners mean an `mssql` living inside the CI job defeats every bit of the
+  idempotency work. The options are an always-on machine, a persistent managed
+  database, or decoupling "keep the raw data fresh" from "load it".
+- **Phase 6**, the scheduled workflow, which is straightforward once Phase 5 is
+  answered.
+- **Gold**, still a placeholder file, and the Shiny dashboard after it.

@@ -146,16 +146,17 @@ destroys what is already loaded.
       `bronze.dataframe_staging` on the new `matchID` primary key.
 - [x] Keep the full-load path around but explicit:
       `scripts/bronze/rebuild_bronze.sql`, manual only.
-- [ ] Narrow the fetch window. `loop_and_write` still walks 2006 → now on every
-      run, and that is the entire remaining cost. Make the season range a
-      parameter defaulting to the current season, keeping the full range as an
-      explicit bootstrap.
-
-      Mind the season boundary: Bundesliga 2026 runs from August 2026 to May
-      2027, so `datetime.now().year` is wrong from January through July.
+- [x] Narrow the fetch window. A normal run fetches the current season only,
+      34 calls instead of 714, which took a run from thirteen minutes to
+      eleven seconds. `current_season()` keys off the month, since a Bundesliga
+      season crosses the year boundary and `datetime.now().year` is wrong from
+      January through July. `BACKFILL=1` still fetches every season since 2006,
+      the same explicit-escape-hatch shape as `rebuild_bronze.sql`.
 
 Done when: a normal run fetches one season instead of twenty-one, and
-re-running on a day with no new results changes nothing.
+re-running on a day with no new results changes nothing. **Met.** Two
+consecutive `docker compose run` produced an identical checksum, verified
+through the container rather than host-native.
 
 ### Cut on purpose
 
