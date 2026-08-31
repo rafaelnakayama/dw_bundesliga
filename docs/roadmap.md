@@ -133,11 +133,11 @@ Docker itself. This is the option-B call you already made.
 
 - [ ] Write a `Dockerfile` for the ingestion script (Python + `unixODBC` +
       `msodbcsql` + `requirements.txt`, baked in once).
-- [ ] Add it as a second service in `docker-compose.yml`, same network as
+- [x] Add it as a second service in `docker-compose.yml`, same network as
       `mssql`. Inside that network, containers address each other by service
       name, not `localhost` — this is exactly why the env-var connection
       string from Phase 2 matters now.
-- [ ] Handle the startup race: the `ingestion` container can start before
+- [x] Handle the startup race: the `ingestion` container can start before
       `mssql` has finished initializing. Look into `depends_on` +
       healthchecks in Compose, and/or a retry loop on the Python side.
 - [ ] Mount your local `ingestion/` folder as a volume during development so

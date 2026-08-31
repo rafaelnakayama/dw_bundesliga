@@ -22,6 +22,12 @@ services:
     build: . # Colocar . para casos em que o compose ta na mesma pasta
     env_file: .env
     restart: no
+    volumes:
+      # datasets fica fora da imagem (714 arquivos) e entra por montagem
+      - ./datasets:/app/datasets
+      # durante o desenvolvimento, editar o codigo no host nao exige rebuild
+      - ./ingestion:/app/ingestion
+      - ./scripts:/app/scripts
   
 volumes:
   mssql_data:

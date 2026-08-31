@@ -1,6 +1,7 @@
 import requests
 import pyodbc
 import json
+import re
 import time
 from pathlib import Path
 
@@ -11,6 +12,7 @@ load_dotenv()
 seasons = range(2006, 2027) # We want all seasons from 2006 - 2026
 matchday = range(1,35) # We want all the matchdays from the season
 data_path = Path(__file__).parent.parent / "datasets"
+scripts_path = Path(__file__).parent.parent / "scripts"
 
 def create_url(seasons_param, matchday_param):
 
@@ -58,6 +60,79 @@ def as_json(value):
     return json.dumps(value) if value is not None else None
 
 
+def connect(database):
+
+    """
+    Opens a connection, retrying until SQL Server answers. Compose's depends_on
+    only waits for the container to start, and the server accepts TCP a good
+    while before it is ready to serve, so without this the ingestion container
+    dies on the first run of a fresh stack.
+    """
+
+    connection_string = (
+        "DRIVER={ODBC Driver 18 for SQL Server};"
+        f"SERVER={os.environ['DB_SERVER']};"
+        f"DATABASE={database};"
+        f"UID={os.environ['DB_USER']};"
+        f"PWD={os.environ['DB_PASSWORD']};"
+        "TrustServerCertificate=yes"
+    )
+
+    for attempt in range(1, 31):
+        try:
+            return pyodbc.connect(connection_string, timeout=5)
+        except pyodbc.Error:
+            if attempt == 30:
+                raise
+            print(f">>> Waiting for {os.environ['DB_SERVER']} ({attempt}/30)")
+            time.sleep(2)
+
+
+def run_sql_file(cursor, file_path):
+
+    """
+    Executes a .sql file one batch at a time. GO is not T-SQL, it is a batch
+    separator that sqlcmd understands and pyodbc does not, so the file has to
+    be split on it before anything is sent.
+    """
+
+    batches = re.split(
+        r"^\s*GO\s*$", file_path.read_text(), flags=re.MULTILINE | re.IGNORECASE
+    )
+
+    for batch in batches:
+        if batch.strip():
+            cursor.execute(batch)
+
+
+def deploy_schema():
+
+    """
+    Applies the database, the schemas and the stored procedures, so a clean
+    clone reaches a working database with nothing run by hand. Every script
+    used here is idempotent; the destructive ones (init_database.sql and
+    rebuild_bronze.sql) are deliberately left out.
+    """
+
+    # CREATE DATABASE cannot run inside a transaction, hence autocommit
+    with connect("master") as connector:
+        connector.autocommit = True
+        print(">>> Applying: init_schemas.sql")
+        run_sql_file(connector.cursor(), scripts_path / "init" / "init_schemas.sql")
+
+    procedures = (
+        Path("bronze") / "proc_init_bronze.sql",
+        Path("bronze") / "proc_merge_bronze.sql",
+        Path("silver") / "proc_load_silver.sql",
+    )
+
+    with connect(os.environ["DB_DATABASE"]) as connector:
+        connector.autocommit = True
+        for procedure in procedures:
+            print(f">>> Applying: {procedure.name}")
+            run_sql_file(connector.cursor(), scripts_path / procedure)
+
+
 def load_json():
 
     """
@@ -66,14 +141,7 @@ def load_json():
     twice on unchanged data leaves the bronze layer exactly as it was.
     """
 
-    connector = pyodbc.connect(
-        "DRIVER={ODBC Driver 18 for SQL Server};"
-        f"SERVER={os.environ['DB_SERVER']};"
-        f"DATABASE={os.environ['DB_DATABASE']};"
-        f"UID={os.environ['DB_USER']};"
-        f"PWD={os.environ['DB_PASSWORD']};"
-        "TrustServerCertificate=yes"
-    )
+    connector = connect(os.environ["DB_DATABASE"])
 
     cursor = connector.cursor()
 
@@ -122,5 +190,6 @@ def load_json():
 
 if __name__ == "__main__":
 
+    deploy_schema()
     loop_and_write(seasons, matchday)
     load_json()
