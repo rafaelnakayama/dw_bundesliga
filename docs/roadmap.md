@@ -7,63 +7,49 @@ phase assumes the previous one actually works before you build on top of it.
 
 ## Current state
 
-`dw_bundesliga` is a personal data-warehouse project (bronze/silver/gold,
-medallion architecture, SQL Server as the engine) that fetches Bundesliga
-match data from the OpenLigaDB API in Python and loads it via T-SQL stored
-procedures. Only bronze and silver are actually implemented — gold is still
-just a placeholder file (`scripts/gold/placegolder.txt`), unstarted.
-Development started in April 2026 and stalled for about four months; it was built entirely on a Windows machine, and the owner now works
-from a Mac (Apple Silicon) and Ubuntu instead, with no Windows box anymore.
-Resuming surfaced two Windows-only couplings: a hardcoded `C:\Users\...` path
-inside an `OPENROWSET(BULK ...)` load in `proc_load_bronze.sql` (the DB engine
-itself was reading a host file path, which only worked because Windows had
-SQL Server and Python on the same filesystem), and `pyodbc` depending on a
-system-level ODBC driver (`unixODBC` + `msodbcsql`) that Windows bundles
-invisibly but Mac/Ubuntu don't ship at all. A local, unpushed branch,
-`fix/macos_compatibility`, already started the right fix — it deleted the
-`BULK INSERT` logic and moved data loading into Python (`load_bronze()` in
-`ingestion/fetch_matches.py`) using parameterized inserts, decoupling the
-loader from any host filesystem path — but it's unfinished (not wired into
-`main()`, connection details still hardcoded).
+`dw_bundesliga` is a personal data warehouse (bronze/silver/gold, medallion
+architecture, SQL Server) that fetches Bundesliga match data from the
+OpenLigaDB API in Python and loads it through T-SQL stored procedures. Bronze
+and silver are implemented; gold is still a placeholder file
+(`scripts/gold/placegolder.txt`).
 
-Decisions made so far, with reasoning, in case they need revisiting: keep SQL
-Server as the engine rather than switching to Postgres now, because the
-existing T-SQL (stored procs, `OPENJSON ... AS JSON`, bracket-quoting) isn't
-portable and a rewrite wasn't wanted; run it via Docker Compose pinned to the
-`2022-latest` image specifically, not `2025`, because SQL Server 2025's image
-requires AVX instructions that crash under Apple Silicon's QEMU emulation
-while 2022 doesn't have that requirement, and this project's data volume is
-small enough that emulation-induced slowness (as opposed to the crash bug)
-isn't a real cost. Postgres migration is intended eventually, once both
-machines are permanently Unix-based, with the understanding that the
-translation-heavy part will be the DDL/stored-procedure layer, not ordinary
-querying, since T-SQL and Postgres diverge hardest exactly there (procedure
-syntax, variable declaration, JSON functions, quoting, types). The ingestion
-script will be containerized too (not left host-native), specifically because
-the owner's actual goal is "anyone on any OS clones this and it runs with
-only Docker installed" — that requires a `Dockerfile` for the script itself,
-added as a second `docker-compose.yml` service on the same network as
-`mssql`, addressed by service name instead of `localhost`, plus a fix for the
-startup race where the ingestion container can start before SQL Server is
-ready. Separately, the pipeline currently always does a full load (fetches
-and reloads all seasons since 2006 every run, ~13 minutes, ~700+ API calls);
-this is being redesigned into bootstrap-once-then-incremental, using a field
-already present per match in the API response to detect real changes instead
-of blindly re-fetching everything, with the bronze and silver procedures
-changing from drop-and-rebuild to upsert. The bronze half of that has since
-landed (see Phase 4); the fetch window and the silver half have not. The owner
-wants eventual hands-on experience with CI/CD, Airflow, Spark, Terraform, and
-cloud environments as part of a broader Data Engineering career path beyond
-this project, but for *this* project specifically, only CI/CD (a scheduled
-GitHub Actions workflow to trigger the incremental run daily) is currently
-judged the right fit — the rest are called out as better learned on
-differently-shaped projects. One unresolved architectural point flagged for
-before any CI/CD work begins: GitHub Actions runners are ephemeral, so if
-`mssql` runs inside the CI job itself, its data won't persist between runs
-and the incremental design gets silently defeated — where the database
-actually lives long-term (an always-on machine, a real persistent database,
-or decoupling "keep source data fresh" from "load into a database") is an
-open decision, not yet made.
+Built on Windows in April 2026, stalled for four months, resumed on a Mac
+(Apple Silicon) with an Ubuntu machine as the second target and no Windows box
+anywhere. Phases 0 through 3 dealt with exactly that. The pipeline now comes up
+from a single `docker compose up` on any OS that has Docker, loads
+idempotently, and bootstraps its own database, schemas and procedures.
+
+### Decisions still in force
+
+**SQL Server, not Postgres, for now.** The existing T-SQL (stored procedures,
+`OPENJSON ... AS JSON`, bracket quoting) is not portable and a rewrite was not
+wanted. A Postgres migration is intended eventually, once both machines are
+permanently Unix-based. The hard part will be the DDL and procedure layer, not
+ordinary querying, since that is where the two dialects diverge most.
+
+**Image pinned to `2022-latest`, not `2025`.** The 2025 image needs AVX
+instructions that crash under Apple Silicon emulation. 2022 does not, and at
+this data volume the emulation overhead costs nothing that matters.
+
+**Bronze is a mirror, not a history.** One row per match, keyed on `matchID`,
+updated in place by a `MERGE` when the source's `lastUpdateDateTime` moves.
+Chosen because the API is re-fetchable, so bronze is a convenience rather than
+the only surviving copy. A useful consequence: a fixture published before it is
+played and the same match with its final score are one row that gets updated,
+not two versions to reconcile later.
+
+**Scope is deliberately small.** This is a personal project, not a platform.
+Per-matchday change detection, an upsert path for silver, and any persisted
+ingestion state were all considered and cut. Re-fetching the current season
+daily is cheap, and silver rebuilds from bronze in seconds. The only automation
+goal here is a scheduled GitHub Actions workflow. Airflow, Spark and Terraform
+are wanted as career skills, but are better learned on differently shaped
+projects.
+
+**Unresolved, and blocking CI/CD.** GitHub Actions runners are ephemeral. If
+`mssql` runs inside the CI job, its data disappears at the end of every run and
+every incremental run silently becomes a full load again. Where the database
+actually lives is Phase 5, and it is a decision, not code.
 
 ## Phase 0 — where you already are
 
@@ -131,7 +117,7 @@ Done when: running `python fetch_matches.py` on your bare Mac populates
 Goal: the only host dependency left for anyone cloning this repo becomes
 Docker itself. This is the option-B call you already made.
 
-- [ ] Write a `Dockerfile` for the ingestion script (Python + `unixODBC` +
+- [x] Write a `Dockerfile` for the ingestion script (Python + `unixODBC` +
       `msodbcsql` + `requirements.txt`, baked in once).
 - [x] Add it as a second service in `docker-compose.yml`, same network as
       `mssql`. Inside that network, containers address each other by service
@@ -140,7 +126,7 @@ Docker itself. This is the option-B call you already made.
 - [x] Handle the startup race: the `ingestion` container can start before
       `mssql` has finished initializing. Look into `depends_on` +
       healthchecks in Compose, and/or a retry loop on the Python side.
-- [ ] Mount your local `ingestion/` folder as a volume during development so
+- [x] Mount your local `ingestion/` folder as a volume during development so
       you're not rebuilding the image on every code change.
 
 Done when: `docker compose up` alone, no host Python, no manual driver
@@ -148,49 +134,43 @@ install, takes a clean clone from zero to a loaded database.
 
 ## Phase 4 — stop doing a full load every time
 
-Goal: `bronze`/`silver` loads become idempotent and incremental instead of
-drop-and-rebuild.
+Goal: a normal run costs seconds instead of thirteen minutes, and never
+destroys what is already loaded.
 
-> PS: this phase is a different kind of work from the others. Phases 1, 2, 3,
-> and 6 are mechanical — install this, wire that up, write that config — you
-> know the shape of the work before doing it. This one is a real design
-> problem with no single right answer, closer to research than
-> implementation. Expect it to take longer than the mechanical phases
-> combined; that's not falling behind, that's just what open-ended problems
-> cost. Also worth knowing before starting: the gold layer (see "Parked for
-> later") is gated on *this* phase landing, not on Phase 6 — building gold
-> against a schema that might still reshape here risks redoing it.
+- [x] Research: idempotent ETL, `MERGE`/upsert in T-SQL, and using a field
+      already stored per match to detect real change. Landed on the mirror
+      model, a `MERGE` fed from a staging table, and `lastUpdateDateTime` as
+      the change marker.
+- [x] Rewrite the bronze load. `proc_init_bronze.sql` is idempotent DDL that
+      never drops, and `proc_merge_bronze.sql` upserts from
+      `bronze.dataframe_staging` on the new `matchID` primary key.
+- [x] Keep the full-load path around but explicit:
+      `scripts/bronze/rebuild_bronze.sql`, manual only.
+- [ ] Narrow the fetch window. `loop_and_write` still walks 2006 → now on every
+      run, and that is the entire remaining cost. Make the season range a
+      parameter defaulting to the current season, keeping the full range as an
+      explicit bootstrap.
 
-- [x] Research (this is the "still have to study" part, on purpose):
-      idempotent ETL design, `MERGE`/upsert patterns in T-SQL, and how to use
-      a field you're already storing per match to detect "did this row
-      actually change" without re-fetching everything. Landed on: the mirror
-      model (one row per match), a `MERGE` fed from a staging table, and
-      `lastUpdateDateTime` as the change marker. One gap found: that field
-      only answers the question *after* a fetch, so it solves the load side
-      and not the fetch side.
-- [ ] Redesign `fetch_matches.py` so a normal run only touches a small,
-      recent window (e.g. current season) instead of 2006 → now. Now the only
-      expensive part of a run: the load is down to 9 seconds, the fetch is
-      still ~13 minutes and 714 API calls. Has to land before Phase 6, since a
-      daily workflow would otherwise hammer a free public API.
-- [x] Rewrite the bronze load. `proc_load_bronze.sql` split into
-      `proc_init_bronze.sql` (`bronze.init_bronze`, idempotent DDL that creates
-      only what is missing and never drops) and `proc_merge_bronze.sql`, which
-      upserts from `bronze.dataframe_staging` into `bronze.dataframe` on the
-      new `matchID` primary key.
-- [ ] Rewrite `proc_load_silver.sql`, which still starts with a full
-      `DROP TABLE`/rebuild. Worth being precise about what is wrong with it:
-      it is already *idempotent* (it rebuilds deterministically from bronze in
-      seconds), it just is not *incremental*. Only the first property was ever
-      broken, which is why this ranks below the fetch window.
-- [x] Keep the full-load path around, but make it something you trigger
-      explicitly. It is `scripts/bronze/rebuild_bronze.sql`: drops both bronze
-      tables and calls `bronze.init_bronze` to recreate them empty. Nothing in
-      a normal run touches it.
+      Mind the season boundary: Bundesliga 2026 runs from August 2026 to May
+      2027, so `datetime.now().year` is wrong from January through July.
 
-Done when: re-running the pipeline on a day with no new match results is
-fast and makes zero destructive changes to existing rows.
+Done when: a normal run fetches one season instead of twenty-one, and
+re-running on a day with no new results changes nothing.
+
+### Cut on purpose
+
+Considered and rejected, so they do not get reopened by accident:
+
+- **Per-matchday change detection** via `getlastchangedate`. Saves API calls
+  that the current-season window already avoids. Optimizing an optimization.
+- **Persisted ingestion state.** Pointless when every run simply re-fetches the
+  current season; the `MERGE` decides what actually changed.
+- **An upsert path for silver.** It is already idempotent and rebuilds
+  deterministically from bronze in seconds. Not incremental is not the same as
+  broken.
+- **Retroactive edits to old seasons.** OpenLigaDB is collaborative, so someone
+  could fix a 2009 match tomorrow. Accepted blind spot; `rebuild_bronze.sql`
+  plus a full bootstrap is the answer if it ever matters.
 
 ## Phase 5 — resolve this *before* writing any CI/CD config
 

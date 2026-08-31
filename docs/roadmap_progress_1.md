@@ -267,24 +267,9 @@ the real values came back, no new row appeared, total stayed 6426.
 
 Load time for the full 6426-row backfill: 9 seconds.
 
-## Still open
+## Still open at the end of this session
 
-- **The fetch window.** `loop_and_write` still downloads all 714 matchdays on
-  every run, ~13 minutes. The load is now seconds, so this is the only
-  expensive part left. It has to land before Phase 6, since a daily scheduled
-  workflow would otherwise make 714 calls a day against a free public API.
-  `lastUpdateDateTime` does not solve this on its own: you have to fetch a
-  matchday to read it. The API exposes a `getlastchangedate/bl1/{season}/{day}`
-  endpoint that answers "did this change" in a couple of hundred bytes, which
-  is the shape of the answer.
-- **Silver is still drop-and-rebuild.** Worth being precise: it is already
-  *idempotent* (it rebuilds deterministically from bronze, in seconds), it is
-  just not *incremental*. Those are different properties, and only the first
-  one was ever broken. Lower priority than the fetch window.
-
-## Next
-
-Phase 3, containerizing the ingestion script, now that its done-when criterion
-is actually testable. Still true from session 1: inside the compose network,
-`localhost` no longer means the database, so the `.env` work from Phase 2 is
-what makes the address swappable.
+Superseded by `roadmap_progress_2.md`, which covers Phase 3 and the scope cut
+that followed. Kept here only so the record of what was true on 2026-08-31
+stays readable: at this point the fetch window was untouched and Phase 3 had
+not been started.
