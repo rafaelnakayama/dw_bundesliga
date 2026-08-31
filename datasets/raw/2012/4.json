@@ -1,5 +1,679 @@
 [
     {
+        "matchID": 19729,
+        "matchDateTime": "2012-09-22T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 456,
+        "leagueName": "1. Fussball-Bundesliga 2012/2013",
+        "leagueSeason": 2012,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2012-09-22T13:30:00Z",
+        "group": {
+            "groupName": "4. Spieltag",
+            "groupOrderID": 4,
+            "groupID": 13144
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2012-09-23T20:49:36.25",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 29979,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 29980,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 13697,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 55,
+                "goalGetterID": 851,
+                "goalGetterName": "Kroos",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 13699,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 58,
+                "goalGetterID": 514,
+                "goalGetterName": "T. M\u00fcller",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 403,
+            "locationCity": "Gelsenkirchen",
+            "locationStadium": "Veltins-Arena"
+        },
+        "numberOfViewers": 61673
+    },
+    {
+        "matchID": 19730,
+        "matchDateTime": "2012-09-23T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 456,
+        "leagueName": "1. Fussball-Bundesliga 2012/2013",
+        "leagueSeason": 2012,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2012-09-23T13:30:00Z",
+        "group": {
+            "groupName": "4. Spieltag",
+            "groupOrderID": 4,
+            "groupID": 13144
+        },
+        "team1": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2012-09-23T20:50:17.36",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 30035,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 30036,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 13753,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 2,
+                "goalGetterID": 1439,
+                "goalGetterName": "Herrmann",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 13754,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 12,
+                "goalGetterID": 1050,
+                "goalGetterName": "Kadlec",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 28,
+            "locationCity": "Leverkusen",
+            "locationStadium": "BayArena"
+        },
+        "numberOfViewers": 27640
+    },
+    {
+        "matchID": 19731,
+        "matchDateTime": "2012-09-22T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 456,
+        "leagueName": "1. Fussball-Bundesliga 2012/2013",
+        "leagueSeason": 2012,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2012-09-22T13:30:00Z",
+        "group": {
+            "groupName": "4. Spieltag",
+            "groupOrderID": 4,
+            "groupID": 13144
+        },
+        "team1": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 115,
+            "teamName": "SpVgg Greuther F\u00fcrth",
+            "shortName": "F\u00fcrth",
+            "teamIconUrl": "https://i.imgur.com/pwuVbKr.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2012-09-23T20:50:06.923",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 29981,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 29982,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 13694,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 27,
+                "goalGetterID": 3077,
+                "goalGetterName": "Pogatetz",
+                "scoringTeamId": 115,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 13695,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 42,
+                "goalGetterID": 116,
+                "goalGetterName": "Olic",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 20,
+            "locationCity": "Wolfsburg",
+            "locationStadium": "Volkswagen Arena "
+        },
+        "numberOfViewers": 25225
+    },
+    {
+        "matchID": 19732,
+        "matchDateTime": "2012-09-23T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 456,
+        "leagueName": "1. Fussball-Bundesliga 2012/2013",
+        "leagueSeason": 2012,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2012-09-23T15:30:00Z",
+        "group": {
+            "groupName": "4. Spieltag",
+            "groupOrderID": 4,
+            "groupID": 13144
+        },
+        "team1": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2012-09-23T21:00:08.75",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 30043,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 30044,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 13759,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 23,
+                "goalGetterID": 7277,
+                "goalGetterName": "de Bruyne",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 13762,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 34,
+                "goalGetterID": 2701,
+                "goalGetterName": "Junuzovic",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 13766,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 50,
+                "goalGetterID": 860,
+                "goalGetterName": "Harnik",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 13767,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 81,
+                "goalGetterID": 81,
+                "goalGetterName": "Cacau",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 492,
+            "locationCity": "Bremen",
+            "locationStadium": "Weser-Stadion"
+        },
+        "numberOfViewers": 40172
+    },
+    {
+        "matchID": 19733,
+        "matchDateTime": "2012-09-21T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 456,
+        "leagueName": "1. Fussball-Bundesliga 2012/2013",
+        "leagueSeason": 2012,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2012-09-21T18:30:00Z",
+        "group": {
+            "groupName": "4. Spieltag",
+            "groupOrderID": 4,
+            "groupID": 13144
+        },
+        "team1": {
+            "teamId": 79,
+            "teamName": "1. FC N\u00fcrnberg",
+            "shortName": "N\u00fcrnberg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N\u00fcrnberg_logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2012-09-23T20:48:33.453",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 29954,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 29955,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 13644,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 25,
+                "goalGetterID": 1344,
+                "goalGetterName": "Hoffer",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 13648,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 60,
+                "goalGetterID": 2254,
+                "goalGetterName": "Inui",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 13655,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 76,
+                "goalGetterID": 3877,
+                "goalGetterName": "Polter",
+                "scoringTeamId": 79,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 432,
+            "locationCity": "N\u00fcrnberg",
+            "locationStadium": "Easy-Credit-Stadion"
+        },
+        "numberOfViewers": 45033
+    },
+    {
+        "matchID": 19734,
+        "matchDateTime": "2012-09-23T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 456,
+        "leagueName": "1. Fussball-Bundesliga 2012/2013",
+        "leagueSeason": 2012,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2012-09-23T15:30:00Z",
+        "group": {
+            "groupName": "4. Spieltag",
+            "groupOrderID": 4,
+            "groupID": 13144
+        },
+        "team1": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2012-09-23T21:01:37.203",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 30045,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 30046,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 13760,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 26,
+                "goalGetterID": 1371,
+                "goalGetterName": "Rausch",
+                "scoringTeamId": 55,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 13761,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 27,
+                "goalGetterID": 363,
+                "goalGetterName": "Johnson",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 13768,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 82,
+                "goalGetterID": 651,
+                "goalGetterName": "Salihovic",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 13769,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 90,
+                "goalGetterID": 2051,
+                "goalGetterName": "Williams",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 434,
+            "locationCity": "Hoffenheim",
+            "locationStadium": "Wirsol Rhein-Neckar-Arena"
+        },
+        "numberOfViewers": 23575
+    },
+    {
+        "matchID": 19735,
+        "matchDateTime": "2012-09-22T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 456,
+        "leagueName": "1. Fussball-Bundesliga 2012/2013",
+        "leagueSeason": 2012,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2012-09-22T13:30:00Z",
+        "group": {
+            "groupName": "4. Spieltag",
+            "groupOrderID": 4,
+            "groupID": 13144
+        },
+        "team1": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2012-09-23T20:48:45.767",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 29983,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 29984,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 13692,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 10,
+                "goalGetterID": 277,
+                "goalGetterName": "Ivanschitz",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 13693,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 25,
+                "goalGetterID": 1133,
+                "goalGetterName": "Szalai",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 465,
+            "locationCity": "Mainz",
+            "locationStadium": "Coface Arena"
+        },
+        "numberOfViewers": 28463
+    },
+    {
         "matchID": 19736,
         "matchDateTime": "2012-09-22T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -126,367 +800,6 @@
         "numberOfViewers": 57000
     },
     {
-        "matchID": 19733,
-        "matchDateTime": "2012-09-21T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 456,
-        "leagueName": "1. Fussball-Bundesliga 2012/2013",
-        "leagueSeason": 2012,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-09-21T18:30:00Z",
-        "group": {
-            "groupName": "4. Spieltag",
-            "groupOrderID": 4,
-            "groupID": 13144
-        },
-        "team1": {
-            "teamId": 79,
-            "teamName": "1. FC N\u00fcrnberg",
-            "shortName": "N\u00fcrnberg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N\u00fcrnberg_logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2012-09-23T20:48:33.453",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 29954,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 29955,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 13644,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 25,
-                "goalGetterID": 1344,
-                "goalGetterName": "Hoffer",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 13648,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 60,
-                "goalGetterID": 2254,
-                "goalGetterName": "Inui",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 13655,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 76,
-                "goalGetterID": 3877,
-                "goalGetterName": "Polter",
-                "scoringTeamId": 79,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 432,
-            "locationCity": "N\u00fcrnberg",
-            "locationStadium": "Easy-Credit-Stadion"
-        },
-        "numberOfViewers": 45033
-    },
-    {
-        "matchID": 19729,
-        "matchDateTime": "2012-09-22T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 456,
-        "leagueName": "1. Fussball-Bundesliga 2012/2013",
-        "leagueSeason": 2012,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-09-22T13:30:00Z",
-        "group": {
-            "groupName": "4. Spieltag",
-            "groupOrderID": 4,
-            "groupID": 13144
-        },
-        "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2012-09-23T20:49:36.25",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 29979,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 29980,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 13697,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 55,
-                "goalGetterID": 851,
-                "goalGetterName": "Kroos",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 13699,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 58,
-                "goalGetterID": 514,
-                "goalGetterName": "T. M\u00fcller",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 403,
-            "locationCity": "Gelsenkirchen",
-            "locationStadium": "Veltins-Arena"
-        },
-        "numberOfViewers": 61673
-    },
-    {
-        "matchID": 19731,
-        "matchDateTime": "2012-09-22T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 456,
-        "leagueName": "1. Fussball-Bundesliga 2012/2013",
-        "leagueSeason": 2012,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-09-22T13:30:00Z",
-        "group": {
-            "groupName": "4. Spieltag",
-            "groupOrderID": 4,
-            "groupID": 13144
-        },
-        "team1": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 115,
-            "teamName": "SpVgg Greuther F\u00fcrth",
-            "shortName": "F\u00fcrth",
-            "teamIconUrl": "https://i.imgur.com/pwuVbKr.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2012-09-23T20:50:06.923",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 29981,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 29982,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 13694,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 27,
-                "goalGetterID": 3077,
-                "goalGetterName": "Pogatetz",
-                "scoringTeamId": 115,
-                "isPenalty": false,
-                "isOwnGoal": true,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 13695,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 42,
-                "goalGetterID": 116,
-                "goalGetterName": "Olic",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 20,
-            "locationCity": "Wolfsburg",
-            "locationStadium": "Volkswagen Arena "
-        },
-        "numberOfViewers": 25225
-    },
-    {
-        "matchID": 19735,
-        "matchDateTime": "2012-09-22T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 456,
-        "leagueName": "1. Fussball-Bundesliga 2012/2013",
-        "leagueSeason": 2012,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-09-22T13:30:00Z",
-        "group": {
-            "groupName": "4. Spieltag",
-            "groupOrderID": 4,
-            "groupID": 13144
-        },
-        "team1": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2012-09-23T20:48:45.767",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 29983,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 29984,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 13692,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 10,
-                "goalGetterID": 277,
-                "goalGetterName": "Ivanschitz",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 13693,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 25,
-                "goalGetterID": 1133,
-                "goalGetterName": "Szalai",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 465,
-            "locationCity": "Mainz",
-            "locationStadium": "Coface Arena"
-        },
-        "numberOfViewers": 28463
-    },
-    {
         "matchID": 19737,
         "matchDateTime": "2012-09-22T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -545,318 +858,5 @@
             "locationStadium": "ESPRIT Arena"
         },
         "numberOfViewers": 26862
-    },
-    {
-        "matchID": 19730,
-        "matchDateTime": "2012-09-23T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 456,
-        "leagueName": "1. Fussball-Bundesliga 2012/2013",
-        "leagueSeason": 2012,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-09-23T13:30:00Z",
-        "group": {
-            "groupName": "4. Spieltag",
-            "groupOrderID": 4,
-            "groupID": 13144
-        },
-        "team1": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2012-09-23T20:50:17.36",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 30035,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 30036,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 13753,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 2,
-                "goalGetterID": 1439,
-                "goalGetterName": "Herrmann",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 13754,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 12,
-                "goalGetterID": 1050,
-                "goalGetterName": "Kadlec",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 28,
-            "locationCity": "Leverkusen",
-            "locationStadium": "BayArena"
-        },
-        "numberOfViewers": 27640
-    },
-    {
-        "matchID": 19732,
-        "matchDateTime": "2012-09-23T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 456,
-        "leagueName": "1. Fussball-Bundesliga 2012/2013",
-        "leagueSeason": 2012,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-09-23T15:30:00Z",
-        "group": {
-            "groupName": "4. Spieltag",
-            "groupOrderID": 4,
-            "groupID": 13144
-        },
-        "team1": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2012-09-23T21:00:08.75",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 30043,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 30044,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 13759,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 23,
-                "goalGetterID": 7277,
-                "goalGetterName": "de Bruyne",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 13762,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 34,
-                "goalGetterID": 2701,
-                "goalGetterName": "Junuzovic",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 13766,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 50,
-                "goalGetterID": 860,
-                "goalGetterName": "Harnik",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 13767,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 81,
-                "goalGetterID": 81,
-                "goalGetterName": "Cacau",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 492,
-            "locationCity": "Bremen",
-            "locationStadium": "Weser-Stadion"
-        },
-        "numberOfViewers": 40172
-    },
-    {
-        "matchID": 19734,
-        "matchDateTime": "2012-09-23T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 456,
-        "leagueName": "1. Fussball-Bundesliga 2012/2013",
-        "leagueSeason": 2012,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-09-23T15:30:00Z",
-        "group": {
-            "groupName": "4. Spieltag",
-            "groupOrderID": 4,
-            "groupID": 13144
-        },
-        "team1": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 55,
-            "teamName": "Hannover 96",
-            "shortName": "Hannover",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2012-09-23T21:01:37.203",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 30045,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 30046,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 13760,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 26,
-                "goalGetterID": 1371,
-                "goalGetterName": "Rausch",
-                "scoringTeamId": 55,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 13761,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 27,
-                "goalGetterID": 363,
-                "goalGetterName": "Johnson",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 13768,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 82,
-                "goalGetterID": 651,
-                "goalGetterName": "Salihovic",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 13769,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 90,
-                "goalGetterID": 2051,
-                "goalGetterName": "Williams",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 434,
-            "locationCity": "Hoffenheim",
-            "locationStadium": "Wirsol Rhein-Neckar-Arena"
-        },
-        "numberOfViewers": 23575
     }
 ]

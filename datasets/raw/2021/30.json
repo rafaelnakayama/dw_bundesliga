@@ -1,50 +1,50 @@
 [
     {
-        "matchID": 61108,
-        "matchDateTime": "2022-04-17T19:30:00",
+        "matchID": 61106,
+        "matchDateTime": "2022-04-17T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4500,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
         "leagueSeason": 2021,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2022-04-17T17:30:00Z",
+        "matchDateTimeUTC": "2022-04-17T13:30:00Z",
         "group": {
             "groupName": "30. Spieltag",
             "groupOrderID": 30,
             "groupID": 38206
         },
         "team1": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamId": 83,
+            "teamName": "DSC Arminia Bielefeld",
+            "shortName": "Bielefeld",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 1635,
-            "teamName": "RB Leipzig",
-            "shortName": "Leipzig",
-            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2022-04-17T21:23:47.633",
+        "lastUpdateDateTime": "2022-04-17T17:28:15.797",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 97983,
+                "resultID": 97977,
                 "resultName": "Endergebnis",
                 "pointsTeam1": 0,
-                "pointsTeam2": 1,
+                "pointsTeam2": 3,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 97984,
+                "resultID": 97978,
                 "resultName": "Halbzeitergebnis",
                 "pointsTeam1": 0,
-                "pointsTeam2": 0,
+                "pointsTeam2": 2,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
@@ -53,13 +53,39 @@
         ],
         "goals": [
             {
-                "goalID": 94190,
+                "goalID": 94185,
                 "scoreTeam1": 0,
                 "scoreTeam2": 1,
-                "matchMinute": 69,
-                "goalGetterID": 18985,
-                "goalGetterName": "D. Szoboszlai",
-                "scoringTeamId": 1635,
+                "matchMinute": 10,
+                "goalGetterID": 18978,
+                "goalGetterName": "J. Laursen",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 94186,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 52,
+                "goalGetterID": 16086,
+                "goalGetterName": "S. Gnabry",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            },
+            {
+                "goalID": 94187,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 85,
+                "goalGetterID": 18700,
+                "goalGetterName": "J. Musiala",
+                "scoringTeamId": 40,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -130,6 +156,76 @@
                 "goalGetterID": 18345,
                 "goalGetterName": "S. Serdar",
                 "scoringTeamId": 54,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 61108,
+        "matchDateTime": "2022-04-17T19:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4500,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
+        "leagueSeason": 2021,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2022-04-17T17:30:00Z",
+        "group": {
+            "groupName": "30. Spieltag",
+            "groupOrderID": 30,
+            "groupID": 38206
+        },
+        "team1": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2022-04-17T21:23:47.633",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 97983,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 97984,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 94190,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 69,
+                "goalGetterID": 18985,
+                "goalGetterName": "D. Szoboszlai",
+                "scoringTeamId": 1635,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -288,158 +384,6 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 61111,
-        "matchDateTime": "2022-04-16T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4500,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
-        "leagueSeason": 2021,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2022-04-16T13:30:00Z",
-        "group": {
-            "groupName": "30. Spieltag",
-            "groupOrderID": 30,
-            "groupID": 38206
-        },
-        "team1": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 129,
-            "teamName": "VfL Bochum",
-            "shortName": "Bochum",
-            "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2022-04-16T17:23:33.787",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 97959,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 97960,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 94153,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 5,
-                "goalGetterID": 19309,
-                "goalGetterName": "L. K\u00fcbler",
-                "scoringTeamId": 112,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 94154,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 16,
-                "goalGetterID": 16923,
-                "goalGetterName": "R. Sallai",
-                "scoringTeamId": 112,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 94161,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 53,
-                "goalGetterID": 16923,
-                "goalGetterName": "R. Sallai",
-                "scoringTeamId": 112,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 61113,
-        "matchDateTime": "2022-04-16T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4500,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
-        "leagueSeason": 2021,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2022-04-16T13:30:00Z",
-        "group": {
-            "groupName": "30. Spieltag",
-            "groupOrderID": 30,
-            "groupID": 38206
-        },
-        "team1": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2022-04-16T17:24:10.457",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 97961,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 97962,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 61110,
         "matchDateTime": "2022-04-16T18:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -549,51 +493,51 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 61106,
-        "matchDateTime": "2022-04-17T15:30:00",
+        "matchID": 61111,
+        "matchDateTime": "2022-04-16T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4500,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
         "leagueSeason": 2021,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2022-04-17T13:30:00Z",
+        "matchDateTimeUTC": "2022-04-16T13:30:00Z",
         "group": {
             "groupName": "30. Spieltag",
             "groupOrderID": 30,
             "groupID": 38206
         },
         "team1": {
-            "teamId": 83,
-            "teamName": "DSC Arminia Bielefeld",
-            "shortName": "Bielefeld",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamId": 129,
+            "teamName": "VfL Bochum",
+            "shortName": "Bochum",
+            "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2022-04-17T17:28:15.797",
+        "lastUpdateDateTime": "2022-04-16T17:23:33.787",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 97977,
+                "resultID": 97959,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 3,
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 97978,
+                "resultID": 97960,
                 "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
@@ -602,39 +546,39 @@
         ],
         "goals": [
             {
-                "goalID": 94185,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 10,
-                "goalGetterID": 18978,
-                "goalGetterName": "J. Laursen",
-                "scoringTeamId": 40,
+                "goalID": 94153,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 5,
+                "goalGetterID": 19309,
+                "goalGetterName": "L. K\u00fcbler",
+                "scoringTeamId": 112,
                 "isPenalty": false,
-                "isOwnGoal": true,
+                "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 94186,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 52,
-                "goalGetterID": 16086,
-                "goalGetterName": "S. Gnabry",
-                "scoringTeamId": 40,
+                "goalID": 94154,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 16,
+                "goalGetterID": 16923,
+                "goalGetterName": "R. Sallai",
+                "scoringTeamId": 112,
                 "isPenalty": false,
                 "isOwnGoal": false,
-                "isOvertime": true,
+                "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 94187,
-                "scoreTeam1": 0,
-                "scoreTeam2": 3,
-                "matchMinute": 85,
-                "goalGetterID": 18700,
-                "goalGetterName": "J. Musiala",
-                "scoringTeamId": 40,
+                "goalID": 94161,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 53,
+                "goalGetterID": 16923,
+                "goalGetterName": "R. Sallai",
+                "scoringTeamId": 112,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -687,6 +631,62 @@
             },
             {
                 "resultID": 97980,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 61113,
+        "matchDateTime": "2022-04-16T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4500,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
+        "leagueSeason": 2021,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2022-04-16T13:30:00Z",
+        "group": {
+            "groupName": "30. Spieltag",
+            "groupOrderID": 30,
+            "groupID": 38206
+        },
+        "team1": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2022-04-16T17:24:10.457",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 97961,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 97962,
                 "resultName": "Halbzeitergebnis",
                 "pointsTeam1": 0,
                 "pointsTeam2": 0,

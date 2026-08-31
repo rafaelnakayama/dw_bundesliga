@@ -1,182 +1,47 @@
 [
     {
-        "matchID": 5467,
-        "matchDateTime": "2010-01-16T15:30:00",
+        "matchID": 5460,
+        "matchDateTime": "2010-01-16T18:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 71,
         "leagueName": "1. Fussball-Bundesliga 2009/2010",
         "leagueSeason": 2009,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-01-16T14:30:00Z",
+        "matchDateTimeUTC": "2010-01-16T17:30:00Z",
         "group": {
             "groupName": "18. Spieltag",
             "groupOrderID": 18,
             "groupID": 11555
         },
         "team1": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2010-01-16T17:20:45.497",
+        "lastUpdateDateTime": "2010-01-16T20:20:25.77",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 10553,
+                "resultID": 10565,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 4,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 10554,
-                "resultName": "Halbzeitergebnis",
                 "pointsTeam1": 3,
                 "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeitpause"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 2370,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 5,
-                "goalGetterID": 113,
-                "goalGetterName": "Hoogland",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 2373,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 15,
-                "goalGetterID": 1050,
-                "goalGetterName": "Kadlec",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 2374,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 19,
-                "goalGetterID": 280,
-                "goalGetterName": "Barnetta",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 2378,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 30,
-                "goalGetterID": 851,
-                "goalGetterName": "Kroos",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 2382,
-                "scoreTeam1": 3,
-                "scoreTeam2": 2,
-                "matchMinute": 67,
-                "goalGetterID": 1052,
-                "goalGetterName": "Niko Bungert",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 2385,
-                "scoreTeam1": 4,
-                "scoreTeam2": 2,
-                "matchMinute": 88,
-                "goalGetterID": 68,
-                "goalGetterName": "Derdiyok",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 5463,
-        "matchDateTime": "2010-01-15T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 71,
-        "leagueName": "1. Fussball-Bundesliga 2009/2010",
-        "leagueSeason": 2009,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-01-15T19:30:00Z",
-        "group": {
-            "groupName": "18. Spieltag",
-            "groupOrderID": 18,
-            "groupID": 11555
-        },
-        "team1": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://www.openligadb.de/images/teamicons/Bayern_Muenchen.gif",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2010-01-16T15:49:59.97",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 10539,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 10540,
+                "resultID": 10566,
                 "resultName": "Halbzeitergebnis",
                 "pointsTeam1": 1,
                 "pointsTeam2": 0,
@@ -188,26 +53,52 @@
         ],
         "goals": [
             {
-                "goalID": 2354,
+                "goalID": 2386,
                 "scoreTeam1": 1,
                 "scoreTeam2": 0,
-                "matchMinute": 35,
-                "goalGetterID": 1045,
-                "goalGetterName": "Demichelis",
-                "scoringTeamId": 40,
+                "matchMinute": 28,
+                "goalGetterID": 1054,
+                "goalGetterName": "Hilbert",
+                "scoringTeamId": 16,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": ""
             },
             {
-                "goalID": 2356,
+                "goalID": 2387,
                 "scoreTeam1": 2,
                 "scoreTeam2": 0,
-                "matchMinute": 86,
-                "goalGetterID": 1046,
-                "goalGetterName": "Klose",
-                "scoringTeamId": 40,
+                "matchMinute": 58,
+                "goalGetterID": 225,
+                "goalGetterName": "Pogrebnijak",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2388,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 65,
+                "goalGetterID": 1008,
+                "goalGetterName": "Edin Dzeko",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2389,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 87,
+                "goalGetterID": 1055,
+                "goalGetterName": "Timo Gebhart",
+                "scoringTeamId": 16,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -215,11 +106,11 @@
             }
         ],
         "location": {
-            "locationID": 34,
-            "locationCity": "M\u00fcnchen",
-            "locationStadium": "Allianz Arena"
+            "locationID": 37,
+            "locationCity": "Stuttgart",
+            "locationStadium": "Mercedes Benz Arena "
         },
-        "numberOfViewers": 69000
+        "numberOfViewers": 40000
     },
     {
         "matchID": 5461,
@@ -316,6 +207,219 @@
         ],
         "location": null,
         "numberOfViewers": null
+    },
+    {
+        "matchID": 5462,
+        "matchDateTime": "2010-01-17T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 71,
+        "leagueName": "1. Fussball-Bundesliga 2009/2010",
+        "leagueSeason": 2009,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2010-01-17T16:30:00Z",
+        "group": {
+            "groupName": "18. Spieltag",
+            "groupOrderID": 18,
+            "groupID": 11555
+        },
+        "team1": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2010-01-17T19:25:13.607",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 10575,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 3,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 10576,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeitpause"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 2404,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 28,
+                "goalGetterID": 512,
+                "goalGetterName": "Hummels",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2405,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 45,
+                "goalGetterID": 512,
+                "goalGetterName": "Hummels",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2406,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 82,
+                "goalGetterID": 1062,
+                "goalGetterName": "McKenna",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2407,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 88,
+                "goalGetterID": 96,
+                "goalGetterName": "Mohamad",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2408,
+                "scoreTeam1": 2,
+                "scoreTeam2": 3,
+                "matchMinute": 90,
+                "goalGetterID": 1063,
+                "goalGetterName": "K. Gro\u00dfkreutz",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 166,
+            "locationCity": "K\u00f6ln",
+            "locationStadium": ""
+        },
+        "numberOfViewers": 0
+    },
+    {
+        "matchID": 5463,
+        "matchDateTime": "2010-01-15T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 71,
+        "leagueName": "1. Fussball-Bundesliga 2009/2010",
+        "leagueSeason": 2009,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2010-01-15T19:30:00Z",
+        "group": {
+            "groupName": "18. Spieltag",
+            "groupOrderID": 18,
+            "groupID": 11555
+        },
+        "team1": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://www.openligadb.de/images/teamicons/Bayern_Muenchen.gif",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2010-01-16T15:49:59.97",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 10539,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 10540,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeitpause"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 2354,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 35,
+                "goalGetterID": 1045,
+                "goalGetterName": "Demichelis",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2356,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 86,
+                "goalGetterID": 1046,
+                "goalGetterName": "Klose",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 34,
+            "locationCity": "M\u00fcnchen",
+            "locationStadium": "Allianz Arena"
+        },
+        "numberOfViewers": 69000
     },
     {
         "matchID": 5464,
@@ -567,51 +671,51 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 5460,
-        "matchDateTime": "2010-01-16T18:30:00",
+        "matchID": 5467,
+        "matchDateTime": "2010-01-16T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 71,
         "leagueName": "1. Fussball-Bundesliga 2009/2010",
         "leagueSeason": 2009,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-01-16T17:30:00Z",
+        "matchDateTimeUTC": "2010-01-16T14:30:00Z",
         "group": {
             "groupName": "18. Spieltag",
             "groupOrderID": 18,
             "groupID": 11555
         },
         "team1": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2010-01-16T20:20:25.77",
+        "lastUpdateDateTime": "2010-01-16T17:20:45.497",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 10565,
+                "resultID": 10553,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 1,
+                "pointsTeam1": 4,
+                "pointsTeam2": 2,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 10566,
+                "resultID": 10554,
                 "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
+                "pointsTeam1": 3,
+                "pointsTeam2": 1,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
@@ -620,64 +724,86 @@
         ],
         "goals": [
             {
-                "goalID": 2386,
+                "goalID": 2370,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 5,
+                "goalGetterID": 113,
+                "goalGetterName": "Hoogland",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2373,
                 "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 28,
-                "goalGetterID": 1054,
-                "goalGetterName": "Hilbert",
-                "scoringTeamId": 16,
+                "scoreTeam2": 1,
+                "matchMinute": 15,
+                "goalGetterID": 1050,
+                "goalGetterName": "Kadlec",
+                "scoringTeamId": 6,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": ""
             },
             {
-                "goalID": 2387,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 58,
-                "goalGetterID": 225,
-                "goalGetterName": "Pogrebnijak",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 2388,
+                "goalID": 2374,
                 "scoreTeam1": 2,
                 "scoreTeam2": 1,
-                "matchMinute": 65,
-                "goalGetterID": 1008,
-                "goalGetterName": "Edin Dzeko",
-                "scoringTeamId": 131,
+                "matchMinute": 19,
+                "goalGetterID": 280,
+                "goalGetterName": "Barnetta",
+                "scoringTeamId": 6,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": ""
             },
             {
-                "goalID": 2389,
+                "goalID": 2378,
                 "scoreTeam1": 3,
                 "scoreTeam2": 1,
-                "matchMinute": 87,
-                "goalGetterID": 1055,
-                "goalGetterName": "Timo Gebhart",
-                "scoringTeamId": 16,
+                "matchMinute": 30,
+                "goalGetterID": 851,
+                "goalGetterName": "Kroos",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2382,
+                "scoreTeam1": 3,
+                "scoreTeam2": 2,
+                "matchMinute": 67,
+                "goalGetterID": 1052,
+                "goalGetterName": "Niko Bungert",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2385,
+                "scoreTeam1": 4,
+                "scoreTeam2": 2,
+                "matchMinute": 88,
+                "goalGetterID": 68,
+                "goalGetterName": "Derdiyok",
+                "scoringTeamId": 6,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": ""
             }
         ],
-        "location": {
-            "locationID": 37,
-            "locationCity": "Stuttgart",
-            "locationStadium": "Mercedes Benz Arena "
-        },
-        "numberOfViewers": 40000
+        "location": null,
+        "numberOfViewers": null
     },
     {
         "matchID": 5468,
@@ -750,132 +876,6 @@
             "locationID": 33,
             "locationCity": "Gelsenkirchen",
             "locationStadium": "Veltins Arena"
-        },
-        "numberOfViewers": 0
-    },
-    {
-        "matchID": 5462,
-        "matchDateTime": "2010-01-17T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 71,
-        "leagueName": "1. Fussball-Bundesliga 2009/2010",
-        "leagueSeason": 2009,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-01-17T16:30:00Z",
-        "group": {
-            "groupName": "18. Spieltag",
-            "groupOrderID": 18,
-            "groupID": 11555
-        },
-        "team1": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2010-01-17T19:25:13.607",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 10575,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 3,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 10576,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeitpause"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 2404,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 28,
-                "goalGetterID": 512,
-                "goalGetterName": "Hummels",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 2405,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 45,
-                "goalGetterID": 512,
-                "goalGetterName": "Hummels",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 2406,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 82,
-                "goalGetterID": 1062,
-                "goalGetterName": "McKenna",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 2407,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 88,
-                "goalGetterID": 96,
-                "goalGetterName": "Mohamad",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 2408,
-                "scoreTeam1": 2,
-                "scoreTeam2": 3,
-                "matchMinute": 90,
-                "goalGetterID": 1063,
-                "goalGetterName": "K. Gro\u00dfkreutz",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 166,
-            "locationCity": "K\u00f6ln",
-            "locationStadium": ""
         },
         "numberOfViewers": 0
     }

@@ -1,192 +1,5 @@
 [
     {
-        "matchID": 45503,
-        "matchDateTime": "2017-10-14T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4153,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
-        "leagueSeason": 2017,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2017-10-14T13:30:00Z",
-        "group": {
-            "groupName": "8. Spieltag",
-            "groupOrderID": 8,
-            "groupID": 28954
-        },
-        "team1": {
-            "teamId": 54,
-            "teamName": "Hertha BSC",
-            "shortName": "Hertha",
-            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2018-04-06T16:30:44.27",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 76675,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 76681,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 61645,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 54,
-                "goalGetterID": 6631,
-                "goalGetterName": "Goretzka",
-                "scoringTeamId": 9,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 61650,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 78,
-                "goalGetterID": 14914,
-                "goalGetterName": "Burgstaller",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 22,
-            "locationCity": "Berlin",
-            "locationStadium": "Olympiastadion"
-        },
-        "numberOfViewers": 50590
-    },
-    {
-        "matchID": 45508,
-        "matchDateTime": "2017-10-13T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4153,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
-        "leagueSeason": 2017,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2017-10-13T18:30:00Z",
-        "group": {
-            "groupName": "8. Spieltag",
-            "groupOrderID": 8,
-            "groupID": 28954
-        },
-        "team1": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2018-04-06T16:28:51.173",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 76650,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 76651,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 61615,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 38,
-                "goalGetterID": 16295,
-                "goalGetterName": "Donis",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 61623,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 77,
-                "goalGetterID": 14435,
-                "goalGetterName": "Heintz",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 61624,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 90,
-                "goalGetterID": 16267,
-                "goalGetterName": "Akolo",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 493,
-            "locationCity": "Stuttgart",
-            "locationStadium": "Mercedes-Benz Arena"
-        },
-        "numberOfViewers": 58716
-    },
-    {
         "matchID": 45500,
         "matchDateTime": "2017-10-14T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -313,6 +126,132 @@
         "numberOfViewers": 75000
     },
     {
+        "matchID": 45501,
+        "matchDateTime": "2017-10-14T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4153,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
+        "leagueSeason": 2017,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2017-10-14T16:30:00Z",
+        "group": {
+            "groupName": "8. Spieltag",
+            "groupOrderID": 8,
+            "groupID": 28954
+        },
+        "team1": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-04-06T16:32:41.62",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 76682,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 76683,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 3,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 61656,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 4,
+                "goalGetterID": 11397,
+                "goalGetterName": "Aubameyang",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 61657,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 10,
+                "goalGetterID": 15215,
+                "goalGetterName": "Sabitzer",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 61658,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 25,
+                "goalGetterID": 14513,
+                "goalGetterName": " Poulsen, Yussuf",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 61659,
+                "scoreTeam1": 1,
+                "scoreTeam2": 3,
+                "matchMinute": 49,
+                "goalGetterID": 16268,
+                "goalGetterName": "Augustin",
+                "scoringTeamId": 1635,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 61660,
+                "scoreTeam1": 2,
+                "scoreTeam2": 3,
+                "matchMinute": 64,
+                "goalGetterID": 11397,
+                "goalGetterName": "Aubameyang",
+                "scoringTeamId": 7,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 35,
+            "locationCity": "Dortmund",
+            "locationStadium": "Signal Iduna Park"
+        },
+        "numberOfViewers": 80100
+    },
+    {
         "matchID": 45502,
         "matchDateTime": "2017-10-14T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -424,6 +363,293 @@
             "locationStadium": "WIRSOL Rhein-Neckar-Arena"
         },
         "numberOfViewers": 27014
+    },
+    {
+        "matchID": 45503,
+        "matchDateTime": "2017-10-14T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4153,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
+        "leagueSeason": 2017,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2017-10-14T13:30:00Z",
+        "group": {
+            "groupName": "8. Spieltag",
+            "groupOrderID": 8,
+            "groupID": 28954
+        },
+        "team1": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-04-06T16:30:44.27",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 76675,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 76681,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 61645,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 54,
+                "goalGetterID": 6631,
+                "goalGetterName": "Goretzka",
+                "scoringTeamId": 9,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 61650,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 78,
+                "goalGetterID": 14914,
+                "goalGetterName": "Burgstaller",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 22,
+            "locationCity": "Berlin",
+            "locationStadium": "Olympiastadion"
+        },
+        "numberOfViewers": 50590
+    },
+    {
+        "matchID": 45504,
+        "matchDateTime": "2017-10-15T18:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4153,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
+        "leagueSeason": 2017,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2017-10-15T16:00:00Z",
+        "group": {
+            "groupName": "8. Spieltag",
+            "groupOrderID": 8,
+            "groupID": 28954
+        },
+        "team1": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-04-06T16:37:19.72",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 76729,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 76732,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 61708,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 27,
+                "goalGetterID": 637,
+                "goalGetterName": "Stindl",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 61709,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 34,
+                "goalGetterID": 4302,
+                "goalGetterName": "Vestergaard",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 492,
+            "locationCity": "Bremen",
+            "locationStadium": "Weser-Stadion"
+        },
+        "numberOfViewers": 42100
+    },
+    {
+        "matchID": 45505,
+        "matchDateTime": "2017-10-15T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4153,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
+        "leagueSeason": 2017,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2017-10-15T13:30:00Z",
+        "group": {
+            "groupName": "8. Spieltag",
+            "groupOrderID": 8,
+            "groupID": 28954
+        },
+        "team1": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-04-06T16:36:44.937",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 76718,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 76720,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 61696,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 29,
+                "goalGetterID": 13493,
+                "goalGetterName": "Lars Bender",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 61697,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 44,
+                "goalGetterID": 14298,
+                "goalGetterName": "Origi",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 61699,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 61,
+                "goalGetterID": 16277,
+                "goalGetterName": "Alario",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 61700,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 69,
+                "goalGetterID": 1606,
+                "goalGetterName": "Blaszczykowski",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 28,
+            "locationCity": "Leverkusen",
+            "locationStadium": "BayArena"
+        },
+        "numberOfViewers": 29104
     },
     {
         "matchID": 45506,
@@ -652,177 +878,51 @@
         "numberOfViewers": 43500
     },
     {
-        "matchID": 45501,
-        "matchDateTime": "2017-10-14T18:30:00",
+        "matchID": 45508,
+        "matchDateTime": "2017-10-13T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4153,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
         "leagueSeason": 2017,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2017-10-14T16:30:00Z",
+        "matchDateTimeUTC": "2017-10-13T18:30:00Z",
         "group": {
             "groupName": "8. Spieltag",
             "groupOrderID": 8,
             "groupID": 28954
         },
         "team1": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 1635,
-            "teamName": "RB Leipzig",
-            "shortName": "Leipzig",
-            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2018-04-06T16:32:41.62",
+        "lastUpdateDateTime": "2018-04-06T16:28:51.173",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 76682,
+                "resultID": 76650,
                 "resultName": "Halbzeitergebnis",
                 "pointsTeam1": 1,
-                "pointsTeam2": 2,
+                "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
                 "resultDescription": "Ergebnis zur Halbzeit"
             },
             {
-                "resultID": 76683,
+                "resultID": 76651,
                 "resultName": "Endergebnis",
                 "pointsTeam1": 2,
-                "pointsTeam2": 3,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 61656,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 4,
-                "goalGetterID": 11397,
-                "goalGetterName": "Aubameyang",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 61657,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 10,
-                "goalGetterID": 15215,
-                "goalGetterName": "Sabitzer",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 61658,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 25,
-                "goalGetterID": 14513,
-                "goalGetterName": " Poulsen, Yussuf",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 61659,
-                "scoreTeam1": 1,
-                "scoreTeam2": 3,
-                "matchMinute": 49,
-                "goalGetterID": 16268,
-                "goalGetterName": "Augustin",
-                "scoringTeamId": 1635,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 61660,
-                "scoreTeam1": 2,
-                "scoreTeam2": 3,
-                "matchMinute": 64,
-                "goalGetterID": 11397,
-                "goalGetterName": "Aubameyang",
-                "scoringTeamId": 7,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 35,
-            "locationCity": "Dortmund",
-            "locationStadium": "Signal Iduna Park"
-        },
-        "numberOfViewers": 80100
-    },
-    {
-        "matchID": 45505,
-        "matchDateTime": "2017-10-15T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4153,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
-        "leagueSeason": 2017,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2017-10-15T13:30:00Z",
-        "group": {
-            "groupName": "8. Spieltag",
-            "groupOrderID": 8,
-            "groupID": 28954
-        },
-        "team1": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2018-04-06T16:36:44.937",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 76718,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
                 "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 76720,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 2,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
@@ -831,52 +931,39 @@
         ],
         "goals": [
             {
-                "goalID": 61696,
+                "goalID": 61615,
                 "scoreTeam1": 1,
                 "scoreTeam2": 0,
-                "matchMinute": 29,
-                "goalGetterID": 13493,
-                "goalGetterName": "Lars Bender",
-                "scoringTeamId": 6,
+                "matchMinute": 38,
+                "goalGetterID": 16295,
+                "goalGetterName": "Donis",
+                "scoringTeamId": 16,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 61697,
+                "goalID": 61623,
                 "scoreTeam1": 1,
                 "scoreTeam2": 1,
-                "matchMinute": 44,
-                "goalGetterID": 14298,
-                "goalGetterName": "Origi",
-                "scoringTeamId": 131,
+                "matchMinute": 77,
+                "goalGetterID": 14435,
+                "goalGetterName": "Heintz",
+                "scoringTeamId": 65,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 61699,
+                "goalID": 61624,
                 "scoreTeam1": 2,
                 "scoreTeam2": 1,
-                "matchMinute": 61,
-                "goalGetterID": 16277,
-                "goalGetterName": "Alario",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 61700,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 69,
-                "goalGetterID": 1606,
-                "goalGetterName": "Blaszczykowski",
-                "scoringTeamId": 131,
+                "matchMinute": 90,
+                "goalGetterID": 16267,
+                "goalGetterName": "Akolo",
+                "scoringTeamId": 16,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -884,97 +971,10 @@
             }
         ],
         "location": {
-            "locationID": 28,
-            "locationCity": "Leverkusen",
-            "locationStadium": "BayArena"
+            "locationID": 493,
+            "locationCity": "Stuttgart",
+            "locationStadium": "Mercedes-Benz Arena"
         },
-        "numberOfViewers": 29104
-    },
-    {
-        "matchID": 45504,
-        "matchDateTime": "2017-10-15T18:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4153,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
-        "leagueSeason": 2017,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2017-10-15T16:00:00Z",
-        "group": {
-            "groupName": "8. Spieltag",
-            "groupOrderID": 8,
-            "groupID": 28954
-        },
-        "team1": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2018-04-06T16:37:19.72",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 76729,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 76732,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 61708,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 27,
-                "goalGetterID": 637,
-                "goalGetterName": "Stindl",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 61709,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 34,
-                "goalGetterID": 4302,
-                "goalGetterName": "Vestergaard",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 492,
-            "locationCity": "Bremen",
-            "locationStadium": "Weser-Stadion"
-        },
-        "numberOfViewers": 42100
+        "numberOfViewers": 58716
     }
 ]

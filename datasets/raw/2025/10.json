@@ -135,224 +135,6 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 77344,
-        "matchDateTime": "2025-11-08T15:30:00",
-        "timeZoneID": null,
-        "leagueId": 4821,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
-        "leagueSeason": 2025,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2025-11-08T14:30:00Z",
-        "group": {
-            "groupName": "10. Spieltag",
-            "groupOrderID": 10,
-            "groupID": 47620
-        },
-        "team1": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 1635,
-            "teamName": "RB Leipzig",
-            "shortName": "Leipzig",
-            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2025-11-08T17:35:00.253",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 120182,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            },
-            {
-                "resultID": 120183,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 134096,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 9,
-                "goalGetterID": 23584,
-                "goalGetterName": "Y. Diomande",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 134097,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 20,
-                "goalGetterID": 24239,
-                "goalGetterName": "A. Hajdari",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 134109,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 38,
-                "goalGetterID": 19004,
-                "goalGetterName": "T. Lemperle",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 134118,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 79,
-                "goalGetterID": 18355,
-                "goalGetterName": "G. Pr\u00f6mel",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 77342,
-        "matchDateTime": "2025-11-08T18:30:00",
-        "timeZoneID": null,
-        "leagueId": 4821,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
-        "leagueSeason": 2025,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2025-11-08T17:30:00Z",
-        "group": {
-            "groupName": "10. Spieltag",
-            "groupOrderID": 10,
-            "groupID": 47620
-        },
-        "team1": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2025-11-08T20:34:27.467",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 120195,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            },
-            {
-                "resultID": 120196,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 134125,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 45,
-                "goalGetterID": 20037,
-                "goalGetterName": "P. Sander",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": null
-            },
-            {
-                "goalID": 134126,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 62,
-                "goalGetterID": 24242,
-                "goalGetterName": "K. Diks",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 134127,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 64,
-                "goalGetterID": 20156,
-                "goalGetterName": "H. Tabakovic",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 134128,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 90,
-                "goalGetterID": 15274,
-                "goalGetterName": "L. Waldschmidt",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 77338,
         "matchDateTime": "2025-11-09T19:30:00",
         "timeZoneID": null,
@@ -416,6 +198,198 @@
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 77339,
+        "matchDateTime": "2025-11-09T15:30:00",
+        "timeZoneID": null,
+        "leagueId": 4821,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
+        "leagueSeason": 2025,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2025-11-09T14:30:00Z",
+        "group": {
+            "groupName": "10. Spieltag",
+            "groupOrderID": 10,
+            "groupID": 47620
+        },
+        "team1": {
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 98,
+            "teamName": "FC St. Pauli",
+            "shortName": "St. Pauli",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2025-11-09T17:25:03.597",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 120236,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 120237,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 134181,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 40,
+                "goalGetterID": 24246,
+                "goalGetterName": "Y. Suzuki",
+                "scoringTeamId": 112,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 134182,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 50,
+                "goalGetterID": 18251,
+                "goalGetterName": "M. Eggestein",
+                "scoringTeamId": 112,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 134184,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 69,
+                "goalGetterID": 21356,
+                "goalGetterName": "L. Oppie",
+                "scoringTeamId": 98,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 77340,
+        "matchDateTime": "2025-11-07T20:30:00",
+        "timeZoneID": null,
+        "leagueId": 4821,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
+        "leagueSeason": 2025,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2025-11-07T19:30:00Z",
+        "group": {
+            "groupName": "10. Spieltag",
+            "groupOrderID": 10,
+            "groupID": 47620
+        },
+        "team1": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2025-11-09T15:53:22.13",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 120155,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 120156,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 134055,
+                "scoreTeam1": 0,
+                "scoreTeam2": 0,
+                "matchMinute": 28,
+                "goalGetterID": 19593,
+                "goalGetterName": "M. Svanberg",
+                "scoringTeamId": null,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 134059,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 83,
+                "goalGetterID": 19775,
+                "goalGetterName": "J. Stage",
+                "scoringTeamId": null,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 134060,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 90,
+                "goalGetterID": 23761,
+                "goalGetterName": "S. Mbangula",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
                 "comment": null
             }
         ],
@@ -545,40 +519,40 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 77340,
-        "matchDateTime": "2025-11-07T20:30:00",
+        "matchID": 77342,
+        "matchDateTime": "2025-11-08T18:30:00",
         "timeZoneID": null,
         "leagueId": 4821,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
         "leagueSeason": 2025,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2025-11-07T19:30:00Z",
+        "matchDateTimeUTC": "2025-11-08T17:30:00Z",
         "group": {
             "groupName": "10. Spieltag",
             "groupOrderID": 10,
             "groupID": 47620
         },
         "team1": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2025-11-09T15:53:22.13",
+        "lastUpdateDateTime": "2025-11-08T20:34:27.467",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 120155,
+                "resultID": 120195,
                 "resultName": "Halbzeit",
-                "pointsTeam1": 0,
+                "pointsTeam1": 1,
                 "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
@@ -586,9 +560,9 @@
                 "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
             },
             {
-                "resultID": 120156,
+                "resultID": 120196,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 2,
+                "pointsTeam1": 3,
                 "pointsTeam2": 1,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
@@ -598,39 +572,52 @@
         ],
         "goals": [
             {
-                "goalID": 134055,
-                "scoreTeam1": 0,
-                "scoreTeam2": 0,
-                "matchMinute": 28,
-                "goalGetterID": 19593,
-                "goalGetterName": "M. Svanberg",
-                "scoringTeamId": null,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 134059,
+                "goalID": 134125,
                 "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 83,
-                "goalGetterID": 19775,
-                "goalGetterName": "J. Stage",
-                "scoringTeamId": null,
+                "scoreTeam2": 0,
+                "matchMinute": 45,
+                "goalGetterID": 20037,
+                "goalGetterName": "P. Sander",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            },
+            {
+                "goalID": 134126,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 62,
+                "goalGetterID": 24242,
+                "goalGetterName": "K. Diks",
+                "scoringTeamId": 87,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 134060,
-                "scoreTeam1": 2,
+                "goalID": 134127,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 64,
+                "goalGetterID": 20156,
+                "goalGetterName": "H. Tabakovic",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 134128,
+                "scoreTeam1": 3,
                 "scoreTeam2": 1,
                 "matchMinute": 90,
-                "goalGetterID": 23761,
-                "goalGetterName": "S. Mbangula",
-                "scoringTeamId": 134,
+                "goalGetterID": 15274,
+                "goalGetterName": "L. Waldschmidt",
+                "scoringTeamId": 65,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": true,
@@ -750,6 +737,115 @@
         "numberOfViewers": null
     },
     {
+        "matchID": 77344,
+        "matchDateTime": "2025-11-08T15:30:00",
+        "timeZoneID": null,
+        "leagueId": 4821,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
+        "leagueSeason": 2025,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2025-11-08T14:30:00Z",
+        "group": {
+            "groupName": "10. Spieltag",
+            "groupOrderID": 10,
+            "groupID": 47620
+        },
+        "team1": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2025-11-08T17:35:00.253",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 120182,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 120183,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 134096,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 9,
+                "goalGetterID": 23584,
+                "goalGetterName": "Y. Diomande",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 134097,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 20,
+                "goalGetterID": 24239,
+                "goalGetterName": "A. Hajdari",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 134109,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 38,
+                "goalGetterID": 19004,
+                "goalGetterName": "T. Lemperle",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 134118,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 79,
+                "goalGetterID": 18355,
+                "goalGetterName": "G. Pr\u00f6mel",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 77345,
         "matchDateTime": "2025-11-08T15:30:00",
         "timeZoneID": null,
@@ -826,102 +922,6 @@
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": true,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 77339,
-        "matchDateTime": "2025-11-09T15:30:00",
-        "timeZoneID": null,
-        "leagueId": 4821,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
-        "leagueSeason": 2025,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2025-11-09T14:30:00Z",
-        "group": {
-            "groupName": "10. Spieltag",
-            "groupOrderID": 10,
-            "groupID": 47620
-        },
-        "team1": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 98,
-            "teamName": "FC St. Pauli",
-            "shortName": "St. Pauli",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2025-11-09T17:25:03.597",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 120236,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            },
-            {
-                "resultID": 120237,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 134181,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 40,
-                "goalGetterID": 24246,
-                "goalGetterName": "Y. Suzuki",
-                "scoringTeamId": 112,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 134182,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 50,
-                "goalGetterID": 18251,
-                "goalGetterName": "M. Eggestein",
-                "scoringTeamId": 112,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 134184,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 69,
-                "goalGetterID": 21356,
-                "goalGetterName": "L. Oppie",
-                "scoringTeamId": 98,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
                 "comment": null
             }
         ],

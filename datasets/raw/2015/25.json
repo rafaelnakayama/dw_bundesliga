@@ -1,61 +1,5 @@
 [
     {
-        "matchID": 33596,
-        "matchDateTime": "2016-03-06T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 848,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
-        "leagueSeason": 2015,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2016-03-06T14:30:00Z",
-        "group": {
-            "groupName": "25. Spieltag",
-            "groupOrderID": 25,
-            "groupID": 17774
-        },
-        "team1": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 118,
-            "teamName": "SV Darmstadt 98",
-            "shortName": "Darmstadt",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2016-03-06T17:35:39.33",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 62559,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 62560,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 33577,
         "matchDateTime": "2016-03-05T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -534,6 +478,93 @@
         "numberOfViewers": null
     },
     {
+        "matchID": 33586,
+        "matchDateTime": "2016-03-06T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 848,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
+        "leagueSeason": 2015,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2016-03-06T16:30:00Z",
+        "group": {
+            "groupName": "25. Spieltag",
+            "groupOrderID": 25,
+            "groupID": 17774
+        },
+        "team1": {
+            "teamId": 100,
+            "teamName": "Hamburger SV",
+            "shortName": "HSV",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2016-03-20T22:19:33.233",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 62557,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 62558,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 47325,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 58,
+                "goalGetterID": 1457,
+                "goalGetterName": "N. M\u00fcller",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 47326,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 75,
+                "goalGetterID": 1457,
+                "goalGetterName": "N. M\u00fcller",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 52,
+            "locationCity": "",
+            "locationStadium": ""
+        },
+        "numberOfViewers": null
+    },
+    {
         "matchID": 33589,
         "matchDateTime": "2016-03-05T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -816,38 +847,38 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 33586,
-        "matchDateTime": "2016-03-06T17:30:00",
+        "matchID": 33596,
+        "matchDateTime": "2016-03-06T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 848,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
         "leagueSeason": 2015,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2016-03-06T16:30:00Z",
+        "matchDateTimeUTC": "2016-03-06T14:30:00Z",
         "group": {
             "groupName": "25. Spieltag",
             "groupOrderID": 25,
             "groupID": 17774
         },
         "team1": {
-            "teamId": 100,
-            "teamName": "Hamburger SV",
-            "shortName": "HSV",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 54,
-            "teamName": "Hertha BSC",
-            "shortName": "Hertha",
-            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamId": 118,
+            "teamName": "SV Darmstadt 98",
+            "shortName": "Darmstadt",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2016-03-20T22:19:33.233",
+        "lastUpdateDateTime": "2016-03-06T17:35:39.33",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 62557,
+                "resultID": 62559,
                 "resultName": "Halbzeitergebnis",
                 "pointsTeam1": 0,
                 "pointsTeam2": 0,
@@ -857,9 +888,9 @@
                 "resultDescription": "Ergebnis zur Halbzeit"
             },
             {
-                "resultID": 62558,
+                "resultID": 62560,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 2,
+                "pointsTeam1": 0,
                 "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
@@ -867,39 +898,8 @@
                 "resultDescription": "Ergebnis nach Spielende"
             }
         ],
-        "goals": [
-            {
-                "goalID": 47325,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 58,
-                "goalGetterID": 1457,
-                "goalGetterName": "N. M\u00fcller",
-                "scoringTeamId": 100,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 47326,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 75,
-                "goalGetterID": 1457,
-                "goalGetterName": "N. M\u00fcller",
-                "scoringTeamId": 100,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 52,
-            "locationCity": "",
-            "locationStadium": ""
-        },
+        "goals": [],
+        "location": null,
         "numberOfViewers": null
     }
 ]

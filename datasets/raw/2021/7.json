@@ -1,49 +1,158 @@
 [
     {
-        "matchID": 60903,
-        "matchDateTime": "2021-10-01T20:30:00",
+        "matchID": 60899,
+        "matchDateTime": "2021-10-03T19:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4500,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
         "leagueSeason": 2021,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2021-10-01T18:30:00Z",
+        "matchDateTimeUTC": "2021-10-03T17:30:00Z",
         "group": {
             "groupName": "7. Spieltag",
             "groupOrderID": 7,
             "groupID": 38183
         },
         "team1": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamId": 83,
+            "teamName": "DSC Arminia Bielefeld",
+            "shortName": "Bielefeld",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 115,
-            "teamName": "SpVgg Greuther F\u00fcrth",
-            "shortName": "F\u00fcrth",
-            "teamIconUrl": "https://i.imgur.com/pwuVbKr.png",
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2021-10-01T22:23:45.237",
+        "lastUpdateDateTime": "2021-10-03T21:21:14.94",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 96022,
+                "resultID": 96052,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 1,
+                "pointsTeam1": 0,
+                "pointsTeam2": 4,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 96023,
+                "resultID": 96053,
                 "resultName": "Halbzeitergebnis",
                 "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 91188,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 18,
+                "goalGetterID": 18460,
+                "goalGetterName": "M. Diaby",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 91189,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 24,
+                "goalGetterID": 18331,
+                "goalGetterName": "P. Schick",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 91190,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 57,
+                "goalGetterID": 18331,
+                "goalGetterName": "P. Schick",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 91191,
+                "scoreTeam1": 0,
+                "scoreTeam2": 4,
+                "matchMinute": 91,
+                "goalGetterID": 18586,
+                "goalGetterName": "K. Demirbay",
+                "scoringTeamId": 6,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 60900,
+        "matchDateTime": "2021-10-03T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4500,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
+        "leagueSeason": 2021,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2021-10-03T15:30:00Z",
+        "group": {
+            "groupName": "7. Spieltag",
+            "groupOrderID": 7,
+            "groupID": 38183
+        },
+        "team1": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2021-10-03T19:24:53.593",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 96050,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 96051,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
                 "pointsTeam2": 1,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
@@ -53,52 +162,39 @@
         ],
         "goals": [
             {
-                "goalID": 91137,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 7,
-                "goalGetterID": 18348,
-                "goalGetterName": "M. Meyerh\u00f6fer",
-                "scoringTeamId": 115,
+                "goalID": 91185,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 29,
+                "goalGetterID": 18648,
+                "goalGetterName": "L. Goretzka",
+                "scoringTeamId": 40,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 91138,
+                "goalID": 91186,
                 "scoreTeam1": 1,
                 "scoreTeam2": 1,
-                "matchMinute": 50,
-                "goalGetterID": 18753,
-                "goalGetterName": "S. Andersson",
-                "scoringTeamId": 65,
+                "matchMinute": 32,
+                "goalGetterID": 18550,
+                "goalGetterName": "M. Hinteregger",
+                "scoringTeamId": 91,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 91139,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 55,
-                "goalGetterID": 18634,
-                "goalGetterName": "E. Skhiri",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 91140,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 90,
-                "goalGetterID": 18634,
-                "goalGetterName": "E. Skhiri",
-                "scoringTeamId": 65,
+                "goalID": 91187,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 83,
+                "goalGetterID": 18514,
+                "goalGetterName": "F. Kostic",
+                "scoringTeamId": 91,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -291,6 +387,307 @@
                 "goalGetterID": 1483,
                 "goalGetterName": "N. Petersen",
                 "scoringTeamId": 112,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 60903,
+        "matchDateTime": "2021-10-01T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4500,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
+        "leagueSeason": 2021,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2021-10-01T18:30:00Z",
+        "group": {
+            "groupName": "7. Spieltag",
+            "groupOrderID": 7,
+            "groupID": 38183
+        },
+        "team1": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 115,
+            "teamName": "SpVgg Greuther F\u00fcrth",
+            "shortName": "F\u00fcrth",
+            "teamIconUrl": "https://i.imgur.com/pwuVbKr.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2021-10-01T22:23:45.237",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 96022,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 96023,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 91137,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 7,
+                "goalGetterID": 18348,
+                "goalGetterName": "M. Meyerh\u00f6fer",
+                "scoringTeamId": 115,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 91138,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 50,
+                "goalGetterID": 18753,
+                "goalGetterName": "S. Andersson",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 91139,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 55,
+                "goalGetterID": 18634,
+                "goalGetterName": "E. Skhiri",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 91140,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 90,
+                "goalGetterID": 18634,
+                "goalGetterName": "E. Skhiri",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 60904,
+        "matchDateTime": "2021-10-03T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4500,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
+        "leagueSeason": 2021,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2021-10-03T13:30:00Z",
+        "group": {
+            "groupName": "7. Spieltag",
+            "groupOrderID": 7,
+            "groupID": 38183
+        },
+        "team1": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 80,
+            "teamName": "1. FC Union Berlin",
+            "shortName": "Union Berlin",
+            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2021-10-03T17:23:34.783",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 96048,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 96049,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 91182,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 40,
+                "goalGetterID": 18513,
+                "goalGetterName": "M. Ingvartsen",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 91183,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 70,
+                "goalGetterID": 18412,
+                "goalGetterName": "T. Awoniyi",
+                "scoringTeamId": 80,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 91184,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 73,
+                "goalGetterID": 18412,
+                "goalGetterName": "T. Awoniyi",
+                "scoringTeamId": 80,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 60905,
+        "matchDateTime": "2021-10-02T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4500,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
+        "leagueSeason": 2021,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2021-10-02T16:30:00Z",
+        "group": {
+            "groupName": "7. Spieltag",
+            "groupOrderID": 7,
+            "groupID": 38183
+        },
+        "team1": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 129,
+            "teamName": "VfL Bochum",
+            "shortName": "Bochum",
+            "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2021-10-02T20:21:50.74",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 96038,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 96039,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 91166,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 70,
+                "goalGetterID": 18484,
+                "goalGetterName": "A. Silva",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 91167,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 73,
+                "goalGetterID": 18782,
+                "goalGetterName": "C. Nkunku",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 91168,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 79,
+                "goalGetterID": 18782,
+                "goalGetterName": "C. Nkunku",
+                "scoringTeamId": 1635,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -510,403 +907,6 @@
                 "goalGetterName": "J. Scally",
                 "scoringTeamId": 87,
                 "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 60905,
-        "matchDateTime": "2021-10-02T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4500,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
-        "leagueSeason": 2021,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2021-10-02T16:30:00Z",
-        "group": {
-            "groupName": "7. Spieltag",
-            "groupOrderID": 7,
-            "groupID": 38183
-        },
-        "team1": {
-            "teamId": 1635,
-            "teamName": "RB Leipzig",
-            "shortName": "Leipzig",
-            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 129,
-            "teamName": "VfL Bochum",
-            "shortName": "Bochum",
-            "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2021-10-02T20:21:50.74",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 96038,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 96039,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 91166,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 70,
-                "goalGetterID": 18484,
-                "goalGetterName": "A. Silva",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 91167,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 73,
-                "goalGetterID": 18782,
-                "goalGetterName": "C. Nkunku",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 91168,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 79,
-                "goalGetterID": 18782,
-                "goalGetterName": "C. Nkunku",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 60904,
-        "matchDateTime": "2021-10-03T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4500,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
-        "leagueSeason": 2021,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2021-10-03T13:30:00Z",
-        "group": {
-            "groupName": "7. Spieltag",
-            "groupOrderID": 7,
-            "groupID": 38183
-        },
-        "team1": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 80,
-            "teamName": "1. FC Union Berlin",
-            "shortName": "Union Berlin",
-            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2021-10-03T17:23:34.783",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 96048,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 96049,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 91182,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 40,
-                "goalGetterID": 18513,
-                "goalGetterName": "M. Ingvartsen",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 91183,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 70,
-                "goalGetterID": 18412,
-                "goalGetterName": "T. Awoniyi",
-                "scoringTeamId": 80,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 91184,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 73,
-                "goalGetterID": 18412,
-                "goalGetterName": "T. Awoniyi",
-                "scoringTeamId": 80,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 60900,
-        "matchDateTime": "2021-10-03T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4500,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
-        "leagueSeason": 2021,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2021-10-03T15:30:00Z",
-        "group": {
-            "groupName": "7. Spieltag",
-            "groupOrderID": 7,
-            "groupID": 38183
-        },
-        "team1": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2021-10-03T19:24:53.593",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 96050,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 96051,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 91185,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 29,
-                "goalGetterID": 18648,
-                "goalGetterName": "L. Goretzka",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 91186,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 32,
-                "goalGetterID": 18550,
-                "goalGetterName": "M. Hinteregger",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 91187,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 83,
-                "goalGetterID": 18514,
-                "goalGetterName": "F. Kostic",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 60899,
-        "matchDateTime": "2021-10-03T19:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4500,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
-        "leagueSeason": 2021,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2021-10-03T17:30:00Z",
-        "group": {
-            "groupName": "7. Spieltag",
-            "groupOrderID": 7,
-            "groupID": 38183
-        },
-        "team1": {
-            "teamId": 83,
-            "teamName": "DSC Arminia Bielefeld",
-            "shortName": "Bielefeld",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2021-10-03T21:21:14.94",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 96052,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 4,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 96053,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 91188,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 18,
-                "goalGetterID": 18460,
-                "goalGetterName": "M. Diaby",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 91189,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 24,
-                "goalGetterID": 18331,
-                "goalGetterName": "P. Schick",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 91190,
-                "scoreTeam1": 0,
-                "scoreTeam2": 3,
-                "matchMinute": 57,
-                "goalGetterID": 18331,
-                "goalGetterName": "P. Schick",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 91191,
-                "scoreTeam1": 0,
-                "scoreTeam2": 4,
-                "matchMinute": 91,
-                "goalGetterID": 18586,
-                "goalGetterName": "K. Demirbay",
-                "scoringTeamId": 6,
-                "isPenalty": true,
                 "isOwnGoal": false,
                 "isOvertime": true,
                 "comment": null

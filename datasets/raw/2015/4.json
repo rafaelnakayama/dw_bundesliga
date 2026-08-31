@@ -1,101 +1,5 @@
 [
     {
-        "matchID": 33292,
-        "matchDateTime": "2015-09-11T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 848,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
-        "leagueSeason": 2015,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2015-09-11T18:30:00Z",
-        "group": {
-            "groupName": "4. Spieltag",
-            "groupOrderID": 4,
-            "groupID": 17753
-        },
-        "team1": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 100,
-            "teamName": "Hamburger SV",
-            "shortName": "HSV",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2015-09-12T12:08:08.86",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 55998,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 55999,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 3,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 40677,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 11,
-                "goalGetterID": 1757,
-                "goalGetterName": "Lasogga",
-                "scoringTeamId": 100,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 40678,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 44,
-                "goalGetterID": 1757,
-                "goalGetterName": "Lasogga",
-                "scoringTeamId": 100,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 40679,
-                "scoreTeam1": 0,
-                "scoreTeam2": 3,
-                "matchMinute": 52,
-                "goalGetterID": 1457,
-                "goalGetterName": "N. M\u00fcller",
-                "scoringTeamId": 100,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 33289,
         "matchDateTime": "2015-09-12T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -192,6 +96,102 @@
         "numberOfViewers": null
     },
     {
+        "matchID": 33290,
+        "matchDateTime": "2015-09-13T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 848,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
+        "leagueSeason": 2015,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2015-09-13T15:30:00Z",
+        "group": {
+            "groupName": "4. Spieltag",
+            "groupOrderID": 4,
+            "groupID": 17753
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2015-09-13T19:22:53.223",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 56086,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 56089,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 40805,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 37,
+                "goalGetterID": 108,
+                "goalGetterName": "Matip",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 40806,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 42,
+                "goalGetterID": 1521,
+                "goalGetterName": "Malli",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 40807,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 61,
+                "goalGetterID": 1207,
+                "goalGetterName": "Huntelaar",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 33291,
         "matchDateTime": "2015-09-12T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -252,6 +252,263 @@
                 "goalGetterID": 1420,
                 "goalGetterName": "Sulu",
                 "scoringTeamId": 118,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 33292,
+        "matchDateTime": "2015-09-11T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 848,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
+        "leagueSeason": 2015,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2015-09-11T18:30:00Z",
+        "group": {
+            "groupName": "4. Spieltag",
+            "groupOrderID": 4,
+            "groupID": 17753
+        },
+        "team1": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 100,
+            "teamName": "Hamburger SV",
+            "shortName": "HSV",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2015-09-12T12:08:08.86",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 55998,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 55999,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 3,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 40677,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 11,
+                "goalGetterID": 1757,
+                "goalGetterName": "Lasogga",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 40678,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 44,
+                "goalGetterID": 1757,
+                "goalGetterName": "Lasogga",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 40679,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 52,
+                "goalGetterID": 1457,
+                "goalGetterName": "N. M\u00fcller",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 33293,
+        "matchDateTime": "2015-09-12T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 848,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
+        "leagueSeason": 2015,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2015-09-12T16:30:00Z",
+        "group": {
+            "groupName": "4. Spieltag",
+            "groupOrderID": 4,
+            "groupID": 17753
+        },
+        "team1": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2015-09-12T20:18:08.177",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 56055,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 4,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 56058,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 6,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 40729,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 8,
+                "goalGetterID": 518,
+                "goalGetterName": "Meier",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 40730,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 15,
+                "goalGetterID": 15273,
+                "goalGetterName": "Castaignos",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 40731,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 23,
+                "goalGetterID": 518,
+                "goalGetterName": "Meier",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 40732,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 28,
+                "goalGetterID": 11344,
+                "goalGetterName": "Modeste",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 40733,
+                "scoreTeam1": 4,
+                "scoreTeam2": 1,
+                "matchMinute": 30,
+                "goalGetterID": 15273,
+                "goalGetterName": "Castaignos",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 40759,
+                "scoreTeam1": 5,
+                "scoreTeam2": 1,
+                "matchMinute": 73,
+                "goalGetterID": 14260,
+                "goalGetterName": "Seferovic",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 40760,
+                "scoreTeam1": 5,
+                "scoreTeam2": 2,
+                "matchMinute": 81,
+                "goalGetterID": 14435,
+                "goalGetterName": "Heintz",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 40761,
+                "scoreTeam1": 6,
+                "scoreTeam2": 2,
+                "matchMinute": 87,
+                "goalGetterID": 518,
+                "goalGetterName": "Meier",
+                "scoringTeamId": 91,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -493,223 +750,6 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 33297,
-        "matchDateTime": "2015-09-12T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 848,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
-        "leagueSeason": 2015,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2015-09-12T13:30:00Z",
-        "group": {
-            "groupName": "4. Spieltag",
-            "groupOrderID": 4,
-            "groupID": 17753
-        },
-        "team1": {
-            "teamId": 171,
-            "teamName": "FC Ingolstadt 04",
-            "shortName": "Ingolstadt",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/5/55/FC-Ingolstadt_logo.svg/960px-FC-Ingolstadt_logo.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2015-09-12T17:21:13.433",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 56036,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 56052,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 33293,
-        "matchDateTime": "2015-09-12T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 848,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
-        "leagueSeason": 2015,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2015-09-12T16:30:00Z",
-        "group": {
-            "groupName": "4. Spieltag",
-            "groupOrderID": 4,
-            "groupID": 17753
-        },
-        "team1": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2015-09-12T20:18:08.177",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 56055,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 4,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 56058,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 6,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 40729,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 8,
-                "goalGetterID": 518,
-                "goalGetterName": "Meier",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 40730,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 15,
-                "goalGetterID": 15273,
-                "goalGetterName": "Castaignos",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 40731,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 23,
-                "goalGetterID": 518,
-                "goalGetterName": "Meier",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 40732,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 28,
-                "goalGetterID": 11344,
-                "goalGetterName": "Modeste",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 40733,
-                "scoreTeam1": 4,
-                "scoreTeam2": 1,
-                "matchMinute": 30,
-                "goalGetterID": 15273,
-                "goalGetterName": "Castaignos",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 40759,
-                "scoreTeam1": 5,
-                "scoreTeam2": 1,
-                "matchMinute": 73,
-                "goalGetterID": 14260,
-                "goalGetterName": "Seferovic",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 40760,
-                "scoreTeam1": 5,
-                "scoreTeam2": 2,
-                "matchMinute": 81,
-                "goalGetterID": 14435,
-                "goalGetterName": "Heintz",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 40761,
-                "scoreTeam1": 6,
-                "scoreTeam2": 2,
-                "matchMinute": 87,
-                "goalGetterID": 518,
-                "goalGetterName": "Meier",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 33296,
         "matchDateTime": "2015-09-13T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -819,98 +859,58 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 33290,
-        "matchDateTime": "2015-09-13T17:30:00",
+        "matchID": 33297,
+        "matchDateTime": "2015-09-12T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 848,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
         "leagueSeason": 2015,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2015-09-13T15:30:00Z",
+        "matchDateTimeUTC": "2015-09-12T13:30:00Z",
         "group": {
             "groupName": "4. Spieltag",
             "groupOrderID": 4,
             "groupID": 17753
         },
         "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamId": 171,
+            "teamName": "FC Ingolstadt 04",
+            "shortName": "Ingolstadt",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/5/55/FC-Ingolstadt_logo.svg/960px-FC-Ingolstadt_logo.svg.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2015-09-13T19:22:53.223",
+        "lastUpdateDateTime": "2015-09-12T17:21:13.433",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 56086,
+                "resultID": 56036,
                 "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
                 "resultDescription": "Ergebnis zur Halbzeit"
             },
             {
-                "resultID": 56089,
+                "resultID": 56052,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Spielende"
             }
         ],
-        "goals": [
-            {
-                "goalID": 40805,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 37,
-                "goalGetterID": 108,
-                "goalGetterName": "Matip",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 40806,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 42,
-                "goalGetterID": 1521,
-                "goalGetterName": "Malli",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 40807,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 61,
-                "goalGetterID": 1207,
-                "goalGetterName": "Huntelaar",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
+        "goals": [],
         "location": null,
         "numberOfViewers": null
     }

@@ -1,114 +1,5 @@
 [
     {
-        "matchID": 55285,
-        "matchDateTime": "2019-08-18T18:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4362,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
-        "leagueSeason": 2019,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2019-08-18T16:00:00Z",
-        "group": {
-            "groupName": "1. Spieltag",
-            "groupOrderID": 1,
-            "groupID": 34200
-        },
-        "team1": {
-            "teamId": 80,
-            "teamName": "1. FC Union Berlin",
-            "shortName": "Union Berlin",
-            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 1635,
-            "teamName": "RB Leipzig",
-            "shortName": "Leipzig",
-            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2019-08-18T19:49:04.303",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 89369,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 3,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 89368,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 4,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 80309,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 16,
-                "goalGetterID": 6761,
-                "goalGetterName": "Halstenberg",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 80311,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 31,
-                "goalGetterID": 16044,
-                "goalGetterName": "Marcel Sabitzer",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 80312,
-                "scoreTeam1": 0,
-                "scoreTeam2": 3,
-                "matchMinute": 42,
-                "goalGetterID": 16080,
-                "goalGetterName": "Timo Werner",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 80313,
-                "scoreTeam1": 0,
-                "scoreTeam2": 4,
-                "matchMinute": 69,
-                "goalGetterID": 17734,
-                "goalGetterName": "Nkunku, C.",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 55277,
         "matchDateTime": "2019-08-16T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -479,6 +370,62 @@
         "numberOfViewers": null
     },
     {
+        "matchID": 55280,
+        "matchDateTime": "2019-08-17T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2019-08-17T16:30:00Z",
+        "group": {
+            "groupName": "1. Spieltag",
+            "groupOrderID": 1,
+            "groupID": 34200
+        },
+        "team1": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2019-08-17T20:22:54.997",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 89355,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 89354,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 55281,
         "matchDateTime": "2019-08-17T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -565,6 +512,76 @@
                 "goalGetterID": 14471,
                 "goalGetterName": "Simon Terodde",
                 "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 55282,
+        "matchDateTime": "2019-08-18T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2019-08-18T13:30:00Z",
+        "group": {
+            "groupName": "1. Spieltag",
+            "groupOrderID": 1,
+            "groupID": 34200
+        },
+        "team1": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2019-08-18T17:25:18.5",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 89363,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 89362,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 80299,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 1,
+                "goalGetterID": 15641,
+                "goalGetterName": "Hinteregger",
+                "scoringTeamId": 91,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -780,107 +797,51 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 55280,
-        "matchDateTime": "2019-08-17T18:30:00",
+        "matchID": 55285,
+        "matchDateTime": "2019-08-18T18:00:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4362,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
         "leagueSeason": 2019,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2019-08-17T16:30:00Z",
+        "matchDateTimeUTC": "2019-08-18T16:00:00Z",
         "group": {
             "groupName": "1. Spieltag",
             "groupOrderID": 1,
             "groupID": 34200
         },
         "team1": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamId": 80,
+            "teamName": "1. FC Union Berlin",
+            "shortName": "Union Berlin",
+            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2019-08-17T20:22:54.997",
+        "lastUpdateDateTime": "2019-08-18T19:49:04.303",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 89355,
+                "resultID": 89369,
                 "resultName": "Halbzeit",
                 "pointsTeam1": 0,
-                "pointsTeam2": 0,
+                "pointsTeam2": 3,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
                 "resultDescription": "Zwischenstand zur Halbzeit"
             },
             {
-                "resultID": 89354,
+                "resultID": 89368,
                 "resultName": "Endergebnis",
                 "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 55282,
-        "matchDateTime": "2019-08-18T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4362,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
-        "leagueSeason": 2019,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2019-08-18T13:30:00Z",
-        "group": {
-            "groupName": "1. Spieltag",
-            "groupOrderID": 1,
-            "groupID": 34200
-        },
-        "team1": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2019-08-18T17:25:18.5",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 89363,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 89362,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
+                "pointsTeam2": 4,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
@@ -889,13 +850,52 @@
         ],
         "goals": [
             {
-                "goalID": 80299,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 1,
-                "goalGetterID": 15641,
-                "goalGetterName": "Hinteregger",
-                "scoringTeamId": 91,
+                "goalID": 80309,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 16,
+                "goalGetterID": 6761,
+                "goalGetterName": "Halstenberg",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 80311,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 31,
+                "goalGetterID": 16044,
+                "goalGetterName": "Marcel Sabitzer",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 80312,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 42,
+                "goalGetterID": 16080,
+                "goalGetterName": "Timo Werner",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 80313,
+                "scoreTeam1": 0,
+                "scoreTeam2": 4,
+                "matchMinute": 69,
+                "goalGetterID": 17734,
+                "goalGetterName": "Nkunku, C.",
+                "scoringTeamId": 1635,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

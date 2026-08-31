@@ -1,5 +1,92 @@
 [
     {
+        "matchID": 51147,
+        "matchDateTime": "2018-09-22T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4276,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
+        "leagueSeason": 2018,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-09-22T16:30:00Z",
+        "group": {
+            "groupName": "4. Spieltag",
+            "groupOrderID": 4,
+            "groupID": 31778
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-09-22T20:22:55.45",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 83260,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 83259,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 71497,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 8,
+                "goalGetterID": 14255,
+                "goalGetterName": "James Rodr\u00edguez",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 71498,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 64,
+                "goalGetterID": 1478,
+                "goalGetterName": "Robert Lewandowski",
+                "scoringTeamId": 40,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 983,
+            "locationCity": "Schalke",
+            "locationStadium": " Veltins Arena"
+        },
+        "numberOfViewers": null
+    },
+    {
         "matchID": 51148,
         "matchDateTime": "2018-09-22T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -87,38 +174,38 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 51155,
-        "matchDateTime": "2018-09-22T15:30:00",
+        "matchID": 51149,
+        "matchDateTime": "2018-09-23T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4276,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
         "leagueSeason": 2018,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2018-09-22T13:30:00Z",
+        "matchDateTimeUTC": "2018-09-23T13:30:00Z",
         "group": {
             "groupName": "4. Spieltag",
             "groupOrderID": 4,
             "groupID": 31778
         },
         "team1": {
-            "teamId": 79,
-            "teamName": "1. FC N\u00fcrnberg",
-            "shortName": "N\u00fcrnberg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N\u00fcrnberg_logo.svg",
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 55,
-            "teamName": "Hannover 96",
-            "shortName": "Hannover",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2018-09-22T21:03:04.06",
+        "lastUpdateDateTime": "2018-09-23T17:22:32.643",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 83229,
+                "resultID": 83302,
                 "resultName": "Halbzeit",
                 "pointsTeam1": 0,
                 "pointsTeam2": 0,
@@ -128,9 +215,9 @@
                 "resultDescription": "Zwischenstand zur Halbzeit"
             },
             {
-                "resultID": 83228,
+                "resultID": 83301,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 2,
+                "pointsTeam1": 1,
                 "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
@@ -140,26 +227,13 @@
         ],
         "goals": [
             {
-                "goalID": 71471,
+                "goalID": 71565,
                 "scoreTeam1": 1,
                 "scoreTeam2": 0,
-                "matchMinute": 76,
-                "goalGetterID": 16929,
-                "goalGetterName": "W. Anton",
-                "scoringTeamId": 79,
-                "isPenalty": false,
-                "isOwnGoal": true,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 71473,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 77,
-                "goalGetterID": 16545,
-                "goalGetterName": "Kn\u00f6ll",
-                "scoringTeamId": 79,
+                "matchMinute": 62,
+                "goalGetterID": 16261,
+                "goalGetterName": "Kai Havertz\r\n",
+                "scoringTeamId": 6,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -167,9 +241,9 @@
             }
         ],
         "location": {
-            "locationID": 1111,
-            "locationCity": "N\u00fcrnberg",
-            "locationStadium": "Max-Morlock-Stadion"
+            "locationID": 28,
+            "locationCity": "Leverkusen",
+            "locationStadium": "BayArena"
         },
         "numberOfViewers": null
     },
@@ -230,6 +304,93 @@
             "locationID": 37,
             "locationCity": "Stuttgart",
             "locationStadium": "Mercedes Benz Arena "
+        },
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 51151,
+        "matchDateTime": "2018-09-23T18:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4276,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
+        "leagueSeason": 2018,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-09-23T16:00:00Z",
+        "group": {
+            "groupName": "4. Spieltag",
+            "groupOrderID": 4,
+            "groupID": 31778
+        },
+        "team1": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-09-23T19:51:35.207",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 83315,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 83314,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 71569,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 26,
+                "goalGetterID": 12751,
+                "goalGetterName": "Fernandes",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 71572,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 54,
+                "goalGetterID": 15248,
+                "goalGetterName": "Forsberg",
+                "scoringTeamId": 1635,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 30,
+            "locationCity": "Frankfurt",
+            "locationStadium": "Commerzbank Arena"
         },
         "numberOfViewers": null
     },
@@ -612,125 +773,38 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 51147,
-        "matchDateTime": "2018-09-22T18:30:00",
+        "matchID": 51155,
+        "matchDateTime": "2018-09-22T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4276,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
         "leagueSeason": 2018,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2018-09-22T16:30:00Z",
+        "matchDateTimeUTC": "2018-09-22T13:30:00Z",
         "group": {
             "groupName": "4. Spieltag",
             "groupOrderID": 4,
             "groupID": 31778
         },
         "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamId": 79,
+            "teamName": "1. FC N\u00fcrnberg",
+            "shortName": "N\u00fcrnberg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N\u00fcrnberg_logo.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2018-09-22T20:22:55.45",
+        "lastUpdateDateTime": "2018-09-22T21:03:04.06",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 83260,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 83259,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 71497,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 8,
-                "goalGetterID": 14255,
-                "goalGetterName": "James Rodr\u00edguez",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 71498,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 64,
-                "goalGetterID": 1478,
-                "goalGetterName": "Robert Lewandowski",
-                "scoringTeamId": 40,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 983,
-            "locationCity": "Schalke",
-            "locationStadium": " Veltins Arena"
-        },
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 51149,
-        "matchDateTime": "2018-09-23T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4276,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
-        "leagueSeason": 2018,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2018-09-23T13:30:00Z",
-        "group": {
-            "groupName": "4. Spieltag",
-            "groupOrderID": 4,
-            "groupID": 31778
-        },
-        "team1": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2018-09-23T17:22:32.643",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 83302,
+                "resultID": 83229,
                 "resultName": "Halbzeit",
                 "pointsTeam1": 0,
                 "pointsTeam2": 0,
@@ -740,9 +814,9 @@
                 "resultDescription": "Zwischenstand zur Halbzeit"
             },
             {
-                "resultID": 83301,
+                "resultID": 83228,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 1,
+                "pointsTeam1": 2,
                 "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
@@ -752,110 +826,36 @@
         ],
         "goals": [
             {
-                "goalID": 71565,
+                "goalID": 71471,
                 "scoreTeam1": 1,
                 "scoreTeam2": 0,
-                "matchMinute": 62,
-                "goalGetterID": 16261,
-                "goalGetterName": "Kai Havertz\r\n",
-                "scoringTeamId": 6,
+                "matchMinute": 76,
+                "goalGetterID": 16929,
+                "goalGetterName": "W. Anton",
+                "scoringTeamId": 79,
                 "isPenalty": false,
-                "isOwnGoal": false,
+                "isOwnGoal": true,
                 "isOvertime": false,
                 "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 28,
-            "locationCity": "Leverkusen",
-            "locationStadium": "BayArena"
-        },
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 51151,
-        "matchDateTime": "2018-09-23T18:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4276,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
-        "leagueSeason": 2018,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2018-09-23T16:00:00Z",
-        "group": {
-            "groupName": "4. Spieltag",
-            "groupOrderID": 4,
-            "groupID": 31778
-        },
-        "team1": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 1635,
-            "teamName": "RB Leipzig",
-            "shortName": "Leipzig",
-            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2018-09-23T19:51:35.207",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 83315,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
             },
             {
-                "resultID": 83314,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 71569,
-                "scoreTeam1": 1,
+                "goalID": 71473,
+                "scoreTeam1": 2,
                 "scoreTeam2": 0,
-                "matchMinute": 26,
-                "goalGetterID": 12751,
-                "goalGetterName": "Fernandes",
-                "scoringTeamId": 91,
+                "matchMinute": 77,
+                "goalGetterID": 16545,
+                "goalGetterName": "Kn\u00f6ll",
+                "scoringTeamId": 79,
                 "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 71572,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 54,
-                "goalGetterID": 15248,
-                "goalGetterName": "Forsberg",
-                "scoringTeamId": 1635,
-                "isPenalty": true,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             }
         ],
         "location": {
-            "locationID": 30,
-            "locationCity": "Frankfurt",
-            "locationStadium": "Commerzbank Arena"
+            "locationID": 1111,
+            "locationCity": "N\u00fcrnberg",
+            "locationStadium": "Max-Morlock-Stadion"
         },
         "numberOfViewers": null
     }

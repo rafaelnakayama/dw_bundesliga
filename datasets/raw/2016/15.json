@@ -1,39 +1,39 @@
 [
     {
-        "matchID": 39781,
-        "matchDateTime": "2016-12-16T20:30:00",
+        "matchID": 39774,
+        "matchDateTime": "2016-12-18T17:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 3005,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
         "leagueSeason": 2016,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2016-12-16T19:30:00Z",
+        "matchDateTimeUTC": "2016-12-18T16:30:00Z",
         "group": {
             "groupName": "15. Spieltag",
             "groupOrderID": 15,
             "groupID": 23847
         },
         "team1": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamId": 171,
+            "teamName": "FC Ingolstadt 04",
+            "shortName": "Ingolstadt",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/5/55/FC-Ingolstadt_logo.svg/960px-FC-Ingolstadt_logo.svg.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2016-12-17T15:51:55.407",
+        "lastUpdateDateTime": "2016-12-19T00:32:03.31",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 71228,
+                "resultID": 71299,
                 "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 2,
+                "pointsTeam1": 0,
                 "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
@@ -41,9 +41,9 @@
                 "resultDescription": "Ergebnis zur Halbzeit"
             },
             {
-                "resultID": 71234,
+                "resultID": 71300,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 2,
+                "pointsTeam1": 1,
                 "pointsTeam2": 2,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
@@ -53,52 +53,39 @@
         ],
         "goals": [
             {
-                "goalID": 56336,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 3,
-                "goalGetterID": 16042,
-                "goalGetterName": "Mark Uth",
-                "scoringTeamId": 175,
+                "goalID": 56389,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 26,
+                "goalGetterID": 8508,
+                "goalGetterName": "Alfredo Morales",
+                "scoringTeamId": 171,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 56337,
+                "goalID": 56396,
                 "scoreTeam1": 1,
                 "scoreTeam2": 1,
-                "matchMinute": 12,
-                "goalGetterID": 14306,
-                "goalGetterName": "Mario G\u00f6tze",
-                "scoringTeamId": 7,
+                "matchMinute": 63,
+                "goalGetterID": 16134,
+                "goalGetterName": "Admir Mehmedi",
+                "scoringTeamId": 6,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 56338,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 21,
-                "goalGetterID": 137,
-                "goalGetterName": "Wagner",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 56341,
-                "scoreTeam1": 2,
+                "goalID": 56397,
+                "scoreTeam1": 1,
                 "scoreTeam2": 2,
-                "matchMinute": 48,
-                "goalGetterID": 11397,
-                "goalGetterName": "Aubameyang",
-                "scoringTeamId": 7,
+                "matchMinute": 74,
+                "goalGetterID": 16170,
+                "goalGetterName": "Almog Cohen",
+                "scoringTeamId": 171,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -106,11 +93,11 @@
             }
         ],
         "location": {
-            "locationID": 511,
-            "locationCity": "Sinsheim",
-            "locationStadium": "WIRSOL Rhein-Neckar-Arena"
+            "locationID": 28,
+            "locationCity": "Leverkusen",
+            "locationStadium": "BayArena"
         },
-        "numberOfViewers": 30150
+        "numberOfViewers": 25075
     },
     {
         "matchID": 39775,
@@ -313,6 +300,80 @@
         "numberOfViewers": 30179
     },
     {
+        "matchID": 39777,
+        "matchDateTime": "2016-12-17T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2016-12-17T17:30:00Z",
+        "group": {
+            "groupName": "15. Spieltag",
+            "groupOrderID": 15,
+            "groupID": 23847
+        },
+        "team1": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2016-12-17T20:24:03.53",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 71290,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 71291,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 56384,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 33,
+                "goalGetterID": 2583,
+                "goalGetterName": "Bruma",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 435,
+            "locationCity": "Wolfsburg",
+            "locationStadium": "Volkswagen-Arena"
+        },
+        "numberOfViewers": 25000
+    },
+    {
         "matchID": 39778,
         "matchDateTime": "2016-12-17T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -474,167 +535,6 @@
         "numberOfViewers": 40000
     },
     {
-        "matchID": 39782,
-        "matchDateTime": "2016-12-17T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3005,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
-        "leagueSeason": 2016,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2016-12-17T14:30:00Z",
-        "group": {
-            "groupName": "15. Spieltag",
-            "groupOrderID": 15,
-            "groupID": 23847
-        },
-        "team1": {
-            "teamId": 1635,
-            "teamName": "RB Leipzig",
-            "shortName": "Leipzig",
-            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 54,
-            "teamName": "Hertha BSC",
-            "shortName": "Hertha",
-            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2016-12-17T17:21:14.69",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 71250,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 71255,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 56350,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 42,
-                "goalGetterID": 16080,
-                "goalGetterName": "Timo Werner",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 56379,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 62,
-                "goalGetterID": 9045,
-                "goalGetterName": "Willi Orban",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 478,
-            "locationCity": "Leipzig",
-            "locationStadium": "Red Bull Arena"
-        },
-        "numberOfViewers": 42558
-    },
-    {
-        "matchID": 39777,
-        "matchDateTime": "2016-12-17T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3005,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
-        "leagueSeason": 2016,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2016-12-17T17:30:00Z",
-        "group": {
-            "groupName": "15. Spieltag",
-            "groupOrderID": 15,
-            "groupID": 23847
-        },
-        "team1": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2016-12-17T20:24:03.53",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 71290,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 71291,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 56384,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 33,
-                "goalGetterID": 2583,
-                "goalGetterName": "Bruma",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 435,
-            "locationCity": "Wolfsburg",
-            "locationStadium": "Volkswagen-Arena"
-        },
-        "numberOfViewers": 25000
-    },
-    {
         "matchID": 39780,
         "matchDateTime": "2016-12-18T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -722,40 +622,40 @@
         "numberOfViewers": 17400
     },
     {
-        "matchID": 39774,
-        "matchDateTime": "2016-12-18T17:30:00",
+        "matchID": 39781,
+        "matchDateTime": "2016-12-16T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 3005,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
         "leagueSeason": 2016,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2016-12-18T16:30:00Z",
+        "matchDateTimeUTC": "2016-12-16T19:30:00Z",
         "group": {
             "groupName": "15. Spieltag",
             "groupOrderID": 15,
             "groupID": 23847
         },
         "team1": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 171,
-            "teamName": "FC Ingolstadt 04",
-            "shortName": "Ingolstadt",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/5/55/FC-Ingolstadt_logo.svg/960px-FC-Ingolstadt_logo.svg.png",
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2016-12-19T00:32:03.31",
+        "lastUpdateDateTime": "2016-12-17T15:51:55.407",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 71299,
+                "resultID": 71228,
                 "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
+                "pointsTeam1": 2,
                 "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
@@ -763,9 +663,9 @@
                 "resultDescription": "Ergebnis zur Halbzeit"
             },
             {
-                "resultID": 71300,
+                "resultID": 71234,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 1,
+                "pointsTeam1": 2,
                 "pointsTeam2": 2,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
@@ -775,39 +675,52 @@
         ],
         "goals": [
             {
-                "goalID": 56389,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 26,
-                "goalGetterID": 8508,
-                "goalGetterName": "Alfredo Morales",
-                "scoringTeamId": 171,
+                "goalID": 56336,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 3,
+                "goalGetterID": 16042,
+                "goalGetterName": "Mark Uth",
+                "scoringTeamId": 175,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 56396,
+                "goalID": 56337,
                 "scoreTeam1": 1,
                 "scoreTeam2": 1,
-                "matchMinute": 63,
-                "goalGetterID": 16134,
-                "goalGetterName": "Admir Mehmedi",
-                "scoringTeamId": 6,
+                "matchMinute": 12,
+                "goalGetterID": 14306,
+                "goalGetterName": "Mario G\u00f6tze",
+                "scoringTeamId": 7,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 56397,
-                "scoreTeam1": 1,
+                "goalID": 56338,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 21,
+                "goalGetterID": 137,
+                "goalGetterName": "Wagner",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 56341,
+                "scoreTeam1": 2,
                 "scoreTeam2": 2,
-                "matchMinute": 74,
-                "goalGetterID": 16170,
-                "goalGetterName": "Almog Cohen",
-                "scoringTeamId": 171,
+                "matchMinute": 48,
+                "goalGetterID": 11397,
+                "goalGetterName": "Aubameyang",
+                "scoringTeamId": 7,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -815,10 +728,97 @@
             }
         ],
         "location": {
-            "locationID": 28,
-            "locationCity": "Leverkusen",
-            "locationStadium": "BayArena"
+            "locationID": 511,
+            "locationCity": "Sinsheim",
+            "locationStadium": "WIRSOL Rhein-Neckar-Arena"
         },
-        "numberOfViewers": 25075
+        "numberOfViewers": 30150
+    },
+    {
+        "matchID": 39782,
+        "matchDateTime": "2016-12-17T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2016-12-17T14:30:00Z",
+        "group": {
+            "groupName": "15. Spieltag",
+            "groupOrderID": 15,
+            "groupID": 23847
+        },
+        "team1": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2016-12-17T17:21:14.69",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 71250,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 71255,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 56350,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 42,
+                "goalGetterID": 16080,
+                "goalGetterName": "Timo Werner",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 56379,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 62,
+                "goalGetterID": 9045,
+                "goalGetterName": "Willi Orban",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 478,
+            "locationCity": "Leipzig",
+            "locationStadium": "Red Bull Arena"
+        },
+        "numberOfViewers": 42558
     }
 ]

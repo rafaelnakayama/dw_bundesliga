@@ -1,122 +1,39 @@
 [
     {
-        "matchID": 66923,
-        "matchDateTime": "2024-05-11T15:30:00",
+        "matchID": 66919,
+        "matchDateTime": "2024-05-12T17:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4608,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
         "leagueSeason": 2023,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2024-05-11T13:30:00Z",
+        "matchDateTimeUTC": "2024-05-12T15:30:00Z",
         "group": {
             "groupName": "33. Spieltag",
             "groupOrderID": 33,
             "groupID": 41161
         },
         "team1": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2024-05-11T17:29:42.157",
+        "lastUpdateDateTime": "2024-05-12T20:37:59.297",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 110279,
+                "resultID": 110295,
                 "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            },
-            {
-                "resultID": 110278,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 114177,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 9,
-                "goalGetterID": 18333,
-                "goalGetterName": "R. Hack",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 114182,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 35,
-                "goalGetterID": 19617,
-                "goalGetterName": "\u00c9. Dina Ebimbe",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 66926,
-        "matchDateTime": "2024-05-10T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4608,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
-        "leagueSeason": 2023,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2024-05-10T18:30:00Z",
-        "group": {
-            "groupName": "33. Spieltag",
-            "groupOrderID": 33,
-            "groupID": 41161
-        },
-        "team1": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2024-05-11T12:47:57.267",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 110259,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
+                "pointsTeam1": 2,
                 "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
@@ -124,10 +41,10 @@
                 "resultDescription": null
             },
             {
-                "resultID": 110258,
+                "resultID": 110294,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
@@ -136,13 +53,26 @@
         ],
         "goals": [
             {
-                "goalID": 114128,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 48,
-                "goalGetterID": 19545,
-                "goalGetterName": "S. Guirassy",
-                "scoringTeamId": 16,
+                "goalID": 114211,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 4,
+                "goalGetterID": 22488,
+                "goalGetterName": "L. Zvonarek",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 114212,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 13,
+                "goalGetterID": 6631,
+                "goalGetterName": "Goretzka",
+                "scoringTeamId": 40,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -319,6 +249,185 @@
         "numberOfViewers": null
     },
     {
+        "matchID": 66922,
+        "matchDateTime": "2024-05-11T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4608,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
+        "leagueSeason": 2023,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2024-05-11T16:30:00Z",
+        "group": {
+            "groupName": "33. Spieltag",
+            "groupOrderID": 33,
+            "groupID": 41161
+        },
+        "team1": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2024-05-11T20:34:40.283",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 110283,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            },
+            {
+                "resultID": 110282,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 114188,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 12,
+                "goalGetterID": 18519,
+                "goalGetterName": "L. Barreiro",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 114189,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 19,
+                "goalGetterID": 16893,
+                "goalGetterName": "Lee Jae-sung",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 114190,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 23,
+                "goalGetterID": 16893,
+                "goalGetterName": "Lee Jae-sung",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 66923,
+        "matchDateTime": "2024-05-11T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4608,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
+        "leagueSeason": 2023,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2024-05-11T13:30:00Z",
+        "group": {
+            "groupName": "33. Spieltag",
+            "groupOrderID": 33,
+            "groupID": 41161
+        },
+        "team1": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2024-05-11T17:29:42.157",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 110279,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            },
+            {
+                "resultID": 110278,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 114177,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 9,
+                "goalGetterID": 18333,
+                "goalGetterName": "R. Hack",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 114182,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 35,
+                "goalGetterID": 19617,
+                "goalGetterName": "\u00c9. Dina Ebimbe",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 66924,
         "matchDateTime": "2024-05-11T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -441,51 +550,51 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 66922,
-        "matchDateTime": "2024-05-11T18:30:00",
+        "matchID": 66925,
+        "matchDateTime": "2024-05-12T19:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4608,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
         "leagueSeason": 2023,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2024-05-11T16:30:00Z",
+        "matchDateTimeUTC": "2024-05-12T17:30:00Z",
         "group": {
             "groupName": "33. Spieltag",
             "groupOrderID": 33,
             "groupID": 41161
         },
         "team1": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamId": 129,
+            "teamName": "VfL Bochum",
+            "shortName": "Bochum",
+            "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2024-05-11T20:34:40.283",
+        "lastUpdateDateTime": "2024-05-12T22:06:30.897",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 110283,
+                "resultID": 110305,
                 "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
                 "resultDescription": null
             },
             {
-                "resultID": 110282,
+                "resultID": 110304,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
+                "pointsTeam1": 0,
+                "pointsTeam2": 5,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
@@ -494,39 +603,135 @@
         ],
         "goals": [
             {
-                "goalID": 114188,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 12,
-                "goalGetterID": 18519,
-                "goalGetterName": "L. Barreiro",
-                "scoringTeamId": 81,
+                "goalID": 114222,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 41,
+                "goalGetterID": 18331,
+                "goalGetterName": "P. Schick",
+                "scoringTeamId": 6,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 114189,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 19,
-                "goalGetterID": 16893,
-                "goalGetterName": "Lee Jae-sung",
-                "scoringTeamId": 81,
+                "goalID": 114223,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 47,
+                "goalGetterID": 20197,
+                "goalGetterName": "V. Boniface",
+                "scoringTeamId": 6,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 114190,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 23,
-                "goalGetterID": 16893,
-                "goalGetterName": "Lee Jae-sung",
-                "scoringTeamId": 81,
+                "goalID": 114224,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 76,
+                "goalGetterID": 19155,
+                "goalGetterName": "A. Adli",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 114225,
+                "scoreTeam1": 0,
+                "scoreTeam2": 4,
+                "matchMinute": 86,
+                "goalGetterID": 19335,
+                "goalGetterName": "Stanisic, J.",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 114226,
+                "scoreTeam1": 0,
+                "scoreTeam2": 5,
+                "matchMinute": 90,
+                "goalGetterID": 19527,
+                "goalGetterName": "A. Grimaldo",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": "3'"
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 66926,
+        "matchDateTime": "2024-05-10T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4608,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
+        "leagueSeason": 2023,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2024-05-10T18:30:00Z",
+        "group": {
+            "groupName": "33. Spieltag",
+            "groupOrderID": 33,
+            "groupID": 41161
+        },
+        "team1": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2024-05-11T12:47:57.267",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 110259,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            },
+            {
+                "resultID": 110258,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 114128,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 48,
+                "goalGetterID": 19545,
+                "goalGetterName": "S. Guirassy",
+                "scoringTeamId": 16,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -666,211 +871,6 @@
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 66919,
-        "matchDateTime": "2024-05-12T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4608,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
-        "leagueSeason": 2023,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2024-05-12T15:30:00Z",
-        "group": {
-            "groupName": "33. Spieltag",
-            "groupOrderID": 33,
-            "groupID": 41161
-        },
-        "team1": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2024-05-12T20:37:59.297",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 110295,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            },
-            {
-                "resultID": 110294,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 114211,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 4,
-                "goalGetterID": 22488,
-                "goalGetterName": "L. Zvonarek",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 114212,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 13,
-                "goalGetterID": 6631,
-                "goalGetterName": "Goretzka",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 66925,
-        "matchDateTime": "2024-05-12T19:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4608,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
-        "leagueSeason": 2023,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2024-05-12T17:30:00Z",
-        "group": {
-            "groupName": "33. Spieltag",
-            "groupOrderID": 33,
-            "groupID": 41161
-        },
-        "team1": {
-            "teamId": 129,
-            "teamName": "VfL Bochum",
-            "shortName": "Bochum",
-            "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2024-05-12T22:06:30.897",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 110305,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            },
-            {
-                "resultID": 110304,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 5,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 114222,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 41,
-                "goalGetterID": 18331,
-                "goalGetterName": "P. Schick",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 114223,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 47,
-                "goalGetterID": 20197,
-                "goalGetterName": "V. Boniface",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 114224,
-                "scoreTeam1": 0,
-                "scoreTeam2": 3,
-                "matchMinute": 76,
-                "goalGetterID": 19155,
-                "goalGetterName": "A. Adli",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 114225,
-                "scoreTeam1": 0,
-                "scoreTeam2": 4,
-                "matchMinute": 86,
-                "goalGetterID": 19335,
-                "goalGetterName": "Stanisic, J.",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 114226,
-                "scoreTeam1": 0,
-                "scoreTeam2": 5,
-                "matchMinute": 90,
-                "goalGetterID": 19527,
-                "goalGetterName": "A. Grimaldo",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": "3'"
             }
         ],
         "location": null,

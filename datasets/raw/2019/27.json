@@ -1,49 +1,49 @@
 [
     {
-        "matchID": 55518,
-        "matchDateTime": "2020-05-24T18:00:00",
+        "matchID": 55511,
+        "matchDateTime": "2020-05-23T18:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4362,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
         "leagueSeason": 2019,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2020-05-24T16:00:00Z",
+        "matchDateTimeUTC": "2020-05-23T16:30:00Z",
         "group": {
             "groupName": "27. Spieltag",
             "groupOrderID": 27,
             "groupID": 34226
         },
         "team1": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 185,
-            "teamName": "Fortuna D\u00fcsseldorf",
-            "shortName": "D\u00fcsseldorf",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Fortuna_D%C3%BCsseldorf.svg/960px-Fortuna_D%C3%BCsseldorf.svg.png",
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2020-05-24T19:57:38.127",
+        "lastUpdateDateTime": "2020-05-23T21:52:39.833",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 91448,
+                "resultID": 91436,
                 "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
                 "resultDescription": "Zwischenstand zur Halbzeit"
             },
             {
-                "resultID": 91447,
+                "resultID": 91435,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 2,
+                "pointsTeam1": 5,
                 "pointsTeam2": 2,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
@@ -53,163 +53,93 @@
         ],
         "goals": [
             {
-                "goalID": 83492,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
+                "goalID": 83469,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 17,
+                "goalGetterID": 11373,
+                "goalGetterName": "Leon Goretzka",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 83470,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
                 "matchMinute": 41,
-                "goalGetterID": 15271,
-                "goalGetterName": "Karaman",
-                "scoringTeamId": 185,
+                "goalGetterID": 1356,
+                "goalGetterName": "Thomas M\u00fcller",
+                "scoringTeamId": 40,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 83493,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 61,
-                "goalGetterID": 15664,
-                "goalGetterName": "Thommy, Erik",
-                "scoringTeamId": 185,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 83494,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 88,
-                "goalGetterID": 16035,
-                "goalGetterName": "Anthony Modeste",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 83495,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 91,
-                "goalGetterID": 15645,
-                "goalGetterName": "Cordoba",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 55514,
-        "matchDateTime": "2020-05-22T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4362,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
-        "leagueSeason": 2019,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2020-05-22T18:30:00Z",
-        "group": {
-            "groupName": "27. Spieltag",
-            "groupOrderID": 27,
-            "groupID": 34226
-        },
-        "team1": {
-            "teamId": 54,
-            "teamName": "Hertha BSC",
-            "shortName": "Hertha",
-            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 80,
-            "teamName": "1. FC Union Berlin",
-            "shortName": "Union Berlin",
-            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2020-05-24T16:25:16.52",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 91416,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 91415,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 4,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 83442,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 51,
-                "goalGetterID": 1479,
-                "goalGetterName": "Vedad Ibisevic",
-                "scoringTeamId": 54,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 83443,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 52,
-                "goalGetterID": 16913,
-                "goalGetterName": "Lukebakio",
-                "scoringTeamId": 54,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 83444,
+                "goalID": 83471,
                 "scoreTeam1": 3,
                 "scoreTeam2": 0,
-                "matchMinute": 61,
-                "goalGetterID": 16975,
-                "goalGetterName": "Cunha, M.",
-                "scoringTeamId": 54,
+                "matchMinute": 46,
+                "goalGetterID": 1478,
+                "goalGetterName": "Robert Lewandowski",
+                "scoringTeamId": 40,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 83445,
-                "scoreTeam1": 4,
-                "scoreTeam2": 0,
-                "matchMinute": 77,
-                "goalGetterID": 17827,
-                "goalGetterName": "Boyata, D.",
-                "scoringTeamId": 54,
+                "goalID": 83472,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 52,
+                "goalGetterID": 15641,
+                "goalGetterName": "Hinteregger",
+                "scoringTeamId": 91,
                 "isPenalty": false,
                 "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 83473,
+                "scoreTeam1": 3,
+                "scoreTeam2": 2,
+                "matchMinute": 55,
+                "goalGetterID": 15641,
+                "goalGetterName": "Hinteregger",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 83474,
+                "scoreTeam1": 4,
+                "scoreTeam2": 2,
+                "matchMinute": 61,
+                "goalGetterID": 17769,
+                "goalGetterName": "Alphonso Davies",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 83475,
+                "scoreTeam1": 5,
+                "scoreTeam2": 2,
+                "matchMinute": 74,
+                "goalGetterID": 15641,
+                "goalGetterName": "Hinteregger",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": true,
                 "isOvertime": false,
                 "comment": null
             }
@@ -410,193 +340,40 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 55516,
-        "matchDateTime": "2020-05-23T15:30:00",
+        "matchID": 55514,
+        "matchDateTime": "2020-05-22T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4362,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
         "leagueSeason": 2019,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2020-05-23T13:30:00Z",
+        "matchDateTimeUTC": "2020-05-22T18:30:00Z",
         "group": {
             "groupName": "27. Spieltag",
             "groupOrderID": 27,
             "groupID": 34226
         },
         "team1": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamId": 80,
+            "teamName": "1. FC Union Berlin",
+            "shortName": "Union Berlin",
+            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2020-05-23T17:26:36.417",
+        "lastUpdateDateTime": "2020-05-24T16:25:16.52",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 91428,
+                "resultID": 91416,
                 "resultName": "Halbzeit",
                 "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 91427,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 83462,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 19,
-                "goalGetterID": 16106,
-                "goalGetterName": "Leonardo Bittencourt",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 55519,
-        "matchDateTime": "2020-05-23T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4362,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
-        "leagueSeason": 2019,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2020-05-23T13:30:00Z",
-        "group": {
-            "groupName": "27. Spieltag",
-            "groupOrderID": 27,
-            "groupID": 34226
-        },
-        "team1": {
-            "teamId": 31,
-            "teamName": "SC Paderborn 07",
-            "shortName": "Paderborn",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2020-05-23T17:22:08.023",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 91430,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 91429,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 83459,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 4,
-                "goalGetterID": 18366,
-                "goalGetterName": "R. Skov",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 83461,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 9,
-                "goalGetterID": 16291,
-                "goalGetterName": "Srbeny",
-                "scoringTeamId": 31,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 55511,
-        "matchDateTime": "2020-05-23T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4362,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
-        "leagueSeason": 2019,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2020-05-23T16:30:00Z",
-        "group": {
-            "groupName": "27. Spieltag",
-            "groupOrderID": 27,
-            "groupID": 34226
-        },
-        "team1": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2020-05-23T21:52:39.833",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 91436,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 2,
                 "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
@@ -604,10 +381,10 @@
                 "resultDescription": "Zwischenstand zur Halbzeit"
             },
             {
-                "resultID": 91435,
+                "resultID": 91415,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 5,
-                "pointsTeam2": 2,
+                "pointsTeam1": 4,
+                "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
@@ -616,187 +393,52 @@
         ],
         "goals": [
             {
-                "goalID": 83469,
+                "goalID": 83442,
                 "scoreTeam1": 1,
                 "scoreTeam2": 0,
-                "matchMinute": 17,
-                "goalGetterID": 11373,
-                "goalGetterName": "Leon Goretzka",
-                "scoringTeamId": 40,
+                "matchMinute": 51,
+                "goalGetterID": 1479,
+                "goalGetterName": "Vedad Ibisevic",
+                "scoringTeamId": 54,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 83470,
+                "goalID": 83443,
                 "scoreTeam1": 2,
                 "scoreTeam2": 0,
-                "matchMinute": 41,
-                "goalGetterID": 1356,
-                "goalGetterName": "Thomas M\u00fcller",
-                "scoringTeamId": 40,
+                "matchMinute": 52,
+                "goalGetterID": 16913,
+                "goalGetterName": "Lukebakio",
+                "scoringTeamId": 54,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 83471,
+                "goalID": 83444,
                 "scoreTeam1": 3,
                 "scoreTeam2": 0,
-                "matchMinute": 46,
-                "goalGetterID": 1478,
-                "goalGetterName": "Robert Lewandowski",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 83472,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 52,
-                "goalGetterID": 15641,
-                "goalGetterName": "Hinteregger",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 83473,
-                "scoreTeam1": 3,
-                "scoreTeam2": 2,
-                "matchMinute": 55,
-                "goalGetterID": 15641,
-                "goalGetterName": "Hinteregger",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 83474,
-                "scoreTeam1": 4,
-                "scoreTeam2": 2,
                 "matchMinute": 61,
-                "goalGetterID": 17769,
-                "goalGetterName": "Alphonso Davies",
-                "scoringTeamId": 40,
+                "goalGetterID": 16975,
+                "goalGetterName": "Cunha, M.",
+                "scoringTeamId": 54,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 83475,
-                "scoreTeam1": 5,
-                "scoreTeam2": 2,
-                "matchMinute": 74,
-                "goalGetterID": 15641,
-                "goalGetterName": "Hinteregger",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": true,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 55517,
-        "matchDateTime": "2020-05-24T13:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4362,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
-        "leagueSeason": 2019,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2020-05-24T11:30:00Z",
-        "group": {
-            "groupName": "27. Spieltag",
-            "groupOrderID": 27,
-            "groupID": 34226
-        },
-        "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2020-05-24T16:17:00.353",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 91444,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 91443,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 3,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 83477,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 6,
-                "goalGetterID": 16463,
-                "goalGetterName": "L\u00f6wen",
-                "scoringTeamId": 95,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 83479,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 76,
-                "goalGetterID": 17969,
-                "goalGetterName": "Sarenren-Bazee",
-                "scoringTeamId": 95,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 83483,
-                "scoreTeam1": 0,
-                "scoreTeam2": 3,
-                "matchMinute": 91,
-                "goalGetterID": 16275,
-                "goalGetterName": "Cordova",
-                "scoringTeamId": 95,
+                "goalID": 83445,
+                "scoreTeam1": 4,
+                "scoreTeam2": 0,
+                "matchMinute": 77,
+                "goalGetterID": 17827,
+                "goalGetterName": "Boyata, D.",
+                "scoringTeamId": 54,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -919,6 +561,364 @@
                 "goalGetterID": 14551,
                 "goalGetterName": "T. Werner",
                 "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 55516,
+        "matchDateTime": "2020-05-23T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2020-05-23T13:30:00Z",
+        "group": {
+            "groupName": "27. Spieltag",
+            "groupOrderID": 27,
+            "groupID": 34226
+        },
+        "team1": {
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2020-05-23T17:26:36.417",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 91428,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 91427,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 83462,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 19,
+                "goalGetterID": 16106,
+                "goalGetterName": "Leonardo Bittencourt",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 55517,
+        "matchDateTime": "2020-05-24T13:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2020-05-24T11:30:00Z",
+        "group": {
+            "groupName": "27. Spieltag",
+            "groupOrderID": 27,
+            "groupID": 34226
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2020-05-24T16:17:00.353",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 91444,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 91443,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 3,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 83477,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 6,
+                "goalGetterID": 16463,
+                "goalGetterName": "L\u00f6wen",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 83479,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 76,
+                "goalGetterID": 17969,
+                "goalGetterName": "Sarenren-Bazee",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 83483,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 91,
+                "goalGetterID": 16275,
+                "goalGetterName": "Cordova",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 55518,
+        "matchDateTime": "2020-05-24T18:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2020-05-24T16:00:00Z",
+        "group": {
+            "groupName": "27. Spieltag",
+            "groupOrderID": 27,
+            "groupID": 34226
+        },
+        "team1": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 185,
+            "teamName": "Fortuna D\u00fcsseldorf",
+            "shortName": "D\u00fcsseldorf",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Fortuna_D%C3%BCsseldorf.svg/960px-Fortuna_D%C3%BCsseldorf.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2020-05-24T19:57:38.127",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 91448,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 91447,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 83492,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 41,
+                "goalGetterID": 15271,
+                "goalGetterName": "Karaman",
+                "scoringTeamId": 185,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 83493,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 61,
+                "goalGetterID": 15664,
+                "goalGetterName": "Thommy, Erik",
+                "scoringTeamId": 185,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 83494,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 88,
+                "goalGetterID": 16035,
+                "goalGetterName": "Anthony Modeste",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 83495,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 91,
+                "goalGetterID": 15645,
+                "goalGetterName": "Cordoba",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 55519,
+        "matchDateTime": "2020-05-23T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2020-05-23T13:30:00Z",
+        "group": {
+            "groupName": "27. Spieltag",
+            "groupOrderID": 27,
+            "groupID": 34226
+        },
+        "team1": {
+            "teamId": 31,
+            "teamName": "SC Paderborn 07",
+            "shortName": "Paderborn",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2020-05-23T17:22:08.023",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 91430,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 91429,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 83459,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 4,
+                "goalGetterID": 18366,
+                "goalGetterName": "R. Skov",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 83461,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 9,
+                "goalGetterID": 16291,
+                "goalGetterName": "Srbeny",
+                "scoringTeamId": 31,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

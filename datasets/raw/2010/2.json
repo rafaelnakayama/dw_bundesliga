@@ -1,205 +1,5 @@
 [
     {
-        "matchID": 10012,
-        "matchDateTime": "2010-08-28T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 159,
-        "leagueName": "1. Fussball-Bundesliga 2010/2011",
-        "leagueSeason": 2010,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-08-28T13:30:00Z",
-        "group": {
-            "groupName": "2. Spieltag",
-            "groupOrderID": 2,
-            "groupID": 12176
-        },
-        "team1": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 100,
-            "teamName": "Hamburger SV",
-            "shortName": "HSV",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2010-08-31T09:08:21.387",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 14358,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 3,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 14359,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 3377,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 37,
-                "goalGetterID": 1001,
-                "goalGetterName": "Ochs",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": "Rechtsschuss"
-            },
-            {
-                "goalID": 3387,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 61,
-                "goalGetterID": 44,
-                "goalGetterName": "Mathijsen",
-                "scoringTeamId": 100,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": "Kopfball"
-            },
-            {
-                "goalID": 3389,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 81,
-                "goalGetterID": 1085,
-                "goalGetterName": "van Nistelrooy",
-                "scoringTeamId": 100,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": "Kopfball"
-            },
-            {
-                "goalID": 3391,
-                "scoreTeam1": 1,
-                "scoreTeam2": 3,
-                "matchMinute": 89,
-                "goalGetterID": 18618,
-                "goalGetterName": "R. Guerreiro",
-                "scoringTeamId": 100,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": "Rechtsschuss"
-            }
-        ],
-        "location": {
-            "locationID": 30,
-            "locationCity": "Frankfurt",
-            "locationStadium": "Commerzbank Arena"
-        },
-        "numberOfViewers": 51500
-    },
-    {
-        "matchID": 10014,
-        "matchDateTime": "2010-08-27T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 159,
-        "leagueName": "1. Fussball-Bundesliga 2010/2011",
-        "leagueSeason": 2010,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-08-27T18:30:00Z",
-        "group": {
-            "groupName": "2. Spieltag",
-            "groupOrderID": 2,
-            "groupID": 12176
-        },
-        "team1": {
-            "teamId": 76,
-            "teamName": "1. FC Kaiserslautern",
-            "shortName": "Kaiserslautern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2010-08-31T09:04:04.343",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 14326,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 14327,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 3314,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 36,
-                "goalGetterID": 205,
-                "goalGetterName": "Ilicevic",
-                "scoringTeamId": 76,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": "Rechtsschuss"
-            },
-            {
-                "goalID": 3315,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 37,
-                "goalGetterID": 1343,
-                "goalGetterName": "Lakic",
-                "scoringTeamId": 76,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": "Rechtsschuss"
-            }
-        ],
-        "location": {
-            "locationID": 83,
-            "locationCity": "Kaiserslautern",
-            "locationStadium": "Fritz Walter Stadion"
-        },
-        "numberOfViewers": 49780
-    },
-    {
         "matchID": 10007,
         "matchDateTime": "2010-08-28T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -437,332 +237,6 @@
             "locationStadium": "Weserstadion"
         },
         "numberOfViewers": 35500
-    },
-    {
-        "matchID": 10011,
-        "matchDateTime": "2010-08-28T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 159,
-        "leagueName": "1. Fussball-Bundesliga 2010/2011",
-        "leagueSeason": 2010,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-08-28T13:30:00Z",
-        "group": {
-            "groupName": "2. Spieltag",
-            "groupOrderID": 2,
-            "groupID": 12176
-        },
-        "team1": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2010-08-31T09:06:56.787",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 14356,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 4,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 14357,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 3,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 3369,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 23,
-                "goalGetterID": 74,
-                "goalGetterName": "Dzeko",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": "Linksschuss"
-            },
-            {
-                "goalID": 3370,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 26,
-                "goalGetterID": 74,
-                "goalGetterName": "Dzeko",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": "Linksschuss"
-            },
-            {
-                "goalID": 3372,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 29,
-                "goalGetterID": 1426,
-                "goalGetterName": "Diego",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": "Linksschuss"
-            },
-            {
-                "goalID": 3376,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 39,
-                "goalGetterID": 1401,
-                "goalGetterName": "Rasmussen",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": "Rechtsschuss"
-            },
-            {
-                "goalID": 3383,
-                "scoreTeam1": 3,
-                "scoreTeam2": 2,
-                "matchMinute": 48,
-                "goalGetterID": 936,
-                "goalGetterName": "Soto",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": "Linksschuss"
-            },
-            {
-                "goalID": 3385,
-                "scoreTeam1": 3,
-                "scoreTeam2": 3,
-                "matchMinute": 57,
-                "goalGetterID": 656,
-                "goalGetterName": "Sch\u00fcrrle",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": "Rechtsschuss"
-            },
-            {
-                "goalID": 3393,
-                "scoreTeam1": 3,
-                "scoreTeam2": 4,
-                "matchMinute": 85,
-                "goalGetterID": 1133,
-                "goalGetterName": "Szalai",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": "Rechtsschuss"
-            }
-        ],
-        "location": {
-            "locationID": 20,
-            "locationCity": "Wolfsburg",
-            "locationStadium": "Volkswagen Arena "
-        },
-        "numberOfViewers": 26166
-    },
-    {
-        "matchID": 10013,
-        "matchDateTime": "2010-08-28T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 159,
-        "leagueName": "1. Fussball-Bundesliga 2010/2011",
-        "leagueSeason": 2010,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-08-28T13:30:00Z",
-        "group": {
-            "groupName": "2. Spieltag",
-            "groupOrderID": 2,
-            "groupID": 12176
-        },
-        "team1": {
-            "teamId": 79,
-            "teamName": "1. FC N\u00fcrnberg",
-            "shortName": "N\u00fcrnberg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N\u00fcrnberg_logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2010-08-31T09:28:35.92",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 14354,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 14355,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 3361,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 15,
-                "goalGetterID": 150,
-                "goalGetterName": "Schieber",
-                "scoringTeamId": 79,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": "Kopfball"
-            },
-            {
-                "goalID": 3378,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 39,
-                "goalGetterID": 1090,
-                "goalGetterName": "Ciss\u00e9",
-                "scoringTeamId": 112,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": "Elfmeter"
-            },
-            {
-                "goalID": 3384,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 53,
-                "goalGetterID": 1090,
-                "goalGetterName": "Ciss\u00e9",
-                "scoringTeamId": 112,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": "Kopfball"
-            }
-        ],
-        "location": {
-            "locationID": 21,
-            "locationCity": "N\u00fcrnberg",
-            "locationStadium": "easyCredit Stadion"
-        },
-        "numberOfViewers": 36780
-    },
-    {
-        "matchID": 10015,
-        "matchDateTime": "2010-08-28T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 159,
-        "leagueName": "1. Fussball-Bundesliga 2010/2011",
-        "leagueSeason": 2010,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-08-28T16:30:00Z",
-        "group": {
-            "groupName": "2. Spieltag",
-            "groupOrderID": 2,
-            "groupID": 12176
-        },
-        "team1": {
-            "teamId": 98,
-            "teamName": "FC St. Pauli",
-            "shortName": "St. Pauli",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2010-08-31T09:10:10.633",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 14370,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 14371,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 3405,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 87,
-                "goalGetterID": 1436,
-                "goalGetterName": "Vorsah",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": "Rechtsschuss"
-            }
-        ],
-        "location": {
-            "locationID": 73,
-            "locationCity": "Hamburg",
-            "locationStadium": "Millerntor-Stadion"
-        },
-        "numberOfViewers": 23794
     },
     {
         "matchID": 10009,
@@ -1054,5 +528,531 @@
             "locationStadium": "Mercedes Benz Arena "
         },
         "numberOfViewers": 40500
+    },
+    {
+        "matchID": 10011,
+        "matchDateTime": "2010-08-28T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 159,
+        "leagueName": "1. Fussball-Bundesliga 2010/2011",
+        "leagueSeason": 2010,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2010-08-28T13:30:00Z",
+        "group": {
+            "groupName": "2. Spieltag",
+            "groupOrderID": 2,
+            "groupID": 12176
+        },
+        "team1": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2010-08-31T09:06:56.787",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 14356,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 4,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 14357,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 3,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 3369,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 23,
+                "goalGetterID": 74,
+                "goalGetterName": "Dzeko",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": "Linksschuss"
+            },
+            {
+                "goalID": 3370,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 26,
+                "goalGetterID": 74,
+                "goalGetterName": "Dzeko",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": "Linksschuss"
+            },
+            {
+                "goalID": 3372,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 29,
+                "goalGetterID": 1426,
+                "goalGetterName": "Diego",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": "Linksschuss"
+            },
+            {
+                "goalID": 3376,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 39,
+                "goalGetterID": 1401,
+                "goalGetterName": "Rasmussen",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": "Rechtsschuss"
+            },
+            {
+                "goalID": 3383,
+                "scoreTeam1": 3,
+                "scoreTeam2": 2,
+                "matchMinute": 48,
+                "goalGetterID": 936,
+                "goalGetterName": "Soto",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": "Linksschuss"
+            },
+            {
+                "goalID": 3385,
+                "scoreTeam1": 3,
+                "scoreTeam2": 3,
+                "matchMinute": 57,
+                "goalGetterID": 656,
+                "goalGetterName": "Sch\u00fcrrle",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": "Rechtsschuss"
+            },
+            {
+                "goalID": 3393,
+                "scoreTeam1": 3,
+                "scoreTeam2": 4,
+                "matchMinute": 85,
+                "goalGetterID": 1133,
+                "goalGetterName": "Szalai",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": "Rechtsschuss"
+            }
+        ],
+        "location": {
+            "locationID": 20,
+            "locationCity": "Wolfsburg",
+            "locationStadium": "Volkswagen Arena "
+        },
+        "numberOfViewers": 26166
+    },
+    {
+        "matchID": 10012,
+        "matchDateTime": "2010-08-28T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 159,
+        "leagueName": "1. Fussball-Bundesliga 2010/2011",
+        "leagueSeason": 2010,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2010-08-28T13:30:00Z",
+        "group": {
+            "groupName": "2. Spieltag",
+            "groupOrderID": 2,
+            "groupID": 12176
+        },
+        "team1": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 100,
+            "teamName": "Hamburger SV",
+            "shortName": "HSV",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2010-08-31T09:08:21.387",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 14358,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 3,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 14359,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 3377,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 37,
+                "goalGetterID": 1001,
+                "goalGetterName": "Ochs",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": "Rechtsschuss"
+            },
+            {
+                "goalID": 3387,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 61,
+                "goalGetterID": 44,
+                "goalGetterName": "Mathijsen",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": "Kopfball"
+            },
+            {
+                "goalID": 3389,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 81,
+                "goalGetterID": 1085,
+                "goalGetterName": "van Nistelrooy",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": "Kopfball"
+            },
+            {
+                "goalID": 3391,
+                "scoreTeam1": 1,
+                "scoreTeam2": 3,
+                "matchMinute": 89,
+                "goalGetterID": 18618,
+                "goalGetterName": "R. Guerreiro",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": "Rechtsschuss"
+            }
+        ],
+        "location": {
+            "locationID": 30,
+            "locationCity": "Frankfurt",
+            "locationStadium": "Commerzbank Arena"
+        },
+        "numberOfViewers": 51500
+    },
+    {
+        "matchID": 10013,
+        "matchDateTime": "2010-08-28T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 159,
+        "leagueName": "1. Fussball-Bundesliga 2010/2011",
+        "leagueSeason": 2010,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2010-08-28T13:30:00Z",
+        "group": {
+            "groupName": "2. Spieltag",
+            "groupOrderID": 2,
+            "groupID": 12176
+        },
+        "team1": {
+            "teamId": 79,
+            "teamName": "1. FC N\u00fcrnberg",
+            "shortName": "N\u00fcrnberg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N\u00fcrnberg_logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2010-08-31T09:28:35.92",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 14354,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 14355,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 3361,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 15,
+                "goalGetterID": 150,
+                "goalGetterName": "Schieber",
+                "scoringTeamId": 79,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": "Kopfball"
+            },
+            {
+                "goalID": 3378,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 39,
+                "goalGetterID": 1090,
+                "goalGetterName": "Ciss\u00e9",
+                "scoringTeamId": 112,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": "Elfmeter"
+            },
+            {
+                "goalID": 3384,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 53,
+                "goalGetterID": 1090,
+                "goalGetterName": "Ciss\u00e9",
+                "scoringTeamId": 112,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": "Kopfball"
+            }
+        ],
+        "location": {
+            "locationID": 21,
+            "locationCity": "N\u00fcrnberg",
+            "locationStadium": "easyCredit Stadion"
+        },
+        "numberOfViewers": 36780
+    },
+    {
+        "matchID": 10014,
+        "matchDateTime": "2010-08-27T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 159,
+        "leagueName": "1. Fussball-Bundesliga 2010/2011",
+        "leagueSeason": 2010,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2010-08-27T18:30:00Z",
+        "group": {
+            "groupName": "2. Spieltag",
+            "groupOrderID": 2,
+            "groupID": 12176
+        },
+        "team1": {
+            "teamId": 76,
+            "teamName": "1. FC Kaiserslautern",
+            "shortName": "Kaiserslautern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2010-08-31T09:04:04.343",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 14326,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 14327,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 3314,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 36,
+                "goalGetterID": 205,
+                "goalGetterName": "Ilicevic",
+                "scoringTeamId": 76,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": "Rechtsschuss"
+            },
+            {
+                "goalID": 3315,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 37,
+                "goalGetterID": 1343,
+                "goalGetterName": "Lakic",
+                "scoringTeamId": 76,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": "Rechtsschuss"
+            }
+        ],
+        "location": {
+            "locationID": 83,
+            "locationCity": "Kaiserslautern",
+            "locationStadium": "Fritz Walter Stadion"
+        },
+        "numberOfViewers": 49780
+    },
+    {
+        "matchID": 10015,
+        "matchDateTime": "2010-08-28T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 159,
+        "leagueName": "1. Fussball-Bundesliga 2010/2011",
+        "leagueSeason": 2010,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2010-08-28T16:30:00Z",
+        "group": {
+            "groupName": "2. Spieltag",
+            "groupOrderID": 2,
+            "groupID": 12176
+        },
+        "team1": {
+            "teamId": 98,
+            "teamName": "FC St. Pauli",
+            "shortName": "St. Pauli",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2010-08-31T09:10:10.633",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 14370,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 14371,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 3405,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 87,
+                "goalGetterID": 1436,
+                "goalGetterName": "Vorsah",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": "Rechtsschuss"
+            }
+        ],
+        "location": {
+            "locationID": 73,
+            "locationCity": "Hamburg",
+            "locationStadium": "Millerntor-Stadion"
+        },
+        "numberOfViewers": 23794
     }
 ]

@@ -249,6 +249,102 @@
         "numberOfViewers": null
     },
     {
+        "matchID": 60992,
+        "matchDateTime": "2021-12-19T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4500,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
+        "leagueSeason": 2021,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2021-12-19T14:30:00Z",
+        "group": {
+            "groupName": "17. Spieltag",
+            "groupOrderID": 17,
+            "groupID": 38193
+        },
+        "team1": {
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2021-12-19T17:22:38.397",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 96978,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 96979,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 92645,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 33,
+                "goalGetterID": 18337,
+                "goalGetterName": "V. Grifo",
+                "scoringTeamId": 112,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 92646,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 45,
+                "goalGetterID": 14276,
+                "goalGetterName": "Aranguiz",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            },
+            {
+                "goalID": 92647,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 84,
+                "goalGetterID": 19189,
+                "goalGetterName": "K. Schade",
+                "scoringTeamId": 112,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 60993,
         "matchDateTime": "2021-12-18T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -302,176 +398,6 @@
         ],
         "goals": [],
         "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 60995,
-        "matchDateTime": "2021-12-18T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4500,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
-        "leagueSeason": 2021,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2021-12-18T14:30:00Z",
-        "group": {
-            "groupName": "17. Spieltag",
-            "groupOrderID": 17,
-            "groupID": 38193
-        },
-        "team1": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2021-12-18T17:26:23.877",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 96950,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 96951,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 92596,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 35,
-                "goalGetterID": 16135,
-                "goalGetterName": "Breel Embolo",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 92600,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 91,
-                "goalGetterID": 18349,
-                "goalGetterName": "K. Akpoguma",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 60997,
-        "matchDateTime": "2021-12-18T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4500,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
-        "leagueSeason": 2021,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2021-12-18T14:30:00Z",
-        "group": {
-            "groupName": "17. Spieltag",
-            "groupOrderID": 17,
-            "groupID": 38193
-        },
-        "team1": {
-            "teamId": 1635,
-            "teamName": "RB Leipzig",
-            "shortName": "Leipzig",
-            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 83,
-            "teamName": "DSC Arminia Bielefeld",
-            "shortName": "Bielefeld",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2021-12-18T17:26:23.033",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 96952,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 96953,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 92598,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 57,
-                "goalGetterID": 18335,
-                "goalGetterName": "J. Serra",
-                "scoringTeamId": 83,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 92599,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 75,
-                "goalGetterID": 18695,
-                "goalGetterName": "M. Okugawa",
-                "scoringTeamId": 83,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 1091,
-            "locationCity": "",
-            "locationStadium": null
-        },
         "numberOfViewers": null
     },
     {
@@ -597,40 +523,40 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 60992,
-        "matchDateTime": "2021-12-19T15:30:00",
+        "matchID": 60995,
+        "matchDateTime": "2021-12-18T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4500,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
         "leagueSeason": 2021,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2021-12-19T14:30:00Z",
+        "matchDateTimeUTC": "2021-12-18T14:30:00Z",
         "group": {
             "groupName": "17. Spieltag",
             "groupOrderID": 17,
             "groupID": 38193
         },
         "team1": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2021-12-19T17:22:38.397",
+        "lastUpdateDateTime": "2021-12-18T17:26:23.877",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 96978,
+                "resultID": 96950,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 2,
+                "pointsTeam1": 1,
                 "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
@@ -638,9 +564,9 @@
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 96979,
+                "resultID": 96951,
                 "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
+                "pointsTeam1": 0,
                 "pointsTeam2": 1,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
@@ -650,42 +576,29 @@
         ],
         "goals": [
             {
-                "goalID": 92645,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 33,
-                "goalGetterID": 18337,
-                "goalGetterName": "V. Grifo",
-                "scoringTeamId": 112,
-                "isPenalty": true,
+                "goalID": 92596,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 35,
+                "goalGetterID": 16135,
+                "goalGetterName": "Breel Embolo",
+                "scoringTeamId": 87,
+                "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 92646,
+                "goalID": 92600,
                 "scoreTeam1": 1,
                 "scoreTeam2": 1,
-                "matchMinute": 45,
-                "goalGetterID": 14276,
-                "goalGetterName": "Aranguiz",
-                "scoringTeamId": 6,
+                "matchMinute": 91,
+                "goalGetterID": 18349,
+                "goalGetterName": "K. Akpoguma",
+                "scoringTeamId": 175,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": true,
-                "comment": null
-            },
-            {
-                "goalID": 92647,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 84,
-                "goalGetterID": 19189,
-                "goalGetterName": "K. Schade",
-                "scoringTeamId": 112,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
                 "comment": null
             }
         ],
@@ -760,6 +673,93 @@
             }
         ],
         "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 60997,
+        "matchDateTime": "2021-12-18T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4500,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
+        "leagueSeason": 2021,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2021-12-18T14:30:00Z",
+        "group": {
+            "groupName": "17. Spieltag",
+            "groupOrderID": 17,
+            "groupID": 38193
+        },
+        "team1": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 83,
+            "teamName": "DSC Arminia Bielefeld",
+            "shortName": "Bielefeld",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2021-12-18T17:26:23.033",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 96952,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 96953,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 92598,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 57,
+                "goalGetterID": 18335,
+                "goalGetterName": "J. Serra",
+                "scoringTeamId": 83,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 92599,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 75,
+                "goalGetterID": 18695,
+                "goalGetterName": "M. Okugawa",
+                "scoringTeamId": 83,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 1091,
+            "locationCity": "",
+            "locationStadium": null
+        },
         "numberOfViewers": null
     }
 ]

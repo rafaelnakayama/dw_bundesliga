@@ -1,51 +1,5 @@
 [
     {
-        "matchID": 57,
-        "matchDateTime": "2006-09-30T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 6,
-        "leagueName": "1. Fussball-Bundesliga 2006/2007",
-        "leagueSeason": 2006,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2006-09-30T13:30:00Z",
-        "group": {
-            "groupName": "6. Spieltag",
-            "groupOrderID": 6,
-            "groupID": 10992
-        },
-        "team1": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 100,
-            "teamName": "Hamburger SV",
-            "shortName": "HSV",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2008-10-02T22:14:44.37",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 732,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 0,
-                "resultTypeKind": "Unknown",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 53,
         "matchDateTime": "2006-09-29T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -219,6 +173,52 @@
                 "resultName": "Endergebnis",
                 "pointsTeam1": 3,
                 "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 0,
+                "resultTypeKind": "Unknown",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 57,
+        "matchDateTime": "2006-09-30T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 6,
+        "leagueName": "1. Fussball-Bundesliga 2006/2007",
+        "leagueSeason": 2006,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2006-09-30T13:30:00Z",
+        "group": {
+            "groupName": "6. Spieltag",
+            "groupOrderID": 6,
+            "groupID": 10992
+        },
+        "team1": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 100,
+            "teamName": "Hamburger SV",
+            "shortName": "HSV",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2008-10-02T22:14:44.37",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 732,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 2,
                 "resultOrderID": 1,
                 "resultTypeID": 0,
                 "resultTypeKind": "Unknown",

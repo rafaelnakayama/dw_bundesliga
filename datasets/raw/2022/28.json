@@ -1,153 +1,5 @@
 [
     {
-        "matchID": 64112,
-        "matchDateTime": "2023-04-14T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4562,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
-        "leagueSeason": 2022,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2023-04-14T18:30:00Z",
-        "group": {
-            "groupName": "28. Spieltag",
-            "groupOrderID": 28,
-            "groupID": 39908
-        },
-        "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 54,
-            "teamName": "Hertha BSC",
-            "shortName": "Hertha",
-            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2023-04-15T09:28:47.607",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 102604,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 5,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 102605,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 101189,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 3,
-                "goalGetterID": 18299,
-                "goalGetterName": "T. Skarke",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 101190,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 13,
-                "goalGetterID": 18968,
-                "goalGetterName": "M. B\u00fclter",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 101192,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 48,
-                "goalGetterID": 18343,
-                "goalGetterName": "S. Terodde",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 101191,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 48,
-                "goalGetterID": 19188,
-                "goalGetterName": "S. Jovetic",
-                "scoringTeamId": 54,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": null
-            },
-            {
-                "goalID": 101193,
-                "scoreTeam1": 4,
-                "scoreTeam2": 1,
-                "matchMinute": 78,
-                "goalGetterID": 18968,
-                "goalGetterName": "M. B\u00fclter",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 101194,
-                "scoreTeam1": 4,
-                "scoreTeam2": 2,
-                "matchMinute": 84,
-                "goalGetterID": 16304,
-                "goalGetterName": "M. Ritter",
-                "scoringTeamId": 54,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 101195,
-                "scoreTeam1": 5,
-                "scoreTeam2": 2,
-                "matchMinute": 92,
-                "goalGetterID": 19107,
-                "goalGetterName": "M. Kaminski",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 64108,
         "matchDateTime": "2023-04-15T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -221,6 +73,89 @@
                 "goalGetterID": 18327,
                 "goalGetterName": "A. Kramaric",
                 "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 64109,
+        "matchDateTime": "2023-04-15T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2023-04-15T16:30:00Z",
+        "group": {
+            "groupName": "28. Spieltag",
+            "groupOrderID": 28,
+            "groupID": 39908
+        },
+        "team1": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2023-04-16T19:28:15.667",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 102624,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 102625,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 101229,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 13,
+                "goalGetterID": 18716,
+                "goalGetterName": "J. Hofmann",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 101230,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 83,
+                "goalGetterID": 19448,
+                "goalGetterName": "Kolo Muani",
+                "scoringTeamId": 91,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -436,6 +371,154 @@
         "numberOfViewers": null
     },
     {
+        "matchID": 64112,
+        "matchDateTime": "2023-04-14T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2023-04-14T18:30:00Z",
+        "group": {
+            "groupName": "28. Spieltag",
+            "groupOrderID": 28,
+            "groupID": 39908
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2023-04-15T09:28:47.607",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 102604,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 5,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 102605,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 101189,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 3,
+                "goalGetterID": 18299,
+                "goalGetterName": "T. Skarke",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 101190,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 13,
+                "goalGetterID": 18968,
+                "goalGetterName": "M. B\u00fclter",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 101192,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 48,
+                "goalGetterID": 18343,
+                "goalGetterName": "S. Terodde",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 101191,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 48,
+                "goalGetterID": 19188,
+                "goalGetterName": "S. Jovetic",
+                "scoringTeamId": 54,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            },
+            {
+                "goalID": 101193,
+                "scoreTeam1": 4,
+                "scoreTeam2": 1,
+                "matchMinute": 78,
+                "goalGetterID": 18968,
+                "goalGetterName": "M. B\u00fclter",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 101194,
+                "scoreTeam1": 4,
+                "scoreTeam2": 2,
+                "matchMinute": 84,
+                "goalGetterID": 16304,
+                "goalGetterName": "M. Ritter",
+                "scoringTeamId": 54,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 101195,
+                "scoreTeam1": 5,
+                "scoreTeam2": 2,
+                "matchMinute": 92,
+                "goalGetterID": 19107,
+                "goalGetterName": "M. Kaminski",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 64113,
         "matchDateTime": "2023-04-15T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -571,38 +654,38 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 64109,
-        "matchDateTime": "2023-04-15T18:30:00",
+        "matchID": 64114,
+        "matchDateTime": "2023-04-16T17:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4562,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
         "leagueSeason": 2022,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2023-04-15T16:30:00Z",
+        "matchDateTimeUTC": "2023-04-16T15:30:00Z",
         "group": {
             "groupName": "28. Spieltag",
             "groupOrderID": 28,
             "groupID": 39908
         },
         "team1": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamId": 80,
+            "teamName": "1. FC Union Berlin",
+            "shortName": "Union Berlin",
+            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamId": 129,
+            "teamName": "VfL Bochum",
+            "shortName": "Bochum",
+            "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2023-04-16T19:28:15.667",
+        "lastUpdateDateTime": "2023-04-16T19:27:29.683",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 102624,
+                "resultID": 102676,
                 "resultName": "Endergebnis",
                 "pointsTeam1": 1,
                 "pointsTeam2": 1,
@@ -612,10 +695,10 @@
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 102625,
+                "resultID": 102677,
                 "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
@@ -624,27 +707,27 @@
         ],
         "goals": [
             {
-                "goalID": 101229,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 13,
-                "goalGetterID": 18716,
-                "goalGetterName": "J. Hofmann",
-                "scoringTeamId": 87,
+                "goalID": 101303,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 48,
+                "goalGetterID": 20023,
+                "goalGetterName": "J.Juranovic",
+                "scoringTeamId": 80,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 101230,
+                "goalID": 101304,
                 "scoreTeam1": 1,
                 "scoreTeam2": 1,
-                "matchMinute": 83,
-                "goalGetterID": 19448,
-                "goalGetterName": "Kolo Muani",
-                "scoringTeamId": 91,
-                "isPenalty": false,
+                "matchMinute": 55,
+                "goalGetterID": 18602,
+                "goalGetterName": "K. St\u00f6ger",
+                "scoringTeamId": 129,
+                "isPenalty": true,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
@@ -741,89 +824,6 @@
                 "goalGetterName": "L. H\u00f6ler",
                 "scoringTeamId": 112,
                 "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 64114,
-        "matchDateTime": "2023-04-16T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4562,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
-        "leagueSeason": 2022,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2023-04-16T15:30:00Z",
-        "group": {
-            "groupName": "28. Spieltag",
-            "groupOrderID": 28,
-            "groupID": 39908
-        },
-        "team1": {
-            "teamId": 80,
-            "teamName": "1. FC Union Berlin",
-            "shortName": "Union Berlin",
-            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 129,
-            "teamName": "VfL Bochum",
-            "shortName": "Bochum",
-            "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2023-04-16T19:27:29.683",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 102676,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 102677,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 101303,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 48,
-                "goalGetterID": 20023,
-                "goalGetterName": "J.Juranovic",
-                "scoringTeamId": 80,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 101304,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 55,
-                "goalGetterID": 18602,
-                "goalGetterName": "K. St\u00f6ger",
-                "scoringTeamId": 129,
-                "isPenalty": true,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
