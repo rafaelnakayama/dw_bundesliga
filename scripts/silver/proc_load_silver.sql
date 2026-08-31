@@ -41,7 +41,7 @@ BEGIN
         team_id INT PRIMARY KEY,
         team_name VARCHAR(50),
         team_short_name VARCHAR(25),
-        team_icon_url VARCHAR(150)
+        team_icon_url VARCHAR(250)
 
     )
 
@@ -87,7 +87,7 @@ BEGIN
         points_team2 TINYINT,
         result_order_id TINYINT,
         result_type_id TINYINT,
-        result_description VARCHAR(125)
+        result_description VARCHAR(255)
 
     )
 
@@ -98,13 +98,13 @@ BEGIN
         CONSTRAINT fk_match_goals_match_id FOREIGN KEY (match_id) REFERENCES silver.matches(match_id),
         score_team1 TINYINT,
         score_team2 TINYINT,
-        match_minute TINYINT,
+        match_minute SMALLINT,
         goal_getter_id INT,
-        goal_getter_name VARCHAR(50),
+        goal_getter_name VARCHAR(100),
         is_penalty BIT,
         is_own_goal BIT,
         is_overtime BIT,
-        comment VARCHAR(100)
+        comment VARCHAR(150)
 
     )
 
@@ -169,7 +169,9 @@ BEGIN
             teamId,
             teamName,
             shortName,
-            teamIconUrl
+            teamIconUrl,
+            matchID,
+            matchDateTime
 
         FROM bronze.dataframe
 
@@ -177,16 +179,18 @@ BEGIN
             teamId INT,
             teamName VARCHAR(50),
             shortName VARCHAR(25),
-            teamIconUrl VARCHAR(150)
+            teamIconUrl VARCHAR(250)
         )
 
-        UNION
+        UNION ALL
 
         SELECT
             teamId,
             teamName,
             shortName,
-            teamIconUrl
+            teamIconUrl,
+            matchID,
+            matchDateTime
 
         FROM bronze.dataframe
 
@@ -194,7 +198,7 @@ BEGIN
             teamId INT,
             teamName VARCHAR(50),
             shortName VARCHAR(25),
-            teamIconUrl VARCHAR(150)
+            teamIconUrl VARCHAR(250)
         )
 
     ),
@@ -203,7 +207,12 @@ BEGIN
 
         SELECT
             *,
-            ROW_NUMBER() OVER (PARTITION BY C1.teamId ORDER BY C1.teamName) AS rn
+            -- SCD tipo 1: fica a variante vista na partida mais recente.
+            -- matchID fecha a ordenacao para ela ser deterministica.
+            ROW_NUMBER() OVER (
+                PARTITION BY C1.teamId
+                ORDER BY C1.matchDateTime DESC, C1.matchID DESC
+            ) AS rn
 
         FROM teams_cte_1 AS C1
 
@@ -319,7 +328,7 @@ BEGIN
         pointsTeam2 TINYINT,
         resultOrderID TINYINT,
         resultTypeID TINYINT,
-        resultDescription VARCHAR(100)
+        resultDescription VARCHAR(255)
     );
 
     ---------------------- (silver.match_goals) --------------------------
@@ -368,7 +377,7 @@ BEGIN
         comment VARCHAR(150)
     )
 
-    WHERE goalGetterID != 0
+    WHERE goalGetterID != 0 -- Limpar goalGetters vazios
 
     PRINT '';
     PRINT '>>> Silver tables sucessfully loaded';
