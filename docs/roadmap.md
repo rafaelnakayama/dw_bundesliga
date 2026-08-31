@@ -108,17 +108,17 @@ Goal: reproduce what worked on Windows, now against the Dockerized DB, script
 still running directly on your machine (not containerized yet — one variable
 at a time).
 
-- [ ] Install the client-side ODBC stack on this Mac (`unixODBC` +
+- [x] Install the client-side ODBC stack on this Mac (`unixODBC` +
       `msodbcsql17`/`18` via Homebrew's Microsoft tap) — this has nothing to
       do with Docker, it's a separate host dependency. Do the same later on
       Ubuntu, the exact steps differ.
-- [ ] Move the hardcoded connection details out of `fetch_matches.py`
+- [x] Move the hardcoded connection details out of `fetch_matches.py`
       (`SERVER=localhost`, `UID=sa`, `PWD=passwordblabla`) into environment
       variables / a `.env` file that's gitignored. Not just cleanliness —
       you'll need this to be configurable anyway once the script runs inside
       a container in Phase 3, where `localhost` stops meaning what you think
       it means.
-- [ ] Finish `load_bronze()` on the fix branch and wire it into `main()` so
+- [x] Finish `load_bronze()` on the fix branch and wire it into `main()` so
       `write_down()` → `load_bronze()` runs end-to-end again.
 
 Done when: running `python fetch_matches.py` on your bare Mac populates

@@ -1,6 +1,6 @@
 # Roadmap progress 1
 
-Session date: 2026-08-28. Branch: `fix/macos_compatibility`.
+Sessions: 2026-08-28 and 2026-08-31. Branch: `fix/macos_compatibility`.
 
 This is a log of what actually happened against `roadmap.md`, including the
 parts that went off-script. The roadmap is the plan; this is the diff between
@@ -77,7 +77,7 @@ holds tasks for the Python script and for running SQL files.
    points at `lastUpdateDateTime` (already stored per match) as the field that
    actually answers "did this change".
 
-## Open issues
+## Open issues, as of 2026-08-28
 
 - **Idempotency.** Stopgap: clear the table before loading (`TRUNCATE`, or call
   the existing drop/recreate proc from Python). Real fix is Phase 4's upsert
@@ -93,8 +93,198 @@ holds tasks for the Python script and for running SQL files.
   the BULK load was stripped, the proc only creates an empty table and Python
   fills it.
 
+All of these are resolved below except the fetch window.
+
+---
+
+# Session 2 — 2026-08-31
+
+Went in planning to start Phase 3, ended up closing the bronze half of Phase 4
+instead. The reason for the detour is the whole lesson of the session: Phase
+3's done-when criterion is "`docker compose up` takes a clean clone to a loaded
+database", and that is a test you run ten times in a row while fighting the
+Dockerfile. With a non-idempotent load, every one of those runs corrupts the
+table, so the oracle for Phase 3 was broken until Phase 4 landed.
+
+## Modeling review
+
+Went back to `integration_model.md` expecting to find missing keys. There were
+none: every PK and FK in that document is already implemented in
+`proc_load_silver.sql`, including the constraint naming and the parent-before-
+child ordering of the `CREATE`s. The document and the code agree.
+
+The only table with no key at all was `bronze.dataframe`, and that turned out
+not to be an oversight but the unmade decision below.
+
+Validated the model against the 6426 real matches on disk rather than
+reasoning about it:
+
+- `group_id` as PK is safe: 714 distinct groupIDs, zero reused across seasons.
+- `location_id` as PK is safe: 178 distinct, zero conflicting attributes. And
+  **4039 of 6426 matches have a null location**, which is why `silver.matches`
+  needs `OUTER APPLY` where the other inserts use `CROSS APPLY`.
+- `result_id` and `goal_id` are globally unique. Safe.
+- `team_id` is safe with one caveat, below.
+
+## Bronze: mirror, not history
+
+The decision Phase 4 was actually waiting on. Two options for what bronze *is*:
+a mirror of the source's current state (one row per match, upserted), or a
+history of every version ever seen (append-only, silver picks the latest).
+
+Chose **mirror**, on the grounds that the API is re-fetchable, so bronze is a
+convenience rather than the only surviving copy.
+
+That decision cascades: `matchID` becomes the primary key, the load becomes a
+`MERGE`, and "create the table" and "wipe the table" stop being the same
+operation.
+
+## What shipped
+
+**Bronze is idempotent.** Verified by rebuilding from scratch and running the
+pipeline three times:
+
+```
+1st (backfill): bronze=6426 distinct=6426 staging=0 checksum=1746119722
+2nd:            bronze=6426 distinct=6426 staging=0 checksum=1746119722
+3rd:            bronze=6426 distinct=6426 staging=0 checksum=1746119722
+```
+
+Checksum, not just row count. Before this, three runs produced 12276+ rows.
+
+The pieces:
+
+- `proc_load_bronze.sql` → `proc_init_bronze.sql`. `bronze.init_bronze` is now
+  idempotent DDL: `IF OBJECT_ID(...) IS NULL CREATE TABLE`, never a drop. It
+  creates `bronze.dataframe` (with `matchID` as PK) and
+  `bronze.dataframe_staging`.
+- `proc_merge_bronze.sql`, new. `MERGE` from staging into bronze on `matchID`,
+  then `TRUNCATE` the staging table.
+- `rebuild_bronze.sql`, new. The destructive path, explicit and manual.
+- `fetch_matches.py`: `load_json()` calls `init_bronze`, clears staging, inserts
+  into staging, then calls `merge_bronze`.
+- `runner.sql` and `.zed/tasks.json` pointed at the old procedure name.
+
+Two choices worth remembering, both commented in the code:
+
+1. The `UPDATE` arm only fires on
+   `source.lastUpdateDateTime > target.lastUpdateDateTime`. That is what makes
+   a day with no new results cost zero writes, which is Phase 4's done-when.
+2. There is deliberately **no** `WHEN NOT MATCHED BY SOURCE ... DELETE`.
+   Staging will eventually hold only the fetched window; a delete arm would
+   erase every season outside it. This is the trap that the incremental
+   redesign would otherwise walk straight into.
+
+The staging table has its own PK so a duplicated `matchID` inside one batch
+fails at the `INSERT`, with a readable message, instead of failing inside the
+`MERGE` with "attempted to UPDATE or DELETE the same row more than once".
+
+## Bugs found and fixed along the way
+
+**A regression introduced by Phase 2, not yet triggered.** `json.dumps(None)`
+returns the 4-character string `"null"`, not SQL `NULL`. Confirmed in the
+container:
+
+```
+OPENJSON(CAST(NULL AS NVARCHAR(MAX)))  ->  0 rows, no error
+OPENJSON('null')                       ->  Msg 13609, JSON text is not properly formatted
+```
+
+The old `OPENROWSET(BULK ...)` path wrote real `NULL`s, so this never came up
+on Windows. The Python loader wrote the string, so `silver.load_silver` would
+have aborted on the first of the 4039 location-less matches. It had not
+surfaced only because bronze happened to be empty. Fixed with an `as_json()`
+helper that passes `None` through untouched. Note that switching `CROSS APPLY`
+to `OUTER APPLY` does *not* fix this: the error is raised by `OPENJSON`, not by
+the `APPLY`.
+
+**Silent truncation.** Measured every string field against its declared width:
+`teamIconUrl` is really 193 characters (declared 150, 34 rows truncated) and
+`resultDescription` is really 126 (declared 100, 306 rows truncated). Also
+found four columns whose `OPENJSON` declaration disagreed with the target
+column's width; those fit today but would fail on the first longer value.
+
+**A non-deterministic dedup.** `silver.teams` picks one row per team with
+`ROW_NUMBER() OVER (PARTITION BY teamId ORDER BY teamName)`. Bayern (teamId 40)
+has two variants that differ only in `teamIconUrl`, and their `teamName` is
+identical, so the `ORDER BY` had nothing to sort on and the winner was decided
+by whatever plan the optimizer chose. Same input, potentially different output.
+
+Worth being precise about what this was and was not: there is only one Bayern,
+and `silver.teams` always had exactly 39 rows. The two rows existed only inside
+the intermediate CTE, as two snapshots of the same team taken in different
+seasons. The bug was never a duplicate; it was *which snapshot won*.
+
+Fixed by carrying `matchID` and `matchDateTime` into the CTE and ordering
+`matchDateTime DESC, matchID DESC`, which makes it a proper SCD type 1: the
+most recently seen version wins, deterministically. Checked afterwards which
+variant that is:
+
+```
+680 matches | seasons 2006-2026 | .../Logo_FC_Bayern_München_(2002–2017).svg  <- wins
+ 34 matches | seasons 2009-2009 | .../openligadb.de/.../Bayern_Muenchen.gif
+```
+
+Not a rebrand over time. The `.gif` appears only in season 2009, an isolated
+inconsistency in the source. Recency picks correctly either way.
+
+Rule taken from this: a `ROW_NUMBER` used for deduplication must have an
+`ORDER BY` that ends in a unique column, or it hides a coin flip.
+
+**Two edits that went the wrong way.** An unguarded `DROP TABLE` added above
+the existing `IF OBJECT_ID` guard, which would have made the procedure fail on
+a fresh database, and a bare `ORDER BY` in the procedure body, which is not
+valid T-SQL at all. Both were reverted. The useful part is why they missed:
+they were made in `proc_load_bronze.sql`, and nothing in the pipeline executed
+that procedure. The duplication was happening in Python. The naming collision
+logged in session 1 is exactly what made the wrong file look like the right one.
+
+Also: a table has no inherent order. Ordering is a property of a query result,
+produced by `ORDER BY` inside a `SELECT`. The reshuffling problem was never in
+SQL at all; it was the order of the JSON array inside the raw files, fixed with
+one `day.sort(key=...)` before `json.dump`.
+
+## Verification
+
+End-to-end, from an empty database, without touching the API (the 714 raw
+files were already on disk):
+
+| Check | Result |
+|---|---|
+| bronze rows / distinct | 6426 / 6426 |
+| `[location]` stored as real NULL | 4039, zero `'null'` strings |
+| silver loads without Msg 13609 | yes |
+| location-less matches preserved | 4039 |
+| Bayern | 1 row, stable icon |
+| longest `teamIconUrl` survives | 193 |
+| longest `resultDescription` survives | 126 |
+| goals after the `!= 0` filter | 15379 = 15524 − 145 |
+| three consecutive runs | identical checksum |
+
+The `MERGE` update arm was tested separately by aging one row by hand
+(`lastUpdateDateTime = '2000-01-01'`, `numberOfViewers = -1`) and re-running:
+the real values came back, no new row appeared, total stayed 6426.
+
+Load time for the full 6426-row backfill: 9 seconds.
+
+## Still open
+
+- **The fetch window.** `loop_and_write` still downloads all 714 matchdays on
+  every run, ~13 minutes. The load is now seconds, so this is the only
+  expensive part left. It has to land before Phase 6, since a daily scheduled
+  workflow would otherwise make 714 calls a day against a free public API.
+  `lastUpdateDateTime` does not solve this on its own: you have to fetch a
+  matchday to read it. The API exposes a `getlastchangedate/bl1/{season}/{day}`
+  endpoint that answers "did this change" in a couple of hundred bytes, which
+  is the shape of the answer.
+- **Silver is still drop-and-rebuild.** Worth being precise: it is already
+  *idempotent* (it rebuilds deterministically from bronze, in seconds), it is
+  just not *incremental*. Those are different properties, and only the first
+  one was ever broken. Lower priority than the fetch window.
+
 ## Next
 
-Phase 3, containerizing the ingestion script. Worth knowing before starting:
-inside the compose network, `localhost` no longer means the database, so the
-`.env` work from Phase 2 is what makes the address swappable.
+Phase 3, containerizing the ingestion script, now that its done-when criterion
+is actually testable. Still true from session 1: inside the compose network,
+`localhost` no longer means the database, so the `.env` work from Phase 2 is
+what makes the address swappable.
