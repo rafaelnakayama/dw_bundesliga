@@ -37,6 +37,7 @@ def loop_and_write(seasons_loop, matchday_loop):
         for j in matchday_loop:
             
             day = create_url(i, j)
+            day.sort(key=lambda match: match["matchID"])
             file_path = data_path / "raw" / str(i) / f"{j}.json"
             file_path.parent.mkdir(parents=True, exist_ok=True)
         
@@ -45,6 +46,17 @@ def loop_and_write(seasons_loop, matchday_loop):
                 
             time.sleep(0.3)
             
+
+def as_json(value):
+
+    """
+    Serializes a nested field, but keeps None as None so pyodbc binds a real
+    SQL NULL. json.dumps(None) would return the string "null", which OPENJSON
+    rejects with error 13609.
+    """
+
+    return json.dumps(value) if value is not None else None
+
 
 def load_bronze():
 
@@ -85,14 +97,14 @@ def load_bronze():
             match['leagueSeason'], 
             match['leagueShortcut'], 
             match['matchDateTimeUTC'], 
-            json.dumps(match['group']), 
-            json.dumps(match['team1']), 
-            json.dumps(match['team2']), 
+            as_json(match['group']), 
+            as_json(match['team1']), 
+            as_json(match['team2']), 
             match['lastUpdateDateTime'], 
             match['matchIsFinished'], 
-            json.dumps(match['matchResults']), 
-            json.dumps(match['goals']), 
-            json.dumps(match['location']), 
+            as_json(match['matchResults']), 
+            as_json(match['goals']), 
+            as_json(match['location']), 
             match['numberOfViewers']
         )
             
