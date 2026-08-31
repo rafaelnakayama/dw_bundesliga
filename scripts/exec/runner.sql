@@ -4,7 +4,7 @@ PRINT '';
 PRINT '=================== (bronze) ====================';
 PRINT '';
 
-EXEC bronze.load_bronze
+EXEC bronze.init_bronze
 
 PRINT '';
 PRINT '=================== (silver) ====================';

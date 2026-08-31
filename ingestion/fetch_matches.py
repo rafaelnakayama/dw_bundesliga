@@ -1,12 +1,15 @@
 import requests
+import pyodbc
 import json
 import time
-
 from pathlib import Path
+
+import os
+from dotenv import load_dotenv
+load_dotenv()
 
 seasons = range(2006, 2027) # We want all seasons from 2006 - 2026
 matchday = range(1,35) # We want all the matchdays from the season
-
 data_path = Path(__file__).parent.parent / "datasets"
 
 def create_url(seasons_param, matchday_param):
@@ -16,57 +19,108 @@ def create_url(seasons_param, matchday_param):
     the website, it takes one day at a time.
     """
 
-    try:
-        url = f'https://api.openligadb.de/getmatchdata/bl1/{seasons_param}/{matchday_param}'
-        r = requests.get(url)
-
-    except requests.RequestException:
-        print("Error: Invalid value on either season/league")
-        return [] # returning [] empty arrays instead of None doesn't break the code
+    url = f'https://api.openligadb.de/getmatchdata/bl1/{seasons_param}/{matchday_param}'
+    request = requests.get(url, timeout=10)
+    request.raise_for_status()
+    return request.json()
     
-    else:
-        return r.json()
 
-def loop_matches(seasons_loop, matchday_loop):
+def loop_and_write(seasons_loop, matchday_loop):
 
     """
-    This function loops through the matchdays and seasons
-    going all the way to select all data
+    This function loops through each matchday and each season,
+    going all the way to select all data, and writing it to
+    a .json file at each call
     """
-    
-    store_data = []
 
     for i in seasons_loop:
         for j in matchday_loop:
+            
             day = create_url(i, j)
-            store_data.extend(day)
-            time.sleep(1.0)
-    
-    return store_data
+            day.sort(key=lambda match: match["matchID"])
+            file_path = data_path / "raw" / str(i) / f"{j}.json"
+            file_path.parent.mkdir(parents=True, exist_ok=True)
+        
+            with open (file_path, "w") as file:
+                json.dump(day, file , indent=4)
+                
+            time.sleep(0.3)
+            
 
-def write_down():
+def as_json(value):
 
     """
-    This function saves all the data gathered by the
-    'loop_matches' function's list
+    Serializes a nested field, but keeps None as None so pyodbc binds a real
+    SQL NULL. json.dumps(None) would return the string "null", which OPENJSON
+    rejects with error 13609.
     """
 
-    dataframe = loop_matches(seasons, matchday)
-    folder_path = Path(data_path)
-    file_path = folder_path / "dataframe.json"
+    return json.dumps(value) if value is not None else None
 
-    folder_path.mkdir(parents=True, exist_ok=True)
 
-    with open (file_path, "w") as file:
-        json.dump(dataframe, file , indent=4)
+def load_json():
+
+    """
+    Loads the data from datasets / raw into bronze.dataframe_staging, then
+    lets bronze.merge_bronze upsert it into bronze.dataframe. Running this
+    twice on unchanged data leaves the bronze layer exactly as it was.
+    """
+
+    connector = pyodbc.connect(
+        "DRIVER={ODBC Driver 18 for SQL Server};"
+        f"SERVER={os.environ['DB_SERVER']};"
+        f"DATABASE={os.environ['DB_DATABASE']};"
+        f"UID={os.environ['DB_USER']};"
+        f"PWD={os.environ['DB_PASSWORD']};"
+        "TrustServerCertificate=yes"
+    )
+
+    cursor = connector.cursor()
+
+    cursor.execute("EXEC bronze.init_bronze")
+    cursor.execute("TRUNCATE TABLE bronze.dataframe_staging")
+    connector.commit()
+
+    for file_path in data_path.glob("raw/*/*.json"):
+        with open(file_path) as file:
+            data = json.load(file)
+
+        for match in data:
+            cursor.execute("""
+            INSERT INTO bronze.dataframe_staging (
+                matchID, matchDateTime, timeZoneID, leagueId, leagueName, 
+                leagueSeason, leagueShortcut, matchDateTimeUTC, [group], 
+                team1, team2, lastUpdateDateTime, matchIsFinished, 
+                matchResults, goals, [location], numberOfViewers
+            )
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+            """, 
+            match['matchID'], 
+            match['matchDateTime'], 
+            match['timeZoneID'], 
+            match['leagueId'], 
+            match['leagueName'], 
+            match['leagueSeason'], 
+            match['leagueShortcut'], 
+            match['matchDateTimeUTC'], 
+            as_json(match['group']), 
+            as_json(match['team1']), 
+            as_json(match['team2']), 
+            match['lastUpdateDateTime'], 
+            match['matchIsFinished'], 
+            as_json(match['matchResults']), 
+            as_json(match['goals']), 
+            as_json(match['location']), 
+            match['numberOfViewers']
+        )
+            
+        connector.commit()
+
+    cursor.execute("EXEC bronze.merge_bronze")
+    connector.commit()
+
 
 if __name__ == "__main__":
-    
-    """
-    It takes about 13 minutes to generate the .json file.
-    there are 20 seasons x 35 matchdays, each matchday 
-    from a season is a request, and time.sleep(1.0) makes
-    each request sleep for a second before doing the next one
-    """
 
-    write_down()
+    loop_and_write(seasons, matchday)
+    load_json()

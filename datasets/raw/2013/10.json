@@ -1,0 +1,967 @@
+[
+    {
+        "matchID": 23917,
+        "matchDateTime": "2013-10-26T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 623,
+        "leagueName": "1. Fussball-Bundesliga 2013/2014",
+        "leagueSeason": 2013,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2013-10-26T13:30:00Z",
+        "group": {
+            "groupName": "10. Spieltag",
+            "groupOrderID": 10,
+            "groupID": 13617
+        },
+        "team1": {
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 123,
+            "teamName": "TSG 1899 Hoffenheim",
+            "shortName": "TSG 1899 Hoffenheim",
+            "teamIconUrl": "https://www.openligadb.de/images/teamicons/TSG_Hoffenheim.gif",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2013-10-26T20:25:39.613",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 39212,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 4,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 39213,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 23106,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 10,
+                "goalGetterID": 651,
+                "goalGetterName": "Salihovic",
+                "scoringTeamId": 123,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 23115,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 18,
+                "goalGetterID": 12316,
+                "goalGetterName": "Herdling",
+                "scoringTeamId": 123,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 23128,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 56,
+                "goalGetterID": 12318,
+                "goalGetterName": "San\u00e9",
+                "scoringTeamId": 55,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 23130,
+                "scoreTeam1": 1,
+                "scoreTeam2": 3,
+                "matchMinute": 62,
+                "goalGetterID": 1964,
+                "goalGetterName": "Firmino",
+                "scoringTeamId": 123,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 23131,
+                "scoreTeam1": 1,
+                "scoreTeam2": 4,
+                "matchMinute": 64,
+                "goalGetterID": 1964,
+                "goalGetterName": "Firmino",
+                "scoringTeamId": 123,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 845,
+            "locationCity": "Hannover",
+            "locationStadium": "HDI Arena"
+        },
+        "numberOfViewers": 44500
+    },
+    {
+        "matchID": 23916,
+        "matchDateTime": "2013-10-25T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 623,
+        "leagueName": "1. Fussball-Bundesliga 2013/2014",
+        "leagueSeason": 2013,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2013-10-25T18:30:00Z",
+        "group": {
+            "groupName": "10. Spieltag",
+            "groupOrderID": 10,
+            "groupID": 13617
+        },
+        "team1": {
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 79,
+            "teamName": "1. FC N\u00fcrnberg",
+            "shortName": "N\u00fcrnberg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N\u00fcrnberg_logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2013-10-26T00:16:39.657",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 39180,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 39181,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 23076,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 3,
+                "goalGetterID": 803,
+                "goalGetterName": "Ibisevic",
+                "scoringTeamId": 16,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 23077,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 6,
+                "goalGetterID": 11540,
+                "goalGetterName": "Drmic",
+                "scoringTeamId": 79,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 493,
+            "locationCity": "Stuttgart",
+            "locationStadium": "Mercedes-Benz Arena"
+        },
+        "numberOfViewers": 48460
+    },
+    {
+        "matchID": 23912,
+        "matchDateTime": "2013-10-26T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 623,
+        "leagueName": "1. Fussball-Bundesliga 2013/2014",
+        "leagueSeason": 2013,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2013-10-26T13:30:00Z",
+        "group": {
+            "groupName": "10. Spieltag",
+            "groupOrderID": 10,
+            "groupID": 13617
+        },
+        "team1": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2013-10-26T20:24:34.347",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 39206,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 39207,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 23103,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 4,
+                "goalGetterID": 777,
+                "goalGetterName": "Ramos",
+                "scoringTeamId": 54,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 23122,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 29,
+                "goalGetterID": 11532,
+                "goalGetterName": "Mandzukic, Mario",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 23125,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 51,
+                "goalGetterID": 11532,
+                "goalGetterName": "Mandzukic, Mario",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 23126,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 54,
+                "goalGetterID": 1442,
+                "goalGetterName": "G\u00f6tze",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 23129,
+                "scoreTeam1": 3,
+                "scoreTeam2": 2,
+                "matchMinute": 58,
+                "goalGetterID": 1092,
+                "goalGetterName": "Ben-Hatira",
+                "scoringTeamId": 54,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 34,
+            "locationCity": "M\u00fcnchen",
+            "locationStadium": "Allianz Arena"
+        },
+        "numberOfViewers": 71000
+    },
+    {
+        "matchID": 23913,
+        "matchDateTime": "2013-10-26T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 623,
+        "leagueName": "1. Fussball-Bundesliga 2013/2014",
+        "leagueSeason": 2013,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2013-10-26T13:30:00Z",
+        "group": {
+            "groupName": "10. Spieltag",
+            "groupOrderID": 10,
+            "groupID": 13617
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2013-10-26T20:27:04.053",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 39208,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 3,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 39209,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 23118,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 14,
+                "goalGetterID": 11397,
+                "goalGetterName": "Aubameyang",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 23127,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 51,
+                "goalGetterID": 85,
+                "goalGetterName": "Sahin",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 23132,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 62,
+                "goalGetterID": 389,
+                "goalGetterName": "Meyer",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 23134,
+                "scoreTeam1": 1,
+                "scoreTeam2": 3,
+                "matchMinute": 74,
+                "goalGetterID": 1606,
+                "goalGetterName": "Blaszczykowski",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 403,
+            "locationCity": "Gelsenkirchen",
+            "locationStadium": "Veltins-Arena"
+        },
+        "numberOfViewers": 61973
+    },
+    {
+        "matchID": 23915,
+        "matchDateTime": "2013-10-26T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 623,
+        "leagueName": "1. Fussball-Bundesliga 2013/2014",
+        "leagueSeason": 2013,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2013-10-26T13:30:00Z",
+        "group": {
+            "groupName": "10. Spieltag",
+            "groupOrderID": 10,
+            "groupID": 13617
+        },
+        "team1": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2013-10-29T06:33:41.317",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 39210,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 39211,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 23121,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 24,
+                "goalGetterID": 7523,
+                "goalGetterName": "Hahn",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 23123,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 34,
+                "goalGetterID": 511,
+                "goalGetterName": "Rolfes",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 23136,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 83,
+                "goalGetterID": 10639,
+                "goalGetterName": "Can",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 28,
+            "locationCity": "Leverkusen",
+            "locationStadium": "BayArena"
+        },
+        "numberOfViewers": 27811
+    },
+    {
+        "matchID": 23920,
+        "matchDateTime": "2013-10-26T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 623,
+        "leagueName": "1. Fussball-Bundesliga 2013/2014",
+        "leagueSeason": 2013,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2013-10-26T13:30:00Z",
+        "group": {
+            "groupName": "10. Spieltag",
+            "groupOrderID": 10,
+            "groupID": 13617
+        },
+        "team1": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 74,
+            "teamName": "Eintracht Braunschweig",
+            "shortName": "Braunschweig",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/4/45/Logo_Eintracht_Braunschweig.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2013-10-26T20:26:17.93",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 39214,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 39215,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 23104,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 8,
+                "goalGetterID": 1208,
+                "goalGetterName": "Okazaki",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 23133,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 68,
+                "goalGetterID": 1208,
+                "goalGetterName": "Okazaki",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 465,
+            "locationCity": "Mainz",
+            "locationStadium": "Coface Arena"
+        },
+        "numberOfViewers": 30657
+    },
+    {
+        "matchID": 23918,
+        "matchDateTime": "2013-10-26T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 623,
+        "leagueName": "1. Fussball-Bundesliga 2013/2014",
+        "leagueSeason": 2013,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2013-10-26T16:30:00Z",
+        "group": {
+            "groupName": "10. Spieltag",
+            "groupOrderID": 10,
+            "groupID": 13617
+        },
+        "team1": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2013-10-29T06:34:54.95",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 39226,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 39228,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 23151,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 7,
+                "goalGetterID": 10505,
+                "goalGetterName": "Arnold",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 23152,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 72,
+                "goalGetterID": 116,
+                "goalGetterName": "Olic",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 23154,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 89,
+                "goalGetterID": 2588,
+                "goalGetterName": "Perisic",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 20,
+            "locationCity": "Wolfsburg",
+            "locationStadium": "Volkswagen Arena "
+        },
+        "numberOfViewers": 29488
+    },
+    {
+        "matchID": 23919,
+        "matchDateTime": "2013-10-27T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 623,
+        "leagueName": "1. Fussball-Bundesliga 2013/2014",
+        "leagueSeason": 2013,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2013-10-27T14:30:00Z",
+        "group": {
+            "groupName": "10. Spieltag",
+            "groupOrderID": 10,
+            "groupID": 13617
+        },
+        "team1": {
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 100,
+            "teamName": "Hamburger SV",
+            "shortName": "HSV",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2013-10-29T06:35:27.983",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 39276,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 3,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 39277,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 23175,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 37,
+                "goalGetterID": 1778,
+                "goalGetterName": "Beister",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 23176,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 47,
+                "goalGetterID": 1757,
+                "goalGetterName": "Lasogga",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 23177,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 63,
+                "goalGetterID": 6436,
+                "goalGetterName": "van der Vaart",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 516,
+            "locationCity": "Freiburg",
+            "locationStadium": "MAGE SOLAR Stadion"
+        },
+        "numberOfViewers": 24000
+    },
+    {
+        "matchID": 23914,
+        "matchDateTime": "2013-10-27T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 623,
+        "leagueName": "1. Fussball-Bundesliga 2013/2014",
+        "leagueSeason": 2013,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2013-10-27T16:30:00Z",
+        "group": {
+            "groupName": "10. Spieltag",
+            "groupOrderID": 10,
+            "groupID": 13617
+        },
+        "team1": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2013-10-29T06:35:58.34",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 39281,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 4,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 39282,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 23182,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 11,
+                "goalGetterID": 90,
+                "goalGetterName": "Arango",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 23183,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 15,
+                "goalGetterID": 1056,
+                "goalGetterName": "Aigner",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 23185,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 18,
+                "goalGetterID": 8310,
+                "goalGetterName": "Wendt ",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 23191,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 60,
+                "goalGetterID": 1439,
+                "goalGetterName": "Herrmann",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 23192,
+                "scoreTeam1": 4,
+                "scoreTeam2": 1,
+                "matchMinute": 66,
+                "goalGetterID": 60,
+                "goalGetterName": "Raffael",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 445,
+            "locationCity": "M\u00f6nchengladbach",
+            "locationStadium": "Stadion im Borussia-Park"
+        },
+        "numberOfViewers": 53418
+    }
+]
