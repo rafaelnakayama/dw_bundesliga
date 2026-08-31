@@ -58,10 +58,12 @@ def as_json(value):
     return json.dumps(value) if value is not None else None
 
 
-def load_bronze():
+def load_json():
 
     """
-    Loads the data from datasets / raw to the bronze layer
+    Loads the data from datasets / raw into bronze.dataframe_staging, then
+    lets bronze.merge_bronze upsert it into bronze.dataframe. Running this
+    twice on unchanged data leaves the bronze layer exactly as it was.
     """
 
     connector = pyodbc.connect(
@@ -75,13 +77,17 @@ def load_bronze():
 
     cursor = connector.cursor()
 
+    cursor.execute("EXEC bronze.init_bronze")
+    cursor.execute("TRUNCATE TABLE bronze.dataframe_staging")
+    connector.commit()
+
     for file_path in data_path.glob("raw/*/*.json"):
         with open(file_path) as file:
             data = json.load(file)
 
         for match in data:
             cursor.execute("""
-            INSERT INTO bronze.dataframe (
+            INSERT INTO bronze.dataframe_staging (
                 matchID, matchDateTime, timeZoneID, leagueId, leagueName, 
                 leagueSeason, leagueShortcut, matchDateTimeUTC, [group], 
                 team1, team2, lastUpdateDateTime, matchIsFinished, 
@@ -110,8 +116,11 @@ def load_bronze():
             
         connector.commit()
 
+    cursor.execute("EXEC bronze.merge_bronze")
+    connector.commit()
+
 
 if __name__ == "__main__":
 
     loop_and_write(seasons, matchday)
-    load_bronze()
+    load_json()
