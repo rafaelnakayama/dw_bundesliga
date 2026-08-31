@@ -1,6 +1,6 @@
 [
     {
-        "matchID": 51189,
+        "matchID": 51190,
         "matchDateTime": "2018-10-20T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4276,
@@ -14,48 +14,101 @@
             "groupID": 31782
         },
         "team1": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 1635,
-            "teamName": "RB Leipzig",
-            "shortName": "Leipzig",
-            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2018-10-20T17:24:56.193",
+        "lastUpdateDateTime": "2018-10-20T17:42:05.087",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 83758,
+                "resultID": 83762,
                 "resultName": "Halbzeit",
                 "pointsTeam1": 0,
-                "pointsTeam2": 0,
+                "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
                 "resultDescription": "Zwischenstand zur Halbzeit"
             },
             {
-                "resultID": 83757,
+                "resultID": 83761,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
+                "pointsTeam1": 1,
+                "pointsTeam2": 3,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             }
         ],
-        "goals": [],
+        "goals": [
+            {
+                "goalID": 72343,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 30,
+                "goalGetterID": 1478,
+                "goalGetterName": "Robert Lewandowski",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 72344,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 48,
+                "goalGetterID": 1478,
+                "goalGetterName": "Robert Lewandowski",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 72347,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 63,
+                "goalGetterID": 16906,
+                "goalGetterName": "Weghorst",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 72349,
+                "scoreTeam1": 1,
+                "scoreTeam2": 3,
+                "matchMinute": 72,
+                "goalGetterID": 12113,
+                "goalGetterName": "Rodriguez",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
         "location": {
-            "locationID": 428,
-            "locationCity": "Augsburg",
-            "locationStadium": "SGL-Arena"
+            "locationID": 20,
+            "locationCity": "Wolfsburg",
+            "locationStadium": "Volkswagen Arena "
         },
         "numberOfViewers": null
     },
@@ -451,7 +504,7 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 51190,
+        "matchID": 51189,
         "matchDateTime": "2018-10-20T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4276,
@@ -465,101 +518,48 @@
             "groupID": 31782
         },
         "team1": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2018-10-20T17:42:05.087",
+        "lastUpdateDateTime": "2018-10-20T17:24:56.193",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 83762,
+                "resultID": 83758,
                 "resultName": "Halbzeit",
                 "pointsTeam1": 0,
-                "pointsTeam2": 1,
+                "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
                 "resultDescription": "Zwischenstand zur Halbzeit"
             },
             {
-                "resultID": 83761,
+                "resultID": 83757,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 3,
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             }
         ],
-        "goals": [
-            {
-                "goalID": 72343,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 30,
-                "goalGetterID": 1478,
-                "goalGetterName": "Robert Lewandowski",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 72344,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 48,
-                "goalGetterID": 1478,
-                "goalGetterName": "Robert Lewandowski",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 72347,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 63,
-                "goalGetterID": 16906,
-                "goalGetterName": "Weghorst",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 72349,
-                "scoreTeam1": 1,
-                "scoreTeam2": 3,
-                "matchMinute": 72,
-                "goalGetterID": 12113,
-                "goalGetterName": "Rodriguez",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
+        "goals": [],
         "location": {
-            "locationID": 20,
-            "locationCity": "Wolfsburg",
-            "locationStadium": "Volkswagen Arena "
+            "locationID": 428,
+            "locationCity": "Augsburg",
+            "locationStadium": "SGL-Arena"
         },
         "numberOfViewers": null
     },

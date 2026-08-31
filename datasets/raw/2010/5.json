@@ -1,5 +1,127 @@
 [
     {
+        "matchID": 10041,
+        "matchDateTime": "2010-09-21T20:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 159,
+        "leagueName": "1. Fussball-Bundesliga 2010/2011",
+        "leagueSeason": 2010,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2010-09-21T18:00:00Z",
+        "group": {
+            "groupName": "5. Spieltag",
+            "groupOrderID": 5,
+            "groupID": 12179
+        },
+        "team1": {
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2010-09-21T21:50:28.32",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 14697,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 4,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 14698,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 3564,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 11,
+                "goalGetterID": 1129,
+                "goalGetterName": "Fritz",
+                "scoringTeamId": 55,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 3565,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 35,
+                "goalGetterID": 1071,
+                "goalGetterName": "Frings",
+                "scoringTeamId": 134,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 3566,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 52,
+                "goalGetterID": 654,
+                "goalGetterName": "Ya Konan",
+                "scoringTeamId": 55,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 3570,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 79,
+                "goalGetterID": 877,
+                "goalGetterName": "Schulz",
+                "scoringTeamId": 55,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 3573,
+                "scoreTeam1": 4,
+                "scoreTeam2": 1,
+                "matchMinute": 90,
+                "goalGetterID": 1429,
+                "goalGetterName": "Abdellaoue",
+                "scoringTeamId": 55,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 10037,
         "matchDateTime": "2010-09-21T20:00:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -185,128 +307,6 @@
             "locationStadium": "Rhein-Neckar-Arena"
         },
         "numberOfViewers": 30150
-    },
-    {
-        "matchID": 10041,
-        "matchDateTime": "2010-09-21T20:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 159,
-        "leagueName": "1. Fussball-Bundesliga 2010/2011",
-        "leagueSeason": 2010,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-09-21T18:00:00Z",
-        "group": {
-            "groupName": "5. Spieltag",
-            "groupOrderID": 5,
-            "groupID": 12179
-        },
-        "team1": {
-            "teamId": 55,
-            "teamName": "Hannover 96",
-            "shortName": "Hannover",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2010-09-21T21:50:28.32",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 14697,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 4,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 14698,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 3564,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 11,
-                "goalGetterID": 1129,
-                "goalGetterName": "Fritz",
-                "scoringTeamId": 55,
-                "isPenalty": false,
-                "isOwnGoal": true,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 3565,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 35,
-                "goalGetterID": 1071,
-                "goalGetterName": "Frings",
-                "scoringTeamId": 134,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 3566,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 52,
-                "goalGetterID": 654,
-                "goalGetterName": "Ya Konan",
-                "scoringTeamId": 55,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 3570,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 79,
-                "goalGetterID": 877,
-                "goalGetterName": "Schulz",
-                "scoringTeamId": 55,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 3573,
-                "scoreTeam1": 4,
-                "scoreTeam2": 1,
-                "matchMinute": 90,
-                "goalGetterID": 1429,
-                "goalGetterName": "Abdellaoue",
-                "scoringTeamId": 55,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
     },
     {
         "matchID": 10034,

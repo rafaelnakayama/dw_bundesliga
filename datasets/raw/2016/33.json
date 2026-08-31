@@ -1,5 +1,88 @@
 [
     {
+        "matchID": 39940,
+        "matchDateTime": "2017-05-13T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2017-05-13T13:30:00Z",
+        "group": {
+            "groupName": "33. Spieltag",
+            "groupOrderID": 33,
+            "groupID": 23865
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 100,
+            "teamName": "Hamburger SV",
+            "shortName": "HSV",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2017-05-13T17:27:56.537",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 74812,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 74824,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 59375,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 25,
+                "goalGetterID": 14924,
+                "goalGetterName": " G. Burgstaller",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": "Guido Burgstaller"
+            },
+            {
+                "goalID": 59433,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 92,
+                "goalGetterID": 1990,
+                "goalGetterName": "Lasogga",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": "Pierre-Michel Lasogga"
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 39936,
         "matchDateTime": "2017-05-13T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -352,89 +435,6 @@
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 39940,
-        "matchDateTime": "2017-05-13T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3005,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
-        "leagueSeason": 2016,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2017-05-13T13:30:00Z",
-        "group": {
-            "groupName": "33. Spieltag",
-            "groupOrderID": 33,
-            "groupID": 23865
-        },
-        "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 100,
-            "teamName": "Hamburger SV",
-            "shortName": "HSV",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2017-05-13T17:27:56.537",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 74812,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 74824,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 59375,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 25,
-                "goalGetterID": 14924,
-                "goalGetterName": " G. Burgstaller",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": "Guido Burgstaller"
-            },
-            {
-                "goalID": 59433,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 92,
-                "goalGetterID": 1990,
-                "goalGetterName": "Lasogga",
-                "scoringTeamId": 100,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": "Pierre-Michel Lasogga"
             }
         ],
         "location": null,

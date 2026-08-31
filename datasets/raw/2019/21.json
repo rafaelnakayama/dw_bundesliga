@@ -1,92 +1,5 @@
 [
     {
-        "matchID": 55462,
-        "matchDateTime": "2020-02-08T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4362,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
-        "leagueSeason": 2019,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2020-02-08T14:30:00Z",
-        "group": {
-            "groupName": "21. Spieltag",
-            "groupOrderID": 21,
-            "groupID": 34220
-        },
-        "team1": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 80,
-            "teamName": "1. FC Union Berlin",
-            "shortName": "Union Berlin",
-            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2020-02-18T18:41:53.487",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 90895,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 90894,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 82702,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 52,
-                "goalGetterID": 18968,
-                "goalGetterName": "M. B\u00fclter",
-                "scoringTeamId": 80,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 82704,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 72,
-                "goalGetterID": 18968,
-                "goalGetterName": "M. B\u00fclter",
-                "scoringTeamId": 80,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 36,
-            "locationCity": "Bremen",
-            "locationStadium": "Weserstadion"
-        },
-        "numberOfViewers": 42100
-    },
-    {
         "matchID": 55461,
         "matchDateTime": "2020-02-07T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -298,6 +211,93 @@
             "locationStadium": "Volkswagen Arena "
         },
         "numberOfViewers": 23445
+    },
+    {
+        "matchID": 55462,
+        "matchDateTime": "2020-02-08T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2020-02-08T14:30:00Z",
+        "group": {
+            "groupName": "21. Spieltag",
+            "groupOrderID": 21,
+            "groupID": 34220
+        },
+        "team1": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 80,
+            "teamName": "1. FC Union Berlin",
+            "shortName": "Union Berlin",
+            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2020-02-18T18:41:53.487",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 90895,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 90894,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 82702,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 52,
+                "goalGetterID": 18968,
+                "goalGetterName": "M. B\u00fclter",
+                "scoringTeamId": 80,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 82704,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 72,
+                "goalGetterID": 18968,
+                "goalGetterName": "M. B\u00fclter",
+                "scoringTeamId": 80,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 36,
+            "locationCity": "Bremen",
+            "locationStadium": "Weserstadion"
+        },
+        "numberOfViewers": 42100
     },
     {
         "matchID": 55463,

@@ -1,39 +1,39 @@
 [
     {
-        "matchID": 14059,
-        "matchDateTime": "2011-09-17T18:30:00",
+        "matchID": 14056,
+        "matchDateTime": "2011-09-18T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 307,
         "leagueName": "1. Fussball-Bundesliga 2011/2012",
         "leagueSeason": 2011,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2011-09-17T16:30:00Z",
+        "matchDateTimeUTC": "2011-09-18T13:30:00Z",
         "group": {
             "groupName": "6. Spieltag",
             "groupOrderID": 6,
             "groupID": 12579
         },
         "team1": {
-            "teamId": 76,
-            "teamName": "1. FC Kaiserslautern",
-            "shortName": "Kaiserslautern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2011-09-23T14:19:13.22",
+        "lastUpdateDateTime": "2011-09-23T14:19:45.753",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 22035,
+                "resultID": 22056,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 3,
+                "pointsTeam1": 2,
                 "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
@@ -41,9 +41,109 @@
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 22036,
+                "resultID": 22057,
                 "resultName": "Halbzeit",
-                "pointsTeam1": 1,
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit (bitte laufend eintragen. Waehrend laufender erster Halbzeit immer Halbzeit- und Endergebnis eintragen!)"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 6330,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 63,
+                "goalGetterID": 1452,
+                "goalGetterName": "Kagawa",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 6341,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 87,
+                "goalGetterID": 849,
+                "goalGetterName": "Haggui",
+                "scoringTeamId": 55,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 6342,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 89,
+                "goalGetterID": 654,
+                "goalGetterName": "Ya Konan",
+                "scoringTeamId": 55,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 425,
+            "locationCity": "Hannover",
+            "locationStadium": "AWD-Arena"
+        },
+        "numberOfViewers": 49000
+    },
+    {
+        "matchID": 14054,
+        "matchDateTime": "2011-09-18T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 307,
+        "leagueName": "1. Fussball-Bundesliga 2011/2012",
+        "leagueSeason": 2011,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2011-09-18T15:30:00Z",
+        "group": {
+            "groupName": "6. Spieltag",
+            "groupOrderID": 6,
+            "groupID": 12579
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2011-09-23T14:20:13.41",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 22067,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 22068,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
                 "pointsTeam2": 1,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
@@ -53,64 +153,38 @@
         ],
         "goals": [
             {
-                "goalID": 6302,
+                "goalID": 6343,
                 "scoreTeam1": 0,
                 "scoreTeam2": 1,
-                "matchMinute": 15,
-                "goalGetterID": 657,
-                "goalGetterName": "Choupo-Moting",
-                "scoringTeamId": 81,
+                "matchMinute": 21,
+                "goalGetterID": 1395,
+                "goalGetterName": "Petersen",
+                "scoringTeamId": 40,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
-                "comment": ""
+                "comment": null
             },
             {
-                "goalID": 6303,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 24,
-                "goalGetterID": 2516,
-                "goalGetterName": "Sakuta-Pasu",
-                "scoringTeamId": 76,
+                "goalID": 6346,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 75,
+                "goalGetterID": 1356,
+                "goalGetterName": "Thomas M\u00fcller",
+                "scoringTeamId": 40,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 6304,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 54,
-                "goalGetterID": 2228,
-                "goalGetterName": "Shechter",
-                "scoringTeamId": 76,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 6309,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 73,
-                "goalGetterID": 423,
-                "goalGetterName": "Tiffert",
-                "scoringTeamId": 76,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
+                "comment": null
             }
         ],
         "location": {
-            "locationID": 437,
-            "locationCity": "Kaiserslautern",
-            "locationStadium": "Fritz-Walter-Stadion"
+            "locationID": 403,
+            "locationCity": "Gelsenkirchen",
+            "locationStadium": "Veltins-Arena"
         },
-        "numberOfViewers": 43952
+        "numberOfViewers": 61673
     },
     {
         "matchID": 14058,
@@ -726,40 +800,40 @@
         "numberOfViewers": 48385
     },
     {
-        "matchID": 14056,
-        "matchDateTime": "2011-09-18T15:30:00",
+        "matchID": 14059,
+        "matchDateTime": "2011-09-17T18:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 307,
         "leagueName": "1. Fussball-Bundesliga 2011/2012",
         "leagueSeason": 2011,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2011-09-18T13:30:00Z",
+        "matchDateTimeUTC": "2011-09-17T16:30:00Z",
         "group": {
             "groupName": "6. Spieltag",
             "groupOrderID": 6,
             "groupID": 12579
         },
         "team1": {
-            "teamId": 55,
-            "teamName": "Hannover 96",
-            "shortName": "Hannover",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamId": 76,
+            "teamName": "1. FC Kaiserslautern",
+            "shortName": "Kaiserslautern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2011-09-23T14:19:45.753",
+        "lastUpdateDateTime": "2011-09-23T14:19:13.22",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 22056,
+                "resultID": 22035,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 2,
+                "pointsTeam1": 3,
                 "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
@@ -767,10 +841,10 @@
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 22057,
+                "resultID": 22036,
                 "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
@@ -779,137 +853,63 @@
         ],
         "goals": [
             {
-                "goalID": 6330,
+                "goalID": 6302,
                 "scoreTeam1": 0,
                 "scoreTeam2": 1,
-                "matchMinute": 63,
-                "goalGetterID": 1452,
-                "goalGetterName": "Kagawa",
-                "scoringTeamId": 7,
+                "matchMinute": 15,
+                "goalGetterID": 657,
+                "goalGetterName": "Choupo-Moting",
+                "scoringTeamId": 81,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
-                "comment": null
+                "comment": ""
             },
             {
-                "goalID": 6341,
+                "goalID": 6303,
                 "scoreTeam1": 1,
                 "scoreTeam2": 1,
-                "matchMinute": 87,
-                "goalGetterID": 849,
-                "goalGetterName": "Haggui",
-                "scoringTeamId": 55,
+                "matchMinute": 24,
+                "goalGetterID": 2516,
+                "goalGetterName": "Sakuta-Pasu",
+                "scoringTeamId": 76,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
-                "comment": null
+                "comment": ""
             },
             {
-                "goalID": 6342,
+                "goalID": 6304,
                 "scoreTeam1": 2,
                 "scoreTeam2": 1,
-                "matchMinute": 89,
-                "goalGetterID": 654,
-                "goalGetterName": "Ya Konan",
-                "scoringTeamId": 55,
+                "matchMinute": 54,
+                "goalGetterID": 2228,
+                "goalGetterName": "Shechter",
+                "scoringTeamId": 76,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 425,
-            "locationCity": "Hannover",
-            "locationStadium": "AWD-Arena"
-        },
-        "numberOfViewers": 49000
-    },
-    {
-        "matchID": 14054,
-        "matchDateTime": "2011-09-18T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 307,
-        "leagueName": "1. Fussball-Bundesliga 2011/2012",
-        "leagueSeason": 2011,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2011-09-18T15:30:00Z",
-        "group": {
-            "groupName": "6. Spieltag",
-            "groupOrderID": 6,
-            "groupID": 12579
-        },
-        "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2011-09-23T14:20:13.41",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 22067,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+                "comment": ""
             },
             {
-                "resultID": 22068,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit (bitte laufend eintragen. Waehrend laufender erster Halbzeit immer Halbzeit- und Endergebnis eintragen!)"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 6343,
-                "scoreTeam1": 0,
+                "goalID": 6309,
+                "scoreTeam1": 3,
                 "scoreTeam2": 1,
-                "matchMinute": 21,
-                "goalGetterID": 1395,
-                "goalGetterName": "Petersen",
-                "scoringTeamId": 40,
+                "matchMinute": 73,
+                "goalGetterID": 423,
+                "goalGetterName": "Tiffert",
+                "scoringTeamId": 76,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 6346,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 75,
-                "goalGetterID": 1356,
-                "goalGetterName": "Thomas M\u00fcller",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
+                "comment": ""
             }
         ],
         "location": {
-            "locationID": 403,
-            "locationCity": "Gelsenkirchen",
-            "locationStadium": "Veltins-Arena"
+            "locationID": 437,
+            "locationCity": "Kaiserslautern",
+            "locationStadium": "Fritz-Walter-Stadion"
         },
-        "numberOfViewers": 61673
+        "numberOfViewers": 43952
     }
 ]

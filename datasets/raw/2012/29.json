@@ -1,5 +1,118 @@
 [
     {
+        "matchID": 20204,
+        "matchDateTime": "2013-04-13T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 456,
+        "leagueName": "1. Fussball-Bundesliga 2012/2013",
+        "leagueSeason": 2012,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2013-04-13T16:30:00Z",
+        "group": {
+            "groupName": "29. Spieltag",
+            "groupOrderID": 29,
+            "groupID": 13169
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2013-04-13T23:18:15.033",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 36022,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 36023,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 19380,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 39,
+                "goalGetterID": 511,
+                "goalGetterName": "Rolfes",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 19381,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 58,
+                "goalGetterID": 114,
+                "goalGetterName": "Kie\u00dfling",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 19382,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 71,
+                "goalGetterID": 3357,
+                "goalGetterName": "Pukki",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 19383,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 87,
+                "goalGetterID": 60,
+                "goalGetterName": "Raffael",
+                "scoringTeamId": 9,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 403,
+            "locationCity": "Gelsenkirchen",
+            "locationStadium": "Veltins-Arena"
+        },
+        "numberOfViewers": 61619
+    },
+    {
         "matchID": 20205,
         "matchDateTime": "2013-04-12T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -702,119 +815,6 @@
             "locationStadium": "ESPRIT Arena"
         },
         "numberOfViewers": 54000
-    },
-    {
-        "matchID": 20204,
-        "matchDateTime": "2013-04-13T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 456,
-        "leagueName": "1. Fussball-Bundesliga 2012/2013",
-        "leagueSeason": 2012,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2013-04-13T16:30:00Z",
-        "group": {
-            "groupName": "29. Spieltag",
-            "groupOrderID": 29,
-            "groupID": 13169
-        },
-        "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2013-04-13T23:18:15.033",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 36022,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 36023,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 19380,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 39,
-                "goalGetterID": 511,
-                "goalGetterName": "Rolfes",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 19381,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 58,
-                "goalGetterID": 114,
-                "goalGetterName": "Kie\u00dfling",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 19382,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 71,
-                "goalGetterID": 3357,
-                "goalGetterName": "Pukki",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 19383,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 87,
-                "goalGetterID": 60,
-                "goalGetterName": "Raffael",
-                "scoringTeamId": 9,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 403,
-            "locationCity": "Gelsenkirchen",
-            "locationStadium": "Veltins-Arena"
-        },
-        "numberOfViewers": 61619
     },
     {
         "matchID": 20203,

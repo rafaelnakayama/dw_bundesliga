@@ -1,39 +1,122 @@
 [
     {
-        "matchID": 60871,
-        "matchDateTime": "2021-08-29T17:30:00",
+        "matchID": 60863,
+        "matchDateTime": "2021-08-28T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4500,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
         "leagueSeason": 2021,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2021-08-29T15:30:00Z",
+        "matchDateTimeUTC": "2021-08-28T13:30:00Z",
         "group": {
             "groupName": "3. Spieltag",
             "groupOrderID": 3,
             "groupID": 38179
         },
         "team1": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamId": 83,
+            "teamName": "DSC Arminia Bielefeld",
+            "shortName": "Bielefeld",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 1635,
-            "teamName": "RB Leipzig",
-            "shortName": "Leipzig",
-            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2021-08-29T19:27:00.707",
+        "lastUpdateDateTime": "2021-08-28T17:28:29.783",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 95700,
+                "resultID": 95661,
                 "resultName": "Endergebnis",
                 "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 95662,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 90548,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 22,
+                "goalGetterID": 19015,
+                "goalGetterName": "J. Hauge",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 90559,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 86,
+                "goalGetterID": 19035,
+                "goalGetterName": "P. Wimmer",
+                "scoringTeamId": 83,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 60865,
+        "matchDateTime": "2021-08-28T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4500,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
+        "leagueSeason": 2021,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2021-08-28T16:30:00Z",
+        "group": {
+            "groupName": "3. Spieltag",
+            "groupOrderID": 3,
+            "groupID": 38179
+        },
+        "team1": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2021-08-28T20:20:54.117",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 95676,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 5,
                 "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
@@ -41,9 +124,9 @@
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 95701,
+                "resultID": 95677,
                 "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
+                "pointsTeam1": 2,
                 "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
@@ -53,20 +136,76 @@
         ],
         "goals": [
             {
-                "goalID": 90612,
+                "goalID": 90564,
                 "scoreTeam1": 1,
                 "scoreTeam2": 0,
-                "matchMinute": 52,
-                "goalGetterID": 16987,
-                "goalGetterName": "Roussillon",
-                "scoringTeamId": 131,
+                "matchMinute": 6,
+                "goalGetterID": 15523,
+                "goalGetterName": " T. M\u00fcller",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 90565,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 35,
+                "goalGetterID": 1478,
+                "goalGetterName": "Robert Lewandowski",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 90566,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 49,
+                "goalGetterID": 18700,
+                "goalGetterName": "J. Musiala",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 90567,
+                "scoreTeam1": 4,
+                "scoreTeam2": 0,
+                "matchMinute": 70,
+                "goalGetterID": 1478,
+                "goalGetterName": "Robert Lewandowski",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 90568,
+                "scoreTeam1": 5,
+                "scoreTeam2": 0,
+                "matchMinute": 83,
+                "goalGetterID": 1478,
+                "goalGetterName": "Robert Lewandowski",
+                "scoringTeamId": 40,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             }
         ],
-        "location": null,
+        "location": {
+            "locationID": 1091,
+            "locationCity": "",
+            "locationStadium": null
+        },
         "numberOfViewers": null
     },
     {
@@ -185,89 +324,6 @@
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": true,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 60863,
-        "matchDateTime": "2021-08-28T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4500,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
-        "leagueSeason": 2021,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2021-08-28T13:30:00Z",
-        "group": {
-            "groupName": "3. Spieltag",
-            "groupOrderID": 3,
-            "groupID": 38179
-        },
-        "team1": {
-            "teamId": 83,
-            "teamName": "DSC Arminia Bielefeld",
-            "shortName": "Bielefeld",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2021-08-28T17:28:29.783",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 95661,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 95662,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 90548,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 22,
-                "goalGetterID": 19015,
-                "goalGetterName": "J. Hauge",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 90559,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 86,
-                "goalGetterID": 19035,
-                "goalGetterName": "P. Wimmer",
-                "scoringTeamId": 83,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
                 "comment": null
             }
         ],
@@ -724,132 +780,6 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 60865,
-        "matchDateTime": "2021-08-28T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4500,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
-        "leagueSeason": 2021,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2021-08-28T16:30:00Z",
-        "group": {
-            "groupName": "3. Spieltag",
-            "groupOrderID": 3,
-            "groupID": 38179
-        },
-        "team1": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 54,
-            "teamName": "Hertha BSC",
-            "shortName": "Hertha",
-            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2021-08-28T20:20:54.117",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 95676,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 5,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 95677,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 90564,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 6,
-                "goalGetterID": 15523,
-                "goalGetterName": " T. M\u00fcller",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 90565,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 35,
-                "goalGetterID": 1478,
-                "goalGetterName": "Robert Lewandowski",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 90566,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 49,
-                "goalGetterID": 18700,
-                "goalGetterName": "J. Musiala",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 90567,
-                "scoreTeam1": 4,
-                "scoreTeam2": 0,
-                "matchMinute": 70,
-                "goalGetterID": 1478,
-                "goalGetterName": "Robert Lewandowski",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 90568,
-                "scoreTeam1": 5,
-                "scoreTeam2": 0,
-                "matchMinute": 83,
-                "goalGetterID": 1478,
-                "goalGetterName": "Robert Lewandowski",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 1091,
-            "locationCity": "",
-            "locationStadium": null
-        },
-        "numberOfViewers": null
-    },
-    {
         "matchID": 60870,
         "matchDateTime": "2021-08-29T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -939,6 +869,76 @@
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 60871,
+        "matchDateTime": "2021-08-29T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4500,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
+        "leagueSeason": 2021,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2021-08-29T15:30:00Z",
+        "group": {
+            "groupName": "3. Spieltag",
+            "groupOrderID": 3,
+            "groupID": 38179
+        },
+        "team1": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2021-08-29T19:27:00.707",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 95700,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 95701,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 90612,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 52,
+                "goalGetterID": 16987,
+                "goalGetterName": "Roussillon",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
                 "comment": null
             }
         ],

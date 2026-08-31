@@ -1,5 +1,88 @@
 [
     {
+        "matchID": 51228,
+        "matchDateTime": "2018-12-01T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4276,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
+        "leagueSeason": 2018,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-12-01T17:30:00Z",
+        "group": {
+            "groupName": "13. Spieltag",
+            "groupOrderID": 13,
+            "groupID": 31787
+        },
+        "team1": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-12-01T20:23:28.163",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 84792,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 84791,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 73981,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 59,
+                "goalGetterID": 18327,
+                "goalGetterName": "A. Kramaric",
+                "scoringTeamId": 175,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 73982,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 74,
+                "goalGetterID": 16175,
+                "goalGetterName": "Nabil Bentaleb",
+                "scoringTeamId": 9,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 51235,
         "matchDateTime": "2018-11-30T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -393,89 +476,6 @@
                 "goalGetterName": "Ibisevic, Vedad",
                 "scoringTeamId": 54,
                 "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 51228,
-        "matchDateTime": "2018-12-01T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4276,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
-        "leagueSeason": 2018,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2018-12-01T17:30:00Z",
-        "group": {
-            "groupName": "13. Spieltag",
-            "groupOrderID": 13,
-            "groupID": 31787
-        },
-        "team1": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2018-12-01T20:23:28.163",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 84792,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 84791,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 73981,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 59,
-                "goalGetterID": 18327,
-                "goalGetterName": "A. Kramaric",
-                "scoringTeamId": 175,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 73982,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 74,
-                "goalGetterID": 16175,
-                "goalGetterName": "Nabil Bentaleb",
-                "scoringTeamId": 9,
-                "isPenalty": true,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null

@@ -1,144 +1,5 @@
 [
     {
-        "matchID": 5500,
-        "matchDateTime": "2010-02-13T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 71,
-        "leagueName": "1. Fussball-Bundesliga 2009/2010",
-        "leagueSeason": 2009,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-02-13T14:30:00Z",
-        "group": {
-            "groupName": "22. Spieltag",
-            "groupOrderID": 22,
-            "groupID": 11559
-        },
-        "team1": {
-            "teamId": 55,
-            "teamName": "Hannover 96",
-            "shortName": "Hannover",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2010-02-14T16:09:02.27",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 11421,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 5,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 11422,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 4,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeitpause"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 2524,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 11,
-                "goalGetterID": 1083,
-                "goalGetterName": "Niemeyer",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 2525,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 18,
-                "goalGetterID": 310,
-                "goalGetterName": "Naldo",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 2528,
-                "scoreTeam1": 0,
-                "scoreTeam2": 3,
-                "matchMinute": 26,
-                "goalGetterID": 1084,
-                "goalGetterName": "Pasanen",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 2530,
-                "scoreTeam1": 0,
-                "scoreTeam2": 4,
-                "matchMinute": 44,
-                "goalGetterID": 771,
-                "goalGetterName": "Hunt",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 2534,
-                "scoreTeam1": 1,
-                "scoreTeam2": 4,
-                "matchMinute": 59,
-                "goalGetterID": 877,
-                "goalGetterName": "Schulz",
-                "scoringTeamId": 55,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 2536,
-                "scoreTeam1": 1,
-                "scoreTeam2": 5,
-                "matchMinute": 68,
-                "goalGetterID": 309,
-                "goalGetterName": "Pizarro",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 29,
-            "locationCity": "Hannover",
-            "locationStadium": "AWD Arena"
-        },
-        "numberOfViewers": 44379
-    },
-    {
         "matchID": 5504,
         "matchDateTime": "2010-02-12T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -550,6 +411,145 @@
             "locationStadium": "rewirpower Stadion"
         },
         "numberOfViewers": 17104
+    },
+    {
+        "matchID": 5500,
+        "matchDateTime": "2010-02-13T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 71,
+        "leagueName": "1. Fussball-Bundesliga 2009/2010",
+        "leagueSeason": 2009,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2010-02-13T14:30:00Z",
+        "group": {
+            "groupName": "22. Spieltag",
+            "groupOrderID": 22,
+            "groupID": 11559
+        },
+        "team1": {
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2010-02-14T16:09:02.27",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 11421,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 5,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 11422,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 4,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeitpause"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 2524,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 11,
+                "goalGetterID": 1083,
+                "goalGetterName": "Niemeyer",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2525,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 18,
+                "goalGetterID": 310,
+                "goalGetterName": "Naldo",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2528,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 26,
+                "goalGetterID": 1084,
+                "goalGetterName": "Pasanen",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2530,
+                "scoreTeam1": 0,
+                "scoreTeam2": 4,
+                "matchMinute": 44,
+                "goalGetterID": 771,
+                "goalGetterName": "Hunt",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2534,
+                "scoreTeam1": 1,
+                "scoreTeam2": 4,
+                "matchMinute": 59,
+                "goalGetterID": 877,
+                "goalGetterName": "Schulz",
+                "scoringTeamId": 55,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2536,
+                "scoreTeam1": 1,
+                "scoreTeam2": 5,
+                "matchMinute": 68,
+                "goalGetterID": 309,
+                "goalGetterName": "Pizarro",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 29,
+            "locationCity": "Hannover",
+            "locationStadium": "AWD Arena"
+        },
+        "numberOfViewers": 44379
     },
     {
         "matchID": 5503,

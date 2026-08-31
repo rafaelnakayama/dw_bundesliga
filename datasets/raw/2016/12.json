@@ -1,5 +1,197 @@
 [
     {
+        "matchID": 39748,
+        "matchDateTime": "2016-11-26T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2016-11-26T14:30:00Z",
+        "group": {
+            "groupName": "12. Spieltag",
+            "groupOrderID": 12,
+            "groupID": 23844
+        },
+        "team1": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2016-11-26T17:30:18.07",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 70386,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 70389,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 55670,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 25,
+                "goalGetterID": 16213,
+                "goalGetterName": "Mahmoud Dahoud",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 55675,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 53,
+                "goalGetterID": 16216,
+                "goalGetterName": "Nadiem Amiri",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 39749,
+        "matchDateTime": "2016-11-27T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2016-11-27T14:30:00Z",
+        "group": {
+            "groupName": "12. Spieltag",
+            "groupOrderID": 12,
+            "groupID": 23844
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 118,
+            "teamName": "SV Darmstadt 98",
+            "shortName": "Darmstadt",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2016-12-02T18:42:37.137",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 70431,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 70432,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 55716,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 6,
+                "goalGetterID": 1884,
+                "goalGetterName": "Heller",
+                "scoringTeamId": 118,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 55721,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 26,
+                "goalGetterID": 14262,
+                "goalGetterName": "Kolasinac",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 55724,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 61,
+                "goalGetterID": 12591,
+                "goalGetterName": " Maxim Choupo-Moting ",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 55725,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 90,
+                "goalGetterID": 9096,
+                "goalGetterName": "Allesandro Sch\u00f6pf",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 39755,
         "matchDateTime": "2016-11-25T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -112,89 +304,6 @@
                 "goalGetterID": 16044,
                 "goalGetterName": "Marcel Sabitzer",
                 "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 39748,
-        "matchDateTime": "2016-11-26T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3005,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
-        "leagueSeason": 2016,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2016-11-26T14:30:00Z",
-        "group": {
-            "groupName": "12. Spieltag",
-            "groupOrderID": 12,
-            "groupID": 23844
-        },
-        "team1": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2016-11-26T17:30:18.07",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 70386,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 70389,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 55670,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 25,
-                "goalGetterID": 16213,
-                "goalGetterName": "Mahmoud Dahoud",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 55675,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 53,
-                "goalGetterID": 16216,
-                "goalGetterName": "Nadiem Amiri",
-                "scoringTeamId": 175,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -639,115 +748,6 @@
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": ""
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 39749,
-        "matchDateTime": "2016-11-27T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3005,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
-        "leagueSeason": 2016,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2016-11-27T14:30:00Z",
-        "group": {
-            "groupName": "12. Spieltag",
-            "groupOrderID": 12,
-            "groupID": 23844
-        },
-        "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 118,
-            "teamName": "SV Darmstadt 98",
-            "shortName": "Darmstadt",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2016-12-02T18:42:37.137",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 70431,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 70432,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 55716,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 6,
-                "goalGetterID": 1884,
-                "goalGetterName": "Heller",
-                "scoringTeamId": 118,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 55721,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 26,
-                "goalGetterID": 14262,
-                "goalGetterName": "Kolasinac",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 55724,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 61,
-                "goalGetterID": 12591,
-                "goalGetterName": " Maxim Choupo-Moting ",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 55725,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 90,
-                "goalGetterID": 9096,
-                "goalGetterName": "Allesandro Sch\u00f6pf",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
             }
         ],
         "location": null,

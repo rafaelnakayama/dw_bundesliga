@@ -1,50 +1,50 @@
 [
     {
-        "matchID": 10052,
-        "matchDateTime": "2010-10-03T17:30:00",
+        "matchID": 10057,
+        "matchDateTime": "2010-10-02T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 159,
         "leagueName": "1. Fussball-Bundesliga 2010/2011",
         "leagueSeason": 2010,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-10-03T15:30:00Z",
+        "matchDateTimeUTC": "2010-10-02T13:30:00Z",
         "group": {
             "groupName": "7. Spieltag",
             "groupOrderID": 7,
             "groupID": 12181
         },
         "team1": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2010-10-03T19:33:12.867",
+        "lastUpdateDateTime": "2010-10-02T22:17:01.017",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 15003,
+                "resultID": 14919,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 2,
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 15004,
+                "resultID": 14920,
                 "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
@@ -53,52 +53,26 @@
         ],
         "goals": [
             {
-                "goalID": 3798,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 16,
-                "goalGetterID": 1112,
-                "goalGetterName": "Helmes",
-                "scoringTeamId": 6,
+                "goalID": 3715,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 26,
+                "goalGetterID": 1518,
+                "goalGetterName": "Kahlenberg",
+                "scoringTeamId": 131,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": ""
             },
             {
-                "goalID": 3801,
+                "goalID": 3727,
                 "scoreTeam1": 1,
                 "scoreTeam2": 1,
-                "matchMinute": 53,
-                "goalGetterID": 1491,
-                "goalGetterName": "Almeida",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 3802,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 62,
-                "goalGetterID": 919,
-                "goalGetterName": "Marin",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 3803,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 78,
-                "goalGetterID": 68,
-                "goalGetterName": "Derdiyok",
-                "scoringTeamId": 6,
+                "matchMinute": 65,
+                "goalGetterID": 1519,
+                "goalGetterName": "Marx",
+                "scoringTeamId": 87,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -106,11 +80,11 @@
             }
         ],
         "location": {
-            "locationID": 28,
-            "locationCity": "Leverkusen",
-            "locationStadium": "BayArena"
+            "locationID": 32,
+            "locationCity": "M\u00f6nchengladbach",
+            "locationStadium": "Borussia Park"
         },
-        "numberOfViewers": 30000
+        "numberOfViewers": 40423
     },
     {
         "matchID": 10059,
@@ -424,93 +398,6 @@
             "locationStadium": "Bruchwegstadion"
         },
         "numberOfViewers": 20100
-    },
-    {
-        "matchID": 10057,
-        "matchDateTime": "2010-10-02T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 159,
-        "leagueName": "1. Fussball-Bundesliga 2010/2011",
-        "leagueSeason": 2010,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-10-02T13:30:00Z",
-        "group": {
-            "groupName": "7. Spieltag",
-            "groupOrderID": 7,
-            "groupID": 12181
-        },
-        "team1": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2010-10-02T22:17:01.017",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 14919,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 14920,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 3715,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 26,
-                "goalGetterID": 1518,
-                "goalGetterName": "Kahlenberg",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 3727,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 65,
-                "goalGetterID": 1519,
-                "goalGetterName": "Marx",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 32,
-            "locationCity": "M\u00f6nchengladbach",
-            "locationStadium": "Borussia Park"
-        },
-        "numberOfViewers": 40423
     },
     {
         "matchID": 10058,
@@ -837,6 +724,119 @@
             "locationStadium": "Mercedes Benz Arena "
         },
         "numberOfViewers": 37000
+    },
+    {
+        "matchID": 10052,
+        "matchDateTime": "2010-10-03T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 159,
+        "leagueName": "1. Fussball-Bundesliga 2010/2011",
+        "leagueSeason": 2010,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2010-10-03T15:30:00Z",
+        "group": {
+            "groupName": "7. Spieltag",
+            "groupOrderID": 7,
+            "groupID": 12181
+        },
+        "team1": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2010-10-03T19:33:12.867",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 15003,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 15004,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 3798,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 16,
+                "goalGetterID": 1112,
+                "goalGetterName": "Helmes",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 3801,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 53,
+                "goalGetterID": 1491,
+                "goalGetterName": "Almeida",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 3802,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 62,
+                "goalGetterID": 919,
+                "goalGetterName": "Marin",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 3803,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 78,
+                "goalGetterID": 68,
+                "goalGetterName": "Derdiyok",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 28,
+            "locationCity": "Leverkusen",
+            "locationStadium": "BayArena"
+        },
+        "numberOfViewers": 30000
     },
     {
         "matchID": 10053,

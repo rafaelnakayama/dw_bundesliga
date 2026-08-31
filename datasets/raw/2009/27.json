@@ -1,6 +1,6 @@
 [
     {
-        "matchID": 5549,
+        "matchID": 5546,
         "matchDateTime": "2010-03-20T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 71,
@@ -14,26 +14,26 @@
             "groupID": 11564
         },
         "team1": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2010-03-21T19:19:51.01",
+        "lastUpdateDateTime": "2010-03-21T19:19:50.723",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 11811,
+                "resultID": 11818,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 1,
+                "pointsTeam1": 2,
                 "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
@@ -41,7 +41,7 @@
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 11820,
+                "resultID": 11819,
                 "resultName": "Halbzeitergebnis",
                 "pointsTeam1": 1,
                 "pointsTeam2": 0,
@@ -255,62 +255,6 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 5546,
-        "matchDateTime": "2010-03-20T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 71,
-        "leagueName": "1. Fussball-Bundesliga 2009/2010",
-        "leagueSeason": 2009,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-03-20T14:30:00Z",
-        "group": {
-            "groupName": "27. Spieltag",
-            "groupOrderID": 27,
-            "groupID": 11564
-        },
-        "team1": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 55,
-            "teamName": "Hannover 96",
-            "shortName": "Hannover",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2010-03-21T19:19:50.723",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 11818,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 11819,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeitpause"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 5547,
         "matchDateTime": "2010-03-20T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -356,6 +300,62 @@
                 "resultName": "Halbzeitergebnis",
                 "pointsTeam1": 0,
                 "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeitpause"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 5549,
+        "matchDateTime": "2010-03-20T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 71,
+        "leagueName": "1. Fussball-Bundesliga 2009/2010",
+        "leagueSeason": 2009,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2010-03-20T14:30:00Z",
+        "group": {
+            "groupName": "27. Spieltag",
+            "groupOrderID": 27,
+            "groupID": 11564
+        },
+        "team1": {
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2010-03-21T19:19:51.01",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 11811,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 11820,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",

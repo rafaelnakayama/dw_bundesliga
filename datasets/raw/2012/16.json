@@ -1,92 +1,5 @@
 [
     {
-        "matchID": 19846,
-        "matchDateTime": "2012-12-07T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 456,
-        "leagueName": "1. Fussball-Bundesliga 2012/2013",
-        "leagueSeason": 2012,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-12-07T19:30:00Z",
-        "group": {
-            "groupName": "16. Spieltag",
-            "groupOrderID": 16,
-            "groupID": 13156
-        },
-        "team1": {
-            "teamId": 100,
-            "teamName": "Hamburger SV",
-            "shortName": "HSV",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2012-12-10T10:05:34.387",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 32512,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 32513,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 16730,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 27,
-                "goalGetterID": 7446,
-                "goalGetterName": "Rudnevs",
-                "scoringTeamId": 100,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 16731,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 74,
-                "goalGetterID": 7446,
-                "goalGetterName": "Rudnevs",
-                "scoringTeamId": 100,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 404,
-            "locationCity": "Hamburg ",
-            "locationStadium": "Imtech Arena"
-        },
-        "numberOfViewers": 48100
-    },
-    {
         "matchID": 19840,
         "matchDateTime": "2012-12-08T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -198,6 +111,93 @@
             "locationStadium": "Mercedes-Benz-Arena"
         },
         "numberOfViewers": 55900
+    },
+    {
+        "matchID": 19846,
+        "matchDateTime": "2012-12-07T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 456,
+        "leagueName": "1. Fussball-Bundesliga 2012/2013",
+        "leagueSeason": 2012,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2012-12-07T19:30:00Z",
+        "group": {
+            "groupName": "16. Spieltag",
+            "groupOrderID": 16,
+            "groupID": 13156
+        },
+        "team1": {
+            "teamId": 100,
+            "teamName": "Hamburger SV",
+            "shortName": "HSV",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2012-12-10T10:05:34.387",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 32512,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 32513,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 16730,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 27,
+                "goalGetterID": 7446,
+                "goalGetterName": "Rudnevs",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 16731,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 74,
+                "goalGetterID": 7446,
+                "goalGetterName": "Rudnevs",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 404,
+            "locationCity": "Hamburg ",
+            "locationStadium": "Imtech Arena"
+        },
+        "numberOfViewers": 48100
     },
     {
         "matchID": 19841,

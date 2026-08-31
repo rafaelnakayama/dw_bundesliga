@@ -1,5 +1,118 @@
 [
     {
+        "matchID": 19880,
+        "matchDateTime": "2013-02-02T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 456,
+        "leagueName": "1. Fussball-Bundesliga 2012/2013",
+        "leagueSeason": 2012,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2013-02-02T14:30:00Z",
+        "group": {
+            "groupName": "20. Spieltag",
+            "groupOrderID": 20,
+            "groupID": 13160
+        },
+        "team1": {
+            "teamId": 185,
+            "teamName": "Fortuna D\u00fcsseldorf",
+            "shortName": "D\u00fcsseldorf",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Fortuna_D%C3%BCsseldorf.svg/960px-Fortuna_D%C3%BCsseldorf.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2013-02-03T20:02:18.593",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 34443,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 34444,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 17755,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 10,
+                "goalGetterID": 891,
+                "goalGetterName": "Kruse",
+                "scoringTeamId": 185,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 17762,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 37,
+                "goalGetterID": 891,
+                "goalGetterName": "Kruse",
+                "scoringTeamId": 185,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 17772,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 60,
+                "goalGetterID": 873,
+                "goalGetterName": "Gentner",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 17782,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 76,
+                "goalGetterID": 38,
+                "goalGetterName": "Fink",
+                "scoringTeamId": 185,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 167,
+            "locationCity": "D\u00fcsseldorf",
+            "locationStadium": "Esprit-Arena"
+        },
+        "numberOfViewers": 44153
+    },
+    {
         "matchID": 19881,
         "matchDateTime": "2013-02-01T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -372,119 +485,6 @@
             "locationStadium": "Coface-Arena"
         },
         "numberOfViewers": 34034
-    },
-    {
-        "matchID": 19880,
-        "matchDateTime": "2013-02-02T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 456,
-        "leagueName": "1. Fussball-Bundesliga 2012/2013",
-        "leagueSeason": 2012,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2013-02-02T14:30:00Z",
-        "group": {
-            "groupName": "20. Spieltag",
-            "groupOrderID": 20,
-            "groupID": 13160
-        },
-        "team1": {
-            "teamId": 185,
-            "teamName": "Fortuna D\u00fcsseldorf",
-            "shortName": "D\u00fcsseldorf",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Fortuna_D%C3%BCsseldorf.svg/960px-Fortuna_D%C3%BCsseldorf.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2013-02-03T20:02:18.593",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 34443,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 34444,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 17755,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 10,
-                "goalGetterID": 891,
-                "goalGetterName": "Kruse",
-                "scoringTeamId": 185,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 17762,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 37,
-                "goalGetterID": 891,
-                "goalGetterName": "Kruse",
-                "scoringTeamId": 185,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 17772,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 60,
-                "goalGetterID": 873,
-                "goalGetterName": "Gentner",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 17782,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 76,
-                "goalGetterID": 38,
-                "goalGetterName": "Fink",
-                "scoringTeamId": 185,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 167,
-            "locationCity": "D\u00fcsseldorf",
-            "locationStadium": "Esprit-Arena"
-        },
-        "numberOfViewers": 44153
     },
     {
         "matchID": 19882,

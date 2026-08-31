@@ -1,6 +1,6 @@
 [
     {
-        "matchID": 45537,
+        "matchID": 45543,
         "matchDateTime": "2017-11-18T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4153,
@@ -14,36 +14,36 @@
             "groupID": 28958
         },
         "team1": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2018-04-06T17:06:30.727",
+        "lastUpdateDateTime": "2018-04-06T17:26:33.183",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 77395,
+                "resultID": 77397,
                 "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
                 "resultDescription": "Ergebnis zur Halbzeit"
             },
             {
-                "resultID": 77400,
+                "resultID": 77399,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 1,
+                "pointsTeam1": 3,
                 "pointsTeam2": 1,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
@@ -53,38 +53,64 @@
         ],
         "goals": [
             {
-                "goalID": 62560,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 15,
-                "goalGetterID": 11758,
-                "goalGetterName": "Boateng, K.-P.",
-                "scoringTeamId": 91,
+                "goalID": 62558,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 4,
+                "goalGetterID": 11633,
+                "goalGetterName": "Gerhardt",
+                "scoringTeamId": 131,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 62584,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 91,
-                "goalGetterID": 15596,
-                "goalGetterName": "Uth",
-                "scoringTeamId": 175,
+                "goalID": 62561,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 30,
+                "goalGetterID": 1521,
+                "goalGetterName": "Malli",
+                "scoringTeamId": 131,
                 "isPenalty": false,
                 "isOwnGoal": false,
-                "isOvertime": true,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 62581,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 69,
+                "goalGetterID": 16339,
+                "goalGetterName": "Kapustka",
+                "scoringTeamId": 112,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 62582,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 70,
+                "goalGetterID": 1521,
+                "goalGetterName": "Malli",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
                 "comment": null
             }
         ],
         "location": {
-            "locationID": 511,
-            "locationCity": "Sinsheim",
-            "locationStadium": "WIRSOL Rhein-Neckar-Arena"
+            "locationID": 20,
+            "locationCity": "Wolfsburg",
+            "locationStadium": "Volkswagen Arena "
         },
-        "numberOfViewers": 30150
+        "numberOfViewers": 23744
     },
     {
         "matchID": 45544,
@@ -287,6 +313,93 @@
         "numberOfViewers": 75000
     },
     {
+        "matchID": 45537,
+        "matchDateTime": "2017-11-18T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4153,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
+        "leagueSeason": 2017,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2017-11-18T14:30:00Z",
+        "group": {
+            "groupName": "12. Spieltag",
+            "groupOrderID": 12,
+            "groupID": 28958
+        },
+        "team1": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-04-06T17:06:30.727",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 77395,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 77400,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 62560,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 15,
+                "goalGetterID": 11758,
+                "goalGetterName": "Boateng, K.-P.",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 62584,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 91,
+                "goalGetterID": 15596,
+                "goalGetterName": "Uth",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 511,
+            "locationCity": "Sinsheim",
+            "locationStadium": "WIRSOL Rhein-Neckar-Arena"
+        },
+        "numberOfViewers": 30150
+    },
+    {
         "matchID": 45541,
         "matchDateTime": "2017-11-18T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -472,119 +585,6 @@
             "locationStadium": "Opel Arena"
         },
         "numberOfViewers": 30473
-    },
-    {
-        "matchID": 45543,
-        "matchDateTime": "2017-11-18T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4153,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
-        "leagueSeason": 2017,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2017-11-18T14:30:00Z",
-        "group": {
-            "groupName": "12. Spieltag",
-            "groupOrderID": 12,
-            "groupID": 28958
-        },
-        "team1": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2018-04-06T17:26:33.183",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 77397,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 77399,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 62558,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 4,
-                "goalGetterID": 11633,
-                "goalGetterName": "Gerhardt",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 62561,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 30,
-                "goalGetterID": 1521,
-                "goalGetterName": "Malli",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 62581,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 69,
-                "goalGetterID": 16339,
-                "goalGetterName": "Kapustka",
-                "scoringTeamId": 112,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 62582,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 70,
-                "goalGetterID": 1521,
-                "goalGetterName": "Malli",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 20,
-            "locationCity": "Wolfsburg",
-            "locationStadium": "Volkswagen Arena "
-        },
-        "numberOfViewers": 23744
     },
     {
         "matchID": 45538,

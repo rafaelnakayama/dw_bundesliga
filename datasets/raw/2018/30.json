@@ -1,57 +1,149 @@
 [
     {
-        "matchID": 51385,
-        "matchDateTime": "2019-04-21T18:00:00",
+        "matchID": 51382,
+        "matchDateTime": "2019-04-20T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4276,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
         "leagueSeason": 2018,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2019-04-21T16:00:00Z",
+        "matchDateTimeUTC": "2019-04-20T18:30:00Z",
         "group": {
             "groupName": "30. Spieltag",
             "groupOrderID": 30,
             "groupID": 31804
         },
         "team1": {
-            "teamId": 54,
-            "teamName": "Hertha BSC",
-            "shortName": "Hertha",
-            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 55,
-            "teamName": "Hannover 96",
-            "shortName": "Hannover",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2019-04-21T19:59:29.507",
+        "lastUpdateDateTime": "2019-04-20T22:20:57.353",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 86879,
+                "resultID": 86861,
                 "resultName": "Halbzeit",
                 "pointsTeam1": 0,
-                "pointsTeam2": 0,
+                "pointsTeam2": 2,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
                 "resultDescription": "Zwischenstand zur Halbzeit"
             },
             {
-                "resultID": 86878,
+                "resultID": 86860,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
+                "pointsTeam1": 2,
+                "pointsTeam2": 5,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             }
         ],
-        "goals": [],
+        "goals": [
+            {
+                "goalID": 77135,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 25,
+                "goalGetterID": 7180,
+                "goalGetterName": "Belfodil",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 77136,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 45,
+                "goalGetterID": 18327,
+                "goalGetterName": "A. Kramaric",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 77137,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 60,
+                "goalGetterID": 14694,
+                "goalGetterName": "Caligiuri, Daniel",
+                "scoringTeamId": 9,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 77138,
+                "scoreTeam1": 1,
+                "scoreTeam2": 3,
+                "matchMinute": 65,
+                "goalGetterID": 15841,
+                "goalGetterName": "Szalai, Adam",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 77139,
+                "scoreTeam1": 1,
+                "scoreTeam2": 4,
+                "matchMinute": 73,
+                "goalGetterID": 16216,
+                "goalGetterName": "Nadiem Amiri",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 77140,
+                "scoreTeam1": 1,
+                "scoreTeam2": 5,
+                "matchMinute": 80,
+                "goalGetterID": 7180,
+                "goalGetterName": "Belfodil",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 77141,
+                "scoreTeam1": 2,
+                "scoreTeam2": 5,
+                "matchMinute": 89,
+                "goalGetterID": 15352,
+                "goalGetterName": "Burgstaller, Guido",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
         "location": null,
         "numberOfViewers": null
     },
@@ -553,154 +645,6 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 51382,
-        "matchDateTime": "2019-04-20T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4276,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
-        "leagueSeason": 2018,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2019-04-20T18:30:00Z",
-        "group": {
-            "groupName": "30. Spieltag",
-            "groupOrderID": 30,
-            "groupID": 31804
-        },
-        "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2019-04-20T22:20:57.353",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 86861,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 86860,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 5,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 77135,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 25,
-                "goalGetterID": 7180,
-                "goalGetterName": "Belfodil",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 77136,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 45,
-                "goalGetterID": 18327,
-                "goalGetterName": "A. Kramaric",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 77137,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 60,
-                "goalGetterID": 14694,
-                "goalGetterName": "Caligiuri, Daniel",
-                "scoringTeamId": 9,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 77138,
-                "scoreTeam1": 1,
-                "scoreTeam2": 3,
-                "matchMinute": 65,
-                "goalGetterID": 15841,
-                "goalGetterName": "Szalai, Adam",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 77139,
-                "scoreTeam1": 1,
-                "scoreTeam2": 4,
-                "matchMinute": 73,
-                "goalGetterID": 16216,
-                "goalGetterName": "Nadiem Amiri",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 77140,
-                "scoreTeam1": 1,
-                "scoreTeam2": 5,
-                "matchMinute": 80,
-                "goalGetterID": 7180,
-                "goalGetterName": "Belfodil",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 77141,
-                "scoreTeam1": 2,
-                "scoreTeam2": 5,
-                "matchMinute": 89,
-                "goalGetterID": 15352,
-                "goalGetterName": "Burgstaller, Guido",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 51387,
         "matchDateTime": "2019-04-21T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -806,6 +750,62 @@
                 "comment": null
             }
         ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 51385,
+        "matchDateTime": "2019-04-21T18:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4276,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
+        "leagueSeason": 2018,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2019-04-21T16:00:00Z",
+        "group": {
+            "groupName": "30. Spieltag",
+            "groupOrderID": 30,
+            "groupID": 31804
+        },
+        "team1": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2019-04-21T19:59:29.507",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 86879,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 86878,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [],
         "location": null,
         "numberOfViewers": null
     },

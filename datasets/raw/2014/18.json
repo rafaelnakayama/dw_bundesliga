@@ -1,5 +1,79 @@
 [
     {
+        "matchID": 28146,
+        "matchDateTime": "2015-01-31T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 720,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2014/2015",
+        "leagueSeason": 2014,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2015-01-31T14:30:00Z",
+        "group": {
+            "groupName": "18. Spieltag",
+            "groupOrderID": 18,
+            "groupID": 14580
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2015-05-19T10:48:09.917",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 50582,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 50583,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 34495,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 32,
+                "goalGetterID": 1363,
+                "goalGetterName": "H\u00f6ger",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 986,
+            "locationCity": "Schalke",
+            "locationStadium": ""
+        },
+        "numberOfViewers": null
+    },
+    {
         "matchID": 28148,
         "matchDateTime": "2015-01-30T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -121,80 +195,6 @@
         "location": {
             "locationID": 487,
             "locationCity": "Wolfsburg",
-            "locationStadium": ""
-        },
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 28146,
-        "matchDateTime": "2015-01-31T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 720,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2014/2015",
-        "leagueSeason": 2014,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2015-01-31T14:30:00Z",
-        "group": {
-            "groupName": "18. Spieltag",
-            "groupOrderID": 18,
-            "groupID": 14580
-        },
-        "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 55,
-            "teamName": "Hannover 96",
-            "shortName": "Hannover",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2015-05-19T10:48:09.917",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 50582,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 50583,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 34495,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 32,
-                "goalGetterID": 1363,
-                "goalGetterName": "H\u00f6ger",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 986,
-            "locationCity": "Schalke",
             "locationStadium": ""
         },
         "numberOfViewers": null

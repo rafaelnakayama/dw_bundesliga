@@ -1,6 +1,6 @@
 [
     {
-        "matchID": 39889,
+        "matchID": 39885,
         "matchDateTime": "2017-04-05T20:00:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 3005,
@@ -14,37 +14,37 @@
             "groupID": 23859
         },
         "team1": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamId": 118,
+            "teamName": "SV Darmstadt 98",
+            "shortName": "Darmstadt",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 171,
-            "teamName": "FC Ingolstadt 04",
-            "shortName": "Ingolstadt",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/5/55/FC-Ingolstadt_logo.svg/960px-FC-Ingolstadt_logo.svg.png",
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2017-04-05T21:53:09.273",
+        "lastUpdateDateTime": "2017-04-05T21:53:10.29",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 73920,
+                "resultID": 73919,
                 "resultName": "Halbzeitergebnis",
                 "pointsTeam1": 0,
-                "pointsTeam2": 2,
+                "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
                 "resultDescription": "Ergebnis zur Halbzeit"
             },
             {
-                "resultID": 73926,
+                "resultID": 73924,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 3,
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
@@ -53,77 +53,38 @@
         ],
         "goals": [
             {
-                "goalID": 58623,
-                "scoreTeam1": 2,
-                "scoreTeam2": 3,
-                "matchMinute": null,
-                "goalGetterID": 14699,
-                "goalGetterName": "  Halil Altintop",
-                "scoringTeamId": 95,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 58610,
+                "goalID": 58608,
                 "scoreTeam1": 0,
                 "scoreTeam2": 1,
-                "matchMinute": 24,
-                "goalGetterID": 0,
-                "goalGetterName": "",
-                "scoringTeamId": 171,
+                "matchMinute": 15,
+                "goalGetterID": 15031,
+                "goalGetterName": "Julian Brandt",
+                "scoringTeamId": 6,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
-                "comment": "Sonny Kittel"
+                "comment": null
             },
             {
-                "goalID": 58611,
+                "goalID": 58617,
                 "scoreTeam1": 0,
                 "scoreTeam2": 2,
-                "matchMinute": 35,
-                "goalGetterID": 16170,
-                "goalGetterName": "Almog Cohen",
-                "scoringTeamId": 171,
+                "matchMinute": 56,
+                "goalGetterID": 16260,
+                "goalGetterName": "Kevin Volland\r\n",
+                "scoringTeamId": 6,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
-            },
-            {
-                "goalID": 58618,
-                "scoreTeam1": 0,
-                "scoreTeam2": 3,
-                "matchMinute": 67,
-                "goalGetterID": 16170,
-                "goalGetterName": "Almog Cohen",
-                "scoringTeamId": 171,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 58620,
-                "scoreTeam1": 1,
-                "scoreTeam2": 3,
-                "matchMinute": 76,
-                "goalGetterID": 1925,
-                "goalGetterName": "Verhaegh",
-                "scoringTeamId": 95,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": "Paul Verhaegh"
             }
         ],
         "location": {
-            "locationID": 1029,
-            "locationCity": "Augsburg",
-            "locationStadium": "WWK Arena"
+            "locationID": 1080,
+            "locationCity": "Darmstadt",
+            "locationStadium": "Jonathan-Heimes-Stadion am B\u00f6llenfalltor"
         },
-        "numberOfViewers": 28000
+        "numberOfViewers": 15500
     },
     {
         "matchID": 39883,
@@ -674,93 +635,6 @@
         "numberOfViewers": 24000
     },
     {
-        "matchID": 39885,
-        "matchDateTime": "2017-04-05T20:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3005,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
-        "leagueSeason": 2016,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2017-04-05T18:00:00Z",
-        "group": {
-            "groupName": "27. Spieltag",
-            "groupOrderID": 27,
-            "groupID": 23859
-        },
-        "team1": {
-            "teamId": 118,
-            "teamName": "SV Darmstadt 98",
-            "shortName": "Darmstadt",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2017-04-05T21:53:10.29",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 73919,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 73924,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 58608,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 15,
-                "goalGetterID": 15031,
-                "goalGetterName": "Julian Brandt",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 58617,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 56,
-                "goalGetterID": 16260,
-                "goalGetterName": "Kevin Volland\r\n",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 1080,
-            "locationCity": "Darmstadt",
-            "locationStadium": "Jonathan-Heimes-Stadion am B\u00f6llenfalltor"
-        },
-        "numberOfViewers": 15500
-    },
-    {
         "matchID": 39887,
         "matchDateTime": "2017-04-05T20:00:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -833,5 +707,131 @@
             "locationStadium": "Borussia-Park"
         },
         "numberOfViewers": 43000
+    },
+    {
+        "matchID": 39889,
+        "matchDateTime": "2017-04-05T20:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2017-04-05T18:00:00Z",
+        "group": {
+            "groupName": "27. Spieltag",
+            "groupOrderID": 27,
+            "groupID": 23859
+        },
+        "team1": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 171,
+            "teamName": "FC Ingolstadt 04",
+            "shortName": "Ingolstadt",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/5/55/FC-Ingolstadt_logo.svg/960px-FC-Ingolstadt_logo.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2017-04-05T21:53:09.273",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 73920,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 73926,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 3,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 58623,
+                "scoreTeam1": 2,
+                "scoreTeam2": 3,
+                "matchMinute": null,
+                "goalGetterID": 14699,
+                "goalGetterName": "  Halil Altintop",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 58610,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 24,
+                "goalGetterID": 0,
+                "goalGetterName": "",
+                "scoringTeamId": 171,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": "Sonny Kittel"
+            },
+            {
+                "goalID": 58611,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 35,
+                "goalGetterID": 16170,
+                "goalGetterName": "Almog Cohen",
+                "scoringTeamId": 171,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 58618,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 67,
+                "goalGetterID": 16170,
+                "goalGetterName": "Almog Cohen",
+                "scoringTeamId": 171,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 58620,
+                "scoreTeam1": 1,
+                "scoreTeam2": 3,
+                "matchMinute": 76,
+                "goalGetterID": 1925,
+                "goalGetterName": "Verhaegh",
+                "scoringTeamId": 95,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": "Paul Verhaegh"
+            }
+        ],
+        "location": {
+            "locationID": 1029,
+            "locationCity": "Augsburg",
+            "locationStadium": "WWK Arena"
+        },
+        "numberOfViewers": 28000
     }
 ]

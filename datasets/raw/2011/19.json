@@ -1,127 +1,5 @@
 [
     {
-        "matchID": 14171,
-        "matchDateTime": "2012-01-28T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 307,
-        "leagueName": "1. Fussball-Bundesliga 2011/2012",
-        "leagueSeason": 2011,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-01-28T17:30:00Z",
-        "group": {
-            "groupName": "19. Spieltag",
-            "groupOrderID": 19,
-            "groupID": 12592
-        },
-        "team1": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2012-01-30T10:27:37.477",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 25461,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 4,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 25413,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit (bitte laufend eintragen. Waehrend laufender erster Halbzeit immer Halbzeit- und Endergebnis eintragen!)"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 8674,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 4,
-                "goalGetterID": 98,
-                "goalGetterName": "Podolski",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 8676,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 60,
-                "goalGetterID": 1032,
-                "goalGetterName": "Marica",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 8677,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 72,
-                "goalGetterID": 1032,
-                "goalGetterName": "Marica",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 8679,
-                "scoreTeam1": 1,
-                "scoreTeam2": 3,
-                "matchMinute": 78,
-                "goalGetterID": 1207,
-                "goalGetterName": "Huntelaar",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 8721,
-                "scoreTeam1": 1,
-                "scoreTeam2": 4,
-                "matchMinute": 82,
-                "goalGetterID": 1363,
-                "goalGetterName": "H\u00f6ger",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 14173,
         "matchDateTime": "2012-01-27T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -670,6 +548,128 @@
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": ""
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 14171,
+        "matchDateTime": "2012-01-28T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 307,
+        "leagueName": "1. Fussball-Bundesliga 2011/2012",
+        "leagueSeason": 2011,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2012-01-28T17:30:00Z",
+        "group": {
+            "groupName": "19. Spieltag",
+            "groupOrderID": 19,
+            "groupID": 12592
+        },
+        "team1": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2012-01-30T10:27:37.477",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 25461,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 4,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 25413,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit (bitte laufend eintragen. Waehrend laufender erster Halbzeit immer Halbzeit- und Endergebnis eintragen!)"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 8674,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 4,
+                "goalGetterID": 98,
+                "goalGetterName": "Podolski",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 8676,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 60,
+                "goalGetterID": 1032,
+                "goalGetterName": "Marica",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 8677,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 72,
+                "goalGetterID": 1032,
+                "goalGetterName": "Marica",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 8679,
+                "scoreTeam1": 1,
+                "scoreTeam2": 3,
+                "matchMinute": 78,
+                "goalGetterID": 1207,
+                "goalGetterName": "Huntelaar",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 8721,
+                "scoreTeam1": 1,
+                "scoreTeam2": 4,
+                "matchMinute": 82,
+                "goalGetterID": 1363,
+                "goalGetterName": "H\u00f6ger",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
             }
         ],
         "location": null,

@@ -1,5 +1,114 @@
 [
     {
+        "matchID": 55350,
+        "matchDateTime": "2019-10-26T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2019-10-26T16:30:00Z",
+        "group": {
+            "groupName": "9. Spieltag",
+            "groupOrderID": 9,
+            "groupID": 34208
+        },
+        "team1": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2019-10-26T20:24:47.613",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 90045,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 90044,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 81335,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 4,
+                "goalGetterID": 2206,
+                "goalGetterName": "Toprak",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 81336,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 40,
+                "goalGetterID": 16434,
+                "goalGetterName": "Rashica",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 81337,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 48,
+                "goalGetterID": 14769,
+                "goalGetterName": "Klaassen",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 81338,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 58,
+                "goalGetterID": 16277,
+                "goalGetterName": "Alario",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 55354,
         "matchDateTime": "2019-10-25T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -569,115 +678,6 @@
                 "goalGetterID": 16290,
                 "goalGetterName": "Schonlau",
                 "scoringTeamId": 31,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 55350,
-        "matchDateTime": "2019-10-26T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4362,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
-        "leagueSeason": 2019,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2019-10-26T16:30:00Z",
-        "group": {
-            "groupName": "9. Spieltag",
-            "groupOrderID": 9,
-            "groupID": 34208
-        },
-        "team1": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2019-10-26T20:24:47.613",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 90045,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 90044,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 81335,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 4,
-                "goalGetterID": 2206,
-                "goalGetterName": "Toprak",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": true,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 81336,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 40,
-                "goalGetterID": 16434,
-                "goalGetterName": "Rashica",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 81337,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 48,
-                "goalGetterID": 14769,
-                "goalGetterName": "Klaassen",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 81338,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 58,
-                "goalGetterID": 16277,
-                "goalGetterName": "Alario",
-                "scoringTeamId": 6,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

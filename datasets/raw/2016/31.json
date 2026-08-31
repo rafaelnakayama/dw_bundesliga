@@ -1,105 +1,5 @@
 [
     {
-        "matchID": 39925,
-        "matchDateTime": "2017-04-29T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3005,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
-        "leagueSeason": 2016,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2017-04-29T13:30:00Z",
-        "group": {
-            "groupName": "31. Spieltag",
-            "groupOrderID": 31,
-            "groupID": 23863
-        },
-        "team1": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2017-04-30T15:52:31.67",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 74495,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 74501,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 59083,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 31,
-                "goalGetterID": 7445,
-                "goalGetterName": "Lars Stindl",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 59085,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 46,
-                "goalGetterID": 3425,
-                "goalGetterName": "Schulz",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": "Nico Schulz"
-            },
-            {
-                "goalID": 59087,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 89,
-                "goalGetterID": 16034,
-                "goalGetterName": "Yoshinori Muto",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 1103,
-            "locationCity": "Mainz",
-            "locationStadium": "Opel Arena"
-        },
-        "numberOfViewers": 34000
-    },
-    {
         "matchID": 39926,
         "matchDateTime": "2017-04-28T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -531,6 +431,106 @@
             "locationStadium": "Jonathan-Heimes-Stadion am B\u00f6llenfalltor"
         },
         "numberOfViewers": 17400
+    },
+    {
+        "matchID": 39925,
+        "matchDateTime": "2017-04-29T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2017-04-29T13:30:00Z",
+        "group": {
+            "groupName": "31. Spieltag",
+            "groupOrderID": 31,
+            "groupID": 23863
+        },
+        "team1": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2017-04-30T15:52:31.67",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 74495,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 74501,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 59083,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 31,
+                "goalGetterID": 7445,
+                "goalGetterName": "Lars Stindl",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 59085,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 46,
+                "goalGetterID": 3425,
+                "goalGetterName": "Schulz",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": "Nico Schulz"
+            },
+            {
+                "goalID": 59087,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 89,
+                "goalGetterID": 16034,
+                "goalGetterName": "Yoshinori Muto",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 1103,
+            "locationCity": "Mainz",
+            "locationStadium": "Opel Arena"
+        },
+        "numberOfViewers": 34000
     },
     {
         "matchID": 39923,

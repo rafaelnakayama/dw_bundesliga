@@ -1,50 +1,50 @@
 [
     {
-        "matchID": 19760,
-        "matchDateTime": "2012-10-07T17:30:00",
+        "matchID": 19757,
+        "matchDateTime": "2012-10-06T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 456,
         "leagueName": "1. Fussball-Bundesliga 2012/2013",
         "leagueSeason": 2012,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-10-07T15:30:00Z",
+        "matchDateTimeUTC": "2012-10-06T13:30:00Z",
         "group": {
             "groupName": "7. Spieltag",
             "groupOrderID": 7,
             "groupID": 13147
         },
         "team1": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2012-12-06T19:29:27.573",
+        "lastUpdateDateTime": "2012-10-06T16:51:15.763",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 30574,
+                "resultID": 30510,
                 "resultName": "Endergebnis",
                 "pointsTeam1": 2,
-                "pointsTeam2": 2,
+                "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 30575,
+                "resultID": 30511,
                 "resultName": "Halbzeit",
                 "pointsTeam1": 1,
-                "pointsTeam2": 1,
+                "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
@@ -53,64 +53,38 @@
         ],
         "goals": [
             {
-                "goalID": 14395,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 12,
-                "goalGetterID": 114,
-                "goalGetterName": "Kie\u00dfling",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 14396,
+                "goalID": 14315,
                 "scoreTeam1": 1,
-                "scoreTeam2": 1,
+                "scoreTeam2": 0,
                 "matchMinute": 19,
-                "goalGetterID": 803,
-                "goalGetterName": "Ibisevic",
-                "scoringTeamId": 16,
-                "isPenalty": true,
+                "goalGetterID": 513,
+                "goalGetterName": "Ribery",
+                "scoringTeamId": 40,
+                "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 14398,
+                "goalID": 14331,
                 "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 55,
-                "goalGetterID": 803,
-                "goalGetterName": "Ibisevic",
-                "scoringTeamId": 16,
+                "scoreTeam2": 0,
+                "matchMinute": 47,
+                "goalGetterID": 513,
+                "goalGetterName": "Ribery",
+                "scoringTeamId": 40,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 14399,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 59,
-                "goalGetterID": 114,
-                "goalGetterName": "Kie\u00dfling",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
+                "comment": null
             }
         ],
         "location": {
-            "locationID": 654,
-            "locationCity": "Stadt",
-            "locationStadium": "Mercedes-Benz-Arena"
+            "locationID": 653,
+            "locationCity": "",
+            "locationStadium": "Allianz Arena"
         },
-        "numberOfViewers": 47400
+        "numberOfViewers": 71000
     },
     {
         "matchID": 19764,
@@ -224,93 +198,6 @@
             "locationStadium": ""
         },
         "numberOfViewers": null
-    },
-    {
-        "matchID": 19757,
-        "matchDateTime": "2012-10-06T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 456,
-        "leagueName": "1. Fussball-Bundesliga 2012/2013",
-        "leagueSeason": 2012,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-10-06T13:30:00Z",
-        "group": {
-            "groupName": "7. Spieltag",
-            "groupOrderID": 7,
-            "groupID": 13147
-        },
-        "team1": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2012-10-06T16:51:15.763",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 30510,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 30511,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 14315,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 19,
-                "goalGetterID": 513,
-                "goalGetterName": "Ribery",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 14331,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 47,
-                "goalGetterID": 513,
-                "goalGetterName": "Ribery",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 653,
-            "locationCity": "",
-            "locationStadium": "Allianz Arena"
-        },
-        "numberOfViewers": 71000
     },
     {
         "matchID": 19758,
@@ -742,6 +629,119 @@
             "locationStadium": "Stadion im Borussia-Park"
         },
         "numberOfViewers": 51193
+    },
+    {
+        "matchID": 19760,
+        "matchDateTime": "2012-10-07T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 456,
+        "leagueName": "1. Fussball-Bundesliga 2012/2013",
+        "leagueSeason": 2012,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2012-10-07T15:30:00Z",
+        "group": {
+            "groupName": "7. Spieltag",
+            "groupOrderID": 7,
+            "groupID": 13147
+        },
+        "team1": {
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2012-12-06T19:29:27.573",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 30574,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 30575,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 14395,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 12,
+                "goalGetterID": 114,
+                "goalGetterName": "Kie\u00dfling",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 14396,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 19,
+                "goalGetterID": 803,
+                "goalGetterName": "Ibisevic",
+                "scoringTeamId": 16,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 14398,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 55,
+                "goalGetterID": 803,
+                "goalGetterName": "Ibisevic",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 14399,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 59,
+                "goalGetterID": 114,
+                "goalGetterName": "Kie\u00dfling",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 654,
+            "locationCity": "Stadt",
+            "locationStadium": "Mercedes-Benz-Arena"
+        },
+        "numberOfViewers": 47400
     },
     {
         "matchID": 19761,

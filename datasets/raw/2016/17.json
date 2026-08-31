@@ -1,5 +1,75 @@
 [
     {
+        "matchID": 39794,
+        "matchDateTime": "2017-01-22T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2017-01-22T16:30:00Z",
+        "group": {
+            "groupName": "17. Spieltag",
+            "groupOrderID": 17,
+            "groupID": 23849
+        },
+        "team1": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2017-01-22T20:45:46.697",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 71833,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 71840,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 56661,
+                "scoreTeam1": 0,
+                "scoreTeam2": 0,
+                "matchMinute": null,
+                "goalGetterID": 0,
+                "goalGetterName": "",
+                "scoringTeamId": null,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 39799,
         "matchDateTime": "2017-01-20T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -690,76 +760,6 @@
                 "goalGetterID": 15030,
                 "goalGetterName": "Hakan Calhanoglu",
                 "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 39794,
-        "matchDateTime": "2017-01-22T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3005,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
-        "leagueSeason": 2016,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2017-01-22T16:30:00Z",
-        "group": {
-            "groupName": "17. Spieltag",
-            "groupOrderID": 17,
-            "groupID": 23849
-        },
-        "team1": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2017-01-22T20:45:46.697",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 71833,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 71840,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 56661,
-                "scoreTeam1": 0,
-                "scoreTeam2": 0,
-                "matchMinute": null,
-                "goalGetterID": 0,
-                "goalGetterName": "",
-                "scoringTeamId": null,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

@@ -1,5 +1,92 @@
 [
     {
+        "matchID": 19826,
+        "matchDateTime": "2012-11-28T20:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 456,
+        "leagueName": "1. Fussball-Bundesliga 2012/2013",
+        "leagueSeason": 2012,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2012-11-28T19:00:00Z",
+        "group": {
+            "groupName": "14. Spieltag",
+            "groupOrderID": 14,
+            "groupID": 13154
+        },
+        "team1": {
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2012-11-29T09:14:33.093",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 32253,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 32222,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 16374,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 12,
+                "goalGetterID": 514,
+                "goalGetterName": "T. M\u00fcller",
+                "scoringTeamId": 40,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 16398,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 79,
+                "goalGetterID": 1579,
+                "goalGetterName": "Tymoshchuk",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 516,
+            "locationCity": "Freiburg",
+            "locationStadium": "MAGE SOLAR Stadion"
+        },
+        "numberOfViewers": 24000
+    },
+    {
         "matchID": 19820,
         "matchDateTime": "2012-11-27T20:00:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -711,93 +798,6 @@
             "locationStadium": "Weserstadion"
         },
         "numberOfViewers": 37000
-    },
-    {
-        "matchID": 19826,
-        "matchDateTime": "2012-11-28T20:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 456,
-        "leagueName": "1. Fussball-Bundesliga 2012/2013",
-        "leagueSeason": 2012,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-11-28T19:00:00Z",
-        "group": {
-            "groupName": "14. Spieltag",
-            "groupOrderID": 14,
-            "groupID": 13154
-        },
-        "team1": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2012-11-29T09:14:33.093",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 32253,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 32222,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 16374,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 12,
-                "goalGetterID": 514,
-                "goalGetterName": "T. M\u00fcller",
-                "scoringTeamId": 40,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 16398,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 79,
-                "goalGetterID": 1579,
-                "goalGetterName": "Tymoshchuk",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 516,
-            "locationCity": "Freiburg",
-            "locationStadium": "MAGE SOLAR Stadion"
-        },
-        "numberOfViewers": 24000
     },
     {
         "matchID": 19825,

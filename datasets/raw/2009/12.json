@@ -1,5 +1,118 @@
 [
     {
+        "matchID": 5409,
+        "matchDateTime": "2009-11-06T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 71,
+        "leagueName": "1. Fussball-Bundesliga 2009/2010",
+        "leagueSeason": 2009,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2009-11-06T19:30:00Z",
+        "group": {
+            "groupName": "12. Spieltag",
+            "groupOrderID": 12,
+            "groupID": 11549
+        },
+        "team1": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2009-11-08T17:37:36.753",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 9066,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 4,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 9067,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeitpause"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 1962,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 2,
+                "goalGetterID": 114,
+                "goalGetterName": "Kie\u00dfling",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 1963,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 6,
+                "goalGetterID": 938,
+                "goalGetterName": "Reinartz",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 1964,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 11,
+                "goalGetterID": 851,
+                "goalGetterName": "Kroos",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 1965,
+                "scoreTeam1": 4,
+                "scoreTeam2": 0,
+                "matchMinute": 86,
+                "goalGetterID": 935,
+                "goalGetterName": "Bender",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 28,
+            "locationCity": "Leverkusen",
+            "locationStadium": "BayArena"
+        },
+        "numberOfViewers": 30000
+    },
+    {
         "matchID": 5406,
         "matchDateTime": "2009-11-07T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -85,6 +198,106 @@
             "locationStadium": "Allianz Arena"
         },
         "numberOfViewers": 69000
+    },
+    {
+        "matchID": 5408,
+        "matchDateTime": "2009-11-07T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 71,
+        "leagueName": "1. Fussball-Bundesliga 2009/2010",
+        "leagueSeason": 2009,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2009-11-07T14:30:00Z",
+        "group": {
+            "groupName": "12. Spieltag",
+            "groupOrderID": 12,
+            "groupID": 11549
+        },
+        "team1": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2009-11-08T17:34:00.153",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 9224,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 9225,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeitpause"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 1967,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 23,
+                "goalGetterID": 803,
+                "goalGetterName": "Ibisevic",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 1971,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 52,
+                "goalGetterID": 73,
+                "goalGetterName": "Misimovic",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 1972,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 57,
+                "goalGetterID": 72,
+                "goalGetterName": "Grafite",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 24,
+            "locationCity": "Sinsheim",
+            "locationStadium": "Rhein Neckar Arena"
+        },
+        "numberOfViewers": 29400
     },
     {
         "matchID": 5412,
@@ -245,6 +458,80 @@
             "locationStadium": "Borussia Park"
         },
         "numberOfViewers": 47053
+    },
+    {
+        "matchID": 5414,
+        "matchDateTime": "2009-11-07T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 71,
+        "leagueName": "1. Fussball-Bundesliga 2009/2010",
+        "leagueSeason": 2009,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2009-11-07T14:30:00Z",
+        "group": {
+            "groupName": "12. Spieltag",
+            "groupOrderID": 12,
+            "groupID": 11549
+        },
+        "team1": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 79,
+            "teamName": "1. FC N\u00fcrnberg",
+            "shortName": "N\u00fcrnberg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N\u00fcrnberg_logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2009-11-08T17:25:14.553",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 9230,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 9231,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeitpause"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 1969,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 38,
+                "goalGetterID": 936,
+                "goalGetterName": "Soto",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 23,
+            "locationCity": "Mainz",
+            "locationStadium": "Bruchwegstadion"
+        },
+        "numberOfViewers": 20000
     },
     {
         "matchID": 5411,
@@ -432,293 +719,6 @@
             "locationStadium": "Olympiastadion"
         },
         "numberOfViewers": 48623
-    },
-    {
-        "matchID": 5409,
-        "matchDateTime": "2009-11-06T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 71,
-        "leagueName": "1. Fussball-Bundesliga 2009/2010",
-        "leagueSeason": 2009,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2009-11-06T19:30:00Z",
-        "group": {
-            "groupName": "12. Spieltag",
-            "groupOrderID": 12,
-            "groupID": 11549
-        },
-        "team1": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2009-11-08T17:37:36.753",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 9066,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 4,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 9067,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeitpause"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 1962,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 2,
-                "goalGetterID": 114,
-                "goalGetterName": "Kie\u00dfling",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 1963,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 6,
-                "goalGetterID": 938,
-                "goalGetterName": "Reinartz",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 1964,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 11,
-                "goalGetterID": 851,
-                "goalGetterName": "Kroos",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 1965,
-                "scoreTeam1": 4,
-                "scoreTeam2": 0,
-                "matchMinute": 86,
-                "goalGetterID": 935,
-                "goalGetterName": "Bender",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 28,
-            "locationCity": "Leverkusen",
-            "locationStadium": "BayArena"
-        },
-        "numberOfViewers": 30000
-    },
-    {
-        "matchID": 5408,
-        "matchDateTime": "2009-11-07T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 71,
-        "leagueName": "1. Fussball-Bundesliga 2009/2010",
-        "leagueSeason": 2009,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2009-11-07T14:30:00Z",
-        "group": {
-            "groupName": "12. Spieltag",
-            "groupOrderID": 12,
-            "groupID": 11549
-        },
-        "team1": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2009-11-08T17:34:00.153",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 9224,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 9225,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeitpause"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 1967,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 23,
-                "goalGetterID": 803,
-                "goalGetterName": "Ibisevic",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 1971,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 52,
-                "goalGetterID": 73,
-                "goalGetterName": "Misimovic",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 1972,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 57,
-                "goalGetterID": 72,
-                "goalGetterName": "Grafite",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 24,
-            "locationCity": "Sinsheim",
-            "locationStadium": "Rhein Neckar Arena"
-        },
-        "numberOfViewers": 29400
-    },
-    {
-        "matchID": 5414,
-        "matchDateTime": "2009-11-07T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 71,
-        "leagueName": "1. Fussball-Bundesliga 2009/2010",
-        "leagueSeason": 2009,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2009-11-07T14:30:00Z",
-        "group": {
-            "groupName": "12. Spieltag",
-            "groupOrderID": 12,
-            "groupID": 11549
-        },
-        "team1": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 79,
-            "teamName": "1. FC N\u00fcrnberg",
-            "shortName": "N\u00fcrnberg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N\u00fcrnberg_logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2009-11-08T17:25:14.553",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 9230,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 9231,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeitpause"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 1969,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 38,
-                "goalGetterID": 936,
-                "goalGetterName": "Soto",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 23,
-            "locationCity": "Mainz",
-            "locationStadium": "Bruchwegstadion"
-        },
-        "numberOfViewers": 20000
     },
     {
         "matchID": 5410,

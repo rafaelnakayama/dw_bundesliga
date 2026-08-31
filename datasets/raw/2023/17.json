@@ -1,39 +1,39 @@
 [
     {
-        "matchID": 66779,
-        "matchDateTime": "2024-01-14T17:30:00",
+        "matchID": 66777,
+        "matchDateTime": "2024-01-13T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4608,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
         "leagueSeason": 2023,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2024-01-14T16:30:00Z",
+        "matchDateTimeUTC": "2024-01-13T14:30:00Z",
         "group": {
             "groupName": "17. Spieltag",
             "groupOrderID": 17,
             "groupID": 41145
         },
         "team1": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamId": 80,
+            "teamName": "1. FC Union Berlin",
+            "shortName": "Union Berlin",
+            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2024-01-14T19:27:40.643",
+        "lastUpdateDateTime": "2024-01-13T17:51:47.62",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 106002,
+                "resultID": 105987,
                 "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 2,
+                "pointsTeam1": 0,
                 "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
@@ -41,70 +41,17 @@
                 "resultDescription": null
             },
             {
-                "resultID": 106001,
+                "resultID": 105986,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 1,
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             }
         ],
-        "goals": [
-            {
-                "goalID": 107214,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": null,
-                "goalGetterID": 0,
-                "goalGetterName": "",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 107211,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 1,
-                "goalGetterID": 18333,
-                "goalGetterName": "R. Hack",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 107212,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 19,
-                "goalGetterID": 18333,
-                "goalGetterName": "R. Hack",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 107213,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 55,
-                "goalGetterID": 17810,
-                "goalGetterName": "Josha Vagnoman",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
+        "goals": [],
         "location": null,
         "numberOfViewers": null
     },
@@ -271,62 +218,6 @@
                 "comment": null
             }
         ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 66777,
-        "matchDateTime": "2024-01-13T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4608,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
-        "leagueSeason": 2023,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2024-01-13T14:30:00Z",
-        "group": {
-            "groupName": "17. Spieltag",
-            "groupOrderID": 17,
-            "groupID": 41145
-        },
-        "team1": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 80,
-            "teamName": "1. FC Union Berlin",
-            "shortName": "Union Berlin",
-            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2024-01-13T17:51:47.62",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 105987,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            },
-            {
-                "resultID": 105986,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [],
         "location": null,
         "numberOfViewers": null
     },
@@ -739,6 +630,115 @@
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 66779,
+        "matchDateTime": "2024-01-14T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4608,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
+        "leagueSeason": 2023,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2024-01-14T16:30:00Z",
+        "group": {
+            "groupName": "17. Spieltag",
+            "groupOrderID": 17,
+            "groupID": 41145
+        },
+        "team1": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2024-01-14T19:27:40.643",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 106002,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            },
+            {
+                "resultID": 106001,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 107214,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": null,
+                "goalGetterID": 0,
+                "goalGetterName": "",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 107211,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 1,
+                "goalGetterID": 18333,
+                "goalGetterName": "R. Hack",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 107212,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 19,
+                "goalGetterID": 18333,
+                "goalGetterName": "R. Hack",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 107213,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 55,
+                "goalGetterID": 17810,
+                "goalGetterName": "Josha Vagnoman",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
                 "comment": null
             }
         ],

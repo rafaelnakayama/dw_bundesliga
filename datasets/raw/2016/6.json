@@ -1,37 +1,37 @@
 [
     {
-        "matchID": 39700,
-        "matchDateTime": "2016-10-01T15:30:00",
+        "matchID": 39694,
+        "matchDateTime": "2016-10-01T18:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 3005,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
         "leagueSeason": 2016,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2016-10-01T13:30:00Z",
+        "matchDateTimeUTC": "2016-10-01T16:30:00Z",
         "group": {
             "groupName": "6. Spieltag",
             "groupOrderID": 6,
             "groupID": 23838
         },
         "team1": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2016-10-02T19:54:18.687",
+        "lastUpdateDateTime": "2016-10-03T11:17:00.707",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 68850,
+                "resultID": 68875,
                 "resultName": "Halbzeitergebnis",
                 "pointsTeam1": 1,
                 "pointsTeam2": 0,
@@ -41,9 +41,9 @@
                 "resultDescription": "Ergebnis zur Halbzeit"
             },
             {
-                "resultID": 68854,
+                "resultID": 68876,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 1,
+                "pointsTeam1": 2,
                 "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
@@ -53,13 +53,26 @@
         ],
         "goals": [
             {
-                "goalID": 54221,
+                "goalID": 54249,
                 "scoreTeam1": 1,
                 "scoreTeam2": 0,
-                "matchMinute": 4,
-                "goalGetterID": 18337,
-                "goalGetterName": "V. Grifo",
-                "scoringTeamId": 112,
+                "matchMinute": 10,
+                "goalGetterID": 16134,
+                "goalGetterName": "Admir Mehmedi",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 54250,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 79,
+                "goalGetterID": 14315,
+                "goalGetterName": "Chicharito",
+                "scoringTeamId": 6,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -67,11 +80,71 @@
             }
         ],
         "location": {
-            "locationID": 966,
-            "locationCity": "Freiburg",
-            "locationStadium": "Schwarzwald-Stadion"
+            "locationID": 28,
+            "locationCity": "Leverkusen",
+            "locationStadium": "BayArena"
         },
-        "numberOfViewers": 24000
+        "numberOfViewers": 30210
+    },
+    {
+        "matchID": 39697,
+        "matchDateTime": "2016-10-02T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2016-10-02T13:30:00Z",
+        "group": {
+            "groupName": "6. Spieltag",
+            "groupOrderID": 6,
+            "groupID": 23838
+        },
+        "team1": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2016-10-02T19:49:21.047",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 68921,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 68922,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [],
+        "location": {
+            "locationID": 435,
+            "locationCity": "Wolfsburg",
+            "locationStadium": "Volkswagen-Arena"
+        },
+        "numberOfViewers": 25876
     },
     {
         "matchID": 39701,
@@ -561,38 +634,38 @@
         "numberOfViewers": 17000
     },
     {
-        "matchID": 39694,
-        "matchDateTime": "2016-10-01T18:30:00",
+        "matchID": 39700,
+        "matchDateTime": "2016-10-01T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 3005,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
         "leagueSeason": 2016,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2016-10-01T16:30:00Z",
+        "matchDateTimeUTC": "2016-10-01T13:30:00Z",
         "group": {
             "groupName": "6. Spieltag",
             "groupOrderID": 6,
             "groupID": 23838
         },
         "team1": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2016-10-03T11:17:00.707",
+        "lastUpdateDateTime": "2016-10-02T19:54:18.687",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 68875,
+                "resultID": 68850,
                 "resultName": "Halbzeitergebnis",
                 "pointsTeam1": 1,
                 "pointsTeam2": 0,
@@ -602,9 +675,9 @@
                 "resultDescription": "Ergebnis zur Halbzeit"
             },
             {
-                "resultID": 68876,
+                "resultID": 68854,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 2,
+                "pointsTeam1": 1,
                 "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
@@ -614,26 +687,13 @@
         ],
         "goals": [
             {
-                "goalID": 54249,
+                "goalID": 54221,
                 "scoreTeam1": 1,
                 "scoreTeam2": 0,
-                "matchMinute": 10,
-                "goalGetterID": 16134,
-                "goalGetterName": "Admir Mehmedi",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 54250,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 79,
-                "goalGetterID": 14315,
-                "goalGetterName": "Chicharito",
-                "scoringTeamId": 6,
+                "matchMinute": 4,
+                "goalGetterID": 18337,
+                "goalGetterName": "V. Grifo",
+                "scoringTeamId": 112,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -641,71 +701,11 @@
             }
         ],
         "location": {
-            "locationID": 28,
-            "locationCity": "Leverkusen",
-            "locationStadium": "BayArena"
+            "locationID": 966,
+            "locationCity": "Freiburg",
+            "locationStadium": "Schwarzwald-Stadion"
         },
-        "numberOfViewers": 30210
-    },
-    {
-        "matchID": 39697,
-        "matchDateTime": "2016-10-02T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3005,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
-        "leagueSeason": 2016,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2016-10-02T13:30:00Z",
-        "group": {
-            "groupName": "6. Spieltag",
-            "groupOrderID": 6,
-            "groupID": 23838
-        },
-        "team1": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2016-10-02T19:49:21.047",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 68921,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 68922,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [],
-        "location": {
-            "locationID": 435,
-            "locationCity": "Wolfsburg",
-            "locationStadium": "Volkswagen-Arena"
-        },
-        "numberOfViewers": 25876
+        "numberOfViewers": 24000
     },
     {
         "matchID": 39695,

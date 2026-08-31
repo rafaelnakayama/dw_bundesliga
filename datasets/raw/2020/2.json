@@ -1,6 +1,6 @@
 [
     {
-        "matchID": 58586,
+        "matchID": 58588,
         "matchDateTime": "2020-09-26T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4442,
@@ -14,37 +14,37 @@
             "groupID": 36487
         },
         "team1": {
-            "teamId": 83,
-            "teamName": "DSC Arminia Bielefeld",
-            "shortName": "Bielefeld",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2020-09-26T17:22:47.217",
+        "lastUpdateDateTime": "2020-09-26T17:22:43.483",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 92222,
+                "resultID": 92226,
                 "resultName": "Endergebnis",
                 "pointsTeam1": 1,
-                "pointsTeam2": 0,
+                "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 92223,
+                "resultID": 92227,
                 "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
@@ -53,13 +53,26 @@
         ],
         "goals": [
             {
-                "goalID": 84755,
+                "goalID": 84738,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 14,
+                "goalGetterID": 16078,
+                "goalGetterName": "Emil Forsberg",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 84739,
                 "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 78,
-                "goalGetterID": 16869,
-                "goalGetterName": "Edmundsson",
-                "scoringTeamId": 83,
+                "scoreTeam2": 1,
+                "matchMinute": 20,
+                "goalGetterID": 15519,
+                "goalGetterName": " Demirbay",
+                "scoringTeamId": 6,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -67,9 +80,9 @@
             }
         ],
         "location": {
-            "locationID": 85,
-            "locationCity": "Bielefeld",
-            "locationStadium": "Sch\u00fcco Arena"
+            "locationID": 28,
+            "locationCity": "Leverkusen",
+            "locationStadium": "BayArena"
         },
         "numberOfViewers": null
     },
@@ -187,6 +200,80 @@
         "numberOfViewers": 4000
     },
     {
+        "matchID": 58586,
+        "matchDateTime": "2020-09-26T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4442,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2020/2021",
+        "leagueSeason": 2020,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2020-09-26T13:30:00Z",
+        "group": {
+            "groupName": "2. Spieltag",
+            "groupOrderID": 2,
+            "groupID": 36487
+        },
+        "team1": {
+            "teamId": 83,
+            "teamName": "DSC Arminia Bielefeld",
+            "shortName": "Bielefeld",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2020-09-26T17:22:47.217",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 92222,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 92223,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 84755,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 78,
+                "goalGetterID": 16869,
+                "goalGetterName": "Edmundsson",
+                "scoringTeamId": 83,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 85,
+            "locationCity": "Bielefeld",
+            "locationStadium": "Sch\u00fcco Arena"
+        },
+        "numberOfViewers": null
+    },
+    {
         "matchID": 58587,
         "matchDateTime": "2020-09-26T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -272,93 +359,6 @@
             "locationStadium": "WWK Arena"
         },
         "numberOfViewers": 6000
-    },
-    {
-        "matchID": 58588,
-        "matchDateTime": "2020-09-26T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4442,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2020/2021",
-        "leagueSeason": 2020,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2020-09-26T13:30:00Z",
-        "group": {
-            "groupName": "2. Spieltag",
-            "groupOrderID": 2,
-            "groupID": 36487
-        },
-        "team1": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 1635,
-            "teamName": "RB Leipzig",
-            "shortName": "Leipzig",
-            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2020-09-26T17:22:43.483",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 92226,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 92227,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 84738,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 14,
-                "goalGetterID": 16078,
-                "goalGetterName": "Emil Forsberg",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 84739,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 20,
-                "goalGetterID": 15519,
-                "goalGetterName": " Demirbay",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 28,
-            "locationCity": "Leverkusen",
-            "locationStadium": "BayArena"
-        },
-        "numberOfViewers": null
     },
     {
         "matchID": 58589,

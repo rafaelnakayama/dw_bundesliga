@@ -1,5 +1,118 @@
 [
     {
+        "matchID": 28087,
+        "matchDateTime": "2014-11-22T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 720,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2014/2015",
+        "leagueSeason": 2014,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2014-11-22T14:30:00Z",
+        "group": {
+            "groupName": "12. Spieltag",
+            "groupOrderID": 12,
+            "groupID": 14574
+        },
+        "team1": {
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2015-05-18T15:18:30.097",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 48848,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 3,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 48849,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 32630,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 46,
+                "goalGetterID": 114,
+                "goalGetterName": "Kie\u00dfling",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 32634,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 58,
+                "goalGetterID": 1582,
+                "goalGetterName": "Son",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 32636,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 60,
+                "goalGetterID": 14700,
+                "goalGetterName": "G\u00fclselam",
+                "scoringTeamId": 55,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 32637,
+                "scoreTeam1": 1,
+                "scoreTeam2": 3,
+                "matchMinute": 71,
+                "goalGetterID": 1379,
+                "goalGetterName": "Bellarabi",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 719,
+            "locationCity": "Hannover",
+            "locationStadium": ""
+        },
+        "numberOfViewers": null
+    },
+    {
         "matchID": 28083,
         "matchDateTime": "2014-11-22T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -460,119 +573,6 @@
         "location": {
             "locationID": 153,
             "locationCity": "Mainz",
-            "locationStadium": ""
-        },
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 28087,
-        "matchDateTime": "2014-11-22T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 720,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2014/2015",
-        "leagueSeason": 2014,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2014-11-22T14:30:00Z",
-        "group": {
-            "groupName": "12. Spieltag",
-            "groupOrderID": 12,
-            "groupID": 14574
-        },
-        "team1": {
-            "teamId": 55,
-            "teamName": "Hannover 96",
-            "shortName": "Hannover",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2015-05-18T15:18:30.097",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 48848,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 3,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 48849,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 32630,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 46,
-                "goalGetterID": 114,
-                "goalGetterName": "Kie\u00dfling",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 32634,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 58,
-                "goalGetterID": 1582,
-                "goalGetterName": "Son",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 32636,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 60,
-                "goalGetterID": 14700,
-                "goalGetterName": "G\u00fclselam",
-                "scoringTeamId": 55,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 32637,
-                "scoreTeam1": 1,
-                "scoreTeam2": 3,
-                "matchMinute": 71,
-                "goalGetterID": 1379,
-                "goalGetterName": "Bellarabi",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 719,
-            "locationCity": "Hannover",
             "locationStadium": ""
         },
         "numberOfViewers": null

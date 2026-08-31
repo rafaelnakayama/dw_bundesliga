@@ -1,49 +1,49 @@
 [
     {
-        "matchID": 5488,
-        "matchDateTime": "2010-02-06T18:30:00",
+        "matchID": 5494,
+        "matchDateTime": "2010-02-07T17:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 71,
         "leagueName": "1. Fussball-Bundesliga 2009/2010",
         "leagueSeason": 2009,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-02-06T17:30:00Z",
+        "matchDateTimeUTC": "2010-02-07T16:30:00Z",
         "group": {
             "groupName": "21. Spieltag",
             "groupOrderID": 21,
             "groupID": 11558
         },
         "team1": {
-            "teamId": 79,
-            "teamName": "1. FC N\u00fcrnberg",
-            "shortName": "N\u00fcrnberg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N\u00fcrnberg_logo.svg",
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2010-02-13T08:13:30.583",
+        "lastUpdateDateTime": "2010-02-13T08:15:12.38",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 10786,
+                "resultID": 11341,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 2,
+                "pointsTeam1": 2,
+                "pointsTeam2": 3,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 10787,
+                "resultID": 11342,
                 "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
+                "pointsTeam1": 1,
                 "pointsTeam2": 1,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
@@ -53,39 +53,65 @@
         ],
         "goals": [
             {
-                "goalID": 2510,
+                "goalID": 2516,
                 "scoreTeam1": 0,
                 "scoreTeam2": 1,
-                "matchMinute": 22,
-                "goalGetterID": 1055,
-                "goalGetterName": "Timo Gebhart",
-                "scoringTeamId": 16,
+                "matchMinute": 8,
+                "goalGetterID": 1081,
+                "goalGetterName": "K\u00f6hler",
+                "scoringTeamId": 91,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": ""
             },
             {
-                "goalID": 2511,
+                "goalID": 2517,
                 "scoreTeam1": 1,
                 "scoreTeam2": 1,
-                "matchMinute": 60,
-                "goalGetterID": 218,
-                "goalGetterName": "Bunjaku",
-                "scoringTeamId": 79,
+                "matchMinute": 17,
+                "goalGetterID": 512,
+                "goalGetterName": "Hummels",
+                "scoringTeamId": 7,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": ""
             },
             {
-                "goalID": 2512,
-                "scoreTeam1": 1,
+                "goalID": 2518,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 57,
+                "goalGetterID": 312,
+                "goalGetterName": "Lucas",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2519,
+                "scoreTeam1": 2,
                 "scoreTeam2": 2,
-                "matchMinute": 87,
-                "goalGetterID": 1054,
-                "goalGetterName": "Hilbert",
-                "scoringTeamId": 16,
+                "matchMinute": 65,
+                "goalGetterID": 1082,
+                "goalGetterName": "Jung",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2520,
+                "scoreTeam1": 2,
+                "scoreTeam2": 3,
+                "matchMinute": 74,
+                "goalGetterID": 518,
+                "goalGetterName": "Meier",
+                "scoringTeamId": 91,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -93,11 +119,11 @@
             }
         ],
         "location": {
-            "locationID": 21,
-            "locationCity": "N\u00fcrnberg",
-            "locationStadium": "easyCredit Stadion"
+            "locationID": 35,
+            "locationCity": "Dortmund",
+            "locationStadium": "Signal Iduna Park"
         },
-        "numberOfViewers": 40384
+        "numberOfViewers": 70400
     },
     {
         "matchID": 5489,
@@ -699,6 +725,106 @@
         "numberOfViewers": 28100
     },
     {
+        "matchID": 5488,
+        "matchDateTime": "2010-02-06T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 71,
+        "leagueName": "1. Fussball-Bundesliga 2009/2010",
+        "leagueSeason": 2009,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2010-02-06T17:30:00Z",
+        "group": {
+            "groupName": "21. Spieltag",
+            "groupOrderID": 21,
+            "groupID": 11558
+        },
+        "team1": {
+            "teamId": 79,
+            "teamName": "1. FC N\u00fcrnberg",
+            "shortName": "N\u00fcrnberg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N\u00fcrnberg_logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2010-02-13T08:13:30.583",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 10786,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 10787,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeitpause"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 2510,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 22,
+                "goalGetterID": 1055,
+                "goalGetterName": "Timo Gebhart",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2511,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 60,
+                "goalGetterID": 218,
+                "goalGetterName": "Bunjaku",
+                "scoringTeamId": 79,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2512,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 87,
+                "goalGetterID": 1054,
+                "goalGetterName": "Hilbert",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 21,
+            "locationCity": "N\u00fcrnberg",
+            "locationStadium": "easyCredit Stadion"
+        },
+        "numberOfViewers": 40384
+    },
+    {
         "matchID": 5495,
         "matchDateTime": "2010-02-07T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -771,131 +897,5 @@
             "locationStadium": "Bruchwegstadion"
         },
         "numberOfViewers": 20300
-    },
-    {
-        "matchID": 5494,
-        "matchDateTime": "2010-02-07T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 71,
-        "leagueName": "1. Fussball-Bundesliga 2009/2010",
-        "leagueSeason": 2009,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-02-07T16:30:00Z",
-        "group": {
-            "groupName": "21. Spieltag",
-            "groupOrderID": 21,
-            "groupID": 11558
-        },
-        "team1": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2010-02-13T08:15:12.38",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 11341,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 3,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 11342,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeitpause"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 2516,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 8,
-                "goalGetterID": 1081,
-                "goalGetterName": "K\u00f6hler",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 2517,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 17,
-                "goalGetterID": 512,
-                "goalGetterName": "Hummels",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 2518,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 57,
-                "goalGetterID": 312,
-                "goalGetterName": "Lucas",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 2519,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 65,
-                "goalGetterID": 1082,
-                "goalGetterName": "Jung",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 2520,
-                "scoreTeam1": 2,
-                "scoreTeam2": 3,
-                "matchMinute": 74,
-                "goalGetterID": 518,
-                "goalGetterName": "Meier",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 35,
-            "locationCity": "Dortmund",
-            "locationStadium": "Signal Iduna Park"
-        },
-        "numberOfViewers": 70400
     }
 ]

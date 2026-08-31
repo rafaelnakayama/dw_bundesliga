@@ -1,88 +1,5 @@
 [
     {
-        "matchID": 66730,
-        "matchDateTime": "2023-11-25T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4608,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
-        "leagueSeason": 2023,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2023-11-25T14:30:00Z",
-        "group": {
-            "groupName": "12. Spieltag",
-            "groupOrderID": 12,
-            "groupID": 41140
-        },
-        "team1": {
-            "teamId": 80,
-            "teamName": "1. FC Union Berlin",
-            "shortName": "Union Berlin",
-            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2023-11-25T17:58:13.957",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 105346,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            },
-            {
-                "resultID": 105345,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 106293,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 39,
-                "goalGetterID": 18339,
-                "goalGetterName": "E. Demirovic",
-                "scoringTeamId": 95,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 106300,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 88,
-                "goalGetterID": 16260,
-                "goalGetterName": "Kevin Volland\r\n",
-                "scoringTeamId": 80,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 66734,
         "matchDateTime": "2023-11-24T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -282,6 +199,89 @@
                 "isOwnGoal": false,
                 "isOvertime": true,
                 "comment": "+7"
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 66730,
+        "matchDateTime": "2023-11-25T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4608,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
+        "leagueSeason": 2023,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2023-11-25T14:30:00Z",
+        "group": {
+            "groupName": "12. Spieltag",
+            "groupOrderID": 12,
+            "groupID": 41140
+        },
+        "team1": {
+            "teamId": 80,
+            "teamName": "1. FC Union Berlin",
+            "shortName": "Union Berlin",
+            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2023-11-25T17:58:13.957",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 105346,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            },
+            {
+                "resultID": 105345,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 106293,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 39,
+                "goalGetterID": 18339,
+                "goalGetterName": "E. Demirovic",
+                "scoringTeamId": 95,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 106300,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 88,
+                "goalGetterID": 16260,
+                "goalGetterName": "Kevin Volland\r\n",
+                "scoringTeamId": 80,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
             }
         ],
         "location": null,

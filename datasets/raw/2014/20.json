@@ -1,205 +1,5 @@
 [
     {
-        "matchID": 28166,
-        "matchDateTime": "2015-02-07T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 720,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2014/2015",
-        "leagueSeason": 2014,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2015-02-07T14:30:00Z",
-        "group": {
-            "groupName": "20. Spieltag",
-            "groupOrderID": 20,
-            "groupID": 14582
-        },
-        "team1": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 54,
-            "teamName": "Hertha BSC",
-            "shortName": "Hertha",
-            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2015-05-18T15:27:38.75",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 50762,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 50763,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 34676,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 35,
-                "goalGetterID": 1369,
-                "goalGetterName": "Hegeler",
-                "scoringTeamId": 54,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 34681,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 43,
-                "goalGetterID": 14861,
-                "goalGetterName": "Berens",
-                "scoringTeamId": 54,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 153,
-            "locationCity": "Mainz",
-            "locationStadium": ""
-        },
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 28167,
-        "matchDateTime": "2015-02-08T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 720,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2014/2015",
-        "leagueSeason": 2014,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2015-02-08T16:30:00Z",
-        "group": {
-            "groupName": "20. Spieltag",
-            "groupOrderID": 20,
-            "groupID": 14582
-        },
-        "team1": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2015-05-18T15:28:16.043",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 50821,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 50822,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 34732,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 7,
-                "goalGetterID": 13897,
-                "goalGetterName": "Klavan",
-                "scoringTeamId": 95,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 34733,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 37,
-                "goalGetterID": 356,
-                "goalGetterName": "Bobadilla",
-                "scoringTeamId": 95,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 34734,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 45,
-                "goalGetterID": 1056,
-                "goalGetterName": "Aigner",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": ""
-            },
-            {
-                "goalID": 34735,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 70,
-                "goalGetterID": 518,
-                "goalGetterName": "Meier",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 979,
-            "locationCity": "Augsburg",
-            "locationStadium": ""
-        },
-        "numberOfViewers": null
-    },
-    {
         "matchID": 28164,
         "matchDateTime": "2015-02-06T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -369,6 +169,93 @@
         "location": {
             "locationID": 487,
             "locationCity": "Wolfsburg",
+            "locationStadium": ""
+        },
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 28166,
+        "matchDateTime": "2015-02-07T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 720,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2014/2015",
+        "leagueSeason": 2014,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2015-02-07T14:30:00Z",
+        "group": {
+            "groupName": "20. Spieltag",
+            "groupOrderID": 20,
+            "groupID": 14582
+        },
+        "team1": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2015-05-18T15:27:38.75",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 50762,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 50763,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 34676,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 35,
+                "goalGetterID": 1369,
+                "goalGetterName": "Hegeler",
+                "scoringTeamId": 54,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 34681,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 43,
+                "goalGetterID": 14861,
+                "goalGetterName": "Berens",
+                "scoringTeamId": 54,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 153,
+            "locationCity": "Mainz",
             "locationStadium": ""
         },
         "numberOfViewers": null
@@ -816,6 +703,119 @@
         "location": {
             "locationID": 708,
             "locationCity": "Bremen",
+            "locationStadium": ""
+        },
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 28167,
+        "matchDateTime": "2015-02-08T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 720,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2014/2015",
+        "leagueSeason": 2014,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2015-02-08T16:30:00Z",
+        "group": {
+            "groupName": "20. Spieltag",
+            "groupOrderID": 20,
+            "groupID": 14582
+        },
+        "team1": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2015-05-18T15:28:16.043",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 50821,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 50822,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 34732,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 7,
+                "goalGetterID": 13897,
+                "goalGetterName": "Klavan",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 34733,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 37,
+                "goalGetterID": 356,
+                "goalGetterName": "Bobadilla",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 34734,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 45,
+                "goalGetterID": 1056,
+                "goalGetterName": "Aigner",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": ""
+            },
+            {
+                "goalID": 34735,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 70,
+                "goalGetterID": 518,
+                "goalGetterName": "Meier",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 979,
+            "locationCity": "Augsburg",
             "locationStadium": ""
         },
         "numberOfViewers": null

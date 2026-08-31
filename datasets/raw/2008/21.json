@@ -1,61 +1,5 @@
 [
     {
-        "matchID": 2176,
-        "matchDateTime": "2009-02-21T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 18,
-        "leagueName": "1. Fussball-Bundesliga 2008/2009",
-        "leagueSeason": 2008,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2009-02-21T14:30:00Z",
-        "group": {
-            "groupName": "21. Spieltag",
-            "groupOrderID": 21,
-            "groupID": 11153
-        },
-        "team1": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 54,
-            "teamName": "Hertha BSC",
-            "shortName": "Hertha",
-            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2009-02-21T17:26:55.423",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 4761,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 4762,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Stand zur der Pause"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 2178,
         "matchDateTime": "2009-02-20T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -266,6 +210,62 @@
             },
             {
                 "resultID": 4759,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Stand zur der Pause"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 2176,
+        "matchDateTime": "2009-02-21T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 18,
+        "leagueName": "1. Fussball-Bundesliga 2008/2009",
+        "leagueSeason": 2008,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2009-02-21T14:30:00Z",
+        "group": {
+            "groupName": "21. Spieltag",
+            "groupOrderID": 21,
+            "groupID": 11153
+        },
+        "team1": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2009-02-21T17:26:55.423",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 4761,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 4762,
                 "resultName": "Halbzeitergebnis",
                 "pointsTeam1": 0,
                 "pointsTeam2": 0,

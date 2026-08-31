@@ -1,5 +1,140 @@
 [
     {
+        "matchID": 63935,
+        "matchDateTime": "2022-10-01T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2022-10-01T16:30:00Z",
+        "group": {
+            "groupName": "8. Spieltag",
+            "groupOrderID": 8,
+            "groupID": 39888
+        },
+        "team1": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2022-10-01T20:20:57.813",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 99276,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 5,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 99277,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 4,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 96378,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 5,
+                "goalGetterID": 18661,
+                "goalGetterName": "N. F\u00fcllkrug",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 96379,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 8,
+                "goalGetterID": 18422,
+                "goalGetterName": "M. Ducksch",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 96380,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 13,
+                "goalGetterID": 18661,
+                "goalGetterName": "N. F\u00fcllkrug",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 96381,
+                "scoreTeam1": 4,
+                "scoreTeam2": 0,
+                "matchMinute": 37,
+                "goalGetterID": 18717,
+                "goalGetterName": "R. Bensebaini",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 96382,
+                "scoreTeam1": 4,
+                "scoreTeam2": 1,
+                "matchMinute": 63,
+                "goalGetterID": 18573,
+                "goalGetterName": "M. Thuram",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 96383,
+                "scoreTeam1": 5,
+                "scoreTeam2": 1,
+                "matchMinute": 73,
+                "goalGetterID": 19055,
+                "goalGetterName": "M. Weiser",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 63928,
         "matchDateTime": "2022-09-30T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -638,141 +773,6 @@
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": true,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 63935,
-        "matchDateTime": "2022-10-01T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4562,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
-        "leagueSeason": 2022,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2022-10-01T16:30:00Z",
-        "group": {
-            "groupName": "8. Spieltag",
-            "groupOrderID": 8,
-            "groupID": 39888
-        },
-        "team1": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2022-10-01T20:20:57.813",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 99276,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 5,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 99277,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 4,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 96378,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 5,
-                "goalGetterID": 18661,
-                "goalGetterName": "N. F\u00fcllkrug",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 96379,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 8,
-                "goalGetterID": 18422,
-                "goalGetterName": "M. Ducksch",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 96380,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 13,
-                "goalGetterID": 18661,
-                "goalGetterName": "N. F\u00fcllkrug",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 96381,
-                "scoreTeam1": 4,
-                "scoreTeam2": 0,
-                "matchMinute": 37,
-                "goalGetterID": 18717,
-                "goalGetterName": "R. Bensebaini",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": true,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 96382,
-                "scoreTeam1": 4,
-                "scoreTeam2": 1,
-                "matchMinute": 63,
-                "goalGetterID": 18573,
-                "goalGetterName": "M. Thuram",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 96383,
-                "scoreTeam1": 5,
-                "scoreTeam2": 1,
-                "matchMinute": 73,
-                "goalGetterID": 19055,
-                "goalGetterName": "M. Weiser",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
                 "comment": null
             }
         ],

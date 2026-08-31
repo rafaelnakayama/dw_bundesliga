@@ -1,114 +1,5 @@
 [
     {
-        "matchID": 61005,
-        "matchDateTime": "2022-01-08T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4500,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
-        "leagueSeason": 2021,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2022-01-08T14:30:00Z",
-        "group": {
-            "groupName": "18. Spieltag",
-            "groupOrderID": 18,
-            "groupID": 38194
-        },
-        "team1": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2022-01-08T17:28:55.087",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 97069,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 97070,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 92763,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 5,
-                "goalGetterID": 18815,
-                "goalGetterName": "M. Gregoritsch",
-                "scoringTeamId": 95,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 92766,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 38,
-                "goalGetterID": 18416,
-                "goalGetterName": "I. Bebou",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 92768,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 44,
-                "goalGetterID": 18416,
-                "goalGetterName": "I. Bebou",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 92779,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 93,
-                "goalGetterID": 18358,
-                "goalGetterName": "D. Raum",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 60999,
         "matchDateTime": "2022-01-07T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -475,6 +366,115 @@
             }
         ],
         "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 61005,
+        "matchDateTime": "2022-01-08T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4500,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
+        "leagueSeason": 2021,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2022-01-08T14:30:00Z",
+        "group": {
+            "groupName": "18. Spieltag",
+            "groupOrderID": 18,
+            "groupID": 38194
+        },
+        "team1": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2022-01-08T17:28:55.087",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 97069,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 97070,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 92763,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 5,
+                "goalGetterID": 18815,
+                "goalGetterName": "M. Gregoritsch",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 92766,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 38,
+                "goalGetterID": 18416,
+                "goalGetterName": "I. Bebou",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 92768,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 44,
+                "goalGetterID": 18416,
+                "goalGetterName": "I. Bebou",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 92779,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 93,
+                "goalGetterID": 18358,
+                "goalGetterName": "D. Raum",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            }
+        ],
         "location": null,
         "numberOfViewers": null
     },

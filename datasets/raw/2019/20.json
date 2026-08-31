@@ -1,5 +1,218 @@
 [
     {
+        "matchID": 55450,
+        "matchDateTime": "2020-02-01T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2020-02-01T14:30:00Z",
+        "group": {
+            "groupName": "20. Spieltag",
+            "groupOrderID": 20,
+            "groupID": 34219
+        },
+        "team1": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2020-02-19T20:15:51.407",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 90812,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 90811,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 82553,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 11,
+                "goalGetterID": 392,
+                "goalGetterName": "Diaby",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 82557,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 24,
+                "goalGetterID": 18327,
+                "goalGetterName": "A. Kramaric",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 82571,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 65,
+                "goalGetterID": 18366,
+                "goalGetterName": "R. Skov",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 1291,
+            "locationCity": "Sinsheim",
+            "locationStadium": "PreZero Arena"
+        },
+        "numberOfViewers": 24489
+    },
+    {
+        "matchID": 55455,
+        "matchDateTime": "2020-02-02T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2020-02-02T14:30:00Z",
+        "group": {
+            "groupName": "20. Spieltag",
+            "groupOrderID": 20,
+            "groupID": 34219
+        },
+        "team1": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2020-02-19T20:18:10.697",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 90831,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 90830,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 4,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 82588,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 29,
+                "goalGetterID": 17841,
+                "goalGetterName": "Bornauw, S.",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 82595,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 55,
+                "goalGetterID": 15645,
+                "goalGetterName": "Cordoba",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 82596,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 91,
+                "goalGetterID": 17923,
+                "goalGetterName": "Ehizibue, K.",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            },
+            {
+                "goalID": 82597,
+                "scoreTeam1": 4,
+                "scoreTeam2": 0,
+                "matchMinute": 92,
+                "goalGetterID": 17895,
+                "goalGetterName": "Jakobs,I.",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 509,
+            "locationCity": "K\u00f6ln",
+            "locationStadium": "RheinEnergieStadion "
+        },
+        "numberOfViewers": 50000
+    },
+    {
         "matchID": 55452,
         "matchDateTime": "2020-01-31T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -184,106 +397,6 @@
             "locationStadium": "Signal Iduna Park"
         },
         "numberOfViewers": 81365
-    },
-    {
-        "matchID": 55450,
-        "matchDateTime": "2020-02-01T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4362,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
-        "leagueSeason": 2019,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2020-02-01T14:30:00Z",
-        "group": {
-            "groupName": "20. Spieltag",
-            "groupOrderID": 20,
-            "groupID": 34219
-        },
-        "team1": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2020-02-19T20:15:51.407",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 90812,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 90811,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 82553,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 11,
-                "goalGetterID": 392,
-                "goalGetterName": "Diaby",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 82557,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 24,
-                "goalGetterID": 18327,
-                "goalGetterName": "A. Kramaric",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 82571,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 65,
-                "goalGetterID": 18366,
-                "goalGetterName": "R. Skov",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 1291,
-            "locationCity": "Sinsheim",
-            "locationStadium": "PreZero Arena"
-        },
-        "numberOfViewers": 24489
     },
     {
         "matchID": 55451,
@@ -697,119 +810,6 @@
             "locationStadium": "Red Bull Arena"
         },
         "numberOfViewers": 42146
-    },
-    {
-        "matchID": 55455,
-        "matchDateTime": "2020-02-02T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4362,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
-        "leagueSeason": 2019,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2020-02-02T14:30:00Z",
-        "group": {
-            "groupName": "20. Spieltag",
-            "groupOrderID": 20,
-            "groupID": 34219
-        },
-        "team1": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2020-02-19T20:18:10.697",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 90831,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 90830,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 4,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 82588,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 29,
-                "goalGetterID": 17841,
-                "goalGetterName": "Bornauw, S.",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 82595,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 55,
-                "goalGetterID": 15645,
-                "goalGetterName": "Cordoba",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 82596,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 91,
-                "goalGetterID": 17923,
-                "goalGetterName": "Ehizibue, K.",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": null
-            },
-            {
-                "goalID": 82597,
-                "scoreTeam1": 4,
-                "scoreTeam2": 0,
-                "matchMinute": 92,
-                "goalGetterID": 17895,
-                "goalGetterName": "Jakobs,I.",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 509,
-            "locationCity": "K\u00f6ln",
-            "locationStadium": "RheinEnergieStadion "
-        },
-        "numberOfViewers": 50000
     },
     {
         "matchID": 55456,

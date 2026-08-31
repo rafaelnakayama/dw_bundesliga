@@ -1,114 +1,5 @@
 [
     {
-        "matchID": 63961,
-        "matchDateTime": "2022-10-23T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4562,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
-        "leagueSeason": 2022,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2022-10-23T15:30:00Z",
-        "group": {
-            "groupName": "11. Spieltag",
-            "groupOrderID": 11,
-            "groupID": 39891
-        },
-        "team1": {
-            "teamId": 54,
-            "teamName": "Hertha BSC",
-            "shortName": "Hertha",
-            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2022-10-23T19:29:46.287",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 99773,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 99774,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 97204,
-                "scoreTeam1": 0,
-                "scoreTeam2": 0,
-                "matchMinute": 15,
-                "goalGetterID": 18968,
-                "goalGetterName": "M. B\u00fclter",
-                "scoringTeamId": null,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 97205,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 49,
-                "goalGetterID": 18741,
-                "goalGetterName": "L. Tousart",
-                "scoringTeamId": 54,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 97206,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 85,
-                "goalGetterID": 19602,
-                "goalGetterName": "F. Mollet",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 97207,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 88,
-                "goalGetterID": 19603,
-                "goalGetterName": "W. Kanga",
-                "scoringTeamId": 54,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 63963,
         "matchDateTime": "2022-10-21T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -961,6 +852,115 @@
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 63961,
+        "matchDateTime": "2022-10-23T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2022-10-23T15:30:00Z",
+        "group": {
+            "groupName": "11. Spieltag",
+            "groupOrderID": 11,
+            "groupID": 39891
+        },
+        "team1": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2022-10-23T19:29:46.287",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 99773,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 99774,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 97204,
+                "scoreTeam1": 0,
+                "scoreTeam2": 0,
+                "matchMinute": 15,
+                "goalGetterID": 18968,
+                "goalGetterName": "M. B\u00fclter",
+                "scoringTeamId": null,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 97205,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 49,
+                "goalGetterID": 18741,
+                "goalGetterName": "L. Tousart",
+                "scoringTeamId": 54,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 97206,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 85,
+                "goalGetterID": 19602,
+                "goalGetterName": "F. Mollet",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 97207,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 88,
+                "goalGetterID": 19603,
+                "goalGetterName": "W. Kanga",
+                "scoringTeamId": 54,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
                 "comment": null
             }
         ],

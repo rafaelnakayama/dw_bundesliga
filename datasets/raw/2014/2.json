@@ -1,50 +1,50 @@
 [
     {
-        "matchID": 27803,
-        "matchDateTime": "2014-08-30T15:30:00",
+        "matchID": 27796,
+        "matchDateTime": "2014-08-30T18:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 720,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2014/2015",
         "leagueSeason": 2014,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2014-08-30T13:30:00Z",
+        "matchDateTimeUTC": "2014-08-30T16:30:00Z",
         "group": {
             "groupName": "2. Spieltag",
             "groupOrderID": 2,
             "groupID": 14564
         },
         "team1": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2015-05-18T14:54:57.99",
+        "lastUpdateDateTime": "2015-05-19T10:44:11.4",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 46450,
+                "resultID": 46451,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 46448,
+                "resultID": 46452,
                 "resultName": "Halbzeitergebnis",
                 "pointsTeam1": 0,
-                "pointsTeam2": 2,
+                "pointsTeam2": 1,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
@@ -53,26 +53,26 @@
         ],
         "goals": [
             {
-                "goalID": 29860,
+                "goalID": 29875,
                 "scoreTeam1": 0,
                 "scoreTeam2": 1,
-                "matchMinute": 22,
-                "goalGetterID": 13706,
-                "goalGetterName": "Yuya Osako",
-                "scoringTeamId": 65,
+                "matchMinute": 10,
+                "goalGetterID": 1478,
+                "goalGetterName": "Robert Lewandowski",
+                "scoringTeamId": 40,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": ""
             },
             {
-                "goalID": 29864,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 33,
-                "goalGetterID": 11319,
-                "goalGetterName": "Anthony Ujah",
-                "scoringTeamId": 65,
+                "goalID": 29919,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 62,
+                "goalGetterID": 102,
+                "goalGetterName": "H\u00f6wedes",
+                "scoringTeamId": 9,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -80,11 +80,11 @@
             }
         ],
         "location": {
-            "locationID": 493,
-            "locationCity": "Stuttgart",
-            "locationStadium": "Mercedes-Benz Arena"
+            "locationID": 983,
+            "locationCity": "Schalke",
+            "locationStadium": " Veltins Arena"
         },
-        "numberOfViewers": 55000
+        "numberOfViewers": null
     },
     {
         "matchID": 27800,
@@ -552,6 +552,93 @@
         "numberOfViewers": null
     },
     {
+        "matchID": 27803,
+        "matchDateTime": "2014-08-30T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 720,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2014/2015",
+        "leagueSeason": 2014,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2014-08-30T13:30:00Z",
+        "group": {
+            "groupName": "2. Spieltag",
+            "groupOrderID": 2,
+            "groupID": 14564
+        },
+        "team1": {
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2015-05-18T14:54:57.99",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 46450,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 46448,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 29860,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 22,
+                "goalGetterID": 13706,
+                "goalGetterName": "Yuya Osako",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 29864,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 33,
+                "goalGetterID": 11319,
+                "goalGetterName": "Anthony Ujah",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 493,
+            "locationCity": "Stuttgart",
+            "locationStadium": "Mercedes-Benz Arena"
+        },
+        "numberOfViewers": 55000
+    },
+    {
         "matchID": 27804,
         "matchDateTime": "2014-08-30T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -648,93 +735,6 @@
             "locationID": 404,
             "locationCity": "Hamburg ",
             "locationStadium": "Imtech Arena"
-        },
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 27796,
-        "matchDateTime": "2014-08-30T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 720,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2014/2015",
-        "leagueSeason": 2014,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2014-08-30T16:30:00Z",
-        "group": {
-            "groupName": "2. Spieltag",
-            "groupOrderID": 2,
-            "groupID": 14564
-        },
-        "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2015-05-19T10:44:11.4",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 46451,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 46452,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 29875,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 10,
-                "goalGetterID": 1478,
-                "goalGetterName": "Robert Lewandowski",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 29919,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 62,
-                "goalGetterID": 102,
-                "goalGetterName": "H\u00f6wedes",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 983,
-            "locationCity": "Schalke",
-            "locationStadium": " Veltins Arena"
         },
         "numberOfViewers": null
     },

@@ -1,5 +1,131 @@
 [
     {
+        "matchID": 55438,
+        "matchDateTime": "2020-01-19T18:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2020-01-19T17:00:00Z",
+        "group": {
+            "groupName": "18. Spieltag",
+            "groupOrderID": 18,
+            "groupID": 34217
+        },
+        "team1": {
+            "teamId": 31,
+            "teamName": "SC Paderborn 07",
+            "shortName": "Paderborn",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2020-02-19T20:32:32.61",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 90708,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 3,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 90707,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 4,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 82388,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 11,
+                "goalGetterID": 5798,
+                "goalGetterName": "Volland",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 82389,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 14,
+                "goalGetterID": 5798,
+                "goalGetterName": "Volland",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 82390,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 36,
+                "goalGetterID": 6827,
+                "goalGetterName": "Baumgartlinger",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 82391,
+                "scoreTeam1": 1,
+                "scoreTeam2": 3,
+                "matchMinute": 51,
+                "goalGetterID": 16291,
+                "goalGetterName": "Srbeny",
+                "scoringTeamId": 31,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 82392,
+                "scoreTeam1": 1,
+                "scoreTeam2": 4,
+                "matchMinute": 75,
+                "goalGetterID": 16261,
+                "goalGetterName": "Kai Havertz\r\n",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 1010,
+            "locationCity": "Paderborn",
+            "locationStadium": "Benteler Arena"
+        },
+        "numberOfViewers": 14889
+    },
+    {
         "matchID": 55435,
         "matchDateTime": "2020-01-17T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -863,131 +989,5 @@
             "locationStadium": "Olympiastadion"
         },
         "numberOfViewers": 74667
-    },
-    {
-        "matchID": 55438,
-        "matchDateTime": "2020-01-19T18:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4362,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
-        "leagueSeason": 2019,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2020-01-19T17:00:00Z",
-        "group": {
-            "groupName": "18. Spieltag",
-            "groupOrderID": 18,
-            "groupID": 34217
-        },
-        "team1": {
-            "teamId": 31,
-            "teamName": "SC Paderborn 07",
-            "shortName": "Paderborn",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2020-02-19T20:32:32.61",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 90708,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 3,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 90707,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 4,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 82388,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 11,
-                "goalGetterID": 5798,
-                "goalGetterName": "Volland",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 82389,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 14,
-                "goalGetterID": 5798,
-                "goalGetterName": "Volland",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 82390,
-                "scoreTeam1": 0,
-                "scoreTeam2": 3,
-                "matchMinute": 36,
-                "goalGetterID": 6827,
-                "goalGetterName": "Baumgartlinger",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 82391,
-                "scoreTeam1": 1,
-                "scoreTeam2": 3,
-                "matchMinute": 51,
-                "goalGetterID": 16291,
-                "goalGetterName": "Srbeny",
-                "scoringTeamId": 31,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 82392,
-                "scoreTeam1": 1,
-                "scoreTeam2": 4,
-                "matchMinute": 75,
-                "goalGetterID": 16261,
-                "goalGetterName": "Kai Havertz\r\n",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 1010,
-            "locationCity": "Paderborn",
-            "locationStadium": "Benteler Arena"
-        },
-        "numberOfViewers": 14889
     }
 ]

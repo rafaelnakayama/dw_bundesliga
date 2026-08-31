@@ -1,5 +1,61 @@
 [
     {
+        "matchID": 51246,
+        "matchDateTime": "2018-12-15T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4276,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
+        "leagueSeason": 2018,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-12-15T14:30:00Z",
+        "group": {
+            "groupName": "15. Spieltag",
+            "groupOrderID": 15,
+            "groupID": 31789
+        },
+        "team1": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-12-15T18:06:38.857",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 84975,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 84974,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 51254,
         "matchDateTime": "2018-12-14T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -84,62 +140,6 @@
             "locationCity": "N\u00fcrnberg",
             "locationStadium": "Max-Morlock-Stadion"
         },
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 51246,
-        "matchDateTime": "2018-12-15T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4276,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
-        "leagueSeason": 2018,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2018-12-15T14:30:00Z",
-        "group": {
-            "groupName": "15. Spieltag",
-            "groupOrderID": 15,
-            "groupID": 31789
-        },
-        "team1": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2018-12-15T18:06:38.857",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 84975,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 84974,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [],
-        "location": null,
         "numberOfViewers": null
     },
     {

@@ -1,88 +1,5 @@
 [
     {
-        "matchID": 63992,
-        "matchDateTime": "2022-11-12T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4562,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
-        "leagueSeason": 2022,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2022-11-12T14:30:00Z",
-        "group": {
-            "groupName": "15. Spieltag",
-            "groupOrderID": 15,
-            "groupID": 39895
-        },
-        "team1": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2022-11-12T17:22:19.81",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 100014,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 100015,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 97628,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 30,
-                "goalGetterID": 18460,
-                "goalGetterName": "M. Diaby",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 97636,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 82,
-                "goalGetterID": 19623,
-                "goalGetterName": "J. Tah",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 63993,
         "matchDateTime": "2022-11-11T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -278,6 +195,89 @@
                 "goalGetterID": 18308,
                 "goalGetterName": "C. Antwi-Adjej",
                 "scoringTeamId": 129,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 63992,
+        "matchDateTime": "2022-11-12T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2022-11-12T14:30:00Z",
+        "group": {
+            "groupName": "15. Spieltag",
+            "groupOrderID": 15,
+            "groupID": 39895
+        },
+        "team1": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2022-11-12T17:22:19.81",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 100014,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 100015,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 97628,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 30,
+                "goalGetterID": 18460,
+                "goalGetterName": "M. Diaby",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 97636,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 82,
+                "goalGetterID": 19623,
+                "goalGetterName": "J. Tah",
+                "scoringTeamId": 6,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

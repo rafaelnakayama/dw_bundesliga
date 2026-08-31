@@ -1,5 +1,75 @@
 [
     {
+        "matchID": 55334,
+        "matchDateTime": "2019-10-06T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2019-10-06T13:30:00Z",
+        "group": {
+            "groupName": "7. Spieltag",
+            "groupOrderID": 7,
+            "groupID": 34206
+        },
+        "team1": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 80,
+            "teamName": "1. FC Union Berlin",
+            "shortName": "Union Berlin",
+            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2019-10-06T17:25:02.47",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 89873,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 89872,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 81108,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 69,
+                "goalGetterID": 16906,
+                "goalGetterName": "Weghorst",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 55336,
         "matchDateTime": "2019-10-04T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -714,76 +784,6 @@
                 "goalGetterID": 16135,
                 "goalGetterName": "Breel Embolo",
                 "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 55334,
-        "matchDateTime": "2019-10-06T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4362,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
-        "leagueSeason": 2019,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2019-10-06T13:30:00Z",
-        "group": {
-            "groupName": "7. Spieltag",
-            "groupOrderID": 7,
-            "groupID": 34206
-        },
-        "team1": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 80,
-            "teamName": "1. FC Union Berlin",
-            "shortName": "Union Berlin",
-            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2019-10-06T17:25:02.47",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 89873,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 89872,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 81108,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 69,
-                "goalGetterID": 16906,
-                "goalGetterName": "Weghorst",
-                "scoringTeamId": 131,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

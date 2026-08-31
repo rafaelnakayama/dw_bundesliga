@@ -1,5 +1,61 @@
 [
     {
+        "matchID": 2193,
+        "matchDateTime": "2009-03-07T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 18,
+        "leagueName": "1. Fussball-Bundesliga 2008/2009",
+        "leagueSeason": 2008,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2009-03-07T14:30:00Z",
+        "group": {
+            "groupName": "23. Spieltag",
+            "groupOrderID": 23,
+            "groupID": 11155
+        },
+        "team1": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2009-03-07T17:21:14.42",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 5018,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 5,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 5019,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Stand zur der Pause"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 2199,
         "matchDateTime": "2009-03-06T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -156,62 +212,6 @@
                 "resultID": 5017,
                 "resultName": "Halbzeitergebnis",
                 "pointsTeam1": 2,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Stand zur der Pause"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 2193,
-        "matchDateTime": "2009-03-07T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 18,
-        "leagueName": "1. Fussball-Bundesliga 2008/2009",
-        "leagueSeason": 2008,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2009-03-07T14:30:00Z",
-        "group": {
-            "groupName": "23. Spieltag",
-            "groupOrderID": 23,
-            "groupID": 11155
-        },
-        "team1": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 55,
-            "teamName": "Hannover 96",
-            "shortName": "Hannover",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2009-03-07T17:21:14.42",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 5018,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 5,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 5019,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 3,
                 "pointsTeam2": 1,
                 "resultOrderID": 2,
                 "resultTypeID": 1,

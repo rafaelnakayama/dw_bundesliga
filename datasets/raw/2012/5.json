@@ -1,5 +1,118 @@
 [
     {
+        "matchID": 19744,
+        "matchDateTime": "2012-09-26T20:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 456,
+        "leagueName": "1. Fussball-Bundesliga 2012/2013",
+        "leagueSeason": 2012,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2012-09-26T18:00:00Z",
+        "group": {
+            "groupName": "5. Spieltag",
+            "groupOrderID": 5,
+            "groupID": 13145
+        },
+        "team1": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2012-09-26T21:10:33.62",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 30147,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 3,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 30148,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 3,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 13882,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 7,
+                "goalGetterID": 114,
+                "goalGetterName": "Kie\u00dfling",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 13887,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 39,
+                "goalGetterID": 1877,
+                "goalGetterName": "Wollscheid",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 13889,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 44,
+                "goalGetterID": 656,
+                "goalGetterName": "Sch\u00fcrrle",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 13911,
+                "scoreTeam1": 1,
+                "scoreTeam2": 3,
+                "matchMinute": 51,
+                "goalGetterID": 185,
+                "goalGetterName": "Werner",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 648,
+            "locationCity": "",
+            "locationStadium": "SGL-Arena"
+        },
+        "numberOfViewers": 25000
+    },
+    {
         "matchID": 19738,
         "matchDateTime": "2012-09-25T20:00:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -851,118 +964,5 @@
             "locationStadium": "MAGE SOLAR Stadion"
         },
         "numberOfViewers": 21000
-    },
-    {
-        "matchID": 19744,
-        "matchDateTime": "2012-09-26T20:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 456,
-        "leagueName": "1. Fussball-Bundesliga 2012/2013",
-        "leagueSeason": 2012,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-09-26T18:00:00Z",
-        "group": {
-            "groupName": "5. Spieltag",
-            "groupOrderID": 5,
-            "groupID": 13145
-        },
-        "team1": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2012-09-26T21:10:33.62",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 30147,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 3,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 30148,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 3,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 13882,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 7,
-                "goalGetterID": 114,
-                "goalGetterName": "Kie\u00dfling",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 13887,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 39,
-                "goalGetterID": 1877,
-                "goalGetterName": "Wollscheid",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 13889,
-                "scoreTeam1": 0,
-                "scoreTeam2": 3,
-                "matchMinute": 44,
-                "goalGetterID": 656,
-                "goalGetterName": "Sch\u00fcrrle",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 13911,
-                "scoreTeam1": 1,
-                "scoreTeam2": 3,
-                "matchMinute": 51,
-                "goalGetterID": 185,
-                "goalGetterName": "Werner",
-                "scoringTeamId": 95,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 648,
-            "locationCity": "",
-            "locationStadium": "SGL-Arena"
-        },
-        "numberOfViewers": 25000
     }
 ]

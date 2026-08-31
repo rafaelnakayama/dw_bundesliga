@@ -1,5 +1,65 @@
 [
     {
+        "matchID": 19861,
+        "matchDateTime": "2013-01-19T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 456,
+        "leagueName": "1. Fussball-Bundesliga 2012/2013",
+        "leagueSeason": 2012,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2013-01-19T14:30:00Z",
+        "group": {
+            "groupName": "18. Spieltag",
+            "groupOrderID": 18,
+            "groupID": 13158
+        },
+        "team1": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2013-01-19T17:22:02.75",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 33188,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 33189,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
+            }
+        ],
+        "goals": [],
+        "location": {
+            "locationID": 429,
+            "locationCity": "Mainz",
+            "locationStadium": "Coface-Arena"
+        },
+        "numberOfViewers": 20000
+    },
+    {
         "matchID": 19860,
         "matchDateTime": "2013-01-18T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -434,66 +494,6 @@
             "locationID": 435,
             "locationCity": "Wolfsburg",
             "locationStadium": "Volkswagen-Arena"
-        },
-        "numberOfViewers": 20000
-    },
-    {
-        "matchID": 19861,
-        "matchDateTime": "2013-01-19T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 456,
-        "leagueName": "1. Fussball-Bundesliga 2012/2013",
-        "leagueSeason": 2012,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2013-01-19T14:30:00Z",
-        "group": {
-            "groupName": "18. Spieltag",
-            "groupOrderID": 18,
-            "groupID": 13158
-        },
-        "team1": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2013-01-19T17:22:02.75",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 33188,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 33189,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
-            }
-        ],
-        "goals": [],
-        "location": {
-            "locationID": 429,
-            "locationCity": "Mainz",
-            "locationStadium": "Coface-Arena"
         },
         "numberOfViewers": 20000
     },

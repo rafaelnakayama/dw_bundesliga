@@ -1,5 +1,218 @@
 [
     {
+        "matchID": 51125,
+        "matchDateTime": "2018-08-25T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4276,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
+        "leagueSeason": 2018,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-08-25T13:30:00Z",
+        "group": {
+            "groupName": "1. Spieltag",
+            "groupOrderID": 1,
+            "groupID": 31775
+        },
+        "team1": {
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-08-25T17:27:20.913",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 82782,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 82781,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 70676,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 10,
+                "goalGetterID": 1457,
+                "goalGetterName": "N. M\u00fcller",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 70696,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 82,
+                "goalGetterID": 1256,
+                "goalGetterName": "Haller",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 966,
+            "locationCity": "Freiburg",
+            "locationStadium": "Schwarzwald-Stadion"
+        },
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 51122,
+        "matchDateTime": "2018-08-26T18:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4276,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
+        "leagueSeason": 2018,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-08-26T16:00:00Z",
+        "group": {
+            "groupName": "1. Spieltag",
+            "groupOrderID": 1,
+            "groupID": 31775
+        },
+        "team1": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-08-27T04:31:37.177",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 82839,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 3,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 82838,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 4,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 70797,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 1,
+                "goalGetterID": 16898,
+                "goalGetterName": "Jean-K\u00e9vin Augustin",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 70798,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 21,
+                "goalGetterID": 16213,
+                "goalGetterName": "Mahmoud Dahoud",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 70799,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 40,
+                "goalGetterID": 16044,
+                "goalGetterName": "Marcel Sabitzer",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 70800,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 43,
+                "goalGetterID": 15873,
+                "goalGetterName": "Axel Witsel",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 70801,
+                "scoreTeam1": 4,
+                "scoreTeam2": 1,
+                "matchMinute": 91,
+                "goalGetterID": 3426,
+                "goalGetterName": "Marco Reus",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 35,
+            "locationCity": "Dortmund",
+            "locationStadium": "Signal Iduna Park"
+        },
+        "numberOfViewers": null
+    },
+    {
         "matchID": 51121,
         "matchDateTime": "2018-08-24T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -270,93 +483,6 @@
             "locationID": 36,
             "locationCity": "Bremen",
             "locationStadium": "Weserstadion"
-        },
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 51125,
-        "matchDateTime": "2018-08-25T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4276,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
-        "leagueSeason": 2018,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2018-08-25T13:30:00Z",
-        "group": {
-            "groupName": "1. Spieltag",
-            "groupOrderID": 1,
-            "groupID": 31775
-        },
-        "team1": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2018-08-25T17:27:20.913",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 82782,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 82781,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 70676,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 10,
-                "goalGetterID": 1457,
-                "goalGetterName": "N. M\u00fcller",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 70696,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 82,
-                "goalGetterID": 1256,
-                "goalGetterName": "Haller",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 966,
-            "locationCity": "Freiburg",
-            "locationStadium": "Schwarzwald-Stadion"
         },
         "numberOfViewers": null
     },
@@ -733,131 +859,5 @@
             "locationStadium": "Coface-Arena"
         },
         "numberOfViewers": 28705
-    },
-    {
-        "matchID": 51122,
-        "matchDateTime": "2018-08-26T18:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4276,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
-        "leagueSeason": 2018,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2018-08-26T16:00:00Z",
-        "group": {
-            "groupName": "1. Spieltag",
-            "groupOrderID": 1,
-            "groupID": 31775
-        },
-        "team1": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 1635,
-            "teamName": "RB Leipzig",
-            "shortName": "Leipzig",
-            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2018-08-27T04:31:37.177",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 82839,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 3,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 82838,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 4,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 70797,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 1,
-                "goalGetterID": 16898,
-                "goalGetterName": "Jean-K\u00e9vin Augustin",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 70798,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 21,
-                "goalGetterID": 16213,
-                "goalGetterName": "Mahmoud Dahoud",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 70799,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 40,
-                "goalGetterID": 16044,
-                "goalGetterName": "Marcel Sabitzer",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": true,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 70800,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 43,
-                "goalGetterID": 15873,
-                "goalGetterName": "Axel Witsel",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 70801,
-                "scoreTeam1": 4,
-                "scoreTeam2": 1,
-                "matchMinute": 91,
-                "goalGetterID": 3426,
-                "goalGetterName": "Marco Reus",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 35,
-            "locationCity": "Dortmund",
-            "locationStadium": "Signal Iduna Park"
-        },
-        "numberOfViewers": null
     }
 ]

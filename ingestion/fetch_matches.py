@@ -101,5 +101,5 @@ def load_bronze():
 
 if __name__ == "__main__":
 
-    #loop_and_write(seasons, matchday)
+    loop_and_write(seasons, matchday)
     load_bronze()

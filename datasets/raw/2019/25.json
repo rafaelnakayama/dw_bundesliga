@@ -1,101 +1,5 @@
 [
     {
-        "matchID": 55501,
-        "matchDateTime": "2020-03-06T20:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4362,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
-        "leagueSeason": 2019,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2020-03-06T19:00:00Z",
-        "group": {
-            "groupName": "25. Spieltag",
-            "groupOrderID": 25,
-            "groupID": 34224
-        },
-        "team1": {
-            "teamId": 31,
-            "teamName": "SC Paderborn 07",
-            "shortName": "Paderborn",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2020-03-06T21:53:21.813",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 91275,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 91274,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 83220,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 28,
-                "goalGetterID": 16398,
-                "goalGetterName": "Mer\u00e9",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 83221,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 36,
-                "goalGetterID": 14625,
-                "goalGetterName": "Jonas Hector",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 83233,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 73,
-                "goalGetterID": 17946,
-                "goalGetterName": "D.Srebeny",
-                "scoringTeamId": 31,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 55494,
         "matchDateTime": "2020-03-07T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -195,6 +99,102 @@
                 "goalGetterID": 17869,
                 "goalGetterName": "Paulo Henrique Sampaio Filho",
                 "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 55501,
+        "matchDateTime": "2020-03-06T20:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2020-03-06T19:00:00Z",
+        "group": {
+            "groupName": "25. Spieltag",
+            "groupOrderID": 25,
+            "groupID": 34224
+        },
+        "team1": {
+            "teamId": 31,
+            "teamName": "SC Paderborn 07",
+            "shortName": "Paderborn",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2020-03-06T21:53:21.813",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 91275,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 91274,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 83220,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 28,
+                "goalGetterID": 16398,
+                "goalGetterName": "Mer\u00e9",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 83221,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 36,
+                "goalGetterID": 14625,
+                "goalGetterName": "Jonas Hector",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 83233,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 73,
+                "goalGetterID": 17946,
+                "goalGetterName": "D.Srebeny",
+                "scoringTeamId": 31,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

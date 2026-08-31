@@ -1,92 +1,5 @@
 [
     {
-        "matchID": 45614,
-        "matchDateTime": "2018-01-28T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4153,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
-        "leagueSeason": 2017,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2018-01-28T14:30:00Z",
-        "group": {
-            "groupName": "20. Spieltag",
-            "groupOrderID": 20,
-            "groupID": 28966
-        },
-        "team1": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2018-04-06T20:20:15.863",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 78597,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 78600,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 64033,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 48,
-                "goalGetterID": 16315,
-                "goalGetterName": "Bailey",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 64034,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 68,
-                "goalGetterID": 14955,
-                "goalGetterName": "Wendell",
-                "scoringTeamId": 6,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 28,
-            "locationCity": "Leverkusen",
-            "locationStadium": "BayArena"
-        },
-        "numberOfViewers": 25471
-    },
-    {
         "matchID": 45613,
         "matchDateTime": "2018-01-26T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -758,6 +671,93 @@
             "locationStadium": "Weser-Stadion"
         },
         "numberOfViewers": 40030
+    },
+    {
+        "matchID": 45614,
+        "matchDateTime": "2018-01-28T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4153,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
+        "leagueSeason": 2017,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-01-28T14:30:00Z",
+        "group": {
+            "groupName": "20. Spieltag",
+            "groupOrderID": 20,
+            "groupID": 28966
+        },
+        "team1": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-04-06T20:20:15.863",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 78597,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 78600,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 64033,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 48,
+                "goalGetterID": 16315,
+                "goalGetterName": "Bailey",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 64034,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 68,
+                "goalGetterID": 14955,
+                "goalGetterName": "Wendell",
+                "scoringTeamId": 6,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 28,
+            "locationCity": "Leverkusen",
+            "locationStadium": "BayArena"
+        },
+        "numberOfViewers": 25471
     },
     {
         "matchID": 45615,

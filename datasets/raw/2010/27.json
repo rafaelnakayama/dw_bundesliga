@@ -1,105 +1,5 @@
 [
     {
-        "matchID": 10238,
-        "matchDateTime": "2011-03-19T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 159,
-        "leagueName": "1. Fussball-Bundesliga 2010/2011",
-        "leagueSeason": 2010,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2011-03-19T14:30:00Z",
-        "group": {
-            "groupName": "27. Spieltag",
-            "groupOrderID": 27,
-            "groupID": 12201
-        },
-        "team1": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2011-03-19T21:13:27.317",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 19167,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 19168,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 4788,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 9,
-                "goalGetterID": 228,
-                "goalGetterName": "Gomez",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 4790,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 18,
-                "goalGetterID": 1090,
-                "goalGetterName": "Ciss\u00e9",
-                "scoringTeamId": 112,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 4810,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 88,
-                "goalGetterID": 513,
-                "goalGetterName": "Ribery",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 26,
-            "locationCity": "Freiburg",
-            "locationStadium": "badenova Stadion"
-        },
-        "numberOfViewers": 24000
-    },
-    {
         "matchID": 10237,
         "matchDateTime": "2011-03-18T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -437,6 +337,106 @@
             "locationStadium": "Commerzbank Arena"
         },
         "numberOfViewers": 50500
+    },
+    {
+        "matchID": 10238,
+        "matchDateTime": "2011-03-19T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 159,
+        "leagueName": "1. Fussball-Bundesliga 2010/2011",
+        "leagueSeason": 2010,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2011-03-19T14:30:00Z",
+        "group": {
+            "groupName": "27. Spieltag",
+            "groupOrderID": 27,
+            "groupID": 12201
+        },
+        "team1": {
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2011-03-19T21:13:27.317",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 19167,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 19168,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 4788,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 9,
+                "goalGetterID": 228,
+                "goalGetterName": "Gomez",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 4790,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 18,
+                "goalGetterID": 1090,
+                "goalGetterName": "Ciss\u00e9",
+                "scoringTeamId": 112,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 4810,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 88,
+                "goalGetterID": 513,
+                "goalGetterName": "Ribery",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 26,
+            "locationCity": "Freiburg",
+            "locationStadium": "badenova Stadion"
+        },
+        "numberOfViewers": 24000
     },
     {
         "matchID": 10239,

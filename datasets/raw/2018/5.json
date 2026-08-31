@@ -1,105 +1,5 @@
 [
     {
-        "matchID": 51164,
-        "matchDateTime": "2018-09-26T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4276,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
-        "leagueSeason": 2018,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2018-09-26T16:30:00Z",
-        "group": {
-            "groupName": "5. Spieltag",
-            "groupOrderID": 5,
-            "groupID": 31779
-        },
-        "team1": {
-            "teamId": 185,
-            "teamName": "Fortuna D\u00fcsseldorf",
-            "shortName": "D\u00fcsseldorf",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Fortuna_D%C3%BCsseldorf.svg/960px-Fortuna_D%C3%BCsseldorf.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2018-09-26T20:32:42.063",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 83361,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 83360,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 71667,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 51,
-                "goalGetterID": 16260,
-                "goalGetterName": "Kevin Volland\r\n",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 71668,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 60,
-                "goalGetterID": 16260,
-                "goalGetterName": "Kevin Volland\r\n",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 71669,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 90,
-                "goalGetterID": 14925,
-                "goalGetterName": " Hennings",
-                "scoringTeamId": 185,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 53,
-            "locationCity": "D\u00fcsseldorf",
-            "locationStadium": "ESPRIT Arena"
-        },
-        "numberOfViewers": null
-    },
-    {
         "matchID": 51160,
         "matchDateTime": "2018-09-25T18:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -483,6 +383,106 @@
             "locationID": 966,
             "locationCity": "Freiburg",
             "locationStadium": "Schwarzwald-Stadion"
+        },
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 51164,
+        "matchDateTime": "2018-09-26T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4276,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
+        "leagueSeason": 2018,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-09-26T16:30:00Z",
+        "group": {
+            "groupName": "5. Spieltag",
+            "groupOrderID": 5,
+            "groupID": 31779
+        },
+        "team1": {
+            "teamId": 185,
+            "teamName": "Fortuna D\u00fcsseldorf",
+            "shortName": "D\u00fcsseldorf",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Fortuna_D%C3%BCsseldorf.svg/960px-Fortuna_D%C3%BCsseldorf.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-09-26T20:32:42.063",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 83361,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 83360,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 71667,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 51,
+                "goalGetterID": 16260,
+                "goalGetterName": "Kevin Volland\r\n",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 71668,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 60,
+                "goalGetterID": 16260,
+                "goalGetterName": "Kevin Volland\r\n",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 71669,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 90,
+                "goalGetterID": 14925,
+                "goalGetterName": " Hennings",
+                "scoringTeamId": 185,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 53,
+            "locationCity": "D\u00fcsseldorf",
+            "locationStadium": "ESPRIT Arena"
         },
         "numberOfViewers": null
     },

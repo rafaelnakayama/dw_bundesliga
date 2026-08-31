@@ -1,79 +1,5 @@
 [
     {
-        "matchID": 45575,
-        "matchDateTime": "2017-12-12T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4153,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
-        "leagueSeason": 2017,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2017-12-12T19:30:00Z",
-        "group": {
-            "groupName": "16. Spieltag",
-            "groupOrderID": 16,
-            "groupID": 28962
-        },
-        "team1": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2018-04-06T18:07:54.283",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 77957,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 77960,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 63250,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 21,
-                "goalGetterID": 16053,
-                "goalGetterName": "Nils Petersen",
-                "scoringTeamId": 112,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 966,
-            "locationCity": "Freiburg",
-            "locationStadium": "Schwarzwald-Stadion"
-        },
-        "numberOfViewers": 23800
-    },
-    {
         "matchID": 45580,
         "matchDateTime": "2017-12-12T18:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -159,6 +85,80 @@
             "locationStadium": "Volkswagen Arena "
         },
         "numberOfViewers": 22827
+    },
+    {
+        "matchID": 45575,
+        "matchDateTime": "2017-12-12T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4153,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
+        "leagueSeason": 2017,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2017-12-12T19:30:00Z",
+        "group": {
+            "groupName": "16. Spieltag",
+            "groupOrderID": 16,
+            "groupID": 28962
+        },
+        "team1": {
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-04-06T18:07:54.283",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 77957,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 77960,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 63250,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 21,
+                "goalGetterID": 16053,
+                "goalGetterName": "Nils Petersen",
+                "scoringTeamId": 112,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 966,
+            "locationCity": "Freiburg",
+            "locationStadium": "Schwarzwald-Stadion"
+        },
+        "numberOfViewers": 23800
     },
     {
         "matchID": 45578,

@@ -1,61 +1,5 @@
 [
     {
-        "matchID": 2205,
-        "matchDateTime": "2009-03-14T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 18,
-        "leagueName": "1. Fussball-Bundesliga 2008/2009",
-        "leagueSeason": 2008,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2009-03-14T14:30:00Z",
-        "group": {
-            "groupName": "24. Spieltag",
-            "groupOrderID": 24,
-            "groupID": 11156
-        },
-        "team1": {
-            "teamId": 55,
-            "teamName": "Hannover 96",
-            "shortName": "Hannover",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2009-03-14T17:22:55.81",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 5152,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 4,
-                "pointsTeam2": 4,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 5153,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Stand zur der Pause"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 2202,
         "matchDateTime": "2009-03-13T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -213,6 +157,62 @@
                 "resultName": "Halbzeitergebnis",
                 "pointsTeam1": 0,
                 "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Stand zur der Pause"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 2205,
+        "matchDateTime": "2009-03-14T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 18,
+        "leagueName": "1. Fussball-Bundesliga 2008/2009",
+        "leagueSeason": 2008,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2009-03-14T14:30:00Z",
+        "group": {
+            "groupName": "24. Spieltag",
+            "groupOrderID": 24,
+            "groupID": 11156
+        },
+        "team1": {
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2009-03-14T17:22:55.81",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 5152,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 4,
+                "pointsTeam2": 4,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 5153,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",

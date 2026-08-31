@@ -1,101 +1,5 @@
 [
     {
-        "matchID": 63975,
-        "matchDateTime": "2022-11-05T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4562,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
-        "leagueSeason": 2022,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2022-11-05T14:30:00Z",
-        "group": {
-            "groupName": "13. Spieltag",
-            "groupOrderID": 13,
-            "groupID": 39893
-        },
-        "team1": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 129,
-            "teamName": "VfL Bochum",
-            "shortName": "Bochum",
-            "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2022-11-05T17:22:03.213",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 99927,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 99928,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 97474,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 8,
-                "goalGetterID": 18592,
-                "goalGetterName": "Y. Moukoko",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 97475,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 12,
-                "goalGetterID": 18721,
-                "goalGetterName": "G. Reyna",
-                "scoringTeamId": 7,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 97485,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 47,
-                "goalGetterID": 18592,
-                "goalGetterName": "Y. Moukoko",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 63976,
         "matchDateTime": "2022-11-04T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -291,6 +195,102 @@
                 "goalGetterID": 18704,
                 "goalGetterName": "A. Knauff",
                 "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 63975,
+        "matchDateTime": "2022-11-05T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2022-11-05T14:30:00Z",
+        "group": {
+            "groupName": "13. Spieltag",
+            "groupOrderID": 13,
+            "groupID": 39893
+        },
+        "team1": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 129,
+            "teamName": "VfL Bochum",
+            "shortName": "Bochum",
+            "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2022-11-05T17:22:03.213",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 99927,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 99928,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 97474,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 8,
+                "goalGetterID": 18592,
+                "goalGetterName": "Y. Moukoko",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 97475,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 12,
+                "goalGetterID": 18721,
+                "goalGetterName": "G. Reyna",
+                "scoringTeamId": 7,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 97485,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 47,
+                "goalGetterID": 18592,
+                "goalGetterName": "Y. Moukoko",
+                "scoringTeamId": 7,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

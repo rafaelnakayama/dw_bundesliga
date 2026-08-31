@@ -2,6 +2,8 @@ CREATE OR ALTER PROCEDURE bronze.load_bronze AS
 
 BEGIN
 
+    DROP TABLE bronze.dataframe;
+
     PRINT '>>> Dropping table: bronze.dataframe';
     IF OBJECT_ID ('bronze.dataframe', 'U') IS NOT NULL
         DROP TABLE bronze.dataframe;
@@ -39,6 +41,8 @@ BEGIN
     PRINT '';
     PRINT '>>> Empty bronze table successfuly created';
     PRINT '';
+
+    ORDER BY matchDateTime
 
     COMMIT
 

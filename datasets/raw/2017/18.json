@@ -1,50 +1,50 @@
 [
     {
-        "matchID": 45591,
-        "matchDateTime": "2018-01-13T18:30:00",
+        "matchID": 45597,
+        "matchDateTime": "2018-01-13T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4153,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
         "leagueSeason": 2017,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2018-01-13T17:30:00Z",
+        "matchDateTimeUTC": "2018-01-13T14:30:00Z",
         "group": {
             "groupName": "18. Spieltag",
             "groupOrderID": 18,
             "groupID": 28964
         },
         "team1": {
-            "teamId": 1635,
-            "teamName": "RB Leipzig",
-            "shortName": "Leipzig",
-            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2018-04-06T19:51:59.187",
+        "lastUpdateDateTime": "2018-04-06T19:53:39.933",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 78405,
+                "resultID": 78393,
                 "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
+                "pointsTeam1": 2,
+                "pointsTeam2": 2,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
                 "resultDescription": "Ergebnis zur Halbzeit"
             },
             {
-                "resultID": 78406,
+                "resultID": 78395,
                 "resultName": "Endergebnis",
                 "pointsTeam1": 3,
-                "pointsTeam2": 1,
+                "pointsTeam2": 2,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
@@ -53,52 +53,65 @@
         ],
         "goals": [
             {
-                "goalID": 63761,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 41,
-                "goalGetterID": 16054,
-                "goalGetterName": "Naby Keita",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 63762,
-                "scoreTeam1": 1,
+                "goalID": 63745,
+                "scoreTeam1": 0,
                 "scoreTeam2": 1,
-                "matchMinute": 55,
-                "goalGetterID": 310,
-                "goalGetterName": "Naldo",
-                "scoringTeamId": 9,
+                "matchMinute": 27,
+                "goalGetterID": 15370,
+                "goalGetterName": "Muto",
+                "scoringTeamId": 81,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 63763,
+                "goalID": 63747,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 31,
+                "goalGetterID": 15437,
+                "goalGetterName": "Hack",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 63748,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 34,
+                "goalGetterID": 18661,
+                "goalGetterName": "N. F\u00fcllkrug",
+                "scoringTeamId": 55,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 63749,
                 "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 69,
-                "goalGetterID": 16080,
-                "goalGetterName": "Timo Werner",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
+                "scoreTeam2": 2,
+                "matchMinute": 38,
+                "goalGetterID": 18661,
+                "goalGetterName": "N. F\u00fcllkrug",
+                "scoringTeamId": 55,
+                "isPenalty": true,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 63764,
+                "goalID": 63754,
                 "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 71,
-                "goalGetterID": 2583,
-                "goalGetterName": "Bruma",
-                "scoringTeamId": 1635,
+                "scoreTeam2": 2,
+                "matchMinute": 75,
+                "goalGetterID": 18661,
+                "goalGetterName": "N. F\u00fcllkrug",
+                "scoringTeamId": 55,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -106,11 +119,11 @@
             }
         ],
         "location": {
-            "locationID": 478,
-            "locationCity": "Leipzig",
-            "locationStadium": "Red Bull Arena"
+            "locationID": 944,
+            "locationCity": "Hannover",
+            "locationStadium": "HDI-Arena"
         },
-        "numberOfViewers": 42558
+        "numberOfViewers": 34500
     },
     {
         "matchID": 45595,
@@ -474,132 +487,6 @@
         "numberOfViewers": 30087
     },
     {
-        "matchID": 45597,
-        "matchDateTime": "2018-01-13T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4153,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
-        "leagueSeason": 2017,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2018-01-13T14:30:00Z",
-        "group": {
-            "groupName": "18. Spieltag",
-            "groupOrderID": 18,
-            "groupID": 28964
-        },
-        "team1": {
-            "teamId": 55,
-            "teamName": "Hannover 96",
-            "shortName": "Hannover",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2018-04-06T19:53:39.933",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 78393,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 78395,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 63745,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 27,
-                "goalGetterID": 15370,
-                "goalGetterName": "Muto",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 63747,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 31,
-                "goalGetterID": 15437,
-                "goalGetterName": "Hack",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 63748,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 34,
-                "goalGetterID": 18661,
-                "goalGetterName": "N. F\u00fcllkrug",
-                "scoringTeamId": 55,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 63749,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 38,
-                "goalGetterID": 18661,
-                "goalGetterName": "N. F\u00fcllkrug",
-                "scoringTeamId": 55,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 63754,
-                "scoreTeam1": 3,
-                "scoreTeam2": 2,
-                "matchMinute": 75,
-                "goalGetterID": 18661,
-                "goalGetterName": "N. F\u00fcllkrug",
-                "scoringTeamId": 55,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 944,
-            "locationCity": "Hannover",
-            "locationStadium": "HDI-Arena"
-        },
-        "numberOfViewers": 34500
-    },
-    {
         "matchID": 45598,
         "matchDateTime": "2018-01-13T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -672,6 +559,119 @@
             "locationStadium": "Mercedes-Benz Arena"
         },
         "numberOfViewers": 57181
+    },
+    {
+        "matchID": 45591,
+        "matchDateTime": "2018-01-13T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4153,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
+        "leagueSeason": 2017,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-01-13T17:30:00Z",
+        "group": {
+            "groupName": "18. Spieltag",
+            "groupOrderID": 18,
+            "groupID": 28964
+        },
+        "team1": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-04-06T19:51:59.187",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 78405,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 78406,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 63761,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 41,
+                "goalGetterID": 16054,
+                "goalGetterName": "Naby Keita",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 63762,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 55,
+                "goalGetterID": 310,
+                "goalGetterName": "Naldo",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 63763,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 69,
+                "goalGetterID": 16080,
+                "goalGetterName": "Timo Werner",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 63764,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 71,
+                "goalGetterID": 2583,
+                "goalGetterName": "Bruma",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 478,
+            "locationCity": "Leipzig",
+            "locationStadium": "Red Bull Arena"
+        },
+        "numberOfViewers": 42558
     },
     {
         "matchID": 45592,

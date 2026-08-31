@@ -1,5 +1,101 @@
 [
     {
+        "matchID": 14151,
+        "matchDateTime": "2011-12-09T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 307,
+        "leagueName": "1. Fussball-Bundesliga 2011/2012",
+        "leagueSeason": 2011,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2011-12-09T19:30:00Z",
+        "group": {
+            "groupName": "16. Spieltag",
+            "groupOrderID": 16,
+            "groupID": 12589
+        },
+        "team1": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2011-12-09T21:16:47.82",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 24496,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 24497,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit (bitte laufend eintragen. Waehrend laufender erster Halbzeit immer Halbzeit- und Endergebnis eintragen!)"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 8129,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 19,
+                "goalGetterID": 1207,
+                "goalGetterName": "Huntelaar",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 8130,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 25,
+                "goalGetterID": 777,
+                "goalGetterName": "Ramos",
+                "scoringTeamId": 54,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 8131,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 43,
+                "goalGetterID": 3357,
+                "goalGetterName": "Pukki",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 14144,
         "matchDateTime": "2011-12-10T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -112,6 +208,258 @@
                 "goalGetterID": 711,
                 "goalGetterName": "Sch\u00e4fer",
                 "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 14146,
+        "matchDateTime": "2011-12-10T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 307,
+        "leagueName": "1. Fussball-Bundesliga 2011/2012",
+        "leagueSeason": 2011,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2011-12-10T14:30:00Z",
+        "group": {
+            "groupName": "16. Spieltag",
+            "groupOrderID": 16,
+            "groupID": 12589
+        },
+        "team1": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 100,
+            "teamName": "Hamburger SV",
+            "shortName": "HSV",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2011-12-12T11:26:50.95",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 24504,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 24505,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit (bitte laufend eintragen. Waehrend laufender erster Halbzeit immer Halbzeit- und Endergebnis eintragen!)"
+            }
+        ],
+        "goals": [],
+        "location": {
+            "locationID": 52,
+            "locationCity": "",
+            "locationStadium": ""
+        },
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 14147,
+        "matchDateTime": "2011-12-10T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 307,
+        "leagueName": "1. Fussball-Bundesliga 2011/2012",
+        "leagueSeason": 2011,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2011-12-10T14:30:00Z",
+        "group": {
+            "groupName": "16. Spieltag",
+            "groupOrderID": 16,
+            "groupID": 12589
+        },
+        "team1": {
+            "teamId": 79,
+            "teamName": "1. FC N\u00fcrnberg",
+            "shortName": "N\u00fcrnberg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N\u00fcrnberg_logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 123,
+            "teamName": "TSG 1899 Hoffenheim",
+            "shortName": "TSG 1899 Hoffenheim",
+            "teamIconUrl": "https://www.openligadb.de/images/teamicons/TSG_Hoffenheim.gif",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2011-12-10T16:47:02.5",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 24506,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 24507,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit (bitte laufend eintragen. Waehrend laufender erster Halbzeit immer Halbzeit- und Endergebnis eintragen!)"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 8136,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 39,
+                "goalGetterID": 803,
+                "goalGetterName": "Ibisevic",
+                "scoringTeamId": 123,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 8137,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 56,
+                "goalGetterID": 803,
+                "goalGetterName": "Ibisevic",
+                "scoringTeamId": 123,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 14149,
+        "matchDateTime": "2011-12-10T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 307,
+        "leagueName": "1. Fussball-Bundesliga 2011/2012",
+        "leagueSeason": 2011,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2011-12-10T14:30:00Z",
+        "group": {
+            "groupName": "16. Spieltag",
+            "groupOrderID": 16,
+            "groupID": 12589
+        },
+        "team1": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2011-12-10T17:04:09.653",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 24508,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 4,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 24509,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit (bitte laufend eintragen. Waehrend laufender erster Halbzeit immer Halbzeit- und Endergebnis eintragen!)"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 8141,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 20,
+                "goalGetterID": 1652,
+                "goalGetterName": "Clemens",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 8142,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 60,
+                "goalGetterID": 98,
+                "goalGetterName": "Podolski",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 8144,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 65,
+                "goalGetterID": 1652,
+                "goalGetterName": "Clemens",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 8148,
+                "scoreTeam1": 4,
+                "scoreTeam2": 0,
+                "matchMinute": 73,
+                "goalGetterID": 98,
+                "goalGetterName": "Podolski",
+                "scoringTeamId": 65,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -428,354 +776,6 @@
             "locationCity": "",
             "locationStadium": ""
         },
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 14151,
-        "matchDateTime": "2011-12-09T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 307,
-        "leagueName": "1. Fussball-Bundesliga 2011/2012",
-        "leagueSeason": 2011,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2011-12-09T19:30:00Z",
-        "group": {
-            "groupName": "16. Spieltag",
-            "groupOrderID": 16,
-            "groupID": 12589
-        },
-        "team1": {
-            "teamId": 54,
-            "teamName": "Hertha BSC",
-            "shortName": "Hertha",
-            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2011-12-09T21:16:47.82",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 24496,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 24497,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit (bitte laufend eintragen. Waehrend laufender erster Halbzeit immer Halbzeit- und Endergebnis eintragen!)"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 8129,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 19,
-                "goalGetterID": 1207,
-                "goalGetterName": "Huntelaar",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 8130,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 25,
-                "goalGetterID": 777,
-                "goalGetterName": "Ramos",
-                "scoringTeamId": 54,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 8131,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 43,
-                "goalGetterID": 3357,
-                "goalGetterName": "Pukki",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 14146,
-        "matchDateTime": "2011-12-10T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 307,
-        "leagueName": "1. Fussball-Bundesliga 2011/2012",
-        "leagueSeason": 2011,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2011-12-10T14:30:00Z",
-        "group": {
-            "groupName": "16. Spieltag",
-            "groupOrderID": 16,
-            "groupID": 12589
-        },
-        "team1": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 100,
-            "teamName": "Hamburger SV",
-            "shortName": "HSV",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2011-12-12T11:26:50.95",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 24504,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 24505,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit (bitte laufend eintragen. Waehrend laufender erster Halbzeit immer Halbzeit- und Endergebnis eintragen!)"
-            }
-        ],
-        "goals": [],
-        "location": {
-            "locationID": 52,
-            "locationCity": "",
-            "locationStadium": ""
-        },
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 14147,
-        "matchDateTime": "2011-12-10T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 307,
-        "leagueName": "1. Fussball-Bundesliga 2011/2012",
-        "leagueSeason": 2011,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2011-12-10T14:30:00Z",
-        "group": {
-            "groupName": "16. Spieltag",
-            "groupOrderID": 16,
-            "groupID": 12589
-        },
-        "team1": {
-            "teamId": 79,
-            "teamName": "1. FC N\u00fcrnberg",
-            "shortName": "N\u00fcrnberg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N\u00fcrnberg_logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 123,
-            "teamName": "TSG 1899 Hoffenheim",
-            "shortName": "TSG 1899 Hoffenheim",
-            "teamIconUrl": "https://www.openligadb.de/images/teamicons/TSG_Hoffenheim.gif",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2011-12-10T16:47:02.5",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 24506,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 24507,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit (bitte laufend eintragen. Waehrend laufender erster Halbzeit immer Halbzeit- und Endergebnis eintragen!)"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 8136,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 39,
-                "goalGetterID": 803,
-                "goalGetterName": "Ibisevic",
-                "scoringTeamId": 123,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 8137,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 56,
-                "goalGetterID": 803,
-                "goalGetterName": "Ibisevic",
-                "scoringTeamId": 123,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 14149,
-        "matchDateTime": "2011-12-10T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 307,
-        "leagueName": "1. Fussball-Bundesliga 2011/2012",
-        "leagueSeason": 2011,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2011-12-10T14:30:00Z",
-        "group": {
-            "groupName": "16. Spieltag",
-            "groupOrderID": 16,
-            "groupID": 12589
-        },
-        "team1": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2011-12-10T17:04:09.653",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 24508,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 4,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 24509,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit (bitte laufend eintragen. Waehrend laufender erster Halbzeit immer Halbzeit- und Endergebnis eintragen!)"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 8141,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 20,
-                "goalGetterID": 1652,
-                "goalGetterName": "Clemens",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 8142,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 60,
-                "goalGetterID": 98,
-                "goalGetterName": "Podolski",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 8144,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 65,
-                "goalGetterID": 1652,
-                "goalGetterName": "Clemens",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 8148,
-                "scoreTeam1": 4,
-                "scoreTeam2": 0,
-                "matchMinute": 73,
-                "goalGetterID": 98,
-                "goalGetterName": "Podolski",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": null,
         "numberOfViewers": null
     }
 ]

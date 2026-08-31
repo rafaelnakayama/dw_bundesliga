@@ -1,47 +1,47 @@
 [
     {
-        "matchID": 10151,
-        "matchDateTime": "2011-01-15T18:30:00",
+        "matchID": 10154,
+        "matchDateTime": "2011-01-15T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 159,
         "leagueName": "1. Fussball-Bundesliga 2010/2011",
         "leagueSeason": 2010,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2011-01-15T17:30:00Z",
+        "matchDateTimeUTC": "2011-01-15T14:30:00Z",
         "group": {
             "groupName": "18. Spieltag",
             "groupOrderID": 18,
             "groupID": 12192
         },
         "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 100,
-            "teamName": "Hamburger SV",
-            "shortName": "HSV",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2011-01-15T20:20:10.877",
+        "lastUpdateDateTime": "2011-01-15T17:30:17.507",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 17539,
+                "resultID": 17527,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 17540,
+                "resultID": 17522,
                 "resultName": "Halbzeit",
                 "pointsTeam1": 0,
                 "pointsTeam2": 0,
@@ -53,17 +53,17 @@
         ],
         "goals": [
             {
-                "goalID": 4286,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 53,
-                "goalGetterID": 1755,
-                "goalGetterName": "Ruud van Nistelrooy",
-                "scoringTeamId": 100,
+                "goalID": 4282,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 79,
+                "goalGetterID": 860,
+                "goalGetterName": "Harnik",
+                "scoringTeamId": 16,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
-                "comment": ""
+                "comment": null
             }
         ],
         "location": null,
@@ -269,76 +269,6 @@
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": ""
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 10154,
-        "matchDateTime": "2011-01-15T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 159,
-        "leagueName": "1. Fussball-Bundesliga 2010/2011",
-        "leagueSeason": 2010,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2011-01-15T14:30:00Z",
-        "group": {
-            "groupName": "18. Spieltag",
-            "groupOrderID": 18,
-            "groupID": 12192
-        },
-        "team1": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2011-01-15T17:30:17.507",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 17527,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 17522,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 4282,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 79,
-                "goalGetterID": 860,
-                "goalGetterName": "Harnik",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
             }
         ],
         "location": null,
@@ -601,6 +531,76 @@
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 10151,
+        "matchDateTime": "2011-01-15T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 159,
+        "leagueName": "1. Fussball-Bundesliga 2010/2011",
+        "leagueSeason": 2010,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2011-01-15T17:30:00Z",
+        "group": {
+            "groupName": "18. Spieltag",
+            "groupOrderID": 18,
+            "groupID": 12192
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 100,
+            "teamName": "Hamburger SV",
+            "shortName": "HSV",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2011-01-15T20:20:10.877",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 17539,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 17540,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 4286,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 53,
+                "goalGetterID": 1755,
+                "goalGetterName": "Ruud van Nistelrooy",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
             }
         ],
         "location": null,

@@ -441,102 +441,6 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 5529,
-        "matchDateTime": "2010-03-06T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 71,
-        "leagueName": "1. Fussball-Bundesliga 2009/2010",
-        "leagueSeason": 2009,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-03-06T14:30:00Z",
-        "group": {
-            "groupName": "25. Spieltag",
-            "groupOrderID": 25,
-            "groupID": 11562
-        },
-        "team1": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 129,
-            "teamName": "VfL Bochum",
-            "shortName": "Bochum",
-            "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2010-03-06T17:21:05.597",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 11644,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 4,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 11645,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeitpause"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 2649,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 28,
-                "goalGetterID": 1029,
-                "goalGetterName": "Freier",
-                "scoringTeamId": 129,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 2655,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 59,
-                "goalGetterID": 74,
-                "goalGetterName": "Dzeko",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 2660,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 75,
-                "goalGetterID": 216,
-                "goalGetterName": "Martins",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 5530,
         "matchDateTime": "2010-03-06T18:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -815,6 +719,102 @@
                 "goalGetterID": 219,
                 "goalGetterName": "Bance",
                 "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 5529,
+        "matchDateTime": "2010-03-06T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 71,
+        "leagueName": "1. Fussball-Bundesliga 2009/2010",
+        "leagueSeason": 2009,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2010-03-06T14:30:00Z",
+        "group": {
+            "groupName": "25. Spieltag",
+            "groupOrderID": 25,
+            "groupID": 11562
+        },
+        "team1": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 129,
+            "teamName": "VfL Bochum",
+            "shortName": "Bochum",
+            "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2010-03-06T17:21:05.597",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 11644,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 4,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 11645,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeitpause"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 2649,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 28,
+                "goalGetterID": 1029,
+                "goalGetterName": "Freier",
+                "scoringTeamId": 129,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2655,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 59,
+                "goalGetterID": 74,
+                "goalGetterName": "Dzeko",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2660,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 75,
+                "goalGetterID": 216,
+                "goalGetterName": "Martins",
+                "scoringTeamId": 131,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

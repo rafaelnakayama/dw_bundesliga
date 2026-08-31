@@ -1,49 +1,49 @@
 [
     {
-        "matchID": 64025,
-        "matchDateTime": "2023-01-29T15:30:00",
+        "matchID": 64026,
+        "matchDateTime": "2023-01-28T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4562,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
         "leagueSeason": 2022,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2023-01-29T14:30:00Z",
+        "matchDateTimeUTC": "2023-01-28T14:30:00Z",
         "group": {
             "groupName": "18. Spieltag",
             "groupOrderID": 18,
             "groupID": 39898
         },
         "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2023-01-29T17:25:12.46",
+        "lastUpdateDateTime": "2023-01-28T17:28:48.117",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 100894,
+                "resultID": 100876,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 100895,
+                "resultID": 100877,
                 "resultName": "Halbzeit",
-                "pointsTeam1": 0,
+                "pointsTeam1": 1,
                 "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
@@ -51,7 +51,47 @@
                 "resultDescription": "Zwischenstand zur Halbzeit"
             }
         ],
-        "goals": [],
+        "goals": [
+            {
+                "goalID": 98506,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 24,
+                "goalGetterID": 18661,
+                "goalGetterName": "N. F\u00fcllkrug",
+                "scoringTeamId": 134,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 98516,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 77,
+                "goalGetterID": 18661,
+                "goalGetterName": "N. F\u00fcllkrug",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 98521,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 90,
+                "goalGetterID": 19764,
+                "goalGetterName": "K. Paredes",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
         "location": null,
         "numberOfViewers": null
     },
@@ -614,102 +654,6 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 64026,
-        "matchDateTime": "2023-01-28T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4562,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
-        "leagueSeason": 2022,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2023-01-28T14:30:00Z",
-        "group": {
-            "groupName": "18. Spieltag",
-            "groupOrderID": 18,
-            "groupID": 39898
-        },
-        "team1": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2023-01-28T17:28:48.117",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 100876,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 100877,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 98506,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 24,
-                "goalGetterID": 18661,
-                "goalGetterName": "N. F\u00fcllkrug",
-                "scoringTeamId": 134,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 98516,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 77,
-                "goalGetterID": 18661,
-                "goalGetterName": "N. F\u00fcllkrug",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 98521,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 90,
-                "goalGetterID": 19764,
-                "goalGetterName": "K. Paredes",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 64019,
         "matchDateTime": "2023-01-28T18:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -789,6 +733,62 @@
                 "comment": null
             }
         ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 64025,
+        "matchDateTime": "2023-01-29T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2023-01-29T14:30:00Z",
+        "group": {
+            "groupName": "18. Spieltag",
+            "groupOrderID": 18,
+            "groupID": 39898
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2023-01-29T17:25:12.46",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 100894,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 100895,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [],
         "location": null,
         "numberOfViewers": null
     },

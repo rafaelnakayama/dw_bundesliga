@@ -1,105 +1,5 @@
 [
     {
-        "matchID": 39774,
-        "matchDateTime": "2016-12-18T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3005,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
-        "leagueSeason": 2016,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2016-12-18T16:30:00Z",
-        "group": {
-            "groupName": "15. Spieltag",
-            "groupOrderID": 15,
-            "groupID": 23847
-        },
-        "team1": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 171,
-            "teamName": "FC Ingolstadt 04",
-            "shortName": "Ingolstadt",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/5/55/FC-Ingolstadt_logo.svg/960px-FC-Ingolstadt_logo.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2016-12-19T00:32:03.31",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 71299,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 71300,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 56389,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 26,
-                "goalGetterID": 8508,
-                "goalGetterName": "Alfredo Morales",
-                "scoringTeamId": 171,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 56396,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 63,
-                "goalGetterID": 16134,
-                "goalGetterName": "Admir Mehmedi",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 56397,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 74,
-                "goalGetterID": 16170,
-                "goalGetterName": "Almog Cohen",
-                "scoringTeamId": 171,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 28,
-            "locationCity": "Leverkusen",
-            "locationStadium": "BayArena"
-        },
-        "numberOfViewers": 25075
-    },
-    {
         "matchID": 39781,
         "matchDateTime": "2016-12-16T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -820,5 +720,105 @@
             "locationStadium": "Jonathan-Heimes-Stadion am B\u00f6llenfalltor"
         },
         "numberOfViewers": 17400
+    },
+    {
+        "matchID": 39774,
+        "matchDateTime": "2016-12-18T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2016-12-18T16:30:00Z",
+        "group": {
+            "groupName": "15. Spieltag",
+            "groupOrderID": 15,
+            "groupID": 23847
+        },
+        "team1": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 171,
+            "teamName": "FC Ingolstadt 04",
+            "shortName": "Ingolstadt",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/5/55/FC-Ingolstadt_logo.svg/960px-FC-Ingolstadt_logo.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2016-12-19T00:32:03.31",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 71299,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 71300,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 56389,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 26,
+                "goalGetterID": 8508,
+                "goalGetterName": "Alfredo Morales",
+                "scoringTeamId": 171,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 56396,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 63,
+                "goalGetterID": 16134,
+                "goalGetterName": "Admir Mehmedi",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 56397,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 74,
+                "goalGetterID": 16170,
+                "goalGetterName": "Almog Cohen",
+                "scoringTeamId": 171,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 28,
+            "locationCity": "Leverkusen",
+            "locationStadium": "BayArena"
+        },
+        "numberOfViewers": 25075
     }
 ]

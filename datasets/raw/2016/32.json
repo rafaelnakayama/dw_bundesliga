@@ -1,5 +1,88 @@
 [
     {
+        "matchID": 39928,
+        "matchDateTime": "2017-05-06T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2017-05-06T13:30:00Z",
+        "group": {
+            "groupName": "32. Spieltag",
+            "groupOrderID": 32,
+            "groupID": 23864
+        },
+        "team1": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2017-05-06T17:24:11.737",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 74667,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 74672,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 59209,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 49,
+                "goalGetterID": 16031,
+                "goalGetterName": "Daniel Didavi",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 59211,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 63,
+                "goalGetterID": 1848,
+                "goalGetterName": "Mario Gomez",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 39930,
         "matchDateTime": "2017-05-05T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -150,89 +233,6 @@
             "locationStadium": "RheinEnergieStadion "
         },
         "numberOfViewers": 50000
-    },
-    {
-        "matchID": 39928,
-        "matchDateTime": "2017-05-06T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3005,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
-        "leagueSeason": 2016,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2017-05-06T13:30:00Z",
-        "group": {
-            "groupName": "32. Spieltag",
-            "groupOrderID": 32,
-            "groupID": 23864
-        },
-        "team1": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2017-05-06T17:24:11.737",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 74667,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 74672,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 59209,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 49,
-                "goalGetterID": 16031,
-                "goalGetterName": "Daniel Didavi",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 59211,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 63,
-                "goalGetterID": 1848,
-                "goalGetterName": "Mario Gomez",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
     },
     {
         "matchID": 39929,

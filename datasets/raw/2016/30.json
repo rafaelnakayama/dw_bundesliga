@@ -1,5 +1,131 @@
 [
     {
+        "matchID": 39913,
+        "matchDateTime": "2017-04-22T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2017-04-22T16:30:00Z",
+        "group": {
+            "groupName": "30. Spieltag",
+            "groupOrderID": 30,
+            "groupID": 23862
+        },
+        "team1": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2017-04-24T15:48:29.827",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 74361,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 74362,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 3,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 58976,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 10,
+                "goalGetterID": 3426,
+                "goalGetterName": "Marco Reus",
+                "scoringTeamId": 7,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 58977,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 43,
+                "goalGetterID": 7445,
+                "goalGetterName": "Lars Stindl",
+                "scoringTeamId": 87,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 58978,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 48,
+                "goalGetterID": 1441,
+                "goalGetterName": "Schmelzer",
+                "scoringTeamId": 87,
+                "isPenalty": true,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": "Marcel Schmelzer"
+            },
+            {
+                "goalID": 58979,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 59,
+                "goalGetterID": 16033,
+                "goalGetterName": "Pierre-Emerick Aubameyang",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 58980,
+                "scoreTeam1": 2,
+                "scoreTeam2": 3,
+                "matchMinute": 87,
+                "goalGetterID": 18618,
+                "goalGetterName": "R. Guerreiro",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 444,
+            "locationCity": "M\u00f6nchengladbach",
+            "locationStadium": "Borussia-Park"
+        },
+        "numberOfViewers": 54014
+    },
+    {
         "matchID": 39912,
         "matchDateTime": "2017-04-21T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -637,132 +763,6 @@
             "locationStadium": "Olympiastadion"
         },
         "numberOfViewers": 40000
-    },
-    {
-        "matchID": 39913,
-        "matchDateTime": "2017-04-22T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3005,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
-        "leagueSeason": 2016,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2017-04-22T16:30:00Z",
-        "group": {
-            "groupName": "30. Spieltag",
-            "groupOrderID": 30,
-            "groupID": 23862
-        },
-        "team1": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2017-04-24T15:48:29.827",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 74361,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 74362,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 3,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 58976,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 10,
-                "goalGetterID": 3426,
-                "goalGetterName": "Marco Reus",
-                "scoringTeamId": 7,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 58977,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 43,
-                "goalGetterID": 7445,
-                "goalGetterName": "Lars Stindl",
-                "scoringTeamId": 87,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 58978,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 48,
-                "goalGetterID": 1441,
-                "goalGetterName": "Schmelzer",
-                "scoringTeamId": 87,
-                "isPenalty": true,
-                "isOwnGoal": true,
-                "isOvertime": false,
-                "comment": "Marcel Schmelzer"
-            },
-            {
-                "goalID": 58979,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 59,
-                "goalGetterID": 16033,
-                "goalGetterName": "Pierre-Emerick Aubameyang",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 58980,
-                "scoreTeam1": 2,
-                "scoreTeam2": 3,
-                "matchMinute": 87,
-                "goalGetterID": 18618,
-                "goalGetterName": "R. Guerreiro",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 444,
-            "locationCity": "M\u00f6nchengladbach",
-            "locationStadium": "Borussia-Park"
-        },
-        "numberOfViewers": 54014
     },
     {
         "matchID": 39915,

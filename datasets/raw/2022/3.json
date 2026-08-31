@@ -1,88 +1,5 @@
 [
     {
-        "matchID": 63887,
-        "matchDateTime": "2022-08-21T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4562,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
-        "leagueSeason": 2022,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2022-08-21T13:30:00Z",
-        "group": {
-            "groupName": "3. Spieltag",
-            "groupOrderID": 3,
-            "groupID": 39883
-        },
-        "team1": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2022-08-21T17:26:10.877",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 98681,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 98682,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 95456,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 72,
-                "goalGetterID": 18616,
-                "goalGetterName": "D. Kamada",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 95457,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 82,
-                "goalGetterID": 18496,
-                "goalGetterName": "J. Thielmann",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 63886,
         "matchDateTime": "2022-08-19T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -679,6 +596,89 @@
                 "goalGetterID": 10920,
                 "goalGetterName": "Orban",
                 "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 63887,
+        "matchDateTime": "2022-08-21T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2022-08-21T13:30:00Z",
+        "group": {
+            "groupName": "3. Spieltag",
+            "groupOrderID": 3,
+            "groupID": 39883
+        },
+        "team1": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2022-08-21T17:26:10.877",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 98681,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 98682,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 95456,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 72,
+                "goalGetterID": 18616,
+                "goalGetterName": "D. Kamada",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 95457,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 82,
+                "goalGetterID": 18496,
+                "goalGetterName": "J. Thielmann",
+                "scoringTeamId": 65,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

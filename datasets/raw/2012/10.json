@@ -1,5 +1,79 @@
 [
     {
+        "matchID": 19789,
+        "matchDateTime": "2012-11-03T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 456,
+        "leagueName": "1. Fussball-Bundesliga 2012/2013",
+        "leagueSeason": 2012,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2012-11-03T14:30:00Z",
+        "group": {
+            "groupName": "10. Spieltag",
+            "groupOrderID": 10,
+            "groupID": 13150
+        },
+        "team1": {
+            "teamId": 79,
+            "teamName": "1. FC N\u00fcrnberg",
+            "shortName": "N\u00fcrnberg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N\u00fcrnberg_logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2012-11-05T23:57:04.477",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 31195,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 31196,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 15262,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 76,
+                "goalGetterID": 1553,
+                "goalGetterName": "Gebhart",
+                "scoringTeamId": 79,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 668,
+            "locationCity": "N\u00fcrnberg",
+            "locationStadium": "Frankenstadion"
+        },
+        "numberOfViewers": 37586
+    },
+    {
         "matchID": 19792,
         "matchDateTime": "2012-11-02T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -319,80 +393,6 @@
             "locationStadium": ""
         },
         "numberOfViewers": null
-    },
-    {
-        "matchID": 19789,
-        "matchDateTime": "2012-11-03T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 456,
-        "leagueName": "1. Fussball-Bundesliga 2012/2013",
-        "leagueSeason": 2012,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-11-03T14:30:00Z",
-        "group": {
-            "groupName": "10. Spieltag",
-            "groupOrderID": 10,
-            "groupID": 13150
-        },
-        "team1": {
-            "teamId": 79,
-            "teamName": "1. FC N\u00fcrnberg",
-            "shortName": "N\u00fcrnberg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N\u00fcrnberg_logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2012-11-05T23:57:04.477",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 31195,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 31196,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 15262,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 76,
-                "goalGetterID": 1553,
-                "goalGetterName": "Gebhart",
-                "scoringTeamId": 79,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 668,
-            "locationCity": "N\u00fcrnberg",
-            "locationStadium": "Frankenstadion"
-        },
-        "numberOfViewers": 37586
     },
     {
         "matchID": 19790,

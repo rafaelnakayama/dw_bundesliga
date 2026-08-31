@@ -1,6 +1,6 @@
 [
     {
-        "matchID": 23942,
+        "matchID": 23943,
         "matchDateTime": "2013-11-23T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 623,
@@ -14,37 +14,37 @@
             "groupID": 13620
         },
         "team1": {
-            "teamId": 79,
-            "teamName": "1. FC N\u00fcrnberg",
-            "shortName": "N\u00fcrnberg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N\u00fcrnberg_logo.svg",
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamId": 123,
+            "teamName": "TSG 1899 Hoffenheim",
+            "shortName": "TSG 1899 Hoffenheim",
+            "teamIconUrl": "https://www.openligadb.de/images/teamicons/TSG_Hoffenheim.gif",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2013-12-08T22:35:46.877",
+        "lastUpdateDateTime": "2013-11-23T19:57:01.067",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 39847,
+                "resultID": 39839,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 39838,
+                "resultID": 39840,
                 "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
@@ -53,213 +53,26 @@
         ],
         "goals": [
             {
-                "goalID": 23797,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 39,
-                "goalGetterID": 10505,
-                "goalGetterName": "Arnold",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 23805,
+                "goalID": 23793,
                 "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 72,
-                "goalGetterID": 1531,
-                "goalGetterName": "Ginczek",
-                "scoringTeamId": 79,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 800,
-            "locationCity": "N\u00fcrnberg",
-            "locationStadium": "Grundig Stadion"
-        },
-        "numberOfViewers": 35678
-    },
-    {
-        "matchID": 23947,
-        "matchDateTime": "2013-11-23T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 623,
-        "leagueName": "1. Fussball-Bundesliga 2013/2014",
-        "leagueSeason": 2013,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2013-11-23T14:30:00Z",
-        "group": {
-            "groupName": "13. Spieltag",
-            "groupOrderID": 13,
-            "groupID": 13620
-        },
-        "team1": {
-            "teamId": 54,
-            "teamName": "Hertha BSC",
-            "shortName": "Hertha",
-            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2013-11-23T20:01:08.65",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 39845,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 39846,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 23796,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 28,
-                "goalGetterID": 114,
-                "goalGetterName": "Kie\u00dfling",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 22,
-            "locationCity": "Berlin",
-            "locationStadium": "Olympiastadion"
-        },
-        "numberOfViewers": 47419
-    },
-    {
-        "matchID": 23944,
-        "matchDateTime": "2013-11-24T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 623,
-        "leagueName": "1. Fussball-Bundesliga 2013/2014",
-        "leagueSeason": 2013,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2013-11-24T14:30:00Z",
-        "group": {
-            "groupName": "13. Spieltag",
-            "groupOrderID": 13,
-            "groupID": 13620
-        },
-        "team1": {
-            "teamId": 100,
-            "teamName": "Hamburger SV",
-            "shortName": "HSV",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 55,
-            "teamName": "Hannover 96",
-            "shortName": "Hannover",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2013-11-24T22:07:36.53",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 39869,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 39870,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 23836,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 28,
-                "goalGetterID": 7272,
-                "goalGetterName": "Huszti",
-                "scoringTeamId": 55,
+                "scoreTeam2": 0,
+                "matchMinute": 17,
+                "goalGetterID": 767,
+                "goalGetterName": "Altintop",
+                "scoringTeamId": 95,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 23837,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 31,
-                "goalGetterID": 8910,
-                "goalGetterName": "Badelj",
-                "scoringTeamId": 100,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 23838,
+                "goalID": 23795,
                 "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 46,
-                "goalGetterID": 1778,
-                "goalGetterName": "Beister",
-                "scoringTeamId": 100,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 23839,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 84,
-                "goalGetterID": 6557,
-                "goalGetterName": "Calhanoglu",
-                "scoringTeamId": 100,
+                "scoreTeam2": 0,
+                "matchMinute": 23,
+                "goalGetterID": 767,
+                "goalGetterName": "Altintop",
+                "scoringTeamId": 95,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -267,11 +80,11 @@
             }
         ],
         "location": {
-            "locationID": 362,
-            "locationCity": "Hamburg",
-            "locationStadium": "Imtech-Arena"
+            "locationID": 494,
+            "locationCity": "Augsburg",
+            "locationStadium": "SGL Arena"
         },
-        "numberOfViewers": 52091
+        "numberOfViewers": 27855
     },
     {
         "matchID": 23940,
@@ -361,7 +174,7 @@
         "numberOfViewers": 49560
     },
     {
-        "matchID": 23943,
+        "matchID": 23942,
         "matchDateTime": "2013-11-23T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 623,
@@ -375,37 +188,37 @@
             "groupID": 13620
         },
         "team1": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamId": 79,
+            "teamName": "1. FC N\u00fcrnberg",
+            "shortName": "N\u00fcrnberg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N\u00fcrnberg_logo.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 123,
-            "teamName": "TSG 1899 Hoffenheim",
-            "shortName": "TSG 1899 Hoffenheim",
-            "teamIconUrl": "https://www.openligadb.de/images/teamicons/TSG_Hoffenheim.gif",
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2013-11-23T19:57:01.067",
+        "lastUpdateDateTime": "2013-12-08T22:35:46.877",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 39839,
+                "resultID": 39847,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 39840,
+                "resultID": 39838,
                 "resultName": "Halbzeit",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
@@ -414,26 +227,26 @@
         ],
         "goals": [
             {
-                "goalID": 23793,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 17,
-                "goalGetterID": 767,
-                "goalGetterName": "Altintop",
-                "scoringTeamId": 95,
+                "goalID": 23797,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 39,
+                "goalGetterID": 10505,
+                "goalGetterName": "Arnold",
+                "scoringTeamId": 131,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 23795,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 23,
-                "goalGetterID": 767,
-                "goalGetterName": "Altintop",
-                "scoringTeamId": 95,
+                "goalID": 23805,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 72,
+                "goalGetterID": 1531,
+                "goalGetterName": "Ginczek",
+                "scoringTeamId": 79,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -441,11 +254,11 @@
             }
         ],
         "location": {
-            "locationID": 494,
-            "locationCity": "Augsburg",
-            "locationStadium": "SGL Arena"
+            "locationID": 800,
+            "locationCity": "N\u00fcrnberg",
+            "locationStadium": "Grundig Stadion"
         },
-        "numberOfViewers": 27855
+        "numberOfViewers": 35678
     },
     {
         "matchID": 23945,
@@ -661,6 +474,80 @@
         "numberOfViewers": 21810
     },
     {
+        "matchID": 23947,
+        "matchDateTime": "2013-11-23T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 623,
+        "leagueName": "1. Fussball-Bundesliga 2013/2014",
+        "leagueSeason": 2013,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2013-11-23T14:30:00Z",
+        "group": {
+            "groupName": "13. Spieltag",
+            "groupOrderID": 13,
+            "groupID": 13620
+        },
+        "team1": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2013-11-23T20:01:08.65",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 39845,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 39846,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 23796,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 28,
+                "goalGetterID": 114,
+                "goalGetterName": "Kie\u00dfling",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 22,
+            "locationCity": "Berlin",
+            "locationStadium": "Olympiastadion"
+        },
+        "numberOfViewers": 47419
+    },
+    {
         "matchID": 23939,
         "matchDateTime": "2013-11-23T18:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -759,6 +646,119 @@
             "locationStadium": "Signal-Iduna-Park"
         },
         "numberOfViewers": 80645
+    },
+    {
+        "matchID": 23944,
+        "matchDateTime": "2013-11-24T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 623,
+        "leagueName": "1. Fussball-Bundesliga 2013/2014",
+        "leagueSeason": 2013,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2013-11-24T14:30:00Z",
+        "group": {
+            "groupName": "13. Spieltag",
+            "groupOrderID": 13,
+            "groupID": 13620
+        },
+        "team1": {
+            "teamId": 100,
+            "teamName": "Hamburger SV",
+            "shortName": "HSV",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2013-11-24T22:07:36.53",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 39869,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 39870,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 23836,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 28,
+                "goalGetterID": 7272,
+                "goalGetterName": "Huszti",
+                "scoringTeamId": 55,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 23837,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 31,
+                "goalGetterID": 8910,
+                "goalGetterName": "Badelj",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 23838,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 46,
+                "goalGetterID": 1778,
+                "goalGetterName": "Beister",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 23839,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 84,
+                "goalGetterID": 6557,
+                "goalGetterName": "Calhanoglu",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 362,
+            "locationCity": "Hamburg",
+            "locationStadium": "Imtech-Arena"
+        },
+        "numberOfViewers": 52091
     },
     {
         "matchID": 23941,

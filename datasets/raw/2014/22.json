@@ -1,92 +1,5 @@
 [
     {
-        "matchID": 28189,
-        "matchDateTime": "2015-02-22T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 720,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2014/2015",
-        "leagueSeason": 2014,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2015-02-22T14:30:00Z",
-        "group": {
-            "groupName": "22. Spieltag",
-            "groupOrderID": 22,
-            "groupID": 14584
-        },
-        "team1": {
-            "teamId": 100,
-            "teamName": "Hamburger SV",
-            "shortName": "HSV",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2015-05-18T15:30:15.557",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 51272,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 51273,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 35256,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 73,
-                "goalGetterID": 763,
-                "goalGetterName": "Stieber",
-                "scoringTeamId": 100,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 35257,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 92,
-                "goalGetterID": 10871,
-                "goalGetterName": "Hrgota",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 430,
-            "locationCity": "Hamburg",
-            "locationStadium": ""
-        },
-        "numberOfViewers": null
-    },
-    {
         "matchID": 28188,
         "matchDateTime": "2015-02-20T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -834,6 +747,93 @@
         "location": {
             "locationID": 166,
             "locationCity": "K\u00f6ln",
+            "locationStadium": ""
+        },
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 28189,
+        "matchDateTime": "2015-02-22T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 720,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2014/2015",
+        "leagueSeason": 2014,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2015-02-22T14:30:00Z",
+        "group": {
+            "groupName": "22. Spieltag",
+            "groupOrderID": 22,
+            "groupID": 14584
+        },
+        "team1": {
+            "teamId": 100,
+            "teamName": "Hamburger SV",
+            "shortName": "HSV",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2015-05-18T15:30:15.557",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 51272,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 51273,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 35256,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 73,
+                "goalGetterID": 763,
+                "goalGetterName": "Stieber",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 35257,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 92,
+                "goalGetterID": 10871,
+                "goalGetterName": "Hrgota",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 430,
+            "locationCity": "Hamburg",
             "locationStadium": ""
         },
         "numberOfViewers": null

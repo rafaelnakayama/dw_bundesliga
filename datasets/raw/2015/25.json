@@ -1,5 +1,61 @@
 [
     {
+        "matchID": 33596,
+        "matchDateTime": "2016-03-06T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 848,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
+        "leagueSeason": 2015,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2016-03-06T14:30:00Z",
+        "group": {
+            "groupName": "25. Spieltag",
+            "groupOrderID": 25,
+            "groupID": 17774
+        },
+        "team1": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 118,
+            "teamName": "SV Darmstadt 98",
+            "shortName": "Darmstadt",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2016-03-06T17:35:39.33",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 62559,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 62560,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 33577,
         "matchDateTime": "2016-03-05T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -746,62 +802,6 @@
             },
             {
                 "resultID": 62432,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 33596,
-        "matchDateTime": "2016-03-06T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 848,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
-        "leagueSeason": 2015,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2016-03-06T14:30:00Z",
-        "group": {
-            "groupName": "25. Spieltag",
-            "groupOrderID": 25,
-            "groupID": 17774
-        },
-        "team1": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 118,
-            "teamName": "SV Darmstadt 98",
-            "shortName": "Darmstadt",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2016-03-06T17:35:39.33",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 62559,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 62560,
                 "resultName": "Endergebnis",
                 "pointsTeam1": 0,
                 "pointsTeam2": 0,

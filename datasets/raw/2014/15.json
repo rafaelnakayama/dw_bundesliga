@@ -1,49 +1,49 @@
 [
     {
-        "matchID": 28119,
-        "matchDateTime": "2014-12-13T15:30:00",
+        "matchID": 28122,
+        "matchDateTime": "2014-12-13T18:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 720,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2014/2015",
         "leagueSeason": 2014,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2014-12-13T14:30:00Z",
+        "matchDateTimeUTC": "2014-12-13T17:30:00Z",
         "group": {
             "groupName": "15. Spieltag",
             "groupOrderID": 15,
             "groupID": 14577
         },
         "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2015-05-19T10:47:27.75",
+        "lastUpdateDateTime": "2015-05-18T15:23:12.06",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 49617,
+                "resultID": 49662,
                 "resultName": "Endergebnis",
                 "pointsTeam1": 1,
-                "pointsTeam2": 2,
+                "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 49618,
+                "resultID": 49663,
                 "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
+                "pointsTeam1": 1,
                 "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
@@ -53,126 +53,26 @@
         ],
         "goals": [
             {
-                "goalID": 33548,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 46,
-                "goalGetterID": 3272,
-                "goalGetterName": "Ujah",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 33554,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 67,
-                "goalGetterID": 355,
-                "goalGetterName": "Lehmann",
-                "scoringTeamId": 65,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 33557,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 85,
-                "goalGetterID": 13083,
-                "goalGetterName": "Sane",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 986,
-            "locationCity": "Schalke",
-            "locationStadium": ""
-        },
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 28120,
-        "matchDateTime": "2014-12-14T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 720,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2014/2015",
-        "leagueSeason": 2014,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2014-12-14T14:30:00Z",
-        "group": {
-            "groupName": "15. Spieltag",
-            "groupOrderID": 15,
-            "groupID": 14577
-        },
-        "team1": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2015-05-18T15:23:16.957",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 49672,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 49673,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 33583,
+                "goalID": 33568,
                 "scoreTeam1": 1,
                 "scoreTeam2": 0,
-                "matchMinute": 18,
-                "goalGetterID": 6557,
-                "goalGetterName": "Calhanoglu",
-                "scoringTeamId": 6,
+                "matchMinute": 36,
+                "goalGetterID": 10603,
+                "goalGetterName": "Geis",
+                "scoringTeamId": 81,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": ""
             },
             {
-                "goalID": 33586,
+                "goalID": 33569,
                 "scoreTeam1": 1,
                 "scoreTeam2": 1,
-                "matchMinute": 40,
-                "goalGetterID": 123,
-                "goalGetterName": "Brouwers",
-                "scoringTeamId": 87,
+                "matchMinute": 72,
+                "goalGetterID": 14821,
+                "goalGetterName": "Kostic",
+                "scoringTeamId": 16,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -180,8 +80,8 @@
             }
         ],
         "location": {
-            "locationID": 489,
-            "locationCity": "Leverkusen",
+            "locationID": 153,
+            "locationCity": "Mainz",
             "locationStadium": ""
         },
         "numberOfViewers": null
@@ -308,6 +208,106 @@
         "location": {
             "locationID": 980,
             "locationCity": "Hoffenheim",
+            "locationStadium": ""
+        },
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 28119,
+        "matchDateTime": "2014-12-13T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 720,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2014/2015",
+        "leagueSeason": 2014,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2014-12-13T14:30:00Z",
+        "group": {
+            "groupName": "15. Spieltag",
+            "groupOrderID": 15,
+            "groupID": 14577
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2015-05-19T10:47:27.75",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 49617,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 49618,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 33548,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 46,
+                "goalGetterID": 3272,
+                "goalGetterName": "Ujah",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 33554,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 67,
+                "goalGetterID": 355,
+                "goalGetterName": "Lehmann",
+                "scoringTeamId": 65,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 33557,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 85,
+                "goalGetterID": 13083,
+                "goalGetterName": "Sane",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 986,
+            "locationCity": "Schalke",
             "locationStadium": ""
         },
         "numberOfViewers": null
@@ -699,38 +699,38 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 28122,
-        "matchDateTime": "2014-12-13T18:30:00",
+        "matchID": 28120,
+        "matchDateTime": "2014-12-14T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 720,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2014/2015",
         "leagueSeason": 2014,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2014-12-13T17:30:00Z",
+        "matchDateTimeUTC": "2014-12-14T14:30:00Z",
         "group": {
             "groupName": "15. Spieltag",
             "groupOrderID": 15,
             "groupID": 14577
         },
         "team1": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2015-05-18T15:23:12.06",
+        "lastUpdateDateTime": "2015-05-18T15:23:16.957",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 49662,
+                "resultID": 49672,
                 "resultName": "Endergebnis",
                 "pointsTeam1": 1,
                 "pointsTeam2": 1,
@@ -740,10 +740,10 @@
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 49663,
+                "resultID": 49673,
                 "resultName": "Halbzeitergebnis",
                 "pointsTeam1": 1,
-                "pointsTeam2": 0,
+                "pointsTeam2": 1,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
@@ -752,26 +752,26 @@
         ],
         "goals": [
             {
-                "goalID": 33568,
+                "goalID": 33583,
                 "scoreTeam1": 1,
                 "scoreTeam2": 0,
-                "matchMinute": 36,
-                "goalGetterID": 10603,
-                "goalGetterName": "Geis",
-                "scoringTeamId": 81,
+                "matchMinute": 18,
+                "goalGetterID": 6557,
+                "goalGetterName": "Calhanoglu",
+                "scoringTeamId": 6,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": ""
             },
             {
-                "goalID": 33569,
+                "goalID": 33586,
                 "scoreTeam1": 1,
                 "scoreTeam2": 1,
-                "matchMinute": 72,
-                "goalGetterID": 14821,
-                "goalGetterName": "Kostic",
-                "scoringTeamId": 16,
+                "matchMinute": 40,
+                "goalGetterID": 123,
+                "goalGetterName": "Brouwers",
+                "scoringTeamId": 87,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -779,8 +779,8 @@
             }
         ],
         "location": {
-            "locationID": 153,
-            "locationCity": "Mainz",
+            "locationID": 489,
+            "locationCity": "Leverkusen",
             "locationStadium": ""
         },
         "numberOfViewers": null

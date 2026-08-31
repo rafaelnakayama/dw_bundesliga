@@ -1,5 +1,88 @@
 [
     {
+        "matchID": 55549,
+        "matchDateTime": "2020-06-12T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2020-06-12T18:30:00Z",
+        "group": {
+            "groupName": "31. Spieltag",
+            "groupOrderID": 31,
+            "groupID": 34230
+        },
+        "team1": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2020-06-12T22:22:37.797",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 91680,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 91679,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 83867,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 9,
+                "goalGetterID": 17926,
+                "goalGetterName": "Olmo",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 83868,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 11,
+                "goalGetterID": 17926,
+                "goalGetterName": "Olmo",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 55548,
         "matchDateTime": "2020-06-13T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -99,172 +182,6 @@
                 "goalGetterID": 16923,
                 "goalGetterName": "R. Sallai",
                 "scoringTeamId": 112,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 55553,
-        "matchDateTime": "2020-06-14T18:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4362,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
-        "leagueSeason": 2019,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2020-06-14T16:00:00Z",
-        "group": {
-            "groupName": "31. Spieltag",
-            "groupOrderID": 31,
-            "groupID": 34230
-        },
-        "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2020-06-14T19:55:08.443",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 91797,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 91796,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 84019,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 51,
-                "goalGetterID": 14694,
-                "goalGetterName": "Caligiuri, Daniel",
-                "scoringTeamId": 9,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 84020,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 81,
-                "goalGetterID": 11782,
-                "goalGetterName": "Miranda",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": true,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 55549,
-        "matchDateTime": "2020-06-12T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4362,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
-        "leagueSeason": 2019,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2020-06-12T18:30:00Z",
-        "group": {
-            "groupName": "31. Spieltag",
-            "groupOrderID": 31,
-            "groupID": 34230
-        },
-        "team1": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 1635,
-            "teamName": "RB Leipzig",
-            "shortName": "Leipzig",
-            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2020-06-12T22:22:37.797",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 91680,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 91679,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 83867,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 9,
-                "goalGetterID": 17926,
-                "goalGetterName": "Olmo",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 83868,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 11,
-                "goalGetterID": 17926,
-                "goalGetterName": "Olmo",
-                "scoringTeamId": 1635,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -856,6 +773,89 @@
                 "scoringTeamId": 95,
                 "isPenalty": false,
                 "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 55553,
+        "matchDateTime": "2020-06-14T18:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2020-06-14T16:00:00Z",
+        "group": {
+            "groupName": "31. Spieltag",
+            "groupOrderID": 31,
+            "groupID": 34230
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2020-06-14T19:55:08.443",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 91797,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 91796,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 84019,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 51,
+                "goalGetterID": 14694,
+                "goalGetterName": "Caligiuri, Daniel",
+                "scoringTeamId": 9,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 84020,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 81,
+                "goalGetterID": 11782,
+                "goalGetterName": "Miranda",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": true,
                 "isOvertime": false,
                 "comment": null
             }

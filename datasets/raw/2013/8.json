@@ -1,5 +1,92 @@
 [
     {
+        "matchID": 23857,
+        "matchDateTime": "2013-10-04T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 623,
+        "leagueName": "1. Fussball-Bundesliga 2013/2014",
+        "leagueSeason": 2013,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2013-10-04T18:30:00Z",
+        "group": {
+            "groupName": "8. Spieltag",
+            "groupOrderID": 8,
+            "groupID": 13615
+        },
+        "team1": {
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2013-10-05T00:01:23.84",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 38780,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 38772,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 22629,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 23,
+                "goalGetterID": 877,
+                "goalGetterName": "Schulz",
+                "scoringTeamId": 55,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 22641,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 81,
+                "goalGetterID": 1818,
+                "goalGetterName": "Ronny",
+                "scoringTeamId": 54,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 845,
+            "locationCity": "Hannover",
+            "locationStadium": "HDI Arena"
+        },
+        "numberOfViewers": 46500
+    },
+    {
         "matchID": 23853,
         "matchDateTime": "2013-10-05T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -124,93 +211,6 @@
             "locationStadium": "Veltins-Arena"
         },
         "numberOfViewers": 60731
-    },
-    {
-        "matchID": 23857,
-        "matchDateTime": "2013-10-04T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 623,
-        "leagueName": "1. Fussball-Bundesliga 2013/2014",
-        "leagueSeason": 2013,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2013-10-04T18:30:00Z",
-        "group": {
-            "groupName": "8. Spieltag",
-            "groupOrderID": 8,
-            "groupID": 13615
-        },
-        "team1": {
-            "teamId": 55,
-            "teamName": "Hannover 96",
-            "shortName": "Hannover",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 54,
-            "teamName": "Hertha BSC",
-            "shortName": "Hertha",
-            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2013-10-05T00:01:23.84",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 38780,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 38772,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 22629,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 23,
-                "goalGetterID": 877,
-                "goalGetterName": "Schulz",
-                "scoringTeamId": 55,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 22641,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 81,
-                "goalGetterID": 1818,
-                "goalGetterName": "Ronny",
-                "scoringTeamId": 54,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 845,
-            "locationCity": "Hannover",
-            "locationStadium": "HDI Arena"
-        },
-        "numberOfViewers": 46500
     },
     {
         "matchID": 23854,

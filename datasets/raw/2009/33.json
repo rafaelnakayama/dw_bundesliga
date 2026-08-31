@@ -1,6 +1,6 @@
 [
     {
-        "matchID": 5598,
+        "matchID": 5603,
         "matchDateTime": "2010-05-01T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 71,
@@ -14,26 +14,26 @@
             "groupID": 11570
         },
         "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2010-05-01T17:20:25.907",
+        "lastUpdateDateTime": "2010-05-01T17:22:01.943",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 13271,
+                "resultID": 13276,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 0,
+                "pointsTeam1": 2,
                 "pointsTeam2": 2,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
@@ -41,7 +41,7 @@
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 13272,
+                "resultID": 13277,
                 "resultName": "Halbzeitergebnis",
                 "pointsTeam1": 0,
                 "pointsTeam2": 0,
@@ -242,6 +242,62 @@
         "numberOfViewers": null
     },
     {
+        "matchID": 5598,
+        "matchDateTime": "2010-05-01T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 71,
+        "leagueName": "1. Fussball-Bundesliga 2009/2010",
+        "leagueSeason": 2009,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2010-05-01T13:30:00Z",
+        "group": {
+            "groupName": "33. Spieltag",
+            "groupOrderID": 33,
+            "groupID": 11570
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2010-05-01T17:20:25.907",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 13271,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 13272,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeitpause"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 5599,
         "matchDateTime": "2010-05-01T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -426,62 +482,6 @@
             "locationStadium": "Rhein Energie Stadion "
         },
         "numberOfViewers": 0
-    },
-    {
-        "matchID": 5603,
-        "matchDateTime": "2010-05-01T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 71,
-        "leagueName": "1. Fussball-Bundesliga 2009/2010",
-        "leagueSeason": 2009,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-05-01T13:30:00Z",
-        "group": {
-            "groupName": "33. Spieltag",
-            "groupOrderID": 33,
-            "groupID": 11570
-        },
-        "team1": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2010-05-01T17:22:01.943",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 13276,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 13277,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeitpause"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
     },
     {
         "matchID": 5604,

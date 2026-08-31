@@ -1,101 +1,5 @@
 [
     {
-        "matchID": 55302,
-        "matchDateTime": "2019-08-31T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4362,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
-        "leagueSeason": 2019,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2019-08-31T13:30:00Z",
-        "group": {
-            "groupName": "3. Spieltag",
-            "groupOrderID": 3,
-            "groupID": 34202
-        },
-        "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 54,
-            "teamName": "Hertha BSC",
-            "shortName": "Hertha",
-            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2019-08-31T17:29:42.157",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 89478,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 89477,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 80500,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 38,
-                "goalGetterID": 16173,
-                "goalGetterName": "Niklas Stark",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": true,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 80502,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 48,
-                "goalGetterID": 16334,
-                "goalGetterName": "Rekik",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": true,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 80509,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 86,
-                "goalGetterID": 17767,
-                "goalGetterName": "Kenny, J.",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 55297,
         "matchDateTime": "2019-08-30T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -578,6 +482,102 @@
                 "goalGetterID": 17768,
                 "goalGetterName": "Skhiri, E.",
                 "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 55302,
+        "matchDateTime": "2019-08-31T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2019-08-31T13:30:00Z",
+        "group": {
+            "groupName": "3. Spieltag",
+            "groupOrderID": 3,
+            "groupID": 34202
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2019-08-31T17:29:42.157",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 89478,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 89477,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 80500,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 38,
+                "goalGetterID": 16173,
+                "goalGetterName": "Niklas Stark",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 80502,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 48,
+                "goalGetterID": 16334,
+                "goalGetterName": "Rekik",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 80509,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 86,
+                "goalGetterID": 17767,
+                "goalGetterName": "Kenny, J.",
+                "scoringTeamId": 9,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

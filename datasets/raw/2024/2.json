@@ -1,5 +1,236 @@
 [
     {
+        "matchID": 72226,
+        "matchDateTime": "2024-08-31T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4741,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2024/2025",
+        "leagueSeason": 2024,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2024-08-31T13:30:00Z",
+        "group": {
+            "groupName": "2. Spieltag",
+            "groupOrderID": 2,
+            "groupID": 45118
+        },
+        "team1": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2024-08-31T18:15:42.42",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 111584,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 111585,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 116926,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 24,
+                "goalGetterID": 22919,
+                "goalGetterName": "H. Ekitike",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 116931,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 33,
+                "goalGetterID": 6467,
+                "goalGetterName": "Larsson",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 116933,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 54,
+                "goalGetterID": 18327,
+                "goalGetterName": "A. Kramaric",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 116934,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 56,
+                "goalGetterID": 18444,
+                "goalGetterName": "O. Marmoush",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 72223,
+        "matchDateTime": "2024-08-31T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4741,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2024/2025",
+        "leagueSeason": 2024,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2024-08-31T16:30:00Z",
+        "group": {
+            "groupName": "2. Spieltag",
+            "groupOrderID": 2,
+            "groupID": 45118
+        },
+        "team1": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2024-08-31T20:44:19.603",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 111598,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 111599,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 3,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 116942,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 39,
+                "goalGetterID": 19129,
+                "goalGetterName": "J. Frimpong",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 116943,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 45,
+                "goalGetterID": 19527,
+                "goalGetterName": "A. Grimaldo",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 116944,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 45,
+                "goalGetterID": 20060,
+                "goalGetterName": "K. Kampl",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": "+7"
+            },
+            {
+                "goalID": 116945,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 57,
+                "goalGetterID": 20224,
+                "goalGetterName": "L. Openda",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 116946,
+                "scoreTeam1": 2,
+                "scoreTeam2": 3,
+                "matchMinute": 80,
+                "goalGetterID": 20224,
+                "goalGetterName": "L. Openda",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 72229,
         "matchDateTime": "2024-08-30T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -198,115 +429,6 @@
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": true,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 72226,
-        "matchDateTime": "2024-08-31T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4741,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2024/2025",
-        "leagueSeason": 2024,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2024-08-31T13:30:00Z",
-        "group": {
-            "groupName": "2. Spieltag",
-            "groupOrderID": 2,
-            "groupID": 45118
-        },
-        "team1": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2024-08-31T18:15:42.42",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 111584,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            },
-            {
-                "resultID": 111585,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 116926,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 24,
-                "goalGetterID": 22919,
-                "goalGetterName": "H. Ekitike",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 116931,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 33,
-                "goalGetterID": 6467,
-                "goalGetterName": "Larsson",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 116933,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 54,
-                "goalGetterID": 18327,
-                "goalGetterName": "A. Kramaric",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 116934,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 56,
-                "goalGetterID": 18444,
-                "goalGetterName": "O. Marmoush",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
                 "comment": null
             }
         ],
@@ -526,128 +648,6 @@
                 "goalGetterID": 18785,
                 "goalGetterName": "S. Bornauw",
                 "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 72223,
-        "matchDateTime": "2024-08-31T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4741,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2024/2025",
-        "leagueSeason": 2024,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2024-08-31T16:30:00Z",
-        "group": {
-            "groupName": "2. Spieltag",
-            "groupOrderID": 2,
-            "groupID": 45118
-        },
-        "team1": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 1635,
-            "teamName": "RB Leipzig",
-            "shortName": "Leipzig",
-            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2024-08-31T20:44:19.603",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 111598,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            },
-            {
-                "resultID": 111599,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 3,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 116942,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 39,
-                "goalGetterID": 19129,
-                "goalGetterName": "J. Frimpong",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 116943,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 45,
-                "goalGetterID": 19527,
-                "goalGetterName": "A. Grimaldo",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 116944,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 45,
-                "goalGetterID": 20060,
-                "goalGetterName": "K. Kampl",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": "+7"
-            },
-            {
-                "goalID": 116945,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 57,
-                "goalGetterID": 20224,
-                "goalGetterName": "L. Openda",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 116946,
-                "scoreTeam1": 2,
-                "scoreTeam2": 3,
-                "matchMinute": 80,
-                "goalGetterID": 20224,
-                "goalGetterName": "L. Openda",
-                "scoringTeamId": 1635,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

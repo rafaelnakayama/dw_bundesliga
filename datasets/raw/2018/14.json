@@ -1,101 +1,5 @@
 [
     {
-        "matchID": 51243,
-        "matchDateTime": "2018-12-08T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4276,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
-        "leagueSeason": 2018,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2018-12-08T14:30:00Z",
-        "group": {
-            "groupName": "14. Spieltag",
-            "groupOrderID": 14,
-            "groupID": 31788
-        },
-        "team1": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 1635,
-            "teamName": "RB Leipzig",
-            "shortName": "Leipzig",
-            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2018-12-08T17:25:44.067",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 84869,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 84868,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 74066,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 12,
-                "goalGetterID": 16053,
-                "goalGetterName": "Nils Petersen",
-                "scoringTeamId": 112,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 74071,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 45,
-                "goalGetterID": 15274,
-                "goalGetterName": "L. Waldschmidt",
-                "scoringTeamId": 112,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 74072,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 52,
-                "goalGetterID": 14565,
-                "goalGetterName": "Mike Frantz",
-                "scoringTeamId": 112,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 51242,
         "matchDateTime": "2018-12-07T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -465,6 +369,102 @@
                 "goalGetterID": 16277,
                 "goalGetterName": "Alario",
                 "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 51243,
+        "matchDateTime": "2018-12-08T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4276,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
+        "leagueSeason": 2018,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-12-08T14:30:00Z",
+        "group": {
+            "groupName": "14. Spieltag",
+            "groupOrderID": 14,
+            "groupID": 31788
+        },
+        "team1": {
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-12-08T17:25:44.067",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 84869,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 84868,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 74066,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 12,
+                "goalGetterID": 16053,
+                "goalGetterName": "Nils Petersen",
+                "scoringTeamId": 112,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 74071,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 45,
+                "goalGetterID": 15274,
+                "goalGetterName": "L. Waldschmidt",
+                "scoringTeamId": 112,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 74072,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 52,
+                "goalGetterID": 14565,
+                "goalGetterName": "Mike Frantz",
+                "scoringTeamId": 112,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

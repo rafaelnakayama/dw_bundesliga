@@ -1,49 +1,49 @@
 [
     {
-        "matchID": 61025,
-        "matchDateTime": "2022-02-05T15:30:00",
+        "matchID": 61027,
+        "matchDateTime": "2022-02-05T18:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4500,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
         "leagueSeason": 2021,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2022-02-05T14:30:00Z",
+        "matchDateTimeUTC": "2022-02-05T17:30:00Z",
         "group": {
             "groupName": "21. Spieltag",
             "groupOrderID": 21,
             "groupID": 38197
         },
         "team1": {
-            "teamId": 83,
-            "teamName": "DSC Arminia Bielefeld",
-            "shortName": "Bielefeld",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2022-02-05T17:24:02.17",
+        "lastUpdateDateTime": "2022-02-05T20:23:13.547",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 97285,
+                "resultID": 97295,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
+                "pointsTeam1": 3,
+                "pointsTeam2": 2,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 97286,
+                "resultID": 97296,
                 "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
+                "pointsTeam1": 2,
                 "pointsTeam2": 1,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
@@ -53,28 +53,67 @@
         ],
         "goals": [
             {
-                "goalID": 93110,
+                "goalID": 93120,
                 "scoreTeam1": 1,
                 "scoreTeam2": 0,
-                "matchMinute": 19,
-                "goalGetterID": 18335,
-                "goalGetterName": "J. Serra",
-                "scoringTeamId": 83,
+                "matchMinute": 12,
+                "goalGetterID": 15523,
+                "goalGetterName": " T. M\u00fcller",
+                "scoringTeamId": 40,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 93112,
+                "goalID": 93121,
                 "scoreTeam1": 1,
                 "scoreTeam2": 1,
-                "matchMinute": 38,
-                "goalGetterID": 18574,
-                "goalGetterName": "A. Plea",
-                "scoringTeamId": 87,
+                "matchMinute": 27,
+                "goalGetterID": 18484,
+                "goalGetterName": "A. Silva",
+                "scoringTeamId": 1635,
                 "isPenalty": false,
                 "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 93122,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 44,
+                "goalGetterID": 1478,
+                "goalGetterName": "Robert Lewandowski",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 93123,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 53,
+                "goalGetterID": 18782,
+                "goalGetterName": "C. Nkunku",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 93124,
+                "scoreTeam1": 3,
+                "scoreTeam2": 2,
+                "matchMinute": 58,
+                "goalGetterID": 19193,
+                "goalGetterName": "J. Gvardiol",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": true,
                 "isOvertime": false,
                 "comment": null
             }
@@ -156,6 +195,89 @@
                 "goalGetterID": 3186,
                 "goalGetterName": "Sebastian Polter",
                 "scoringTeamId": 129,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 61025,
+        "matchDateTime": "2022-02-05T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4500,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
+        "leagueSeason": 2021,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2022-02-05T14:30:00Z",
+        "group": {
+            "groupName": "21. Spieltag",
+            "groupOrderID": 21,
+            "groupID": 38197
+        },
+        "team1": {
+            "teamId": 83,
+            "teamName": "DSC Arminia Bielefeld",
+            "shortName": "Bielefeld",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2022-02-05T17:24:02.17",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 97285,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 97286,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 93110,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 19,
+                "goalGetterID": 18335,
+                "goalGetterName": "J. Serra",
+                "scoringTeamId": 83,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 93112,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 38,
+                "goalGetterID": 18574,
+                "goalGetterName": "A. Plea",
+                "scoringTeamId": 87,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -516,128 +638,6 @@
                 "scoringTeamId": 91,
                 "isPenalty": false,
                 "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 61027,
-        "matchDateTime": "2022-02-05T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4500,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
-        "leagueSeason": 2021,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2022-02-05T17:30:00Z",
-        "group": {
-            "groupName": "21. Spieltag",
-            "groupOrderID": 21,
-            "groupID": 38197
-        },
-        "team1": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 1635,
-            "teamName": "RB Leipzig",
-            "shortName": "Leipzig",
-            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2022-02-05T20:23:13.547",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 97295,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 97296,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 93120,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 12,
-                "goalGetterID": 15523,
-                "goalGetterName": " T. M\u00fcller",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 93121,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 27,
-                "goalGetterID": 18484,
-                "goalGetterName": "A. Silva",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 93122,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 44,
-                "goalGetterID": 1478,
-                "goalGetterName": "Robert Lewandowski",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 93123,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 53,
-                "goalGetterID": 18782,
-                "goalGetterName": "C. Nkunku",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 93124,
-                "scoreTeam1": 3,
-                "scoreTeam2": 2,
-                "matchMinute": 58,
-                "goalGetterID": 19193,
-                "goalGetterName": "J. Gvardiol",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": true,
                 "isOvertime": false,
                 "comment": null
             }

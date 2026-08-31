@@ -1,75 +1,5 @@
 [
     {
-        "matchID": 58727,
-        "matchDateTime": "2021-01-19T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4442,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2020/2021",
-        "leagueSeason": 2020,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2021-01-19T17:30:00Z",
-        "group": {
-            "groupName": "17. Spieltag",
-            "groupOrderID": 17,
-            "groupID": 36502
-        },
-        "team1": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2021-01-19T20:22:59.897",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 93501,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 93502,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 87186,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 66,
-                "goalGetterID": 18490,
-                "goalGetterName": "N. Elvedi",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 58726,
         "matchDateTime": "2021-01-19T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -156,6 +86,76 @@
                 "goalGetterID": 18494,
                 "goalGetterName": "F. Wirtz",
                 "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 58727,
+        "matchDateTime": "2021-01-19T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4442,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2020/2021",
+        "leagueSeason": 2020,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2021-01-19T17:30:00Z",
+        "group": {
+            "groupName": "17. Spieltag",
+            "groupOrderID": 17,
+            "groupID": 36502
+        },
+        "team1": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2021-01-19T20:22:59.897",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 93501,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 93502,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 87186,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 66,
+                "goalGetterID": 18490,
+                "goalGetterName": "N. Elvedi",
+                "scoringTeamId": 87,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

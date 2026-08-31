@@ -1,140 +1,5 @@
 [
     {
-        "matchID": 66705,
-        "matchDateTime": "2023-10-29T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4608,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
-        "leagueSeason": 2023,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2023-10-29T14:30:00Z",
-        "group": {
-            "groupName": "9. Spieltag",
-            "groupOrderID": 9,
-            "groupID": 41137
-        },
-        "team1": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2023-10-29T17:31:38.827",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 104679,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            },
-            {
-                "resultID": 104678,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 3,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 105237,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 8,
-                "goalGetterID": 18444,
-                "goalGetterName": "O. Marmoush",
-                "scoringTeamId": 91,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 105244,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 24,
-                "goalGetterID": 18444,
-                "goalGetterName": "O. Marmoush",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 105247,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 45,
-                "goalGetterID": 18567,
-                "goalGetterName": "M. Sabitzer",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": null
-            },
-            {
-                "goalID": 105248,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 55,
-                "goalGetterID": 18592,
-                "goalGetterName": "Y. Moukoko",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 105249,
-                "scoreTeam1": 3,
-                "scoreTeam2": 2,
-                "matchMinute": 68,
-                "goalGetterID": 20775,
-                "goalGetterName": "F. Chaibi",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 105250,
-                "scoreTeam1": 3,
-                "scoreTeam2": 3,
-                "matchMinute": 82,
-                "goalGetterID": 18492,
-                "goalGetterName": "J. Brandt",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 66708,
         "matchDateTime": "2023-10-27T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -953,6 +818,141 @@
                 "goalGetterID": 18529,
                 "goalGetterName": "C. Baumgartner",
                 "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 66705,
+        "matchDateTime": "2023-10-29T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4608,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
+        "leagueSeason": 2023,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2023-10-29T14:30:00Z",
+        "group": {
+            "groupName": "9. Spieltag",
+            "groupOrderID": 9,
+            "groupID": 41137
+        },
+        "team1": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2023-10-29T17:31:38.827",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 104679,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            },
+            {
+                "resultID": 104678,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 3,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 105237,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 8,
+                "goalGetterID": 18444,
+                "goalGetterName": "O. Marmoush",
+                "scoringTeamId": 91,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 105244,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 24,
+                "goalGetterID": 18444,
+                "goalGetterName": "O. Marmoush",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 105247,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 45,
+                "goalGetterID": 18567,
+                "goalGetterName": "M. Sabitzer",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            },
+            {
+                "goalID": 105248,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 55,
+                "goalGetterID": 18592,
+                "goalGetterName": "Y. Moukoko",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 105249,
+                "scoreTeam1": 3,
+                "scoreTeam2": 2,
+                "matchMinute": 68,
+                "goalGetterID": 20775,
+                "goalGetterName": "F. Chaibi",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 105250,
+                "scoreTeam1": 3,
+                "scoreTeam2": 3,
+                "matchMinute": 82,
+                "goalGetterID": 18492,
+                "goalGetterName": "J. Brandt",
+                "scoringTeamId": 7,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

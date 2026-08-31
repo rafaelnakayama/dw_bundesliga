@@ -1,145 +1,5 @@
 [
     {
-        "matchID": 60991,
-        "matchDateTime": "2021-12-18T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4500,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
-        "leagueSeason": 2021,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2021-12-18T14:30:00Z",
-        "group": {
-            "groupName": "17. Spieltag",
-            "groupOrderID": 17,
-            "groupID": 38193
-        },
-        "team1": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2021-12-18T17:26:25.987",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 96946,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 96947,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 92597,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 35,
-                "goalGetterID": 19157,
-                "goalGetterName": "J. Lindstr\u00f8m",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 60996,
-        "matchDateTime": "2021-12-19T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4500,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
-        "leagueSeason": 2021,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2021-12-19T16:30:00Z",
-        "group": {
-            "groupName": "17. Spieltag",
-            "groupOrderID": 17,
-            "groupID": 38193
-        },
-        "team1": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2021-12-19T19:23:21.427",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 96980,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 96981,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 92653,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 89,
-                "goalGetterID": 18347,
-                "goalGetterName": "A. Modeste",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 60989,
         "matchDateTime": "2021-12-17T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -309,6 +169,76 @@
                 "goalGetterID": 13024,
                 "goalGetterName": "M. Kruse",
                 "scoringTeamId": 80,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 60991,
+        "matchDateTime": "2021-12-18T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4500,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
+        "leagueSeason": 2021,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2021-12-18T14:30:00Z",
+        "group": {
+            "groupName": "17. Spieltag",
+            "groupOrderID": 17,
+            "groupID": 38193
+        },
+        "team1": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2021-12-18T17:26:25.987",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 96946,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 96947,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 92597,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 35,
+                "goalGetterID": 19157,
+                "goalGetterName": "J. Lindstr\u00f8m",
+                "scoringTeamId": 91,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -753,6 +683,76 @@
                 "goalGetterID": 19189,
                 "goalGetterName": "K. Schade",
                 "scoringTeamId": 112,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 60996,
+        "matchDateTime": "2021-12-19T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4500,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
+        "leagueSeason": 2021,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2021-12-19T16:30:00Z",
+        "group": {
+            "groupName": "17. Spieltag",
+            "groupOrderID": 17,
+            "groupID": 38193
+        },
+        "team1": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2021-12-19T19:23:21.427",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 96980,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 96981,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 92653,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 89,
+                "goalGetterID": 18347,
+                "goalGetterName": "A. Modeste",
+                "scoringTeamId": 65,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

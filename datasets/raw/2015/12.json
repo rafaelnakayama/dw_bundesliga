@@ -1,101 +1,5 @@
 [
     {
-        "matchID": 33365,
-        "matchDateTime": "2015-11-08T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 848,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
-        "leagueSeason": 2015,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2015-11-08T16:30:00Z",
-        "group": {
-            "groupName": "12. Spieltag",
-            "groupOrderID": 12,
-            "groupID": 17761
-        },
-        "team1": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2015-11-08T19:23:44.187",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 59516,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 59517,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 44224,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 58,
-                "goalGetterID": 11853,
-                "goalGetterName": "Pizarro, Claudio",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 44225,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 69,
-                "goalGetterID": 189,
-                "goalGetterName": "Bartels",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 44226,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 91,
-                "goalGetterID": 1925,
-                "goalGetterName": "Verhaegh",
-                "scoringTeamId": 95,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": ""
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 33366,
         "matchDateTime": "2015-11-06T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -807,6 +711,102 @@
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 33365,
+        "matchDateTime": "2015-11-08T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 848,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
+        "leagueSeason": 2015,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2015-11-08T16:30:00Z",
+        "group": {
+            "groupName": "12. Spieltag",
+            "groupOrderID": 12,
+            "groupID": 17761
+        },
+        "team1": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2015-11-08T19:23:44.187",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 59516,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 59517,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 44224,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 58,
+                "goalGetterID": 11853,
+                "goalGetterName": "Pizarro, Claudio",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 44225,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 69,
+                "goalGetterID": 189,
+                "goalGetterName": "Bartels",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 44226,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 91,
+                "goalGetterID": 1925,
+                "goalGetterName": "Verhaegh",
+                "scoringTeamId": 95,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": true,
                 "comment": ""
             }
         ],

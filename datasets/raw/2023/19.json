@@ -1,5 +1,88 @@
 [
     {
+        "matchID": 66797,
+        "matchDateTime": "2024-01-27T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4608,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
+        "leagueSeason": 2023,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2024-01-27T14:30:00Z",
+        "group": {
+            "groupName": "19. Spieltag",
+            "groupOrderID": 19,
+            "groupID": 41147
+        },
+        "team1": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2024-01-27T17:39:32.357",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 106215,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            },
+            {
+                "resultID": 106214,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 107461,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 37,
+                "goalGetterID": 19153,
+                "goalGetterName": "F. Alidou",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 107465,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 40,
+                "goalGetterID": 19764,
+                "goalGetterName": "K. Paredes",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 66799,
         "matchDateTime": "2024-01-27T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -169,89 +252,6 @@
                 "goalGetterID": 19578,
                 "goalGetterName": "M. G\u00f6tze",
                 "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 66797,
-        "matchDateTime": "2024-01-27T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4608,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
-        "leagueSeason": 2023,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2024-01-27T14:30:00Z",
-        "group": {
-            "groupName": "19. Spieltag",
-            "groupOrderID": 19,
-            "groupID": 41147
-        },
-        "team1": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2024-01-27T17:39:32.357",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 106215,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            },
-            {
-                "resultID": 106214,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 107461,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 37,
-                "goalGetterID": 19153,
-                "goalGetterName": "F. Alidou",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 107465,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 40,
-                "goalGetterID": 19764,
-                "goalGetterName": "K. Paredes",
-                "scoringTeamId": 131,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

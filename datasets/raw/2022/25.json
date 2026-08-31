@@ -1,157 +1,5 @@
 [
     {
-        "matchID": 64084,
-        "matchDateTime": "2023-03-18T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4562,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
-        "leagueSeason": 2022,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2023-03-18T17:30:00Z",
-        "group": {
-            "groupName": "25. Spieltag",
-            "groupOrderID": 25,
-            "groupID": 39905
-        },
-        "team1": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2023-04-14T16:03:24.03",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 102134,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 6,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 102135,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 4,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 100557,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 15,
-                "goalGetterID": 18618,
-                "goalGetterName": "R. Guerreiro",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 100558,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 17,
-                "goalGetterID": 19771,
-                "goalGetterName": "S. Haller",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 100559,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 32,
-                "goalGetterID": 18703,
-                "goalGetterName": "M. Reus",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 100560,
-                "scoreTeam1": 4,
-                "scoreTeam2": 0,
-                "matchMinute": 36,
-                "goalGetterID": 19156,
-                "goalGetterName": "D. Malen",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 100561,
-                "scoreTeam1": 4,
-                "scoreTeam2": 1,
-                "matchMinute": 42,
-                "goalGetterID": 18521,
-                "goalGetterName": "D. Selke",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 100562,
-                "scoreTeam1": 5,
-                "scoreTeam2": 1,
-                "matchMinute": 69,
-                "goalGetterID": 19771,
-                "goalGetterName": "S. Haller",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 100563,
-                "scoreTeam1": 6,
-                "scoreTeam2": 1,
-                "matchMinute": 70,
-                "goalGetterID": 18703,
-                "goalGetterName": "M. Reus",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 35,
-            "locationCity": "Dortmund",
-            "locationStadium": "Signal Iduna Park"
-        },
-        "numberOfViewers": 81365
-    },
-    {
         "matchID": 64085,
         "matchDateTime": "2023-03-17T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -611,6 +459,158 @@
             "locationStadium": "Mercedes-Benz Arena"
         },
         "numberOfViewers": 44900
+    },
+    {
+        "matchID": 64084,
+        "matchDateTime": "2023-03-18T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2023-03-18T17:30:00Z",
+        "group": {
+            "groupName": "25. Spieltag",
+            "groupOrderID": 25,
+            "groupID": 39905
+        },
+        "team1": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2023-04-14T16:03:24.03",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 102134,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 6,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 102135,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 4,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 100557,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 15,
+                "goalGetterID": 18618,
+                "goalGetterName": "R. Guerreiro",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 100558,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 17,
+                "goalGetterID": 19771,
+                "goalGetterName": "S. Haller",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 100559,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 32,
+                "goalGetterID": 18703,
+                "goalGetterName": "M. Reus",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 100560,
+                "scoreTeam1": 4,
+                "scoreTeam2": 0,
+                "matchMinute": 36,
+                "goalGetterID": 19156,
+                "goalGetterName": "D. Malen",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 100561,
+                "scoreTeam1": 4,
+                "scoreTeam2": 1,
+                "matchMinute": 42,
+                "goalGetterID": 18521,
+                "goalGetterName": "D. Selke",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 100562,
+                "scoreTeam1": 5,
+                "scoreTeam2": 1,
+                "matchMinute": 69,
+                "goalGetterID": 19771,
+                "goalGetterName": "S. Haller",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 100563,
+                "scoreTeam1": 6,
+                "scoreTeam2": 1,
+                "matchMinute": 70,
+                "goalGetterID": 18703,
+                "goalGetterName": "M. Reus",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 35,
+            "locationCity": "Dortmund",
+            "locationStadium": "Signal Iduna Park"
+        },
+        "numberOfViewers": 81365
     },
     {
         "matchID": 64089,

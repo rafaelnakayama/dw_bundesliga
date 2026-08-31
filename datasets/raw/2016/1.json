@@ -1,192 +1,5 @@
 [
     {
-        "matchID": 39656,
-        "matchDateTime": "2016-08-27T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3005,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
-        "leagueSeason": 2016,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2016-08-27T13:30:00Z",
-        "group": {
-            "groupName": "1. Spieltag",
-            "groupOrderID": 1,
-            "groupID": 23833
-        },
-        "team1": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2016-09-19T23:13:06.247",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 67839,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 67841,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 53245,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 13,
-                "goalGetterID": 1002,
-                "goalGetterName": "Alexander Meier",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 183,
-            "locationCity": "Frankfurt",
-            "locationStadium": "Commerzbank-Arena"
-        },
-        "numberOfViewers": 47000
-    },
-    {
-        "matchID": 39655,
-        "matchDateTime": "2016-08-28T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3005,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
-        "leagueSeason": 2016,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2016-08-28T15:30:00Z",
-        "group": {
-            "groupName": "1. Spieltag",
-            "groupOrderID": 1,
-            "groupID": 23833
-        },
-        "team1": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 1635,
-            "teamName": "RB Leipzig",
-            "shortName": "Leipzig",
-            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2016-09-19T23:15:19.95",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 67924,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 67925,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 53343,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 55,
-                "goalGetterID": 16041,
-                "goalGetterName": "Lukas Rupp",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 53344,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 58,
-                "goalGetterID": 8592,
-                "goalGetterName": "Dominik Kaiser",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 53345,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 83,
-                "goalGetterID": 16042,
-                "goalGetterName": "Mark Uth",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 53346,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 90,
-                "goalGetterID": 16044,
-                "goalGetterName": "Marcel Sabitzer",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 511,
-            "locationCity": "Sinsheim",
-            "locationStadium": "WIRSOL Rhein-Neckar-Arena"
-        },
-        "numberOfViewers": 24188
-    },
-    {
         "matchID": 39648,
         "matchDateTime": "2016-08-26T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -687,6 +500,80 @@
         "numberOfViewers": 26172
     },
     {
+        "matchID": 39656,
+        "matchDateTime": "2016-08-27T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2016-08-27T13:30:00Z",
+        "group": {
+            "groupName": "1. Spieltag",
+            "groupOrderID": 1,
+            "groupID": 23833
+        },
+        "team1": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2016-09-19T23:13:06.247",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 67839,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 67841,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 53245,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 13,
+                "goalGetterID": 1002,
+                "goalGetterName": "Alexander Meier",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 183,
+            "locationCity": "Frankfurt",
+            "locationStadium": "Commerzbank-Arena"
+        },
+        "numberOfViewers": 47000
+    },
+    {
         "matchID": 39650,
         "matchDateTime": "2016-08-27T18:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -885,5 +772,118 @@
             "locationStadium": "Olympiastadion"
         },
         "numberOfViewers": 41648
+    },
+    {
+        "matchID": 39655,
+        "matchDateTime": "2016-08-28T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2016-08-28T15:30:00Z",
+        "group": {
+            "groupName": "1. Spieltag",
+            "groupOrderID": 1,
+            "groupID": 23833
+        },
+        "team1": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2016-09-19T23:15:19.95",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 67924,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 67925,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 53343,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 55,
+                "goalGetterID": 16041,
+                "goalGetterName": "Lukas Rupp",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 53344,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 58,
+                "goalGetterID": 8592,
+                "goalGetterName": "Dominik Kaiser",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 53345,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 83,
+                "goalGetterID": 16042,
+                "goalGetterName": "Mark Uth",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 53346,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 90,
+                "goalGetterID": 16044,
+                "goalGetterName": "Marcel Sabitzer",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 511,
+            "locationCity": "Sinsheim",
+            "locationStadium": "WIRSOL Rhein-Neckar-Arena"
+        },
+        "numberOfViewers": 24188
     }
 ]

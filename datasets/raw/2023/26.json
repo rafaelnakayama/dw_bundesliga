@@ -1,101 +1,5 @@
 [
     {
-        "matchID": 66862,
-        "matchDateTime": "2024-03-16T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4608,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
-        "leagueSeason": 2023,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2024-03-16T17:30:00Z",
-        "group": {
-            "groupName": "26. Spieltag",
-            "groupOrderID": 26,
-            "groupID": 41154
-        },
-        "team1": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2024-03-16T20:29:25.747",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 108159,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            },
-            {
-                "resultID": 108158,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 3,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 109801,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 16,
-                "goalGetterID": 20034,
-                "goalGetterName": "E. Millot",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 109802,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 46,
-                "goalGetterID": 19545,
-                "goalGetterName": "S. Guirassy",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": null
-            },
-            {
-                "goalID": 109803,
-                "scoreTeam1": 0,
-                "scoreTeam2": 3,
-                "matchMinute": 68,
-                "goalGetterID": 17909,
-                "goalGetterName": "J. Leweling",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 66861,
         "matchDateTime": "2024-03-15T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -743,6 +647,102 @@
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 66862,
+        "matchDateTime": "2024-03-16T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4608,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
+        "leagueSeason": 2023,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2024-03-16T17:30:00Z",
+        "group": {
+            "groupName": "26. Spieltag",
+            "groupOrderID": 26,
+            "groupID": 41154
+        },
+        "team1": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2024-03-16T20:29:25.747",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 108159,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            },
+            {
+                "resultID": 108158,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 3,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 109801,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 16,
+                "goalGetterID": 20034,
+                "goalGetterName": "E. Millot",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 109802,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 46,
+                "goalGetterID": 19545,
+                "goalGetterName": "S. Guirassy",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            },
+            {
+                "goalID": 109803,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 68,
+                "goalGetterID": 17909,
+                "goalGetterName": "J. Leweling",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
                 "comment": null
             }
         ],

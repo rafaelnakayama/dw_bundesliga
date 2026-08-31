@@ -1,92 +1,5 @@
 [
     {
-        "matchID": 51200,
-        "matchDateTime": "2018-10-28T13:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4276,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
-        "leagueSeason": 2018,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2018-10-28T12:30:00Z",
-        "group": {
-            "groupName": "9. Spieltag",
-            "groupOrderID": 9,
-            "groupID": 31783
-        },
-        "team1": {
-            "teamId": 79,
-            "teamName": "1. FC N\u00fcrnberg",
-            "shortName": "N\u00fcrnberg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N\u00fcrnberg_logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2018-10-28T15:56:14.437",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 83988,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 83987,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 72789,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 78,
-                "goalGetterID": 16488,
-                "goalGetterName": "Zrelak",
-                "scoringTeamId": 79,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 72790,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 92,
-                "goalGetterID": 1256,
-                "goalGetterName": "Haller",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 1111,
-            "locationCity": "N\u00fcrnberg",
-            "locationStadium": "Max-Morlock-Stadion"
-        },
-        "numberOfViewers": null
-    },
-    {
         "matchID": 51197,
         "matchDateTime": "2018-10-26T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -735,6 +648,93 @@
             "locationID": 37,
             "locationCity": "Stuttgart",
             "locationStadium": "Mercedes Benz Arena "
+        },
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 51200,
+        "matchDateTime": "2018-10-28T13:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4276,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
+        "leagueSeason": 2018,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-10-28T12:30:00Z",
+        "group": {
+            "groupName": "9. Spieltag",
+            "groupOrderID": 9,
+            "groupID": 31783
+        },
+        "team1": {
+            "teamId": 79,
+            "teamName": "1. FC N\u00fcrnberg",
+            "shortName": "N\u00fcrnberg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N\u00fcrnberg_logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-10-28T15:56:14.437",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 83988,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 83987,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 72789,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 78,
+                "goalGetterID": 16488,
+                "goalGetterName": "Zrelak",
+                "scoringTeamId": 79,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 72790,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 92,
+                "goalGetterID": 1256,
+                "goalGetterName": "Haller",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 1111,
+            "locationCity": "N\u00fcrnberg",
+            "locationStadium": "Max-Morlock-Stadion"
         },
         "numberOfViewers": null
     },

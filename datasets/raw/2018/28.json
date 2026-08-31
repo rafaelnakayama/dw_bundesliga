@@ -1,5 +1,88 @@
 [
     {
+        "matchID": 51367,
+        "matchDateTime": "2019-04-07T18:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4276,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
+        "leagueSeason": 2018,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2019-04-07T16:00:00Z",
+        "group": {
+            "groupName": "28. Spieltag",
+            "groupOrderID": 28,
+            "groupID": 31802
+        },
+        "team1": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2019-04-07T19:53:15.817",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 86737,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 86736,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 76979,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 49,
+                "goalGetterID": 16301,
+                "goalGetterName": "Neuhaus",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 76980,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 79,
+                "goalGetterID": 14769,
+                "goalGetterName": "Klaassen",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 51370,
         "matchDateTime": "2019-04-05T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -866,89 +949,6 @@
                 "goalGetterID": 7180,
                 "goalGetterName": "Belfodil",
                 "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 51367,
-        "matchDateTime": "2019-04-07T18:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4276,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
-        "leagueSeason": 2018,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2019-04-07T16:00:00Z",
-        "group": {
-            "groupName": "28. Spieltag",
-            "groupOrderID": 28,
-            "groupID": 31802
-        },
-        "team1": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2019-04-07T19:53:15.817",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 86737,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 86736,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 76979,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 49,
-                "goalGetterID": 16301,
-                "goalGetterName": "Neuhaus",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 76980,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 79,
-                "goalGetterID": 14769,
-                "goalGetterName": "Klaassen",
-                "scoringTeamId": 134,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

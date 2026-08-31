@@ -1,37 +1,37 @@
 [
     {
-        "matchID": 19909,
-        "matchDateTime": "2013-02-23T15:30:00",
+        "matchID": 19906,
+        "matchDateTime": "2013-02-24T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 456,
         "leagueName": "1. Fussball-Bundesliga 2012/2013",
         "leagueSeason": 2012,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2013-02-23T14:30:00Z",
+        "matchDateTimeUTC": "2013-02-24T14:30:00Z",
         "group": {
             "groupName": "23. Spieltag",
             "groupOrderID": 23,
             "groupID": 13163
         },
         "team1": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2013-02-23T17:11:18.553",
+        "lastUpdateDateTime": "2013-02-24T18:25:53.1",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 34955,
+                "resultID": 34998,
                 "resultName": "Endergebnis",
                 "pointsTeam1": 1,
                 "pointsTeam2": 1,
@@ -41,9 +41,9 @@
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 34954,
+                "resultID": 34992,
                 "resultName": "Halbzeit",
-                "pointsTeam1": 1,
+                "pointsTeam1": 0,
                 "pointsTeam2": 1,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
@@ -53,26 +53,26 @@
         ],
         "goals": [
             {
-                "goalID": 18251,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 5,
-                "goalGetterID": 9957,
-                "goalGetterName": "Zimling",
-                "scoringTeamId": 81,
-                "isPenalty": false,
+                "goalID": 18309,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 31,
+                "goalGetterID": 1442,
+                "goalGetterName": "G\u00f6tze",
+                "scoringTeamId": 7,
+                "isPenalty": true,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 18252,
+                "goalID": 18314,
                 "scoreTeam1": 1,
                 "scoreTeam2": 1,
-                "matchMinute": 15,
-                "goalGetterID": 310,
-                "goalGetterName": "Naldo",
-                "scoringTeamId": 131,
+                "matchMinute": 66,
+                "goalGetterID": 9969,
+                "goalGetterName": "Younes",
+                "scoringTeamId": 87,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -80,11 +80,11 @@
             }
         ],
         "location": {
-            "locationID": 429,
-            "locationCity": "Mainz",
-            "locationStadium": "Coface-Arena"
+            "locationID": 444,
+            "locationCity": "M\u00f6nchengladbach",
+            "locationStadium": "Borussia-Park"
         },
-        "numberOfViewers": 28000
+        "numberOfViewers": 54010
     },
     {
         "matchID": 19905,
@@ -625,6 +625,93 @@
         "numberOfViewers": 49000
     },
     {
+        "matchID": 19909,
+        "matchDateTime": "2013-02-23T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 456,
+        "leagueName": "1. Fussball-Bundesliga 2012/2013",
+        "leagueSeason": 2012,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2013-02-23T14:30:00Z",
+        "group": {
+            "groupName": "23. Spieltag",
+            "groupOrderID": 23,
+            "groupID": 13163
+        },
+        "team1": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2013-02-23T17:11:18.553",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 34955,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 34954,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 18251,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 5,
+                "goalGetterID": 9957,
+                "goalGetterName": "Zimling",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 18252,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 15,
+                "goalGetterID": 310,
+                "goalGetterName": "Naldo",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 429,
+            "locationCity": "Mainz",
+            "locationStadium": "Coface-Arena"
+        },
+        "numberOfViewers": 28000
+    },
+    {
         "matchID": 19907,
         "matchDateTime": "2013-02-23T18:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -723,93 +810,6 @@
             "locationStadium": "Veltins-Arena"
         },
         "numberOfViewers": null
-    },
-    {
-        "matchID": 19906,
-        "matchDateTime": "2013-02-24T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 456,
-        "leagueName": "1. Fussball-Bundesliga 2012/2013",
-        "leagueSeason": 2012,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2013-02-24T14:30:00Z",
-        "group": {
-            "groupName": "23. Spieltag",
-            "groupOrderID": 23,
-            "groupID": 13163
-        },
-        "team1": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2013-02-24T18:25:53.1",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 34998,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 34992,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 18309,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 31,
-                "goalGetterID": 1442,
-                "goalGetterName": "G\u00f6tze",
-                "scoringTeamId": 7,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 18314,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 66,
-                "goalGetterID": 9969,
-                "goalGetterName": "Younes",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 444,
-            "locationCity": "M\u00f6nchengladbach",
-            "locationStadium": "Borussia-Park"
-        },
-        "numberOfViewers": 54010
     },
     {
         "matchID": 19908,

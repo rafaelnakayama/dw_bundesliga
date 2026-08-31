@@ -1,50 +1,50 @@
 [
     {
-        "matchID": 23938,
-        "matchDateTime": "2013-11-10T15:30:00",
+        "matchID": 23931,
+        "matchDateTime": "2013-11-09T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 623,
         "leagueName": "1. Fussball-Bundesliga 2013/2014",
         "leagueSeason": 2013,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2013-11-10T14:30:00Z",
+        "matchDateTimeUTC": "2013-11-09T14:30:00Z",
         "group": {
             "groupName": "12. Spieltag",
             "groupOrderID": 12,
             "groupID": 13619
         },
         "team1": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2013-11-12T22:28:42.297",
+        "lastUpdateDateTime": "2013-11-09T23:26:04.673",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 39670,
+                "resultID": 39630,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
+                "pointsTeam1": 3,
+                "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 39671,
+                "resultID": 39631,
                 "resultName": "Halbzeit",
                 "pointsTeam1": 0,
-                "pointsTeam2": 0,
+                "pointsTeam2": 1,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
@@ -53,25 +53,64 @@
         ],
         "goals": [
             {
-                "goalID": 23599,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 88,
-                "goalGetterID": 657,
-                "goalGetterName": "Choupo-Moting",
-                "scoringTeamId": 81,
+                "goalID": 23539,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 22,
+                "goalGetterID": 12585,
+                "goalGetterName": "Kroos, Felix",
+                "scoringTeamId": 134,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
+            },
+            {
+                "goalID": 23559,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 64,
+                "goalGetterID": 11758,
+                "goalGetterName": "Boateng, K.-P.",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 23566,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 85,
+                "goalGetterID": 11758,
+                "goalGetterName": "Boateng, K.-P.",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 23568,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 91,
+                "goalGetterID": 256,
+                "goalGetterName": "Farfan",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
             }
         ],
         "location": {
-            "locationID": 465,
-            "locationCity": "Mainz",
-            "locationStadium": "Coface Arena"
+            "locationID": 403,
+            "locationCity": "Gelsenkirchen",
+            "locationStadium": "Veltins-Arena"
         },
-        "numberOfViewers": 34000
+        "numberOfViewers": 61973
     },
     {
         "matchID": 23934,
@@ -232,119 +271,6 @@
             "locationStadium": "Allianz Arena"
         },
         "numberOfViewers": 71000
-    },
-    {
-        "matchID": 23931,
-        "matchDateTime": "2013-11-09T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 623,
-        "leagueName": "1. Fussball-Bundesliga 2013/2014",
-        "leagueSeason": 2013,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2013-11-09T14:30:00Z",
-        "group": {
-            "groupName": "12. Spieltag",
-            "groupOrderID": 12,
-            "groupID": 13619
-        },
-        "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2013-11-09T23:26:04.673",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 39630,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 39631,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 23539,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 22,
-                "goalGetterID": 12585,
-                "goalGetterName": "Kroos, Felix",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 23559,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 64,
-                "goalGetterID": 11758,
-                "goalGetterName": "Boateng, K.-P.",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 23566,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 85,
-                "goalGetterID": 11758,
-                "goalGetterName": "Boateng, K.-P.",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 23568,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 91,
-                "goalGetterID": 256,
-                "goalGetterName": "Farfan",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 403,
-            "locationCity": "Gelsenkirchen",
-            "locationStadium": "Veltins-Arena"
-        },
-        "numberOfViewers": 61973
     },
     {
         "matchID": 23933,
@@ -849,6 +775,80 @@
             "locationStadium": "Stadion im Borussia-Park"
         },
         "numberOfViewers": 53235
+    },
+    {
+        "matchID": 23938,
+        "matchDateTime": "2013-11-10T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 623,
+        "leagueName": "1. Fussball-Bundesliga 2013/2014",
+        "leagueSeason": 2013,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2013-11-10T14:30:00Z",
+        "group": {
+            "groupName": "12. Spieltag",
+            "groupOrderID": 12,
+            "groupID": 13619
+        },
+        "team1": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2013-11-12T22:28:42.297",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 39670,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 39671,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 23599,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 88,
+                "goalGetterID": 657,
+                "goalGetterName": "Choupo-Moting",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 465,
+            "locationCity": "Mainz",
+            "locationStadium": "Coface Arena"
+        },
+        "numberOfViewers": 34000
     },
     {
         "matchID": 23937,

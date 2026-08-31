@@ -1,5 +1,114 @@
 [
     {
+        "matchID": 51376,
+        "matchDateTime": "2019-04-14T18:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4276,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
+        "leagueSeason": 2018,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2019-04-14T16:00:00Z",
+        "group": {
+            "groupName": "29. Spieltag",
+            "groupOrderID": 29,
+            "groupID": 31803
+        },
+        "team1": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2019-04-14T19:56:23.36",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 86806,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 86805,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 3,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 77067,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 15,
+                "goalGetterID": 17375,
+                "goalGetterName": "Paciencia",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 77073,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 35,
+                "goalGetterID": 15376,
+                "goalGetterName": "Richter, Marco",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 77074,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 45,
+                "goalGetterID": 15376,
+                "goalGetterName": "Richter, Marco",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 77075,
+                "scoreTeam1": 1,
+                "scoreTeam2": 3,
+                "matchMinute": 84,
+                "goalGetterID": 13007,
+                "goalGetterName": "Gregoritsch",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 51380,
         "matchDateTime": "2019-04-12T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -697,115 +806,6 @@
                 "goalGetterID": 6631,
                 "goalGetterName": "Goretzka",
                 "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 51376,
-        "matchDateTime": "2019-04-14T18:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4276,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
-        "leagueSeason": 2018,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2019-04-14T16:00:00Z",
-        "group": {
-            "groupName": "29. Spieltag",
-            "groupOrderID": 29,
-            "groupID": 31803
-        },
-        "team1": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2019-04-14T19:56:23.36",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 86806,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 86805,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 3,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 77067,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 15,
-                "goalGetterID": 17375,
-                "goalGetterName": "Paciencia",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 77073,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 35,
-                "goalGetterID": 15376,
-                "goalGetterName": "Richter, Marco",
-                "scoringTeamId": 95,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 77074,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 45,
-                "goalGetterID": 15376,
-                "goalGetterName": "Richter, Marco",
-                "scoringTeamId": 95,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 77075,
-                "scoreTeam1": 1,
-                "scoreTeam2": 3,
-                "matchMinute": 84,
-                "goalGetterID": 13007,
-                "goalGetterName": "Gregoritsch",
-                "scoringTeamId": 95,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

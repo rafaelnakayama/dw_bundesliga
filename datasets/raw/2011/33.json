@@ -1,61 +1,5 @@
 [
     {
-        "matchID": 14305,
-        "matchDateTime": "2012-04-28T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 307,
-        "leagueName": "1. Fussball-Bundesliga 2011/2012",
-        "leagueSeason": 2011,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-04-28T13:30:00Z",
-        "group": {
-            "groupName": "33. Spieltag",
-            "groupOrderID": 33,
-            "groupID": 12606
-        },
-        "team1": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2012-04-28T16:21:48.223",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 28154,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 28155,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit (bitte laufend eintragen. Waehrend laufender erster Halbzeit immer Halbzeit- und Endergebnis eintragen!)"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 14298,
         "matchDateTime": "2012-04-28T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -762,6 +706,62 @@
                 "comment": null
             }
         ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 14305,
+        "matchDateTime": "2012-04-28T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 307,
+        "leagueName": "1. Fussball-Bundesliga 2011/2012",
+        "leagueSeason": 2011,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2012-04-28T13:30:00Z",
+        "group": {
+            "groupName": "33. Spieltag",
+            "groupOrderID": 33,
+            "groupID": 12606
+        },
+        "team1": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2012-04-28T16:21:48.223",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 28154,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 28155,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit (bitte laufend eintragen. Waehrend laufender erster Halbzeit immer Halbzeit- und Endergebnis eintragen!)"
+            }
+        ],
+        "goals": [],
         "location": null,
         "numberOfViewers": null
     },

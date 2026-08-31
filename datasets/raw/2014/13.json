@@ -1,79 +1,5 @@
 [
     {
-        "matchID": 28097,
-        "matchDateTime": "2014-11-29T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 720,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2014/2015",
-        "leagueSeason": 2014,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2014-11-29T14:30:00Z",
-        "group": {
-            "groupName": "13. Spieltag",
-            "groupOrderID": 13,
-            "groupID": 14575
-        },
-        "team1": {
-            "teamId": 54,
-            "teamName": "Hertha BSC",
-            "shortName": "Hertha",
-            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2015-05-18T15:19:39.627",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 49128,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 49129,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 32947,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 27,
-                "goalGetterID": 181,
-                "goalGetterName": "Robben",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 513,
-            "locationCity": "Berlin",
-            "locationStadium": ""
-        },
-        "numberOfViewers": null
-    },
-    {
         "matchID": 28100,
         "matchDateTime": "2014-11-28T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -573,6 +499,80 @@
         "location": {
             "locationID": 979,
             "locationCity": "Augsburg",
+            "locationStadium": ""
+        },
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 28097,
+        "matchDateTime": "2014-11-29T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 720,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2014/2015",
+        "leagueSeason": 2014,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2014-11-29T14:30:00Z",
+        "group": {
+            "groupName": "13. Spieltag",
+            "groupOrderID": 13,
+            "groupID": 14575
+        },
+        "team1": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2015-05-18T15:19:39.627",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 49128,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 49129,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 32947,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 27,
+                "goalGetterID": 181,
+                "goalGetterName": "Robben",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 513,
+            "locationCity": "Berlin",
             "locationStadium": ""
         },
         "numberOfViewers": null

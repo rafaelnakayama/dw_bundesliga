@@ -1,5 +1,75 @@
 [
     {
+        "matchID": 33430,
+        "matchDateTime": "2015-12-05T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 848,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
+        "leagueSeason": 2015,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2015-12-05T14:30:00Z",
+        "group": {
+            "groupName": "15. Spieltag",
+            "groupOrderID": 15,
+            "groupID": 17764
+        },
+        "team1": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2015-12-06T17:59:45.673",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 60226,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 60230,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 45017,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 64,
+                "goalGetterID": 356,
+                "goalGetterName": "Bobadilla",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 33424,
         "matchDateTime": "2015-12-04T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -328,76 +398,6 @@
             "locationCity": "",
             "locationStadium": ""
         },
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 33430,
-        "matchDateTime": "2015-12-05T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 848,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
-        "leagueSeason": 2015,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2015-12-05T14:30:00Z",
-        "group": {
-            "groupName": "15. Spieltag",
-            "groupOrderID": 15,
-            "groupID": 17764
-        },
-        "team1": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2015-12-06T17:59:45.673",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 60226,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 60230,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 45017,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 64,
-                "goalGetterID": 356,
-                "goalGetterName": "Bobadilla",
-                "scoringTeamId": 95,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": null,
         "numberOfViewers": null
     },
     {

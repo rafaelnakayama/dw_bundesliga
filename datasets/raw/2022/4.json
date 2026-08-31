@@ -1,5 +1,88 @@
 [
     {
+        "matchID": 63897,
+        "matchDateTime": "2022-08-27T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2022-08-27T13:30:00Z",
+        "group": {
+            "groupName": "4. Spieltag",
+            "groupOrderID": 4,
+            "groupID": 39884
+        },
+        "team1": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2022-08-27T17:25:50.653",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 98703,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 98704,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 95487,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 4,
+                "goalGetterID": 18782,
+                "goalGetterName": "C. Nkunku",
+                "scoringTeamId": 1635,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": "Handelfmeter"
+            },
+            {
+                "goalID": 95499,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 90,
+                "goalGetterID": 18782,
+                "goalGetterName": "C. Nkunku",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 63892,
         "matchDateTime": "2022-08-26T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -296,89 +379,6 @@
                 "goalGetterID": 19129,
                 "goalGetterName": "J. Frimpong",
                 "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 63897,
-        "matchDateTime": "2022-08-27T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4562,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
-        "leagueSeason": 2022,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2022-08-27T13:30:00Z",
-        "group": {
-            "groupName": "4. Spieltag",
-            "groupOrderID": 4,
-            "groupID": 39884
-        },
-        "team1": {
-            "teamId": 1635,
-            "teamName": "RB Leipzig",
-            "shortName": "Leipzig",
-            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2022-08-27T17:25:50.653",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 98703,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 98704,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 95487,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 4,
-                "goalGetterID": 18782,
-                "goalGetterName": "C. Nkunku",
-                "scoringTeamId": 1635,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": "Handelfmeter"
-            },
-            {
-                "goalID": 95499,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 90,
-                "goalGetterID": 18782,
-                "goalGetterName": "C. Nkunku",
-                "scoringTeamId": 1635,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

@@ -1,39 +1,39 @@
 [
     {
-        "matchID": 45622,
-        "matchDateTime": "2018-02-04T15:30:00",
+        "matchID": 45619,
+        "matchDateTime": "2018-02-03T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4153,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
         "leagueSeason": 2017,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2018-02-04T14:30:00Z",
+        "matchDateTimeUTC": "2018-02-03T14:30:00Z",
         "group": {
             "groupName": "21. Spieltag",
             "groupOrderID": 21,
             "groupID": 28967
         },
         "team1": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2018-04-06T20:27:37.403",
+        "lastUpdateDateTime": "2018-04-06T20:24:11.337",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 78746,
+                "resultID": 78699,
                 "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
+                "pointsTeam1": 0,
                 "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
@@ -41,10 +41,70 @@
                 "resultDescription": "Ergebnis zur Halbzeit"
             },
             {
-                "resultID": 78747,
+                "resultID": 78742,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 3,
+                "pointsTeam1": 0,
                 "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [],
+        "location": {
+            "locationID": 966,
+            "locationCity": "Freiburg",
+            "locationStadium": "Schwarzwald-Stadion"
+        },
+        "numberOfViewers": 24000
+    },
+    {
+        "matchID": 45623,
+        "matchDateTime": "2018-02-04T18:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4153,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
+        "leagueSeason": 2017,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-02-04T17:00:00Z",
+        "group": {
+            "groupName": "21. Spieltag",
+            "groupOrderID": 21,
+            "groupID": 28967
+        },
+        "team1": {
+            "teamId": 100,
+            "teamName": "Hamburger SV",
+            "shortName": "HSV",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-04-06T20:26:58.99",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 78784,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 78787,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
@@ -53,39 +113,26 @@
         ],
         "goals": [
             {
-                "goalID": 64187,
+                "goalID": 64230,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 37,
+                "goalGetterID": 15995,
+                "goalGetterName": "fossum",
+                "scoringTeamId": 55,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 64231,
                 "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 20,
-                "goalGetterID": 8923,
-                "goalGetterName": "Ja-Cheol Koo",
-                "scoringTeamId": 95,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 64194,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 76,
-                "goalGetterID": 13007,
-                "goalGetterName": "Gregoritsch",
-                "scoringTeamId": 95,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 64195,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 89,
-                "goalGetterID": 15376,
-                "goalGetterName": "Richter, Marco",
-                "scoringTeamId": 95,
+                "scoreTeam2": 1,
+                "matchMinute": 86,
+                "goalGetterID": 14821,
+                "goalGetterName": "Kostic",
+                "scoringTeamId": 100,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -93,11 +140,11 @@
             }
         ],
         "location": {
-            "locationID": 1029,
-            "locationCity": "Augsburg",
-            "locationStadium": "WWK Arena"
+            "locationID": 1030,
+            "locationCity": "Hamburg",
+            "locationStadium": "Volksparkstadion"
         },
-        "numberOfViewers": 27188
+        "numberOfViewers": 46016
     },
     {
         "matchID": 45617,
@@ -311,66 +358,6 @@
             "locationStadium": "Olympiastadion"
         },
         "numberOfViewers": 32598
-    },
-    {
-        "matchID": 45619,
-        "matchDateTime": "2018-02-03T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4153,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
-        "leagueSeason": 2017,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2018-02-03T14:30:00Z",
-        "group": {
-            "groupName": "21. Spieltag",
-            "groupOrderID": 21,
-            "groupID": 28967
-        },
-        "team1": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2018-04-06T20:24:11.337",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 78699,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 78742,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [],
-        "location": {
-            "locationID": 966,
-            "locationCity": "Freiburg",
-            "locationStadium": "Schwarzwald-Stadion"
-        },
-        "numberOfViewers": 24000
     },
     {
         "matchID": 45621,
@@ -721,51 +708,51 @@
         "numberOfViewers": 49018
     },
     {
-        "matchID": 45623,
-        "matchDateTime": "2018-02-04T18:00:00",
+        "matchID": 45622,
+        "matchDateTime": "2018-02-04T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4153,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2017/2018",
         "leagueSeason": 2017,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2018-02-04T17:00:00Z",
+        "matchDateTimeUTC": "2018-02-04T14:30:00Z",
         "group": {
             "groupName": "21. Spieltag",
             "groupOrderID": 21,
             "groupID": 28967
         },
         "team1": {
-            "teamId": 100,
-            "teamName": "Hamburger SV",
-            "shortName": "HSV",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 55,
-            "teamName": "Hannover 96",
-            "shortName": "Hannover",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2018-04-06T20:26:58.99",
+        "lastUpdateDateTime": "2018-04-06T20:27:37.403",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 78784,
+                "resultID": 78746,
                 "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
                 "resultDescription": "Ergebnis zur Halbzeit"
             },
             {
-                "resultID": 78787,
+                "resultID": 78747,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
@@ -774,26 +761,39 @@
         ],
         "goals": [
             {
-                "goalID": 64230,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 37,
-                "goalGetterID": 15995,
-                "goalGetterName": "fossum",
-                "scoringTeamId": 55,
+                "goalID": 64187,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 20,
+                "goalGetterID": 8923,
+                "goalGetterName": "Ja-Cheol Koo",
+                "scoringTeamId": 95,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 64231,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 86,
-                "goalGetterID": 14821,
-                "goalGetterName": "Kostic",
-                "scoringTeamId": 100,
+                "goalID": 64194,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 76,
+                "goalGetterID": 13007,
+                "goalGetterName": "Gregoritsch",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 64195,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 89,
+                "goalGetterID": 15376,
+                "goalGetterName": "Richter, Marco",
+                "scoringTeamId": 95,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -801,10 +801,10 @@
             }
         ],
         "location": {
-            "locationID": 1030,
-            "locationCity": "Hamburg",
-            "locationStadium": "Volksparkstadion"
+            "locationID": 1029,
+            "locationCity": "Augsburg",
+            "locationStadium": "WWK Arena"
         },
-        "numberOfViewers": 46016
+        "numberOfViewers": 27188
     }
 ]

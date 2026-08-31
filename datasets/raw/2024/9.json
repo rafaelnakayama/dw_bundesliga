@@ -1,127 +1,5 @@
 [
     {
-        "matchID": 72293,
-        "matchDateTime": "2024-11-03T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4741,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2024/2025",
-        "leagueSeason": 2024,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2024-11-03T16:30:00Z",
-        "group": {
-            "groupName": "9. Spieltag",
-            "groupOrderID": 9,
-            "groupID": 45125
-        },
-        "team1": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2024-11-03T19:24:25.44",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 113032,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            },
-            {
-                "resultID": 113033,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 4,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 121133,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 11,
-                "goalGetterID": 23144,
-                "goalGetterName": "A. Pl\u00e9a",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 121134,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 12,
-                "goalGetterID": 18551,
-                "goalGetterName": "T. Kleindienst",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 121135,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 45,
-                "goalGetterID": 20147,
-                "goalGetterName": "F. Honorat",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 121138,
-                "scoreTeam1": 4,
-                "scoreTeam2": 0,
-                "matchMinute": 67,
-                "goalGetterID": 18602,
-                "goalGetterName": "K. St\u00f6ger",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 121139,
-                "scoreTeam1": 4,
-                "scoreTeam2": 1,
-                "matchMinute": 76,
-                "goalGetterID": 22914,
-                "goalGetterName": "K. Topp",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 72286,
         "matchDateTime": "2024-11-01T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -832,6 +710,128 @@
             }
         ],
         "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 72293,
+        "matchDateTime": "2024-11-03T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4741,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2024/2025",
+        "leagueSeason": 2024,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2024-11-03T16:30:00Z",
+        "group": {
+            "groupName": "9. Spieltag",
+            "groupOrderID": 9,
+            "groupID": 45125
+        },
+        "team1": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2024-11-03T19:24:25.44",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 113032,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 113033,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 4,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 121133,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 11,
+                "goalGetterID": 23144,
+                "goalGetterName": "A. Pl\u00e9a",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 121134,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 12,
+                "goalGetterID": 18551,
+                "goalGetterName": "T. Kleindienst",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 121135,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 45,
+                "goalGetterID": 20147,
+                "goalGetterName": "F. Honorat",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 121138,
+                "scoreTeam1": 4,
+                "scoreTeam2": 0,
+                "matchMinute": 67,
+                "goalGetterID": 18602,
+                "goalGetterName": "K. St\u00f6ger",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 121139,
+                "scoreTeam1": 4,
+                "scoreTeam2": 1,
+                "matchMinute": 76,
+                "goalGetterID": 22914,
+                "goalGetterName": "K. Topp",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
         "location": null,
         "numberOfViewers": null
     }

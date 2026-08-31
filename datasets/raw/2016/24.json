@@ -1,5 +1,101 @@
 [
     {
+        "matchID": 39859,
+        "matchDateTime": "2017-03-12T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2017-03-12T14:30:00Z",
+        "group": {
+            "groupName": "24. Spieltag",
+            "groupOrderID": 24,
+            "groupID": 23856
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2017-03-12T17:20:56.983",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 73341,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 73342,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 58053,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 4,
+                "goalGetterID": 14914,
+                "goalGetterName": "Burgstaller",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 58055,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 29,
+                "goalGetterID": 14914,
+                "goalGetterName": "Burgstaller",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 58057,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 35,
+                "goalGetterID": 9245,
+                "goalGetterName": "Caligiuri",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 39861,
         "matchDateTime": "2017-03-10T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -623,102 +719,6 @@
                 "goalGetterID": 2677,
                 "goalGetterName": "Bregerie",
                 "scoringTeamId": 171,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 39859,
-        "matchDateTime": "2017-03-12T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3005,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
-        "leagueSeason": 2016,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2017-03-12T14:30:00Z",
-        "group": {
-            "groupName": "24. Spieltag",
-            "groupOrderID": 24,
-            "groupID": 23856
-        },
-        "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2017-03-12T17:20:56.983",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 73341,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 73342,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 58053,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 4,
-                "goalGetterID": 14914,
-                "goalGetterName": "Burgstaller",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 58055,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 29,
-                "goalGetterID": 14914,
-                "goalGetterName": "Burgstaller",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 58057,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 35,
-                "goalGetterID": 9245,
-                "goalGetterName": "Caligiuri",
-                "scoringTeamId": 9,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

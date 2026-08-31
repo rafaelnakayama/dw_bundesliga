@@ -1,50 +1,50 @@
 [
     {
-        "matchID": 24125,
-        "matchDateTime": "2014-04-06T17:30:00",
+        "matchID": 24123,
+        "matchDateTime": "2014-04-06T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 623,
         "leagueName": "1. Fussball-Bundesliga 2013/2014",
         "leagueSeason": 2013,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2014-04-06T15:30:00Z",
+        "matchDateTimeUTC": "2014-04-06T13:30:00Z",
         "group": {
             "groupName": "29. Spieltag",
             "groupOrderID": 29,
             "groupID": 13636
         },
         "team1": {
-            "teamId": 54,
-            "teamName": "Hertha BSC",
-            "shortName": "Hertha",
-            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamId": 74,
+            "teamName": "Eintracht Braunschweig",
+            "shortName": "Braunschweig",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/4/45/Logo_Eintracht_Braunschweig.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 123,
-            "teamName": "TSG 1899 Hoffenheim",
-            "shortName": "TSG 1899 Hoffenheim",
-            "teamIconUrl": "https://www.openligadb.de/images/teamicons/TSG_Hoffenheim.gif",
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2014-04-07T22:19:17.083",
+        "lastUpdateDateTime": "2014-04-07T22:18:49.737",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 42864,
+                "resultID": 42828,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 42863,
+                "resultID": 42861,
                 "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
@@ -53,26 +53,39 @@
         ],
         "goals": [
             {
-                "goalID": 26967,
+                "goalID": 26938,
                 "scoreTeam1": 1,
                 "scoreTeam2": 0,
-                "matchMinute": 11,
-                "goalGetterID": 64,
-                "goalGetterName": "Allagui",
-                "scoringTeamId": 54,
+                "matchMinute": 14,
+                "goalGetterID": 1247,
+                "goalGetterName": "Kumbela",
+                "scoringTeamId": 74,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": ""
             },
             {
-                "goalID": 26968,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 30,
-                "goalGetterID": 1026,
-                "goalGetterName": "Polanski",
-                "scoringTeamId": 123,
+                "goalID": 26939,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 21,
+                "goalGetterID": 14166,
+                "goalGetterName": "Nielsen",
+                "scoringTeamId": 74,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 26966,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 89,
+                "goalGetterID": 1549,
+                "goalGetterName": "Hochscheidt",
+                "scoringTeamId": 74,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -80,11 +93,11 @@
             }
         ],
         "location": {
-            "locationID": 22,
-            "locationCity": "Berlin",
-            "locationStadium": "Olympiastadion"
+            "locationID": 350,
+            "locationCity": "Braunschweig",
+            "locationStadium": "Eintracht-Stadion"
         },
-        "numberOfViewers": 43874
+        "numberOfViewers": 22867
     },
     {
         "matchID": 24122,
@@ -735,51 +748,51 @@
         "numberOfViewers": 80000
     },
     {
-        "matchID": 24123,
-        "matchDateTime": "2014-04-06T15:30:00",
+        "matchID": 24125,
+        "matchDateTime": "2014-04-06T17:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 623,
         "leagueName": "1. Fussball-Bundesliga 2013/2014",
         "leagueSeason": 2013,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2014-04-06T13:30:00Z",
+        "matchDateTimeUTC": "2014-04-06T15:30:00Z",
         "group": {
             "groupName": "29. Spieltag",
             "groupOrderID": 29,
             "groupID": 13636
         },
         "team1": {
-            "teamId": 74,
-            "teamName": "Eintracht Braunschweig",
-            "shortName": "Braunschweig",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/4/45/Logo_Eintracht_Braunschweig.svg",
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 55,
-            "teamName": "Hannover 96",
-            "shortName": "Hannover",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamId": 123,
+            "teamName": "TSG 1899 Hoffenheim",
+            "shortName": "TSG 1899 Hoffenheim",
+            "teamIconUrl": "https://www.openligadb.de/images/teamicons/TSG_Hoffenheim.gif",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2014-04-07T22:18:49.737",
+        "lastUpdateDateTime": "2014-04-07T22:19:17.083",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 42828,
+                "resultID": 42864,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 42861,
+                "resultID": 42863,
                 "resultName": "Halbzeit",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
@@ -788,39 +801,26 @@
         ],
         "goals": [
             {
-                "goalID": 26938,
+                "goalID": 26967,
                 "scoreTeam1": 1,
                 "scoreTeam2": 0,
-                "matchMinute": 14,
-                "goalGetterID": 1247,
-                "goalGetterName": "Kumbela",
-                "scoringTeamId": 74,
+                "matchMinute": 11,
+                "goalGetterID": 64,
+                "goalGetterName": "Allagui",
+                "scoringTeamId": 54,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": ""
             },
             {
-                "goalID": 26939,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 21,
-                "goalGetterID": 14166,
-                "goalGetterName": "Nielsen",
-                "scoringTeamId": 74,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 26966,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 89,
-                "goalGetterID": 1549,
-                "goalGetterName": "Hochscheidt",
-                "scoringTeamId": 74,
+                "goalID": 26968,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 30,
+                "goalGetterID": 1026,
+                "goalGetterName": "Polanski",
+                "scoringTeamId": 123,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -828,10 +828,10 @@
             }
         ],
         "location": {
-            "locationID": 350,
-            "locationCity": "Braunschweig",
-            "locationStadium": "Eintracht-Stadion"
+            "locationID": 22,
+            "locationCity": "Berlin",
+            "locationStadium": "Olympiastadion"
         },
-        "numberOfViewers": 22867
+        "numberOfViewers": 43874
     }
 ]

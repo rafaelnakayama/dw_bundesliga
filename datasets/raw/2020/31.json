@@ -1,127 +1,5 @@
 [
     {
-        "matchID": 58852,
-        "matchDateTime": "2021-04-25T18:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4442,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2020/2021",
-        "leagueSeason": 2020,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2021-04-25T16:00:00Z",
-        "group": {
-            "groupName": "31. Spieltag",
-            "groupOrderID": 31,
-            "groupID": 36516
-        },
-        "team1": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 83,
-            "teamName": "DSC Arminia Bielefeld",
-            "shortName": "Bielefeld",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2021-04-25T19:48:40.203",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 94425,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 5,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 94426,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 88581,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 6,
-                "goalGetterID": 16135,
-                "goalGetterName": "Breel Embolo",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 88582,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 15,
-                "goalGetterID": 18573,
-                "goalGetterName": "M. Thuram",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 88583,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 18,
-                "goalGetterID": 18717,
-                "goalGetterName": "R. Bensebaini",
-                "scoringTeamId": 87,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 88584,
-                "scoreTeam1": 4,
-                "scoreTeam2": 0,
-                "matchMinute": 69,
-                "goalGetterID": 16135,
-                "goalGetterName": "Breel Embolo",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 88585,
-                "scoreTeam1": 5,
-                "scoreTeam2": 0,
-                "matchMinute": 84,
-                "goalGetterID": 18574,
-                "goalGetterName": "A. Plea",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 58850,
         "matchDateTime": "2021-04-23T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -785,6 +663,128 @@
                 "goalGetterName": "E. Forsberg",
                 "scoringTeamId": 1635,
                 "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 58852,
+        "matchDateTime": "2021-04-25T18:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4442,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2020/2021",
+        "leagueSeason": 2020,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2021-04-25T16:00:00Z",
+        "group": {
+            "groupName": "31. Spieltag",
+            "groupOrderID": 31,
+            "groupID": 36516
+        },
+        "team1": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 83,
+            "teamName": "DSC Arminia Bielefeld",
+            "shortName": "Bielefeld",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2021-04-25T19:48:40.203",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 94425,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 5,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 94426,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 88581,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 6,
+                "goalGetterID": 16135,
+                "goalGetterName": "Breel Embolo",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 88582,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 15,
+                "goalGetterID": 18573,
+                "goalGetterName": "M. Thuram",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 88583,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 18,
+                "goalGetterID": 18717,
+                "goalGetterName": "R. Bensebaini",
+                "scoringTeamId": 87,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 88584,
+                "scoreTeam1": 4,
+                "scoreTeam2": 0,
+                "matchMinute": 69,
+                "goalGetterID": 16135,
+                "goalGetterName": "Breel Embolo",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 88585,
+                "scoreTeam1": 5,
+                "scoreTeam2": 0,
+                "matchMinute": 84,
+                "goalGetterID": 18574,
+                "goalGetterName": "A. Plea",
+                "scoringTeamId": 87,
+                "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null

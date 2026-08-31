@@ -1,88 +1,5 @@
 [
     {
-        "matchID": 51264,
-        "matchDateTime": "2018-12-23T18:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4276,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
-        "leagueSeason": 2018,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2018-12-23T17:00:00Z",
-        "group": {
-            "groupName": "17. Spieltag",
-            "groupOrderID": 17,
-            "groupID": 31791
-        },
-        "team1": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2018-12-23T19:53:56.337",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 85169,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 85168,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 74689,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 11,
-                "goalGetterID": 15519,
-                "goalGetterName": " Demirbay",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 74690,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 16,
-                "goalGetterID": 16904,
-                "goalGetterName": "J.-P.Mateta",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 51265,
         "matchDateTime": "2018-12-21T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -871,6 +788,89 @@
                 "goalGetterID": 11633,
                 "goalGetterName": "Gerhardt",
                 "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 51264,
+        "matchDateTime": "2018-12-23T18:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4276,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
+        "leagueSeason": 2018,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-12-23T17:00:00Z",
+        "group": {
+            "groupName": "17. Spieltag",
+            "groupOrderID": 17,
+            "groupID": 31791
+        },
+        "team1": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-12-23T19:53:56.337",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 85169,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 85168,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 74689,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 11,
+                "goalGetterID": 15519,
+                "goalGetterName": " Demirbay",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 74690,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 16,
+                "goalGetterID": 16904,
+                "goalGetterName": "J.-P.Mateta",
+                "scoringTeamId": 81,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

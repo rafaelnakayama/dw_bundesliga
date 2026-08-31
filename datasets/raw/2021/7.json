@@ -1,101 +1,5 @@
 [
     {
-        "matchID": 60905,
-        "matchDateTime": "2021-10-02T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4500,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
-        "leagueSeason": 2021,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2021-10-02T16:30:00Z",
-        "group": {
-            "groupName": "7. Spieltag",
-            "groupOrderID": 7,
-            "groupID": 38183
-        },
-        "team1": {
-            "teamId": 1635,
-            "teamName": "RB Leipzig",
-            "shortName": "Leipzig",
-            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 129,
-            "teamName": "VfL Bochum",
-            "shortName": "Bochum",
-            "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2021-10-02T20:21:50.74",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 96038,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 96039,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 91166,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 70,
-                "goalGetterID": 18484,
-                "goalGetterName": "A. Silva",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 91167,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 73,
-                "goalGetterID": 18782,
-                "goalGetterName": "C. Nkunku",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 91168,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 79,
-                "goalGetterID": 18782,
-                "goalGetterName": "C. Nkunku",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 60903,
         "matchDateTime": "2021-10-01T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -608,6 +512,102 @@
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 60905,
+        "matchDateTime": "2021-10-02T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4500,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
+        "leagueSeason": 2021,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2021-10-02T16:30:00Z",
+        "group": {
+            "groupName": "7. Spieltag",
+            "groupOrderID": 7,
+            "groupID": 38183
+        },
+        "team1": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 129,
+            "teamName": "VfL Bochum",
+            "shortName": "Bochum",
+            "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2021-10-02T20:21:50.74",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 96038,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 96039,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 91166,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 70,
+                "goalGetterID": 18484,
+                "goalGetterName": "A. Silva",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 91167,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 73,
+                "goalGetterID": 18782,
+                "goalGetterName": "C. Nkunku",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 91168,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 79,
+                "goalGetterID": 18782,
+                "goalGetterName": "C. Nkunku",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
                 "comment": null
             }
         ],

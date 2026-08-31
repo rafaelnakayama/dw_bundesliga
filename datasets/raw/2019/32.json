@@ -1,5 +1,171 @@
 [
     {
+        "matchID": 55564,
+        "matchDateTime": "2020-06-16T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2020-06-16T18:30:00Z",
+        "group": {
+            "groupName": "32. Spieltag",
+            "groupOrderID": 32,
+            "groupID": 34231
+        },
+        "team1": {
+            "teamId": 80,
+            "teamName": "1. FC Union Berlin",
+            "shortName": "Union Berlin",
+            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 31,
+            "teamName": "SC Paderborn 07",
+            "shortName": "Paderborn",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2020-06-16T22:25:30.117",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 91815,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 91814,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 84047,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 27,
+                "goalGetterID": 16048,
+                "goalGetterName": "Zolinski",
+                "scoringTeamId": 80,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 55559,
+        "matchDateTime": "2020-06-16T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2020-06-16T16:30:00Z",
+        "group": {
+            "groupName": "32. Spieltag",
+            "groupOrderID": 32,
+            "groupID": 34231
+        },
+        "team1": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2020-06-16T20:20:17.197",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 91805,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 91804,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 84035,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 11,
+                "goalGetterID": 14569,
+                "goalGetterName": "Hofmann, Jonas",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 84036,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 30,
+                "goalGetterID": 14569,
+                "goalGetterName": "Hofmann, Jonas",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 84043,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 65,
+                "goalGetterID": 15386,
+                "goalGetterName": "Stindl, Lars",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 55561,
         "matchDateTime": "2020-06-16T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -60,6 +226,102 @@
                 "goalGetterID": 1478,
                 "goalGetterName": "Robert Lewandowski",
                 "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 55562,
+        "matchDateTime": "2020-06-16T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2020-06-16T18:30:00Z",
+        "group": {
+            "groupName": "32. Spieltag",
+            "groupOrderID": 32,
+            "groupID": 34231
+        },
+        "team1": {
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2020-06-16T22:25:31.387",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 91817,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 91816,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 84052,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 61,
+                "goalGetterID": 18337,
+                "goalGetterName": "V. Grifo",
+                "scoringTeamId": 112,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 84053,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 66,
+                "goalGetterID": 11542,
+                "goalGetterName": "Ibisevic, Vedad",
+                "scoringTeamId": 54,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 84054,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 71,
+                "goalGetterID": 16053,
+                "goalGetterName": "Nils Petersen",
+                "scoringTeamId": 112,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -157,6 +419,89 @@
                 "goalGetterName": "McKennie",
                 "scoringTeamId": 9,
                 "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 55556,
+        "matchDateTime": "2020-06-17T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2020-06-17T18:30:00Z",
+        "group": {
+            "groupName": "32. Spieltag",
+            "groupOrderID": 32,
+            "groupID": 34231
+        },
+        "team1": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2020-06-17T22:23:16.253",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 91845,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 91844,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 84079,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 33,
+                "goalGetterID": 19126,
+                "goalGetterName": "J. Burkardt",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 84090,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 49,
+                "goalGetterID": 16904,
+                "goalGetterName": "J.-P.Mateta",
+                "scoringTeamId": 81,
+                "isPenalty": true,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
@@ -275,460 +620,6 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 55563,
-        "matchDateTime": "2020-06-17T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4362,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
-        "leagueSeason": 2019,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2020-06-17T18:30:00Z",
-        "group": {
-            "groupName": "32. Spieltag",
-            "groupOrderID": 32,
-            "groupID": 34231
-        },
-        "team1": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2020-06-17T22:30:10.893",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 91839,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 91838,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 3,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 84092,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 59,
-                "goalGetterID": 14372,
-                "goalGetterName": "Dabbur",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 84095,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 62,
-                "goalGetterID": 14372,
-                "goalGetterName": "Dabbur",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 84096,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 69,
-                "goalGetterID": 17613,
-                "goalGetterName": "Ruben Vargas",
-                "scoringTeamId": 95,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 84100,
-                "scoreTeam1": 1,
-                "scoreTeam2": 3,
-                "matchMinute": 89,
-                "goalGetterID": 15011,
-                "goalGetterName": "Bebou",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 55559,
-        "matchDateTime": "2020-06-16T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4362,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
-        "leagueSeason": 2019,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2020-06-16T16:30:00Z",
-        "group": {
-            "groupName": "32. Spieltag",
-            "groupOrderID": 32,
-            "groupID": 34231
-        },
-        "team1": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2020-06-16T20:20:17.197",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 91805,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 91804,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 84035,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 11,
-                "goalGetterID": 14569,
-                "goalGetterName": "Hofmann, Jonas",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 84036,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 30,
-                "goalGetterID": 14569,
-                "goalGetterName": "Hofmann, Jonas",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 84043,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 65,
-                "goalGetterID": 15386,
-                "goalGetterName": "Stindl, Lars",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 55562,
-        "matchDateTime": "2020-06-16T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4362,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
-        "leagueSeason": 2019,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2020-06-16T18:30:00Z",
-        "group": {
-            "groupName": "32. Spieltag",
-            "groupOrderID": 32,
-            "groupID": 34231
-        },
-        "team1": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 54,
-            "teamName": "Hertha BSC",
-            "shortName": "Hertha",
-            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2020-06-16T22:25:31.387",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 91817,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 91816,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 84052,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 61,
-                "goalGetterID": 18337,
-                "goalGetterName": "V. Grifo",
-                "scoringTeamId": 112,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 84053,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 66,
-                "goalGetterID": 11542,
-                "goalGetterName": "Ibisevic, Vedad",
-                "scoringTeamId": 54,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 84054,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 71,
-                "goalGetterID": 16053,
-                "goalGetterName": "Nils Petersen",
-                "scoringTeamId": 112,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 55564,
-        "matchDateTime": "2020-06-16T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4362,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
-        "leagueSeason": 2019,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2020-06-16T18:30:00Z",
-        "group": {
-            "groupName": "32. Spieltag",
-            "groupOrderID": 32,
-            "groupID": 34231
-        },
-        "team1": {
-            "teamId": 80,
-            "teamName": "1. FC Union Berlin",
-            "shortName": "Union Berlin",
-            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 31,
-            "teamName": "SC Paderborn 07",
-            "shortName": "Paderborn",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e3/SC_Paderborn_07_Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2020-06-16T22:25:30.117",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 91815,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 91814,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 84047,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 27,
-                "goalGetterID": 16048,
-                "goalGetterName": "Zolinski",
-                "scoringTeamId": 80,
-                "isPenalty": false,
-                "isOwnGoal": true,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 55556,
-        "matchDateTime": "2020-06-17T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4362,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
-        "leagueSeason": 2019,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2020-06-17T18:30:00Z",
-        "group": {
-            "groupName": "32. Spieltag",
-            "groupOrderID": 32,
-            "groupID": 34231
-        },
-        "team1": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2020-06-17T22:23:16.253",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 91845,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 91844,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 84079,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 33,
-                "goalGetterID": 19126,
-                "goalGetterName": "J. Burkardt",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 84090,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 49,
-                "goalGetterID": 16904,
-                "goalGetterName": "J.-P.Mateta",
-                "scoringTeamId": 81,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 55558,
         "matchDateTime": "2020-06-17T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -828,6 +719,115 @@
                 "goalGetterID": 392,
                 "goalGetterName": "Diaby",
                 "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 55563,
+        "matchDateTime": "2020-06-17T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2020-06-17T18:30:00Z",
+        "group": {
+            "groupName": "32. Spieltag",
+            "groupOrderID": 32,
+            "groupID": 34231
+        },
+        "team1": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2020-06-17T22:30:10.893",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 91839,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 91838,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 3,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 84092,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 59,
+                "goalGetterID": 14372,
+                "goalGetterName": "Dabbur",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 84095,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 62,
+                "goalGetterID": 14372,
+                "goalGetterName": "Dabbur",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 84096,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 69,
+                "goalGetterID": 17613,
+                "goalGetterName": "Ruben Vargas",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 84100,
+                "scoreTeam1": 1,
+                "scoreTeam2": 3,
+                "matchMinute": 89,
+                "goalGetterID": 15011,
+                "goalGetterName": "Bebou",
+                "scoringTeamId": 175,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
