@@ -1,9 +1,7 @@
 # Roadmap: multi-OS compatibility + leveling up the pipeline
 
-This is a checklist, not a spec. Each phase names the goal, why it has to come
-before the next one, and open questions to resolve yourself — no solutions
-handed over, that's the point. Check items off as you go. Order matters: each
-phase assumes the previous one actually works before you build on top of it.
+A checklist, not a spec. Order matters: each phase assumes the previous one
+actually works. Phases 0 through 5 are done; Phase 6 is the only open work.
 
 ## Current state
 
@@ -15,17 +13,32 @@ and silver are implemented; gold is still a placeholder file
 
 Built on Windows in April 2026, stalled for four months, resumed on a Mac
 (Apple Silicon) with an Ubuntu machine as the second target and no Windows box
-anywhere. Phases 0 through 3 dealt with exactly that. The pipeline now comes up
-from a single `docker compose up` on any OS that has Docker, loads
-idempotently, and bootstraps its own database, schemas and procedures.
+anywhere. The pipeline now comes up from a single `docker compose up` on any OS
+that has Docker, bootstraps its own database, schemas and procedures, and loads
+idempotently.
+
+### How a run is incremental, and where it deliberately is not
+
+Three stages. Only two of them are incremental, and that is on purpose.
+
+| stage | code | incremental? |
+|---|---|---|
+| API to JSON | `loop_and_write()` | yes: current season only, 34 calls instead of 714 |
+| JSON to staging | `load_json()` | **no**: re-reads all 714 files every run |
+| staging to bronze | `bronze.merge_bronze` | yes: compares `lastUpdateDateTime`, zero writes when nothing changed |
+
+The middle stage is a full load and stays one. It costs about eleven seconds,
+it only refills a throwaway table that the `MERGE` truncates right after, and
+the dataset is far too small for the fix to buy anything. Making it incremental
+would mean tracking which files changed, which is state to maintain in exchange
+for seconds nobody is waiting on. Recorded here so it does not get mistaken for
+leftover technical debt: it is a decision, not an oversight.
 
 ### Decisions still in force
 
-**SQL Server, not Postgres, for now.** The existing T-SQL (stored procedures,
-`OPENJSON ... AS JSON`, bracket quoting) is not portable and a rewrite was not
-wanted. A Postgres migration is intended eventually, once both machines are
-permanently Unix-based. The hard part will be the DDL and procedure layer, not
-ordinary querying, since that is where the two dialects diverge most.
+**SQL Server.** The stored procedures, `OPENJSON ... AS JSON` and bracket
+quoting are T-SQL and stay T-SQL. No engine migration is planned for this
+project.
 
 **Image pinned to `2022-latest`, not `2025`.** The 2025 image needs AVX
 instructions that crash under Apple Silicon emulation. 2022 does not, and at
@@ -33,181 +46,141 @@ this data volume the emulation overhead costs nothing that matters.
 
 **Bronze is a mirror, not a history.** One row per match, keyed on `matchID`,
 updated in place by a `MERGE` when the source's `lastUpdateDateTime` moves.
-Chosen because the API is re-fetchable, so bronze is a convenience rather than
-the only surviving copy. A useful consequence: a fixture published before it is
-played and the same match with its final score are one row that gets updated,
-not two versions to reconcile later.
+A fixture published before it is played and the same match with its final score
+are one row that gets updated, not two versions to reconcile. Phase 6 gives the
+history back for free: the weekly raw commit turns git into the history layer.
 
 **Scope is deliberately small.** This is a personal project, not a platform.
-Per-matchday change detection, an upsert path for silver, and any persisted
-ingestion state were all considered and cut. Re-fetching the current season
-daily is cheap, and silver rebuilds from bronze in seconds. The only automation
-goal here is a scheduled GitHub Actions workflow. Airflow, Spark and Terraform
-are wanted as career skills, but are better learned on differently shaped
-projects.
+The finish line is a scheduled fetch, a gold layer and a dashboard. Anything
+that does not serve those three is out.
 
-**Unresolved, and blocking CI/CD.** GitHub Actions runners are ephemeral. If
-`mssql` runs inside the CI job, its data disappears at the end of every run and
-every incremental run silently becomes a full load again. Where the database
-actually lives is Phase 5, and it is a decision, not code.
+**Everything runs locally.** See Phase 5.
 
-## Phase 0 — where you already are
+## Phases 0 to 3 (done)
 
-- [x] Diagnosed the two things that tied the project to Windows: a hardcoded
-      `C:\Users\...` path inside `OPENROWSET(BULK ...)`, and `pyodbc` needing a
-      system-level ODBC driver that Windows bundles invisibly and Mac/Ubuntu
-      don't.
-- [x] `fix/macos_compatibility` branch already removed the `BULK INSERT` logic
-      from `proc_load_bronze.sql` and started moving the load into Python
-      (`load_bronze()` in `ingestion/fetch_matches.py`).
-- [x] Decide whether to keep working on that branch or fold its diff into a
-      fresh one — either way, don't lose the work already there.
+- [x] **Phase 0. Diagnose the Windows coupling.** A hardcoded `C:\Users\...`
+      path inside `OPENROWSET(BULK ...)`, and `pyodbc` needing a system-level
+      ODBC driver that Windows bundles invisibly and Mac/Ubuntu do not. The
+      `BULK INSERT` logic left `proc_load_bronze.sql` and moved into Python.
+- [x] **Phase 1. SQL Server in Docker, alone.** `mssql` service only, pinned to
+      `2022-latest`, reachable on `localhost:1433`, no Python involved.
+- [x] **Phase 2. Host-native script against the Dockerized DB.** unixODBC plus
+      `msodbcsql18` on the host, connection details moved out of the source and
+      into a gitignored `.env`, and the Python loader (`load_json()`, renamed to
+      stop colliding with the SQL procedure) wired into `main()`.
+- [x] **Phase 3. Containerize the ingestion script.** A `Dockerfile` bakes
+      Python plus the ODBC stack, a second Compose service joins the same
+      network (so the DB is addressed by service name, not `localhost`), the
+      startup race is handled by a retry loop in `connect()`, and `ingestion/`,
+      `scripts/` and `datasets/` are mounted so code edits need no rebuild.
 
-Note on scope: the branch is named `fix/macos_compatibility`, but the actual
-goal is broader — run identically on *any* OS, including a hypothetical
-future return to Windows, not just "make it work on this Mac." Nothing in
-Phases 1–6 is Mac-specific (Docker Compose, env vars, and containerizing the
-script are all OS-agnostic by construction), so the work itself already
-matches the real goal — just worth keeping in mind that the branch name is
-narrower than the intent, and renaming it (e.g. to something like
-`fix/os_portability`) before merging might save future confusion.
+Done when a clean clone reaches a loaded database with `docker compose up` and
+nothing else. Met.
 
-## Phase 1 — get SQL Server running in Docker, on its own, first
+## Phase 4. Stop doing a full load every time (done)
 
-Goal: prove the database container works, completely decoupled from Python.
-Don't touch the ingestion script yet.
+- [x] Landed on the mirror model: a `MERGE` fed from `bronze.dataframe_staging`,
+      with `lastUpdateDateTime` as the change marker.
+- [x] `proc_init_bronze.sql` is idempotent DDL that never drops.
+      `proc_merge_bronze.sql` upserts on the `matchID` primary key.
+- [x] The full-load path survives but is manual and explicit:
+      `scripts/bronze/rebuild_bronze.sql`.
+- [x] Narrowed the fetch window to the current season: 34 calls instead of 714,
+      thirteen minutes down to eleven seconds. `current_season()` keys off the
+      month, since a season crosses the year boundary and `datetime.now().year`
+      is wrong from January through July. `BACKFILL=1` still fetches every
+      season since 2006, and is a one-off bootstrap, never automated.
 
-- [x] Start the Docker daemon (it's installed, just not running).
-- [x] Write a first-pass `docker-compose.yml` with **only** the `mssql`
-      service. Pin the image to `2022-latest`, not `2025-latest` — the 2025
-      image requires AVX instructions that crash under QEMU emulation on
-      Apple Silicon; 2022 doesn't have that requirement.
-- [x] Bring it up, connect with any SQL client (Azure Data Studio, DBeaver,
-      even `sqlcmd` if you install it) over `localhost:1433`, confirm you can
-      run `init_database.sql` against it manually.
-
-Done when: you have a working, empty SQL Server reachable from your host,
-with zero Python involved.
-
-## Phase 2 — get the host-native script talking to it
-
-Goal: reproduce what worked on Windows, now against the Dockerized DB, script
-still running directly on your machine (not containerized yet — one variable
-at a time).
-
-- [x] Install the client-side ODBC stack on this Mac (`unixODBC` +
-      `msodbcsql17`/`18` via Homebrew's Microsoft tap) — this has nothing to
-      do with Docker, it's a separate host dependency. Do the same later on
-      Ubuntu, the exact steps differ.
-- [x] Move the hardcoded connection details out of `fetch_matches.py`
-      (`SERVER=localhost`, `UID=sa`, `PWD=passwordblabla`) into environment
-      variables / a `.env` file that's gitignored. Not just cleanliness —
-      you'll need this to be configurable anyway once the script runs inside
-      a container in Phase 3, where `localhost` stops meaning what you think
-      it means.
-- [x] Finish the Python loader on the fix branch and wire it into `main()` so
-      the fetch → load chain runs end-to-end again. The function is now called
-      `load_json()`, to stop colliding with the SQL procedure.
-
-Done when: running `python fetch_matches.py` on your bare Mac populates
-`bronze.dataframe` inside the Dockerized SQL Server.
-
-## Phase 3 — containerize the ingestion script
-
-Goal: the only host dependency left for anyone cloning this repo becomes
-Docker itself. This is the option-B call you already made.
-
-- [x] Write a `Dockerfile` for the ingestion script (Python + `unixODBC` +
-      `msodbcsql` + `requirements.txt`, baked in once).
-- [x] Add it as a second service in `docker-compose.yml`, same network as
-      `mssql`. Inside that network, containers address each other by service
-      name, not `localhost` — this is exactly why the env-var connection
-      string from Phase 2 matters now.
-- [x] Handle the startup race: the `ingestion` container can start before
-      `mssql` has finished initializing. Look into `depends_on` +
-      healthchecks in Compose, and/or a retry loop on the Python side.
-- [x] Mount your local `ingestion/` folder as a volume during development so
-      you're not rebuilding the image on every code change.
-
-Done when: `docker compose up` alone, no host Python, no manual driver
-install, takes a clean clone from zero to a loaded database.
-
-## Phase 4 — stop doing a full load every time
-
-Goal: a normal run costs seconds instead of thirteen minutes, and never
-destroys what is already loaded.
-
-- [x] Research: idempotent ETL, `MERGE`/upsert in T-SQL, and using a field
-      already stored per match to detect real change. Landed on the mirror
-      model, a `MERGE` fed from a staging table, and `lastUpdateDateTime` as
-      the change marker.
-- [x] Rewrite the bronze load. `proc_init_bronze.sql` is idempotent DDL that
-      never drops, and `proc_merge_bronze.sql` upserts from
-      `bronze.dataframe_staging` on the new `matchID` primary key.
-- [x] Keep the full-load path around but explicit:
-      `scripts/bronze/rebuild_bronze.sql`, manual only.
-- [x] Narrow the fetch window. A normal run fetches the current season only,
-      34 calls instead of 714, which took a run from thirteen minutes to
-      eleven seconds. `current_season()` keys off the month, since a Bundesliga
-      season crosses the year boundary and `datetime.now().year` is wrong from
-      January through July. `BACKFILL=1` still fetches every season since 2006,
-      the same explicit-escape-hatch shape as `rebuild_bronze.sql`.
-
-Done when: a normal run fetches one season instead of twenty-one, and
-re-running on a day with no new results changes nothing. **Met.** Two
-consecutive `docker compose run` produced an identical checksum, verified
-through the container rather than host-native.
+Done when a normal run fetches one season and a re-run on a quiet day changes
+nothing. **Met**, verified by identical checksums across two consecutive runs.
 
 ### Cut on purpose
 
-Considered and rejected, so they do not get reopened by accident:
+- **Per-matchday change detection** via `getlastchangedate`. Saves API calls the
+  current-season window already avoids. Optimizing an optimization.
+- **Persisted ingestion state.** Pointless when every run re-fetches the current
+  season and the `MERGE` decides what actually changed.
+- **An upsert path for silver.** Already idempotent, rebuilds from bronze in
+  seconds.
+- **Retroactive edits to old seasons.** OpenLigaDB is collaborative, so a 2009
+  match could be fixed tomorrow. Accepted blind spot; `rebuild_bronze.sql` plus
+  a full backfill is the answer if it ever matters.
 
-- **Per-matchday change detection** via `getlastchangedate`. Saves API calls
-  that the current-season window already avoids. Optimizing an optimization.
-- **Persisted ingestion state.** Pointless when every run simply re-fetches the
-  current season; the `MERGE` decides what actually changed.
-- **An upsert path for silver.** It is already idempotent and rebuilds
-  deterministically from bronze in seconds. Not incremental is not the same as
-  broken.
-- **Retroactive edits to old seasons.** OpenLigaDB is collaborative, so someone
-  could fix a 2009 match tomorrow. Accepted blind spot; `rebuild_bronze.sql`
-  plus a full bootstrap is the answer if it ever matters.
+## Phase 5. Where the database lives (done, decided)
 
-## Phase 5 — resolve this *before* writing any CI/CD config
+The question was where `mssql` lives once runs are automated, since GitHub
+Actions runners are ephemeral and anything loaded inside a job dies with it.
 
-Open question, deliberately unanswered here: GitHub Actions runners are
-ephemeral — a fresh VM per run, nothing persists between runs by default. If
-`mssql` runs *inside* the CI job, its data vanishes at the end of every run,
-and every "incremental" run silently becomes a full load again, undoing all
-of Phase 4.
+**Answer: nowhere new. CI keeps the raw JSON fresh; the database stays local
+and on demand.**
 
-Decide where the database actually lives for daily automation to make sense:
-an always-on machine you control, a real persistent (cloud) database reached
-over the network, or decoupling "CI/CD keeps the raw source data fresh" from
-"loading into a database," which stays a separate, manual/local step until
-you have real persistent infra. No wrong answer, but pick one on purpose.
+The reasoning matters more than the answer:
 
-## Phase 6 — automate it
+- **The right question was not cost or speed, it was who reads the output.** A
+  SQL Server built inside a runner and destroyed at the end of the job computes
+  a warehouse nobody queries. It is not slow, it is pointless.
+- **An ephemeral database would not undo Phase 4 anyway.** What is incremental
+  is the fetch, which needs no database, and the `MERGE`, which holds no state
+  between runs. The staging load is already full every run by design.
+- **The source of truth is the JSON, not the database.** It is re-fetchable from
+  the API and already versioned in git (714 files, about 20 MB, roughly a
+  one-line diff per matchday). The warehouse is a derived layer that rebuilds
+  from those files in seconds.
+- **A hosted database was considered and rejected.** It only earns its keep when
+  something that is not you, at an hour you did not choose, has to read the
+  system. That is a question of availability, never of volume, and at 20 MB the
+  volume never enters the argument. Renting one plus a host for the dashboard
+  process is a real monthly bill for a system with exactly one reader.
+- **And the dashboard does not need a served database at all.** Interactive is
+  not the same as up to date. A Power BI file is interactive because the data
+  travels inside it. The same shape works here: export gold to a flat file
+  (parquet, CSV or DuckDB), ship it with the dashboard, publish the whole thing
+  as static files. SQL Server goes back to being what it always was, a
+  transformation tool, not a serving layer.
 
-- [ ] GitHub Actions workflow on a `schedule: cron:` trigger, implementing
-      whichever answer you landed on in Phase 5.
-- [ ] DB credentials go into GitHub Actions secrets, never into the workflow
-      file.
-- [ ] Confirm a no-op day (nothing new from the API) still runs, exits fast,
-      and changes nothing.
+## Phase 6. Automate it (open)
+
+The only remaining work. Scope: the workflow fetches, and nothing else.
+
+- [x] **Split the entrypoint.** `__main__` used to run `deploy_schema()`, the
+      fetch and `load_json()` back to back, and two of those need a database
+      the runner does not have. `FETCH_ONLY=1` now gates the database half.
+      It is independent from `BACKFILL`, which still decides only how much is
+      fetched, so a run with no variables set keeps fetching one season *and*
+      loading it. **Verified** with Docker fully down: the script downloaded
+      the season and exited 0 without a single connection attempt.
+- [ ] **No Docker and no ODBC in the runner.** Once the fetch is separable it
+      needs `requests` and nothing more. No `mssql` service, no `pyodbc`, no
+      driver install.
+- [ ] **Weekly schedule, `0 21 * * 1`.** Cron in Actions is always UTC and
+      ignores daylight saving. 21:00 UTC is 22:00 in the German winter and
+      23:00 in summer, so it never fires before a Sunday round is finished, and
+      Monday catches the whole round.
+- [ ] **Commit the refreshed raw back to the repo.** Needs
+      `permissions: contents: write`, and must skip the commit when the diff is
+      empty so quiet weeks leave no noise. Target branch is `develop`, so the
+      bot never makes `main` diverge and collide with open pull requests. Not
+      final until the workflow actually exists.
+- [ ] **`BACKFILL` never gets set in the workflow.** The backfill is a one-off
+      bootstrap, run manually and locally, before any of this.
+- [ ] **Secrets are not needed.** With no database in CI there is nothing to
+      authenticate against.
+- [ ] Confirm that a week with no new results runs, exits fast, and commits
+      nothing.
 
 ## Parked for later
 
-Ideas already in mind, explicitly not sequenced into the phases above yet —
-revisit once Phase 6 is done, or sooner if it makes sense:
-
-- [ ] **Finish the gold layer.** Currently just `scripts/gold/placegolder.txt`
-      — bronze and silver are the only implemented layers so far.
-- [ ] **Switch `requirements.txt` to `uv`.** Already used it twice at work,
-      found it fast and easy; do the swap once the Docker/dependency story
-      above has settled, not mid-migration.
-- [ ] **Build a dashboard on top of the gold layer**, in Python with Shiny
-      (integrates with pandas/matplotlib). Still vague on purpose — data
-      modeling, storytelling, and the actual look of it are a separate,
-      sizable chunk of work that will get broken into its own smaller
-      to-do list once it's actually started.
+- [ ] **Finish the gold layer.** Still `scripts/gold/placegolder.txt`. This is
+      the natural next project after Phase 6, and the only prerequisite the
+      dashboard actually has.
+- [ ] **Build the dashboard once, then leave it.** Python with Shiny, compiled
+      to static files with `shinylive` and published on GitHub Pages, reading an
+      exported gold file rather than connecting to a database. Deliberately not
+      automated: rebuilding it weekly would mean running the whole pipeline in
+      CI, which buys freshness nobody asked for on the least interesting part of
+      the project. If a refreshed version is ever wanted, the four steps (run
+      the pipeline locally, export gold, `shinylive export`, publish) are done
+      by hand. The focus here is data engineering, and the gold layer is where
+      that lives, not the dashboard.
+- [ ] **Switch `requirements.txt` to `uv`.** Fast and easy at work; do the swap
+      once the Docker story has settled, not mid-migration.

@@ -203,12 +203,13 @@ def load_json():
 
 if __name__ == "__main__":
 
-    deploy_schema()
-
     # a normal run touches one season. BACKFILL=1 fetches every season since
     # 2006, which is the one-off bootstrap and takes around thirteen minutes.
     if os.environ.get("BACKFILL") == "1":
         loop_and_write(seasons, matchday)
     else:
         loop_and_write(range(current_season(), current_season() + 1), matchday)
-    load_json()
+
+    if os.environ.get("FETCH_ONLY") != "1":
+        deploy_schema()
+        load_json()
