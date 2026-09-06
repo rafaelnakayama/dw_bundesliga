@@ -4,6 +4,7 @@ import datetime
 import json
 import re
 import time
+import logging
 from pathlib import Path
 
 import os
@@ -47,8 +48,13 @@ def loop_and_write(seasons_loop, matchday_loop):
 
     for i in seasons_loop:
         for j in matchday_loop:
-            
-            day = create_url(i, j)
+
+            try:
+                day = create_url(i, j)
+            except requests.RequestException:
+                logging.warning("failed %s/%s, skipping", i, j)
+                continue
+                
             day.sort(key=lambda match: match["matchID"])
             file_path = DATA_PATH / "raw" / str(i) / f"{j}.json"
             file_path.parent.mkdir(parents=True, exist_ok=True)
@@ -94,7 +100,7 @@ def connect(database):
         except pyodbc.Error:
             if attempt == 30:
                 raise
-            print(f">>> Waiting for {os.environ['DB_SERVER']} ({attempt}/30)")
+            logging.info("Waiting for %s (%s/30)", os.environ['DB_SERVER'], attempt)
             time.sleep(2)
 
 
@@ -127,7 +133,7 @@ def deploy_schema():
     # CREATE DATABASE cannot run inside a transaction, hence autocommit
     with connect("master") as connector:
         connector.autocommit = True
-        print(">>> Applying: init_schemas.sql")
+        logging.info("Applying: init_schemas.sql")
         run_sql_file(connector.cursor(), SCRIPTS_PATH / "init" / "init_schemas.sql")
 
     procedures = (
@@ -139,7 +145,7 @@ def deploy_schema():
     with connect(os.environ["DB_DATABASE"]) as connector:
         connector.autocommit = True
         for procedure in procedures:
-            print(f">>> Applying: {procedure.name}")
+            logging.info("Applying: %s", procedure.name)
             run_sql_file(connector.cursor(), SCRIPTS_PATH / procedure)
 
 
@@ -203,6 +209,11 @@ if __name__ == "__main__":
     load_dotenv()
     seasons = range(2006, current_season() + 1) # full range, used for the one-off backfill
     matchday = range(1,35) # We want all the matchdays from the season
+
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s %(levelname)s %(message)s",
+    )
 
     if os.environ.get("BACKFILL") == "1":
         loop_and_write(seasons, matchday)
