@@ -8,12 +8,9 @@ from pathlib import Path
 
 import os
 from dotenv import load_dotenv
-load_dotenv()
 
-seasons = range(2006, 2027) # full range, used for the one-off backfill
-matchday = range(1,35) # We want all the matchdays from the season
-data_path = Path(__file__).parent.parent / "datasets"
-scripts_path = Path(__file__).parent.parent / "scripts"
+DATA_PATH = Path(__file__).parent.parent / "datasets"
+SCRIPTS_PATH = Path(__file__).parent.parent / "scripts"
 
 def current_season():
 
@@ -25,7 +22,7 @@ def current_season():
 
     today = datetime.date.today()
     return today.year if today.month >= 7 else today.year - 1
-
+    
 
 def create_url(seasons_param, matchday_param):
 
@@ -53,7 +50,7 @@ def loop_and_write(seasons_loop, matchday_loop):
             
             day = create_url(i, j)
             day.sort(key=lambda match: match["matchID"])
-            file_path = data_path / "raw" / str(i) / f"{j}.json"
+            file_path = DATA_PATH / "raw" / str(i) / f"{j}.json"
             file_path.parent.mkdir(parents=True, exist_ok=True)
         
             with open (file_path, "w") as file:
@@ -131,7 +128,7 @@ def deploy_schema():
     with connect("master") as connector:
         connector.autocommit = True
         print(">>> Applying: init_schemas.sql")
-        run_sql_file(connector.cursor(), scripts_path / "init" / "init_schemas.sql")
+        run_sql_file(connector.cursor(), SCRIPTS_PATH / "init" / "init_schemas.sql")
 
     procedures = (
         Path("bronze") / "proc_init_bronze.sql",
@@ -143,7 +140,7 @@ def deploy_schema():
         connector.autocommit = True
         for procedure in procedures:
             print(f">>> Applying: {procedure.name}")
-            run_sql_file(connector.cursor(), scripts_path / procedure)
+            run_sql_file(connector.cursor(), SCRIPTS_PATH / procedure)
 
 
 def load_json():
@@ -162,7 +159,7 @@ def load_json():
     cursor.execute("TRUNCATE TABLE bronze.dataframe_staging")
     connector.commit()
 
-    for file_path in data_path.glob("raw/*/*.json"):
+    for file_path in DATA_PATH.glob("raw/*/*.json"):
         with open(file_path) as file:
             data = json.load(file)
 
@@ -203,8 +200,10 @@ def load_json():
 
 if __name__ == "__main__":
 
-    # a normal run touches one season. BACKFILL=1 fetches every season since
-    # 2006, which is the one-off bootstrap and takes around thirteen minutes.
+    load_dotenv()
+    seasons = range(2006, current_season() + 1) # full range, used for the one-off backfill
+    matchday = range(1,35) # We want all the matchdays from the season
+
     if os.environ.get("BACKFILL") == "1":
         loop_and_write(seasons, matchday)
     else:
