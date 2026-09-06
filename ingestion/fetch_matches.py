@@ -45,13 +45,16 @@ def loop_and_write(seasons_loop, matchday_loop):
     going all the way to select all data, and writing it to
     a .json file at each call
     """
+    
+    skipped = 0
 
     for i in seasons_loop:
         for j in matchday_loop:
-
+            time.sleep(0.3)
             try:
                 day = create_url(i, j)
             except requests.RequestException:
+                skipped += 1
                 logging.warning("failed %s/%s, skipping", i, j)
                 continue
                 
@@ -61,8 +64,8 @@ def loop_and_write(seasons_loop, matchday_loop):
         
             with open (file_path, "w") as file:
                 json.dump(day, file , indent=4)
-                
-            time.sleep(0.3)
+            
+    logging.info("done, %s matchdays skipped", skipped)
             
 
 def as_json(value):
