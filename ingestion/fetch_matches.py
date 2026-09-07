@@ -1,14 +1,11 @@
 import requests
-import pyodbc
 import datetime
 import json
 import re
 import time
 import logging
-from pathlib import Path
-
 import os
-from dotenv import load_dotenv
+from pathlib import Path
 
 DATA_PATH = Path(__file__).parent.parent / "datasets"
 SCRIPTS_PATH = Path(__file__).parent.parent / "scripts"
@@ -87,6 +84,8 @@ def connect(database):
     while before it is ready to serve, so without this the ingestion container
     dies on the first run of a fresh stack.
     """
+
+    import pyodbc
 
     connection_string = (
         "DRIVER={ODBC Driver 18 for SQL Server};"
@@ -208,8 +207,10 @@ def load_json():
 
 
 if __name__ == "__main__":
-
+    
+    from dotenv import load_dotenv
     load_dotenv()
+    
     seasons = range(2006, current_season() + 1) # full range, used for the one-off backfill
     matchday = range(1,35) # We want all the matchdays from the season
 
