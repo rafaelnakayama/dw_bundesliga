@@ -1,0 +1,50 @@
+name: cicd
+
+on:
+  schedule:
+    - cron: "0 * 21 * * 1"
+  workflow_dispatch:
+  push:
+    branches: [develop]
+
+permissions:
+  contents: write
+
+jobs:
+  name: new_matches
+  runs-on: fetch_matches.py
+  permissions:
+    contents: write
+
+  steps:
+    - uses: actions/ ####
+      with:
+        ref: develop
+        fetch-depht: 1
+        persist-credentials: false
+        
+    - uses: actions/setup-python@3.13.13
+      with:
+        python-version: "3.13.13"
+        cache: pip
+
+    - name: install_packages
+      run: pip install requirements.txt
+
+    - name: fetch_matches
+      env:
+        #### : ####
+      run: python ingestion/fetch_matches.py
+
+    - name: ...
+      # ?
+      # ?
+
+    - name: user
+      if: steps.id.outputs.check == True
+      run:
+        git config user.name "rafaelnakayama"
+        git config user.email "rafaelnakayama2003@gmail.com"
+        git add .
+        git commit -m "chore: weekly fetch update"
+        git push origin develop
