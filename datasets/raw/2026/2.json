@@ -355,7 +355,7 @@
     {
         "matchID": 83168,
         "matchDateTime": "2026-09-06T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
+        "timeZoneID": null,
         "leagueId": 4937,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2026/2027",
         "leagueSeason": 2026,
@@ -380,10 +380,97 @@
             "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2026-07-15T11:46:10.567",
-        "matchIsFinished": false,
-        "matchResults": [],
-        "goals": [],
+        "lastUpdateDateTime": "2026-09-06T19:21:32.73",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 127975,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 127976,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 4,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 147053,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 6,
+                "goalGetterID": 19126,
+                "goalGetterName": "J. Burkardt",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 147080,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 46,
+                "goalGetterID": 27201,
+                "goalGetterName": "Elias Baum",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 147081,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 47,
+                "goalGetterID": 19003,
+                "goalGetterName": "R. Fellhauer",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 147085,
+                "scoreTeam1": 1,
+                "scoreTeam2": 3,
+                "matchMinute": 65,
+                "goalGetterID": 22999,
+                "goalGetterName": "Alexis Claude-Maurice",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 147090,
+                "scoreTeam1": 1,
+                "scoreTeam2": 4,
+                "matchMinute": 89,
+                "goalGetterID": 627,
+                "goalGetterName": "F. Rieder",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
         "location": null,
         "numberOfViewers": null
     },
@@ -538,7 +625,7 @@
     {
         "matchID": 83170,
         "matchDateTime": "2026-09-06T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
+        "timeZoneID": null,
         "leagueId": 4937,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2026/2027",
         "leagueSeason": 2026,
@@ -563,10 +650,97 @@
             "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2026-07-15T11:45:58.337",
-        "matchIsFinished": false,
-        "matchResults": [],
-        "goals": [],
+        "lastUpdateDateTime": "2026-09-06T17:22:31.473",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 127964,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 127965,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 5,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 147029,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 20,
+                "goalGetterID": 18409,
+                "goalGetterName": "S. Becker",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 147035,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 41,
+                "goalGetterID": 18742,
+                "goalGetterName": "P. Mwene",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 147044,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 48,
+                "goalGetterID": 18976,
+                "goalGetterName": "P. Tietz",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 147051,
+                "scoreTeam1": 0,
+                "scoreTeam2": 4,
+                "matchMinute": 83,
+                "goalGetterID": 18976,
+                "goalGetterName": "P. Tietz",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 147052,
+                "scoreTeam1": 0,
+                "scoreTeam2": 5,
+                "matchMinute": 92,
+                "goalGetterID": 19187,
+                "goalGetterName": "R. K\u00f6nigsd\u00f6rffer",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            }
+        ],
         "location": null,
         "numberOfViewers": null
     },
