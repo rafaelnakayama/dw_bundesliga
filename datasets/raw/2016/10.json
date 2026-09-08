@@ -1,192 +1,5 @@
 [
     {
-        "matchID": 39734,
-        "matchDateTime": "2016-11-05T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3005,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
-        "leagueSeason": 2016,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2016-11-05T14:30:00Z",
-        "group": {
-            "groupName": "10. Spieltag",
-            "groupOrderID": 10,
-            "groupID": 23842
-        },
-        "team1": {
-            "teamId": 171,
-            "teamName": "FC Ingolstadt 04",
-            "shortName": "Ingolstadt",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/5/55/FC-Ingolstadt_logo.svg/960px-FC-Ingolstadt_logo.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2016-11-06T12:25:21.533",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 69980,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 69996,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 55286,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 86,
-                "goalGetterID": 16195,
-                "goalGetterName": "Ra\u00fal Bobadilla",
-                "scoringTeamId": 95,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 55287,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 90,
-                "goalGetterID": 1338,
-                "goalGetterName": "Halil Altintop",
-                "scoringTeamId": 95,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 354,
-            "locationCity": "Ingolstadt",
-            "locationStadium": "Audi-Sportpark"
-        },
-        "numberOfViewers": 15200
-    },
-    {
-        "matchID": 39732,
-        "matchDateTime": "2016-11-04T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3005,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
-        "leagueSeason": 2016,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2016-11-04T19:30:00Z",
-        "group": {
-            "groupName": "10. Spieltag",
-            "groupOrderID": 10,
-            "groupID": 23842
-        },
-        "team1": {
-            "teamId": 54,
-            "teamName": "Hertha BSC",
-            "shortName": "Hertha",
-            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2016-11-06T12:23:48.983",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 69960,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 69961,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 55243,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 18,
-                "goalGetterID": 16186,
-                "goalGetterName": "Salomon Kalou",
-                "scoringTeamId": 54,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 55244,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 33,
-                "goalGetterID": 16186,
-                "goalGetterName": "Salomon Kalou",
-                "scoringTeamId": 54,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 55245,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 84,
-                "goalGetterID": 16186,
-                "goalGetterName": "Salomon Kalou",
-                "scoringTeamId": 54,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 22,
-            "locationCity": "Berlin",
-            "locationStadium": "Olympiastadion"
-        },
-        "numberOfViewers": 51934
-    },
-    {
         "matchID": 39729,
         "matchDateTime": "2016-11-05T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -400,6 +213,219 @@
         "numberOfViewers": 28941
     },
     {
+        "matchID": 39731,
+        "matchDateTime": "2016-11-06T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2016-11-06T16:30:00Z",
+        "group": {
+            "groupName": "10. Spieltag",
+            "groupOrderID": 10,
+            "groupID": 23842
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2016-11-17T22:44:14.447",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 70096,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 70097,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 55373,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 35,
+                "goalGetterID": 9096,
+                "goalGetterName": "Allesandro Sch\u00f6pf",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 55374,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 38,
+                "goalGetterID": 16175,
+                "goalGetterName": "Nabil Bentaleb",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 55375,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 42,
+                "goalGetterID": 16086,
+                "goalGetterName": "S. Gnabry",
+                "scoringTeamId": 134,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 55376,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 63,
+                "goalGetterID": 9096,
+                "goalGetterName": "Allesandro Sch\u00f6pf",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 52,
+            "locationCity": "",
+            "locationStadium": ""
+        },
+        "numberOfViewers": 61263
+    },
+    {
+        "matchID": 39732,
+        "matchDateTime": "2016-11-04T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2016-11-04T19:30:00Z",
+        "group": {
+            "groupName": "10. Spieltag",
+            "groupOrderID": 10,
+            "groupID": 23842
+        },
+        "team1": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2016-11-06T12:23:48.983",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 69960,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 69961,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 55243,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 18,
+                "goalGetterID": 16186,
+                "goalGetterName": "Salomon Kalou",
+                "scoringTeamId": 54,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 55244,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 33,
+                "goalGetterID": 16186,
+                "goalGetterName": "Salomon Kalou",
+                "scoringTeamId": 54,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 55245,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 84,
+                "goalGetterID": 16186,
+                "goalGetterName": "Salomon Kalou",
+                "scoringTeamId": 54,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 22,
+            "locationCity": "Berlin",
+            "locationStadium": "Olympiastadion"
+        },
+        "numberOfViewers": 51934
+    },
+    {
         "matchID": 39733,
         "matchDateTime": "2016-11-05T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -552,6 +578,167 @@
         "numberOfViewers": 57000
     },
     {
+        "matchID": 39734,
+        "matchDateTime": "2016-11-05T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2016-11-05T14:30:00Z",
+        "group": {
+            "groupName": "10. Spieltag",
+            "groupOrderID": 10,
+            "groupID": 23842
+        },
+        "team1": {
+            "teamId": 171,
+            "teamName": "FC Ingolstadt 04",
+            "shortName": "Ingolstadt",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/5/55/FC-Ingolstadt_logo.svg/960px-FC-Ingolstadt_logo.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2016-11-06T12:25:21.533",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 69980,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 69996,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 55286,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 86,
+                "goalGetterID": 16195,
+                "goalGetterName": "Ra\u00fal Bobadilla",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 55287,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 90,
+                "goalGetterID": 1338,
+                "goalGetterName": "Halil Altintop",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 354,
+            "locationCity": "Ingolstadt",
+            "locationStadium": "Audi-Sportpark"
+        },
+        "numberOfViewers": 15200
+    },
+    {
+        "matchID": 39735,
+        "matchDateTime": "2016-11-05T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2016-11-05T17:30:00Z",
+        "group": {
+            "groupName": "10. Spieltag",
+            "groupOrderID": 10,
+            "groupID": 23842
+        },
+        "team1": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2016-11-06T12:26:29.93",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 70021,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 70022,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 55309,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 5,
+                "goalGetterID": 16194,
+                "goalGetterName": "Mijat Gacinovic",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 183,
+            "locationCity": "Frankfurt",
+            "locationStadium": "Commerzbank-Arena"
+        },
+        "numberOfViewers": 51500
+    },
+    {
         "matchID": 39736,
         "matchDateTime": "2016-11-05T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -650,80 +837,6 @@
             "locationStadium": "Schwarzwald-Stadion"
         },
         "numberOfViewers": 23500
-    },
-    {
-        "matchID": 39735,
-        "matchDateTime": "2016-11-05T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3005,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
-        "leagueSeason": 2016,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2016-11-05T17:30:00Z",
-        "group": {
-            "groupName": "10. Spieltag",
-            "groupOrderID": 10,
-            "groupID": 23842
-        },
-        "team1": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2016-11-06T12:26:29.93",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 70021,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 70022,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 55309,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 5,
-                "goalGetterID": 16194,
-                "goalGetterName": "Mijat Gacinovic",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 183,
-            "locationCity": "Frankfurt",
-            "locationStadium": "Commerzbank-Arena"
-        },
-        "numberOfViewers": 51500
     },
     {
         "matchID": 39737,
@@ -837,118 +950,5 @@
             "locationStadium": ""
         },
         "numberOfViewers": 42558
-    },
-    {
-        "matchID": 39731,
-        "matchDateTime": "2016-11-06T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3005,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
-        "leagueSeason": 2016,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2016-11-06T16:30:00Z",
-        "group": {
-            "groupName": "10. Spieltag",
-            "groupOrderID": 10,
-            "groupID": 23842
-        },
-        "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2016-11-17T22:44:14.447",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 70096,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 70097,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 55373,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 35,
-                "goalGetterID": 9096,
-                "goalGetterName": "Allesandro Sch\u00f6pf",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 55374,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 38,
-                "goalGetterID": 16175,
-                "goalGetterName": "Nabil Bentaleb",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 55375,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 42,
-                "goalGetterID": 16086,
-                "goalGetterName": "S. Gnabry",
-                "scoringTeamId": 134,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 55376,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 63,
-                "goalGetterID": 9096,
-                "goalGetterName": "Allesandro Sch\u00f6pf",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 52,
-            "locationCity": "",
-            "locationStadium": ""
-        },
-        "numberOfViewers": 61263
     }
 ]

@@ -1,5 +1,65 @@
 [
     {
+        "matchID": 39927,
+        "matchDateTime": "2017-05-07T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2017-05-07T13:30:00Z",
+        "group": {
+            "groupName": "32. Spieltag",
+            "groupOrderID": 32,
+            "groupID": 23864
+        },
+        "team1": {
+            "teamId": 100,
+            "teamName": "Hamburger SV",
+            "shortName": "HSV",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2017-05-07T17:39:13.76",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 74739,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 74740,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [],
+        "location": {
+            "locationID": 1030,
+            "locationCity": "Hamburg",
+            "locationStadium": "Volksparkstadion"
+        },
+        "numberOfViewers": null
+    },
+    {
         "matchID": 39928,
         "matchDateTime": "2017-05-06T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -77,6 +137,89 @@
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 39929,
+        "matchDateTime": "2017-05-06T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2017-05-06T13:30:00Z",
+        "group": {
+            "groupName": "32. Spieltag",
+            "groupOrderID": 32,
+            "groupID": 23864
+        },
+        "team1": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2017-05-06T17:22:59.19",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 74668,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 74673,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 59210,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 57,
+                "goalGetterID": 15722,
+                "goalGetterName": "Alfred Finnbogason",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 59216,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 94,
+                "goalGetterID": 7523,
+                "goalGetterName": "Hahn",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": "Andr\u00e9 Hahn"
             }
         ],
         "location": null,
@@ -233,89 +376,6 @@
             "locationStadium": "RheinEnergieStadion "
         },
         "numberOfViewers": 50000
-    },
-    {
-        "matchID": 39929,
-        "matchDateTime": "2017-05-06T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3005,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
-        "leagueSeason": 2016,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2017-05-06T13:30:00Z",
-        "group": {
-            "groupName": "32. Spieltag",
-            "groupOrderID": 32,
-            "groupID": 23864
-        },
-        "team1": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2017-05-06T17:22:59.19",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 74668,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 74673,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 59210,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 57,
-                "goalGetterID": 15722,
-                "goalGetterName": "Alfred Finnbogason",
-                "scoringTeamId": 95,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 59216,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 94,
-                "goalGetterID": 7523,
-                "goalGetterName": "Hahn",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": "Andr\u00e9 Hahn"
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
     },
     {
         "matchID": 39931,
@@ -686,66 +746,6 @@
             }
         ],
         "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 39927,
-        "matchDateTime": "2017-05-07T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3005,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
-        "leagueSeason": 2016,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2017-05-07T13:30:00Z",
-        "group": {
-            "groupName": "32. Spieltag",
-            "groupOrderID": 32,
-            "groupID": 23864
-        },
-        "team1": {
-            "teamId": 100,
-            "teamName": "Hamburger SV",
-            "shortName": "HSV",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2017-05-07T17:39:13.76",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 74739,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 74740,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [],
-        "location": {
-            "locationID": 1030,
-            "locationCity": "Hamburg",
-            "locationStadium": "Volksparkstadion"
-        },
         "numberOfViewers": null
     },
     {

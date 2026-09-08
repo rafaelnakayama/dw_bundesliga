@@ -1,118 +1,5 @@
 [
     {
-        "matchID": 19744,
-        "matchDateTime": "2012-09-26T20:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 456,
-        "leagueName": "1. Fussball-Bundesliga 2012/2013",
-        "leagueSeason": 2012,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-09-26T18:00:00Z",
-        "group": {
-            "groupName": "5. Spieltag",
-            "groupOrderID": 5,
-            "groupID": 13145
-        },
-        "team1": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2012-09-26T21:10:33.62",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 30147,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 3,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 30148,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 3,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 13882,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 7,
-                "goalGetterID": 114,
-                "goalGetterName": "Kie\u00dfling",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 13887,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 39,
-                "goalGetterID": 1877,
-                "goalGetterName": "Wollscheid",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 13889,
-                "scoreTeam1": 0,
-                "scoreTeam2": 3,
-                "matchMinute": 44,
-                "goalGetterID": 656,
-                "goalGetterName": "Sch\u00fcrrle",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 13911,
-                "scoreTeam1": 1,
-                "scoreTeam2": 3,
-                "matchMinute": 51,
-                "goalGetterID": 185,
-                "goalGetterName": "Werner",
-                "scoringTeamId": 95,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 648,
-            "locationCity": "",
-            "locationStadium": "SGL-Arena"
-        },
-        "numberOfViewers": 25000
-    },
-    {
         "matchID": 19738,
         "matchDateTime": "2012-09-25T20:00:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -302,228 +189,6 @@
             }
         ],
         "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 19745,
-        "matchDateTime": "2012-09-25T20:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 456,
-        "leagueName": "1. Fussball-Bundesliga 2012/2013",
-        "leagueSeason": 2012,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-09-25T18:00:00Z",
-        "group": {
-            "groupName": "5. Spieltag",
-            "groupOrderID": 5,
-            "groupID": 13145
-        },
-        "team1": {
-            "teamId": 115,
-            "teamName": "SpVgg Greuther F\u00fcrth",
-            "shortName": "F\u00fcrth",
-            "teamIconUrl": "https://i.imgur.com/pwuVbKr.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 185,
-            "teamName": "Fortuna D\u00fcsseldorf",
-            "shortName": "D\u00fcsseldorf",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Fortuna_D%C3%BCsseldorf.svg/960px-Fortuna_D%C3%BCsseldorf.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2012-09-25T21:50:57.397",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 30081,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 30082,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 13806,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 26,
-                "goalGetterID": 38,
-                "goalGetterName": "Fink",
-                "scoringTeamId": 185,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 13810,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 36,
-                "goalGetterID": 1942,
-                "goalGetterName": "Ils\u00f6",
-                "scoringTeamId": 185,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 19746,
-        "matchDateTime": "2012-09-25T20:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 456,
-        "leagueName": "1. Fussball-Bundesliga 2012/2013",
-        "leagueSeason": 2012,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-09-25T18:00:00Z",
-        "group": {
-            "groupName": "5. Spieltag",
-            "groupOrderID": 5,
-            "groupID": 13145
-        },
-        "team1": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2012-09-29T21:06:55.587",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 30083,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 3,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 30084,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 13807,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 25,
-                "goalGetterID": 404,
-                "goalGetterName": "Piszczek",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 13805,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 28,
-                "goalGetterID": 357,
-                "goalGetterName": "Reus",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 13811,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 50,
-                "goalGetterID": 1056,
-                "goalGetterName": "Aigner",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 13812,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 51,
-                "goalGetterID": 2254,
-                "goalGetterName": "Inui",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 13814,
-                "scoreTeam1": 2,
-                "scoreTeam2": 3,
-                "matchMinute": 54,
-                "goalGetterID": 1442,
-                "goalGetterName": "G\u00f6tze",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 13817,
-                "scoreTeam1": 3,
-                "scoreTeam2": 3,
-                "matchMinute": 73,
-                "goalGetterID": 508,
-                "goalGetterName": "Anderson",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 421,
-            "locationCity": "Stadt",
-            "locationStadium": "Stadion"
-        },
         "numberOfViewers": null
     },
     {
@@ -964,5 +629,340 @@
             "locationStadium": "MAGE SOLAR Stadion"
         },
         "numberOfViewers": 21000
+    },
+    {
+        "matchID": 19744,
+        "matchDateTime": "2012-09-26T20:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 456,
+        "leagueName": "1. Fussball-Bundesliga 2012/2013",
+        "leagueSeason": 2012,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2012-09-26T18:00:00Z",
+        "group": {
+            "groupName": "5. Spieltag",
+            "groupOrderID": 5,
+            "groupID": 13145
+        },
+        "team1": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2012-09-26T21:10:33.62",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 30147,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 3,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 30148,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 3,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 13882,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 7,
+                "goalGetterID": 114,
+                "goalGetterName": "Kie\u00dfling",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 13887,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 39,
+                "goalGetterID": 1877,
+                "goalGetterName": "Wollscheid",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 13889,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 44,
+                "goalGetterID": 656,
+                "goalGetterName": "Sch\u00fcrrle",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 13911,
+                "scoreTeam1": 1,
+                "scoreTeam2": 3,
+                "matchMinute": 51,
+                "goalGetterID": 185,
+                "goalGetterName": "Werner",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 648,
+            "locationCity": "",
+            "locationStadium": "SGL-Arena"
+        },
+        "numberOfViewers": 25000
+    },
+    {
+        "matchID": 19745,
+        "matchDateTime": "2012-09-25T20:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 456,
+        "leagueName": "1. Fussball-Bundesliga 2012/2013",
+        "leagueSeason": 2012,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2012-09-25T18:00:00Z",
+        "group": {
+            "groupName": "5. Spieltag",
+            "groupOrderID": 5,
+            "groupID": 13145
+        },
+        "team1": {
+            "teamId": 115,
+            "teamName": "SpVgg Greuther F\u00fcrth",
+            "shortName": "F\u00fcrth",
+            "teamIconUrl": "https://i.imgur.com/pwuVbKr.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 185,
+            "teamName": "Fortuna D\u00fcsseldorf",
+            "shortName": "D\u00fcsseldorf",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Fortuna_D%C3%BCsseldorf.svg/960px-Fortuna_D%C3%BCsseldorf.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2012-09-25T21:50:57.397",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 30081,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 30082,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 13806,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 26,
+                "goalGetterID": 38,
+                "goalGetterName": "Fink",
+                "scoringTeamId": 185,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 13810,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 36,
+                "goalGetterID": 1942,
+                "goalGetterName": "Ils\u00f6",
+                "scoringTeamId": 185,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 19746,
+        "matchDateTime": "2012-09-25T20:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 456,
+        "leagueName": "1. Fussball-Bundesliga 2012/2013",
+        "leagueSeason": 2012,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2012-09-25T18:00:00Z",
+        "group": {
+            "groupName": "5. Spieltag",
+            "groupOrderID": 5,
+            "groupID": 13145
+        },
+        "team1": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2012-09-29T21:06:55.587",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 30083,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 3,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 30084,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 13807,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 25,
+                "goalGetterID": 404,
+                "goalGetterName": "Piszczek",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 13805,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 28,
+                "goalGetterID": 357,
+                "goalGetterName": "Reus",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 13811,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 50,
+                "goalGetterID": 1056,
+                "goalGetterName": "Aigner",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 13812,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 51,
+                "goalGetterID": 2254,
+                "goalGetterName": "Inui",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 13814,
+                "scoreTeam1": 2,
+                "scoreTeam2": 3,
+                "matchMinute": 54,
+                "goalGetterID": 1442,
+                "goalGetterName": "G\u00f6tze",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 13817,
+                "scoreTeam1": 3,
+                "scoreTeam2": 3,
+                "matchMinute": 73,
+                "goalGetterID": 508,
+                "goalGetterName": "Anderson",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 421,
+            "locationCity": "Stadt",
+            "locationStadium": "Stadion"
+        },
+        "numberOfViewers": null
     }
 ]

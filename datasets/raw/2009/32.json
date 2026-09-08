@@ -56,6 +56,62 @@
         "numberOfViewers": null
     },
     {
+        "matchID": 5587,
+        "matchDateTime": "2010-04-24T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 71,
+        "leagueName": "1. Fussball-Bundesliga 2009/2010",
+        "leagueSeason": 2009,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2010-04-24T13:30:00Z",
+        "group": {
+            "groupName": "32. Spieltag",
+            "groupOrderID": 32,
+            "groupID": 11569
+        },
+        "team1": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://www.openligadb.de/images/teamicons/Bayern_Muenchen.gif",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2010-04-24T17:20:29.157",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 13022,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 13023,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeitpause"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 5588,
         "matchDateTime": "2010-04-23T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -116,40 +172,40 @@
         "numberOfViewers": 25000
     },
     {
-        "matchID": 5587,
-        "matchDateTime": "2010-04-24T15:30:00",
+        "matchID": 5589,
+        "matchDateTime": "2010-04-25T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 71,
         "leagueName": "1. Fussball-Bundesliga 2009/2010",
         "leagueSeason": 2009,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-04-24T13:30:00Z",
+        "matchDateTimeUTC": "2010-04-25T13:30:00Z",
         "group": {
             "groupName": "32. Spieltag",
             "groupOrderID": 32,
             "groupID": 11569
         },
         "team1": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://www.openligadb.de/images/teamicons/Bayern_Muenchen.gif",
+            "teamId": 100,
+            "teamName": "Hamburger SV",
+            "shortName": "HSV",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2010-04-24T17:20:29.157",
+        "lastUpdateDateTime": "2010-04-25T17:45:12.57",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 13022,
+                "resultID": 13045,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 1,
+                "pointsTeam1": 5,
                 "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
@@ -157,9 +213,9 @@
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 13023,
+                "resultID": 13046,
                 "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
+                "pointsTeam1": 3,
                 "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
@@ -340,62 +396,6 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 5594,
-        "matchDateTime": "2010-04-24T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 71,
-        "leagueName": "1. Fussball-Bundesliga 2009/2010",
-        "leagueSeason": 2009,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-04-24T13:30:00Z",
-        "group": {
-            "groupName": "32. Spieltag",
-            "groupOrderID": 32,
-            "groupID": 11569
-        },
-        "team1": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2010-04-24T17:19:50.88",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 13030,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 3,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 13031,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeitpause"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 5593,
         "matchDateTime": "2010-04-24T18:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -452,51 +452,51 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 5589,
-        "matchDateTime": "2010-04-25T15:30:00",
+        "matchID": 5594,
+        "matchDateTime": "2010-04-24T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 71,
         "leagueName": "1. Fussball-Bundesliga 2009/2010",
         "leagueSeason": 2009,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-04-25T13:30:00Z",
+        "matchDateTimeUTC": "2010-04-24T13:30:00Z",
         "group": {
             "groupName": "32. Spieltag",
             "groupOrderID": 32,
             "groupID": 11569
         },
         "team1": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 100,
-            "teamName": "Hamburger SV",
-            "shortName": "HSV",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2010-04-25T17:45:12.57",
+        "lastUpdateDateTime": "2010-04-24T17:19:50.88",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 13045,
+                "resultID": 13030,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 5,
-                "pointsTeam2": 1,
+                "pointsTeam1": 3,
+                "pointsTeam2": 3,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 13046,
+                "resultID": 13031,
                 "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",

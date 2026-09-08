@@ -1,5 +1,101 @@
 [
     {
+        "matchID": 77265,
+        "matchDateTime": "2025-08-31T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4821,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
+        "leagueSeason": 2025,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2025-08-31T15:30:00Z",
+        "group": {
+            "groupName": "2. Spieltag",
+            "groupOrderID": 2,
+            "groupID": 47612
+        },
+        "team1": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 80,
+            "teamName": "1. FC Union Berlin",
+            "shortName": "Union Berlin",
+            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2025-08-31T19:25:45.193",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 118677,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 118678,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 130919,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 44,
+                "goalGetterID": 19545,
+                "goalGetterName": "S. Guirassy",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 130921,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 58,
+                "goalGetterID": 19545,
+                "goalGetterName": "S. Guirassy",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 130923,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 81,
+                "goalGetterID": 19605,
+                "goalGetterName": "F. Nmecha",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 77266,
         "matchDateTime": "2025-08-30T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -288,51 +384,51 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 77271,
-        "matchDateTime": "2025-08-30T15:30:00",
+        "matchID": 77269,
+        "matchDateTime": "2025-08-31T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4821,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
         "leagueSeason": 2025,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2025-08-30T13:30:00Z",
+        "matchDateTimeUTC": "2025-08-31T13:30:00Z",
         "group": {
             "groupName": "2. Spieltag",
             "groupOrderID": 2,
             "groupID": 47612
         },
         "team1": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2025-08-30T17:25:21.347",
+        "lastUpdateDateTime": "2025-08-31T17:33:14.52",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 118605,
+                "resultID": 118672,
                 "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
                 "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
             },
             {
-                "resultID": 118606,
+                "resultID": 118673,
                 "resultName": "Endergebnis",
                 "pointsTeam1": 1,
-                "pointsTeam2": 3,
+                "pointsTeam2": 1,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
@@ -341,55 +437,29 @@
         ],
         "goals": [
             {
-                "goalID": 130748,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 17,
-                "goalGetterID": 23696,
-                "goalGetterName": "Ritsu Doan",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 130753,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 27,
-                "goalGetterID": 23696,
-                "goalGetterName": "Ritsu Doan",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 130763,
-                "scoreTeam1": 0,
-                "scoreTeam2": 3,
-                "matchMinute": 51,
-                "goalGetterID": 20128,
-                "goalGetterName": "C. Uzun",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 130769,
+                "goalID": 130883,
                 "scoreTeam1": 1,
-                "scoreTeam2": 3,
-                "matchMinute": 91,
-                "goalGetterID": 18355,
-                "goalGetterName": "G. Pr\u00f6mel",
-                "scoringTeamId": 175,
+                "scoreTeam2": 0,
+                "matchMinute": 9,
+                "goalGetterID": 23326,
+                "goalGetterName": "Aaron Zehnter",
+                "scoringTeamId": 131,
                 "isPenalty": false,
                 "isOwnGoal": false,
-                "isOvertime": true,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 130914,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 89,
+                "goalGetterID": 16216,
+                "goalGetterName": "Nadiem Amiri",
+                "scoringTeamId": 81,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
                 "comment": null
             }
         ],
@@ -519,51 +589,51 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 77269,
-        "matchDateTime": "2025-08-31T15:30:00",
+        "matchID": 77271,
+        "matchDateTime": "2025-08-30T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4821,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
         "leagueSeason": 2025,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2025-08-31T13:30:00Z",
+        "matchDateTimeUTC": "2025-08-30T13:30:00Z",
         "group": {
             "groupName": "2. Spieltag",
             "groupOrderID": 2,
             "groupID": 47612
         },
         "team1": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2025-08-31T17:33:14.52",
+        "lastUpdateDateTime": "2025-08-30T17:25:21.347",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 118672,
+                "resultID": 118605,
                 "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
                 "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
             },
             {
-                "resultID": 118673,
+                "resultID": 118606,
                 "resultName": "Endergebnis",
                 "pointsTeam1": 1,
-                "pointsTeam2": 1,
+                "pointsTeam2": 3,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
@@ -572,125 +642,55 @@
         ],
         "goals": [
             {
-                "goalID": 130883,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 9,
-                "goalGetterID": 23326,
-                "goalGetterName": "Aaron Zehnter",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 130914,
-                "scoreTeam1": 1,
+                "goalID": 130748,
+                "scoreTeam1": 0,
                 "scoreTeam2": 1,
-                "matchMinute": 89,
-                "goalGetterID": 16216,
-                "goalGetterName": "Nadiem Amiri",
-                "scoringTeamId": 81,
-                "isPenalty": true,
+                "matchMinute": 17,
+                "goalGetterID": 23696,
+                "goalGetterName": "Ritsu Doan",
+                "scoringTeamId": 91,
+                "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 77265,
-        "matchDateTime": "2025-08-31T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4821,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
-        "leagueSeason": 2025,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2025-08-31T15:30:00Z",
-        "group": {
-            "groupName": "2. Spieltag",
-            "groupOrderID": 2,
-            "groupID": 47612
-        },
-        "team1": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 80,
-            "teamName": "1. FC Union Berlin",
-            "shortName": "Union Berlin",
-            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2025-08-31T19:25:45.193",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 118677,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
             },
             {
-                "resultID": 118678,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
+                "goalID": 130753,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 27,
+                "goalGetterID": 23696,
+                "goalGetterName": "Ritsu Doan",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
             {
-                "goalID": 130919,
+                "goalID": 130763,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 51,
+                "goalGetterID": 20128,
+                "goalGetterName": "C. Uzun",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 130769,
                 "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 44,
-                "goalGetterID": 19545,
-                "goalGetterName": "S. Guirassy",
-                "scoringTeamId": 7,
+                "scoreTeam2": 3,
+                "matchMinute": 91,
+                "goalGetterID": 18355,
+                "goalGetterName": "G. Pr\u00f6mel",
+                "scoringTeamId": 175,
                 "isPenalty": false,
                 "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 130921,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 58,
-                "goalGetterID": 19545,
-                "goalGetterName": "S. Guirassy",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 130923,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 81,
-                "goalGetterID": 19605,
-                "goalGetterName": "F. Nmecha",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
+                "isOvertime": true,
                 "comment": null
             }
         ],

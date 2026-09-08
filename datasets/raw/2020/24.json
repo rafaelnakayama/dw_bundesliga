@@ -1,37 +1,37 @@
 [
     {
-        "matchID": 58795,
-        "matchDateTime": "2021-03-05T20:30:00",
+        "matchID": 58787,
+        "matchDateTime": "2021-03-07T18:00:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4442,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2020/2021",
         "leagueSeason": 2020,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2021-03-05T19:30:00Z",
+        "matchDateTimeUTC": "2021-03-07T17:00:00Z",
         "group": {
             "groupName": "24. Spieltag",
             "groupOrderID": 24,
             "groupID": 36509
         },
         "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamId": 83,
+            "teamName": "DSC Arminia Bielefeld",
+            "shortName": "Bielefeld",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamId": 80,
+            "teamName": "1. FC Union Berlin",
+            "shortName": "Union Berlin",
+            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2021-03-05T22:24:01.307",
+        "lastUpdateDateTime": "2021-03-07T20:01:20.59",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 93953,
+                "resultID": 93996,
                 "resultName": "Endergebnis",
                 "pointsTeam1": 0,
                 "pointsTeam2": 0,
@@ -41,7 +41,7 @@
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 93954,
+                "resultID": 93997,
                 "resultName": "Halbzeit",
                 "pointsTeam1": 0,
                 "pointsTeam2": 0,
@@ -52,6 +52,141 @@
             }
         ],
         "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 58788,
+        "matchDateTime": "2021-03-06T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4442,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2020/2021",
+        "leagueSeason": 2020,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2021-03-06T17:30:00Z",
+        "group": {
+            "groupName": "24. Spieltag",
+            "groupOrderID": 24,
+            "groupID": 36509
+        },
+        "team1": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2021-03-06T20:23:51.067",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 93983,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 4,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 93984,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 2,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 87907,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 2,
+                "goalGetterID": 18449,
+                "goalGetterName": "E. Haaland",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 87908,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 9,
+                "goalGetterID": 18449,
+                "goalGetterName": "E. Haaland",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 87909,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 27,
+                "goalGetterID": 1478,
+                "goalGetterName": "Robert Lewandowski",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 87910,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 44,
+                "goalGetterID": 1478,
+                "goalGetterName": "Robert Lewandowski",
+                "scoringTeamId": 40,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 87911,
+                "scoreTeam1": 3,
+                "scoreTeam2": 2,
+                "matchMinute": 88,
+                "goalGetterID": 18648,
+                "goalGetterName": "L. Goretzka",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 87912,
+                "scoreTeam1": 4,
+                "scoreTeam2": 2,
+                "matchMinute": 91,
+                "goalGetterID": 1478,
+                "goalGetterName": "Robert Lewandowski",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
         "location": null,
         "numberOfViewers": null
     },
@@ -497,141 +632,6 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 58788,
-        "matchDateTime": "2021-03-06T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4442,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2020/2021",
-        "leagueSeason": 2020,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2021-03-06T17:30:00Z",
-        "group": {
-            "groupName": "24. Spieltag",
-            "groupOrderID": 24,
-            "groupID": 36509
-        },
-        "team1": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2021-03-06T20:23:51.067",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 93983,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 4,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 93984,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 2,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 87907,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 2,
-                "goalGetterID": 18449,
-                "goalGetterName": "E. Haaland",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 87908,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 9,
-                "goalGetterID": 18449,
-                "goalGetterName": "E. Haaland",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 87909,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 27,
-                "goalGetterID": 1478,
-                "goalGetterName": "Robert Lewandowski",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 87910,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 44,
-                "goalGetterID": 1478,
-                "goalGetterName": "Robert Lewandowski",
-                "scoringTeamId": 40,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 87911,
-                "scoreTeam1": 3,
-                "scoreTeam2": 2,
-                "matchMinute": 88,
-                "goalGetterID": 18648,
-                "goalGetterName": "L. Goretzka",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 87912,
-                "scoreTeam1": 4,
-                "scoreTeam2": 2,
-                "matchMinute": 91,
-                "goalGetterID": 1478,
-                "goalGetterName": "Robert Lewandowski",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 58794,
         "matchDateTime": "2021-03-07T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -715,38 +715,38 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 58787,
-        "matchDateTime": "2021-03-07T18:00:00",
+        "matchID": 58795,
+        "matchDateTime": "2021-03-05T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4442,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2020/2021",
         "leagueSeason": 2020,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2021-03-07T17:00:00Z",
+        "matchDateTimeUTC": "2021-03-05T19:30:00Z",
         "group": {
             "groupName": "24. Spieltag",
             "groupOrderID": 24,
             "groupID": 36509
         },
         "team1": {
-            "teamId": 83,
-            "teamName": "DSC Arminia Bielefeld",
-            "shortName": "Bielefeld",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 80,
-            "teamName": "1. FC Union Berlin",
-            "shortName": "Union Berlin",
-            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2021-03-07T20:01:20.59",
+        "lastUpdateDateTime": "2021-03-05T22:24:01.307",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 93996,
+                "resultID": 93953,
                 "resultName": "Endergebnis",
                 "pointsTeam1": 0,
                 "pointsTeam2": 0,
@@ -756,7 +756,7 @@
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 93997,
+                "resultID": 93954,
                 "resultName": "Halbzeit",
                 "pointsTeam1": 0,
                 "pointsTeam2": 0,

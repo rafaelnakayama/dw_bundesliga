@@ -1,5 +1,376 @@
 [
     {
+        "matchID": 14262,
+        "matchDateTime": "2012-04-07T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 307,
+        "leagueName": "1. Fussball-Bundesliga 2011/2012",
+        "leagueSeason": 2011,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2012-04-07T13:30:00Z",
+        "group": {
+            "groupName": "29. Spieltag",
+            "groupOrderID": 29,
+            "groupID": 12602
+        },
+        "team1": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2012-04-07T17:20:15.183",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 27437,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 3,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 27438,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit (bitte laufend eintragen. Waehrend laufender erster Halbzeit immer Halbzeit- und Endergebnis eintragen!)"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 10783,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 21,
+                "goalGetterID": 1478,
+                "goalGetterName": "Robert Lewandowski",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 10789,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 49,
+                "goalGetterID": 78,
+                "goalGetterName": "G\u00fcndogan",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 10792,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 61,
+                "goalGetterID": 1904,
+                "goalGetterName": "Mandzukic",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 10799,
+                "scoreTeam1": 1,
+                "scoreTeam2": 3,
+                "matchMinute": 90,
+                "goalGetterID": 1478,
+                "goalGetterName": "Robert Lewandowski",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 14263,
+        "matchDateTime": "2012-04-08T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 307,
+        "leagueName": "1. Fussball-Bundesliga 2011/2012",
+        "leagueSeason": 2011,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2012-04-08T15:30:00Z",
+        "group": {
+            "groupName": "29. Spieltag",
+            "groupOrderID": 29,
+            "groupID": 12602
+        },
+        "team1": {
+            "teamId": 100,
+            "teamName": "Hamburger SV",
+            "shortName": "HSV",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2012-04-08T22:19:55.727",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 27621,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 27622,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit (bitte laufend eintragen. Waehrend laufender erster Halbzeit immer Halbzeit- und Endergebnis eintragen!)"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 10976,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 40,
+                "goalGetterID": 37,
+                "goalGetterName": "Petric",
+                "scoringTeamId": 100,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": "Handelfmeter"
+            },
+            {
+                "goalID": 10977,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 55,
+                "goalGetterID": 656,
+                "goalGetterName": "Sch\u00fcrrle",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": "Kopfball"
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 14264,
+        "matchDateTime": "2012-04-07T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 307,
+        "leagueName": "1. Fussball-Bundesliga 2011/2012",
+        "leagueSeason": 2011,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2012-04-07T13:30:00Z",
+        "group": {
+            "groupName": "29. Spieltag",
+            "groupOrderID": 29,
+            "groupID": 12602
+        },
+        "team1": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2012-04-07T17:20:11.113",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 27439,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 27440,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit (bitte laufend eintragen. Waehrend laufender erster Halbzeit immer Halbzeit- und Endergebnis eintragen!)"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 10782,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 22,
+                "goalGetterID": 985,
+                "goalGetterName": "Rosenberg",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 10786,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 39,
+                "goalGetterID": 5379,
+                "goalGetterName": "Jemal",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 14265,
+        "matchDateTime": "2012-04-08T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 307,
+        "leagueName": "1. Fussball-Bundesliga 2011/2012",
+        "leagueSeason": 2011,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2012-04-08T13:30:00Z",
+        "group": {
+            "groupName": "29. Spieltag",
+            "groupOrderID": 29,
+            "groupID": 12602
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2012-04-08T16:58:28.417",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 27602,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 27603,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit (bitte laufend eintragen. Waehrend laufender erster Halbzeit immer Halbzeit- und Endergebnis eintragen!)"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 10965,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 6,
+                "goalGetterID": 1490,
+                "goalGetterName": "Raul",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 10966,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 47,
+                "goalGetterID": 1490,
+                "goalGetterName": "Raul",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 10967,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 63,
+                "goalGetterID": 1207,
+                "goalGetterName": "Huntelaar",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 14266,
         "matchDateTime": "2012-04-07T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -112,198 +483,6 @@
                 "goalGetterID": 803,
                 "goalGetterName": "Ibisevic",
                 "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 14262,
-        "matchDateTime": "2012-04-07T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 307,
-        "leagueName": "1. Fussball-Bundesliga 2011/2012",
-        "leagueSeason": 2011,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-04-07T13:30:00Z",
-        "group": {
-            "groupName": "29. Spieltag",
-            "groupOrderID": 29,
-            "groupID": 12602
-        },
-        "team1": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2012-04-07T17:20:15.183",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 27437,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 3,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 27438,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit (bitte laufend eintragen. Waehrend laufender erster Halbzeit immer Halbzeit- und Endergebnis eintragen!)"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 10783,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 21,
-                "goalGetterID": 1478,
-                "goalGetterName": "Robert Lewandowski",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 10789,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 49,
-                "goalGetterID": 78,
-                "goalGetterName": "G\u00fcndogan",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 10792,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 61,
-                "goalGetterID": 1904,
-                "goalGetterName": "Mandzukic",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 10799,
-                "scoreTeam1": 1,
-                "scoreTeam2": 3,
-                "matchMinute": 90,
-                "goalGetterID": 1478,
-                "goalGetterName": "Robert Lewandowski",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 14264,
-        "matchDateTime": "2012-04-07T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 307,
-        "leagueName": "1. Fussball-Bundesliga 2011/2012",
-        "leagueSeason": 2011,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-04-07T13:30:00Z",
-        "group": {
-            "groupName": "29. Spieltag",
-            "groupOrderID": 29,
-            "groupID": 12602
-        },
-        "team1": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2012-04-07T17:20:11.113",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 27439,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 27440,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit (bitte laufend eintragen. Waehrend laufender erster Halbzeit immer Halbzeit- und Endergebnis eintragen!)"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 10782,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 22,
-                "goalGetterID": 985,
-                "goalGetterName": "Rosenberg",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 10786,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 39,
-                "goalGetterID": 5379,
-                "goalGetterName": "Jemal",
-                "scoringTeamId": 65,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -667,185 +846,6 @@
             }
         ],
         "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 14265,
-        "matchDateTime": "2012-04-08T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 307,
-        "leagueName": "1. Fussball-Bundesliga 2011/2012",
-        "leagueSeason": 2011,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-04-08T13:30:00Z",
-        "group": {
-            "groupName": "29. Spieltag",
-            "groupOrderID": 29,
-            "groupID": 12602
-        },
-        "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 55,
-            "teamName": "Hannover 96",
-            "shortName": "Hannover",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2012-04-08T16:58:28.417",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 27602,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 27603,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit (bitte laufend eintragen. Waehrend laufender erster Halbzeit immer Halbzeit- und Endergebnis eintragen!)"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 10965,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 6,
-                "goalGetterID": 1490,
-                "goalGetterName": "Raul",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 10966,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 47,
-                "goalGetterID": 1490,
-                "goalGetterName": "Raul",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 10967,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 63,
-                "goalGetterID": 1207,
-                "goalGetterName": "Huntelaar",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 14263,
-        "matchDateTime": "2012-04-08T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 307,
-        "leagueName": "1. Fussball-Bundesliga 2011/2012",
-        "leagueSeason": 2011,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-04-08T15:30:00Z",
-        "group": {
-            "groupName": "29. Spieltag",
-            "groupOrderID": 29,
-            "groupID": 12602
-        },
-        "team1": {
-            "teamId": 100,
-            "teamName": "Hamburger SV",
-            "shortName": "HSV",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2012-04-08T22:19:55.727",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 27621,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 27622,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit (bitte laufend eintragen. Waehrend laufender erster Halbzeit immer Halbzeit- und Endergebnis eintragen!)"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 10976,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 40,
-                "goalGetterID": 37,
-                "goalGetterName": "Petric",
-                "scoringTeamId": 100,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": "Handelfmeter"
-            },
-            {
-                "goalID": 10977,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 55,
-                "goalGetterID": 656,
-                "goalGetterName": "Sch\u00fcrrle",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": "Kopfball"
-            }
-        ],
         "location": null,
         "numberOfViewers": null
     }

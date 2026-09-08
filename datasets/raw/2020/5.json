@@ -1,39 +1,39 @@
 [
     {
-        "matchID": 58620,
-        "matchDateTime": "2020-10-23T20:30:00",
+        "matchID": 58615,
+        "matchDateTime": "2020-10-26T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4442,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2020/2021",
         "leagueSeason": 2020,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2020-10-23T18:30:00Z",
+        "matchDateTimeUTC": "2020-10-26T19:30:00Z",
         "group": {
             "groupName": "5. Spieltag",
             "groupOrderID": 5,
             "groupID": 36490
         },
         "team1": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2020-10-23T22:23:08.66",
+        "lastUpdateDateTime": "2020-10-26T22:23:39.057",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 92492,
+                "resultID": 92538,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 1,
+                "pointsTeam1": 3,
                 "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
@@ -41,10 +41,10 @@
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 92493,
+                "resultID": 92539,
                 "resultName": "Halbzeit",
                 "pointsTeam1": 1,
-                "pointsTeam2": 1,
+                "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
@@ -53,33 +53,63 @@
         ],
         "goals": [
             {
-                "goalID": 85207,
+                "goalID": 85281,
                 "scoreTeam1": 1,
                 "scoreTeam2": 0,
-                "matchMinute": 1,
-                "goalGetterID": 14586,
-                "goalGetterName": "Mangala",
-                "scoringTeamId": 16,
+                "matchMinute": 16,
+                "goalGetterID": 18228,
+                "goalGetterName": "Lucas Alario",
+                "scoringTeamId": 6,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 85282,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 52,
+                "goalGetterID": 16217,
+                "goalGetterName": "Daniel Caligiuri",
+                "scoringTeamId": 95,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 85208,
-                "scoreTeam1": 1,
+                "goalID": 85283,
+                "scoreTeam1": 2,
                 "scoreTeam2": 1,
-                "matchMinute": 23,
-                "goalGetterID": 16302,
-                "goalGetterName": "Andersson",
-                "scoringTeamId": 65,
-                "isPenalty": true,
+                "matchMinute": 74,
+                "goalGetterID": 18228,
+                "goalGetterName": "Lucas Alario",
+                "scoringTeamId": 6,
+                "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
+            },
+            {
+                "goalID": 85286,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 94,
+                "goalGetterID": 18021,
+                "goalGetterName": "Moussa Diaby",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
             }
         ],
-        "location": null,
+        "location": {
+            "locationID": 28,
+            "locationCity": "Leverkusen",
+            "locationStadium": "BayArena"
+        },
         "numberOfViewers": null
     },
     {
@@ -203,6 +233,106 @@
         ],
         "location": null,
         "numberOfViewers": null
+    },
+    {
+        "matchID": 58617,
+        "matchDateTime": "2020-10-24T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4442,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2020/2021",
+        "leagueSeason": 2020,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2020-10-24T16:30:00Z",
+        "group": {
+            "groupName": "5. Spieltag",
+            "groupOrderID": 5,
+            "groupID": 36490
+        },
+        "team1": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2020-10-24T20:18:40.233",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 92522,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 92523,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 85261,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 55,
+                "goalGetterID": 18221,
+                "goalGetterName": "Akanji",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 85262,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 61,
+                "goalGetterID": 17905,
+                "goalGetterName": "Haaland",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 85263,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 78,
+                "goalGetterID": 512,
+                "goalGetterName": "Hummels",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 184,
+            "locationCity": "Dortmund",
+            "locationStadium": "Signal-Iduna-Park"
+        },
+        "numberOfViewers": 300
     },
     {
         "matchID": 58618,
@@ -423,6 +553,89 @@
         "numberOfViewers": null
     },
     {
+        "matchID": 58620,
+        "matchDateTime": "2020-10-23T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4442,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2020/2021",
+        "leagueSeason": 2020,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2020-10-23T18:30:00Z",
+        "group": {
+            "groupName": "5. Spieltag",
+            "groupOrderID": 5,
+            "groupID": 36490
+        },
+        "team1": {
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2020-10-23T22:23:08.66",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 92492,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 92493,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 85207,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 1,
+                "goalGetterID": 14586,
+                "goalGetterName": "Mangala",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 85208,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 23,
+                "goalGetterID": 16302,
+                "goalGetterName": "Andersson",
+                "scoringTeamId": 65,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 58621,
         "matchDateTime": "2020-10-24T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -506,51 +719,51 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 58617,
-        "matchDateTime": "2020-10-24T18:30:00",
+        "matchID": 58622,
+        "matchDateTime": "2020-10-25T18:00:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4442,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2020/2021",
         "leagueSeason": 2020,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2020-10-24T16:30:00Z",
+        "matchDateTimeUTC": "2020-10-25T17:00:00Z",
         "group": {
             "groupName": "5. Spieltag",
             "groupOrderID": 5,
             "groupID": 36490
         },
         "team1": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2020-10-24T20:18:40.233",
+        "lastUpdateDateTime": "2020-10-25T19:53:38.12",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 92522,
+                "resultID": 92536,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 92523,
+                "resultID": 92537,
                 "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
@@ -559,51 +772,34 @@
         ],
         "goals": [
             {
-                "goalID": 85261,
+                "goalID": 85279,
                 "scoreTeam1": 1,
                 "scoreTeam2": 0,
-                "matchMinute": 55,
-                "goalGetterID": 18221,
-                "goalGetterName": "Akanji",
-                "scoringTeamId": 7,
+                "matchMinute": 5,
+                "goalGetterID": 18226,
+                "goalGetterName": "Maximilian Eggestein",
+                "scoringTeamId": 134,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 85262,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 61,
-                "goalGetterID": 17905,
-                "goalGetterName": "Haaland",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 85263,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 78,
-                "goalGetterID": 512,
-                "goalGetterName": "Hummels",
-                "scoringTeamId": 7,
+                "goalID": 85280,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 22,
+                "goalGetterID": 18227,
+                "goalGetterName": "Dennis Geiger",
+                "scoringTeamId": 175,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             }
         ],
-        "location": {
-            "locationID": 184,
-            "locationCity": "Dortmund",
-            "locationStadium": "Signal-Iduna-Park"
-        },
-        "numberOfViewers": 300
+        "location": null,
+        "numberOfViewers": null
     },
     {
         "matchID": 58623,
@@ -704,201 +900,5 @@
             "locationStadium": "Volkswagen Arena "
         },
         "numberOfViewers": 4500
-    },
-    {
-        "matchID": 58622,
-        "matchDateTime": "2020-10-25T18:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4442,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2020/2021",
-        "leagueSeason": 2020,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2020-10-25T17:00:00Z",
-        "group": {
-            "groupName": "5. Spieltag",
-            "groupOrderID": 5,
-            "groupID": 36490
-        },
-        "team1": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2020-10-25T19:53:38.12",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 92536,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 92537,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 85279,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 5,
-                "goalGetterID": 18226,
-                "goalGetterName": "Maximilian Eggestein",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 85280,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 22,
-                "goalGetterID": 18227,
-                "goalGetterName": "Dennis Geiger",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 58615,
-        "matchDateTime": "2020-10-26T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4442,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2020/2021",
-        "leagueSeason": 2020,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2020-10-26T19:30:00Z",
-        "group": {
-            "groupName": "5. Spieltag",
-            "groupOrderID": 5,
-            "groupID": 36490
-        },
-        "team1": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2020-10-26T22:23:39.057",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 92538,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 92539,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 85281,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 16,
-                "goalGetterID": 18228,
-                "goalGetterName": "Lucas Alario",
-                "scoringTeamId": 6,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 85282,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 52,
-                "goalGetterID": 16217,
-                "goalGetterName": "Daniel Caligiuri",
-                "scoringTeamId": 95,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 85283,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 74,
-                "goalGetterID": 18228,
-                "goalGetterName": "Lucas Alario",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 85286,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 94,
-                "goalGetterID": 18021,
-                "goalGetterName": "Moussa Diaby",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 28,
-            "locationCity": "Leverkusen",
-            "locationStadium": "BayArena"
-        },
-        "numberOfViewers": null
     }
 ]

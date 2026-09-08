@@ -87,6 +87,106 @@
         "numberOfViewers": 23371
     },
     {
+        "matchID": 39820,
+        "matchDateTime": "2017-02-12T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2017-02-12T14:30:00Z",
+        "group": {
+            "groupName": "20. Spieltag",
+            "groupOrderID": 20,
+            "groupID": 23852
+        },
+        "team1": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2017-02-12T19:26:46.947",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 72661,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 72665,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 57537,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 29,
+                "goalGetterID": 16174,
+                "goalGetterName": "Steven Zuber",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 57539,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 50,
+                "goalGetterID": 16180,
+                "goalGetterName": "Maximilian Arnold",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 57540,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 73,
+                "goalGetterID": 16031,
+                "goalGetterName": "Daniel Didavi",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 435,
+            "locationCity": "Wolfsburg",
+            "locationStadium": "Volkswagen-Arena"
+        },
+        "numberOfViewers": 23148
+    },
+    {
         "matchID": 39821,
         "matchDateTime": "2017-02-11T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -448,106 +548,6 @@
         "numberOfViewers": 42100
     },
     {
-        "matchID": 39827,
-        "matchDateTime": "2017-02-11T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3005,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
-        "leagueSeason": 2016,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2017-02-11T14:30:00Z",
-        "group": {
-            "groupName": "20. Spieltag",
-            "groupOrderID": 20,
-            "groupID": 23852
-        },
-        "team1": {
-            "teamId": 1635,
-            "teamName": "RB Leipzig",
-            "shortName": "Leipzig",
-            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 100,
-            "teamName": "Hamburger SV",
-            "shortName": "HSV",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2017-02-12T19:25:59.833",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 72600,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 72603,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 3,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 57481,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 19,
-                "goalGetterID": 3874,
-                "goalGetterName": "Papadopoulos",
-                "scoringTeamId": 100,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 57484,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 24,
-                "goalGetterID": 14628,
-                "goalGetterName": "Wallace",
-                "scoringTeamId": 100,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 57499,
-                "scoreTeam1": 0,
-                "scoreTeam2": 3,
-                "matchMinute": 92,
-                "goalGetterID": 771,
-                "goalGetterName": "Hunt",
-                "scoringTeamId": 100,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 478,
-            "locationCity": "Leipzig",
-            "locationStadium": "Red Bull Arena"
-        },
-        "numberOfViewers": 42558
-    },
-    {
         "matchID": 39825,
         "matchDateTime": "2017-02-11T18:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -633,106 +633,6 @@
             "locationStadium": "Veltins-Arena"
         },
         "numberOfViewers": 61981
-    },
-    {
-        "matchID": 39820,
-        "matchDateTime": "2017-02-12T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3005,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
-        "leagueSeason": 2016,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2017-02-12T14:30:00Z",
-        "group": {
-            "groupName": "20. Spieltag",
-            "groupOrderID": 20,
-            "groupID": 23852
-        },
-        "team1": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2017-02-12T19:26:46.947",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 72661,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 72665,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 57537,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 29,
-                "goalGetterID": 16174,
-                "goalGetterName": "Steven Zuber",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 57539,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 50,
-                "goalGetterID": 16180,
-                "goalGetterName": "Maximilian Arnold",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 57540,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 73,
-                "goalGetterID": 16031,
-                "goalGetterName": "Daniel Didavi",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 435,
-            "locationCity": "Wolfsburg",
-            "locationStadium": "Volkswagen-Arena"
-        },
-        "numberOfViewers": 23148
     },
     {
         "matchID": 39826,
@@ -833,5 +733,105 @@
             "locationStadium": "Schwarzwald-Stadion"
         },
         "numberOfViewers": 24000
+    },
+    {
+        "matchID": 39827,
+        "matchDateTime": "2017-02-11T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2017-02-11T14:30:00Z",
+        "group": {
+            "groupName": "20. Spieltag",
+            "groupOrderID": 20,
+            "groupID": 23852
+        },
+        "team1": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 100,
+            "teamName": "Hamburger SV",
+            "shortName": "HSV",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2017-02-12T19:25:59.833",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 72600,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 72603,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 3,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 57481,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 19,
+                "goalGetterID": 3874,
+                "goalGetterName": "Papadopoulos",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 57484,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 24,
+                "goalGetterID": 14628,
+                "goalGetterName": "Wallace",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 57499,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 92,
+                "goalGetterID": 771,
+                "goalGetterName": "Hunt",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 478,
+            "locationCity": "Leipzig",
+            "locationStadium": "Red Bull Arena"
+        },
+        "numberOfViewers": 42558
     }
 ]

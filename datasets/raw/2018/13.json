@@ -83,76 +83,6 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 51235,
-        "matchDateTime": "2018-11-30T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4276,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
-        "leagueSeason": 2018,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2018-11-30T19:30:00Z",
-        "group": {
-            "groupName": "13. Spieltag",
-            "groupOrderID": 13,
-            "groupID": 31787
-        },
-        "team1": {
-            "teamId": 185,
-            "teamName": "Fortuna D\u00fcsseldorf",
-            "shortName": "D\u00fcsseldorf",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Fortuna_D%C3%BCsseldorf.svg/960px-Fortuna_D%C3%BCsseldorf.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2018-11-30T22:23:57.013",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 84756,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 84755,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 73931,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 67,
-                "goalGetterID": 16904,
-                "goalGetterName": "J.-P.Mateta",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 51229,
         "matchDateTime": "2018-12-01T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -236,6 +166,89 @@
         "numberOfViewers": null
     },
     {
+        "matchID": 51230,
+        "matchDateTime": "2018-12-02T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4276,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
+        "leagueSeason": 2018,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-12-02T14:30:00Z",
+        "group": {
+            "groupName": "13. Spieltag",
+            "groupOrderID": 13,
+            "groupID": 31787
+        },
+        "team1": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-12-02T17:22:33.363",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 84799,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 84798,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 73991,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 3,
+                "goalGetterID": 14551,
+                "goalGetterName": "T. Werner",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 73997,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 45,
+                "goalGetterID": 14551,
+                "goalGetterName": "T. Werner",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 51231,
         "matchDateTime": "2018-12-01T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -296,6 +309,102 @@
                 "goalGetterID": 16295,
                 "goalGetterName": "Donis",
                 "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 51232,
+        "matchDateTime": "2018-12-02T18:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4276,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
+        "leagueSeason": 2018,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2018-12-02T17:00:00Z",
+        "group": {
+            "groupName": "13. Spieltag",
+            "groupOrderID": 13,
+            "groupID": 31787
+        },
+        "team1": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2018-12-02T20:02:17.007",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 84807,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 84806,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 74001,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 31,
+                "goalGetterID": 2146,
+                "goalGetterName": "Mehmedi Admir",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 74002,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 68,
+                "goalGetterID": 10949,
+                "goalGetterName": "Daniel Ginczek",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 74003,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 88,
+                "goalGetterID": 16266,
+                "goalGetterName": "Jovic",
+                "scoringTeamId": 91,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -485,134 +594,51 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 51230,
-        "matchDateTime": "2018-12-02T15:30:00",
+        "matchID": 51235,
+        "matchDateTime": "2018-11-30T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4276,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
         "leagueSeason": 2018,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2018-12-02T14:30:00Z",
+        "matchDateTimeUTC": "2018-11-30T19:30:00Z",
         "group": {
             "groupName": "13. Spieltag",
             "groupOrderID": 13,
             "groupID": 31787
         },
         "team1": {
-            "teamId": 1635,
-            "teamName": "RB Leipzig",
-            "shortName": "Leipzig",
-            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamId": 185,
+            "teamName": "Fortuna D\u00fcsseldorf",
+            "shortName": "D\u00fcsseldorf",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Fortuna_D%C3%BCsseldorf.svg/960px-Fortuna_D%C3%BCsseldorf.svg.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2018-12-02T17:22:33.363",
+        "lastUpdateDateTime": "2018-11-30T22:23:57.013",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 84799,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 84798,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 73991,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 3,
-                "goalGetterID": 14551,
-                "goalGetterName": "T. Werner",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 73997,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 45,
-                "goalGetterID": 14551,
-                "goalGetterName": "T. Werner",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 51232,
-        "matchDateTime": "2018-12-02T18:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4276,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
-        "leagueSeason": 2018,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2018-12-02T17:00:00Z",
-        "group": {
-            "groupName": "13. Spieltag",
-            "groupOrderID": 13,
-            "groupID": 31787
-        },
-        "team1": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2018-12-02T20:02:17.007",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 84807,
+                "resultID": 84756,
                 "resultName": "Halbzeit",
                 "pointsTeam1": 0,
-                "pointsTeam2": 1,
+                "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
                 "resultDescription": "Zwischenstand zur Halbzeit"
             },
             {
-                "resultID": 84806,
+                "resultID": 84755,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 2,
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
@@ -621,39 +647,13 @@
         ],
         "goals": [
             {
-                "goalID": 74001,
+                "goalID": 73931,
                 "scoreTeam1": 0,
                 "scoreTeam2": 1,
-                "matchMinute": 31,
-                "goalGetterID": 2146,
-                "goalGetterName": "Mehmedi Admir",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 74002,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 68,
-                "goalGetterID": 10949,
-                "goalGetterName": "Daniel Ginczek",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 74003,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 88,
-                "goalGetterID": 16266,
-                "goalGetterName": "Jovic",
-                "scoringTeamId": 91,
+                "matchMinute": 67,
+                "goalGetterID": 16904,
+                "goalGetterName": "J.-P.Mateta",
+                "scoringTeamId": 81,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

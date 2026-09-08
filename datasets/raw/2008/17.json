@@ -1,51 +1,5 @@
 [
     {
-        "matchID": 2143,
-        "matchDateTime": "2008-12-12T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 18,
-        "leagueName": "1. Fussball-Bundesliga 2008/2009",
-        "leagueSeason": 2008,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2008-12-12T19:30:00Z",
-        "group": {
-            "groupName": "17. Spieltag",
-            "groupOrderID": 17,
-            "groupID": 11149
-        },
-        "team1": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2008-12-12T22:26:41.16",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 3932,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 2136,
         "matchDateTime": "2008-12-13T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -357,6 +311,52 @@
                 "resultName": "Endergebnis",
                 "pointsTeam1": 1,
                 "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 2143,
+        "matchDateTime": "2008-12-12T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 18,
+        "leagueName": "1. Fussball-Bundesliga 2008/2009",
+        "leagueSeason": 2008,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2008-12-12T19:30:00Z",
+        "group": {
+            "groupName": "17. Spieltag",
+            "groupOrderID": 17,
+            "groupID": 11149
+        },
+        "team1": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2008-12-12T22:26:41.16",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 3932,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",

@@ -1,114 +1,5 @@
 [
     {
-        "matchID": 72321,
-        "matchDateTime": "2024-11-29T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4741,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2024/2025",
-        "leagueSeason": 2024,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2024-11-29T19:30:00Z",
-        "group": {
-            "groupName": "12. Spieltag",
-            "groupOrderID": 12,
-            "groupID": 45128
-        },
-        "team1": {
-            "teamId": 98,
-            "teamName": "FC St. Pauli",
-            "shortName": "St. Pauli",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 104,
-            "teamName": "Holstein Kiel",
-            "shortName": "Kiel",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/330px-Holstein_Kiel_Logo.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2024-11-29T22:26:02.127",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 113512,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            },
-            {
-                "resultID": 113513,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 121880,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 25,
-                "goalGetterID": 19584,
-                "goalGetterName": "M. Saliakas",
-                "scoringTeamId": 98,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 121888,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 56,
-                "goalGetterID": 23156,
-                "goalGetterName": "M. Guilavogui",
-                "scoringTeamId": 98,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 121889,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 85,
-                "goalGetterID": 16022,
-                "goalGetterName": "J. Eggestein",
-                "scoringTeamId": 98,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 121890,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 91,
-                "goalGetterID": 23145,
-                "goalGetterName": "P. Harres",
-                "scoringTeamId": 104,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 72313,
         "matchDateTime": "2024-11-30T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -234,6 +125,198 @@
                 "goalGetterID": 18441,
                 "goalGetterName": "K. Behrens",
                 "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 72314,
+        "matchDateTime": "2024-11-30T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4741,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2024/2025",
+        "leagueSeason": 2024,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2024-11-30T17:30:00Z",
+        "group": {
+            "groupName": "12. Spieltag",
+            "groupOrderID": 12,
+            "groupID": 45128
+        },
+        "team1": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2024-11-30T20:26:20.163",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 113558,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 113559,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 121967,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 27,
+                "goalGetterID": 22952,
+                "goalGetterName": "J. Gittens",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 121968,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 85,
+                "goalGetterID": 18700,
+                "goalGetterName": "J. Musiala",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 72315,
+        "matchDateTime": "2024-12-01T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4741,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2024/2025",
+        "leagueSeason": 2024,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2024-12-01T16:30:00Z",
+        "group": {
+            "groupName": "12. Spieltag",
+            "groupOrderID": 12,
+            "groupID": 45128
+        },
+        "team1": {
+            "teamId": 199,
+            "teamName": "1. FC Heidenheim 1846",
+            "shortName": "Heidenheim",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2024-12-01T19:26:24.833",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 113570,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 113571,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 4,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 121983,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 22,
+                "goalGetterID": 18444,
+                "goalGetterName": "O. Marmoush",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 121985,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 49,
+                "goalGetterID": 22918,
+                "goalGetterName": "F. Cha\u00efbi",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 121986,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 58,
+                "goalGetterID": 18444,
+                "goalGetterName": "O. Marmoush",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 121987,
+                "scoreTeam1": 0,
+                "scoreTeam2": 4,
+                "matchMinute": 94,
+                "goalGetterID": 22919,
+                "goalGetterName": "H. Ekitike",
+                "scoringTeamId": 91,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": true,
@@ -532,6 +615,89 @@
         "numberOfViewers": null
     },
     {
+        "matchID": 72319,
+        "matchDateTime": "2024-12-01T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4741,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2024/2025",
+        "leagueSeason": 2024,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2024-12-01T14:30:00Z",
+        "group": {
+            "groupName": "12. Spieltag",
+            "groupOrderID": 12,
+            "groupID": 45128
+        },
+        "team1": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2024-12-01T17:23:32.763",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 113568,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 113569,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 121979,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 4,
+                "goalGetterID": 19126,
+                "goalGetterName": "J. Burkardt",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 121980,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 24,
+                "goalGetterID": 19126,
+                "goalGetterName": "J. Burkardt",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 72320,
         "matchDateTime": "2024-11-30T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -628,38 +794,38 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 72314,
-        "matchDateTime": "2024-11-30T18:30:00",
+        "matchID": 72321,
+        "matchDateTime": "2024-11-29T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4741,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2024/2025",
         "leagueSeason": 2024,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2024-11-30T17:30:00Z",
+        "matchDateTimeUTC": "2024-11-29T19:30:00Z",
         "group": {
             "groupName": "12. Spieltag",
             "groupOrderID": 12,
             "groupID": 45128
         },
         "team1": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamId": 98,
+            "teamName": "FC St. Pauli",
+            "shortName": "St. Pauli",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamId": 104,
+            "teamName": "Holstein Kiel",
+            "shortName": "Kiel",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Holstein_Kiel_Logo.svg/330px-Holstein_Kiel_Logo.svg.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2024-11-30T20:26:20.163",
+        "lastUpdateDateTime": "2024-11-29T22:26:02.127",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 113558,
+                "resultID": 113512,
                 "resultName": "Halbzeitergebnis",
                 "pointsTeam1": 1,
                 "pointsTeam2": 0,
@@ -669,9 +835,9 @@
                 "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
             },
             {
-                "resultID": 113559,
+                "resultID": 113513,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 1,
+                "pointsTeam1": 3,
                 "pointsTeam2": 1,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
@@ -681,218 +847,52 @@
         ],
         "goals": [
             {
-                "goalID": 121967,
+                "goalID": 121880,
                 "scoreTeam1": 1,
                 "scoreTeam2": 0,
-                "matchMinute": 27,
-                "goalGetterID": 22952,
-                "goalGetterName": "J. Gittens",
-                "scoringTeamId": 7,
+                "matchMinute": 25,
+                "goalGetterID": 19584,
+                "goalGetterName": "M. Saliakas",
+                "scoringTeamId": 98,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 121968,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 85,
-                "goalGetterID": 18700,
-                "goalGetterName": "J. Musiala",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 72319,
-        "matchDateTime": "2024-12-01T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4741,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2024/2025",
-        "leagueSeason": 2024,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2024-12-01T14:30:00Z",
-        "group": {
-            "groupName": "12. Spieltag",
-            "groupOrderID": 12,
-            "groupID": 45128
-        },
-        "team1": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2024-12-01T17:23:32.763",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 113568,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            },
-            {
-                "resultID": 113569,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 121979,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 4,
-                "goalGetterID": 19126,
-                "goalGetterName": "J. Burkardt",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 121980,
+                "goalID": 121888,
                 "scoreTeam1": 2,
                 "scoreTeam2": 0,
-                "matchMinute": 24,
-                "goalGetterID": 19126,
-                "goalGetterName": "J. Burkardt",
-                "scoringTeamId": 81,
+                "matchMinute": 56,
+                "goalGetterID": 23156,
+                "goalGetterName": "M. Guilavogui",
+                "scoringTeamId": 98,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 72315,
-        "matchDateTime": "2024-12-01T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4741,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2024/2025",
-        "leagueSeason": 2024,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2024-12-01T16:30:00Z",
-        "group": {
-            "groupName": "12. Spieltag",
-            "groupOrderID": 12,
-            "groupID": 45128
-        },
-        "team1": {
-            "teamId": 199,
-            "teamName": "1. FC Heidenheim 1846",
-            "shortName": "Heidenheim",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2024-12-01T19:26:24.833",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 113570,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
             },
             {
-                "resultID": 113571,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 4,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
+                "goalID": 121889,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 85,
+                "goalGetterID": 16022,
+                "goalGetterName": "J. Eggestein",
+                "scoringTeamId": 98,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
             {
-                "goalID": 121983,
-                "scoreTeam1": 0,
+                "goalID": 121890,
+                "scoreTeam1": 3,
                 "scoreTeam2": 1,
-                "matchMinute": 22,
-                "goalGetterID": 18444,
-                "goalGetterName": "O. Marmoush",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 121985,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 49,
-                "goalGetterID": 22918,
-                "goalGetterName": "F. Cha\u00efbi",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 121986,
-                "scoreTeam1": 0,
-                "scoreTeam2": 3,
-                "matchMinute": 58,
-                "goalGetterID": 18444,
-                "goalGetterName": "O. Marmoush",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 121987,
-                "scoreTeam1": 0,
-                "scoreTeam2": 4,
-                "matchMinute": 94,
-                "goalGetterID": 22919,
-                "goalGetterName": "H. Ekitike",
-                "scoringTeamId": 91,
+                "matchMinute": 91,
+                "goalGetterID": 23145,
+                "goalGetterName": "P. Harres",
+                "scoringTeamId": 104,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": true,

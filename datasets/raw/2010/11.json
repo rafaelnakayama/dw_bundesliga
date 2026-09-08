@@ -1,135 +1,39 @@
 [
     {
-        "matchID": 10091,
-        "matchDateTime": "2010-11-06T15:30:00",
+        "matchID": 10088,
+        "matchDateTime": "2010-11-05T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 159,
         "leagueName": "1. Fussball-Bundesliga 2010/2011",
         "leagueSeason": 2010,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-11-06T14:30:00Z",
+        "matchDateTimeUTC": "2010-11-05T19:30:00Z",
         "group": {
             "groupName": "11. Spieltag",
             "groupOrderID": 11,
             "groupID": 12185
         },
         "team1": {
-            "teamId": 100,
-            "teamName": "Hamburger SV",
-            "shortName": "HSV",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamId": 98,
+            "teamName": "FC St. Pauli",
+            "shortName": "St. Pauli",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2010-11-06T17:20:16.357",
+        "lastUpdateDateTime": "2010-11-05T22:19:09.23",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 15708,
+                "resultID": 15702,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 15709,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 3965,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 6,
-                "goalGetterID": 651,
-                "goalGetterName": "Salihovic",
-                "scoringTeamId": 175,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 3973,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 45,
-                "goalGetterID": 255,
-                "goalGetterName": "Westermann",
-                "scoringTeamId": 100,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 3979,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 83,
-                "goalGetterID": 37,
-                "goalGetterName": "Petric",
-                "scoringTeamId": 100,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 10094,
-        "matchDateTime": "2010-11-06T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 159,
-        "leagueName": "1. Fussball-Bundesliga 2010/2011",
-        "leagueSeason": 2010,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-11-06T14:30:00Z",
-        "group": {
-            "groupName": "11. Spieltag",
-            "groupOrderID": 11,
-            "groupID": 12185
-        },
-        "team1": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2010-11-06T17:21:06.58",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 15710,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
+                "pointsTeam1": 3,
                 "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
@@ -137,9 +41,9 @@
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 15715,
+                "resultID": 15703,
                 "resultName": "Halbzeit",
-                "pointsTeam1": 0,
+                "pointsTeam1": 1,
                 "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
@@ -149,13 +53,39 @@
         ],
         "goals": [
             {
-                "goalID": 3977,
+                "goalID": 3961,
                 "scoreTeam1": 1,
                 "scoreTeam2": 0,
-                "matchMinute": 64,
-                "goalGetterID": 1090,
-                "goalGetterName": "Ciss\u00e9",
-                "scoringTeamId": 112,
+                "matchMinute": 14,
+                "goalGetterID": 1490,
+                "goalGetterName": "Raul",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 3962,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 53,
+                "goalGetterID": 1207,
+                "goalGetterName": "Huntelaar",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 3963,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 81,
+                "goalGetterID": 1490,
+                "goalGetterName": "Raul",
+                "scoringTeamId": 9,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -166,50 +96,50 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 10095,
-        "matchDateTime": "2010-11-07T15:30:00",
+        "matchID": 10089,
+        "matchDateTime": "2010-11-07T17:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 159,
         "leagueName": "1. Fussball-Bundesliga 2010/2011",
         "leagueSeason": 2010,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-11-07T14:30:00Z",
+        "matchDateTimeUTC": "2010-11-07T16:30:00Z",
         "group": {
             "groupName": "11. Spieltag",
             "groupOrderID": 11,
             "groupID": 12185
         },
         "team1": {
-            "teamId": 55,
-            "teamName": "Hannover 96",
-            "shortName": "Hannover",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamId": 76,
+            "teamName": "1. FC Kaiserslautern",
+            "shortName": "Kaiserslautern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2010-11-07T17:29:09.75",
+        "lastUpdateDateTime": "2010-11-07T19:19:07.307",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 15764,
+                "resultID": 15773,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 4,
+                "pointsTeam1": 3,
+                "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 15766,
+                "resultID": 15774,
                 "resultName": "Halbzeit",
-                "pointsTeam1": 0,
+                "pointsTeam1": 1,
                 "pointsTeam2": 1,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
@@ -219,55 +149,55 @@
         ],
         "goals": [
             {
-                "goalID": 3989,
+                "goalID": 3991,
                 "scoreTeam1": 0,
                 "scoreTeam2": 1,
-                "matchMinute": 11,
-                "goalGetterID": 1608,
-                "goalGetterName": "Kagawa",
-                "scoringTeamId": 7,
+                "matchMinute": 15,
+                "goalGetterID": 1609,
+                "goalGetterName": "Dick",
+                "scoringTeamId": 76,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
-                "comment": null
+                "comment": ""
             },
             {
-                "goalID": 3985,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 72,
-                "goalGetterID": 84,
-                "goalGetterName": "Barrios",
-                "scoringTeamId": 7,
+                "goalID": 3993,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 38,
+                "goalGetterID": 394,
+                "goalGetterName": "Sam",
+                "scoringTeamId": 6,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
-                "comment": null
+                "comment": ""
             },
             {
-                "goalID": 3986,
-                "scoreTeam1": 0,
-                "scoreTeam2": 3,
-                "matchMinute": 81,
-                "goalGetterID": 1478,
-                "goalGetterName": "Robert Lewandowski",
-                "scoringTeamId": 7,
+                "goalID": 3995,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 68,
+                "goalGetterID": 1112,
+                "goalGetterName": "Helmes",
+                "scoringTeamId": 6,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
-                "comment": null
+                "comment": ""
             },
             {
-                "goalID": 3988,
-                "scoreTeam1": 0,
-                "scoreTeam2": 4,
-                "matchMinute": 90,
-                "goalGetterID": 1606,
-                "goalGetterName": "Blaszczykowski",
-                "scoringTeamId": 7,
+                "goalID": 3998,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 84,
+                "goalGetterID": 394,
+                "goalGetterName": "Sam",
+                "scoringTeamId": 6,
                 "isPenalty": false,
                 "isOwnGoal": false,
-                "isOvertime": true,
+                "isOvertime": false,
                 "comment": ""
             }
         ],
@@ -410,51 +340,51 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 10088,
-        "matchDateTime": "2010-11-05T20:30:00",
+        "matchID": 10091,
+        "matchDateTime": "2010-11-06T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 159,
         "leagueName": "1. Fussball-Bundesliga 2010/2011",
         "leagueSeason": 2010,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-11-05T19:30:00Z",
+        "matchDateTimeUTC": "2010-11-06T14:30:00Z",
         "group": {
             "groupName": "11. Spieltag",
             "groupOrderID": 11,
             "groupID": 12185
         },
         "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamId": 100,
+            "teamName": "Hamburger SV",
+            "shortName": "HSV",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 98,
-            "teamName": "FC St. Pauli",
-            "shortName": "St. Pauli",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2010-11-05T22:19:09.23",
+        "lastUpdateDateTime": "2010-11-06T17:20:16.357",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 15702,
+                "resultID": 15708,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 15703,
+                "resultID": 15709,
                 "resultName": "Halbzeit",
                 "pointsTeam1": 1,
-                "pointsTeam2": 0,
+                "pointsTeam2": 1,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
@@ -463,39 +393,39 @@
         ],
         "goals": [
             {
-                "goalID": 3961,
+                "goalID": 3965,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 6,
+                "goalGetterID": 651,
+                "goalGetterName": "Salihovic",
+                "scoringTeamId": 175,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 3973,
                 "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 14,
-                "goalGetterID": 1490,
-                "goalGetterName": "Raul",
-                "scoringTeamId": 9,
+                "scoreTeam2": 1,
+                "matchMinute": 45,
+                "goalGetterID": 255,
+                "goalGetterName": "Westermann",
+                "scoringTeamId": 100,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": ""
             },
             {
-                "goalID": 3962,
+                "goalID": 3979,
                 "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 53,
-                "goalGetterID": 1207,
-                "goalGetterName": "Huntelaar",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 3963,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 81,
-                "goalGetterID": 1490,
-                "goalGetterName": "Raul",
-                "scoringTeamId": 9,
+                "scoreTeam2": 1,
+                "matchMinute": 83,
+                "goalGetterID": 37,
+                "goalGetterName": "Petric",
+                "scoringTeamId": 100,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -750,6 +680,185 @@
         "numberOfViewers": null
     },
     {
+        "matchID": 10094,
+        "matchDateTime": "2010-11-06T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 159,
+        "leagueName": "1. Fussball-Bundesliga 2010/2011",
+        "leagueSeason": 2010,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2010-11-06T14:30:00Z",
+        "group": {
+            "groupName": "11. Spieltag",
+            "groupOrderID": 11,
+            "groupID": 12185
+        },
+        "team1": {
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2010-11-06T17:21:06.58",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 15710,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 15715,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 3977,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 64,
+                "goalGetterID": 1090,
+                "goalGetterName": "Ciss\u00e9",
+                "scoringTeamId": 112,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 10095,
+        "matchDateTime": "2010-11-07T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 159,
+        "leagueName": "1. Fussball-Bundesliga 2010/2011",
+        "leagueSeason": 2010,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2010-11-07T14:30:00Z",
+        "group": {
+            "groupName": "11. Spieltag",
+            "groupOrderID": 11,
+            "groupID": 12185
+        },
+        "team1": {
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2010-11-07T17:29:09.75",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 15764,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 4,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 15766,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 3989,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 11,
+                "goalGetterID": 1608,
+                "goalGetterName": "Kagawa",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 3985,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 72,
+                "goalGetterID": 84,
+                "goalGetterName": "Barrios",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 3986,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 81,
+                "goalGetterID": 1478,
+                "goalGetterName": "Robert Lewandowski",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 3988,
+                "scoreTeam1": 0,
+                "scoreTeam2": 4,
+                "matchMinute": 90,
+                "goalGetterID": 1606,
+                "goalGetterName": "Blaszczykowski",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": ""
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 10096,
         "matchDateTime": "2010-11-06T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -849,115 +958,6 @@
                 "goalGetterID": 150,
                 "goalGetterName": "Schieber",
                 "scoringTeamId": 79,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 10089,
-        "matchDateTime": "2010-11-07T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 159,
-        "leagueName": "1. Fussball-Bundesliga 2010/2011",
-        "leagueSeason": 2010,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-11-07T16:30:00Z",
-        "group": {
-            "groupName": "11. Spieltag",
-            "groupOrderID": 11,
-            "groupID": 12185
-        },
-        "team1": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 76,
-            "teamName": "1. FC Kaiserslautern",
-            "shortName": "Kaiserslautern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2010-11-07T19:19:07.307",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 15773,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 15774,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 3991,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 15,
-                "goalGetterID": 1609,
-                "goalGetterName": "Dick",
-                "scoringTeamId": 76,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 3993,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 38,
-                "goalGetterID": 394,
-                "goalGetterName": "Sam",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 3995,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 68,
-                "goalGetterID": 1112,
-                "goalGetterName": "Helmes",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 3998,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 84,
-                "goalGetterID": 394,
-                "goalGetterName": "Sam",
-                "scoringTeamId": 6,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

@@ -1,5 +1,75 @@
 [
     {
+        "matchID": 66738,
+        "matchDateTime": "2024-01-24T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4608,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
+        "leagueSeason": 2023,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2024-01-24T19:30:00Z",
+        "group": {
+            "groupName": "13. Spieltag",
+            "groupOrderID": 13,
+            "groupID": 41141
+        },
+        "team1": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 80,
+            "teamName": "1. FC Union Berlin",
+            "shortName": "Union Berlin",
+            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2024-01-24T22:46:53.073",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 106171,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            },
+            {
+                "resultID": 106170,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 107409,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 46,
+                "goalGetterID": 18618,
+                "goalGetterName": "R. Guerreiro",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 66739,
         "matchDateTime": "2023-12-02T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -96,50 +166,50 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 66744,
-        "matchDateTime": "2023-12-03T19:30:00",
+        "matchID": 66740,
+        "matchDateTime": "2023-12-03T17:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4608,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
         "leagueSeason": 2023,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2023-12-03T18:30:00Z",
+        "matchDateTimeUTC": "2023-12-03T16:30:00Z",
         "group": {
             "groupName": "13. Spieltag",
             "groupOrderID": 13,
             "groupID": 41141
         },
         "team1": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2023-12-03T21:26:10.527",
+        "lastUpdateDateTime": "2023-12-03T19:26:20.867",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 105527,
+                "resultID": 105525,
                 "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
                 "resultDescription": null
             },
             {
-                "resultID": 105526,
+                "resultID": 105524,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 2,
+                "pointsTeam1": 1,
                 "pointsTeam2": 1,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
@@ -149,41 +219,28 @@
         ],
         "goals": [
             {
-                "goalID": 106586,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 35,
-                "goalGetterID": 19463,
-                "goalGetterName": "F. Jensen",
-                "scoringTeamId": 95,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 106587,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 58,
-                "goalGetterID": 17881,
-                "goalGetterName": "Iago",
-                "scoringTeamId": 95,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 106588,
-                "scoreTeam1": 2,
+                "goalID": 106580,
+                "scoreTeam1": 0,
                 "scoreTeam2": 1,
-                "matchMinute": 78,
-                "goalGetterID": 20911,
-                "goalGetterName": "F. Dahmen",
-                "scoringTeamId": 91,
+                "matchMinute": 5,
+                "goalGetterID": 19136,
+                "goalGetterName": "J. Ryerson",
+                "scoringTeamId": 7,
                 "isPenalty": false,
-                "isOwnGoal": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 106581,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 79,
+                "goalGetterID": 20197,
+                "goalGetterName": "V. Boniface",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             }
@@ -192,38 +249,38 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 66746,
-        "matchDateTime": "2023-12-01T20:30:00",
+        "matchID": 66741,
+        "matchDateTime": "2023-12-03T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4608,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
         "leagueSeason": 2023,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2023-12-01T19:30:00Z",
+        "matchDateTimeUTC": "2023-12-03T14:30:00Z",
         "group": {
             "groupName": "13. Spieltag",
             "groupOrderID": 13,
             "groupID": 41141
         },
         "team1": {
-            "teamId": 118,
-            "teamName": "SV Darmstadt 98",
-            "shortName": "Darmstadt",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2023-12-01T22:25:57.27",
+        "lastUpdateDateTime": "2023-12-03T17:31:18.08",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 105487,
+                "resultID": 105517,
                 "resultName": "Halbzeitergebnis",
                 "pointsTeam1": 0,
                 "pointsTeam2": 0,
@@ -233,7 +290,7 @@
                 "resultDescription": null
             },
             {
-                "resultID": 105486,
+                "resultID": 105516,
                 "resultName": "Endergebnis",
                 "pointsTeam1": 0,
                 "pointsTeam2": 1,
@@ -245,13 +302,13 @@
         ],
         "goals": [
             {
-                "goalID": 106514,
+                "goalID": 106579,
                 "scoreTeam1": 0,
                 "scoreTeam2": 1,
-                "matchMinute": 60,
-                "goalGetterID": 18521,
-                "goalGetterName": "D. Selke",
-                "scoringTeamId": 65,
+                "matchMinute": 69,
+                "goalGetterID": 13007,
+                "goalGetterName": "Gregoritsch",
+                "scoringTeamId": 112,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -467,6 +524,102 @@
         "numberOfViewers": null
     },
     {
+        "matchID": 66744,
+        "matchDateTime": "2023-12-03T19:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4608,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
+        "leagueSeason": 2023,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2023-12-03T18:30:00Z",
+        "group": {
+            "groupName": "13. Spieltag",
+            "groupOrderID": 13,
+            "groupID": 41141
+        },
+        "team1": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2023-12-03T21:26:10.527",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 105527,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            },
+            {
+                "resultID": 105526,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 106586,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 35,
+                "goalGetterID": 19463,
+                "goalGetterName": "F. Jensen",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 106587,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 58,
+                "goalGetterID": 17881,
+                "goalGetterName": "Iago",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 106588,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 78,
+                "goalGetterID": 20911,
+                "goalGetterName": "F. Dahmen",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 66745,
         "matchDateTime": "2023-12-02T18:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -550,38 +703,38 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 66741,
-        "matchDateTime": "2023-12-03T15:30:00",
+        "matchID": 66746,
+        "matchDateTime": "2023-12-01T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4608,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
         "leagueSeason": 2023,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2023-12-03T14:30:00Z",
+        "matchDateTimeUTC": "2023-12-01T19:30:00Z",
         "group": {
             "groupName": "13. Spieltag",
             "groupOrderID": 13,
             "groupID": 41141
         },
         "team1": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamId": 118,
+            "teamName": "SV Darmstadt 98",
+            "shortName": "Darmstadt",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2023-12-03T17:31:18.08",
+        "lastUpdateDateTime": "2023-12-01T22:25:57.27",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 105517,
+                "resultID": 105487,
                 "resultName": "Halbzeitergebnis",
                 "pointsTeam1": 0,
                 "pointsTeam2": 0,
@@ -591,7 +744,7 @@
                 "resultDescription": null
             },
             {
-                "resultID": 105516,
+                "resultID": 105486,
                 "resultName": "Endergebnis",
                 "pointsTeam1": 0,
                 "pointsTeam2": 1,
@@ -603,166 +756,13 @@
         ],
         "goals": [
             {
-                "goalID": 106579,
+                "goalID": 106514,
                 "scoreTeam1": 0,
                 "scoreTeam2": 1,
-                "matchMinute": 69,
-                "goalGetterID": 13007,
-                "goalGetterName": "Gregoritsch",
-                "scoringTeamId": 112,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 66740,
-        "matchDateTime": "2023-12-03T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4608,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
-        "leagueSeason": 2023,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2023-12-03T16:30:00Z",
-        "group": {
-            "groupName": "13. Spieltag",
-            "groupOrderID": 13,
-            "groupID": 41141
-        },
-        "team1": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2023-12-03T19:26:20.867",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 105525,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            },
-            {
-                "resultID": 105524,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 106580,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 5,
-                "goalGetterID": 19136,
-                "goalGetterName": "J. Ryerson",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 106581,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 79,
-                "goalGetterID": 20197,
-                "goalGetterName": "V. Boniface",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 66738,
-        "matchDateTime": "2024-01-24T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4608,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
-        "leagueSeason": 2023,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2024-01-24T19:30:00Z",
-        "group": {
-            "groupName": "13. Spieltag",
-            "groupOrderID": 13,
-            "groupID": 41141
-        },
-        "team1": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 80,
-            "teamName": "1. FC Union Berlin",
-            "shortName": "Union Berlin",
-            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2024-01-24T22:46:53.073",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 106171,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            },
-            {
-                "resultID": 106170,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 107409,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 46,
-                "goalGetterID": 18618,
-                "goalGetterName": "R. Guerreiro",
-                "scoringTeamId": 40,
+                "matchMinute": 60,
+                "goalGetterID": 18521,
+                "goalGetterName": "D. Selke",
+                "scoringTeamId": 65,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

@@ -1,51 +1,5 @@
 [
     {
-        "matchID": 1111,
-        "matchDateTime": "2008-03-14T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2007/2008",
-        "leagueSeason": 2007,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2008-03-14T19:30:00Z",
-        "group": {
-            "groupName": "24. Spieltag",
-            "groupOrderID": 24,
-            "groupID": 10938
-        },
-        "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 107,
-            "teamName": "MSV Duisburg",
-            "shortName": "Duisburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/en/c/c8/Msv_duisburg%28new%29.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2008-10-02T22:17:47.807",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 1724,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 0,
-                "resultTypeKind": "Unknown",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 1102,
         "matchDateTime": "2008-03-15T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -127,6 +81,52 @@
                 "resultName": "Endergebnis",
                 "pointsTeam1": 2,
                 "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 0,
+                "resultTypeKind": "Unknown",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 1104,
+        "matchDateTime": "2008-03-16T17:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2007/2008",
+        "leagueSeason": 2007,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2008-03-16T16:00:00Z",
+        "group": {
+            "groupName": "24. Spieltag",
+            "groupOrderID": 24,
+            "groupID": 10938
+        },
+        "team1": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 79,
+            "teamName": "1. FC N\u00fcrnberg",
+            "shortName": "N\u00fcrnberg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N\u00fcrnberg_logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2008-10-02T22:17:48.477",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 1736,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 4,
+                "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 0,
                 "resultTypeKind": "Unknown",
@@ -322,52 +322,6 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 1104,
-        "matchDateTime": "2008-03-16T17:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2007/2008",
-        "leagueSeason": 2007,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2008-03-16T16:00:00Z",
-        "group": {
-            "groupName": "24. Spieltag",
-            "groupOrderID": 24,
-            "groupID": 10938
-        },
-        "team1": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 79,
-            "teamName": "1. FC N\u00fcrnberg",
-            "shortName": "N\u00fcrnberg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N\u00fcrnberg_logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2008-10-02T22:17:48.477",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 1736,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 4,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 0,
-                "resultTypeKind": "Unknown",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 1110,
         "matchDateTime": "2008-03-16T17:00:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -402,6 +356,52 @@
                 "resultID": 1737,
                 "resultName": "Endergebnis",
                 "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 0,
+                "resultTypeKind": "Unknown",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 1111,
+        "matchDateTime": "2008-03-14T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2007/2008",
+        "leagueSeason": 2007,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2008-03-14T19:30:00Z",
+        "group": {
+            "groupName": "24. Spieltag",
+            "groupOrderID": 24,
+            "groupID": 10938
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 107,
+            "teamName": "MSV Duisburg",
+            "shortName": "Duisburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/en/c/c8/Msv_duisburg%28new%29.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2008-10-02T22:17:47.807",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 1724,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
                 "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 0,

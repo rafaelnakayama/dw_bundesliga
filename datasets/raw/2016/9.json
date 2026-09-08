@@ -1,5 +1,65 @@
 [
     {
+        "matchID": 39720,
+        "matchDateTime": "2016-10-29T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2016-10-29T16:30:00Z",
+        "group": {
+            "groupName": "9. Spieltag",
+            "groupOrderID": 9,
+            "groupID": 23841
+        },
+        "team1": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2016-10-30T21:31:00.88",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 69792,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 69793,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [],
+        "location": {
+            "locationID": 184,
+            "locationCity": "Dortmund",
+            "locationStadium": "Signal-Iduna-Park"
+        },
+        "numberOfViewers": 80179
+    },
+    {
         "matchID": 39721,
         "matchDateTime": "2016-10-28T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -245,6 +305,106 @@
             "locationStadium": ""
         },
         "numberOfViewers": 26398
+    },
+    {
+        "matchID": 39724,
+        "matchDateTime": "2016-10-30T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2016-10-30T16:30:00Z",
+        "group": {
+            "groupName": "9. Spieltag",
+            "groupOrderID": 9,
+            "groupID": 23841
+        },
+        "team1": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 100,
+            "teamName": "Hamburger SV",
+            "shortName": "HSV",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2016-10-30T21:38:45.627",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 69824,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 69825,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 55129,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 61,
+                "goalGetterID": 16035,
+                "goalGetterName": "Anthony Modeste",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 55130,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 82,
+                "goalGetterID": 16035,
+                "goalGetterName": "Anthony Modeste",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 55131,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 86,
+                "goalGetterID": 16035,
+                "goalGetterName": "Anthony Modeste",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 52,
+            "locationCity": "",
+            "locationStadium": ""
+        },
+        "numberOfViewers": 50000
     },
     {
         "matchID": 39725,
@@ -560,66 +720,6 @@
         "numberOfViewers": 16400
     },
     {
-        "matchID": 39720,
-        "matchDateTime": "2016-10-29T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3005,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
-        "leagueSeason": 2016,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2016-10-29T16:30:00Z",
-        "group": {
-            "groupName": "9. Spieltag",
-            "groupOrderID": 9,
-            "groupID": 23841
-        },
-        "team1": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2016-10-30T21:31:00.88",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 69792,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 69793,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [],
-        "location": {
-            "locationID": 184,
-            "locationCity": "Dortmund",
-            "locationStadium": "Signal-Iduna-Park"
-        },
-        "numberOfViewers": 80179
-    },
-    {
         "matchID": 39728,
         "matchDateTime": "2016-10-30T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -692,105 +792,5 @@
             "locationStadium": ""
         },
         "numberOfViewers": 28015
-    },
-    {
-        "matchID": 39724,
-        "matchDateTime": "2016-10-30T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3005,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
-        "leagueSeason": 2016,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2016-10-30T16:30:00Z",
-        "group": {
-            "groupName": "9. Spieltag",
-            "groupOrderID": 9,
-            "groupID": 23841
-        },
-        "team1": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 100,
-            "teamName": "Hamburger SV",
-            "shortName": "HSV",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2016-10-30T21:38:45.627",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 69824,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 69825,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 55129,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 61,
-                "goalGetterID": 16035,
-                "goalGetterName": "Anthony Modeste",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 55130,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 82,
-                "goalGetterID": 16035,
-                "goalGetterName": "Anthony Modeste",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 55131,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 86,
-                "goalGetterID": 16035,
-                "goalGetterName": "Anthony Modeste",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 52,
-            "locationCity": "",
-            "locationStadium": ""
-        },
-        "numberOfViewers": 50000
     }
 ]

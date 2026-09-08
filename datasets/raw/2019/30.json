@@ -1,37 +1,37 @@
 [
     {
-        "matchID": 55544,
-        "matchDateTime": "2020-06-05T20:30:00",
+        "matchID": 55538,
+        "matchDateTime": "2020-06-06T18:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4362,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
         "leagueSeason": 2019,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2020-06-05T18:30:00Z",
+        "matchDateTimeUTC": "2020-06-06T16:30:00Z",
         "group": {
             "groupName": "30. Spieltag",
             "groupOrderID": 30,
             "groupID": 34229
         },
         "team1": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2020-06-05T22:23:39.82",
+        "lastUpdateDateTime": "2020-06-06T20:21:25.447",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 91569,
+                "resultID": 91598,
                 "resultName": "Halbzeit",
                 "pointsTeam1": 0,
                 "pointsTeam2": 0,
@@ -41,7 +41,7 @@
                 "resultDescription": "Zwischenstand zur Halbzeit"
             },
             {
-                "resultID": 91568,
+                "resultID": 91597,
                 "resultName": "Endergebnis",
                 "pointsTeam1": 1,
                 "pointsTeam2": 0,
@@ -53,13 +53,13 @@
         ],
         "goals": [
             {
-                "goalID": 83667,
+                "goalID": 83714,
                 "scoreTeam1": 1,
                 "scoreTeam2": 0,
-                "matchMinute": 59,
-                "goalGetterID": 16053,
-                "goalGetterName": "Nils Petersen",
-                "scoringTeamId": 112,
+                "matchMinute": 58,
+                "goalGetterID": 17933,
+                "goalGetterName": "Emre Can",
+                "scoringTeamId": 7,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -371,6 +371,76 @@
         "numberOfViewers": null
     },
     {
+        "matchID": 55542,
+        "matchDateTime": "2020-06-07T13:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2020-06-07T11:30:00Z",
+        "group": {
+            "groupName": "30. Spieltag",
+            "groupOrderID": 30,
+            "groupID": 34229
+        },
+        "team1": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2020-06-07T15:27:17.79",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 91608,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 91607,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 83740,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 82,
+                "goalGetterID": 16906,
+                "goalGetterName": "Weghorst",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 55543,
         "matchDateTime": "2020-06-06T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -493,38 +563,38 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 55538,
-        "matchDateTime": "2020-06-06T18:30:00",
+        "matchID": 55544,
+        "matchDateTime": "2020-06-05T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4362,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
         "leagueSeason": 2019,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2020-06-06T16:30:00Z",
+        "matchDateTimeUTC": "2020-06-05T18:30:00Z",
         "group": {
             "groupName": "30. Spieltag",
             "groupOrderID": 30,
             "groupID": 34229
         },
         "team1": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 54,
-            "teamName": "Hertha BSC",
-            "shortName": "Hertha",
-            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2020-06-06T20:21:25.447",
+        "lastUpdateDateTime": "2020-06-05T22:23:39.82",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 91598,
+                "resultID": 91569,
                 "resultName": "Halbzeit",
                 "pointsTeam1": 0,
                 "pointsTeam2": 0,
@@ -534,7 +604,7 @@
                 "resultDescription": "Zwischenstand zur Halbzeit"
             },
             {
-                "resultID": 91597,
+                "resultID": 91568,
                 "resultName": "Endergebnis",
                 "pointsTeam1": 1,
                 "pointsTeam2": 0,
@@ -546,166 +616,13 @@
         ],
         "goals": [
             {
-                "goalID": 83714,
+                "goalID": 83667,
                 "scoreTeam1": 1,
                 "scoreTeam2": 0,
-                "matchMinute": 58,
-                "goalGetterID": 17933,
-                "goalGetterName": "Emre Can",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 55542,
-        "matchDateTime": "2020-06-07T13:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4362,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
-        "leagueSeason": 2019,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2020-06-07T11:30:00Z",
-        "group": {
-            "groupName": "30. Spieltag",
-            "groupOrderID": 30,
-            "groupID": 34229
-        },
-        "team1": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2020-06-07T15:27:17.79",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 91608,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 91607,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 83740,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 82,
-                "goalGetterID": 16906,
-                "goalGetterName": "Weghorst",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 55546,
-        "matchDateTime": "2020-06-07T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4362,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
-        "leagueSeason": 2019,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2020-06-07T13:30:00Z",
-        "group": {
-            "groupName": "30. Spieltag",
-            "groupOrderID": 30,
-            "groupID": 34229
-        },
-        "team1": {
-            "teamId": 80,
-            "teamName": "1. FC Union Berlin",
-            "shortName": "Union Berlin",
-            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2020-06-07T17:22:14.347",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 91619,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 91618,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 83744,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 11,
-                "goalGetterID": 15679,
-                "goalGetterName": "Andrich",
-                "scoringTeamId": 80,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 83745,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 28,
-                "goalGetterID": 17767,
-                "goalGetterName": "Kenny, J.",
-                "scoringTeamId": 9,
+                "matchMinute": 59,
+                "goalGetterID": 16053,
+                "goalGetterName": "Nils Petersen",
+                "scoringTeamId": 112,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -789,6 +706,89 @@
                 "goalGetterID": 16688,
                 "goalGetterName": "Max, Philipp",
                 "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 55546,
+        "matchDateTime": "2020-06-07T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2020-06-07T13:30:00Z",
+        "group": {
+            "groupName": "30. Spieltag",
+            "groupOrderID": 30,
+            "groupID": 34229
+        },
+        "team1": {
+            "teamId": 80,
+            "teamName": "1. FC Union Berlin",
+            "shortName": "Union Berlin",
+            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2020-06-07T17:22:14.347",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 91619,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 91618,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 83744,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 11,
+                "goalGetterID": 15679,
+                "goalGetterName": "Andrich",
+                "scoringTeamId": 80,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 83745,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 28,
+                "goalGetterID": 17767,
+                "goalGetterName": "Kenny, J.",
+                "scoringTeamId": 9,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

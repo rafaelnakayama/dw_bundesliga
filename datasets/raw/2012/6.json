@@ -1,50 +1,50 @@
 [
     {
-        "matchID": 19756,
-        "matchDateTime": "2012-09-28T20:30:00",
+        "matchID": 19748,
+        "matchDateTime": "2012-09-29T18:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 456,
         "leagueName": "1. Fussball-Bundesliga 2012/2013",
         "leagueSeason": 2012,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-09-28T18:30:00Z",
+        "matchDateTimeUTC": "2012-09-29T16:30:00Z",
         "group": {
             "groupName": "6. Spieltag",
             "groupOrderID": 6,
             "groupID": 13146
         },
         "team1": {
-            "teamId": 185,
-            "teamName": "Fortuna D\u00fcsseldorf",
-            "shortName": "D\u00fcsseldorf",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Fortuna_D%C3%BCsseldorf.svg/960px-Fortuna_D%C3%BCsseldorf.svg.png",
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2012-09-30T01:10:30.047",
+        "lastUpdateDateTime": "2012-09-30T07:11:09.473",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 30258,
+                "resultID": 30310,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 2,
+                "pointsTeam1": 5,
+                "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 30252,
+                "resultID": 30308,
                 "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
@@ -53,64 +53,77 @@
         ],
         "goals": [
             {
-                "goalID": 14011,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 13,
-                "goalGetterID": 1207,
-                "goalGetterName": "Huntelaar",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": "Linksschuss"
-            },
-            {
-                "goalID": 14012,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 20,
-                "goalGetterID": 108,
-                "goalGetterName": "Matip",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": "Kopfball"
-            },
-            {
-                "goalID": 14017,
+                "goalID": 14081,
                 "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 47,
-                "goalGetterID": 1393,
-                "goalGetterName": "Schahin",
-                "scoringTeamId": 185,
+                "scoreTeam2": 0,
+                "matchMinute": 35,
+                "goalGetterID": 357,
+                "goalGetterName": "Reus",
+                "scoringTeamId": 7,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
-                "comment": "Rechtsschuss"
+                "comment": null
             },
             {
-                "goalID": 14018,
+                "goalID": 14082,
                 "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 77,
-                "goalGetterID": 1393,
-                "goalGetterName": "Schahin",
-                "scoringTeamId": 185,
+                "scoreTeam2": 0,
+                "matchMinute": 40,
+                "goalGetterID": 902,
+                "goalGetterName": "Subotic",
+                "scoringTeamId": 7,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
-                "comment": "Kopfball"
+                "comment": null
+            },
+            {
+                "goalID": 14087,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 70,
+                "goalGetterID": 357,
+                "goalGetterName": "Reus",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 14108,
+                "scoreTeam1": 4,
+                "scoreTeam2": 0,
+                "matchMinute": 79,
+                "goalGetterID": 78,
+                "goalGetterName": "G\u00fcndogan",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 14109,
+                "scoreTeam1": 5,
+                "scoreTeam2": 0,
+                "matchMinute": 85,
+                "goalGetterID": 1606,
+                "goalGetterName": "Blaszczykowski",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
             }
         ],
         "location": {
-            "locationID": 53,
-            "locationCity": "D\u00fcsseldorf",
-            "locationStadium": "ESPRIT Arena"
+            "locationID": 184,
+            "locationCity": "Dortmund",
+            "locationStadium": "Signal-Iduna-Park"
         },
-        "numberOfViewers": 54600
+        "numberOfViewers": 80645
     },
     {
         "matchID": 19749,
@@ -198,6 +211,93 @@
             "locationStadium": "BayArena"
         },
         "numberOfViewers": 25798
+    },
+    {
+        "matchID": 19750,
+        "matchDateTime": "2012-09-30T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 456,
+        "leagueName": "1. Fussball-Bundesliga 2012/2013",
+        "leagueSeason": 2012,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2012-09-30T15:30:00Z",
+        "group": {
+            "groupName": "6. Spieltag",
+            "groupOrderID": 6,
+            "groupID": 13146
+        },
+        "team1": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2012-10-28T20:46:38.63",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 30348,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 30349,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 14148,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 27,
+                "goalGetterID": 7601,
+                "goalGetterName": "Junior Diaz",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 14150,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 37,
+                "goalGetterID": 1133,
+                "goalGetterName": "Szalai",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 652,
+            "locationCity": "Wolfsburg",
+            "locationStadium": "Volkswagenarena"
+        },
+        "numberOfViewers": null
     },
     {
         "matchID": 19751,
@@ -508,132 +608,6 @@
         "numberOfViewers": 57000
     },
     {
-        "matchID": 19748,
-        "matchDateTime": "2012-09-29T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 456,
-        "leagueName": "1. Fussball-Bundesliga 2012/2013",
-        "leagueSeason": 2012,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-09-29T16:30:00Z",
-        "group": {
-            "groupName": "6. Spieltag",
-            "groupOrderID": 6,
-            "groupID": 13146
-        },
-        "team1": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2012-09-30T07:11:09.473",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 30310,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 5,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 30308,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 14081,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 35,
-                "goalGetterID": 357,
-                "goalGetterName": "Reus",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 14082,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 40,
-                "goalGetterID": 902,
-                "goalGetterName": "Subotic",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 14087,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 70,
-                "goalGetterID": 357,
-                "goalGetterName": "Reus",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 14108,
-                "scoreTeam1": 4,
-                "scoreTeam2": 0,
-                "matchMinute": 79,
-                "goalGetterID": 78,
-                "goalGetterName": "G\u00fcndogan",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 14109,
-                "scoreTeam1": 5,
-                "scoreTeam2": 0,
-                "matchMinute": 85,
-                "goalGetterID": 1606,
-                "goalGetterName": "Blaszczykowski",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 184,
-            "locationCity": "Dortmund",
-            "locationStadium": "Signal-Iduna-Park"
-        },
-        "numberOfViewers": 80645
-    },
-    {
         "matchID": 19755,
         "matchDateTime": "2012-09-30T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -734,40 +708,40 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 19750,
-        "matchDateTime": "2012-09-30T17:30:00",
+        "matchID": 19756,
+        "matchDateTime": "2012-09-28T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 456,
         "leagueName": "1. Fussball-Bundesliga 2012/2013",
         "leagueSeason": 2012,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-09-30T15:30:00Z",
+        "matchDateTimeUTC": "2012-09-28T18:30:00Z",
         "group": {
             "groupName": "6. Spieltag",
             "groupOrderID": 6,
             "groupID": 13146
         },
         "team1": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamId": 185,
+            "teamName": "Fortuna D\u00fcsseldorf",
+            "shortName": "D\u00fcsseldorf",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Fortuna_D%C3%BCsseldorf.svg/960px-Fortuna_D%C3%BCsseldorf.svg.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2012-10-28T20:46:38.63",
+        "lastUpdateDateTime": "2012-09-30T01:10:30.047",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 30348,
+                "resultID": 30258,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 0,
+                "pointsTeam1": 2,
                 "pointsTeam2": 2,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
@@ -775,7 +749,7 @@
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 30349,
+                "resultID": 30252,
                 "resultName": "Halbzeit",
                 "pointsTeam1": 0,
                 "pointsTeam2": 2,
@@ -787,37 +761,63 @@
         ],
         "goals": [
             {
-                "goalID": 14148,
+                "goalID": 14011,
                 "scoreTeam1": 0,
                 "scoreTeam2": 1,
-                "matchMinute": 27,
-                "goalGetterID": 7601,
-                "goalGetterName": "Junior Diaz",
-                "scoringTeamId": 81,
+                "matchMinute": 13,
+                "goalGetterID": 1207,
+                "goalGetterName": "Huntelaar",
+                "scoringTeamId": 9,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
-                "comment": null
+                "comment": "Linksschuss"
             },
             {
-                "goalID": 14150,
+                "goalID": 14012,
                 "scoreTeam1": 0,
                 "scoreTeam2": 2,
-                "matchMinute": 37,
-                "goalGetterID": 1133,
-                "goalGetterName": "Szalai",
-                "scoringTeamId": 81,
+                "matchMinute": 20,
+                "goalGetterID": 108,
+                "goalGetterName": "Matip",
+                "scoringTeamId": 9,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
-                "comment": null
+                "comment": "Kopfball"
+            },
+            {
+                "goalID": 14017,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 47,
+                "goalGetterID": 1393,
+                "goalGetterName": "Schahin",
+                "scoringTeamId": 185,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": "Rechtsschuss"
+            },
+            {
+                "goalID": 14018,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 77,
+                "goalGetterID": 1393,
+                "goalGetterName": "Schahin",
+                "scoringTeamId": 185,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": "Kopfball"
             }
         ],
         "location": {
-            "locationID": 652,
-            "locationCity": "Wolfsburg",
-            "locationStadium": "Volkswagenarena"
+            "locationID": 53,
+            "locationCity": "D\u00fcsseldorf",
+            "locationStadium": "ESPRIT Arena"
         },
-        "numberOfViewers": null
+        "numberOfViewers": 54600
     }
 ]

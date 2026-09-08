@@ -1,101 +1,5 @@
 [
     {
-        "matchID": 51332,
-        "matchDateTime": "2019-03-01T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4276,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
-        "leagueSeason": 2018,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2019-03-01T19:30:00Z",
-        "group": {
-            "groupName": "24. Spieltag",
-            "groupOrderID": 24,
-            "groupID": 31798
-        },
-        "team1": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2019-03-01T22:25:53.963",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 86238,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 86237,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 76261,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 24,
-                "goalGetterID": 10525,
-                "goalGetterName": "Dong-Won Ji",
-                "scoringTeamId": 95,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 76265,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 68,
-                "goalGetterID": 10525,
-                "goalGetterName": "Dong-Won Ji",
-                "scoringTeamId": 95,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 76266,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 81,
-                "goalGetterID": 16945,
-                "goalGetterName": "Alcacer",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 51327,
         "matchDateTime": "2019-03-02T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -278,6 +182,141 @@
                 "goalGetterID": 16315,
                 "goalGetterName": "Bailey",
                 "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 51329,
+        "matchDateTime": "2019-03-03T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4276,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
+        "leagueSeason": 2018,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2019-03-03T14:30:00Z",
+        "group": {
+            "groupName": "24. Spieltag",
+            "groupOrderID": 24,
+            "groupID": 31798
+        },
+        "team1": {
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2019-03-03T17:19:02.007",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 86280,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 86279,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 5,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 76321,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 5,
+                "goalGetterID": 15883,
+                "goalGetterName": "Gomez, Mario",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 76330,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 17,
+                "goalGetterID": 17377,
+                "goalGetterName": "O. Kabak",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 76331,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 45,
+                "goalGetterID": 17377,
+                "goalGetterName": "O. Kabak",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 76332,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 69,
+                "goalGetterID": 14635,
+                "goalGetterName": "Jonathas",
+                "scoringTeamId": 55,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 76333,
+                "scoreTeam1": 4,
+                "scoreTeam2": 1,
+                "matchMinute": 78,
+                "goalGetterID": 15328,
+                "goalGetterName": "Zuber, Steven",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 76334,
+                "scoreTeam1": 5,
+                "scoreTeam2": 1,
+                "matchMinute": 81,
+                "goalGetterID": 15328,
+                "goalGetterName": "Zuber, Steven",
+                "scoringTeamId": 16,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -506,6 +545,185 @@
         "numberOfViewers": null
     },
     {
+        "matchID": 51332,
+        "matchDateTime": "2019-03-01T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4276,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
+        "leagueSeason": 2018,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2019-03-01T19:30:00Z",
+        "group": {
+            "groupName": "24. Spieltag",
+            "groupOrderID": 24,
+            "groupID": 31798
+        },
+        "team1": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2019-03-01T22:25:53.963",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 86238,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 86237,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 76261,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 24,
+                "goalGetterID": 10525,
+                "goalGetterName": "Dong-Won Ji",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 76265,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 68,
+                "goalGetterID": 10525,
+                "goalGetterName": "Dong-Won Ji",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 76266,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 81,
+                "goalGetterID": 16945,
+                "goalGetterName": "Alcacer",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 51333,
+        "matchDateTime": "2019-03-03T18:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4276,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
+        "leagueSeason": 2018,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2019-03-03T17:00:00Z",
+        "group": {
+            "groupName": "24. Spieltag",
+            "groupOrderID": 24,
+            "groupID": 31798
+        },
+        "team1": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2019-03-03T19:55:53.54",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 86289,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 86288,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 76335,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 56,
+                "goalGetterID": 11002,
+                "goalGetterName": "Brooks",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 76336,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 75,
+                "goalGetterID": 11539,
+                "goalGetterName": "Kruse, Max",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 51334,
         "matchDateTime": "2019-03-02T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -706,224 +924,6 @@
                 "goalGetterName": "Robert Lewandowski",
                 "scoringTeamId": 40,
                 "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 51329,
-        "matchDateTime": "2019-03-03T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4276,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
-        "leagueSeason": 2018,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2019-03-03T14:30:00Z",
-        "group": {
-            "groupName": "24. Spieltag",
-            "groupOrderID": 24,
-            "groupID": 31798
-        },
-        "team1": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 55,
-            "teamName": "Hannover 96",
-            "shortName": "Hannover",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2019-03-03T17:19:02.007",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 86280,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 86279,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 5,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 76321,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 5,
-                "goalGetterID": 15883,
-                "goalGetterName": "Gomez, Mario",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 76330,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 17,
-                "goalGetterID": 17377,
-                "goalGetterName": "O. Kabak",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 76331,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 45,
-                "goalGetterID": 17377,
-                "goalGetterName": "O. Kabak",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 76332,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 69,
-                "goalGetterID": 14635,
-                "goalGetterName": "Jonathas",
-                "scoringTeamId": 55,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 76333,
-                "scoreTeam1": 4,
-                "scoreTeam2": 1,
-                "matchMinute": 78,
-                "goalGetterID": 15328,
-                "goalGetterName": "Zuber, Steven",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 76334,
-                "scoreTeam1": 5,
-                "scoreTeam2": 1,
-                "matchMinute": 81,
-                "goalGetterID": 15328,
-                "goalGetterName": "Zuber, Steven",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 51333,
-        "matchDateTime": "2019-03-03T18:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4276,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2018/2019",
-        "leagueSeason": 2018,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2019-03-03T17:00:00Z",
-        "group": {
-            "groupName": "24. Spieltag",
-            "groupOrderID": 24,
-            "groupID": 31798
-        },
-        "team1": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2019-03-03T19:55:53.54",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 86289,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 86288,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 76335,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 56,
-                "goalGetterID": 11002,
-                "goalGetterName": "Brooks",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 76336,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 75,
-                "goalGetterID": 11539,
-                "goalGetterName": "Kruse, Max",
-                "scoringTeamId": 134,
-                "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null

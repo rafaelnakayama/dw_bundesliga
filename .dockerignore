@@ -1,0 +1,22 @@
+# Mesma sintaxe do .gitignore. Tudo listado aqui nao e enviado ao daemon
+# durante o build, o que deixa o build mais rapido e a imagem menor.
+
+.venv/
+__pycache__/
+*.pyc
+
+# 714 arquivos que chegam por volume no compose, nao dentro da imagem
+datasets/
+
+# variaveis de ambiente locais
+.env
+
+.git/
+.gitignore
+.zed/
+.vscode/
+.DS_Store
+
+# nao fazem parte do runtime do script
+docs/
+tests/

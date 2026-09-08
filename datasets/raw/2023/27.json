@@ -1,5 +1,88 @@
 [
     {
+        "matchID": 66865,
+        "matchDateTime": "2024-03-30T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4608,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
+        "leagueSeason": 2023,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2024-03-30T17:30:00Z",
+        "group": {
+            "groupName": "27. Spieltag",
+            "groupOrderID": 27,
+            "groupID": 41155
+        },
+        "team1": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2024-04-03T19:48:24.537",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 108269,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            },
+            {
+                "resultID": 108268,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 109983,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 10,
+                "goalGetterID": 19423,
+                "goalGetterName": "K. Adeyemi",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 109984,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 83,
+                "goalGetterID": 19136,
+                "goalGetterName": "J. Ryerson",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 66866,
         "matchDateTime": "2024-03-30T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -387,50 +470,50 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 66865,
-        "matchDateTime": "2024-03-30T18:30:00",
+        "matchID": 66871,
+        "matchDateTime": "2024-03-31T19:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4608,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
         "leagueSeason": 2023,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2024-03-30T17:30:00Z",
+        "matchDateTimeUTC": "2024-03-31T17:30:00Z",
         "group": {
             "groupName": "27. Spieltag",
             "groupOrderID": 27,
             "groupID": 41155
         },
         "team1": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamId": 129,
+            "teamName": "VfL Bochum",
+            "shortName": "Bochum",
+            "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamId": 118,
+            "teamName": "SV Darmstadt 98",
+            "shortName": "Darmstadt",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2024-04-03T19:48:24.537",
+        "lastUpdateDateTime": "2024-03-31T21:28:00.483",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 108269,
+                "resultID": 108291,
                 "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
                 "resultDescription": null
             },
             {
-                "resultID": 108268,
+                "resultID": 108290,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 0,
+                "pointsTeam1": 2,
                 "pointsTeam2": 2,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
@@ -440,26 +523,52 @@
         ],
         "goals": [
             {
-                "goalID": 109983,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 10,
-                "goalGetterID": 19423,
-                "goalGetterName": "K. Adeyemi",
-                "scoringTeamId": 7,
+                "goalID": 110016,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 30,
+                "goalGetterID": 17664,
+                "goalGetterName": "P. Hofmann",
+                "scoringTeamId": 129,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 109984,
-                "scoreTeam1": 0,
+                "goalID": 110017,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 48,
+                "goalGetterID": 17664,
+                "goalGetterName": "P. Hofmann",
+                "scoringTeamId": 129,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 110018,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 62,
+                "goalGetterID": 18299,
+                "goalGetterName": "T. Skarke",
+                "scoringTeamId": 118,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 110019,
+                "scoreTeam1": 2,
                 "scoreTeam2": 2,
-                "matchMinute": 83,
-                "goalGetterID": 19136,
-                "goalGetterName": "J. Ryerson",
-                "scoringTeamId": 7,
+                "matchMinute": 76,
+                "goalGetterID": 19453,
+                "goalGetterName": "O. Vilhelmsson",
+                "scoringTeamId": 118,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -681,115 +790,6 @@
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": true,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 66871,
-        "matchDateTime": "2024-03-31T19:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4608,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
-        "leagueSeason": 2023,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2024-03-31T17:30:00Z",
-        "group": {
-            "groupName": "27. Spieltag",
-            "groupOrderID": 27,
-            "groupID": 41155
-        },
-        "team1": {
-            "teamId": 129,
-            "teamName": "VfL Bochum",
-            "shortName": "Bochum",
-            "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 118,
-            "teamName": "SV Darmstadt 98",
-            "shortName": "Darmstadt",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2024-03-31T21:28:00.483",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 108291,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            },
-            {
-                "resultID": 108290,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 110016,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 30,
-                "goalGetterID": 17664,
-                "goalGetterName": "P. Hofmann",
-                "scoringTeamId": 129,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 110017,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 48,
-                "goalGetterID": 17664,
-                "goalGetterName": "P. Hofmann",
-                "scoringTeamId": 129,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 110018,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 62,
-                "goalGetterID": 18299,
-                "goalGetterName": "T. Skarke",
-                "scoringTeamId": 118,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 110019,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 76,
-                "goalGetterID": 19453,
-                "goalGetterName": "O. Vilhelmsson",
-                "scoringTeamId": 118,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
                 "comment": null
             }
         ],

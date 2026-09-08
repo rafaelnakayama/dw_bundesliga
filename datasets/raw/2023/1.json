@@ -1,5 +1,306 @@
 [
     {
+        "matchID": 66630,
+        "matchDateTime": "2023-08-18T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4608,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
+        "leagueSeason": 2023,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2023-08-18T18:30:00Z",
+        "group": {
+            "groupName": "1. Spieltag",
+            "groupOrderID": 1,
+            "groupID": 41129
+        },
+        "team1": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2023-08-25T09:47:16.603",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 103483,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            },
+            {
+                "resultID": 103482,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 4,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 102637,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 4,
+                "goalGetterID": 18433,
+                "goalGetterName": "L. Sane",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 102639,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 74,
+                "goalGetterID": 18898,
+                "goalGetterName": "H. Kane",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 102640,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 90,
+                "goalGetterID": 18433,
+                "goalGetterName": "L. Sane",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 102641,
+                "scoreTeam1": 0,
+                "scoreTeam2": 4,
+                "matchMinute": 94,
+                "goalGetterID": 19490,
+                "goalGetterName": "M. Tel",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 66631,
+        "matchDateTime": "2023-08-19T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4608,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
+        "leagueSeason": 2023,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2023-08-19T16:30:00Z",
+        "group": {
+            "groupName": "1. Spieltag",
+            "groupOrderID": 1,
+            "groupID": 41129
+        },
+        "team1": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2023-08-19T20:26:19.993",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 103513,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            },
+            {
+                "resultID": 103512,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 102694,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 88,
+                "goalGetterID": 19156,
+                "goalGetterName": "D. Malen",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 66632,
+        "matchDateTime": "2023-08-20T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4608,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
+        "leagueSeason": 2023,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2023-08-20T13:30:00Z",
+        "group": {
+            "groupName": "1. Spieltag",
+            "groupOrderID": 1,
+            "groupID": 41129
+        },
+        "team1": {
+            "teamId": 80,
+            "teamName": "1. FC Union Berlin",
+            "shortName": "Union Berlin",
+            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2023-08-20T21:45:15.31",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 103527,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            },
+            {
+                "resultID": 103526,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 4,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 102708,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 1,
+                "goalGetterID": 18441,
+                "goalGetterName": "K. Behrens",
+                "scoringTeamId": 80,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 102709,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 9,
+                "goalGetterID": 18441,
+                "goalGetterName": "K. Behrens",
+                "scoringTeamId": 80,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 102721,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 64,
+                "goalGetterID": 19551,
+                "goalGetterName": "A. Caci",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 102722,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 70,
+                "goalGetterID": 18441,
+                "goalGetterName": "K. Behrens",
+                "scoringTeamId": 80,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 102738,
+                "scoreTeam1": 4,
+                "scoreTeam2": 1,
+                "matchMinute": 96,
+                "goalGetterID": 18389,
+                "goalGetterName": "M. Pantovic",
+                "scoringTeamId": 80,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 66633,
         "matchDateTime": "2023-08-19T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -122,128 +423,6 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 66638,
-        "matchDateTime": "2023-08-19T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4608,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
-        "leagueSeason": 2023,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2023-08-19T13:30:00Z",
-        "group": {
-            "groupName": "1. Spieltag",
-            "groupOrderID": 1,
-            "groupID": 41129
-        },
-        "team1": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 129,
-            "teamName": "VfL Bochum",
-            "shortName": "Bochum",
-            "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2023-08-24T11:08:37.93",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 103511,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            },
-            {
-                "resultID": 103510,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 5,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 102673,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 14,
-                "goalGetterID": 19545,
-                "goalGetterName": "S. Guirassy",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 102682,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 38,
-                "goalGetterID": 16319,
-                "goalGetterName": "Zagadou",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 102688,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 60,
-                "goalGetterID": 17850,
-                "goalGetterName": "Silas Wamangituka",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 102690,
-                "scoreTeam1": 4,
-                "scoreTeam2": 0,
-                "matchMinute": 67,
-                "goalGetterID": 17850,
-                "goalGetterName": "Silas Wamangituka",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 102692,
-                "scoreTeam1": 5,
-                "scoreTeam2": 0,
-                "matchMinute": 77,
-                "goalGetterID": 19545,
-                "goalGetterName": "S. Guirassy",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 66634,
         "matchDateTime": "2023-08-20T17:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -307,115 +486,6 @@
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 66630,
-        "matchDateTime": "2023-08-18T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4608,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
-        "leagueSeason": 2023,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2023-08-18T18:30:00Z",
-        "group": {
-            "groupName": "1. Spieltag",
-            "groupOrderID": 1,
-            "groupID": 41129
-        },
-        "team1": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2023-08-25T09:47:16.603",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 103483,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            },
-            {
-                "resultID": 103482,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 4,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 102637,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 4,
-                "goalGetterID": 18433,
-                "goalGetterName": "L. Sane",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 102639,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 74,
-                "goalGetterID": 18898,
-                "goalGetterName": "H. Kane",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 102640,
-                "scoreTeam1": 0,
-                "scoreTeam2": 3,
-                "matchMinute": 90,
-                "goalGetterID": 18433,
-                "goalGetterName": "L. Sane",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 102641,
-                "scoreTeam1": 0,
-                "scoreTeam2": 4,
-                "matchMinute": 94,
-                "goalGetterID": 19490,
-                "goalGetterName": "M. Tel",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
                 "comment": null
             }
         ],
@@ -763,108 +833,38 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 66631,
-        "matchDateTime": "2023-08-19T18:30:00",
+        "matchID": 66638,
+        "matchDateTime": "2023-08-19T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4608,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
         "leagueSeason": 2023,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2023-08-19T16:30:00Z",
+        "matchDateTimeUTC": "2023-08-19T13:30:00Z",
         "group": {
             "groupName": "1. Spieltag",
             "groupOrderID": 1,
             "groupID": 41129
         },
         "team1": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamId": 129,
+            "teamName": "VfL Bochum",
+            "shortName": "Bochum",
+            "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2023-08-19T20:26:19.993",
+        "lastUpdateDateTime": "2023-08-24T11:08:37.93",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 103513,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            },
-            {
-                "resultID": 103512,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 102694,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 88,
-                "goalGetterID": 19156,
-                "goalGetterName": "D. Malen",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 66632,
-        "matchDateTime": "2023-08-20T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4608,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
-        "leagueSeason": 2023,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2023-08-20T13:30:00Z",
-        "group": {
-            "groupName": "1. Spieltag",
-            "groupOrderID": 1,
-            "groupID": 41129
-        },
-        "team1": {
-            "teamId": 80,
-            "teamName": "1. FC Union Berlin",
-            "shortName": "Union Berlin",
-            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2023-08-20T21:45:15.31",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 103527,
+                "resultID": 103511,
                 "resultName": "Halbzeitergebnis",
                 "pointsTeam1": 2,
                 "pointsTeam2": 0,
@@ -874,10 +874,10 @@
                 "resultDescription": null
             },
             {
-                "resultID": 103526,
+                "resultID": 103510,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 4,
-                "pointsTeam2": 1,
+                "pointsTeam1": 5,
+                "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
@@ -886,68 +886,68 @@
         ],
         "goals": [
             {
-                "goalID": 102708,
+                "goalID": 102673,
                 "scoreTeam1": 1,
                 "scoreTeam2": 0,
-                "matchMinute": 1,
-                "goalGetterID": 18441,
-                "goalGetterName": "K. Behrens",
-                "scoringTeamId": 80,
+                "matchMinute": 14,
+                "goalGetterID": 19545,
+                "goalGetterName": "S. Guirassy",
+                "scoringTeamId": 16,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 102709,
+                "goalID": 102682,
                 "scoreTeam1": 2,
                 "scoreTeam2": 0,
-                "matchMinute": 9,
-                "goalGetterID": 18441,
-                "goalGetterName": "K. Behrens",
-                "scoringTeamId": 80,
+                "matchMinute": 38,
+                "goalGetterID": 16319,
+                "goalGetterName": "Zagadou",
+                "scoringTeamId": 16,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 102721,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 64,
-                "goalGetterID": 19551,
-                "goalGetterName": "A. Caci",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 102722,
+                "goalID": 102688,
                 "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 70,
-                "goalGetterID": 18441,
-                "goalGetterName": "K. Behrens",
-                "scoringTeamId": 80,
+                "scoreTeam2": 0,
+                "matchMinute": 60,
+                "goalGetterID": 17850,
+                "goalGetterName": "Silas Wamangituka",
+                "scoringTeamId": 16,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 102738,
+                "goalID": 102690,
                 "scoreTeam1": 4,
-                "scoreTeam2": 1,
-                "matchMinute": 96,
-                "goalGetterID": 18389,
-                "goalGetterName": "M. Pantovic",
-                "scoringTeamId": 80,
+                "scoreTeam2": 0,
+                "matchMinute": 67,
+                "goalGetterID": 17850,
+                "goalGetterName": "Silas Wamangituka",
+                "scoringTeamId": 16,
                 "isPenalty": false,
                 "isOwnGoal": false,
-                "isOvertime": true,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 102692,
+                "scoreTeam1": 5,
+                "scoreTeam2": 0,
+                "matchMinute": 77,
+                "goalGetterID": 19545,
+                "goalGetterName": "S. Guirassy",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
                 "comment": null
             }
         ],

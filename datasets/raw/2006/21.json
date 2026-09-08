@@ -1,51 +1,5 @@
 [
     {
-        "matchID": 198,
-        "matchDateTime": "2007-02-11T17:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 6,
-        "leagueName": "1. Fussball-Bundesliga 2006/2007",
-        "leagueSeason": 2006,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2007-02-11T16:00:00Z",
-        "group": {
-            "groupName": "21. Spieltag",
-            "groupOrderID": 21,
-            "groupID": 11007
-        },
-        "team1": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 83,
-            "teamName": "DSC Arminia Bielefeld",
-            "shortName": "Bielefeld",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2008-10-02T22:15:40.777",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 1011,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 0,
-                "resultTypeKind": "Unknown",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 190,
         "matchDateTime": "2007-02-09T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -403,6 +357,52 @@
                 "resultName": "Endergebnis",
                 "pointsTeam1": 0,
                 "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 0,
+                "resultTypeKind": "Unknown",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 198,
+        "matchDateTime": "2007-02-11T17:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 6,
+        "leagueName": "1. Fussball-Bundesliga 2006/2007",
+        "leagueSeason": 2006,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2007-02-11T16:00:00Z",
+        "group": {
+            "groupName": "21. Spieltag",
+            "groupOrderID": 21,
+            "groupID": 11007
+        },
+        "team1": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 83,
+            "teamName": "DSC Arminia Bielefeld",
+            "shortName": "Bielefeld",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2008-10-02T22:15:40.777",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 1011,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 0,
                 "resultTypeKind": "Unknown",

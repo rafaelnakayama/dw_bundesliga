@@ -1,101 +1,5 @@
 [
     {
-        "matchID": 77481,
-        "matchDateTime": "2026-03-07T18:30:00",
-        "timeZoneID": null,
-        "leagueId": 4821,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
-        "leagueSeason": 2025,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2026-03-07T17:30:00Z",
-        "group": {
-            "groupName": "25. Spieltag",
-            "groupOrderID": 25,
-            "groupID": 47635
-        },
-        "team1": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2026-03-07T20:31:35.44",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 123743,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            },
-            {
-                "resultID": 123744,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 140418,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 16,
-                "goalGetterID": 19545,
-                "goalGetterName": "S. Guirassy",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 140421,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 60,
-                "goalGetterID": 19132,
-                "goalGetterName": "M. Beier",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 140424,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 88,
-                "goalGetterID": 19594,
-                "goalGetterName": "J. Kaminski",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 77473,
         "matchDateTime": "2026-03-06T20:30:00",
         "timeZoneID": null,
@@ -654,6 +558,184 @@
         "numberOfViewers": null
     },
     {
+        "matchID": 77478,
+        "matchDateTime": "2026-03-08T17:30:00",
+        "timeZoneID": null,
+        "leagueId": 4821,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
+        "leagueSeason": 2025,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2026-03-08T16:30:00Z",
+        "group": {
+            "groupName": "25. Spieltag",
+            "groupOrderID": 25,
+            "groupID": 47635
+        },
+        "team1": {
+            "teamId": 80,
+            "teamName": "1. FC Union Berlin",
+            "shortName": "Union Berlin",
+            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2026-03-08T19:37:00.253",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 123771,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 123772,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 4,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 140463,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 18,
+                "goalGetterID": 19415,
+                "goalGetterName": "D. K\u00f6hn",
+                "scoringTeamId": 80,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 140464,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 31,
+                "goalGetterID": 20577,
+                "goalGetterName": "O. Deman",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 140465,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 35,
+                "goalGetterID": 19775,
+                "goalGetterName": "J. Stage",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 140500,
+                "scoreTeam1": 1,
+                "scoreTeam2": 3,
+                "matchMinute": 66,
+                "goalGetterID": 20688,
+                "goalGetterName": "M. Gr\u00fcll",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 140501,
+                "scoreTeam1": 1,
+                "scoreTeam2": 4,
+                "matchMinute": 94,
+                "goalGetterID": 24921,
+                "goalGetterName": "P. Covic",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 77479,
+        "matchDateTime": "2026-03-08T15:30:00",
+        "timeZoneID": null,
+        "leagueId": 4821,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
+        "leagueSeason": 2025,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2026-03-08T14:30:00Z",
+        "group": {
+            "groupName": "25. Spieltag",
+            "groupOrderID": 25,
+            "groupID": 47635
+        },
+        "team1": {
+            "teamId": 98,
+            "teamName": "FC St. Pauli",
+            "shortName": "St. Pauli",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2026-03-08T17:31:18.697",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 123765,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 123766,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 77480,
         "matchDateTime": "2026-03-07T15:30:00",
         "timeZoneID": null,
@@ -789,107 +871,51 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 77479,
-        "matchDateTime": "2026-03-08T15:30:00",
+        "matchID": 77481,
+        "matchDateTime": "2026-03-07T18:30:00",
         "timeZoneID": null,
         "leagueId": 4821,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
         "leagueSeason": 2025,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2026-03-08T14:30:00Z",
+        "matchDateTimeUTC": "2026-03-07T17:30:00Z",
         "group": {
             "groupName": "25. Spieltag",
             "groupOrderID": 25,
             "groupID": 47635
         },
         "team1": {
-            "teamId": 98,
-            "teamName": "FC St. Pauli",
-            "shortName": "St. Pauli",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2026-03-08T17:31:18.697",
+        "lastUpdateDateTime": "2026-03-07T20:31:35.44",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 123765,
+                "resultID": 123743,
                 "resultName": "Halbzeit",
                 "pointsTeam1": 0,
-                "pointsTeam2": 0,
+                "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
                 "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
             },
             {
-                "resultID": 123766,
+                "resultID": 123744,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 77478,
-        "matchDateTime": "2026-03-08T17:30:00",
-        "timeZoneID": null,
-        "leagueId": 4821,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
-        "leagueSeason": 2025,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2026-03-08T16:30:00Z",
-        "group": {
-            "groupName": "25. Spieltag",
-            "groupOrderID": 25,
-            "groupID": 47635
-        },
-        "team1": {
-            "teamId": 80,
-            "teamName": "1. FC Union Berlin",
-            "shortName": "Union Berlin",
-            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2026-03-08T19:37:00.253",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 123771,
-                "resultName": "Halbzeit",
                 "pointsTeam1": 1,
                 "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            },
-            {
-                "resultID": 123772,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 4,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
@@ -898,68 +924,42 @@
         ],
         "goals": [
             {
-                "goalID": 140463,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 18,
-                "goalGetterID": 19415,
-                "goalGetterName": "D. K\u00f6hn",
-                "scoringTeamId": 80,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 140464,
-                "scoreTeam1": 1,
+                "goalID": 140418,
+                "scoreTeam1": 0,
                 "scoreTeam2": 1,
-                "matchMinute": 31,
-                "goalGetterID": 20577,
-                "goalGetterName": "O. Deman",
-                "scoringTeamId": 134,
+                "matchMinute": 16,
+                "goalGetterID": 19545,
+                "goalGetterName": "S. Guirassy",
+                "scoringTeamId": 7,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 140465,
+                "goalID": 140421,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 60,
+                "goalGetterID": 19132,
+                "goalGetterName": "M. Beier",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 140424,
                 "scoreTeam1": 1,
                 "scoreTeam2": 2,
-                "matchMinute": 35,
-                "goalGetterID": 19775,
-                "goalGetterName": "J. Stage",
-                "scoringTeamId": 134,
+                "matchMinute": 88,
+                "goalGetterID": 19594,
+                "goalGetterName": "J. Kaminski",
+                "scoringTeamId": 65,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 140500,
-                "scoreTeam1": 1,
-                "scoreTeam2": 3,
-                "matchMinute": 66,
-                "goalGetterID": 20688,
-                "goalGetterName": "M. Gr\u00fcll",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 140501,
-                "scoreTeam1": 1,
-                "scoreTeam2": 4,
-                "matchMinute": 94,
-                "goalGetterID": 24921,
-                "goalGetterName": "P. Covic",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
                 "comment": null
             }
         ],

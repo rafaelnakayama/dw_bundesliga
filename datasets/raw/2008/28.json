@@ -1,61 +1,5 @@
 [
     {
-        "matchID": 2243,
-        "matchDateTime": "2009-04-17T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 18,
-        "leagueName": "1. Fussball-Bundesliga 2008/2009",
-        "leagueSeason": 2008,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2009-04-17T18:30:00Z",
-        "group": {
-            "groupName": "28. Spieltag",
-            "groupOrderID": 28,
-            "groupID": 11160
-        },
-        "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 93,
-            "teamName": "Energie Cottbus",
-            "shortName": "Cottbus",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_Energie_Cottbus.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2009-04-17T22:19:26.47",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 5546,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 4,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 5547,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Stand zur der Pause"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 2237,
         "matchDateTime": "2009-04-18T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -101,6 +45,62 @@
                 "resultName": "Halbzeitergebnis",
                 "pointsTeam1": 0,
                 "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Stand zur der Pause"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 2238,
+        "matchDateTime": "2009-04-19T17:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 18,
+        "leagueName": "1. Fussball-Bundesliga 2008/2009",
+        "leagueSeason": 2008,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2009-04-19T15:00:00Z",
+        "group": {
+            "groupName": "28. Spieltag",
+            "groupOrderID": 28,
+            "groupID": 11160
+        },
+        "team1": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2009-04-19T18:59:32.89",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 5576,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 5577,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
@@ -224,6 +224,62 @@
         "numberOfViewers": null
     },
     {
+        "matchID": 2241,
+        "matchDateTime": "2009-04-19T17:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 18,
+        "leagueName": "1. Fussball-Bundesliga 2008/2009",
+        "leagueSeason": 2008,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2009-04-19T15:00:00Z",
+        "group": {
+            "groupName": "28. Spieltag",
+            "groupOrderID": 28,
+            "groupID": 11160
+        },
+        "team1": {
+            "teamId": 100,
+            "teamName": "Hamburger SV",
+            "shortName": "HSV",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2009-04-19T18:49:00.22",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 5574,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 5575,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Stand zur der Pause"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 2242,
         "matchDateTime": "2009-04-18T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -269,6 +325,62 @@
                 "resultName": "Halbzeitergebnis",
                 "pointsTeam1": 0,
                 "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Stand zur der Pause"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 2243,
+        "matchDateTime": "2009-04-17T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 18,
+        "leagueName": "1. Fussball-Bundesliga 2008/2009",
+        "leagueSeason": 2008,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2009-04-17T18:30:00Z",
+        "group": {
+            "groupName": "28. Spieltag",
+            "groupOrderID": 28,
+            "groupID": 11160
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 93,
+            "teamName": "Energie Cottbus",
+            "shortName": "Cottbus",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/5/55/Logo_Energie_Cottbus.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2009-04-17T22:19:26.47",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 5546,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 4,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 5547,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
@@ -381,118 +493,6 @@
                 "resultName": "Halbzeitergebnis",
                 "pointsTeam1": 1,
                 "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Stand zur der Pause"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 2238,
-        "matchDateTime": "2009-04-19T17:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 18,
-        "leagueName": "1. Fussball-Bundesliga 2008/2009",
-        "leagueSeason": 2008,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2009-04-19T15:00:00Z",
-        "group": {
-            "groupName": "28. Spieltag",
-            "groupOrderID": 28,
-            "groupID": 11160
-        },
-        "team1": {
-            "teamId": 54,
-            "teamName": "Hertha BSC",
-            "shortName": "Hertha",
-            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2009-04-19T18:59:32.89",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 5576,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 5577,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Stand zur der Pause"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 2241,
-        "matchDateTime": "2009-04-19T17:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 18,
-        "leagueName": "1. Fussball-Bundesliga 2008/2009",
-        "leagueSeason": 2008,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2009-04-19T15:00:00Z",
-        "group": {
-            "groupName": "28. Spieltag",
-            "groupOrderID": 28,
-            "groupID": 11160
-        },
-        "team1": {
-            "teamId": 100,
-            "teamName": "Hamburger SV",
-            "shortName": "HSV",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 55,
-            "teamName": "Hannover 96",
-            "shortName": "Hannover",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2009-04-19T18:49:00.22",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 5574,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 5575,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",

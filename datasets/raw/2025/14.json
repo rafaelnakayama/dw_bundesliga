@@ -1,37 +1,146 @@
 [
     {
-        "matchID": 77379,
-        "matchDateTime": "2025-12-12T20:30:00",
+        "matchID": 77373,
+        "matchDateTime": "2025-12-14T17:30:00",
         "timeZoneID": null,
         "leagueId": 4821,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
         "leagueSeason": 2025,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2025-12-12T19:30:00Z",
+        "matchDateTimeUTC": "2025-12-14T16:30:00Z",
         "group": {
             "groupName": "14. Spieltag",
             "groupOrderID": 14,
             "groupID": 47624
         },
         "team1": {
-            "teamId": 80,
-            "teamName": "1. FC Union Berlin",
-            "shortName": "Union Berlin",
-            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 1635,
-            "teamName": "RB Leipzig",
-            "shortName": "Leipzig",
-            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2025-12-12T22:56:24.857",
+        "lastUpdateDateTime": "2025-12-14T19:28:54.707",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 121001,
+                "resultID": 121131,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 121132,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 135754,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 29,
+                "goalGetterID": 194,
+                "goalGetterName": "Karl",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 135756,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 45,
+                "goalGetterID": 24360,
+                "goalGetterName": "K. Potulski",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            },
+            {
+                "goalID": 135757,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 67,
+                "goalGetterID": 16893,
+                "goalGetterName": "Lee Jae-sung",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 135767,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 87,
+                "goalGetterID": 18898,
+                "goalGetterName": "H. Kane",
+                "scoringTeamId": 40,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 77374,
+        "matchDateTime": "2025-12-13T18:30:00",
+        "timeZoneID": null,
+        "leagueId": 4821,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
+        "leagueSeason": 2025,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2025-12-13T17:30:00Z",
+        "group": {
+            "groupName": "14. Spieltag",
+            "groupOrderID": 14,
+            "groupID": 47624
+        },
+        "team1": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2025-12-13T20:22:35.203",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 121067,
                 "resultName": "Halbzeit",
                 "pointsTeam1": 0,
                 "pointsTeam2": 0,
@@ -41,10 +150,10 @@
                 "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
             },
             {
-                "resultID": 121002,
+                "resultID": 121068,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 1,
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
@@ -53,55 +162,29 @@
         ],
         "goals": [
             {
-                "goalID": 135564,
+                "goalID": 135692,
                 "scoreTeam1": 1,
                 "scoreTeam2": 0,
-                "matchMinute": 57,
-                "goalGetterID": 19467,
-                "goalGetterName": "O. Burke",
-                "scoringTeamId": 80,
+                "matchMinute": 66,
+                "goalGetterID": 22941,
+                "goalGetterName": "M. Terrier",
+                "scoringTeamId": 6,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 135565,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 60,
-                "goalGetterID": 1846,
-                "goalGetterName": "Gomis",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 135566,
+                "goalID": 135694,
                 "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 63,
-                "goalGetterID": 20919,
-                "goalGetterName": "I. Ansah",
-                "scoringTeamId": 80,
+                "scoreTeam2": 0,
+                "matchMinute": 72,
+                "goalGetterID": 18670,
+                "goalGetterName": "R. Andrich",
+                "scoringTeamId": 6,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 135567,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 93,
-                "goalGetterID": 18299,
-                "goalGetterName": "T. Skarke",
-                "scoringTeamId": 80,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
                 "comment": null
             }
         ],
@@ -185,6 +268,198 @@
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 77376,
+        "matchDateTime": "2025-12-14T15:30:00",
+        "timeZoneID": null,
+        "leagueId": 4821,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
+        "leagueSeason": 2025,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2025-12-14T14:30:00Z",
+        "group": {
+            "groupName": "14. Spieltag",
+            "groupOrderID": 14,
+            "groupID": 47624
+        },
+        "team1": {
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2025-12-14T17:26:24.447",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 121107,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 121108,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 135739,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 31,
+                "goalGetterID": 18717,
+                "goalGetterName": "R. Bensebaini",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 135748,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 75,
+                "goalGetterID": 14393,
+                "goalGetterName": "L. H\u00f6ler",
+                "scoringTeamId": 112,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 77377,
+        "matchDateTime": "2025-12-14T19:30:00",
+        "timeZoneID": null,
+        "leagueId": 4821,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
+        "leagueSeason": 2025,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2025-12-14T18:30:00Z",
+        "group": {
+            "groupName": "14. Spieltag",
+            "groupOrderID": 14,
+            "groupID": 47624
+        },
+        "team1": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2025-12-14T21:27:53.583",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 121137,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 121138,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 4,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 135799,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 40,
+                "goalGetterID": 23802,
+                "goalGetterName": "B. El Khannouss",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 135801,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 44,
+                "goalGetterID": 17909,
+                "goalGetterName": "J. Leweling",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 135804,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 79,
+                "goalGetterID": 16686,
+                "goalGetterName": "D. Undav",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 135809,
+                "scoreTeam1": 0,
+                "scoreTeam2": 4,
+                "matchMinute": 97,
+                "goalGetterID": 18304,
+                "goalGetterName": "C. F\u00fchrich",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
                 "comment": null
             }
         ],
@@ -294,6 +569,115 @@
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 77379,
+        "matchDateTime": "2025-12-12T20:30:00",
+        "timeZoneID": null,
+        "leagueId": 4821,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
+        "leagueSeason": 2025,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2025-12-12T19:30:00Z",
+        "group": {
+            "groupName": "14. Spieltag",
+            "groupOrderID": 14,
+            "groupID": 47624
+        },
+        "team1": {
+            "teamId": 80,
+            "teamName": "1. FC Union Berlin",
+            "shortName": "Union Berlin",
+            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2025-12-12T22:56:24.857",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 121001,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 121002,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 135564,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 57,
+                "goalGetterID": 19467,
+                "goalGetterName": "O. Burke",
+                "scoringTeamId": 80,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 135565,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 60,
+                "goalGetterID": 1846,
+                "goalGetterName": "Gomis",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 135566,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 63,
+                "goalGetterID": 20919,
+                "goalGetterName": "I. Ansah",
+                "scoringTeamId": 80,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 135567,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 93,
+                "goalGetterID": 18299,
+                "goalGetterName": "T. Skarke",
+                "scoringTeamId": 80,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
                 "comment": null
             }
         ],
@@ -512,390 +896,6 @@
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 77374,
-        "matchDateTime": "2025-12-13T18:30:00",
-        "timeZoneID": null,
-        "leagueId": 4821,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
-        "leagueSeason": 2025,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2025-12-13T17:30:00Z",
-        "group": {
-            "groupName": "14. Spieltag",
-            "groupOrderID": 14,
-            "groupID": 47624
-        },
-        "team1": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2025-12-13T20:22:35.203",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 121067,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            },
-            {
-                "resultID": 121068,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 135692,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 66,
-                "goalGetterID": 22941,
-                "goalGetterName": "M. Terrier",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 135694,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 72,
-                "goalGetterID": 18670,
-                "goalGetterName": "R. Andrich",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 77376,
-        "matchDateTime": "2025-12-14T15:30:00",
-        "timeZoneID": null,
-        "leagueId": 4821,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
-        "leagueSeason": 2025,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2025-12-14T14:30:00Z",
-        "group": {
-            "groupName": "14. Spieltag",
-            "groupOrderID": 14,
-            "groupID": 47624
-        },
-        "team1": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2025-12-14T17:26:24.447",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 121107,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            },
-            {
-                "resultID": 121108,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 135739,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 31,
-                "goalGetterID": 18717,
-                "goalGetterName": "R. Bensebaini",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 135748,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 75,
-                "goalGetterID": 14393,
-                "goalGetterName": "L. H\u00f6ler",
-                "scoringTeamId": 112,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 77373,
-        "matchDateTime": "2025-12-14T17:30:00",
-        "timeZoneID": null,
-        "leagueId": 4821,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
-        "leagueSeason": 2025,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2025-12-14T16:30:00Z",
-        "group": {
-            "groupName": "14. Spieltag",
-            "groupOrderID": 14,
-            "groupID": 47624
-        },
-        "team1": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2025-12-14T19:28:54.707",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 121131,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            },
-            {
-                "resultID": 121132,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 135754,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 29,
-                "goalGetterID": 194,
-                "goalGetterName": "Karl",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 135756,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 45,
-                "goalGetterID": 24360,
-                "goalGetterName": "K. Potulski",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": null
-            },
-            {
-                "goalID": 135757,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 67,
-                "goalGetterID": 16893,
-                "goalGetterName": "Lee Jae-sung",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 135767,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 87,
-                "goalGetterID": 18898,
-                "goalGetterName": "H. Kane",
-                "scoringTeamId": 40,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 77377,
-        "matchDateTime": "2025-12-14T19:30:00",
-        "timeZoneID": null,
-        "leagueId": 4821,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
-        "leagueSeason": 2025,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2025-12-14T18:30:00Z",
-        "group": {
-            "groupName": "14. Spieltag",
-            "groupOrderID": 14,
-            "groupID": 47624
-        },
-        "team1": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2025-12-14T21:27:53.583",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 121137,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            },
-            {
-                "resultID": 121138,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 4,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 135799,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 40,
-                "goalGetterID": 23802,
-                "goalGetterName": "B. El Khannouss",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 135801,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 44,
-                "goalGetterID": 17909,
-                "goalGetterName": "J. Leweling",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 135804,
-                "scoreTeam1": 0,
-                "scoreTeam2": 3,
-                "matchMinute": 79,
-                "goalGetterID": 16686,
-                "goalGetterName": "D. Undav",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 135809,
-                "scoreTeam1": 0,
-                "scoreTeam2": 4,
-                "matchMinute": 97,
-                "goalGetterID": 18304,
-                "goalGetterName": "C. F\u00fchrich",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
                 "comment": null
             }
         ],

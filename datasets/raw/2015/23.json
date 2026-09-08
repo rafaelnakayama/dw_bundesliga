@@ -1,50 +1,50 @@
 [
     {
-        "matchID": 33541,
-        "matchDateTime": "2016-02-28T17:30:00",
+        "matchID": 33525,
+        "matchDateTime": "2016-02-28T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 848,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
         "leagueSeason": 2015,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2016-02-28T16:30:00Z",
+        "matchDateTimeUTC": "2016-02-28T14:30:00Z",
         "group": {
             "groupName": "23. Spieltag",
             "groupOrderID": 23,
             "groupID": 17772
         },
         "team1": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2016-02-28T19:26:14.433",
+        "lastUpdateDateTime": "2016-02-28T17:22:08.963",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 62156,
+                "resultID": 62147,
                 "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 62154,
+                "resultName": "Endergebnis",
                 "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 62158,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 1,
+                "pointsTeam2": 2,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
@@ -53,122 +53,52 @@
         ],
         "goals": [
             {
-                "goalID": 46859,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 14,
-                "goalGetterID": 1521,
-                "goalGetterName": "Malli",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 46861,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 32,
-                "goalGetterID": 15645,
-                "goalGetterName": "Cordoba",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 46862,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 59,
-                "goalGetterID": 1521,
-                "goalGetterName": "Malli",
-                "scoringTeamId": 81,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 46863,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 65,
-                "goalGetterID": 14315,
-                "goalGetterName": "Chicharito",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 33529,
-        "matchDateTime": "2016-02-26T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 848,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
-        "leagueSeason": 2015,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2016-02-26T19:30:00Z",
-        "group": {
-            "groupName": "23. Spieltag",
-            "groupOrderID": 23,
-            "groupID": 17772
-        },
-        "team1": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 54,
-            "teamName": "Hertha BSC",
-            "shortName": "Hertha",
-            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2016-02-26T22:22:28.47",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 62058,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 62059,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 46750,
+                "goalID": 46845,
                 "scoreTeam1": 0,
                 "scoreTeam2": 1,
-                "matchMinute": 42,
-                "goalGetterID": 803,
-                "goalGetterName": "Ibisevic",
-                "scoringTeamId": 54,
+                "matchMinute": 33,
+                "goalGetterID": 60,
+                "goalGetterName": "Raffael",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 46853,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 50,
+                "goalGetterID": 15652,
+                "goalGetterName": "Finnbogason",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 46854,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 54,
+                "goalGetterID": 1094,
+                "goalGetterName": "Caiuby",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 46855,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 55,
+                "goalGetterID": 7407,
+                "goalGetterName": "Fabian Johnson",
+                "scoringTeamId": 87,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -276,6 +206,185 @@
             "locationCity": "",
             "locationStadium": ""
         },
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 33529,
+        "matchDateTime": "2016-02-26T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 848,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
+        "leagueSeason": 2015,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2016-02-26T19:30:00Z",
+        "group": {
+            "groupName": "23. Spieltag",
+            "groupOrderID": 23,
+            "groupID": 17772
+        },
+        "team1": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2016-02-26T22:22:28.47",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 62058,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 62059,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 46750,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 42,
+                "goalGetterID": 803,
+                "goalGetterName": "Ibisevic",
+                "scoringTeamId": 54,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 33530,
+        "matchDateTime": "2016-02-28T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 848,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
+        "leagueSeason": 2015,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2016-02-28T16:30:00Z",
+        "group": {
+            "groupName": "23. Spieltag",
+            "groupOrderID": 23,
+            "groupID": 17772
+        },
+        "team1": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2016-02-28T19:33:09.337",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 62155,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 62159,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 46860,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 25,
+                "goalGetterID": 1794,
+                "goalGetterName": "Rudy",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 46864,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 80,
+                "goalGetterID": 14420,
+                "goalGetterName": "Mchitarjan",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 46866,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 85,
+                "goalGetterID": 1456,
+                "goalGetterName": "Adrian Ramos",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 46867,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 90,
+                "goalGetterID": 11397,
+                "goalGetterName": "Aubameyang",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": ""
+            }
+        ],
+        "location": null,
         "numberOfViewers": null
     },
     {
@@ -566,224 +675,6 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 33525,
-        "matchDateTime": "2016-02-28T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 848,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
-        "leagueSeason": 2015,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2016-02-28T14:30:00Z",
-        "group": {
-            "groupName": "23. Spieltag",
-            "groupOrderID": 23,
-            "groupID": 17772
-        },
-        "team1": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2016-02-28T17:22:08.963",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 62147,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 62154,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 46845,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 33,
-                "goalGetterID": 60,
-                "goalGetterName": "Raffael",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 46853,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 50,
-                "goalGetterID": 15652,
-                "goalGetterName": "Finnbogason",
-                "scoringTeamId": 95,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 46854,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 54,
-                "goalGetterID": 1094,
-                "goalGetterName": "Caiuby",
-                "scoringTeamId": 95,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 46855,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 55,
-                "goalGetterID": 7407,
-                "goalGetterName": "Fabian Johnson",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 33530,
-        "matchDateTime": "2016-02-28T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 848,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
-        "leagueSeason": 2015,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2016-02-28T16:30:00Z",
-        "group": {
-            "groupName": "23. Spieltag",
-            "groupOrderID": 23,
-            "groupID": 17772
-        },
-        "team1": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2016-02-28T19:33:09.337",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 62155,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 62159,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 46860,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 25,
-                "goalGetterID": 1794,
-                "goalGetterName": "Rudy",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 46864,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 80,
-                "goalGetterID": 14420,
-                "goalGetterName": "Mchitarjan",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 46866,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 85,
-                "goalGetterID": 1456,
-                "goalGetterName": "Adrian Ramos",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 46867,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 90,
-                "goalGetterID": 11397,
-                "goalGetterName": "Aubameyang",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": ""
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 33539,
         "matchDateTime": "2016-02-28T19:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -836,6 +727,115 @@
             }
         ],
         "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 33541,
+        "matchDateTime": "2016-02-28T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 848,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
+        "leagueSeason": 2015,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2016-02-28T16:30:00Z",
+        "group": {
+            "groupName": "23. Spieltag",
+            "groupOrderID": 23,
+            "groupID": 17772
+        },
+        "team1": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2016-02-28T19:26:14.433",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 62156,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 62158,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 46859,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 14,
+                "goalGetterID": 1521,
+                "goalGetterName": "Malli",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 46861,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 32,
+                "goalGetterID": 15645,
+                "goalGetterName": "Cordoba",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 46862,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 59,
+                "goalGetterID": 1521,
+                "goalGetterName": "Malli",
+                "scoringTeamId": 81,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 46863,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 65,
+                "goalGetterID": 14315,
+                "goalGetterName": "Chicharito",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
         "location": null,
         "numberOfViewers": null
     }

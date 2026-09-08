@@ -70,6 +70,115 @@
         "numberOfViewers": null
     },
     {
+        "matchID": 55521,
+        "matchDateTime": "2020-05-27T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4362,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
+        "leagueSeason": 2019,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2020-05-27T16:30:00Z",
+        "group": {
+            "groupName": "28. Spieltag",
+            "groupOrderID": 28,
+            "groupID": 34227
+        },
+        "team1": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2020-05-27T20:27:32.137",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 91466,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            },
+            {
+                "resultID": 91465,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 83519,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 9,
+                "goalGetterID": 17972,
+                "goalGetterName": "Marko Grujic",
+                "scoringTeamId": 54,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 83520,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 24,
+                "goalGetterID": 14703,
+                "goalGetterName": "Klostermann",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 83524,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 68,
+                "goalGetterID": 18331,
+                "goalGetterName": "P. Schick",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 83527,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 82,
+                "goalGetterID": 17927,
+                "goalGetterName": "Piatek",
+                "scoringTeamId": 54,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 55522,
         "matchDateTime": "2020-05-26T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -379,115 +488,6 @@
             }
         ],
         "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 55521,
-        "matchDateTime": "2020-05-27T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4362,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2019/2020",
-        "leagueSeason": 2019,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2020-05-27T16:30:00Z",
-        "group": {
-            "groupName": "28. Spieltag",
-            "groupOrderID": 28,
-            "groupID": 34227
-        },
-        "team1": {
-            "teamId": 1635,
-            "teamName": "RB Leipzig",
-            "shortName": "Leipzig",
-            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 54,
-            "teamName": "Hertha BSC",
-            "shortName": "Hertha",
-            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2020-05-27T20:27:32.137",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 91466,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            },
-            {
-                "resultID": 91465,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 83519,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 9,
-                "goalGetterID": 17972,
-                "goalGetterName": "Marko Grujic",
-                "scoringTeamId": 54,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 83520,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 24,
-                "goalGetterID": 14703,
-                "goalGetterName": "Klostermann",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 83524,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 68,
-                "goalGetterID": 18331,
-                "goalGetterName": "P. Schick",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 83527,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 82,
-                "goalGetterID": 17927,
-                "goalGetterName": "Piatek",
-                "scoringTeamId": 54,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
         "location": null,
         "numberOfViewers": null
     },

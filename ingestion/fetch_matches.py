@@ -1,16 +1,26 @@
 import requests
-import pyodbc
+import datetime
 import json
+import re
 import time
+import logging
+import os
 from pathlib import Path
 
-import os
-from dotenv import load_dotenv
-load_dotenv()
+DATA_PATH = Path(__file__).parent.parent / "datasets"
+SCRIPTS_PATH = Path(__file__).parent.parent / "scripts"
 
-seasons = range(2006, 2027) # We want all seasons from 2006 - 2026
-matchday = range(1,35) # We want all the matchdays from the season
-data_path = Path(__file__).parent.parent / "datasets"
+def current_season():
+
+    """
+    The season a normal run should fetch. A Bundesliga season crosses the year
+    boundary (2026 runs from August 2026 to May 2027), so datetime.now().year
+    is wrong from January through July.
+    """
+
+    today = datetime.date.today()
+    return today.year if today.month >= 7 else today.year - 1
+    
 
 def create_url(seasons_param, matchday_param):
 
@@ -32,19 +42,27 @@ def loop_and_write(seasons_loop, matchday_loop):
     going all the way to select all data, and writing it to
     a .json file at each call
     """
+    
+    skipped = 0
 
     for i in seasons_loop:
         for j in matchday_loop:
-            
-            day = create_url(i, j)
+            time.sleep(0.3)
+            try:
+                day = create_url(i, j)
+            except requests.RequestException:
+                skipped += 1
+                logging.warning("failed %s/%s, skipping", i, j)
+                continue
+                
             day.sort(key=lambda match: match["matchID"])
-            file_path = data_path / "raw" / str(i) / f"{j}.json"
+            file_path = DATA_PATH / "raw" / str(i) / f"{j}.json"
             file_path.parent.mkdir(parents=True, exist_ok=True)
         
             with open (file_path, "w") as file:
                 json.dump(day, file , indent=4)
-                
-            time.sleep(0.3)
+            
+    logging.info("done, %s matchdays skipped", skipped)
             
 
 def as_json(value):
@@ -58,6 +76,84 @@ def as_json(value):
     return json.dumps(value) if value is not None else None
 
 
+def connect(database):
+
+    """
+    Opens a connection, retrying until SQL Server answers. Compose's depends_on
+    only waits for the container to start, and the server accepts TCP a good
+    while before it is ready to serve, so without this the ingestion container
+    dies on the first run of a fresh stack.
+    """
+
+    import pyodbc
+
+    connection_string = (
+        "DRIVER={ODBC Driver 18 for SQL Server};"
+        f"SERVER={os.environ['DB_SERVER']};"
+        f"DATABASE={database};"
+        f"UID={os.environ['DB_USER']};"
+        f"PWD={os.environ['DB_PASSWORD']};"
+        "TrustServerCertificate=yes"
+    )
+
+    attempt = 1
+
+    while True:
+        try:
+            return pyodbc.connect(connection_string, timeout=5)
+        except pyodbc.Error:
+            if attempt == 30:
+                raise
+            logging.info("Waiting for %s (%s/30)", os.environ['DB_SERVER'], attempt)
+            time.sleep(2)
+            attempt += 1
+
+
+def run_sql_file(cursor, file_path):
+
+    """
+    Executes a .sql file one batch at a time. GO is not T-SQL, it is a batch
+    separator that sqlcmd understands and pyodbc does not, so the file has to
+    be split on it before anything is sent.
+    """
+
+    batches = re.split(
+        r"^\s*GO\s*$", file_path.read_text(), flags=re.MULTILINE | re.IGNORECASE
+    )
+
+    for batch in batches:
+        if batch.strip():
+            cursor.execute(batch)
+
+
+def deploy_schema():
+
+    """
+    Applies the database, the schemas and the stored procedures, so a clean
+    clone reaches a working database with nothing run by hand. Every script
+    used here is idempotent; the destructive ones (init_database.sql and
+    rebuild_bronze.sql) are deliberately left out.
+    """
+
+    # CREATE DATABASE cannot run inside a transaction, hence autocommit
+    with connect("master") as connector:
+        connector.autocommit = True
+        logging.info("Applying: init_schemas.sql")
+        run_sql_file(connector.cursor(), SCRIPTS_PATH / "init" / "init_schemas.sql")
+
+    procedures = (
+        Path("bronze") / "proc_init_bronze.sql",
+        Path("bronze") / "proc_merge_bronze.sql",
+        Path("silver") / "proc_load_silver.sql",
+    )
+
+    with connect(os.environ["DB_DATABASE"]) as connector:
+        connector.autocommit = True
+        for procedure in procedures:
+            logging.info("Applying: %s", procedure.name)
+            run_sql_file(connector.cursor(), SCRIPTS_PATH / procedure)
+
+
 def load_json():
 
     """
@@ -66,14 +162,7 @@ def load_json():
     twice on unchanged data leaves the bronze layer exactly as it was.
     """
 
-    connector = pyodbc.connect(
-        "DRIVER={ODBC Driver 18 for SQL Server};"
-        f"SERVER={os.environ['DB_SERVER']};"
-        f"DATABASE={os.environ['DB_DATABASE']};"
-        f"UID={os.environ['DB_USER']};"
-        f"PWD={os.environ['DB_PASSWORD']};"
-        "TrustServerCertificate=yes"
-    )
+    connector = connect(os.environ["DB_DATABASE"])
 
     cursor = connector.cursor()
 
@@ -81,7 +170,7 @@ def load_json():
     cursor.execute("TRUNCATE TABLE bronze.dataframe_staging")
     connector.commit()
 
-    for file_path in data_path.glob("raw/*/*.json"):
+    for file_path in DATA_PATH.glob("raw/*/*.json"):
         with open(file_path) as file:
             data = json.load(file)
 
@@ -121,6 +210,23 @@ def load_json():
 
 
 if __name__ == "__main__":
+    
+    from dotenv import load_dotenv
+    load_dotenv()
+    
+    seasons = range(2006, current_season() + 1) # full range, used for the one-off backfill
+    matchday = range(1,35) # We want all the matchdays from the season
 
-    loop_and_write(seasons, matchday)
-    load_json()
+    logging.basicConfig(
+        level=logging.INFO,
+        format="%(asctime)s %(levelname)s %(message)s",
+    )
+
+    if os.environ.get("BACKFILL") == "1":
+        loop_and_write(seasons, matchday)
+    else:
+        loop_and_write(range(current_season(), current_season() + 1), matchday)
+
+    if os.environ.get("FETCH_ONLY") != "1":
+        deploy_schema()
+        load_json()

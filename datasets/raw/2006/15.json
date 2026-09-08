@@ -1,51 +1,5 @@
 [
     {
-        "matchID": 142,
-        "matchDateTime": "2006-12-03T17:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 6,
-        "leagueName": "1. Fussball-Bundesliga 2006/2007",
-        "leagueSeason": 2006,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2006-12-03T16:00:00Z",
-        "group": {
-            "groupName": "15. Spieltag",
-            "groupOrderID": 15,
-            "groupID": 11001
-        },
-        "team1": {
-            "teamId": 23,
-            "teamName": "Alemannia Aachen",
-            "shortName": "Aachen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Alemannia_Aachen_2010.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2008-10-02T22:15:21.29",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 903,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 3,
-                "resultOrderID": 1,
-                "resultTypeID": 0,
-                "resultTypeKind": "Unknown",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 134,
         "matchDateTime": "2006-12-01T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -403,6 +357,52 @@
                 "resultName": "Endergebnis",
                 "pointsTeam1": 0,
                 "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 0,
+                "resultTypeKind": "Unknown",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 142,
+        "matchDateTime": "2006-12-03T17:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 6,
+        "leagueName": "1. Fussball-Bundesliga 2006/2007",
+        "leagueSeason": 2006,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2006-12-03T16:00:00Z",
+        "group": {
+            "groupName": "15. Spieltag",
+            "groupOrderID": 15,
+            "groupID": 11001
+        },
+        "team1": {
+            "teamId": 23,
+            "teamName": "Alemannia Aachen",
+            "shortName": "Aachen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/94/Alemannia_Aachen_2010.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2008-10-02T22:15:21.29",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 903,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 3,
                 "resultOrderID": 1,
                 "resultTypeID": 0,
                 "resultTypeKind": "Unknown",

@@ -139,6 +139,193 @@
         "numberOfViewers": 69000
     },
     {
+        "matchID": 10224,
+        "matchDateTime": "2011-03-12T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 159,
+        "leagueName": "1. Fussball-Bundesliga 2010/2011",
+        "leagueSeason": 2010,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2011-03-12T14:30:00Z",
+        "group": {
+            "groupName": "26. Spieltag",
+            "groupOrderID": 26,
+            "groupID": 12200
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2011-03-12T17:25:29.05",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 19053,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 19054,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 4725,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 45,
+                "goalGetterID": 1905,
+                "goalGetterName": "Jurado",
+                "scoringTeamId": 9,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 4730,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 70,
+                "goalGetterID": 1336,
+                "goalGetterName": "Tzavellas",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 4732,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 84,
+                "goalGetterID": 1906,
+                "goalGetterName": "Charisteas",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 33,
+            "locationCity": "Gelsenkirchen",
+            "locationStadium": "Veltins Arena"
+        },
+        "numberOfViewers": 60000
+    },
+    {
+        "matchID": 10225,
+        "matchDateTime": "2011-03-12T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 159,
+        "leagueName": "1. Fussball-Bundesliga 2010/2011",
+        "leagueSeason": 2010,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2011-03-12T17:30:00Z",
+        "group": {
+            "groupName": "26. Spieltag",
+            "groupOrderID": 26,
+            "groupID": 12200
+        },
+        "team1": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2011-03-16T21:17:12.76",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 19061,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 19062,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 4736,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 39,
+                "goalGetterID": 137,
+                "goalGetterName": "Wagner",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 4737,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 90,
+                "goalGetterID": 924,
+                "goalGetterName": "Dante",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 36,
+            "locationCity": "Bremen",
+            "locationStadium": "Weserstadion"
+        },
+        "numberOfViewers": 0
+    },
+    {
         "matchID": 10226,
         "matchDateTime": "2011-03-12T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -239,51 +426,51 @@
         "numberOfViewers": 25000
     },
     {
-        "matchID": 10231,
-        "matchDateTime": "2011-03-13T17:30:00",
+        "matchID": 10227,
+        "matchDateTime": "2011-03-13T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 159,
         "leagueName": "1. Fussball-Bundesliga 2010/2011",
         "leagueSeason": 2010,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2011-03-13T16:30:00Z",
+        "matchDateTimeUTC": "2011-03-13T14:30:00Z",
         "group": {
             "groupName": "26. Spieltag",
             "groupOrderID": 26,
             "groupID": 12200
         },
         "team1": {
-            "teamId": 98,
-            "teamName": "FC St. Pauli",
-            "shortName": "St. Pauli",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2011-03-16T21:17:56.83",
+        "lastUpdateDateTime": "2011-03-13T17:19:21.16",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 19074,
+                "resultID": 19069,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 2,
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 19075,
+                "resultID": 19070,
                 "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
@@ -292,54 +479,24 @@
         ],
         "goals": [
             {
-                "goalID": 4751,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 19,
-                "goalGetterID": 1385,
-                "goalGetterName": "Boll",
-                "scoringTeamId": 98,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 4752,
-                "scoreTeam1": 1,
+                "goalID": 4750,
+                "scoreTeam1": 0,
                 "scoreTeam2": 1,
-                "matchMinute": 24,
-                "goalGetterID": 986,
-                "goalGetterName": "Kuzmanovic",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 4756,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 88,
-                "goalGetterID": 302,
-                "goalGetterName": "Schipplock",
-                "scoringTeamId": 16,
+                "matchMinute": 82,
+                "goalGetterID": 1403,
+                "goalGetterName": "Augusto",
+                "scoringTeamId": 6,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": ""
             }
         ],
-        "location": {
-            "locationID": 73,
-            "locationCity": "Hamburg",
-            "locationStadium": "Millerntor-Stadion"
-        },
-        "numberOfViewers": 0
+        "location": null,
+        "numberOfViewers": null
     },
     {
-        "matchID": 10230,
+        "matchID": 10228,
         "matchDateTime": "2011-03-12T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 159,
@@ -353,37 +510,37 @@
             "groupID": 12200
         },
         "team1": {
-            "teamId": 76,
-            "teamName": "1. FC Kaiserslautern",
-            "shortName": "Kaiserslautern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2011-03-12T17:26:25.587",
+        "lastUpdateDateTime": "2011-03-12T17:24:29.617",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 19059,
+                "resultID": 19057,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 19060,
+                "resultID": 19058,
                 "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
@@ -392,39 +549,13 @@
         ],
         "goals": [
             {
-                "goalID": 4719,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 21,
-                "goalGetterID": 75,
-                "goalGetterName": "Nemec",
-                "scoringTeamId": 112,
-                "isPenalty": false,
-                "isOwnGoal": true,
-                "isOvertime": false,
-                "comment": "Eigentor nach Freisto\u00df"
-            },
-            {
-                "goalID": 4722,
+                "goalID": 4729,
                 "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 34,
-                "goalGetterID": 75,
-                "goalGetterName": "Nemec",
-                "scoringTeamId": 76,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 4734,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 90,
-                "goalGetterID": 1344,
-                "goalGetterName": "Hoffer",
-                "scoringTeamId": 76,
+                "scoreTeam2": 0,
+                "matchMinute": 63,
+                "goalGetterID": 803,
+                "goalGetterName": "Ibisevic",
+                "scoringTeamId": 175,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -432,11 +563,11 @@
             }
         ],
         "location": {
-            "locationID": 83,
-            "locationCity": "Kaiserslautern",
-            "locationStadium": "Fritz Walter Stadion"
+            "locationID": 188,
+            "locationCity": "Hoffenheim",
+            "locationStadium": "Rhein-Neckar-Arena"
         },
-        "numberOfViewers": 43000
+        "numberOfViewers": 30150
     },
     {
         "matchID": 10229,
@@ -552,7 +683,7 @@
         "numberOfViewers": 46500
     },
     {
-        "matchID": 10224,
+        "matchID": 10230,
         "matchDateTime": "2011-03-12T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 159,
@@ -566,24 +697,24 @@
             "groupID": 12200
         },
         "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamId": 76,
+            "teamName": "1. FC Kaiserslautern",
+            "shortName": "Kaiserslautern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Logo_1_FC_Kaiserslautern.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2011-03-12T17:25:29.05",
+        "lastUpdateDateTime": "2011-03-12T17:26:25.587",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 19053,
+                "resultID": 19059,
                 "resultName": "Endergebnis",
                 "pointsTeam1": 2,
                 "pointsTeam2": 1,
@@ -593,184 +724,10 @@
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 19054,
+                "resultID": 19060,
                 "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 4725,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 45,
-                "goalGetterID": 1905,
-                "goalGetterName": "Jurado",
-                "scoringTeamId": 9,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 4730,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 70,
-                "goalGetterID": 1336,
-                "goalGetterName": "Tzavellas",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 4732,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 84,
-                "goalGetterID": 1906,
-                "goalGetterName": "Charisteas",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 33,
-            "locationCity": "Gelsenkirchen",
-            "locationStadium": "Veltins Arena"
-        },
-        "numberOfViewers": 60000
-    },
-    {
-        "matchID": 10228,
-        "matchDateTime": "2011-03-12T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 159,
-        "leagueName": "1. Fussball-Bundesliga 2010/2011",
-        "leagueSeason": 2010,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2011-03-12T14:30:00Z",
-        "group": {
-            "groupName": "26. Spieltag",
-            "groupOrderID": 26,
-            "groupID": 12200
-        },
-        "team1": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2011-03-12T17:24:29.617",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 19057,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 19058,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 4729,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 63,
-                "goalGetterID": 803,
-                "goalGetterName": "Ibisevic",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 188,
-            "locationCity": "Hoffenheim",
-            "locationStadium": "Rhein-Neckar-Arena"
-        },
-        "numberOfViewers": 30150
-    },
-    {
-        "matchID": 10225,
-        "matchDateTime": "2011-03-12T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 159,
-        "leagueName": "1. Fussball-Bundesliga 2010/2011",
-        "leagueSeason": 2010,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2011-03-12T17:30:00Z",
-        "group": {
-            "groupName": "26. Spieltag",
-            "groupOrderID": 26,
-            "groupID": 12200
-        },
-        "team1": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2011-03-16T21:17:12.76",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 19061,
-                "resultName": "Endergebnis",
                 "pointsTeam1": 1,
                 "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 19062,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
@@ -779,107 +736,150 @@
         ],
         "goals": [
             {
-                "goalID": 4736,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 39,
-                "goalGetterID": 137,
-                "goalGetterName": "Wagner",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 4737,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 90,
-                "goalGetterID": 924,
-                "goalGetterName": "Dante",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 36,
-            "locationCity": "Bremen",
-            "locationStadium": "Weserstadion"
-        },
-        "numberOfViewers": 0
-    },
-    {
-        "matchID": 10227,
-        "matchDateTime": "2011-03-13T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 159,
-        "leagueName": "1. Fussball-Bundesliga 2010/2011",
-        "leagueSeason": 2010,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2011-03-13T14:30:00Z",
-        "group": {
-            "groupName": "26. Spieltag",
-            "groupOrderID": 26,
-            "groupID": 12200
-        },
-        "team1": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2011-03-13T17:19:21.16",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 19069,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 19070,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 4750,
+                "goalID": 4719,
                 "scoreTeam1": 0,
                 "scoreTeam2": 1,
-                "matchMinute": 82,
-                "goalGetterID": 1403,
-                "goalGetterName": "Augusto",
-                "scoringTeamId": 6,
+                "matchMinute": 21,
+                "goalGetterID": 75,
+                "goalGetterName": "Nemec",
+                "scoringTeamId": 112,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": "Eigentor nach Freisto\u00df"
+            },
+            {
+                "goalID": 4722,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 34,
+                "goalGetterID": 75,
+                "goalGetterName": "Nemec",
+                "scoringTeamId": 76,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 4734,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 90,
+                "goalGetterID": 1344,
+                "goalGetterName": "Hoffer",
+                "scoringTeamId": 76,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": ""
             }
         ],
-        "location": null,
-        "numberOfViewers": null
+        "location": {
+            "locationID": 83,
+            "locationCity": "Kaiserslautern",
+            "locationStadium": "Fritz Walter Stadion"
+        },
+        "numberOfViewers": 43000
+    },
+    {
+        "matchID": 10231,
+        "matchDateTime": "2011-03-13T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 159,
+        "leagueName": "1. Fussball-Bundesliga 2010/2011",
+        "leagueSeason": 2010,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2011-03-13T16:30:00Z",
+        "group": {
+            "groupName": "26. Spieltag",
+            "groupOrderID": 26,
+            "groupID": 12200
+        },
+        "team1": {
+            "teamId": 98,
+            "teamName": "FC St. Pauli",
+            "shortName": "St. Pauli",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2011-03-16T21:17:56.83",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 19074,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 19075,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 4751,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 19,
+                "goalGetterID": 1385,
+                "goalGetterName": "Boll",
+                "scoringTeamId": 98,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 4752,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 24,
+                "goalGetterID": 986,
+                "goalGetterName": "Kuzmanovic",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 4756,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 88,
+                "goalGetterID": 302,
+                "goalGetterName": "Schipplock",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 73,
+            "locationCity": "Hamburg",
+            "locationStadium": "Millerntor-Stadion"
+        },
+        "numberOfViewers": 0
     }
 ]

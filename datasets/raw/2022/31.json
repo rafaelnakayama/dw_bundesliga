@@ -1,5 +1,75 @@
 [
     {
+        "matchID": 64135,
+        "matchDateTime": "2023-05-06T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2023-05-06T13:30:00Z",
+        "group": {
+            "groupName": "31. Spieltag",
+            "groupOrderID": 31,
+            "groupID": 39911
+        },
+        "team1": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 80,
+            "teamName": "1. FC Union Berlin",
+            "shortName": "Union Berlin",
+            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2023-05-06T17:44:33.987",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 102834,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 102835,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 101569,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 53,
+                "goalGetterID": 19761,
+                "goalGetterName": "D. Beljo",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 64136,
         "matchDateTime": "2023-05-05T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -96,162 +166,40 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 64142,
-        "matchDateTime": "2023-05-05T20:30:00",
+        "matchID": 64137,
+        "matchDateTime": "2023-05-07T17:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4562,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
         "leagueSeason": 2022,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2023-05-05T18:30:00Z",
+        "matchDateTimeUTC": "2023-05-07T15:30:00Z",
         "group": {
             "groupName": "31. Spieltag",
             "groupOrderID": 31,
             "groupID": 39911
         },
         "team1": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2023-05-06T09:00:06.14",
+        "lastUpdateDateTime": "2023-05-07T19:21:11.51",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 102820,
+                "resultID": 102866,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 3,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 102821,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 101541,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 26,
-                "goalGetterID": 18968,
-                "goalGetterName": "M. B\u00fclter",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 101544,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 53,
-                "goalGetterID": 18519,
-                "goalGetterName": "L. Barreiro",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 101545,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 60,
-                "goalGetterID": 19113,
-                "goalGetterName": "T. Krau\u00df",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 101546,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 70,
-                "goalGetterID": 19255,
-                "goalGetterName": "A. Martin",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 101547,
-                "scoreTeam1": 2,
-                "scoreTeam2": 3,
-                "matchMinute": 102,
-                "goalGetterID": 18968,
-                "goalGetterName": "M. B\u00fclter",
-                "scoringTeamId": 9,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 64135,
-        "matchDateTime": "2023-05-06T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4562,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
-        "leagueSeason": 2022,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2023-05-06T13:30:00Z",
-        "group": {
-            "groupName": "31. Spieltag",
-            "groupOrderID": 31,
-            "groupID": 39911
-        },
-        "team1": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 80,
-            "teamName": "1. FC Union Berlin",
-            "shortName": "Union Berlin",
-            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2023-05-06T17:44:33.987",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 102834,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
+                "pointsTeam1": 6,
                 "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
@@ -259,9 +207,9 @@
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 102835,
+                "resultID": 102867,
                 "resultName": "Halbzeit",
-                "pointsTeam1": 0,
+                "pointsTeam1": 3,
                 "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
@@ -271,13 +219,78 @@
         ],
         "goals": [
             {
-                "goalID": 101569,
+                "goalID": 101606,
                 "scoreTeam1": 1,
                 "scoreTeam2": 0,
-                "matchMinute": 53,
-                "goalGetterID": 19761,
-                "goalGetterName": "D. Beljo",
-                "scoringTeamId": 95,
+                "matchMinute": 14,
+                "goalGetterID": 19423,
+                "goalGetterName": "K. Adeyemi",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 101616,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 28,
+                "goalGetterID": 19771,
+                "goalGetterName": "S. Haller",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 101617,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 37,
+                "goalGetterID": 19156,
+                "goalGetterName": "D. Malen",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 101618,
+                "scoreTeam1": 4,
+                "scoreTeam2": 0,
+                "matchMinute": 54,
+                "goalGetterID": 18702,
+                "goalGetterName": "J. Bellingham",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 101619,
+                "scoreTeam1": 5,
+                "scoreTeam2": 0,
+                "matchMinute": 59,
+                "goalGetterID": 19423,
+                "goalGetterName": "K. Adeyemi",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 101620,
+                "scoreTeam1": 6,
+                "scoreTeam2": 0,
+                "matchMinute": 86,
+                "goalGetterID": 18702,
+                "goalGetterName": "J. Bellingham",
+                "scoringTeamId": 7,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -646,6 +659,128 @@
         "numberOfViewers": null
     },
     {
+        "matchID": 64142,
+        "matchDateTime": "2023-05-05T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4562,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
+        "leagueSeason": 2022,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2023-05-05T18:30:00Z",
+        "group": {
+            "groupName": "31. Spieltag",
+            "groupOrderID": 31,
+            "groupID": 39911
+        },
+        "team1": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2023-05-06T09:00:06.14",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 102820,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 3,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 102821,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Zwischenstand zur Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 101541,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 26,
+                "goalGetterID": 18968,
+                "goalGetterName": "M. B\u00fclter",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 101544,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 53,
+                "goalGetterID": 18519,
+                "goalGetterName": "L. Barreiro",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 101545,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 60,
+                "goalGetterID": 19113,
+                "goalGetterName": "T. Krau\u00df",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 101546,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 70,
+                "goalGetterID": 19255,
+                "goalGetterName": "A. Martin",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 101547,
+                "scoreTeam1": 2,
+                "scoreTeam2": 3,
+                "matchMinute": 102,
+                "goalGetterID": 18968,
+                "goalGetterName": "M. B\u00fclter",
+                "scoringTeamId": 9,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 64143,
         "matchDateTime": "2023-05-06T18:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -732,141 +867,6 @@
                 "goalGetterID": 16353,
                 "goalGetterName": "N. Schmidt",
                 "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 64137,
-        "matchDateTime": "2023-05-07T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4562,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2022/2023",
-        "leagueSeason": 2022,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2023-05-07T15:30:00Z",
-        "group": {
-            "groupName": "31. Spieltag",
-            "groupOrderID": 31,
-            "groupID": 39911
-        },
-        "team1": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2023-05-07T19:21:11.51",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 102866,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 6,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 102867,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Zwischenstand zur Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 101606,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 14,
-                "goalGetterID": 19423,
-                "goalGetterName": "K. Adeyemi",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 101616,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 28,
-                "goalGetterID": 19771,
-                "goalGetterName": "S. Haller",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 101617,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 37,
-                "goalGetterID": 19156,
-                "goalGetterName": "D. Malen",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 101618,
-                "scoreTeam1": 4,
-                "scoreTeam2": 0,
-                "matchMinute": 54,
-                "goalGetterID": 18702,
-                "goalGetterName": "J. Bellingham",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 101619,
-                "scoreTeam1": 5,
-                "scoreTeam2": 0,
-                "matchMinute": 59,
-                "goalGetterID": 19423,
-                "goalGetterName": "K. Adeyemi",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 101620,
-                "scoreTeam1": 6,
-                "scoreTeam2": 0,
-                "matchMinute": 86,
-                "goalGetterID": 18702,
-                "goalGetterName": "J. Bellingham",
-                "scoringTeamId": 7,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

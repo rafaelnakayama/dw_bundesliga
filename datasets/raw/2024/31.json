@@ -1,88 +1,5 @@
 [
     {
-        "matchID": 72485,
-        "matchDateTime": "2025-04-25T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4741,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2024/2025",
-        "leagueSeason": 2024,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2025-04-25T18:30:00Z",
-        "group": {
-            "groupName": "31. Spieltag",
-            "groupOrderID": 31,
-            "groupID": 45147
-        },
-        "team1": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 199,
-            "teamName": "1. FC Heidenheim 1846",
-            "shortName": "Heidenheim",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2025-04-26T16:37:27.657",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 116623,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            },
-            {
-                "resultID": 116624,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 127379,
-                "scoreTeam1": 0,
-                "scoreTeam2": 0,
-                "matchMinute": null,
-                "goalGetterID": 0,
-                "goalGetterName": "",
-                "scoringTeamId": null,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 127380,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 89,
-                "goalGetterID": 18604,
-                "goalGetterName": "M. Honsak",
-                "scoringTeamId": 199,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 72484,
         "matchDateTime": "2025-04-26T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -159,6 +76,89 @@
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 72485,
+        "matchDateTime": "2025-04-25T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4741,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2024/2025",
+        "leagueSeason": 2024,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2025-04-25T18:30:00Z",
+        "group": {
+            "groupName": "31. Spieltag",
+            "groupOrderID": 31,
+            "groupID": 45147
+        },
+        "team1": {
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 199,
+            "teamName": "1. FC Heidenheim 1846",
+            "shortName": "Heidenheim",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2025-04-26T16:37:27.657",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 116623,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 116624,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 127379,
+                "scoreTeam1": 0,
+                "scoreTeam2": 0,
+                "matchMinute": null,
+                "goalGetterID": 0,
+                "goalGetterName": "",
+                "scoringTeamId": null,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 127380,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 89,
+                "goalGetterID": 18604,
+                "goalGetterName": "M. Honsak",
+                "scoringTeamId": 199,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
                 "comment": null
             }
         ],
@@ -252,6 +252,115 @@
                 "goalGetterID": 15810,
                 "goalGetterName": "Eric Dier",
                 "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 72487,
+        "matchDateTime": "2025-04-26T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4741,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2024/2025",
+        "leagueSeason": 2024,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2025-04-26T16:30:00Z",
+        "group": {
+            "groupName": "31. Spieltag",
+            "groupOrderID": 31,
+            "groupID": 45147
+        },
+        "team1": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2025-04-26T20:25:12.477",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 116659,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 116660,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 4,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 127402,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 21,
+                "goalGetterID": 18704,
+                "goalGetterName": "A. Knauff",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 127403,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 53,
+                "goalGetterID": 18704,
+                "goalGetterName": "A. Knauff",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 127404,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 67,
+                "goalGetterID": 23168,
+                "goalGetterName": "Hugo Ekitik\u00e9",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 127405,
+                "scoreTeam1": 4,
+                "scoreTeam2": 0,
+                "matchMinute": 72,
+                "goalGetterID": 23363,
+                "goalGetterName": "Robin Koch",
+                "scoringTeamId": 91,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -384,6 +493,62 @@
         "numberOfViewers": null
     },
     {
+        "matchID": 72489,
+        "matchDateTime": "2025-04-27T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4741,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2024/2025",
+        "leagueSeason": 2024,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2025-04-27T15:30:00Z",
+        "group": {
+            "groupName": "31. Spieltag",
+            "groupOrderID": 31,
+            "groupID": 45147
+        },
+        "team1": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 98,
+            "teamName": "FC St. Pauli",
+            "shortName": "St. Pauli",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2025-04-27T19:32:16.82",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 116671,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 116672,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 72490,
         "matchDateTime": "2025-04-26T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -457,6 +622,89 @@
                 "goalGetterID": 23388,
                 "goalGetterName": "Max Rosenfelder",
                 "scoringTeamId": 112,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 72491,
+        "matchDateTime": "2025-04-27T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4741,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2024/2025",
+        "leagueSeason": 2024,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2025-04-27T13:30:00Z",
+        "group": {
+            "groupName": "31. Spieltag",
+            "groupOrderID": 31,
+            "groupID": 45147
+        },
+        "team1": {
+            "teamId": 129,
+            "teamName": "VfL Bochum",
+            "shortName": "Bochum",
+            "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 80,
+            "teamName": "1. FC Union Berlin",
+            "shortName": "Union Berlin",
+            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2025-04-27T17:28:25.583",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 116669,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 116670,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 127420,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": null,
+                "goalGetterID": 0,
+                "goalGetterName": "",
+                "scoringTeamId": 129,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 127419,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 17,
+                "goalGetterID": 19536,
+                "goalGetterName": "Benedict Hollerbach",
+                "scoringTeamId": 80,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -611,254 +859,6 @@
                 "comment": null
             }
         ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 72487,
-        "matchDateTime": "2025-04-26T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4741,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2024/2025",
-        "leagueSeason": 2024,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2025-04-26T16:30:00Z",
-        "group": {
-            "groupName": "31. Spieltag",
-            "groupOrderID": 31,
-            "groupID": 45147
-        },
-        "team1": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 1635,
-            "teamName": "RB Leipzig",
-            "shortName": "Leipzig",
-            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2025-04-26T20:25:12.477",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 116659,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            },
-            {
-                "resultID": 116660,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 4,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 127402,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 21,
-                "goalGetterID": 18704,
-                "goalGetterName": "A. Knauff",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 127403,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 53,
-                "goalGetterID": 18704,
-                "goalGetterName": "A. Knauff",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 127404,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 67,
-                "goalGetterID": 23168,
-                "goalGetterName": "Hugo Ekitik\u00e9",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 127405,
-                "scoreTeam1": 4,
-                "scoreTeam2": 0,
-                "matchMinute": 72,
-                "goalGetterID": 23363,
-                "goalGetterName": "Robin Koch",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 72491,
-        "matchDateTime": "2025-04-27T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4741,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2024/2025",
-        "leagueSeason": 2024,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2025-04-27T13:30:00Z",
-        "group": {
-            "groupName": "31. Spieltag",
-            "groupOrderID": 31,
-            "groupID": 45147
-        },
-        "team1": {
-            "teamId": 129,
-            "teamName": "VfL Bochum",
-            "shortName": "Bochum",
-            "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 80,
-            "teamName": "1. FC Union Berlin",
-            "shortName": "Union Berlin",
-            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2025-04-27T17:28:25.583",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 116669,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            },
-            {
-                "resultID": 116670,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 127420,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": null,
-                "goalGetterID": 0,
-                "goalGetterName": "",
-                "scoringTeamId": 129,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 127419,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 17,
-                "goalGetterID": 19536,
-                "goalGetterName": "Benedict Hollerbach",
-                "scoringTeamId": 80,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 72489,
-        "matchDateTime": "2025-04-27T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4741,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2024/2025",
-        "leagueSeason": 2024,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2025-04-27T15:30:00Z",
-        "group": {
-            "groupName": "31. Spieltag",
-            "groupOrderID": 31,
-            "groupID": 45147
-        },
-        "team1": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 98,
-            "teamName": "FC St. Pauli",
-            "shortName": "St. Pauli",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Fc_st_pauli_logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2025-04-27T19:32:16.82",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 116671,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            },
-            {
-                "resultID": 116672,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [],
         "location": null,
         "numberOfViewers": null
     }

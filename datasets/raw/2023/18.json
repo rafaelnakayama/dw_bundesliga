@@ -1,50 +1,50 @@
 [
     {
-        "matchID": 66792,
-        "matchDateTime": "2024-01-20T15:30:00",
+        "matchID": 66784,
+        "matchDateTime": "2024-01-21T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4608,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
         "leagueSeason": 2023,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2024-01-20T14:30:00Z",
+        "matchDateTimeUTC": "2024-01-21T14:30:00Z",
         "group": {
             "groupName": "18. Spieltag",
             "groupOrderID": 18,
             "groupID": 41146
         },
         "team1": {
-            "teamId": 118,
-            "teamName": "SV Darmstadt 98",
-            "shortName": "Darmstadt",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2024-01-20T18:05:10.09",
+        "lastUpdateDateTime": "2024-01-28T11:57:07.013",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 106084,
+                "resultID": 106103,
                 "resultName": "Halbzeitergebnis",
                 "pointsTeam1": 0,
-                "pointsTeam2": 1,
+                "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
                 "resultDescription": null
             },
             {
-                "resultID": 106083,
+                "resultID": 106102,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 2,
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
@@ -53,52 +53,135 @@
         ],
         "goals": [
             {
-                "goalID": 107292,
+                "goalID": 107334,
                 "scoreTeam1": 0,
                 "scoreTeam2": 1,
-                "matchMinute": 35,
-                "goalGetterID": 20287,
-                "goalGetterName": "N. Nkounkou",
-                "scoringTeamId": 91,
+                "matchMinute": 59,
+                "goalGetterID": 19055,
+                "goalGetterName": "M. Weiser",
+                "scoringTeamId": 134,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 66785,
+        "matchDateTime": "2024-01-20T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4608,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
+        "leagueSeason": 2023,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2024-01-20T17:30:00Z",
+        "group": {
+            "groupName": "18. Spieltag",
+            "groupOrderID": 18,
+            "groupID": 41146
+        },
+        "team1": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2024-01-20T20:30:11.37",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 106086,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
             },
             {
-                "goalID": 107295,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 51,
-                "goalGetterID": 18704,
-                "goalGetterName": "A. Knauff",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
+                "resultID": 106085,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 3,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
             {
-                "goalID": 107296,
+                "goalID": 107306,
                 "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 62,
-                "goalGetterID": 18451,
-                "goalGetterName": "J. Justvan",
-                "scoringTeamId": 118,
+                "scoreTeam2": 0,
+                "matchMinute": 7,
+                "goalGetterID": 2090,
+                "goalGetterName": "Kyah Simon",
+                "scoringTeamId": 1635,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 107303,
+                "goalID": 107307,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 47,
+                "goalGetterID": 17390,
+                "goalGetterName": "Alex Telles",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 107308,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 56,
+                "goalGetterID": 20224,
+                "goalGetterName": "L. Openda",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 107309,
                 "scoreTeam1": 2,
                 "scoreTeam2": 2,
-                "matchMinute": 90,
-                "goalGetterID": 19118,
-                "goalGetterName": "C. Klarer",
-                "scoringTeamId": 118,
+                "matchMinute": 63,
+                "goalGetterID": 19623,
+                "goalGetterName": "J. Tah",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 107310,
+                "scoreTeam1": 2,
+                "scoreTeam2": 3,
+                "matchMinute": 91,
+                "goalGetterID": 19186,
+                "goalGetterName": "P. Hincapie",
+                "scoringTeamId": 6,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": true,
@@ -221,6 +304,185 @@
                 "goalGetterID": 16923,
                 "goalGetterName": "R. Sallai",
                 "scoringTeamId": 112,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 66787,
+        "matchDateTime": "2024-02-07T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4608,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
+        "leagueSeason": 2023,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2024-02-07T17:30:00Z",
+        "group": {
+            "groupName": "18. Spieltag",
+            "groupOrderID": 18,
+            "groupID": 41146
+        },
+        "team1": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 80,
+            "teamName": "1. FC Union Berlin",
+            "shortName": "Union Berlin",
+            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2024-02-07T20:35:30.073",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 106452,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            },
+            {
+                "resultID": 106451,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 107777,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 53,
+                "goalGetterID": 19126,
+                "goalGetterName": "J. Burkardt",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            },
+            {
+                "goalID": 107778,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 58,
+                "goalGetterID": 18845,
+                "goalGetterName": "R. Gosens",
+                "scoringTeamId": 80,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 66788,
+        "matchDateTime": "2024-01-21T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4608,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
+        "leagueSeason": 2023,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2024-01-21T16:30:00Z",
+        "group": {
+            "groupName": "18. Spieltag",
+            "groupOrderID": 18,
+            "groupID": 41146
+        },
+        "team1": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2024-01-28T11:57:08.68",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 106105,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            },
+            {
+                "resultID": 106104,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 107335,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 26,
+                "goalGetterID": 19473,
+                "goalGetterName": "J. Siebatcheu",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 107336,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 47,
+                "goalGetterID": 18976,
+                "goalGetterName": "P. Tietz",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 107337,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 51,
+                "goalGetterID": 20971,
+                "goalGetterName": "A. Engels",
+                "scoringTeamId": 95,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -493,242 +755,50 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 66785,
-        "matchDateTime": "2024-01-20T18:30:00",
+        "matchID": 66792,
+        "matchDateTime": "2024-01-20T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 4608,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
         "leagueSeason": 2023,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2024-01-20T17:30:00Z",
+        "matchDateTimeUTC": "2024-01-20T14:30:00Z",
         "group": {
             "groupName": "18. Spieltag",
             "groupOrderID": 18,
             "groupID": 41146
         },
         "team1": {
-            "teamId": 1635,
-            "teamName": "RB Leipzig",
-            "shortName": "Leipzig",
-            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamId": 118,
+            "teamName": "SV Darmstadt 98",
+            "shortName": "Darmstadt",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/SV_Darmstadt_98_Logo.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2024-01-20T20:30:11.37",
+        "lastUpdateDateTime": "2024-01-20T18:05:10.09",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 106086,
+                "resultID": 106084,
                 "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            },
-            {
-                "resultID": 106085,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 3,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 107306,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 7,
-                "goalGetterID": 2090,
-                "goalGetterName": "Kyah Simon",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 107307,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 47,
-                "goalGetterID": 17390,
-                "goalGetterName": "Alex Telles",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 107308,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 56,
-                "goalGetterID": 20224,
-                "goalGetterName": "L. Openda",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 107309,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 63,
-                "goalGetterID": 19623,
-                "goalGetterName": "J. Tah",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 107310,
-                "scoreTeam1": 2,
-                "scoreTeam2": 3,
-                "matchMinute": 91,
-                "goalGetterID": 19186,
-                "goalGetterName": "P. Hincapie",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 66784,
-        "matchDateTime": "2024-01-21T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4608,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
-        "leagueSeason": 2023,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2024-01-21T14:30:00Z",
-        "group": {
-            "groupName": "18. Spieltag",
-            "groupOrderID": 18,
-            "groupID": 41146
-        },
-        "team1": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2024-01-28T11:57:07.013",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 106103,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            },
-            {
-                "resultID": 106102,
-                "resultName": "Endergebnis",
                 "pointsTeam1": 0,
                 "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 107334,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 59,
-                "goalGetterID": 19055,
-                "goalGetterName": "M. Weiser",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 66788,
-        "matchDateTime": "2024-01-21T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4608,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
-        "leagueSeason": 2023,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2024-01-21T16:30:00Z",
-        "group": {
-            "groupName": "18. Spieltag",
-            "groupOrderID": 18,
-            "groupID": 41146
-        },
-        "team1": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2024-01-28T11:57:08.68",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 106105,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
                 "resultDescription": null
             },
             {
-                "resultID": 106104,
+                "resultID": 106083,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 1,
+                "pointsTeam1": 2,
                 "pointsTeam2": 2,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
@@ -738,122 +808,52 @@
         ],
         "goals": [
             {
-                "goalID": 107335,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 26,
-                "goalGetterID": 19473,
-                "goalGetterName": "J. Siebatcheu",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 107336,
-                "scoreTeam1": 1,
+                "goalID": 107292,
+                "scoreTeam1": 0,
                 "scoreTeam2": 1,
-                "matchMinute": 47,
-                "goalGetterID": 18976,
-                "goalGetterName": "P. Tietz",
-                "scoringTeamId": 95,
+                "matchMinute": 35,
+                "goalGetterID": 20287,
+                "goalGetterName": "N. Nkounkou",
+                "scoringTeamId": 91,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 107337,
-                "scoreTeam1": 1,
+                "goalID": 107295,
+                "scoreTeam1": 0,
                 "scoreTeam2": 2,
                 "matchMinute": 51,
-                "goalGetterID": 20971,
-                "goalGetterName": "A. Engels",
-                "scoringTeamId": 95,
+                "goalGetterID": 18704,
+                "goalGetterName": "A. Knauff",
+                "scoringTeamId": 91,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 66787,
-        "matchDateTime": "2024-02-07T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4608,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2023/2024",
-        "leagueSeason": 2023,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2024-02-07T17:30:00Z",
-        "group": {
-            "groupName": "18. Spieltag",
-            "groupOrderID": 18,
-            "groupID": 41146
-        },
-        "team1": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 80,
-            "teamName": "1. FC Union Berlin",
-            "shortName": "Union Berlin",
-            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2024-02-07T20:35:30.073",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 106452,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
             },
             {
-                "resultID": 106451,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 107777,
+                "goalID": 107296,
                 "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 53,
-                "goalGetterID": 19126,
-                "goalGetterName": "J. Burkardt",
-                "scoringTeamId": 81,
+                "scoreTeam2": 2,
+                "matchMinute": 62,
+                "goalGetterID": 18451,
+                "goalGetterName": "J. Justvan",
+                "scoringTeamId": 118,
                 "isPenalty": false,
                 "isOwnGoal": false,
-                "isOvertime": true,
+                "isOvertime": false,
                 "comment": null
             },
             {
-                "goalID": 107778,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 58,
-                "goalGetterID": 18845,
-                "goalGetterName": "R. Gosens",
-                "scoringTeamId": 80,
+                "goalID": 107303,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 90,
+                "goalGetterID": 19118,
+                "goalGetterName": "C. Klarer",
+                "scoringTeamId": 118,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": true,

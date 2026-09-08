@@ -1,5 +1,467 @@
 [
     {
+        "matchID": 33298,
+        "matchDateTime": "2015-09-20T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 848,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
+        "leagueSeason": 2015,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2015-09-20T15:30:00Z",
+        "group": {
+            "groupName": "5. Spieltag",
+            "groupOrderID": 5,
+            "groupID": 17754
+        },
+        "team1": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2015-09-20T19:29:56.04",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 56351,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 56353,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 41079,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 19,
+                "goalGetterID": 880,
+                "goalGetterName": "Hofmann",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 41084,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 58,
+                "goalGetterID": 1452,
+                "goalGetterName": "Kagawa",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 41088,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 74,
+                "goalGetterID": 11397,
+                "goalGetterName": "Aubameyang",
+                "scoringTeamId": 7,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 52,
+            "locationCity": "",
+            "locationStadium": ""
+        },
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 33299,
+        "matchDateTime": "2015-09-19T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 848,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
+        "leagueSeason": 2015,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2015-09-19T13:30:00Z",
+        "group": {
+            "groupName": "5. Spieltag",
+            "groupOrderID": 5,
+            "groupID": 17754
+        },
+        "team1": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2015-09-19T17:24:05.297",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 56266,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 56275,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 41004,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 76,
+                "goalGetterID": 14795,
+                "goalGetterName": "Bas Dost",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 41006,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 89,
+                "goalGetterID": 14795,
+                "goalGetterName": "Bas Dost",
+                "scoringTeamId": 131,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 33300,
+        "matchDateTime": "2015-09-19T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 848,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
+        "leagueSeason": 2015,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2015-09-19T13:30:00Z",
+        "group": {
+            "groupName": "5. Spieltag",
+            "groupOrderID": 5,
+            "groupID": 17754
+        },
+        "team1": {
+            "teamId": 100,
+            "teamName": "Hamburger SV",
+            "shortName": "HSV",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2015-09-19T17:20:14.397",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 56267,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 56274,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 33301,
+        "matchDateTime": "2015-09-20T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 848,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
+        "leagueSeason": 2015,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2015-09-20T13:30:00Z",
+        "group": {
+            "groupName": "5. Spieltag",
+            "groupOrderID": 5,
+            "groupID": 17754
+        },
+        "team1": {
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2015-09-20T17:23:16.95",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 56339,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 56349,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 41078,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 53,
+                "goalGetterID": 13083,
+                "goalGetterName": "Sane",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 33302,
+        "matchDateTime": "2015-09-20T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 848,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
+        "leagueSeason": 2015,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2015-09-20T15:30:00Z",
+        "group": {
+            "groupName": "5. Spieltag",
+            "groupOrderID": 5,
+            "groupID": 17754
+        },
+        "team1": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2015-09-20T19:21:05.317",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 56352,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 56358,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 41081,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 29,
+                "goalGetterID": 1424,
+                "goalGetterName": "Esswein",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 41082,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 32,
+                "goalGetterID": 1925,
+                "goalGetterName": "Verhaegh",
+                "scoringTeamId": 95,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 33303,
+        "matchDateTime": "2015-09-19T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 848,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
+        "leagueSeason": 2015,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2015-09-19T13:30:00Z",
+        "group": {
+            "groupName": "5. Spieltag",
+            "groupOrderID": 5,
+            "groupID": 17754
+        },
+        "team1": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 171,
+            "teamName": "FC Ingolstadt 04",
+            "shortName": "Ingolstadt",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/5/55/FC-Ingolstadt_logo.svg/960px-FC-Ingolstadt_logo.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2015-09-19T17:24:46.197",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 56268,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 56273,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 41008,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 93,
+                "goalGetterID": 20,
+                "goalGetterName": "Hartmann",
+                "scoringTeamId": 171,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": ""
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 33304,
         "matchDateTime": "2015-09-19T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -179,215 +641,6 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 33299,
-        "matchDateTime": "2015-09-19T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 848,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
-        "leagueSeason": 2015,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2015-09-19T13:30:00Z",
-        "group": {
-            "groupName": "5. Spieltag",
-            "groupOrderID": 5,
-            "groupID": 17754
-        },
-        "team1": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 54,
-            "teamName": "Hertha BSC",
-            "shortName": "Hertha",
-            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2015-09-19T17:24:05.297",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 56266,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 56275,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 41004,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 76,
-                "goalGetterID": 14795,
-                "goalGetterName": "Bas Dost",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 41006,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 89,
-                "goalGetterID": 14795,
-                "goalGetterName": "Bas Dost",
-                "scoringTeamId": 131,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 33300,
-        "matchDateTime": "2015-09-19T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 848,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
-        "leagueSeason": 2015,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2015-09-19T13:30:00Z",
-        "group": {
-            "groupName": "5. Spieltag",
-            "groupOrderID": 5,
-            "groupID": 17754
-        },
-        "team1": {
-            "teamId": 100,
-            "teamName": "Hamburger SV",
-            "shortName": "HSV",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2015-09-19T17:20:14.397",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 56267,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 56274,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 33303,
-        "matchDateTime": "2015-09-19T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 848,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
-        "leagueSeason": 2015,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2015-09-19T13:30:00Z",
-        "group": {
-            "groupName": "5. Spieltag",
-            "groupOrderID": 5,
-            "groupID": 17754
-        },
-        "team1": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 171,
-            "teamName": "FC Ingolstadt 04",
-            "shortName": "Ingolstadt",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/de/thumb/5/55/FC-Ingolstadt_logo.svg/960px-FC-Ingolstadt_logo.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2015-09-19T17:24:46.197",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 56268,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 56273,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 41008,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 93,
-                "goalGetterID": 20,
-                "goalGetterName": "Hartmann",
-                "scoringTeamId": 171,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": ""
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 33306,
         "matchDateTime": "2015-09-19T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -475,259 +728,6 @@
                 "goalGetterName": "Rode",
                 "scoringTeamId": 40,
                 "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 33301,
-        "matchDateTime": "2015-09-20T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 848,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
-        "leagueSeason": 2015,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2015-09-20T13:30:00Z",
-        "group": {
-            "groupName": "5. Spieltag",
-            "groupOrderID": 5,
-            "groupID": 17754
-        },
-        "team1": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2015-09-20T17:23:16.95",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 56339,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 56349,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 41078,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 53,
-                "goalGetterID": 13083,
-                "goalGetterName": "Sane",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 33298,
-        "matchDateTime": "2015-09-20T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 848,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
-        "leagueSeason": 2015,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2015-09-20T15:30:00Z",
-        "group": {
-            "groupName": "5. Spieltag",
-            "groupOrderID": 5,
-            "groupID": 17754
-        },
-        "team1": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2015-09-20T19:29:56.04",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 56351,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 56353,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 41079,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 19,
-                "goalGetterID": 880,
-                "goalGetterName": "Hofmann",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 41084,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 58,
-                "goalGetterID": 1452,
-                "goalGetterName": "Kagawa",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 41088,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 74,
-                "goalGetterID": 11397,
-                "goalGetterName": "Aubameyang",
-                "scoringTeamId": 7,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 52,
-            "locationCity": "",
-            "locationStadium": ""
-        },
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 33302,
-        "matchDateTime": "2015-09-20T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 848,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2015/2016",
-        "leagueSeason": 2015,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2015-09-20T15:30:00Z",
-        "group": {
-            "groupName": "5. Spieltag",
-            "groupOrderID": 5,
-            "groupID": 17754
-        },
-        "team1": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 55,
-            "teamName": "Hannover 96",
-            "shortName": "Hannover",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2015-09-20T19:21:05.317",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 56352,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 56358,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 41081,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 29,
-                "goalGetterID": 1424,
-                "goalGetterName": "Esswein",
-                "scoringTeamId": 95,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 41082,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 32,
-                "goalGetterID": 1925,
-                "goalGetterName": "Verhaegh",
-                "scoringTeamId": 95,
-                "isPenalty": true,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": ""

@@ -1,92 +1,5 @@
 [
     {
-        "matchID": 19826,
-        "matchDateTime": "2012-11-28T20:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 456,
-        "leagueName": "1. Fussball-Bundesliga 2012/2013",
-        "leagueSeason": 2012,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-11-28T19:00:00Z",
-        "group": {
-            "groupName": "14. Spieltag",
-            "groupOrderID": 14,
-            "groupID": 13154
-        },
-        "team1": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2012-11-29T09:14:33.093",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 32253,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 32222,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 16374,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 12,
-                "goalGetterID": 514,
-                "goalGetterName": "T. M\u00fcller",
-                "scoringTeamId": 40,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 16398,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 79,
-                "goalGetterID": 1579,
-                "goalGetterName": "Tymoshchuk",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 516,
-            "locationCity": "Freiburg",
-            "locationStadium": "MAGE SOLAR Stadion"
-        },
-        "numberOfViewers": 24000
-    },
-    {
         "matchID": 19820,
         "matchDateTime": "2012-11-27T20:00:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -172,319 +85,6 @@
             "locationStadium": "Signal-Iduna-Park"
         },
         "numberOfViewers": 80000
-    },
-    {
-        "matchID": 19823,
-        "matchDateTime": "2012-11-27T20:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 456,
-        "leagueName": "1. Fussball-Bundesliga 2012/2013",
-        "leagueSeason": 2012,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-11-27T19:00:00Z",
-        "group": {
-            "groupName": "14. Spieltag",
-            "groupOrderID": 14,
-            "groupID": 13154
-        },
-        "team1": {
-            "teamId": 55,
-            "teamName": "Hannover 96",
-            "shortName": "Hannover",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 115,
-            "teamName": "SpVgg Greuther F\u00fcrth",
-            "shortName": "F\u00fcrth",
-            "teamIconUrl": "https://i.imgur.com/pwuVbKr.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2012-11-27T21:31:03.763",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 32190,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 32191,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 16344,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 5,
-                "goalGetterID": 484,
-                "goalGetterName": "Diouf",
-                "scoringTeamId": 55,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 16352,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 69,
-                "goalGetterID": 1098,
-                "goalGetterName": "Eggimann",
-                "scoringTeamId": 55,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 644,
-            "locationCity": "",
-            "locationStadium": "AWD-Arena"
-        },
-        "numberOfViewers": 40000
-    },
-    {
-        "matchID": 19827,
-        "matchDateTime": "2012-11-27T20:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 456,
-        "leagueName": "1. Fussball-Bundesliga 2012/2013",
-        "leagueSeason": 2012,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-11-27T19:00:00Z",
-        "group": {
-            "groupName": "14. Spieltag",
-            "groupOrderID": 14,
-            "groupID": 13154
-        },
-        "team1": {
-            "teamId": 100,
-            "teamName": "Hamburger SV",
-            "shortName": "HSV",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2012-11-27T21:53:52.153",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 32192,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 32193,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 16348,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 52,
-                "goalGetterID": 1778,
-                "goalGetterName": "Beister",
-                "scoringTeamId": 100,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 16349,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 65,
-                "goalGetterID": 7446,
-                "goalGetterName": "Rudnevs",
-                "scoringTeamId": 100,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 16353,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 80,
-                "goalGetterID": 1207,
-                "goalGetterName": "Huntelaar",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 16355,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 90,
-                "goalGetterID": 8910,
-                "goalGetterName": "Badelj",
-                "scoringTeamId": 100,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 674,
-            "locationCity": "",
-            "locationStadium": "Imtech-Arena"
-        },
-        "numberOfViewers": 52000
-    },
-    {
-        "matchID": 19828,
-        "matchDateTime": "2012-11-27T20:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 456,
-        "leagueName": "1. Fussball-Bundesliga 2012/2013",
-        "leagueSeason": 2012,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2012-11-27T19:00:00Z",
-        "group": {
-            "groupName": "14. Spieltag",
-            "groupOrderID": 14,
-            "groupID": 13154
-        },
-        "team1": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2012-11-28T21:24:41.683",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 32194,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 3,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 32195,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 16345,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 18,
-                "goalGetterID": 277,
-                "goalGetterName": "Ivanschitz",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 16346,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 42,
-                "goalGetterID": 1466,
-                "goalGetterName": "Parker",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 16350,
-                "scoreTeam1": 0,
-                "scoreTeam2": 3,
-                "matchMinute": 52,
-                "goalGetterID": 281,
-                "goalGetterName": "Noveski",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 16351,
-                "scoreTeam1": 1,
-                "scoreTeam2": 3,
-                "matchMinute": 55,
-                "goalGetterID": 1133,
-                "goalGetterName": "Szalai",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": true,
-                "isOvertime": false,
-                "comment": "Eigentor"
-            }
-        ],
-        "location": {
-            "locationID": 183,
-            "locationCity": "Frankfurt",
-            "locationStadium": "Commerzbank-Arena"
-        },
-        "numberOfViewers": 49000
     },
     {
         "matchID": 19821,
@@ -670,6 +270,93 @@
             "locationID": 709,
             "locationCity": "Stuttgart",
             "locationStadium": " Mercedes-Benz Arena"
+        },
+        "numberOfViewers": 40000
+    },
+    {
+        "matchID": 19823,
+        "matchDateTime": "2012-11-27T20:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 456,
+        "leagueName": "1. Fussball-Bundesliga 2012/2013",
+        "leagueSeason": 2012,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2012-11-27T19:00:00Z",
+        "group": {
+            "groupName": "14. Spieltag",
+            "groupOrderID": 14,
+            "groupID": 13154
+        },
+        "team1": {
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 115,
+            "teamName": "SpVgg Greuther F\u00fcrth",
+            "shortName": "F\u00fcrth",
+            "teamIconUrl": "https://i.imgur.com/pwuVbKr.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2012-11-27T21:31:03.763",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 32190,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 32191,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 16344,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 5,
+                "goalGetterID": 484,
+                "goalGetterName": "Diouf",
+                "scoringTeamId": 55,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 16352,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 69,
+                "goalGetterID": 1098,
+                "goalGetterName": "Eggimann",
+                "scoringTeamId": 55,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 644,
+            "locationCity": "",
+            "locationStadium": "AWD-Arena"
         },
         "numberOfViewers": 40000
     },
@@ -937,5 +624,318 @@
             "locationStadium": "Stadion N\u00fcrnberg"
         },
         "numberOfViewers": 30397
+    },
+    {
+        "matchID": 19826,
+        "matchDateTime": "2012-11-28T20:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 456,
+        "leagueName": "1. Fussball-Bundesliga 2012/2013",
+        "leagueSeason": 2012,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2012-11-28T19:00:00Z",
+        "group": {
+            "groupName": "14. Spieltag",
+            "groupOrderID": 14,
+            "groupID": 13154
+        },
+        "team1": {
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2012-11-29T09:14:33.093",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 32253,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 32222,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 16374,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 12,
+                "goalGetterID": 514,
+                "goalGetterName": "T. M\u00fcller",
+                "scoringTeamId": 40,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 16398,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 79,
+                "goalGetterID": 1579,
+                "goalGetterName": "Tymoshchuk",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 516,
+            "locationCity": "Freiburg",
+            "locationStadium": "MAGE SOLAR Stadion"
+        },
+        "numberOfViewers": 24000
+    },
+    {
+        "matchID": 19827,
+        "matchDateTime": "2012-11-27T20:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 456,
+        "leagueName": "1. Fussball-Bundesliga 2012/2013",
+        "leagueSeason": 2012,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2012-11-27T19:00:00Z",
+        "group": {
+            "groupName": "14. Spieltag",
+            "groupOrderID": 14,
+            "groupID": 13154
+        },
+        "team1": {
+            "teamId": 100,
+            "teamName": "Hamburger SV",
+            "shortName": "HSV",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2012-11-27T21:53:52.153",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 32192,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 32193,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 16348,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 52,
+                "goalGetterID": 1778,
+                "goalGetterName": "Beister",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 16349,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 65,
+                "goalGetterID": 7446,
+                "goalGetterName": "Rudnevs",
+                "scoringTeamId": 100,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 16353,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 80,
+                "goalGetterID": 1207,
+                "goalGetterName": "Huntelaar",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 16355,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 90,
+                "goalGetterID": 8910,
+                "goalGetterName": "Badelj",
+                "scoringTeamId": 100,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 674,
+            "locationCity": "",
+            "locationStadium": "Imtech-Arena"
+        },
+        "numberOfViewers": 52000
+    },
+    {
+        "matchID": 19828,
+        "matchDateTime": "2012-11-27T20:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 456,
+        "leagueName": "1. Fussball-Bundesliga 2012/2013",
+        "leagueSeason": 2012,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2012-11-27T19:00:00Z",
+        "group": {
+            "groupName": "14. Spieltag",
+            "groupOrderID": 14,
+            "groupID": 13154
+        },
+        "team1": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2012-11-28T21:24:41.683",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 32194,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 3,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 32195,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 16345,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 18,
+                "goalGetterID": 277,
+                "goalGetterName": "Ivanschitz",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 16346,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 42,
+                "goalGetterID": 1466,
+                "goalGetterName": "Parker",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 16350,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 52,
+                "goalGetterID": 281,
+                "goalGetterName": "Noveski",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 16351,
+                "scoreTeam1": 1,
+                "scoreTeam2": 3,
+                "matchMinute": 55,
+                "goalGetterID": 1133,
+                "goalGetterName": "Szalai",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": "Eigentor"
+            }
+        ],
+        "location": {
+            "locationID": 183,
+            "locationCity": "Frankfurt",
+            "locationStadium": "Commerzbank-Arena"
+        },
+        "numberOfViewers": 49000
     }
 ]

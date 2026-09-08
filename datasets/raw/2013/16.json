@@ -1,331 +1,5 @@
 [
     {
-        "matchID": 23971,
-        "matchDateTime": "2013-12-14T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 623,
-        "leagueName": "1. Fussball-Bundesliga 2013/2014",
-        "leagueSeason": 2013,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2013-12-14T14:30:00Z",
-        "group": {
-            "groupName": "16. Spieltag",
-            "groupOrderID": 16,
-            "groupID": 13623
-        },
-        "team1": {
-            "teamId": 123,
-            "teamName": "TSG 1899 Hoffenheim",
-            "shortName": "TSG 1899 Hoffenheim",
-            "teamIconUrl": "https://www.openligadb.de/images/teamicons/TSG_Hoffenheim.gif",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2013-12-14T17:32:38.85",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 40430,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 40424,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 24461,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 17,
-                "goalGetterID": 302,
-                "goalGetterName": "Schipplock",
-                "scoringTeamId": 123,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 24466,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 37,
-                "goalGetterID": 1769,
-                "goalGetterName": "Volland",
-                "scoringTeamId": 123,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 24470,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 44,
-                "goalGetterID": 11397,
-                "goalGetterName": "Aubameyang",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 24474,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 67,
-                "goalGetterID": 404,
-                "goalGetterName": "Piszczek",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 511,
-            "locationCity": "Sinsheim",
-            "locationStadium": "WIRSOL Rhein-Neckar-Arena"
-        },
-        "numberOfViewers": 30150
-    },
-    {
-        "matchID": 23967,
-        "matchDateTime": "2013-12-15T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 623,
-        "leagueName": "1. Fussball-Bundesliga 2013/2014",
-        "leagueSeason": 2013,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2013-12-15T14:30:00Z",
-        "group": {
-            "groupName": "16. Spieltag",
-            "groupOrderID": 16,
-            "groupID": 13623
-        },
-        "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2013-12-15T17:20:49.22",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 40478,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 40479,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 24531,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 44,
-                "goalGetterID": 3497,
-                "goalGetterName": "H\u00f6fler",
-                "scoringTeamId": 9,
-                "isPenalty": false,
-                "isOwnGoal": true,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 24532,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 67,
-                "goalGetterID": 256,
-                "goalGetterName": "Farfan",
-                "scoringTeamId": 9,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 403,
-            "locationCity": "Gelsenkirchen",
-            "locationStadium": "Veltins-Arena"
-        },
-        "numberOfViewers": 60661
-    },
-    {
-        "matchID": 23974,
-        "matchDateTime": "2013-12-13T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 623,
-        "leagueName": "1. Fussball-Bundesliga 2013/2014",
-        "leagueSeason": 2013,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2013-12-13T19:30:00Z",
-        "group": {
-            "groupName": "16. Spieltag",
-            "groupOrderID": 16,
-            "groupID": 13623
-        },
-        "team1": {
-            "teamId": 54,
-            "teamName": "Hertha BSC",
-            "shortName": "Hertha",
-            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2013-12-14T14:52:16.023",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 40411,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 40413,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 2,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 24443,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 15,
-                "goalGetterID": 1395,
-                "goalGetterName": "Petersen",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 24444,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 17,
-                "goalGetterID": 777,
-                "goalGetterName": "Ramos",
-                "scoringTeamId": 54,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 24445,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 26,
-                "goalGetterID": 777,
-                "goalGetterName": "Ramos",
-                "scoringTeamId": 54,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 24446,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 32,
-                "goalGetterID": 771,
-                "goalGetterName": "Hunt",
-                "scoringTeamId": 134,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 24447,
-                "scoreTeam1": 3,
-                "scoreTeam2": 2,
-                "matchMinute": 48,
-                "goalGetterID": 1818,
-                "goalGetterName": "Ronny",
-                "scoringTeamId": 54,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 22,
-            "locationCity": "Berlin",
-            "locationStadium": "Olympiastadion"
-        },
-        "numberOfViewers": 48721
-    },
-    {
         "matchID": 23966,
         "matchDateTime": "2013-12-14T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -437,6 +111,167 @@
             "locationStadium": "Allianz Arena"
         },
         "numberOfViewers": 71000
+    },
+    {
+        "matchID": 23967,
+        "matchDateTime": "2013-12-15T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 623,
+        "leagueName": "1. Fussball-Bundesliga 2013/2014",
+        "leagueSeason": 2013,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2013-12-15T14:30:00Z",
+        "group": {
+            "groupName": "16. Spieltag",
+            "groupOrderID": 16,
+            "groupID": 13623
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2013-12-15T17:20:49.22",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 40478,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 40479,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 24531,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 44,
+                "goalGetterID": 3497,
+                "goalGetterName": "H\u00f6fler",
+                "scoringTeamId": 9,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 24532,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 67,
+                "goalGetterID": 256,
+                "goalGetterName": "Farfan",
+                "scoringTeamId": 9,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 403,
+            "locationCity": "Gelsenkirchen",
+            "locationStadium": "Veltins-Arena"
+        },
+        "numberOfViewers": 60661
+    },
+    {
+        "matchID": 23968,
+        "matchDateTime": "2013-12-15T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 623,
+        "leagueName": "1. Fussball-Bundesliga 2013/2014",
+        "leagueSeason": 2013,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2013-12-15T16:30:00Z",
+        "group": {
+            "groupName": "16. Spieltag",
+            "groupOrderID": 16,
+            "groupID": 13623
+        },
+        "team1": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2013-12-15T20:53:01.53",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 40486,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 40487,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 24543,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 61,
+                "goalGetterID": 721,
+                "goalGetterName": "Russ",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 28,
+            "locationCity": "Leverkusen",
+            "locationStadium": "BayArena"
+        },
+        "numberOfViewers": 26242
     },
     {
         "matchID": 23969,
@@ -576,6 +411,232 @@
             "locationStadium": "HDI Arena"
         },
         "numberOfViewers": 38100
+    },
+    {
+        "matchID": 23970,
+        "matchDateTime": "2013-12-14T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 623,
+        "leagueName": "1. Fussball-Bundesliga 2013/2014",
+        "leagueSeason": 2013,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2013-12-14T17:30:00Z",
+        "group": {
+            "groupName": "16. Spieltag",
+            "groupOrderID": 16,
+            "groupID": 13623
+        },
+        "team1": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2013-12-15T20:51:00.303",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 40454,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 40455,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 24495,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 38,
+                "goalGetterID": 12113,
+                "goalGetterName": "Rodriguez",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 24496,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 53,
+                "goalGetterID": 1426,
+                "goalGetterName": "Diego",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 24497,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 57,
+                "goalGetterID": 185,
+                "goalGetterName": "Werner",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 24498,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 78,
+                "goalGetterID": 2588,
+                "goalGetterName": "Perisic",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 20,
+            "locationCity": "Wolfsburg",
+            "locationStadium": "Volkswagen Arena "
+        },
+        "numberOfViewers": 25501
+    },
+    {
+        "matchID": 23971,
+        "matchDateTime": "2013-12-14T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 623,
+        "leagueName": "1. Fussball-Bundesliga 2013/2014",
+        "leagueSeason": 2013,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2013-12-14T14:30:00Z",
+        "group": {
+            "groupName": "16. Spieltag",
+            "groupOrderID": 16,
+            "groupID": 13623
+        },
+        "team1": {
+            "teamId": 123,
+            "teamName": "TSG 1899 Hoffenheim",
+            "shortName": "TSG 1899 Hoffenheim",
+            "teamIconUrl": "https://www.openligadb.de/images/teamicons/TSG_Hoffenheim.gif",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2013-12-14T17:32:38.85",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 40430,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 40424,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 24461,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 17,
+                "goalGetterID": 302,
+                "goalGetterName": "Schipplock",
+                "scoringTeamId": 123,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 24466,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 37,
+                "goalGetterID": 1769,
+                "goalGetterName": "Volland",
+                "scoringTeamId": 123,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 24470,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 44,
+                "goalGetterID": 11397,
+                "goalGetterName": "Aubameyang",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 24474,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 67,
+                "goalGetterID": 404,
+                "goalGetterName": "Piszczek",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 511,
+            "locationCity": "Sinsheim",
+            "locationStadium": "WIRSOL Rhein-Neckar-Arena"
+        },
+        "numberOfViewers": 30150
     },
     {
         "matchID": 23972,
@@ -764,51 +825,51 @@
         "numberOfViewers": 28010
     },
     {
-        "matchID": 23970,
-        "matchDateTime": "2013-12-14T18:30:00",
+        "matchID": 23974,
+        "matchDateTime": "2013-12-13T20:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 623,
         "leagueName": "1. Fussball-Bundesliga 2013/2014",
         "leagueSeason": 2013,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2013-12-14T17:30:00Z",
+        "matchDateTimeUTC": "2013-12-13T19:30:00Z",
         "group": {
             "groupName": "16. Spieltag",
             "groupOrderID": 16,
             "groupID": 13623
         },
         "team1": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2013-12-15T20:51:00.303",
+        "lastUpdateDateTime": "2013-12-14T14:52:16.023",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 40454,
+                "resultID": 40411,
                 "resultName": "Endergebnis",
                 "pointsTeam1": 3,
-                "pointsTeam2": 1,
+                "pointsTeam2": 2,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 40455,
+                "resultID": 40413,
                 "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
+                "pointsTeam1": 2,
+                "pointsTeam2": 2,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
@@ -817,126 +878,65 @@
         ],
         "goals": [
             {
-                "goalID": 24495,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 38,
-                "goalGetterID": 12113,
-                "goalGetterName": "Rodriguez",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 24496,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 53,
-                "goalGetterID": 1426,
-                "goalGetterName": "Diego",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 24497,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 57,
-                "goalGetterID": 185,
-                "goalGetterName": "Werner",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 24498,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 78,
-                "goalGetterID": 2588,
-                "goalGetterName": "Perisic",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 20,
-            "locationCity": "Wolfsburg",
-            "locationStadium": "Volkswagen Arena "
-        },
-        "numberOfViewers": 25501
-    },
-    {
-        "matchID": 23968,
-        "matchDateTime": "2013-12-15T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 623,
-        "leagueName": "1. Fussball-Bundesliga 2013/2014",
-        "leagueSeason": 2013,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2013-12-15T16:30:00Z",
-        "group": {
-            "groupName": "16. Spieltag",
-            "groupOrderID": 16,
-            "groupID": 13623
-        },
-        "team1": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2013-12-15T20:53:01.53",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 40486,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 40487,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 24543,
+                "goalID": 24443,
                 "scoreTeam1": 0,
                 "scoreTeam2": 1,
-                "matchMinute": 61,
-                "goalGetterID": 721,
-                "goalGetterName": "Russ",
-                "scoringTeamId": 91,
+                "matchMinute": 15,
+                "goalGetterID": 1395,
+                "goalGetterName": "Petersen",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 24444,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 17,
+                "goalGetterID": 777,
+                "goalGetterName": "Ramos",
+                "scoringTeamId": 54,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 24445,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 26,
+                "goalGetterID": 777,
+                "goalGetterName": "Ramos",
+                "scoringTeamId": 54,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 24446,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 32,
+                "goalGetterID": 771,
+                "goalGetterName": "Hunt",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 24447,
+                "scoreTeam1": 3,
+                "scoreTeam2": 2,
+                "matchMinute": 48,
+                "goalGetterID": 1818,
+                "goalGetterName": "Ronny",
+                "scoringTeamId": 54,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -944,10 +944,10 @@
             }
         ],
         "location": {
-            "locationID": 28,
-            "locationCity": "Leverkusen",
-            "locationStadium": "BayArena"
+            "locationID": 22,
+            "locationCity": "Berlin",
+            "locationStadium": "Olympiastadion"
         },
-        "numberOfViewers": 26242
+        "numberOfViewers": 48721
     }
 ]

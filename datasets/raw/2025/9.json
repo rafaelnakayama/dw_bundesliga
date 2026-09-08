@@ -1,50 +1,50 @@
 [
     {
-        "matchID": 77332,
-        "matchDateTime": "2025-10-31T20:30:00",
+        "matchID": 77328,
+        "matchDateTime": "2025-11-01T18:30:00",
         "timeZoneID": null,
         "leagueId": 4821,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
         "leagueSeason": 2025,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2025-10-31T19:30:00Z",
+        "matchDateTimeUTC": "2025-11-01T17:30:00Z",
         "group": {
             "groupName": "9. Spieltag",
             "groupOrderID": 9,
             "groupID": 47619
         },
         "team1": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2025-10-31T22:25:24.74",
+        "lastUpdateDateTime": "2025-11-01T20:21:58.073",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 119982,
+                "resultID": 120031,
                 "resultName": "Halbzeit",
                 "pointsTeam1": 0,
-                "pointsTeam2": 1,
+                "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
                 "resultTypeKind": "HalfTime",
                 "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
             },
             {
-                "resultID": 119983,
+                "resultID": 120032,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
@@ -53,15 +53,41 @@
         ],
         "goals": [
             {
-                "goalID": 133746,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 37,
-                "goalGetterID": 19545,
-                "goalGetterName": "S. Guirassy",
-                "scoringTeamId": 7,
+                "goalID": 133840,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 25,
+                "goalGetterID": 16086,
+                "goalGetterName": "S. Gnabry",
+                "scoringTeamId": 40,
                 "isPenalty": false,
                 "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 133841,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 31,
+                "goalGetterID": 23959,
+                "goalGetterName": "Nicolas Jackson",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 133842,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 44,
+                "goalGetterID": 24196,
+                "goalGetterName": "Lo\u00efc Bad\u00e9",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": true,
                 "isOvertime": false,
                 "comment": null
             }
@@ -255,6 +281,198 @@
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 77331,
+        "matchDateTime": "2025-11-02T17:30:00",
+        "timeZoneID": null,
+        "leagueId": 4821,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
+        "leagueSeason": 2025,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2025-11-02T16:30:00Z",
+        "group": {
+            "groupName": "9. Spieltag",
+            "groupOrderID": 9,
+            "groupID": 47619
+        },
+        "team1": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2025-11-02T19:26:35.857",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 120072,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 120073,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 3,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 133914,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 14,
+                "goalGetterID": 22976,
+                "goalGetterName": "M. Amoura",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 133932,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 31,
+                "goalGetterID": 23589,
+                "goalGetterName": "W. Burger",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 133934,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 50,
+                "goalGetterID": 18355,
+                "goalGetterName": "G. Pr\u00f6mel",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 133937,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 56,
+                "goalGetterID": 22976,
+                "goalGetterName": "M. Amoura",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 133938,
+                "scoreTeam1": 2,
+                "scoreTeam2": 3,
+                "matchMinute": 62,
+                "goalGetterID": 23589,
+                "goalGetterName": "W. Burger",
+                "scoringTeamId": 175,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 77332,
+        "matchDateTime": "2025-10-31T20:30:00",
+        "timeZoneID": null,
+        "leagueId": 4821,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
+        "leagueSeason": 2025,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2025-10-31T19:30:00Z",
+        "group": {
+            "groupName": "9. Spieltag",
+            "groupOrderID": 9,
+            "groupID": 47619
+        },
+        "team1": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2025-10-31T22:25:24.74",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 119982,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 119983,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 133746,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 37,
+                "goalGetterID": 19545,
+                "goalGetterName": "S. Guirassy",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
                 "comment": null
             }
         ],
@@ -510,102 +728,6 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 77328,
-        "matchDateTime": "2025-11-01T18:30:00",
-        "timeZoneID": null,
-        "leagueId": 4821,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
-        "leagueSeason": 2025,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2025-11-01T17:30:00Z",
-        "group": {
-            "groupName": "9. Spieltag",
-            "groupOrderID": 9,
-            "groupID": 47619
-        },
-        "team1": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2025-11-01T20:21:58.073",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 120031,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            },
-            {
-                "resultID": 120032,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 133840,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 25,
-                "goalGetterID": 16086,
-                "goalGetterName": "S. Gnabry",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 133841,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 31,
-                "goalGetterID": 23959,
-                "goalGetterName": "Nicolas Jackson",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 133842,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 44,
-                "goalGetterID": 24196,
-                "goalGetterName": "Lo\u00efc Bad\u00e9",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": true,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 77336,
         "matchDateTime": "2025-11-02T15:30:00",
         "timeZoneID": null,
@@ -721,128 +843,6 @@
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": true,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 77331,
-        "matchDateTime": "2025-11-02T17:30:00",
-        "timeZoneID": null,
-        "leagueId": 4821,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
-        "leagueSeason": 2025,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2025-11-02T16:30:00Z",
-        "group": {
-            "groupName": "9. Spieltag",
-            "groupOrderID": 9,
-            "groupID": 47619
-        },
-        "team1": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2025-11-02T19:26:35.857",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 120072,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            },
-            {
-                "resultID": 120073,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 3,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 133914,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 14,
-                "goalGetterID": 22976,
-                "goalGetterName": "M. Amoura",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 133932,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 31,
-                "goalGetterID": 23589,
-                "goalGetterName": "W. Burger",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 133934,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 50,
-                "goalGetterID": 18355,
-                "goalGetterName": "G. Pr\u00f6mel",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 133937,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 56,
-                "goalGetterID": 22976,
-                "goalGetterName": "M. Amoura",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 133938,
-                "scoreTeam1": 2,
-                "scoreTeam2": 3,
-                "matchMinute": 62,
-                "goalGetterID": 23589,
-                "goalGetterName": "W. Burger",
-                "scoringTeamId": 175,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
                 "comment": null
             }
         ],

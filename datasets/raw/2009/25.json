@@ -345,198 +345,6 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 5528,
-        "matchDateTime": "2010-03-06T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 71,
-        "leagueName": "1. Fussball-Bundesliga 2009/2010",
-        "leagueSeason": 2009,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-03-06T14:30:00Z",
-        "group": {
-            "groupName": "25. Spieltag",
-            "groupOrderID": 25,
-            "groupID": 11562
-        },
-        "team1": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 55,
-            "teamName": "Hannover 96",
-            "shortName": "Hannover",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2010-03-06T17:22:04.637",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 11642,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 11643,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeitpause"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 2656,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 62,
-                "goalGetterID": 226,
-                "goalGetterName": "Elson",
-                "scoringTeamId": 55,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 2657,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 70,
-                "goalGetterID": 876,
-                "goalGetterName": "Abdessadki",
-                "scoringTeamId": 112,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 2658,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 72,
-                "goalGetterID": 1090,
-                "goalGetterName": "Ciss\u00e9",
-                "scoringTeamId": 55,
-                "isPenalty": false,
-                "isOwnGoal": true,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 5530,
-        "matchDateTime": "2010-03-06T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 71,
-        "leagueName": "1. Fussball-Bundesliga 2009/2010",
-        "leagueSeason": 2009,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-03-06T17:30:00Z",
-        "group": {
-            "groupName": "25. Spieltag",
-            "groupOrderID": 25,
-            "groupID": 11562
-        },
-        "team1": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2010-03-06T20:24:19.753",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 11647,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 11646,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeitpause"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 2661,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 13,
-                "goalGetterID": 1017,
-                "goalGetterName": "Gro\u00dfkreutz",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 2662,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 54,
-                "goalGetterID": 87,
-                "goalGetterName": "Zidan",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 2667,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 75,
-                "goalGetterID": 87,
-                "goalGetterName": "Zidan",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 5527,
         "matchDateTime": "2010-03-07T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -659,48 +467,48 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 5531,
-        "matchDateTime": "2010-03-07T17:30:00",
+        "matchID": 5528,
+        "matchDateTime": "2010-03-06T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 71,
         "leagueName": "1. Fussball-Bundesliga 2009/2010",
         "leagueSeason": 2009,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2010-03-07T16:30:00Z",
+        "matchDateTimeUTC": "2010-03-06T14:30:00Z",
         "group": {
             "groupName": "25. Spieltag",
             "groupOrderID": 25,
             "groupID": 11562
         },
         "team1": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2010-03-07T19:19:58.08",
+        "lastUpdateDateTime": "2010-03-06T17:22:04.637",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 11652,
+                "resultID": 11642,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 11653,
+                "resultID": 11643,
                 "resultName": "Halbzeitergebnis",
                 "pointsTeam1": 0,
                 "pointsTeam2": 0,
@@ -712,15 +520,41 @@
         ],
         "goals": [
             {
-                "goalID": 2672,
+                "goalID": 2656,
                 "scoreTeam1": 0,
                 "scoreTeam2": 1,
-                "matchMinute": 69,
-                "goalGetterID": 219,
-                "goalGetterName": "Bance",
-                "scoringTeamId": 81,
+                "matchMinute": 62,
+                "goalGetterID": 226,
+                "goalGetterName": "Elson",
+                "scoringTeamId": 55,
                 "isPenalty": false,
                 "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2657,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 70,
+                "goalGetterID": 876,
+                "goalGetterName": "Abdessadki",
+                "scoringTeamId": 112,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2658,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 72,
+                "goalGetterID": 1090,
+                "goalGetterName": "Ciss\u00e9",
+                "scoringTeamId": 55,
+                "isPenalty": false,
+                "isOwnGoal": true,
                 "isOvertime": false,
                 "comment": ""
             }
@@ -815,6 +649,172 @@
                 "goalGetterID": 216,
                 "goalGetterName": "Martins",
                 "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 5530,
+        "matchDateTime": "2010-03-06T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 71,
+        "leagueName": "1. Fussball-Bundesliga 2009/2010",
+        "leagueSeason": 2009,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2010-03-06T17:30:00Z",
+        "group": {
+            "groupName": "25. Spieltag",
+            "groupOrderID": 25,
+            "groupID": 11562
+        },
+        "team1": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2010-03-06T20:24:19.753",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 11647,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 11646,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeitpause"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 2661,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 13,
+                "goalGetterID": 1017,
+                "goalGetterName": "Gro\u00dfkreutz",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2662,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 54,
+                "goalGetterID": 87,
+                "goalGetterName": "Zidan",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 2667,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 75,
+                "goalGetterID": 87,
+                "goalGetterName": "Zidan",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 5531,
+        "matchDateTime": "2010-03-07T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 71,
+        "leagueName": "1. Fussball-Bundesliga 2009/2010",
+        "leagueSeason": 2009,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2010-03-07T16:30:00Z",
+        "group": {
+            "groupName": "25. Spieltag",
+            "groupOrderID": 25,
+            "groupID": 11562
+        },
+        "team1": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2010-03-07T19:19:58.08",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 11652,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 11653,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeitpause"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 2672,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 69,
+                "goalGetterID": 219,
+                "goalGetterName": "Bance",
+                "scoringTeamId": 81,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

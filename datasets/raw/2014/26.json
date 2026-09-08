@@ -1,37 +1,124 @@
 [
     {
-        "matchID": 28225,
-        "matchDateTime": "2015-03-20T20:30:00",
+        "matchID": 28219,
+        "matchDateTime": "2015-03-22T17:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 720,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2014/2015",
         "leagueSeason": 2014,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2015-03-20T19:30:00Z",
+        "matchDateTimeUTC": "2015-03-22T16:30:00Z",
         "group": {
             "groupName": "26. Spieltag",
             "groupOrderID": 26,
             "groupID": 14588
         },
         "team1": {
-            "teamId": 100,
-            "teamName": "Hamburger SV",
-            "shortName": "HSV",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 54,
-            "teamName": "Hertha BSC",
-            "shortName": "Hertha",
-            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2015-05-18T15:33:57.87",
+        "lastUpdateDateTime": "2015-05-18T15:34:53.73",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 52990,
+                "resultID": 53128,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 53075,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 37198,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 30,
+                "goalGetterID": 60,
+                "goalGetterName": "Raffael",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 37236,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 77,
+                "goalGetterID": 60,
+                "goalGetterName": "Raffael",
+                "scoringTeamId": 87,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 573,
+            "locationCity": "M\u00fcnchen",
+            "locationStadium": ""
+        },
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 28220,
+        "matchDateTime": "2015-03-21T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 720,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2014/2015",
+        "leagueSeason": 2014,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2015-03-21T17:30:00Z",
+        "group": {
+            "groupName": "26. Spieltag",
+            "groupOrderID": 26,
+            "groupID": 14588
+        },
+        "team1": {
+            "teamId": 9,
+            "teamName": "FC Schalke 04",
+            "shortName": "S04",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2015-05-19T10:50:03.827",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 53047,
                 "resultName": "Endergebnis",
                 "pointsTeam1": 0,
                 "pointsTeam2": 1,
@@ -41,9 +128,83 @@
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 52991,
+                "resultID": 53048,
                 "resultName": "Halbzeitergebnis",
                 "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 37165,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 35,
+                "goalGetterID": 1379,
+                "goalGetterName": "Bellarabi",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 986,
+            "locationCity": "Schalke",
+            "locationStadium": ""
+        },
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 28221,
+        "matchDateTime": "2015-03-22T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 720,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2014/2015",
+        "leagueSeason": 2014,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2015-03-22T14:30:00Z",
+        "group": {
+            "groupName": "26. Spieltag",
+            "groupOrderID": 26,
+            "groupID": 14588
+        },
+        "team1": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2015-05-18T15:34:47.63",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 53072,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 53073,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
                 "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
@@ -53,13 +214,26 @@
         ],
         "goals": [
             {
-                "goalID": 37102,
-                "scoreTeam1": 0,
+                "goalID": 37196,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 7,
+                "goalGetterID": 46,
+                "goalGetterName": "Bungert",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 37197,
+                "scoreTeam1": 1,
                 "scoreTeam2": 1,
-                "matchMinute": 84,
-                "goalGetterID": 636,
-                "goalGetterName": "Langkamp",
-                "scoringTeamId": 54,
+                "matchMinute": 61,
+                "goalGetterID": 1675,
+                "goalGetterName": "Gustavo",
+                "scoringTeamId": 131,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -67,8 +241,8 @@
             }
         ],
         "location": {
-            "locationID": 430,
-            "locationCity": "Hamburg",
+            "locationID": 153,
+            "locationCity": "Mainz",
             "locationStadium": ""
         },
         "numberOfViewers": null
@@ -400,6 +574,80 @@
         "numberOfViewers": null
     },
     {
+        "matchID": 28225,
+        "matchDateTime": "2015-03-20T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 720,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2014/2015",
+        "leagueSeason": 2014,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2015-03-20T19:30:00Z",
+        "group": {
+            "groupName": "26. Spieltag",
+            "groupOrderID": 26,
+            "groupID": 14588
+        },
+        "team1": {
+            "teamId": 100,
+            "teamName": "Hamburger SV",
+            "shortName": "HSV",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2015-05-18T15:33:57.87",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 52990,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 52991,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 37102,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 84,
+                "goalGetterID": 636,
+                "goalGetterName": "Langkamp",
+                "scoringTeamId": 54,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 430,
+            "locationCity": "Hamburg",
+            "locationStadium": ""
+        },
+        "numberOfViewers": null
+    },
+    {
         "matchID": 28226,
         "matchDateTime": "2015-03-21T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -542,254 +790,6 @@
         "location": {
             "locationID": 810,
             "locationCity": "Paderborn",
-            "locationStadium": ""
-        },
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 28220,
-        "matchDateTime": "2015-03-21T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 720,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2014/2015",
-        "leagueSeason": 2014,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2015-03-21T17:30:00Z",
-        "group": {
-            "groupName": "26. Spieltag",
-            "groupOrderID": 26,
-            "groupID": 14588
-        },
-        "team1": {
-            "teamId": 9,
-            "teamName": "FC Schalke 04",
-            "shortName": "S04",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/97/FC_Schalke_04_Logo.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2015-05-19T10:50:03.827",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 53047,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 53048,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 37165,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 35,
-                "goalGetterID": 1379,
-                "goalGetterName": "Bellarabi",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 986,
-            "locationCity": "Schalke",
-            "locationStadium": ""
-        },
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 28221,
-        "matchDateTime": "2015-03-22T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 720,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2014/2015",
-        "leagueSeason": 2014,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2015-03-22T14:30:00Z",
-        "group": {
-            "groupName": "26. Spieltag",
-            "groupOrderID": 26,
-            "groupID": 14588
-        },
-        "team1": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2015-05-18T15:34:47.63",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 53072,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 53073,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 37196,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 7,
-                "goalGetterID": 46,
-                "goalGetterName": "Bungert",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 37197,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 61,
-                "goalGetterID": 1675,
-                "goalGetterName": "Gustavo",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 153,
-            "locationCity": "Mainz",
-            "locationStadium": ""
-        },
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 28219,
-        "matchDateTime": "2015-03-22T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 720,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2014/2015",
-        "leagueSeason": 2014,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2015-03-22T16:30:00Z",
-        "group": {
-            "groupName": "26. Spieltag",
-            "groupOrderID": 26,
-            "groupID": 14588
-        },
-        "team1": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2015-05-18T15:34:53.73",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 53128,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 53075,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 37198,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 30,
-                "goalGetterID": 60,
-                "goalGetterName": "Raffael",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 37236,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 77,
-                "goalGetterID": 60,
-                "goalGetterName": "Raffael",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 573,
-            "locationCity": "M\u00fcnchen",
             "locationStadium": ""
         },
         "numberOfViewers": null

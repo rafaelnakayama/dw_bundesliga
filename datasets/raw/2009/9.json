@@ -1,49 +1,49 @@
 [
     {
-        "matchID": 5383,
-        "matchDateTime": "2009-10-17T15:30:00",
+        "matchID": 5379,
+        "matchDateTime": "2009-10-18T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 71,
         "leagueName": "1. Fussball-Bundesliga 2009/2010",
         "leagueSeason": 2009,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2009-10-17T13:30:00Z",
+        "matchDateTimeUTC": "2009-10-18T13:30:00Z",
         "group": {
             "groupName": "9. Spieltag",
             "groupOrderID": 9,
             "groupID": 11546
         },
         "team1": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 175,
-            "teamName": "TSG Hoffenheim",
-            "shortName": "Hoffenheim",
-            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2009-10-17T20:45:00.913",
+        "lastUpdateDateTime": "2009-10-18T17:35:42.327",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 8215,
+                "resultID": 8366,
                 "resultName": "Endergebnis",
                 "pointsTeam1": 2,
-                "pointsTeam2": 0,
+                "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 8216,
+                "resultID": 8367,
                 "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 2,
+                "pointsTeam1": 1,
                 "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
@@ -53,26 +53,39 @@
         ],
         "goals": [
             {
-                "goalID": 1776,
+                "goalID": 1793,
                 "scoreTeam1": 1,
                 "scoreTeam2": 0,
-                "matchMinute": 17,
-                "goalGetterID": 309,
-                "goalGetterName": "Pizarro",
-                "scoringTeamId": 134,
+                "matchMinute": 45,
+                "goalGetterID": 875,
+                "goalGetterName": "Madlung",
+                "scoringTeamId": 131,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": ""
             },
             {
-                "goalID": 1778,
+                "goalID": 1794,
                 "scoreTeam1": 2,
                 "scoreTeam2": 0,
-                "matchMinute": 22,
-                "goalGetterID": 895,
-                "goalGetterName": "Mertesacker",
-                "scoringTeamId": 134,
+                "matchMinute": 90,
+                "goalGetterID": 873,
+                "goalGetterName": "Gentner",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 1795,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 90,
+                "goalGetterID": 901,
+                "goalGetterName": "Bradley",
+                "scoringTeamId": 87,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -80,11 +93,11 @@
             }
         ],
         "location": {
-            "locationID": 36,
-            "locationCity": "Bremen",
-            "locationStadium": "Weserstadion"
+            "locationID": 20,
+            "locationCity": "Wolfsburg",
+            "locationStadium": "Volkswagen Arena "
         },
-        "numberOfViewers": 33916
+        "numberOfViewers": 30000
     },
     {
         "matchID": 5380,
@@ -185,6 +198,240 @@
             "locationStadium": "Mercedes Benz Arena "
         },
         "numberOfViewers": 42000
+    },
+    {
+        "matchID": 5381,
+        "matchDateTime": "2009-10-17T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 71,
+        "leagueName": "1. Fussball-Bundesliga 2009/2010",
+        "leagueSeason": 2009,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2009-10-17T16:30:00Z",
+        "group": {
+            "groupName": "9. Spieltag",
+            "groupOrderID": 9,
+            "groupID": 11546
+        },
+        "team1": {
+            "teamId": 100,
+            "teamName": "Hamburger SV",
+            "shortName": "HSV",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2009-10-17T20:42:12.597",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 8364,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 8365,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeitpause"
+            }
+        ],
+        "goals": [],
+        "location": {
+            "locationID": 27,
+            "locationCity": "Hamburg",
+            "locationStadium": "HSH Nordbank Arena "
+        },
+        "numberOfViewers": 57000
+    },
+    {
+        "matchID": 5382,
+        "matchDateTime": "2009-10-18T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 71,
+        "leagueName": "1. Fussball-Bundesliga 2009/2010",
+        "leagueSeason": 2009,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2009-10-18T15:30:00Z",
+        "group": {
+            "groupName": "9. Spieltag",
+            "groupOrderID": 9,
+            "groupID": 11546
+        },
+        "team1": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 129,
+            "teamName": "VfL Bochum",
+            "shortName": "Bochum",
+            "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2009-10-18T19:26:58.01",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 8368,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 8369,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeitpause"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 1796,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 20,
+                "goalGetterID": 312,
+                "goalGetterName": "Lucas",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 1797,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 51,
+                "goalGetterID": 902,
+                "goalGetterName": "Subotic",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 35,
+            "locationCity": "Dortmund",
+            "locationStadium": "Signal Iduna Park"
+        },
+        "numberOfViewers": 72500
+    },
+    {
+        "matchID": 5383,
+        "matchDateTime": "2009-10-17T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 71,
+        "leagueName": "1. Fussball-Bundesliga 2009/2010",
+        "leagueSeason": 2009,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2009-10-17T13:30:00Z",
+        "group": {
+            "groupName": "9. Spieltag",
+            "groupOrderID": 9,
+            "groupID": 11546
+        },
+        "team1": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 175,
+            "teamName": "TSG Hoffenheim",
+            "shortName": "Hoffenheim",
+            "teamIconUrl": "https://i.imgur.com/gF0PfEl.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2009-10-17T20:45:00.913",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 8215,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 8216,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeitpause"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 1776,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 17,
+                "goalGetterID": 309,
+                "goalGetterName": "Pizarro",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 1778,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 22,
+                "goalGetterID": 895,
+                "goalGetterName": "Mertesacker",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 36,
+            "locationCity": "Bremen",
+            "locationStadium": "Weserstadion"
+        },
+        "numberOfViewers": 33916
     },
     {
         "matchID": 5384,
@@ -559,252 +806,5 @@
             "locationStadium": "easyCredit Stadion"
         },
         "numberOfViewers": 38094
-    },
-    {
-        "matchID": 5381,
-        "matchDateTime": "2009-10-17T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 71,
-        "leagueName": "1. Fussball-Bundesliga 2009/2010",
-        "leagueSeason": 2009,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2009-10-17T16:30:00Z",
-        "group": {
-            "groupName": "9. Spieltag",
-            "groupOrderID": 9,
-            "groupID": 11546
-        },
-        "team1": {
-            "teamId": 100,
-            "teamName": "Hamburger SV",
-            "shortName": "HSV",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Hamburger_SV_logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2009-10-17T20:42:12.597",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 8364,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 8365,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeitpause"
-            }
-        ],
-        "goals": [],
-        "location": {
-            "locationID": 27,
-            "locationCity": "Hamburg",
-            "locationStadium": "HSH Nordbank Arena "
-        },
-        "numberOfViewers": 57000
-    },
-    {
-        "matchID": 5379,
-        "matchDateTime": "2009-10-18T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 71,
-        "leagueName": "1. Fussball-Bundesliga 2009/2010",
-        "leagueSeason": 2009,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2009-10-18T13:30:00Z",
-        "group": {
-            "groupName": "9. Spieltag",
-            "groupOrderID": 9,
-            "groupID": 11546
-        },
-        "team1": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2009-10-18T17:35:42.327",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 8366,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 8367,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeitpause"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 1793,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 45,
-                "goalGetterID": 875,
-                "goalGetterName": "Madlung",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 1794,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 90,
-                "goalGetterID": 873,
-                "goalGetterName": "Gentner",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 1795,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 90,
-                "goalGetterID": 901,
-                "goalGetterName": "Bradley",
-                "scoringTeamId": 87,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 20,
-            "locationCity": "Wolfsburg",
-            "locationStadium": "Volkswagen Arena "
-        },
-        "numberOfViewers": 30000
-    },
-    {
-        "matchID": 5382,
-        "matchDateTime": "2009-10-18T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 71,
-        "leagueName": "1. Fussball-Bundesliga 2009/2010",
-        "leagueSeason": 2009,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2009-10-18T15:30:00Z",
-        "group": {
-            "groupName": "9. Spieltag",
-            "groupOrderID": 9,
-            "groupID": 11546
-        },
-        "team1": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 129,
-            "teamName": "VfL Bochum",
-            "shortName": "Bochum",
-            "teamIconUrl": "https://i.imgur.com/5jy3Gfr.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2009-10-18T19:26:58.01",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 8368,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 8369,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeitpause"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 1796,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 20,
-                "goalGetterID": 312,
-                "goalGetterName": "Lucas",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 1797,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 51,
-                "goalGetterID": 902,
-                "goalGetterName": "Subotic",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 35,
-            "locationCity": "Dortmund",
-            "locationStadium": "Signal Iduna Park"
-        },
-        "numberOfViewers": 72500
     }
 ]

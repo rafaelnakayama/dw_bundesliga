@@ -1,39 +1,39 @@
 [
     {
-        "matchID": 77322,
-        "matchDateTime": "2025-10-24T20:30:00",
+        "matchID": 77319,
+        "matchDateTime": "2025-10-26T15:30:00",
         "timeZoneID": null,
         "leagueId": 4821,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
         "leagueSeason": 2025,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2025-10-24T18:30:00Z",
+        "matchDateTimeUTC": "2025-10-26T14:30:00Z",
         "group": {
             "groupName": "8. Spieltag",
             "groupOrderID": 8,
             "groupID": 47618
         },
         "team1": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 80,
-            "teamName": "1. FC Union Berlin",
-            "shortName": "Union Berlin",
-            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2025-10-24T22:36:04.717",
+        "lastUpdateDateTime": "2025-10-26T17:40:11.557",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 119790,
+                "resultID": 119859,
                 "resultName": "Halbzeit",
-                "pointsTeam1": 0,
+                "pointsTeam1": 1,
                 "pointsTeam2": 0,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
@@ -41,9 +41,9 @@
                 "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
             },
             {
-                "resultID": 119791,
+                "resultID": 119860,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 1,
+                "pointsTeam1": 2,
                 "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
@@ -53,13 +53,26 @@
         ],
         "goals": [
             {
-                "goalID": 133407,
+                "goalID": 133501,
                 "scoreTeam1": 1,
                 "scoreTeam2": 0,
-                "matchMinute": 72,
-                "goalGetterID": 20688,
-                "goalGetterName": "M. Gr\u00fcll",
-                "scoringTeamId": 134,
+                "matchMinute": 22,
+                "goalGetterID": 23932,
+                "goalGetterName": "E. Poku",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 133507,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 52,
+                "goalGetterID": 18414,
+                "goalGetterName": "E. Tapsoba",
+                "scoringTeamId": 6,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -143,6 +156,242 @@
                 "goalGetterID": 19126,
                 "goalGetterName": "J. Burkardt",
                 "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 77321,
+        "matchDateTime": "2025-10-25T18:30:00",
+        "timeZoneID": null,
+        "leagueId": 4821,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
+        "leagueSeason": 2025,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2025-10-25T16:30:00Z",
+        "group": {
+            "groupName": "8. Spieltag",
+            "groupOrderID": 8,
+            "groupID": 47618
+        },
+        "team1": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2025-10-25T20:27:54.28",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 119830,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 119831,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 133470,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 96,
+                "goalGetterID": 19132,
+                "goalGetterName": "M. Beier",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 77322,
+        "matchDateTime": "2025-10-24T20:30:00",
+        "timeZoneID": null,
+        "leagueId": 4821,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
+        "leagueSeason": 2025,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2025-10-24T18:30:00Z",
+        "group": {
+            "groupName": "8. Spieltag",
+            "groupOrderID": 8,
+            "groupID": 47618
+        },
+        "team1": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 80,
+            "teamName": "1. FC Union Berlin",
+            "shortName": "Union Berlin",
+            "teamIconUrl": "https://assets.dfb.de/uploads/000/018/232/small_union-Berlin.jpg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2025-10-24T22:36:04.717",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 119790,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 119791,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 133407,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 72,
+                "goalGetterID": 20688,
+                "goalGetterName": "M. Gr\u00fcll",
+                "scoringTeamId": 134,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 77323,
+        "matchDateTime": "2025-10-26T17:30:00",
+        "timeZoneID": null,
+        "leagueId": 4821,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
+        "leagueSeason": 2025,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2025-10-26T16:30:00Z",
+        "group": {
+            "groupName": "8. Spieltag",
+            "groupOrderID": 8,
+            "groupID": 47618
+        },
+        "team1": {
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2025-10-26T19:29:17.337",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 119873,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 119874,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 133513,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 41,
+                "goalGetterID": 18410,
+                "goalGetterName": "N. Amiri",
+                "scoringTeamId": 81,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 133514,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 45,
+                "goalGetterID": 18304,
+                "goalGetterName": "C. F\u00fchrich",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            },
+            {
+                "goalID": 133538,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 80,
+                "goalGetterID": 16686,
+                "goalGetterName": "D. Undav",
+                "scoringTeamId": 16,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
@@ -553,255 +802,6 @@
                 "goalGetterID": 23997,
                 "goalGetterName": "A. Daghim",
                 "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 77321,
-        "matchDateTime": "2025-10-25T18:30:00",
-        "timeZoneID": null,
-        "leagueId": 4821,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
-        "leagueSeason": 2025,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2025-10-25T16:30:00Z",
-        "group": {
-            "groupName": "8. Spieltag",
-            "groupOrderID": 8,
-            "groupID": 47618
-        },
-        "team1": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2025-10-25T20:27:54.28",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 119830,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            },
-            {
-                "resultID": 119831,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 133470,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 96,
-                "goalGetterID": 19132,
-                "goalGetterName": "M. Beier",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 77319,
-        "matchDateTime": "2025-10-26T15:30:00",
-        "timeZoneID": null,
-        "leagueId": 4821,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
-        "leagueSeason": 2025,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2025-10-26T14:30:00Z",
-        "group": {
-            "groupName": "8. Spieltag",
-            "groupOrderID": 8,
-            "groupID": 47618
-        },
-        "team1": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2025-10-26T17:40:11.557",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 119859,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            },
-            {
-                "resultID": 119860,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 133501,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 22,
-                "goalGetterID": 23932,
-                "goalGetterName": "E. Poku",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 133507,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 52,
-                "goalGetterID": 18414,
-                "goalGetterName": "E. Tapsoba",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 77323,
-        "matchDateTime": "2025-10-26T17:30:00",
-        "timeZoneID": null,
-        "leagueId": 4821,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
-        "leagueSeason": 2025,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2025-10-26T16:30:00Z",
-        "group": {
-            "groupName": "8. Spieltag",
-            "groupOrderID": 8,
-            "groupID": 47618
-        },
-        "team1": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2025-10-26T19:29:17.337",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 119873,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            },
-            {
-                "resultID": 119874,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 133513,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 41,
-                "goalGetterID": 18410,
-                "goalGetterName": "N. Amiri",
-                "scoringTeamId": 81,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 133514,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 45,
-                "goalGetterID": 18304,
-                "goalGetterName": "C. F\u00fchrich",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": null
-            },
-            {
-                "goalID": 133538,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 80,
-                "goalGetterID": 16686,
-                "goalGetterName": "D. Undav",
-                "scoringTeamId": 16,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

@@ -326,6 +326,93 @@
         "numberOfViewers": 25274
     },
     {
+        "matchID": 39687,
+        "matchDateTime": "2016-09-25T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 3005,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
+        "leagueSeason": 2016,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2016-09-25T15:30:00Z",
+        "group": {
+            "groupName": "5. Spieltag",
+            "groupOrderID": 5,
+            "groupID": 23837
+        },
+        "team1": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2016-09-25T19:37:35.837",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 68653,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis zur Halbzeit"
+            },
+            {
+                "resultID": 68654,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Spielende"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 54058,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 5,
+                "goalGetterID": 16124,
+                "goalGetterName": "Oliver Burke",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 54059,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 25,
+                "goalGetterID": 13706,
+                "goalGetterName": "Yuya Osako",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            }
+        ],
+        "location": {
+            "locationID": 788,
+            "locationCity": "K\u00f6ln",
+            "locationStadium": "Rheinenergie Stadion"
+        },
+        "numberOfViewers": null
+    },
+    {
         "matchID": 39688,
         "matchDateTime": "2016-09-24T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -472,145 +559,6 @@
             "locationStadium": "WWK-Arena"
         },
         "numberOfViewers": 28113
-    },
-    {
-        "matchID": 39692,
-        "matchDateTime": "2016-09-24T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 3005,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
-        "leagueSeason": 2016,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2016-09-24T13:30:00Z",
-        "group": {
-            "groupName": "5. Spieltag",
-            "groupOrderID": 5,
-            "groupID": 23837
-        },
-        "team1": {
-            "teamId": 91,
-            "teamName": "Eintracht Frankfurt",
-            "shortName": "Frankfurt",
-            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 54,
-            "teamName": "Hertha BSC",
-            "shortName": "Hertha",
-            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2016-09-24T22:17:56.04",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 68621,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis zur Halbzeit"
-            },
-            {
-                "resultID": 68622,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 3,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Spielende"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 53989,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 19,
-                "goalGetterID": 1479,
-                "goalGetterName": "Vedad Ibisevic",
-                "scoringTeamId": 54,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 53993,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 39,
-                "goalGetterID": 16081,
-                "goalGetterName": "Marco Fabian",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 53994,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 45,
-                "goalGetterID": 1002,
-                "goalGetterName": "Alexander Meier",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 53997,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 58,
-                "goalGetterID": 1479,
-                "goalGetterName": "Vedad Ibisevic",
-                "scoringTeamId": 54,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 54000,
-                "scoreTeam1": 2,
-                "scoreTeam2": 3,
-                "matchMinute": 65,
-                "goalGetterID": 16115,
-                "goalGetterName": "Alexander Esswein",
-                "scoringTeamId": 54,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": ""
-            },
-            {
-                "goalID": 54029,
-                "scoreTeam1": 3,
-                "scoreTeam2": 3,
-                "matchMinute": 92,
-                "goalGetterID": 16116,
-                "goalGetterName": "Michael Hector",
-                "scoringTeamId": 91,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": ""
-            }
-        ],
-        "location": {
-            "locationID": 183,
-            "locationCity": "Frankfurt",
-            "locationStadium": "Commerzbank-Arena"
-        },
-        "numberOfViewers": 45000
     },
     {
         "matchID": 39690,
@@ -813,40 +761,40 @@
         "numberOfViewers": null
     },
     {
-        "matchID": 39687,
-        "matchDateTime": "2016-09-25T17:30:00",
+        "matchID": 39692,
+        "matchDateTime": "2016-09-24T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 3005,
         "leagueName": "1. Fu\u00dfball-Bundesliga 2016/2017",
         "leagueSeason": 2016,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2016-09-25T15:30:00Z",
+        "matchDateTimeUTC": "2016-09-24T13:30:00Z",
         "group": {
             "groupName": "5. Spieltag",
             "groupOrderID": 5,
             "groupID": 23837
         },
         "team1": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamId": 91,
+            "teamName": "Eintracht Frankfurt",
+            "shortName": "Frankfurt",
+            "teamIconUrl": "https://i.imgur.com/X8NFkOb.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 1635,
-            "teamName": "RB Leipzig",
-            "shortName": "Leipzig",
-            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2016-09-25T19:37:35.837",
+        "lastUpdateDateTime": "2016-09-24T22:17:56.04",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 68653,
+                "resultID": 68621,
                 "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
+                "pointsTeam1": 2,
                 "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 1,
@@ -854,10 +802,10 @@
                 "resultDescription": "Ergebnis zur Halbzeit"
             },
             {
-                "resultID": 68654,
+                "resultID": 68622,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
+                "pointsTeam1": 3,
+                "pointsTeam2": 3,
                 "resultOrderID": 2,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
@@ -866,37 +814,89 @@
         ],
         "goals": [
             {
-                "goalID": 54058,
+                "goalID": 53989,
                 "scoreTeam1": 0,
                 "scoreTeam2": 1,
-                "matchMinute": 5,
-                "goalGetterID": 16124,
-                "goalGetterName": "Oliver Burke",
-                "scoringTeamId": 1635,
+                "matchMinute": 19,
+                "goalGetterID": 1479,
+                "goalGetterName": "Vedad Ibisevic",
+                "scoringTeamId": 54,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 53993,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 39,
+                "goalGetterID": 16081,
+                "goalGetterName": "Marco Fabian",
+                "scoringTeamId": 91,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": ""
             },
             {
-                "goalID": 54059,
-                "scoreTeam1": 1,
+                "goalID": 53994,
+                "scoreTeam1": 2,
                 "scoreTeam2": 1,
-                "matchMinute": 25,
-                "goalGetterID": 13706,
-                "goalGetterName": "Yuya Osako",
-                "scoringTeamId": 65,
+                "matchMinute": 45,
+                "goalGetterID": 1002,
+                "goalGetterName": "Alexander Meier",
+                "scoringTeamId": 91,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": ""
+            },
+            {
+                "goalID": 53997,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 58,
+                "goalGetterID": 1479,
+                "goalGetterName": "Vedad Ibisevic",
+                "scoringTeamId": 54,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 54000,
+                "scoreTeam1": 2,
+                "scoreTeam2": 3,
+                "matchMinute": 65,
+                "goalGetterID": 16115,
+                "goalGetterName": "Alexander Esswein",
+                "scoringTeamId": 54,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": ""
+            },
+            {
+                "goalID": 54029,
+                "scoreTeam1": 3,
+                "scoreTeam2": 3,
+                "matchMinute": 92,
+                "goalGetterID": 16116,
+                "goalGetterName": "Michael Hector",
+                "scoringTeamId": 91,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": ""
             }
         ],
         "location": {
-            "locationID": 788,
-            "locationCity": "K\u00f6ln",
-            "locationStadium": "Rheinenergie Stadion"
+            "locationID": 183,
+            "locationCity": "Frankfurt",
+            "locationStadium": "Commerzbank-Arena"
         },
-        "numberOfViewers": null
+        "numberOfViewers": 45000
     }
 ]

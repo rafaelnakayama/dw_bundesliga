@@ -1,51 +1,5 @@
 [
     {
-        "matchID": 103,
-        "matchDateTime": "2006-11-08T20:00:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 6,
-        "leagueName": "1. Fussball-Bundesliga 2006/2007",
-        "leagueSeason": 2006,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2006-11-08T19:00:00Z",
-        "group": {
-            "groupName": "11. Spieltag",
-            "groupOrderID": 11,
-            "groupID": 10997
-        },
-        "team1": {
-            "teamId": 83,
-            "teamName": "DSC Arminia Bielefeld",
-            "shortName": "Bielefeld",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 54,
-            "teamName": "Hertha BSC",
-            "shortName": "Hertha",
-            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2008-10-02T22:14:55.65",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 829,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 0,
-                "resultTypeKind": "Unknown",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 98,
         "matchDateTime": "2006-11-07T20:00:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -265,6 +219,52 @@
                 "resultName": "Endergebnis",
                 "pointsTeam1": 1,
                 "pointsTeam2": 3,
+                "resultOrderID": 1,
+                "resultTypeID": 0,
+                "resultTypeKind": "Unknown",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 103,
+        "matchDateTime": "2006-11-08T20:00:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 6,
+        "leagueName": "1. Fussball-Bundesliga 2006/2007",
+        "leagueSeason": 2006,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2006-11-08T19:00:00Z",
+        "group": {
+            "groupName": "11. Spieltag",
+            "groupOrderID": 11,
+            "groupID": 10997
+        },
+        "team1": {
+            "teamId": 83,
+            "teamName": "DSC Arminia Bielefeld",
+            "shortName": "Bielefeld",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Arminia_Bielefeld_Logo_2021%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2008-10-02T22:14:55.65",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 829,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 2,
                 "resultOrderID": 1,
                 "resultTypeID": 0,
                 "resultTypeKind": "Unknown",

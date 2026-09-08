@@ -1,92 +1,5 @@
 [
     {
-        "matchID": 23857,
-        "matchDateTime": "2013-10-04T20:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 623,
-        "leagueName": "1. Fussball-Bundesliga 2013/2014",
-        "leagueSeason": 2013,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2013-10-04T18:30:00Z",
-        "group": {
-            "groupName": "8. Spieltag",
-            "groupOrderID": 8,
-            "groupID": 13615
-        },
-        "team1": {
-            "teamId": 55,
-            "teamName": "Hannover 96",
-            "shortName": "Hannover",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 54,
-            "teamName": "Hertha BSC",
-            "shortName": "Hertha",
-            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2013-10-05T00:01:23.84",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 38780,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 38772,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 22629,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 23,
-                "goalGetterID": 877,
-                "goalGetterName": "Schulz",
-                "scoringTeamId": 55,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 22641,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 81,
-                "goalGetterID": 1818,
-                "goalGetterName": "Ronny",
-                "scoringTeamId": 54,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 845,
-            "locationCity": "Hannover",
-            "locationStadium": "HDI Arena"
-        },
-        "numberOfViewers": 46500
-    },
-    {
         "matchID": 23853,
         "matchDateTime": "2013-10-05T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -300,6 +213,93 @@
         "numberOfViewers": 54010
     },
     {
+        "matchID": 23855,
+        "matchDateTime": "2013-10-05T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 623,
+        "leagueName": "1. Fussball-Bundesliga 2013/2014",
+        "leagueSeason": 2013,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2013-10-05T16:30:00Z",
+        "group": {
+            "groupName": "8. Spieltag",
+            "groupOrderID": 8,
+            "groupID": 13615
+        },
+        "team1": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 40,
+            "teamName": "FC Bayern M\u00fcnchen",
+            "shortName": "Bayern",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2013-10-05T23:52:28.937",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 38832,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 38833,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 22694,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 29,
+                "goalGetterID": 851,
+                "goalGetterName": "Kroos",
+                "scoringTeamId": 40,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 22695,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 31,
+                "goalGetterID": 394,
+                "goalGetterName": "Sam",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 28,
+            "locationCity": "Leverkusen",
+            "locationStadium": "BayArena"
+        },
+        "numberOfViewers": 30210
+    },
+    {
         "matchID": 23856,
         "matchDateTime": "2013-10-05T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -387,6 +387,93 @@
         "numberOfViewers": 50410
     },
     {
+        "matchID": 23857,
+        "matchDateTime": "2013-10-04T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 623,
+        "leagueName": "1. Fussball-Bundesliga 2013/2014",
+        "leagueSeason": 2013,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2013-10-04T18:30:00Z",
+        "group": {
+            "groupName": "8. Spieltag",
+            "groupOrderID": 8,
+            "groupID": 13615
+        },
+        "team1": {
+            "teamId": 55,
+            "teamName": "Hannover 96",
+            "shortName": "Hannover",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Hannover_96_Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 54,
+            "teamName": "Hertha BSC",
+            "shortName": "Hertha",
+            "teamIconUrl": "https://i.imgur.com/apFwbYZ.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2013-10-05T00:01:23.84",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 38780,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 38772,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 22629,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 23,
+                "goalGetterID": 877,
+                "goalGetterName": "Schulz",
+                "scoringTeamId": 55,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 22641,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 81,
+                "goalGetterID": 1818,
+                "goalGetterName": "Ronny",
+                "scoringTeamId": 54,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 845,
+            "locationCity": "Hannover",
+            "locationStadium": "HDI Arena"
+        },
+        "numberOfViewers": 46500
+    },
+    {
         "matchID": 23858,
         "matchDateTime": "2013-10-05T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -472,206 +559,6 @@
             "locationStadium": "Volkswagen Arena "
         },
         "numberOfViewers": 30000
-    },
-    {
-        "matchID": 23861,
-        "matchDateTime": "2013-10-05T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 623,
-        "leagueName": "1. Fussball-Bundesliga 2013/2014",
-        "leagueSeason": 2013,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2013-10-05T13:30:00Z",
-        "group": {
-            "groupName": "8. Spieltag",
-            "groupOrderID": 8,
-            "groupID": 13615
-        },
-        "team1": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 123,
-            "teamName": "TSG 1899 Hoffenheim",
-            "shortName": "TSG 1899 Hoffenheim",
-            "teamIconUrl": "https://www.openligadb.de/images/teamicons/TSG_Hoffenheim.gif",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2013-10-05T17:35:15.627",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 38807,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 2,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 38808,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 22658,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 14,
-                "goalGetterID": 1769,
-                "goalGetterName": "Volland",
-                "scoringTeamId": 123,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 22665,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 22,
-                "goalGetterID": 1964,
-                "goalGetterName": "Firmino",
-                "scoringTeamId": 123,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 22671,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 82,
-                "goalGetterID": 657,
-                "goalGetterName": "Choupo-Moting",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 22675,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 93,
-                "goalGetterID": 281,
-                "goalGetterName": "Noveski",
-                "scoringTeamId": 81,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 465,
-            "locationCity": "Mainz",
-            "locationStadium": "Coface Arena"
-        },
-        "numberOfViewers": 25187
-    },
-    {
-        "matchID": 23855,
-        "matchDateTime": "2013-10-05T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 623,
-        "leagueName": "1. Fussball-Bundesliga 2013/2014",
-        "leagueSeason": 2013,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2013-10-05T16:30:00Z",
-        "group": {
-            "groupName": "8. Spieltag",
-            "groupOrderID": 8,
-            "groupID": 13615
-        },
-        "team1": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 40,
-            "teamName": "FC Bayern M\u00fcnchen",
-            "shortName": "Bayern",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Logo_FC_Bayern_M%C3%BCnchen_%282002%E2%80%932017%29.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2013-10-05T23:52:28.937",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 38832,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 38833,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 22694,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 29,
-                "goalGetterID": 851,
-                "goalGetterName": "Kroos",
-                "scoringTeamId": 40,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 22695,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 31,
-                "goalGetterID": 394,
-                "goalGetterName": "Sam",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 28,
-            "locationCity": "Leverkusen",
-            "locationStadium": "BayArena"
-        },
-        "numberOfViewers": 30210
     },
     {
         "matchID": 23859,
@@ -885,5 +772,118 @@
             "locationStadium": "MAGE SOLAR Stadion"
         },
         "numberOfViewers": 23300
+    },
+    {
+        "matchID": 23861,
+        "matchDateTime": "2013-10-05T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 623,
+        "leagueName": "1. Fussball-Bundesliga 2013/2014",
+        "leagueSeason": 2013,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2013-10-05T13:30:00Z",
+        "group": {
+            "groupName": "8. Spieltag",
+            "groupOrderID": 8,
+            "groupID": 13615
+        },
+        "team1": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 123,
+            "teamName": "TSG 1899 Hoffenheim",
+            "shortName": "TSG 1899 Hoffenheim",
+            "teamIconUrl": "https://www.openligadb.de/images/teamicons/TSG_Hoffenheim.gif",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2013-10-05T17:35:15.627",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 38807,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 2,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 38808,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 22658,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 14,
+                "goalGetterID": 1769,
+                "goalGetterName": "Volland",
+                "scoringTeamId": 123,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 22665,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 22,
+                "goalGetterID": 1964,
+                "goalGetterName": "Firmino",
+                "scoringTeamId": 123,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 22671,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 82,
+                "goalGetterID": 657,
+                "goalGetterName": "Choupo-Moting",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 22675,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 93,
+                "goalGetterID": 281,
+                "goalGetterName": "Noveski",
+                "scoringTeamId": 81,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 465,
+            "locationCity": "Mainz",
+            "locationStadium": "Coface Arena"
+        },
+        "numberOfViewers": 25187
     }
 ]

@@ -1,114 +1,5 @@
 [
     {
-        "matchID": 77448,
-        "matchDateTime": "2026-02-13T20:30:00",
-        "timeZoneID": null,
-        "leagueId": 4821,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
-        "leagueSeason": 2025,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2026-02-13T19:30:00Z",
-        "group": {
-            "groupName": "22. Spieltag",
-            "groupOrderID": 22,
-            "groupID": 47632
-        },
-        "team1": {
-            "teamId": 7,
-            "teamName": "Borussia Dortmund",
-            "shortName": "Dortmund",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 81,
-            "teamName": "1. FSV Mainz 05",
-            "shortName": "Mainz",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2026-02-13T22:24:27.993",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 123131,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 3,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            },
-            {
-                "resultID": 123132,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 4,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 139406,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 10,
-                "goalGetterID": 19545,
-                "goalGetterName": "S. Guirassy",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 139408,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 15,
-                "goalGetterID": 19132,
-                "goalGetterName": "M. Beier",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 139412,
-                "scoreTeam1": 3,
-                "scoreTeam2": 0,
-                "matchMinute": 42,
-                "goalGetterID": 19545,
-                "goalGetterName": "S. Guirassy",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 139413,
-                "scoreTeam1": 4,
-                "scoreTeam2": 0,
-                "matchMinute": 84,
-                "goalGetterID": 18674,
-                "goalGetterName": "D. Kohr",
-                "scoringTeamId": 7,
-                "isPenalty": false,
-                "isOwnGoal": true,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
         "matchID": 77446,
         "matchDateTime": "2026-02-14T15:30:00",
         "timeZoneID": null,
@@ -314,6 +205,224 @@
         "numberOfViewers": null
     },
     {
+        "matchID": 77448,
+        "matchDateTime": "2026-02-13T20:30:00",
+        "timeZoneID": null,
+        "leagueId": 4821,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
+        "leagueSeason": 2025,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2026-02-13T19:30:00Z",
+        "group": {
+            "groupName": "22. Spieltag",
+            "groupOrderID": 22,
+            "groupID": 47632
+        },
+        "team1": {
+            "teamId": 7,
+            "teamName": "Borussia Dortmund",
+            "shortName": "Dortmund",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Borussia_Dortmund_logo.svg/960px-Borussia_Dortmund_logo.svg.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 81,
+            "teamName": "1. FSV Mainz 05",
+            "shortName": "Mainz",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Logo_Mainz_05.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2026-02-13T22:24:27.993",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 123131,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 3,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 123132,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 4,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 139406,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 10,
+                "goalGetterID": 19545,
+                "goalGetterName": "S. Guirassy",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 139408,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 15,
+                "goalGetterID": 19132,
+                "goalGetterName": "M. Beier",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 139412,
+                "scoreTeam1": 3,
+                "scoreTeam2": 0,
+                "matchMinute": 42,
+                "goalGetterID": 19545,
+                "goalGetterName": "S. Guirassy",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 139413,
+                "scoreTeam1": 4,
+                "scoreTeam2": 0,
+                "matchMinute": 84,
+                "goalGetterID": 18674,
+                "goalGetterName": "D. Kohr",
+                "scoringTeamId": 7,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 77449,
+        "matchDateTime": "2026-02-15T17:30:00",
+        "timeZoneID": null,
+        "leagueId": 4821,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
+        "leagueSeason": 2025,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2026-02-15T16:30:00Z",
+        "group": {
+            "groupName": "22. Spieltag",
+            "groupOrderID": 22,
+            "groupID": 47632
+        },
+        "team1": {
+            "teamId": 1635,
+            "teamName": "RB Leipzig",
+            "shortName": "Leipzig",
+            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2026-02-15T19:27:24.54",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 123205,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 123206,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 2,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 139527,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 52,
+                "goalGetterID": 22976,
+                "goalGetterName": "M. Amoura",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 139530,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 70,
+                "goalGetterID": 23584,
+                "goalGetterName": "Y. Diomande",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 139531,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 78,
+                "goalGetterID": 19593,
+                "goalGetterName": "M. Svanberg",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 139532,
+                "scoreTeam1": 2,
+                "scoreTeam2": 2,
+                "matchMinute": 89,
+                "goalGetterID": 20646,
+                "goalGetterName": "B. Gruda",
+                "scoringTeamId": 1635,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 77450,
         "matchDateTime": "2026-02-14T15:30:00",
         "timeZoneID": null,
@@ -401,6 +510,185 @@
                 "goalGetterName": "L. Goretzka",
                 "scoringTeamId": 40,
                 "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 77451,
+        "matchDateTime": "2026-02-14T18:30:00",
+        "timeZoneID": null,
+        "leagueId": 4821,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
+        "leagueSeason": 2025,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2026-02-14T17:30:00Z",
+        "group": {
+            "groupName": "22. Spieltag",
+            "groupOrderID": 22,
+            "groupID": 47632
+        },
+        "team1": {
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 65,
+            "teamName": "1. FC K\u00f6ln",
+            "shortName": "K\u00f6ln",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2026-02-14T20:25:22.48",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 123167,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 123168,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 3,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 139477,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 15,
+                "goalGetterID": 18339,
+                "goalGetterName": "E. Demirovic",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 139483,
+                "scoreTeam1": 1,
+                "scoreTeam2": 1,
+                "matchMinute": 79,
+                "goalGetterID": 18787,
+                "goalGetterName": "R. Ache",
+                "scoringTeamId": 65,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 139484,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 84,
+                "goalGetterID": 18339,
+                "goalGetterName": "E. Demirovic",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 139485,
+                "scoreTeam1": 3,
+                "scoreTeam2": 1,
+                "matchMinute": 92,
+                "goalGetterID": 16686,
+                "goalGetterName": "D. Undav",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
+        "matchID": 77452,
+        "matchDateTime": "2026-02-15T15:30:00",
+        "timeZoneID": null,
+        "leagueId": 4821,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
+        "leagueSeason": 2025,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2026-02-15T14:30:00Z",
+        "group": {
+            "groupName": "22. Spieltag",
+            "groupOrderID": 22,
+            "groupID": 47632
+        },
+        "team1": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 199,
+            "teamName": "1. FC Heidenheim 1846",
+            "shortName": "Heidenheim",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2026-02-15T17:34:29.1",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 123199,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
+            },
+            {
+                "resultID": 123200,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 139520,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 80,
+                "goalGetterID": 23130,
+                "goalGetterName": "A. Claude-Maurice",
+                "scoringTeamId": 95,
+                "isPenalty": true,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
@@ -618,294 +906,6 @@
                 "goalGetterID": 23246,
                 "goalGetterName": "A. Ilic",
                 "scoringTeamId": 80,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 77451,
-        "matchDateTime": "2026-02-14T18:30:00",
-        "timeZoneID": null,
-        "leagueId": 4821,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
-        "leagueSeason": 2025,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2026-02-14T17:30:00Z",
-        "group": {
-            "groupName": "22. Spieltag",
-            "groupOrderID": 22,
-            "groupID": 47632
-        },
-        "team1": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 65,
-            "teamName": "1. FC K\u00f6ln",
-            "shortName": "K\u00f6ln",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/0/01/1._FC_Koeln_Logo_2014%E2%80%93.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2026-02-14T20:25:22.48",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 123167,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            },
-            {
-                "resultID": 123168,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 3,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 139477,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 15,
-                "goalGetterID": 18339,
-                "goalGetterName": "E. Demirovic",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 139483,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 79,
-                "goalGetterID": 18787,
-                "goalGetterName": "R. Ache",
-                "scoringTeamId": 65,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 139484,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 84,
-                "goalGetterID": 18339,
-                "goalGetterName": "E. Demirovic",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 139485,
-                "scoreTeam1": 3,
-                "scoreTeam2": 1,
-                "matchMinute": 92,
-                "goalGetterID": 16686,
-                "goalGetterName": "D. Undav",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 77452,
-        "matchDateTime": "2026-02-15T15:30:00",
-        "timeZoneID": null,
-        "leagueId": 4821,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
-        "leagueSeason": 2025,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2026-02-15T14:30:00Z",
-        "group": {
-            "groupName": "22. Spieltag",
-            "groupOrderID": 22,
-            "groupID": 47632
-        },
-        "team1": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 199,
-            "teamName": "1. FC Heidenheim 1846",
-            "shortName": "Heidenheim",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/1._FC_Heidenheim_1846.svg",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2026-02-15T17:34:29.1",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 123199,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            },
-            {
-                "resultID": 123200,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 139520,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 80,
-                "goalGetterID": 23130,
-                "goalGetterName": "A. Claude-Maurice",
-                "scoringTeamId": 95,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 77449,
-        "matchDateTime": "2026-02-15T17:30:00",
-        "timeZoneID": null,
-        "leagueId": 4821,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2025/2026",
-        "leagueSeason": 2025,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2026-02-15T16:30:00Z",
-        "group": {
-            "groupName": "22. Spieltag",
-            "groupOrderID": 22,
-            "groupID": 47632
-        },
-        "team1": {
-            "teamId": 1635,
-            "teamName": "RB Leipzig",
-            "shortName": "Leipzig",
-            "teamIconUrl": "https://i.imgur.com/Rpwsjz1.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2026-02-15T19:27:24.54",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 123205,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 0,
-                "resultOrderID": 1,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten Halbzeit"
-            },
-            {
-                "resultID": 123206,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 139527,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 52,
-                "goalGetterID": 22976,
-                "goalGetterName": "M. Amoura",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 139530,
-                "scoreTeam1": 1,
-                "scoreTeam2": 1,
-                "matchMinute": 70,
-                "goalGetterID": 23584,
-                "goalGetterName": "Y. Diomande",
-                "scoringTeamId": 1635,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 139531,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 78,
-                "goalGetterID": 19593,
-                "goalGetterName": "M. Svanberg",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 139532,
-                "scoreTeam1": 2,
-                "scoreTeam2": 2,
-                "matchMinute": 89,
-                "goalGetterID": 20646,
-                "goalGetterName": "B. Gruda",
-                "scoringTeamId": 1635,
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,

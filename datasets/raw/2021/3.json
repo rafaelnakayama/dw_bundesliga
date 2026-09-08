@@ -83,6 +83,128 @@
         "numberOfViewers": null
     },
     {
+        "matchID": 60864,
+        "matchDateTime": "2021-08-28T15:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 4500,
+        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
+        "leagueSeason": 2021,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2021-08-28T13:30:00Z",
+        "group": {
+            "groupName": "3. Spieltag",
+            "groupOrderID": 3,
+            "groupID": 38179
+        },
+        "team1": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 6,
+            "teamName": "Bayer 04 Leverkusen",
+            "shortName": "Leverkusen",
+            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2021-08-28T17:28:30.597",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 95657,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 4,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 95658,
+                "resultName": "Halbzeitergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": null
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 90510,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 4,
+                "goalGetterID": 17881,
+                "goalGetterName": "Iago",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 90539,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 14,
+                "goalGetterID": 18511,
+                "goalGetterName": "F. Niederlechner",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": true,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 90550,
+                "scoreTeam1": 1,
+                "scoreTeam2": 2,
+                "matchMinute": 30,
+                "goalGetterID": 18511,
+                "goalGetterName": "F. Niederlechner",
+                "scoringTeamId": 95,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 90556,
+                "scoreTeam1": 1,
+                "scoreTeam2": 3,
+                "matchMinute": 75,
+                "goalGetterID": 18331,
+                "goalGetterName": "P. Schick",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 90557,
+                "scoreTeam1": 1,
+                "scoreTeam2": 4,
+                "matchMinute": 81,
+                "goalGetterID": 18494,
+                "goalGetterName": "F. Wirtz",
+                "scoringTeamId": 6,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": null,
+        "numberOfViewers": null
+    },
+    {
         "matchID": 60865,
         "matchDateTime": "2021-08-28T18:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -324,128 +446,6 @@
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": true,
-                "comment": null
-            }
-        ],
-        "location": null,
-        "numberOfViewers": null
-    },
-    {
-        "matchID": 60864,
-        "matchDateTime": "2021-08-28T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 4500,
-        "leagueName": "1. Fu\u00dfball-Bundesliga 2021/2022",
-        "leagueSeason": 2021,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2021-08-28T13:30:00Z",
-        "group": {
-            "groupName": "3. Spieltag",
-            "groupOrderID": 3,
-            "groupID": 38179
-        },
-        "team1": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 6,
-            "teamName": "Bayer 04 Leverkusen",
-            "shortName": "Leverkusen",
-            "teamIconUrl": "https://www.bundesliga-reisefuehrer.de/sites/default/files/B04_Standard_Logo_RGB.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2021-08-28T17:28:30.597",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 95657,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 4,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 95658,
-                "resultName": "Halbzeitergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": null
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 90510,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 4,
-                "goalGetterID": 17881,
-                "goalGetterName": "Iago",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": true,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 90539,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 14,
-                "goalGetterID": 18511,
-                "goalGetterName": "F. Niederlechner",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": true,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 90550,
-                "scoreTeam1": 1,
-                "scoreTeam2": 2,
-                "matchMinute": 30,
-                "goalGetterID": 18511,
-                "goalGetterName": "F. Niederlechner",
-                "scoringTeamId": 95,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 90556,
-                "scoreTeam1": 1,
-                "scoreTeam2": 3,
-                "matchMinute": 75,
-                "goalGetterID": 18331,
-                "goalGetterName": "P. Schick",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 90557,
-                "scoreTeam1": 1,
-                "scoreTeam2": 4,
-                "matchMinute": 81,
-                "goalGetterID": 18494,
-                "goalGetterName": "F. Wirtz",
-                "scoringTeamId": 6,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
                 "comment": null
             }
         ],
@@ -750,19 +750,6 @@
                 "comment": null
             },
             {
-                "goalID": 90553,
-                "scoreTeam1": 2,
-                "scoreTeam2": 3,
-                "matchMinute": 45,
-                "goalGetterID": 16310,
-                "goalGetterName": "Al Ghaddioui",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": true,
-                "comment": null
-            },
-            {
                 "goalID": 90552,
                 "scoreTeam1": 1,
                 "scoreTeam2": 3,
@@ -773,6 +760,19 @@
                 "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 90553,
+                "scoreTeam1": 2,
+                "scoreTeam2": 3,
+                "matchMinute": 45,
+                "goalGetterID": 16310,
+                "goalGetterName": "Al Ghaddioui",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": true,
                 "comment": null
             }
         ],

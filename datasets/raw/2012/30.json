@@ -1,49 +1,49 @@
 [
     {
-        "matchID": 20209,
-        "matchDateTime": "2013-04-19T20:30:00",
+        "matchID": 20207,
+        "matchDateTime": "2013-04-21T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
         "leagueId": 456,
         "leagueName": "1. Fussball-Bundesliga 2012/2013",
         "leagueSeason": 2012,
         "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2013-04-19T18:30:00Z",
+        "matchDateTimeUTC": "2013-04-21T13:30:00Z",
         "group": {
             "groupName": "30. Spieltag",
             "groupOrderID": 30,
             "groupID": 13170
         },
         "team1": {
-            "teamId": 87,
-            "teamName": "Borussia M\u00f6nchengladbach",
-            "shortName": "Gladbach",
-            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamId": 16,
+            "teamName": "VfB Stuttgart",
+            "shortName": "Stuttgart",
+            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
             "teamGroupName": null
         },
         "team2": {
-            "teamId": 95,
-            "teamName": "FC Augsburg",
-            "shortName": "Augsburg",
-            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamId": 112,
+            "teamName": "SC Freiburg",
+            "shortName": "Freiburg",
+            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
             "teamGroupName": null
         },
-        "lastUpdateDateTime": "2013-04-19T22:31:46.423",
+        "lastUpdateDateTime": "2013-04-22T06:31:02.597",
         "matchIsFinished": true,
         "matchResults": [
             {
-                "resultID": 36141,
+                "resultID": 36232,
                 "resultName": "Endergebnis",
-                "pointsTeam1": 1,
-                "pointsTeam2": 0,
+                "pointsTeam1": 2,
+                "pointsTeam2": 1,
                 "resultOrderID": 1,
                 "resultTypeID": 2,
                 "resultTypeKind": "After90Minutes",
                 "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
             },
             {
-                "resultID": 36142,
+                "resultID": 36233,
                 "resultName": "Halbzeit",
-                "pointsTeam1": 1,
+                "pointsTeam1": 2,
                 "pointsTeam2": 0,
                 "resultOrderID": 2,
                 "resultTypeID": 1,
@@ -53,25 +53,51 @@
         ],
         "goals": [
             {
-                "goalID": 19530,
+                "goalID": 19625,
                 "scoreTeam1": 1,
                 "scoreTeam2": 0,
-                "matchMinute": 28,
-                "goalGetterID": 1096,
-                "goalGetterName": "Daems",
-                "scoringTeamId": 87,
-                "isPenalty": true,
+                "matchMinute": 33,
+                "goalGetterID": 873,
+                "goalGetterName": "Gentner",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 19626,
+                "scoreTeam1": 2,
+                "scoreTeam2": 0,
+                "matchMinute": 42,
+                "goalGetterID": 803,
+                "goalGetterName": "Ibisevic",
+                "scoringTeamId": 16,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 19631,
+                "scoreTeam1": 2,
+                "scoreTeam2": 1,
+                "matchMinute": 88,
+                "goalGetterID": 10029,
+                "goalGetterName": "Santini",
+                "scoringTeamId": 112,
+                "isPenalty": false,
                 "isOwnGoal": false,
                 "isOvertime": false,
                 "comment": null
             }
         ],
         "location": {
-            "locationID": 444,
-            "locationCity": "M\u00f6nchengladbach",
-            "locationStadium": "Borussia-Park"
+            "locationID": 426,
+            "locationCity": "Stuttgart",
+            "locationStadium": "Mercedes-Benz-Arena"
         },
-        "numberOfViewers": 50175
+        "numberOfViewers": 50600
     },
     {
         "matchID": 20208,
@@ -159,6 +185,154 @@
             "locationStadium": "Signal Iduna Park"
         },
         "numberOfViewers": 80645
+    },
+    {
+        "matchID": 20209,
+        "matchDateTime": "2013-04-19T20:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 456,
+        "leagueName": "1. Fussball-Bundesliga 2012/2013",
+        "leagueSeason": 2012,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2013-04-19T18:30:00Z",
+        "group": {
+            "groupName": "30. Spieltag",
+            "groupOrderID": 30,
+            "groupID": 13170
+        },
+        "team1": {
+            "teamId": 87,
+            "teamName": "Borussia M\u00f6nchengladbach",
+            "shortName": "Gladbach",
+            "teamIconUrl": "https://i.imgur.com/KSIk0Eu.png",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 95,
+            "teamName": "FC Augsburg",
+            "shortName": "Augsburg",
+            "teamIconUrl": "https://i.imgur.com/sdE62e2.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2013-04-19T22:31:46.423",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 36141,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 36142,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 1,
+                "pointsTeam2": 0,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 19530,
+                "scoreTeam1": 1,
+                "scoreTeam2": 0,
+                "matchMinute": 28,
+                "goalGetterID": 1096,
+                "goalGetterName": "Daems",
+                "scoringTeamId": 87,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 444,
+            "locationCity": "M\u00f6nchengladbach",
+            "locationStadium": "Borussia-Park"
+        },
+        "numberOfViewers": 50175
+    },
+    {
+        "matchID": 20210,
+        "matchDateTime": "2013-04-21T17:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 456,
+        "leagueName": "1. Fussball-Bundesliga 2012/2013",
+        "leagueSeason": 2012,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2013-04-21T15:30:00Z",
+        "group": {
+            "groupName": "30. Spieltag",
+            "groupOrderID": 30,
+            "groupID": 13170
+        },
+        "team1": {
+            "teamId": 79,
+            "teamName": "1. FC N\u00fcrnberg",
+            "shortName": "N\u00fcrnberg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N\u00fcrnberg_logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 115,
+            "teamName": "SpVgg Greuther F\u00fcrth",
+            "shortName": "F\u00fcrth",
+            "teamIconUrl": "https://i.imgur.com/pwuVbKr.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2013-04-22T06:31:28.417",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 36242,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 36243,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 1,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 19632,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 27,
+                "goalGetterID": 10603,
+                "goalGetterName": "Geis",
+                "scoringTeamId": 115,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 800,
+            "locationCity": "N\u00fcrnberg",
+            "locationStadium": "Grundig Stadion"
+        },
+        "numberOfViewers": 50000
     },
     {
         "matchID": 20211,
@@ -487,6 +661,106 @@
         "numberOfViewers": 51500
     },
     {
+        "matchID": 20214,
+        "matchDateTime": "2013-04-20T18:30:00",
+        "timeZoneID": "W. Europe Standard Time",
+        "leagueId": 456,
+        "leagueName": "1. Fussball-Bundesliga 2012/2013",
+        "leagueSeason": 2012,
+        "leagueShortcut": "bl1",
+        "matchDateTimeUTC": "2013-04-20T16:30:00Z",
+        "group": {
+            "groupName": "30. Spieltag",
+            "groupOrderID": 30,
+            "groupID": 13170
+        },
+        "team1": {
+            "teamId": 134,
+            "teamName": "SV Werder Bremen",
+            "shortName": "Bremen",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
+            "teamGroupName": null
+        },
+        "team2": {
+            "teamId": 131,
+            "teamName": "VfL Wolfsburg",
+            "shortName": "Wolfsburg",
+            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
+            "teamGroupName": null
+        },
+        "lastUpdateDateTime": "2013-04-20T23:07:35.233",
+        "matchIsFinished": true,
+        "matchResults": [
+            {
+                "resultID": 36163,
+                "resultName": "Endergebnis",
+                "pointsTeam1": 0,
+                "pointsTeam2": 3,
+                "resultOrderID": 1,
+                "resultTypeID": 2,
+                "resultTypeKind": "After90Minutes",
+                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
+            },
+            {
+                "resultID": 36165,
+                "resultName": "Halbzeit",
+                "pointsTeam1": 0,
+                "pointsTeam2": 2,
+                "resultOrderID": 2,
+                "resultTypeID": 1,
+                "resultTypeKind": "HalfTime",
+                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
+            }
+        ],
+        "goals": [
+            {
+                "goalID": 19563,
+                "scoreTeam1": 0,
+                "scoreTeam2": 1,
+                "matchMinute": 13,
+                "goalGetterID": 10505,
+                "goalGetterName": "Arnold",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 19564,
+                "scoreTeam1": 0,
+                "scoreTeam2": 2,
+                "matchMinute": 27,
+                "goalGetterID": 116,
+                "goalGetterName": "Olic",
+                "scoringTeamId": 131,
+                "isPenalty": false,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            },
+            {
+                "goalID": 19585,
+                "scoreTeam1": 0,
+                "scoreTeam2": 3,
+                "matchMinute": 66,
+                "goalGetterID": 1426,
+                "goalGetterName": "Diego",
+                "scoringTeamId": 131,
+                "isPenalty": true,
+                "isOwnGoal": false,
+                "isOvertime": false,
+                "comment": null
+            }
+        ],
+        "location": {
+            "locationID": 36,
+            "locationCity": "Bremen",
+            "locationStadium": "Weserstadion"
+        },
+        "numberOfViewers": 41000
+    },
+    {
         "matchID": 20215,
         "matchDateTime": "2013-04-20T15:30:00",
         "timeZoneID": "W. Europe Standard Time",
@@ -611,279 +885,5 @@
             "locationStadium": "BayArena"
         },
         "numberOfViewers": 28683
-    },
-    {
-        "matchID": 20214,
-        "matchDateTime": "2013-04-20T18:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 456,
-        "leagueName": "1. Fussball-Bundesliga 2012/2013",
-        "leagueSeason": 2012,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2013-04-20T16:30:00Z",
-        "group": {
-            "groupName": "30. Spieltag",
-            "groupOrderID": 30,
-            "groupID": 13170
-        },
-        "team1": {
-            "teamId": 134,
-            "teamName": "SV Werder Bremen",
-            "shortName": "Bremen",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/SV-Werder-Bremen-Logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 131,
-            "teamName": "VfL Wolfsburg",
-            "shortName": "Wolfsburg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/VfL_Wolfsburg_logo_2026.svg/960px-VfL_Wolfsburg_logo_2026.svg.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2013-04-20T23:07:35.233",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 36163,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 3,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 36165,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 2,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 19563,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 13,
-                "goalGetterID": 10505,
-                "goalGetterName": "Arnold",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 19564,
-                "scoreTeam1": 0,
-                "scoreTeam2": 2,
-                "matchMinute": 27,
-                "goalGetterID": 116,
-                "goalGetterName": "Olic",
-                "scoringTeamId": 131,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 19585,
-                "scoreTeam1": 0,
-                "scoreTeam2": 3,
-                "matchMinute": 66,
-                "goalGetterID": 1426,
-                "goalGetterName": "Diego",
-                "scoringTeamId": 131,
-                "isPenalty": true,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 36,
-            "locationCity": "Bremen",
-            "locationStadium": "Weserstadion"
-        },
-        "numberOfViewers": 41000
-    },
-    {
-        "matchID": 20207,
-        "matchDateTime": "2013-04-21T15:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 456,
-        "leagueName": "1. Fussball-Bundesliga 2012/2013",
-        "leagueSeason": 2012,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2013-04-21T13:30:00Z",
-        "group": {
-            "groupName": "30. Spieltag",
-            "groupOrderID": 30,
-            "groupID": 13170
-        },
-        "team1": {
-            "teamId": 16,
-            "teamName": "VfB Stuttgart",
-            "shortName": "Stuttgart",
-            "teamIconUrl": "https://i.imgur.com/v0tkpNx.png",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 112,
-            "teamName": "SC Freiburg",
-            "shortName": "Freiburg",
-            "teamIconUrl": "https://i.imgur.com/r3mvi0h.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2013-04-22T06:31:02.597",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 36232,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 2,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 36233,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 2,
-                "pointsTeam2": 0,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 19625,
-                "scoreTeam1": 1,
-                "scoreTeam2": 0,
-                "matchMinute": 33,
-                "goalGetterID": 873,
-                "goalGetterName": "Gentner",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 19626,
-                "scoreTeam1": 2,
-                "scoreTeam2": 0,
-                "matchMinute": 42,
-                "goalGetterID": 803,
-                "goalGetterName": "Ibisevic",
-                "scoringTeamId": 16,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            },
-            {
-                "goalID": 19631,
-                "scoreTeam1": 2,
-                "scoreTeam2": 1,
-                "matchMinute": 88,
-                "goalGetterID": 10029,
-                "goalGetterName": "Santini",
-                "scoringTeamId": 112,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 426,
-            "locationCity": "Stuttgart",
-            "locationStadium": "Mercedes-Benz-Arena"
-        },
-        "numberOfViewers": 50600
-    },
-    {
-        "matchID": 20210,
-        "matchDateTime": "2013-04-21T17:30:00",
-        "timeZoneID": "W. Europe Standard Time",
-        "leagueId": 456,
-        "leagueName": "1. Fussball-Bundesliga 2012/2013",
-        "leagueSeason": 2012,
-        "leagueShortcut": "bl1",
-        "matchDateTimeUTC": "2013-04-21T15:30:00Z",
-        "group": {
-            "groupName": "30. Spieltag",
-            "groupOrderID": 30,
-            "groupID": 13170
-        },
-        "team1": {
-            "teamId": 79,
-            "teamName": "1. FC N\u00fcrnberg",
-            "shortName": "N\u00fcrnberg",
-            "teamIconUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/1._FC_N\u00fcrnberg_logo.svg",
-            "teamGroupName": null
-        },
-        "team2": {
-            "teamId": 115,
-            "teamName": "SpVgg Greuther F\u00fcrth",
-            "shortName": "F\u00fcrth",
-            "teamIconUrl": "https://i.imgur.com/pwuVbKr.png",
-            "teamGroupName": null
-        },
-        "lastUpdateDateTime": "2013-04-22T06:31:28.417",
-        "matchIsFinished": true,
-        "matchResults": [
-            {
-                "resultID": 36242,
-                "resultName": "Endergebnis",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 1,
-                "resultTypeID": 2,
-                "resultTypeKind": "After90Minutes",
-                "resultDescription": "Ergebnis nach Ende der offiziellen Spielzeit"
-            },
-            {
-                "resultID": 36243,
-                "resultName": "Halbzeit",
-                "pointsTeam1": 0,
-                "pointsTeam2": 1,
-                "resultOrderID": 2,
-                "resultTypeID": 1,
-                "resultTypeKind": "HalfTime",
-                "resultDescription": "Ergebnis nach Ende der ersten 45 Minuten"
-            }
-        ],
-        "goals": [
-            {
-                "goalID": 19632,
-                "scoreTeam1": 0,
-                "scoreTeam2": 1,
-                "matchMinute": 27,
-                "goalGetterID": 10603,
-                "goalGetterName": "Geis",
-                "scoringTeamId": 115,
-                "isPenalty": false,
-                "isOwnGoal": false,
-                "isOvertime": false,
-                "comment": null
-            }
-        ],
-        "location": {
-            "locationID": 800,
-            "locationCity": "N\u00fcrnberg",
-            "locationStadium": "Grundig Stadion"
-        },
-        "numberOfViewers": 50000
     }
 ]
