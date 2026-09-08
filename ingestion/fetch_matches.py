@@ -96,7 +96,9 @@ def connect(database):
         "TrustServerCertificate=yes"
     )
 
-    for attempt in range(1, 31):
+    attempt = 1
+
+    while True:
         try:
             return pyodbc.connect(connection_string, timeout=5)
         except pyodbc.Error:
@@ -104,6 +106,7 @@ def connect(database):
                 raise
             logging.info("Waiting for %s (%s/30)", os.environ['DB_SERVER'], attempt)
             time.sleep(2)
+            attempt += 1
 
 
 def run_sql_file(cursor, file_path):
