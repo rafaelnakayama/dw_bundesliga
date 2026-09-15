@@ -22,6 +22,38 @@ BEGIN
     IF OBJECT_ID ('gold.dim_teams', 'U') IS NOT NULL
         DROP TABLE gold.dim_teams;
 
+    -- Create and insert columns into fact_matches
+
+    CREATE TABLE gold.fact_matches (
+        match_id INT PRIMARY KEY,
+        league_name NVARCHAR(75),
+        league_season INT,
+        match_date_time_utc DATETIME,
+        match_is_finished BIT,
+        number_of_viewers INT
+    )
+
+    INSERT INTO gold.fact_matches (
+        match_id,
+        league_name,
+        league_season,
+        match_date_time_utc,
+        match_is_finished,
+        number_of_viewers
+    )
+
+    SELECT 
+        match_id,
+        league_name,
+        league_season,
+        match_date_time_utc,
+        match_is_finished,
+        number_of_viewers
+
+    FROM silver.matches
+
+    WHERE match_is_finished = 1
+
     -- Create and insert columns into dim_teams (dim_teams is a copy of silver.teams)
 
     CREATE TABLE gold.dim_teams (
@@ -45,7 +77,7 @@ BEGIN
         team_icon_url
 
     FROM silver.teams
-
+    
     COMMIT
 
 END
