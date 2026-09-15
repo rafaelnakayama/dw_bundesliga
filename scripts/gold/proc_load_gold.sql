@@ -46,6 +46,23 @@ BEGIN
 
     FROM silver.teams
 
+    -- Create and insert columns into dim_players
+
+    CREATE TABLE gold.dim_players (
+        player_id INT PRIMARY KEY,
+        player_name VARCHAR(100)
+    )
+
+    INSERT INTO gold.dim_players (
+        player_id,
+        player_name
+    )
+
+    SELECT
+        DISTINCT goal_getter_id AS player_id,
+        goal_getter_name AS player_name
+    FROM silver.match_goals
+    
     -- Create and insert columns into fact_matches
 
     CREATE TABLE gold.fact_matches (
@@ -103,7 +120,7 @@ BEGIN
     INNER JOIN silver.match_results AS MR
     ON MT.match_id = MR.match_id
 
-    WHERE MT.match_is_finished = 1 AND MR.result_type_id = 2
+    WHERE MT.match_is_finished = 1 AND MR.result_type_id = 2 OR MR.result_type_id = 0
     
     COMMIT
 
