@@ -69,7 +69,9 @@ BEGIN
         match_id INT PRIMARY KEY,
         group_id INT,
         team1_id INT,
+        CONSTRAINT fk_fact_matches_team1_id FOREIGN KEY (team1_id) REFERENCES gold.dim_teams(team_id),
         team2_id INT,
+        CONSTRAINT fk_fact_matches_team2_id FOREIGN KEY (team2_id) REFERENCES gold.dim_teams(team_id),
         league_name NVARCHAR(75),
         league_season INT,
         match_date_time_utc DATETIME,
@@ -77,7 +79,8 @@ BEGIN
         goals_team1 INT,
         goals_team2 INT,
         total_goals INT,
-        winner_team_id INT
+        winner_team_id INT,
+        CONSTRAINT fk_fact_matches_winner_team_id FOREIGN KEY (winner_team_id) REFERENCES gold.dim_teams(team_id)
     )
 
     INSERT INTO gold.fact_matches (
@@ -120,7 +123,46 @@ BEGIN
     INNER JOIN silver.match_results AS MR
     ON MT.match_id = MR.match_id
 
-    WHERE MT.match_is_finished = 1 AND MR.result_type_id = 2 OR MR.result_type_id = 0
+    WHERE MT.match_is_finished = 1 AND (MR.result_type_id = 2 OR MR.result_type_id = 0)
+
+    -- Create and insert columns into fact_goals
+
+    CREATE TABLE gold.fact_goals (
+        goal_id INT PRIMARY KEY,
+        match_id INT,
+        goal_getter_id INT,
+        CONSTRAINT fk_fact_goals_goal_getter_id FOREIGN KEY (goal_getter_id) REFERENCES gold.dim_players(player_id),
+        league_season INT,
+        match_minute SMALLINT,
+        is_penalty BIT,
+        is_own_goal BIT,
+        is_overtime BIT
+    )
+
+    INSERT INTO gold.fact_goals (
+        goal_id,
+        match_id,
+        goal_getter_id,
+        league_season,
+        match_minute,
+        is_penalty,
+        is_own_goal,
+        is_overtime
+    )
+
+    SELECT 
+        MG.goal_id,
+        MG.match_id,
+        MG.goal_getter_id,
+        MT.league_season,
+        MG.match_minute,
+        MG.is_penalty,
+        MG.is_own_goal,
+        MG.is_overtime
+
+    FROM silver.match_goals AS MG
+    INNER JOIN silver.matches as MT
+    ON MG.match_id = MT.match_id
     
     COMMIT
 
