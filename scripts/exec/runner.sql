@@ -11,3 +11,9 @@ PRINT '=================== (silver) ====================';
 PRINT '';
 
 EXEC silver.load_silver
+
+PRINT '';
+PRINT '=================== (gold) ====================';
+PRINT '';
+
+EXEC gold.load_gold
