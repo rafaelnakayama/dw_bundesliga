@@ -22,6 +22,10 @@ BEGIN
     IF OBJECT_ID ('gold.dim_teams', 'U') IS NOT NULL
         DROP TABLE gold.dim_teams;
 
+    PRINT '>>> Dropping table: gold.dim_locations';
+    IF OBJECT_ID ('gold.dim_locations', 'U') IS NOT NULL
+        DROP TABLE gold.dim_locations;
+
     -- Create and insert columns into dim_teams (dim_teams is a copy of silver.teams)
 
     CREATE TABLE gold.dim_teams (
@@ -45,7 +49,7 @@ BEGIN
         team_icon_url
 
     FROM silver.teams
-
+    
     -- Create and insert columns into dim_players
 
     CREATE TABLE gold.dim_players (
@@ -62,12 +66,35 @@ BEGIN
         DISTINCT goal_getter_id AS player_id,
         goal_getter_name AS player_name
     FROM silver.match_goals
+
+    -- Create and insert columns into dim_locations (dim_locations is a copy of silver.location)
+
+    CREATE TABLE gold.dim_locations (
+        location_id INT PRIMARY KEY,
+        location_city VARCHAR(50),
+        location_stadium VARCHAR(50)
+    )
+
+    INSERT INTO gold.dim_locations (
+        location_id,
+        location_city,
+        location_stadium 
+    )
+
+    SELECT
+        location_id,
+        location_city,
+        location_stadium
+
+    FROM silver.location
     
     -- Create and insert columns into fact_matches
 
     CREATE TABLE gold.fact_matches (
         match_id INT PRIMARY KEY,
         group_id INT,
+        location_id INT,
+        CONSTRAINT fk_fact_matches_location_id FOREIGN KEY (location_id) REFERENCES gold.dim_locations(location_id),
         team1_id INT,
         CONSTRAINT fk_fact_matches_team1_id FOREIGN KEY (team1_id) REFERENCES gold.dim_teams(team_id),
         team2_id INT,
@@ -86,6 +113,7 @@ BEGIN
     INSERT INTO gold.fact_matches (
         match_id,
         group_id,
+        location_id,
         team1_id,
         team2_id,
         league_name,
@@ -101,6 +129,7 @@ BEGIN
     SELECT 
         MT.match_id,
         MT.group_id,
+        MT.location_id,
         MT.team1_id,
         MT.team2_id,
         MT.league_name,
