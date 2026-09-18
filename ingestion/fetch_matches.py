@@ -210,6 +210,24 @@ def load_json():
     connector.commit()
 
 
+def transform():
+
+    """
+    Rebuilds silver and gold from bronze. Both procedures open and commit their
+    own transaction, so the connection runs in autocommit: without it pyodbc
+    wraps a second transaction around them and the work sits uncommitted until
+    something calls commit().
+
+    This used to be scripts/exec/runner.sql, run by hand after every load.
+    """
+
+    with connect(os.environ["DB_DATABASE"]) as connector:
+        connector.autocommit = True
+        for procedure in ("silver.load_silver", "gold.load_gold"):
+            logging.info("Running: %s", procedure)
+            connector.cursor().execute(f"EXEC {procedure}")
+
+
 if __name__ == "__main__":
     
     from dotenv import load_dotenv
@@ -231,3 +249,4 @@ if __name__ == "__main__":
     if os.environ.get("FETCH_ONLY") != "1":
         deploy_schema()
         load_json()
+        transform()
