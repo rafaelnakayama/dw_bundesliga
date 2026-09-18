@@ -40,10 +40,7 @@ cd dw_bundesliga
 Create a `.env` file in the repository root:
 
 ```
-DB_SERVER=localhost
-DB_DATABASE=dw_hgg_database
-DB_USER=sa
-DB_PASSWORD=<your password>
+cp .env.example .env
 ```
 
 `DB_PASSWORD` becomes the SQL Server `sa` password, so it has to satisfy SQL
@@ -69,8 +66,7 @@ The ingestion script is driven by two environment variables, both unset by defau
 | `BACKFILL=1` | fetch every season since 2006 instead of only the current one. One-off bootstrap. |
 | `FETCH_ONLY=1` | download the JSON and stop, skipping every database step. Used by CI. |
 
-Bronze is loaded automatically. Silver is a manual step: connect to
-`localhost:1433` with any SQL client and run `scripts/exec/runner.sql`.
+Bronze, silver and gold are all loaded automatically by a single run.
 
 Two destructive paths exist and are never called by the pipeline. Run them by hand
 only when you mean it: `scripts/init/init_database.sql` drops and recreates the
@@ -85,11 +81,33 @@ changed. No database and no secrets are involved.
 
 ## Dashboard
 
-TBD
+A Quarto site rendered to static HTML and published on GitHub Pages. It reads a
+precomputed JSON export, never the database, so the page is a few hundred
+kilobytes and loads instantly.
 
 ### Building
 
-TBD
+The export runs inside the ingestion container, where the ODBC driver already
+lives, so nothing has to be installed on the host to talk to SQL Server:
+
+```
+docker compose run --rm python_ingestion python dashboard/export_gold.py
+```
+
+That writes `dashboard/data/dashboard.json`. Rendering needs Quarto and two pure
+Python packages, and no database:
+
+```
+pip install -r dashboard/requirements.txt
+cd dashboard && quarto render
+```
+
+The site lands in `dashboard/_site`. `quarto preview` serves it with live reload
+while editing.
+
+Aggregation happens in SQL, inside `dashboard/export_gold.py`. The `.qmd` only
+plots. Points follow the 3/1/0 rule and are computed at export time, because one
+match distributes points to two teams and they do not fit the match grain.
 
 ### Publishing
 
