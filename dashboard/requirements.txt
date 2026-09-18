@@ -1,0 +1,6 @@
+# Dashboard-only dependencies, kept out of the root requirements.txt on purpose.
+# That file is installed into the ingestion image and into CI; jupyter pulls tens
+# of megabytes of transitive dependencies that the pipeline never imports. The
+# pyodbc precedent (one file, one unused wheel) does not stretch this far.
+jupyter==1.1.1
+plotly==6.3.1
