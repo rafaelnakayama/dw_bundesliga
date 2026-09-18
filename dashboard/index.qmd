@@ -1,0 +1,175 @@
+---
+title: "Bundesliga Data Warehouse"
+format:
+  html:
+    theme: cosmo
+    toc: true
+    toc-location: left
+    page-layout: full
+    embed-resources: false
+execute:
+  echo: false
+  warning: false
+jupyter: python3
+---
+
+```{python}
+import json
+from pathlib import Path
+
+import plotly.graph_objects as go
+from IPython.display import Markdown
+
+DATA = json.loads((Path.cwd() / "data" / "dashboard.json").read_text())
+
+BAR = "#1f6feb"
+MUTED = "#8b949e"
+
+
+def bar(labels, values, title, xaxis):
+
+    """
+    Horizontal bar, highest at the top. Plotly draws category axes bottom-up, so
+    the lists are reversed to put the leader where a reader looks first.
+    """
+
+    figure = go.Figure(
+        go.Bar(x=values[::-1], y=labels[::-1], orientation="h", marker_color=BAR)
+    )
+    figure.update_layout(
+        title=title,
+        xaxis_title=xaxis,
+        height=max(320, 26 * len(labels)),
+        margin=dict(l=10, r=10, t=50, b=40),
+        template="plotly_white",
+    )
+    return figure
+```
+
+```{python}
+Markdown(f"""
+Season **{DATA['season']}**, refreshed {DATA['generated_at']}.
+Built from {DATA['totals']['matches']:,} matches and {DATA['totals']['goals']:,} goals
+across {DATA['totals']['teams']} clubs and {DATA['totals']['players']:,} players.
+""")
+```
+
+## This season
+
+### Standings
+
+Points follow the 3/1/0 rule, computed here rather than stored in the warehouse:
+one match distributes points to two teams, so there is no single column to hold
+them at the match grain.
+
+```{python}
+rows = DATA["standings"]
+
+header = ["#", "Club", "P", "W pts", "GF", "GA", "GD"]
+cells = [
+    list(range(1, len(rows) + 1)),
+    [r["team_name"] for r in rows],
+    [r["played"] for r in rows],
+    [r["points"] for r in rows],
+    [r["goals_for"] for r in rows],
+    [r["goals_against"] for r in rows],
+    [f"{r['goal_difference']:+d}" for r in rows],
+]
+
+figure = go.Figure(
+    go.Table(
+        header=dict(values=header, fill_color="#f0f3f6", align="left"),
+        cells=dict(values=cells, align="left", height=26),
+        columnwidth=[0.5, 4, 1, 1, 1, 1, 1],
+    )
+)
+figure.update_layout(height=max(320, 30 * len(rows) + 60), margin=dict(l=0, r=0, t=10, b=0))
+figure
+```
+
+### Top scorers
+
+Own goals are excluded: the source credits them to the player who scored into
+his own net.
+
+```{python}
+rows = DATA["top_scorers_season"]
+bar(
+    [r["player_name"] for r in rows],
+    [r["goals"] for r in rows],
+    f"Top scorers, {DATA['season']}",
+    "Goals",
+)
+```
+
+## Since 2006
+
+### Most wins
+
+```{python}
+rows = DATA["most_wins_all_time"]
+bar(
+    [r["team_name"] for r in rows],
+    [r["wins"] for r in rows],
+    "Most wins, all seasons",
+    "Wins",
+)
+```
+
+### Top scorers, all time
+
+::: {.callout-warning}
+## Read this chart with care
+
+OpenLigaDB assigns more than one player id to the same person. Franck Ribery
+appears under three, and they overlap inside a single season, so career totals
+are split and this ranking understates several players. Resolving it means
+entity matching, which is out of scope for this project. Current-season figures
+are unaffected, because recent seasons use consistent ids.
+:::
+
+```{python}
+rows = DATA["top_scorers_all_time"]
+bar(
+    [r["player_name"] for r in rows],
+    [r["goals"] for r in rows],
+    "Top scorers, all seasons",
+    "Goals",
+)
+```
+
+### Matches hosted by venue
+
+```{python}
+missing = DATA["matches_without_venue"]
+total = DATA["totals"]["matches"]
+
+Markdown(f"""
+::: {{.callout-important}}
+## Partial coverage
+
+{missing:,} of {total:,} matches ({missing / total:.0%}) carry no usable venue in the
+source, either a null reference or a blank stadium name, and are excluded below.
+Older seasons are the worst affected, so read this as a recent-seasons ranking
+rather than a complete history.
+:::
+""") if missing else Markdown("")
+```
+
+```{python}
+rows = DATA["matches_by_venue"]
+bar(
+    [f"{r['location_stadium']} ({r['location_city']})" for r in rows],
+    [r["matches"] for r in rows],
+    "Matches hosted",
+    "Matches",
+)
+```
+
+---
+
+::: {.text-muted}
+Data from [OpenLigaDB](https://www.openligadb.de/). Built from a SQL Server
+warehouse with a bronze, silver and gold medallion architecture; this page reads
+a precomputed JSON export, not the database.
+:::
