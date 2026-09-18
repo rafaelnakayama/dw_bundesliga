@@ -28,6 +28,9 @@ services:
       # durante o desenvolvimento, editar o codigo no host nao exige rebuild
       - ./ingestion:/app/ingestion
       - ./scripts:/app/scripts
+      # o export do dashboard roda aqui dentro, onde o driver ODBC ja existe.
+      # No host exigiria instalar o msodbcsql18 so para gerar um JSON.
+      - ./dashboard:/app/dashboard
   
 volumes:
   mssql_data:
