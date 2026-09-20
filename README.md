@@ -58,7 +58,7 @@ The ingestion script is driven by two environment variables, both unset by defau
 | variable | effect |
 |---|---|
 | `BACKFILL=1` | fetch every season since 2006 instead of only the current one. One-off bootstrap. |
-| `FETCH_ONLY=1` | download the JSON and stop, skipping every database step. Used by CI. |
+| `FETCH_ONLY=1` | download the JSON and stop, skipping every database step. |
 
 Bronze, silver and gold are all loaded automatically by a single run.
 
@@ -69,15 +69,20 @@ database, and `scripts/bronze/rebuild_bronze.sql` does a full reload of bronze.
 ## Automation
 
 `.github/workflows/cicd.yml` runs every Monday at 21:00 UTC, after the weekend
-round. It fetches the current season with `FETCH_ONLY=1` and commits the refreshed
-JSON back to the repository, skipping the commit entirely on weeks where nothing
-changed. No database and no secrets are involved.
+round. It fetches the current season, loads bronze, silver and gold into a throwaway
+SQL Server, exports the dashboard JSON, commits whatever actually changed, then
+renders the site and publishes it to Pages. Weeks with no new matches skip the
+commit. The database exists only for the length of the run, and no secrets are
+involved: the `sa` password is generated per run and discarded with it.
 
 ## Dashboard
 
 A Quarto site rendered to static HTML and published on GitHub Pages. It reads a
 precomputed JSON export, never the database, so the page is a few hundred
 kilobytes and loads instantly.
+
+The weekly workflow rebuilds it from the fresh data, so the steps below are only
+needed to work on the page locally.
 
 ### Building
 
