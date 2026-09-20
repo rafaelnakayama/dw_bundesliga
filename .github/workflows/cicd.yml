@@ -19,9 +19,11 @@ jobs:
     environment: github-pages
 
     steps:
+      # MODO DE TESTE: tres valores apontam para a feature branch em vez da main
+      # e os steps de Pages estao fora. Reverter os tres juntos no merge.
       - uses: actions/checkout@v5
         with:
-          ref: main
+          ref: feature/dashboard
           fetch-depth: 1
           persist-credentials: true
 
@@ -56,7 +58,7 @@ jobs:
           git config user.email "rafaelnakayama2003@gmail.com"
           git add datasets/raw dashboard/data
           git commit -m "chore: weekly fetch update"
-          git push origin main
+          git push origin feature/dashboard
 
       - uses: astral-sh/setup-uv@v10
         with:
@@ -67,10 +69,3 @@ jobs:
       - name: render_dashboard
         working-directory: dashboard
         run: uv run --group dashboard quarto render
-
-      # O HTML sai por artifact e nunca entra no git, entao o repo nao cresce.
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: dashboard/_site
-
-      - uses: actions/deploy-pages@v4
