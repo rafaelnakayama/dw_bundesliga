@@ -98,9 +98,12 @@ That writes `dashboard/data/dashboard.json`. Rendering needs Quarto and two pure
 Python packages, and no database:
 
 ```
-pip install -r dashboard/requirements.txt
-cd dashboard && quarto render
+uv sync --group dashboard
+cd dashboard && uv run quarto render
 ```
+
+`uv run` puts the project's `.venv` first on `PATH`, which is how Quarto finds the
+`jupyter` that executes the `.qmd`.
 
 The site lands in `dashboard/_site`. `quarto preview` serves it with live reload
 while editing.

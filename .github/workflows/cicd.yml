@@ -22,18 +22,17 @@ jobs:
           fetch-depth: 1
           persist-credentials: true
           
-      - uses: actions/setup-python@v5
+      - uses: astral-sh/setup-uv@v10
         with:
-          python-version: "3.13"
-          cache: pip
-    
+          enable-cache: true
+
       - name: install_packages
-        run: pip install -r requirements.txt
-    
+        run: uv sync --locked
+
       - name: fetch_matches
         env:
           "FETCH_ONLY": "1"
-        run: python ingestion/fetch_matches.py
+        run: uv run python ingestion/fetch_matches.py
     
       - name: check
         id: bka7798984es # Escolhido arbitrariamente

@@ -1,0 +1,27 @@
+[project]
+name = "dw-bundesliga"
+version = "0.1.0"
+requires-python = ">=3.13"
+
+# Apenas as dependencias diretas, com piso de versao. As transitivas
+# (certifi, idna, urllib3, charset-normalizer) e as versoes exatas vivem no
+# uv.lock, que e gerado. O requirements.txt antigo misturava as duas coisas.
+dependencies = [
+    "pyodbc>=5.3.0",
+    "python-dotenv>=1.2.3",
+    "requests>=2.34.2",
+]
+
+# Separado porque o jupyter arrasta dezenas de megabytes que a imagem de
+# ingestao nunca importa. A imagem roda 'uv sync' sem grupo; o render do
+# dashboard roda 'uv sync --group dashboard'. Um lock cobre os dois.
+[dependency-groups]
+dashboard = [
+    "jupyter>=1.1.1",
+    "plotly>=6.3.1",
+]
+
+# Este projeto e um conjunto de scripts rodados por caminho, nunca importado
+# como pacote instalado, entao o uv resolve e instala so as dependencias.
+[tool.uv]
+package = false
