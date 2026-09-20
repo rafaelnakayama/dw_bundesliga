@@ -26,10 +26,12 @@ jobs:
           fetch-depth: 1
           persist-credentials: true
 
-      # O banco vive apenas neste job, entao a senha e descartavel e nao vale um
-      # secret. O sufixo garante as regras de complexidade do SQL Server.
+      # Parte do .env.example para a lista de variaveis ter uma fonte so: uma
+      # variavel nova entra no CI sem ninguem lembrar deste step. O banco vive
+      # apenas neste job, entao a senha e descartavel e nao vale um secret, e o
+      # sufixo garante as regras de complexidade do SQL Server.
       - name: env_file
-        run: echo "DB_PASSWORD=$(openssl rand -hex 16)Aa1" > .env
+        run: sed "s|^DB_PASSWORD=.*|DB_PASSWORD=$(openssl rand -hex 16)Aa1!|" .env.example > .env
 
       # O compose sobe o banco e roda o entrypoint, que faz fetch, bronze,
       # silver e gold. Nao usa FETCH_ONLY=1: o export precisa do gold pronto.
