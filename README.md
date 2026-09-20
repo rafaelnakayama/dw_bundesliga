@@ -17,16 +17,26 @@ total.
 | path | contents |
 |---|---|
 | `ingestion/` | Python fetch and load: `fetch_matches.py` |
-| `scripts/` | T-SQL: schema bootstrap and stored procedures, by layer |
+| `scripts/` | T-SQL by layer: `init/`, `bronze/`, `silver/`, `gold/` |
 | `datasets/raw/` | source JSON, one directory per season |
+| `dashboard/` | Quarto site, the gold export script, and the JSON it writes |
 | `tests/` | validation queries for the silver layer |
+| `docs/` | integration models per layer and naming conventions |
 | `.github/workflows/` | the weekly fetch |
+| `Dockerfile` | the ingestion image: Python, uv and the ODBC driver |
+| `docker-compose.yaml` | the two services, SQL Server and ingestion |
+| `pyproject.toml` | direct dependencies, plus the `dashboard` group |
+| `uv.lock` | the resolved dependency tree, committed |
 
 ## Requirements
 
-Docker and Docker Compose, plus disk for the SQL Server image. Nothing else is
-needed on the host: Python, the ODBC driver and the database all live in
+Docker and Docker Compose, plus disk for the SQL Server image. The pipeline needs
+nothing else on the host: Python, uv, the ODBC driver and the database all live in
 containers.
+
+Rendering the dashboard is the one thing that runs on the host, and it needs
+[uv](https://docs.astral.sh/uv/) and [Quarto](https://quarto.org/). It never touches
+the database.
 
 ## Installation
 
@@ -111,11 +121,3 @@ while editing.
 Aggregation happens in SQL, inside `dashboard/export_gold.py`. The `.qmd` only
 plots. Points follow the 3/1/0 rule and are computed at export time, because one
 match distributes points to two teams and they do not fit the match grain.
-
-### Publishing
-
-TBD
-
-## License
-
-MIT. See `LICENSE`.
