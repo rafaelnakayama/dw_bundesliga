@@ -12,22 +12,6 @@ fresh; the database itself runs locally, on demand, and is never part of CI.
 Seasons from 2006 onward, one JSON file per season and matchday, around 20 MB in
 total.
 
-## Layout
-
-| path | contents |
-|---|---|
-| `ingestion/` | Python fetch and load: `fetch_matches.py` |
-| `scripts/` | T-SQL by layer: `init/`, `bronze/`, `silver/`, `gold/` |
-| `datasets/raw/` | source JSON, one directory per season |
-| `dashboard/` | Quarto site, the gold export script, and the JSON it writes |
-| `tests/` | validation queries for the silver layer |
-| `docs/` | integration models per layer and naming conventions |
-| `.github/workflows/` | the weekly fetch |
-| `Dockerfile` | the ingestion image: Python, uv and the ODBC driver |
-| `docker-compose.yaml` | the two services, SQL Server and ingestion |
-| `pyproject.toml` | direct dependencies, plus the `dashboard` group |
-| `uv.lock` | the resolved dependency tree, committed |
-
 ## Requirements
 
 Docker and Docker Compose, plus disk for the SQL Server image. The pipeline needs
@@ -121,3 +105,19 @@ while editing.
 Aggregation happens in SQL, inside `dashboard/export_gold.py`. The `.qmd` only
 plots. Points follow the 3/1/0 rule and are computed at export time, because one
 match distributes points to two teams and they do not fit the match grain.
+
+## Project layout
+
+```
+    ├─ .github/workflows/  weekly fetch
+    ├─ dashboard/          Quarto site and the gold export
+    ├─ datasets/raw/       source JSON, one directory per season
+    ├─ docs/               integration models and naming conventions
+    ├─ ingestion/          fetch and load
+    ├─ scripts/            T-SQL, one directory per layer
+    │  ├─ init/            database and schema bootstrap
+    │  ├─ bronze/          raw mirror
+    │  ├─ silver/          cleaned and typed
+    │  └─ gold/            facts and dimensions
+    └─ tests/              silver validation queries
+```

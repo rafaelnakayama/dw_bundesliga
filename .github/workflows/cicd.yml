@@ -9,45 +9,68 @@ on:
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
 
 jobs:
   bca87534df: # Escolhido arbitrariamente
     name: new_matches
     runs-on: ubuntu-latest
-    
+    environment: github-pages
+
     steps:
       - uses: actions/checkout@v5
         with:
           ref: main
           fetch-depth: 1
           persist-credentials: true
-          
-      - uses: astral-sh/setup-uv@v10
-        with:
-          enable-cache: true
 
-      - name: install_packages
-        run: uv sync --locked
+      # O banco vive apenas neste job, entao a senha e descartavel e nao vale um
+      # secret. O sufixo garante as regras de complexidade do SQL Server.
+      - name: env_file
+        run: echo "DB_PASSWORD=$(openssl rand -hex 16)Aa1" > .env
 
-      - name: fetch_matches
-        env:
-          "FETCH_ONLY": "1"
-        run: uv run python ingestion/fetch_matches.py
-    
+      # O compose sobe o banco e roda o entrypoint, que faz fetch, bronze,
+      # silver e gold. Nao usa FETCH_ONLY=1: o export precisa do gold pronto.
+      - name: build_warehouse
+        run: docker compose run --rm python_ingestion
+
+      # Dentro do container, onde o driver ODBC ja existe. No runner exigiria
+      # instalar o msodbcsql18 so para gerar um JSON.
+      - name: export_dashboard_data
+        run: docker compose run --rm python_ingestion python dashboard/export_gold.py
+
       - name: check
         id: bka7798984es # Escolhido arbitrariamente
         run: |
-          if [ -n "$(git status --porcelain datasets/raw)" ]; then
+          if [ -n "$(git status --porcelain datasets/raw dashboard/data)" ]; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "changed=false" >> "$GITHUB_OUTPUT"
           fi
-    
+
       - name: user
         if: steps.bka7798984es.outputs.changed == 'true'
         run: |
           git config user.name "rafaelnakayama"
           git config user.email "rafaelnakayama2003@gmail.com"
-          git add datasets/raw
+          git add datasets/raw dashboard/data
           git commit -m "chore: weekly fetch update"
           git push origin main
+
+      - uses: astral-sh/setup-uv@v10
+        with:
+          enable-cache: true
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+
+      - name: render_dashboard
+        working-directory: dashboard
+        run: uv run --group dashboard quarto render
+
+      # O HTML sai por artifact e nunca entra no git, entao o repo nao cresce.
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dashboard/_site
+
+      - uses: actions/deploy-pages@v4
