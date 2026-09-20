@@ -145,6 +145,7 @@ def deploy_schema():
         Path("bronze") / "proc_init_bronze.sql",
         Path("bronze") / "proc_merge_bronze.sql",
         Path("silver") / "proc_load_silver.sql",
+        Path("gold") / "drop_gold.sql",
         Path("gold") / "proc_load_gold.sql",
     )
 
