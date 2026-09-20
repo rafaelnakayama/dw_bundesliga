@@ -43,10 +43,13 @@ jobs:
       - name: export_dashboard_data
         run: docker compose run --rm python_ingestion python dashboard/export_gold.py
 
+      # O guard olha so datasets/raw, mas o commit leva o JSON junto. O export
+      # grava um generated_at novo a cada run, entao olhar dashboard/data faria
+      # toda semana parecer uma semana com partida nova.
       - name: check
         id: bka7798984es # Escolhido arbitrariamente
         run: |
-          if [ -n "$(git status --porcelain datasets/raw dashboard/data)" ]; then
+          if [ -n "$(git status --porcelain datasets/raw)" ]; then
             echo "changed=true" >> "$GITHUB_OUTPUT"
           else
             echo "changed=false" >> "$GITHUB_OUTPUT"
