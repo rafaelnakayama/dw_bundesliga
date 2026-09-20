@@ -59,7 +59,7 @@ jobs:
           git commit -m "chore: weekly fetch update"
           git push origin feature/dashboard
 
-      - uses: astral-sh/setup-uv@v10
+      - uses: astral-sh/setup-uv@v10.1.0
         with:
           enable-cache: true
 
