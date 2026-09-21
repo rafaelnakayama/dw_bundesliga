@@ -1,6 +1,6 @@
--- Roda antes de proc_load_gold.sql. Os drops dentro da proc nao servem aqui: o
--- corpo dela e compilado antes de rodar, e a compilacao valida o INSERT contra
--- a tabela antiga parada no banco. Sem tabela, nao ha coluna para validar.
+-- Runs before proc_load_gold.sql. The drops inside the procedure cannot help:
+-- its body compiles before it runs, and compiling validates the INSERT against
+-- the old table still standing in the database.
 
 IF OBJECT_ID('gold.fact_matches', 'U') IS NOT NULL DROP TABLE gold.fact_matches;
 IF OBJECT_ID('gold.fact_goals', 'U') IS NOT NULL DROP TABLE gold.fact_goals;

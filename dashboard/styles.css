@@ -1,6 +1,5 @@
-/* Logo abaixo do sumario da esquerda. Um ::after no nav do sumario em vez de um
-   script: a barra lateral e markup do Quarto, entao anexar por JS dependeria de
-   uma estrutura que este arquivo nao controla. */
+/* Below the table of contents. ::after rather than a script: the sidebar is
+   Quarto's markup, not this file's. */
 #TOC::after {
   content: "";
   display: block;

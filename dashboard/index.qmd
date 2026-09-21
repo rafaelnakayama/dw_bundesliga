@@ -34,10 +34,8 @@ def bar(labels, values, unit):
     Horizontal bar, highest at the top. Plotly draws category axes bottom-up, so
     the lists are reversed to put the leader where a reader looks first.
 
-    No chart title and no x axis: the section heading already names the chart and
-    the value is printed on the bar, so both would only repeat what is there. The
-    leader carries the accent colour and the rest a tint of it, which puts the eye
-    on first place without a legend.
+    No title and no x axis: the heading names the chart and the value sits on the
+    bar. The leader takes the accent colour, the rest a tint of it.
     """
 
     colours = [LEAD] + [REST] * (len(values) - 1)
@@ -73,8 +71,7 @@ def table(rows):
 
     """
     Plain HTML rather than go.Table, which cannot put an image in a cell. The
-    classes come from the cosmo theme the page already loads, so the table picks
-    up the site's typography without any CSS of its own.
+    classes come from the cosmo theme, so the table needs no CSS of its own.
     """
 
     head = "".join(f"<th>{column}</th>" for column in COLUMNS)

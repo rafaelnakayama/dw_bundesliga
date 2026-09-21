@@ -73,9 +73,8 @@ ORDER BY points DESC, goal_difference DESC, goals_for DESC, T.team_name
 # is_own_goal is excluded because the source credits an own goal to the player
 # who put it in his own net. Counting those would inflate his tally.
 #
-# Every top-N here ends on a name, so ties resolve the same way twice. Without it
-# the server picks freely among equals and the weekly export swaps names around
-# with no change in the data underneath.
+# Every top-N ends on a name so ties resolve the same way twice; otherwise the
+# weekly export reshuffles equals with no change in the data.
 TOP_SCORERS_SEASON = """
 SELECT TOP 5
     P.player_name,
@@ -87,11 +86,9 @@ GROUP BY P.player_name
 ORDER BY goals DESC, P.player_name
 """
 
-# Janela movel de dez temporadas, contada da mais recente presente nos fatos. O
-# piso importa: a fonte atribui varios goalGetterID a uma pessoa nas temporadas
-# antigas, e Ribery aparece em tres ids que se sobrepoem. Os nomes se padronizam
-# por volta de 2010, entao uma janela de dez anos cai inteira dentro da faixa
-# confiavel e o ranking sai correto sem aviso nenhum na pagina.
+# A rolling ten seasons, counted from the latest one in the facts. The source
+# gives one player several ids before roughly 2010, so the window lands entirely
+# inside the range where names are consistent.
 TOP_SCORERS_LAST_10 = """
 SELECT TOP 5
     P.player_name,
@@ -113,10 +110,9 @@ GROUP BY T.team_name
 ORDER BY wins DESC, T.team_name
 """
 
-# Recortado em 2010 pelo mesmo motivo dos artilheiros: a cobertura de local e
-# ruim nas temporadas antigas, entre location_id nulo, porque silver resolve com
-# OUTER APPLY, e linhas com nome de estadio vazio. De 2010 em diante a cobertura
-# se sustenta, entao o recorte entrega um ranking correto em vez de um parcial.
+# Venue coverage collapses before 2010: a null location_id, because silver
+# resolves it with OUTER APPLY, or a blank stadium name. Both are excluded, and
+# the floor keeps the ranking complete rather than partial.
 MATCHES_BY_VENUE = """
 SELECT TOP 10
     L.location_stadium,

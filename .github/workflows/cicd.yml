@@ -26,10 +26,8 @@ jobs:
           fetch-depth: 1
           persist-credentials: true
 
-      # Parte do .env.example para a lista de variaveis ter uma fonte so: uma
-      # variavel nova entra no CI sem ninguem lembrar deste step. O banco vive
-      # apenas neste job, entao a senha e descartavel e nao vale um secret, e o
-      # sufixo garante as regras de complexidade do SQL Server.
+      # Parte do .env.example para a lista de variaveis ter uma fonte so. A senha
+      # morre com o job, e o sufixo atende a complexidade exigida pelo SQL Server.
       - name: env_file
         run: sed "s|^DB_PASSWORD=.*|DB_PASSWORD=$(openssl rand -hex 16)Aa1!|" .env.example > .env
 
@@ -43,9 +41,8 @@ jobs:
       - name: export_dashboard_data
         run: docker compose run --rm python_ingestion python dashboard/export_gold.py
 
-      # O guard olha so datasets/raw, mas o commit leva o JSON junto. O export
-      # grava um generated_at novo a cada run, entao olhar dashboard/data faria
-      # toda semana parecer uma semana com partida nova.
+      # O guard olha so datasets/raw, mas o commit leva o JSON junto: o export
+      # grava um generated_at novo a cada run.
       - name: check
         id: bka7798984es # Escolhido arbitrariamente
         run: |
