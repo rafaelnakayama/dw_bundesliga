@@ -6,8 +6,8 @@ this repository, and loads it into SQL Server through a bronze / silver / gold
 medallion architecture.
 
 Every stage is idempotent: running the pipeline twice on unchanged data leaves the
-database exactly as it was. A weekly GitHub Actions workflow keeps the raw JSON
-fresh; the database itself runs locally, on demand, and is never part of CI.
+database exactly as it was. A weekly GitHub Actions workflow refreshes the JSON and
+republishes the dashboard; the database is built on demand and never served.
 
 Seasons from 2006 onward, one JSON file per season and matchday, around 20 MB in
 total.
@@ -78,8 +78,8 @@ involved: the `sa` password is generated per run and discarded with it.
 ## Dashboard
 
 A Quarto site rendered to static HTML and published on GitHub Pages. It reads a
-precomputed JSON export, never the database, so the page is a few hundred
-kilobytes and loads instantly.
+precomputed JSON export, never the database, so the page is under 100 KB and
+loads instantly.
 
 The weekly workflow rebuilds it from the fresh data, so the steps below are only
 needed to work on the page locally.
@@ -104,17 +104,16 @@ cd dashboard && uv run quarto render
 `uv run` puts the project's `.venv` first on `PATH`, which is how Quarto finds the
 `jupyter` that executes the `.qmd`.
 
-The site lands in `dashboard/_site`. `quarto preview` serves it with live reload
-while editing.
+The site lands in `dashboard/_site`. `uv run quarto preview` serves it with live
+reload while editing.
 
-Aggregation happens in SQL, inside `dashboard/export_gold.py`. The `.qmd` only
-plots. Points follow the 3/1/0 rule and are computed at export time, because one
-match distributes points to two teams and they do not fit the match grain.
+Aggregation happens in SQL, inside `dashboard/export_gold.py`; the `.qmd` only
+plots. Points follow the 3/1/0 rule and are computed there, not stored in gold.
 
 ## Project layout
 
 ```
-    ├─ .github/workflows/  weekly fetch
+    ├─ .github/workflows/  weekly fetch, export and publish
     ├─ dashboard/          Quarto site and the gold export
     ├─ datasets/raw/       source JSON, one directory per season
     ├─ docs/               integration models and naming conventions
