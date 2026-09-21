@@ -16,6 +16,7 @@ jobs:
   bca87534df: # Escolhido arbitrariamente
     name: new_matches
     runs-on: ubuntu-latest
+    environment: github-pages
 
     steps:
       # MODO DE TESTE: tres valores apontam para a feature branch em vez da main
