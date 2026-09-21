@@ -1,0 +1,11 @@
+/* Logo abaixo do sumario da esquerda. Um ::after no nav do sumario em vez de um
+   script: a barra lateral e markup do Quarto, entao anexar por JS dependeria de
+   uma estrutura que este arquivo nao controla. */
+#TOC::after {
+  content: "";
+  display: block;
+  margin: 2.5rem 0 0 0.25rem;
+  height: 104px;
+  background: url("https://upload.wikimedia.org/wikipedia/en/d/df/Bundesliga_logo_%282017%29.svg")
+    left top / contain no-repeat;
+}

@@ -10,6 +10,7 @@ website:
 format:
   html:
     theme: cosmo
+    css: styles.css
     # Plotly loads from CDN instead of being inlined. Keeps index.html near
     # 100 KB rather than 3 MB, which matters if the build output is ever
     # committed instead of deployed from an Actions artifact.
