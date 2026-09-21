@@ -53,74 +53,80 @@ WITH per_team AS (
     FROM gold.fact_matches
     WHERE league_season = ?
 )
-SELECT
+SELECT TOP 10
     T.team_name,
+    T.team_icon_url,
     COUNT(*) AS played,
-    SUM(P.points) AS points,
+    SUM(CASE WHEN P.points = 3 THEN 1 ELSE 0 END) AS won,
+    SUM(CASE WHEN P.points = 1 THEN 1 ELSE 0 END) AS drawn,
+    SUM(CASE WHEN P.points = 0 THEN 1 ELSE 0 END) AS lost,
     SUM(P.goals_for) AS goals_for,
     SUM(P.goals_against) AS goals_against,
-    SUM(P.goals_for) - SUM(P.goals_against) AS goal_difference
+    SUM(P.goals_for) - SUM(P.goals_against) AS goal_difference,
+    SUM(P.points) AS points
 FROM per_team AS P
 INNER JOIN gold.dim_teams AS T ON T.team_id = P.team_id
-GROUP BY T.team_name
-ORDER BY points DESC, goal_difference DESC, goals_for DESC
+GROUP BY T.team_name, T.team_icon_url
+ORDER BY points DESC, goal_difference DESC, goals_for DESC, T.team_name
 """
 
 # is_own_goal is excluded because the source credits an own goal to the player
 # who put it in his own net. Counting those would inflate his tally.
+#
+# Every top-N here ends on a name, so ties resolve the same way twice. Without it
+# the server picks freely among equals and the weekly export swaps names around
+# with no change in the data underneath.
 TOP_SCORERS_SEASON = """
-SELECT TOP 15
+SELECT TOP 5
     P.player_name,
     COUNT(*) AS goals
 FROM gold.fact_goals AS G
 INNER JOIN gold.dim_players AS P ON P.player_id = G.goal_getter_id
 WHERE G.league_season = ? AND G.is_own_goal = 0
 GROUP BY P.player_name
-ORDER BY goals DESC
+ORDER BY goals DESC, P.player_name
 """
 
-TOP_SCORERS_ALL_TIME = """
-SELECT TOP 15
+# Janela movel de dez temporadas, contada da mais recente presente nos fatos. O
+# piso importa: a fonte atribui varios goalGetterID a uma pessoa nas temporadas
+# antigas, e Ribery aparece em tres ids que se sobrepoem. Os nomes se padronizam
+# por volta de 2010, entao uma janela de dez anos cai inteira dentro da faixa
+# confiavel e o ranking sai correto sem aviso nenhum na pagina.
+TOP_SCORERS_LAST_10 = """
+SELECT TOP 5
     P.player_name,
     COUNT(*) AS goals
 FROM gold.fact_goals AS G
 INNER JOIN gold.dim_players AS P ON P.player_id = G.goal_getter_id
-WHERE G.is_own_goal = 0
+WHERE G.is_own_goal = 0 AND G.league_season >= ?
 GROUP BY P.player_name
-ORDER BY goals DESC
+ORDER BY goals DESC, P.player_name
 """
 
 MOST_WINS_ALL_TIME = """
-SELECT TOP 15
+SELECT TOP 10
     T.team_name,
     COUNT(*) AS wins
 FROM gold.fact_matches AS F
 INNER JOIN gold.dim_teams AS T ON T.team_id = F.winner_team_id
 GROUP BY T.team_name
-ORDER BY wins DESC
+ORDER BY wins DESC, T.team_name
 """
 
-# A venue is missing in two different ways. location_id is nullable, because
-# silver resolves it with OUTER APPLY, and some rows that do exist carry an empty
-# stadium name. Both are excluded here and counted together below, so the page can
-# state the number instead of implying the ranking is complete.
+# Recortado em 2010 pelo mesmo motivo dos artilheiros: a cobertura de local e
+# ruim nas temporadas antigas, entre location_id nulo, porque silver resolve com
+# OUTER APPLY, e linhas com nome de estadio vazio. De 2010 em diante a cobertura
+# se sustenta, entao o recorte entrega um ranking correto em vez de um parcial.
 MATCHES_BY_VENUE = """
-SELECT TOP 15
+SELECT TOP 10
     L.location_stadium,
     L.location_city,
     COUNT(*) AS matches
 FROM gold.fact_matches AS F
 INNER JOIN gold.dim_locations AS L ON L.location_id = F.location_id
-WHERE L.location_stadium <> ''
+WHERE L.location_stadium <> '' AND F.league_season >= 2010
 GROUP BY L.location_stadium, L.location_city
-ORDER BY matches DESC
-"""
-
-MATCHES_WITHOUT_VENUE = """
-SELECT COUNT(*)
-FROM gold.fact_matches AS F
-LEFT JOIN gold.dim_locations AS L ON L.location_id = F.location_id
-WHERE F.location_id IS NULL OR L.location_stadium = ''
+ORDER BY matches DESC, L.location_stadium
 """
 
 # The latest season actually present in the facts, rather than today's date. A
@@ -175,10 +181,9 @@ def main():
         "totals": rows(cursor, TOTALS)[0],
         "standings": rows(cursor, STANDINGS, season, season),
         "top_scorers_season": rows(cursor, TOP_SCORERS_SEASON, season),
-        "top_scorers_all_time": rows(cursor, TOP_SCORERS_ALL_TIME),
+        "top_scorers_last_10": rows(cursor, TOP_SCORERS_LAST_10, season - 9),
         "most_wins_all_time": rows(cursor, MOST_WINS_ALL_TIME),
         "matches_by_venue": rows(cursor, MATCHES_BY_VENUE),
-        "matches_without_venue": scalar(cursor, MATCHES_WITHOUT_VENUE),
     }
 
     OUTPUT_PATH.parent.mkdir(parents=True, exist_ok=True)

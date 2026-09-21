@@ -2,11 +2,9 @@
 title: "Bundesliga Data Warehouse"
 format:
   html:
-    theme: cosmo
     toc: true
     toc-location: left
     page-layout: full
-    embed-resources: false
 execute:
   echo: false
   warning: false
@@ -18,152 +16,148 @@ import json
 from pathlib import Path
 
 import plotly.graph_objects as go
-from IPython.display import Markdown
+from IPython.display import HTML, Markdown
 
 DATA = json.loads((Path.cwd() / "data" / "dashboard.json").read_text())
 
-BAR = "#1f6feb"
-MUTED = "#8b949e"
+LEAD = "#1f6feb"
+REST = "#a9c9f5"
+TEXT = "#30363d"
+FONT = "Source Sans Pro, system-ui, -apple-system, sans-serif"
+
+COLUMNS = ["#", "", "Club", "P", "W", "D", "L", "GF", "GA", "GD", "Pts"]
 
 
-def bar(labels, values, title, xaxis):
+def bar(labels, values, unit):
 
     """
     Horizontal bar, highest at the top. Plotly draws category axes bottom-up, so
     the lists are reversed to put the leader where a reader looks first.
+
+    No chart title and no x axis: the section heading already names the chart and
+    the value is printed on the bar, so both would only repeat what is there. The
+    leader carries the accent colour and the rest a tint of it, which puts the eye
+    on first place without a legend.
     """
 
+    colours = [LEAD] + [REST] * (len(values) - 1)
+    ceiling = max(values) * 1.18 if values else 1
+
     figure = go.Figure(
-        go.Bar(x=values[::-1], y=labels[::-1], orientation="h", marker_color=BAR)
+        go.Bar(
+            x=values[::-1],
+            y=labels[::-1],
+            orientation="h",
+            marker=dict(color=colours[::-1], cornerradius=4),
+            text=[f"{value:,}" for value in values[::-1]],
+            textposition="outside",
+            textfont=dict(color=TEXT, size=13),
+            hovertemplate=f"%{{y}}<br>%{{x:,}} {unit}<extra></extra>",
+        )
     )
     figure.update_layout(
-        title=title,
-        xaxis_title=xaxis,
-        height=max(320, 26 * len(labels)),
-        margin=dict(l=10, r=10, t=50, b=40),
-        template="plotly_white",
+        height=max(240, 52 * len(labels)),
+        bargap=0.45,
+        margin=dict(l=0, r=70, t=10, b=10),
+        font=dict(family=FONT, size=13, color=TEXT),
+        xaxis=dict(visible=False, range=[0, ceiling]),
+        yaxis=dict(showgrid=False, ticksuffix="  "),
+        showlegend=False,
+        plot_bgcolor="white",
+        paper_bgcolor="white",
     )
     return figure
+
+
+def table(rows):
+
+    """
+    Plain HTML rather than go.Table, which cannot put an image in a cell. The
+    classes come from the cosmo theme the page already loads, so the table picks
+    up the site's typography without any CSS of its own.
+    """
+
+    head = "".join(f"<th>{column}</th>" for column in COLUMNS)
+
+    body = []
+    for position, row in enumerate(rows, 1):
+        icon = row["team_icon_url"]
+        body.append(
+            "<tr>"
+            f"<td>{position}</td>"
+            f'<td>{f"""<img src="{icon}" alt="" style="height:22px">""" if icon else ""}</td>'
+            f'<td>{row["team_name"]}</td>'
+            f'<td>{row["played"]}</td>'
+            f'<td>{row["won"]}</td>'
+            f'<td>{row["drawn"]}</td>'
+            f'<td>{row["lost"]}</td>'
+            f'<td>{row["goals_for"]}</td>'
+            f'<td>{row["goals_against"]}</td>'
+            f'<td>{row["goal_difference"]:+d}</td>'
+            f'<td><strong>{row["points"]}</strong></td>'
+            "</tr>"
+        )
+
+    return HTML(
+        '<table class="table table-sm align-middle">'
+        f"<thead><tr>{head}</tr></thead>"
+        f"<tbody>{''.join(body)}</tbody>"
+        "</table>"
+    )
 ```
 
 ```{python}
 Markdown(f"""
-Season **{DATA['season']}**, refreshed {DATA['generated_at']}.
-Built from {DATA['totals']['matches']:,} matches and {DATA['totals']['goals']:,} goals
-across {DATA['totals']['teams']} clubs and {DATA['totals']['players']:,} players.
+::: {{.lead}}
+Rebuilt every Monday evening, without anyone touching it: the warehouse reloads from
+the OpenLigaDB feed, this page re-renders and publishes itself. Last run {DATA['generated_at']}.
+:::
 """)
 ```
 
-## This season
+## Current season
 
 ### Standings
 
-Points follow the 3/1/0 rule, computed here rather than stored in the warehouse:
-one match distributes points to two teams, so there is no single column to hold
-them at the match grain.
+A win is worth three points, a draw one point for each club and a defeat none.
+Clubs level on points are separated by goal difference, then by goals scored.
 
 ```{python}
-rows = DATA["standings"]
-
-header = ["#", "Club", "P", "W pts", "GF", "GA", "GD"]
-cells = [
-    list(range(1, len(rows) + 1)),
-    [r["team_name"] for r in rows],
-    [r["played"] for r in rows],
-    [r["points"] for r in rows],
-    [r["goals_for"] for r in rows],
-    [r["goals_against"] for r in rows],
-    [f"{r['goal_difference']:+d}" for r in rows],
-]
-
-figure = go.Figure(
-    go.Table(
-        header=dict(values=header, fill_color="#f0f3f6", align="left"),
-        cells=dict(values=cells, align="left", height=26),
-        columnwidth=[0.5, 4, 1, 1, 1, 1, 1],
-    )
-)
-figure.update_layout(height=max(320, 30 * len(rows) + 60), margin=dict(l=0, r=0, t=10, b=0))
-figure
+table(DATA["standings"])
 ```
 
-### Top scorers
-
-Own goals are excluded: the source credits them to the player who scored into
-his own net.
+### Top scorers (this season)
 
 ```{python}
 rows = DATA["top_scorers_season"]
-bar(
-    [r["player_name"] for r in rows],
-    [r["goals"] for r in rows],
-    f"Top scorers, {DATA['season']}",
-    "Goals",
-)
+bar([r["player_name"] for r in rows], [r["goals"] for r in rows], "goals")
 ```
 
-## Since 2006
+## History
 
-### Most wins
+### Top scorers (past ten years)
 
 ```{python}
-rows = DATA["most_wins_all_time"]
-bar(
-    [r["team_name"] for r in rows],
-    [r["wins"] for r in rows],
-    "Most wins, all seasons",
-    "Wins",
-)
+rows = DATA["top_scorers_last_10"]
+bar([r["player_name"] for r in rows], [r["goals"] for r in rows], "goals")
 ```
 
-### Top scorers, all time
-
-::: {.callout-warning}
-## Read this chart with care
-
-OpenLigaDB assigns more than one player id to the same person. Franck Ribery
-appears under three, and they overlap inside a single season, so career totals
-are split and this ranking understates several players. Resolving it means
-entity matching, which is out of scope for this project. Current-season figures
-are unaffected, because recent seasons use consistent ids.
-:::
-
-```{python}
-rows = DATA["top_scorers_all_time"]
-bar(
-    [r["player_name"] for r in rows],
-    [r["goals"] for r in rows],
-    "Top scorers, all seasons",
-    "Goals",
-)
-```
-
-### Matches hosted by venue
-
-```{python}
-missing = DATA["matches_without_venue"]
-total = DATA["totals"]["matches"]
-
-Markdown(f"""
-::: {{.callout-important}}
-## Partial coverage
-
-{missing:,} of {total:,} matches ({missing / total:.0%}) carry no usable venue in the
-source, either a null reference or a blank stadium name, and are excluded below.
-Older seasons are the worst affected, so read this as a recent-seasons ranking
-rather than a complete history.
-:::
-""") if missing else Markdown("")
-```
+### Venues by matches hosted (since 2010)
 
 ```{python}
 rows = DATA["matches_by_venue"]
 bar(
     [f"{r['location_stadium']} ({r['location_city']})" for r in rows],
     [r["matches"] for r in rows],
-    "Matches hosted",
-    "Matches",
+    "matches",
 )
+```
+
+### Teams with most wins (since 2006)
+
+```{python}
+rows = DATA["most_wins_all_time"]
+bar([r["team_name"] for r in rows], [r["wins"] for r in rows], "wins")
 ```
 
 ---
