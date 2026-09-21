@@ -1,0 +1,10 @@
+/* Below the table of contents. ::after rather than a script: the sidebar is
+   Quarto's markup, not this file's. */
+#TOC::after {
+  content: "";
+  display: block;
+  margin: 2.5rem 0 0 0.25rem;
+  height: 104px;
+  background: url("https://upload.wikimedia.org/wikipedia/en/d/df/Bundesliga_logo_%282017%29.svg")
+    left top / contain no-repeat;
+}

@@ -6,27 +6,21 @@ this repository, and loads it into SQL Server through a bronze / silver / gold
 medallion architecture.
 
 Every stage is idempotent: running the pipeline twice on unchanged data leaves the
-database exactly as it was. A weekly GitHub Actions workflow keeps the raw JSON
-fresh; the database itself runs locally, on demand, and is never part of CI.
+database exactly as it was. A weekly GitHub Actions workflow refreshes the JSON and
+republishes the dashboard; the database is built on demand and never served.
 
 Seasons from 2006 onward, one JSON file per season and matchday, around 20 MB in
 total.
 
-## Layout
-
-| path | contents |
-|---|---|
-| `ingestion/` | Python fetch and load: `fetch_matches.py` |
-| `scripts/` | T-SQL: schema bootstrap and stored procedures, by layer |
-| `datasets/raw/` | source JSON, one directory per season |
-| `tests/` | validation queries for the silver layer |
-| `.github/workflows/` | the weekly fetch |
-
 ## Requirements
 
-Docker and Docker Compose, plus disk for the SQL Server image. Nothing else is
-needed on the host: Python, the ODBC driver and the database all live in
+Docker and Docker Compose, plus disk for the SQL Server image. The pipeline needs
+nothing else on the host: Python, uv, the ODBC driver and the database all live in
 containers.
+
+Rendering the dashboard is the one thing that runs on the host, and it needs
+[uv](https://docs.astral.sh/uv/) and [Quarto](https://quarto.org/). It never touches
+the database.
 
 ## Installation
 
@@ -40,10 +34,7 @@ cd dw_bundesliga
 Create a `.env` file in the repository root:
 
 ```
-DB_SERVER=localhost
-DB_DATABASE=dw_hgg_database
-DB_USER=sa
-DB_PASSWORD=<your password>
+cp .env.example .env
 ```
 
 `DB_PASSWORD` becomes the SQL Server `sa` password, so it has to satisfy SQL
@@ -67,10 +58,9 @@ The ingestion script is driven by two environment variables, both unset by defau
 | variable | effect |
 |---|---|
 | `BACKFILL=1` | fetch every season since 2006 instead of only the current one. One-off bootstrap. |
-| `FETCH_ONLY=1` | download the JSON and stop, skipping every database step. Used by CI. |
+| `FETCH_ONLY=1` | download the JSON and stop, skipping every database step. |
 
-Bronze is loaded automatically. Silver is a manual step: connect to
-`localhost:1433` with any SQL client and run `scripts/exec/runner.sql`.
+Bronze, silver and gold are all loaded automatically by a single run.
 
 Two destructive paths exist and are never called by the pipeline. Run them by hand
 only when you mean it: `scripts/init/init_database.sql` drops and recreates the
@@ -79,22 +69,59 @@ database, and `scripts/bronze/rebuild_bronze.sql` does a full reload of bronze.
 ## Automation
 
 `.github/workflows/cicd.yml` runs every Monday at 21:00 UTC, after the weekend
-round. It fetches the current season with `FETCH_ONLY=1` and commits the refreshed
-JSON back to the repository, skipping the commit entirely on weeks where nothing
-changed. No database and no secrets are involved.
+round. It fetches the current season, loads bronze, silver and gold into a throwaway
+SQL Server, exports the dashboard JSON, commits whatever actually changed, then
+renders the site and publishes it to Pages. Weeks with no new matches skip the
+commit. The database exists only for the length of the run, and no secrets are
+involved: the `sa` password is generated per run and discarded with it.
 
 ## Dashboard
 
-TBD
+A Quarto site rendered to static HTML and published on GitHub Pages. It reads a
+precomputed JSON export, never the database, so the page is under 100 KB and
+loads instantly.
+
+The weekly workflow rebuilds it from the fresh data, so the steps below are only
+needed to work on the page locally.
 
 ### Building
 
-TBD
+The export runs inside the ingestion container, where the ODBC driver already
+lives, so nothing has to be installed on the host to talk to SQL Server:
 
-### Publishing
+```
+docker compose run --rm python_ingestion python dashboard/export_gold.py
+```
 
-TBD
+That writes `dashboard/data/dashboard.json`. Rendering needs Quarto and two pure
+Python packages, and no database:
 
-## License
+```
+uv sync --group dashboard
+cd dashboard && uv run quarto render
+```
 
-MIT. See `LICENSE`.
+`uv run` puts the project's `.venv` first on `PATH`, which is how Quarto finds the
+`jupyter` that executes the `.qmd`.
+
+The site lands in `dashboard/_site`. `uv run quarto preview` serves it with live
+reload while editing.
+
+Aggregation happens in SQL, inside `dashboard/export_gold.py`; the `.qmd` only
+plots. Points follow the 3/1/0 rule and are computed there, not stored in gold.
+
+## Project layout
+
+```
+    ├─ .github/workflows/  weekly fetch, export and publish
+    ├─ dashboard/          Quarto site and the gold export
+    ├─ datasets/raw/       source JSON, one directory per season
+    ├─ docs/               integration models and naming conventions
+    ├─ ingestion/          fetch and load
+    ├─ scripts/            T-SQL, one directory per layer
+    │  ├─ init/            database and schema bootstrap
+    │  ├─ bronze/          raw mirror
+    │  ├─ silver/          cleaned and typed
+    │  └─ gold/            facts and dimensions
+    └─ tests/              silver validation queries
+```

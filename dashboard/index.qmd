@@ -1,0 +1,166 @@
+---
+title: "Bundesliga Data Warehouse"
+format:
+  html:
+    toc: true
+    toc-location: left
+    page-layout: full
+execute:
+  echo: false
+  warning: false
+jupyter: python3
+---
+
+```{python}
+import json
+from pathlib import Path
+
+import plotly.graph_objects as go
+from IPython.display import HTML, Markdown
+
+DATA = json.loads((Path.cwd() / "data" / "dashboard.json").read_text())
+
+LEAD = "#1f6feb"
+REST = "#a9c9f5"
+TEXT = "#30363d"
+FONT = "Source Sans Pro, system-ui, -apple-system, sans-serif"
+
+COLUMNS = ["#", "", "Club", "P", "W", "D", "L", "GF", "GA", "GD", "Pts"]
+
+
+def bar(labels, values, unit):
+
+    """
+    Horizontal bar, highest at the top. Plotly draws category axes bottom-up, so
+    the lists are reversed to put the leader where a reader looks first.
+
+    No title and no x axis: the heading names the chart and the value sits on the
+    bar. The leader takes the accent colour, the rest a tint of it.
+    """
+
+    colours = [LEAD] + [REST] * (len(values) - 1)
+    ceiling = max(values) * 1.18 if values else 1
+
+    figure = go.Figure(
+        go.Bar(
+            x=values[::-1],
+            y=labels[::-1],
+            orientation="h",
+            marker=dict(color=colours[::-1], cornerradius=4),
+            text=[f"{value:,}" for value in values[::-1]],
+            textposition="outside",
+            textfont=dict(color=TEXT, size=13),
+            hovertemplate=f"%{{y}}<br>%{{x:,}} {unit}<extra></extra>",
+        )
+    )
+    figure.update_layout(
+        height=max(240, 52 * len(labels)),
+        bargap=0.45,
+        margin=dict(l=0, r=70, t=10, b=10),
+        font=dict(family=FONT, size=13, color=TEXT),
+        xaxis=dict(visible=False, range=[0, ceiling]),
+        yaxis=dict(showgrid=False, ticksuffix="  "),
+        showlegend=False,
+        plot_bgcolor="white",
+        paper_bgcolor="white",
+    )
+    return figure
+
+
+def table(rows):
+
+    """
+    Plain HTML rather than go.Table, which cannot put an image in a cell. The
+    classes come from the cosmo theme, so the table needs no CSS of its own.
+    """
+
+    head = "".join(f"<th>{column}</th>" for column in COLUMNS)
+
+    body = []
+    for position, row in enumerate(rows, 1):
+        icon = row["team_icon_url"]
+        body.append(
+            "<tr>"
+            f"<td>{position}</td>"
+            f'<td>{f"""<img src="{icon}" alt="" style="height:22px">""" if icon else ""}</td>'
+            f'<td>{row["team_name"]}</td>'
+            f'<td>{row["played"]}</td>'
+            f'<td>{row["won"]}</td>'
+            f'<td>{row["drawn"]}</td>'
+            f'<td>{row["lost"]}</td>'
+            f'<td>{row["goals_for"]}</td>'
+            f'<td>{row["goals_against"]}</td>'
+            f'<td>{row["goal_difference"]:+d}</td>'
+            f'<td><strong>{row["points"]}</strong></td>'
+            "</tr>"
+        )
+
+    return HTML(
+        '<table class="table table-sm align-middle">'
+        f"<thead><tr>{head}</tr></thead>"
+        f"<tbody>{''.join(body)}</tbody>"
+        "</table>"
+    )
+```
+
+```{python}
+Markdown(f"""
+::: {{.lead}}
+Rebuilt every Monday evening, without anyone touching it: the warehouse reloads from
+the OpenLigaDB feed, this page re-renders and publishes itself. Last run {DATA['generated_at']}.
+:::
+""")
+```
+
+## Current season
+
+### Standings
+
+A win is worth three points, a draw one point for each club and a defeat none.
+Clubs level on points are separated by goal difference, then by goals scored.
+
+```{python}
+table(DATA["standings"])
+```
+
+### Top scorers (this season)
+
+```{python}
+rows = DATA["top_scorers_season"]
+bar([r["player_name"] for r in rows], [r["goals"] for r in rows], "goals")
+```
+
+## History
+
+### Top scorers (past ten years)
+
+```{python}
+rows = DATA["top_scorers_last_10"]
+bar([r["player_name"] for r in rows], [r["goals"] for r in rows], "goals")
+```
+
+### Venues by matches hosted (since 2010)
+
+```{python}
+rows = DATA["matches_by_venue"]
+bar(
+    [f"{r['location_stadium']} ({r['location_city']})" for r in rows],
+    [r["matches"] for r in rows],
+    "matches",
+)
+```
+
+### Teams with most wins (since 2006)
+
+```{python}
+rows = DATA["most_wins_all_time"]
+bar([r["team_name"] for r in rows], [r["wins"] for r in rows], "wins")
+```
+
+---
+
+::: {.text-muted}
+Data from [OpenLigaDB](https://www.openligadb.de/). Built from a SQL Server
+warehouse with a bronze, silver and gold medallion architecture; this page reads
+a precomputed JSON export, not the database.
+:::
