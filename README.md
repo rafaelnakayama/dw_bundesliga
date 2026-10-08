@@ -14,101 +14,80 @@ total.
 
 ## Requirements
 
-Docker and Docker Compose, plus disk for the SQL Server image. The pipeline needs
-nothing else on the host: Python, uv, the ODBC driver and the database all live in
-containers.
+- [Docker](https://docs.docker.com/get-started/get-docker/) with Compose v2.
+- [uv](https://docs.astral.sh/uv/getting-started/installation/) and
+  [Quarto](https://quarto.org/docs/get-started/), only to build the dashboard locally.
 
-Rendering the dashboard is the one thing that runs on the host, and it needs
-[uv](https://docs.astral.sh/uv/) and [Quarto](https://quarto.org/). It never touches
-the database.
+| OS | Docker setup |
+|---|---|
+| Linux | [Docker Engine](https://docs.docker.com/engine/install/) and the [Compose plugin](https://docs.docker.com/compose/install/linux/). |
+| macOS | [Docker Desktop](https://docs.docker.com/desktop/setup/install/mac-install/) or [OrbStack](https://orbstack.dev/). On Apple silicon the SQL Server image, x86-64 only, runs under Rosetta: automatic in OrbStack, a [setting](https://docs.docker.com/desktop/settings-and-maintenance/settings/) in Docker Desktop. |
+| Windows | [Docker Desktop](https://docs.docker.com/desktop/setup/install/windows-install/) with the [WSL 2 backend](https://docs.docker.com/desktop/features/wsl/). |
 
 ## Installation
-
-Clone the repository:
 
 ```
 git clone https://github.com/rafaelnakayama/dw_bundesliga.git
 cd dw_bundesliga
-```
-
-Create a `.env` file in the repository root:
-
-```
 cp .env.example .env
 ```
 
-`DB_PASSWORD` becomes the SQL Server `sa` password, so it has to satisfy SQL
-Server's complexity rules: at least eight characters, mixing upper case, lower case
-and digits or symbols. The file is gitignored and never leaves your machine.
+Set `DB_PASSWORD` in `.env`. It becomes the SQL Server `sa` password and must follow
+the [password policy](https://learn.microsoft.com/en-us/sql/relational-databases/security/password-policy):
+at least 8 characters, from three of these four sets: uppercase, lowercase, digits,
+symbols.
 
-Start everything:
+Start SQL Server and run the pipeline:
 
 ```
 docker compose up
 ```
 
-The first run creates the database, the `bronze`, `silver` and `gold` schemas and
-the stored procedures, fetches the current season and loads it into bronze. Later
-runs fetch the current season again and write only what actually changed.
-
 ## Running
 
-The ingestion script is driven by two environment variables, both unset by default:
+A run fetches the current season and loads bronze, silver and gold:
+
+```
+docker compose run --rm python_ingestion
+```
+
+Two environment variables change that, both unset by default:
 
 | variable | effect |
 |---|---|
-| `BACKFILL=1` | fetch every season since 2006 instead of only the current one. One-off bootstrap. |
+| `BACKFILL=1` | fetch every season since 2006 instead of only the current one. |
 | `FETCH_ONLY=1` | download the JSON and stop, skipping every database step. |
 
-Bronze, silver and gold are all loaded automatically by a single run.
+```
+docker compose run --rm -e BACKFILL=1 python_ingestion
+```
 
-Two destructive paths exist and are never called by the pipeline. Run them by hand
-only when you mean it: `scripts/init/init_database.sql` drops and recreates the
-database, and `scripts/bronze/rebuild_bronze.sql` does a full reload of bronze.
+The warehouse is served at `localhost:1433`, database `dw_hgg_database`, user `sa`.
 
-## Automation
-
-`.github/workflows/cicd.yml` runs every Monday at 21:00 UTC, after the weekend
-round. It fetches the current season, loads bronze, silver and gold into a throwaway
-SQL Server, exports the dashboard JSON, commits whatever actually changed, then
-renders the site and publishes it to Pages. Weeks with no new matches skip the
-commit. The database exists only for the length of the run, and no secrets are
-involved: the `sa` password is generated per run and discarded with it.
+Two scripts are destructive and never run by the pipeline:
+`scripts/init/init_database.sql` drops and recreates the database, and
+`scripts/bronze/rebuild_bronze.sql` empties bronze for a full reload.
 
 ## Dashboard
 
-A Quarto site rendered to static HTML and published on GitHub Pages. It reads a
-precomputed JSON export, never the database, so the page is under 100 KB and
-loads instantly.
+A [Quarto](https://quarto.org/) page with the current standings, top scorers and
+historical records, published on GitHub Pages.
 
-The weekly workflow rebuilds it from the fresh data, so the steps below are only
-needed to work on the page locally.
+A [GitHub Actions workflow](.github/workflows/cicd.yml) runs every Monday at 21:00
+UTC: it fetches the new matches, rebuilds the warehouse and republishes the page.
 
-### Building
-
-The export runs inside the ingestion container, where the ODBC driver already
-lives, so nothing has to be installed on the host to talk to SQL Server:
+To build it locally:
 
 ```
 docker compose run --rm python_ingestion python dashboard/export_gold.py
+cd dashboard
+uv run --group dashboard quarto render
 ```
 
-That writes `dashboard/data/dashboard.json`. Rendering needs Quarto and two pure
-Python packages, and no database:
+The first command exports the gold layer to `dashboard/data/dashboard.json`; skip it
+to render the committed copy. The site is written to `dashboard/_site`.
 
-```
-uv sync --group dashboard
-cd dashboard && uv run quarto render
-```
-
-`uv run` puts the project's `.venv` first on `PATH`, which is how Quarto finds the
-`jupyter` that executes the `.qmd`.
-
-The site lands in `dashboard/_site`. `uv run quarto preview` serves it with live
-reload while editing.
-
-Aggregation happens in SQL, inside `dashboard/export_gold.py`; the `.qmd` only
-plots. Points follow the 3/1/0 rule and are computed there, not stored in gold.
+Live page: https://rafaelnakayama.github.io/dw_bundesliga/
 
 ## Project layout
 
@@ -125,3 +104,7 @@ plots. Points follow the 3/1/0 rule and are computed there, not stored in gold.
     │  └─ gold/            facts and dimensions
     └─ tests/              silver validation queries
 ```
+
+## License
+
+Released under the [MIT License](LICENSE).
