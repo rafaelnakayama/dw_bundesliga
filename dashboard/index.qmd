@@ -106,8 +106,8 @@ def table(rows):
 ```{python}
 Markdown(f"""
 ::: {{.lead}}
-Rebuilt every Monday evening, without anyone touching it: the warehouse reloads from
-the OpenLigaDB feed, this page re-renders and publishes itself. Last run {DATA['generated_at']}.
+This page is re-rendered and re-published every Monday.<br>
+Last run: {DATA['generated_at']}.
 :::
 """)
 ```
