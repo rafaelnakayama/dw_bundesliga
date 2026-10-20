@@ -15,7 +15,7 @@ permissions:
 jobs:
   bca87534df: # Escolhido arbitrariamente
     name: new_matches
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     environment: github-pages
 
     steps:
